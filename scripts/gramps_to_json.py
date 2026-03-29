@@ -668,7 +668,8 @@ def converter_media(obj_el, namespace):
 # Gerar índice
 # ---------------------------------------------------------------------------
 
-def gerar_indice(pessoas_data):
+def gerar_indice(pessoas_data, media_por_id=None):
+    import re
     indice = []
     for p in pessoas_data:
         if p.get('protegida'):
@@ -676,21 +677,52 @@ def gerar_indice(pessoas_data):
         entrada = {'id': p['id']}
         if p.get('nome'):
             entrada['nome'] = p['nome']
+        entrada['sexo'] = p.get('sexo', 'U')
+
         nasc = p.get('nascimento')
         if nasc and nasc.get('data'):
-            import re
             m = re.search(r'\b(1[0-9]{3}|20[0-9]{2})\b', nasc['data'])
             if m:
                 entrada['ano_nasc'] = int(m.group(1))
+            data_str = nasc['data']
+            # MM-DD para filtragem de aniversários (requer formato YYYY-MM-DD)
+            if len(data_str) >= 10 and data_str[4] == '-' and data_str[7] == '-':
+                entrada['mmdd_nasc'] = data_str[5:10]
+
         obit = p.get('obito')
         if obit and obit.get('data'):
-            import re
             m = re.search(r'\b(1[0-9]{3}|20[0-9]{2})\b', obit['data'])
             if m:
                 entrada['ano_obit'] = int(m.group(1))
+            data_str = obit['data']
+            if len(data_str) >= 10 and data_str[4] == '-' and data_str[7] == '-':
+                entrada['mmdd_obit'] = data_str[5:10]
+
+        # ID do primeiro retrato (pasta Fotos/) para lookup de thumb em mediaMap
+        if media_por_id and p.get('media'):
+            for mid in p['media']:
+                m_item = media_por_id.get(mid)
+                if m_item and m_item.get('caminho_original') and '/Fotos/' in m_item['caminho_original']:
+                    entrada['thumb_id'] = mid
+                    break
+
         indice.append(entrada)
     indice.sort(key=lambda x: x.get('nome', ''))
     return indice
+
+
+def gerar_media_pessoas(pessoas_data):
+    """Gera mapa inverso: media_id → lista de {id, nome} de pessoas públicas."""
+    mapa = {}
+    for p in pessoas_data:
+        if p.get('protegida') or not p.get('media'):
+            continue
+        entrada_pessoa = {'id': p['id'], 'nome': p.get('nome') or p['id']}
+        for mid in p['media']:
+            if mid not in mapa:
+                mapa[mid] = []
+            mapa[mid].append(entrada_pessoa)
+    return mapa
 
 
 # ---------------------------------------------------------------------------
@@ -804,10 +836,16 @@ def main():
     escrever_json(output / 'media.json', media_data)
     print(f'Media: {len(media_data)} entradas escritas ({n_excluidos} excluídas por privacidade)')
 
-    # Indice
-    indice = gerar_indice(pessoas_data)
+    # Indice (com campos extra para evitar leituras individuais no build)
+    media_por_id = {m['id']: m for m in media_data}
+    indice = gerar_indice(pessoas_data, media_por_id)
     escrever_json(output / 'indice.json', indice)
     print(f'Indice: {len(indice)} entradas')
+
+    # Mapa inverso media → pessoas públicas (para arquivo.astro)
+    media_pessoas = gerar_media_pessoas(pessoas_data)
+    escrever_json(output / 'media-pessoas.json', media_pessoas)
+    print(f'media-pessoas.json: {len(media_pessoas)} entradas de media')
 
     # arvore.json — dataset compacto para a arvore interactiva React
     # Inclui thumb do primeiro retrato (pasta Fotos/) de cada pessoa

@@ -85,6 +85,13 @@ export interface MediaItem {
 export interface EntradaIndice {
   id: string;
   nome?: string;
+  sexo?: 'M' | 'F' | 'U';
   ano_nasc?: number;
   ano_obit?: number;
+  /** MM-DD do nascimento, presente apenas quando a data tem dia e mês exactos */
+  mmdd_nasc?: string;
+  /** MM-DD do óbito, presente apenas quando a data tem dia e mês exactos */
+  mmdd_obit?: string;
+  /** ID do primeiro retrato (pasta Fotos/) para lookup de thumb em mediaMap */
+  thumb_id?: string;
 }

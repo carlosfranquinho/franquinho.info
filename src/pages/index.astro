@@ -46,30 +46,23 @@ const fotosHero = media
   .filter((m) => m.thumb && m.caminho && !eRetrato(m) && m.mime?.startsWith('image/'))
   .slice(0, 15);
 
-// Aniversários de hoje (nascimento e óbito)
+// Aniversários de hoje (nascimento e óbito) — usa indice pré-computado, sem leituras individuais
 const hoje = new Date();
 const mmdd = `${String(hoje.getMonth() + 1).padStart(2, '0')}-${String(hoje.getDate()).padStart(2, '0')}`;
 const anoAtual = hoje.getFullYear();
 
 type Aniversario = { id: string; nome: string; tipo: 'nascimento' | 'obito'; ano: number; thumb: string | null; sexo?: string; anoNasc?: string; anoObit?: string };
 const aniversarios: Aniversario[] = [];
-const pessoasDir = resolve('src/data/pessoas');
-for (const ficheiro of readdirSync(pessoasDir)) {
-  if (!ficheiro.endsWith('.json')) continue;
-  try {
-    const pp: Pessoa = JSON.parse(readFileSync(resolve(pessoasDir, ficheiro), 'utf-8'));
-    if (pp.protegida) continue;
-    const retrato = pp.media?.map((id) => mediaMap[id]).filter(Boolean).find(eRetrato);
-    const thumb = retrato?.thumb ?? null;
-    const anoN = pp.nascimento?.data?.match(/(\d{4})/)?.[1];
-    const anoO = pp.obito?.data?.match(/(\d{4})/)?.[1];
-    if (pp.nascimento?.data?.slice(5, 10) === mmdd && anoN) {
-      aniversarios.push({ id: pp.id, nome: pp.nome ?? 'Sem nome', tipo: 'nascimento', ano: parseInt(anoN), thumb, sexo: pp.sexo, anoNasc: anoN, anoObit: anoO });
-    }
-    if (pp.obito?.data?.slice(5, 10) === mmdd && anoO) {
-      aniversarios.push({ id: pp.id, nome: pp.nome ?? 'Sem nome', tipo: 'obito', ano: parseInt(anoO), thumb, sexo: pp.sexo, anoNasc: anoN, anoObit: anoO });
-    }
-  } catch { /* continua */ }
+for (const entrada of indice) {
+  const thumb = entrada.thumb_id ? (mediaMap[entrada.thumb_id]?.thumb ?? null) : null;
+  const anoNascStr = entrada.ano_nasc?.toString();
+  const anoObitStr = entrada.ano_obit?.toString();
+  if (entrada.mmdd_nasc === mmdd && entrada.ano_nasc) {
+    aniversarios.push({ id: entrada.id, nome: entrada.nome ?? 'Sem nome', tipo: 'nascimento', ano: entrada.ano_nasc, thumb, sexo: entrada.sexo, anoNasc: anoNascStr, anoObit: anoObitStr });
+  }
+  if (entrada.mmdd_obit === mmdd && entrada.ano_obit) {
+    aniversarios.push({ id: entrada.id, nome: entrada.nome ?? 'Sem nome', tipo: 'obito', ano: entrada.ano_obit, thumb, sexo: entrada.sexo, anoNasc: anoNascStr, anoObit: anoObitStr });
+  }
 }
 aniversarios.sort((a, b) => a.ano - b.ano);
 

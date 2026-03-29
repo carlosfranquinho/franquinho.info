@@ -1,26 +1,17 @@
 ---
-import { readFileSync, readdirSync } from 'fs';
+import { readFileSync } from 'fs';
 import { resolve } from 'path';
 import Base from '../layouts/Base.astro';
 import Lightbox from '../components/Lightbox.astro';
-import type { MediaItem, Pessoa } from '../types';
+import type { MediaItem } from '../types';
 import { categoriaPorCaminho } from '../utils';
 
 const media: MediaItem[] = JSON.parse(readFileSync(resolve('src/data/media.json'), 'utf-8'));
 const mediaComFicheiro = media.filter((m) => m.caminho);
 
-// Mapa inverso: media_id → [{id, nome}] das pessoas públicas associadas
-const mediaPessoas: Record<string, { id: string; nome: string }[]> = {};
-const pessoasDir = resolve('src/data/pessoas');
-for (const f of readdirSync(pessoasDir)) {
-  if (!f.endsWith('.json')) continue;
-  const p: Pessoa = JSON.parse(readFileSync(resolve(pessoasDir, f), 'utf-8'));
-  if (p.protegida || !p.media?.length) continue;
-  for (const mid of p.media) {
-    if (!mediaPessoas[mid]) mediaPessoas[mid] = [];
-    mediaPessoas[mid].push({ id: p.id, nome: p.nome ?? p.id });
-  }
-}
+// Mapa inverso: media_id → [{id, nome}] das pessoas públicas — pré-computado pelo gramps_to_json.py
+const mediaPessoas: Record<string, { id: string; nome: string }[]> =
+  JSON.parse(readFileSync(resolve('src/data/media-pessoas.json'), 'utf-8'));
 
 
 // Deduplicar por nome do ficheiro original, fundindo as pessoas de cada duplicado
