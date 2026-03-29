@@ -3,9 +3,10 @@ interface Props {
   titulo: string;
   descricao?: string;
   noindex?: boolean;
+  isHome?: boolean;
 }
 
-const { titulo, descricao = '', noindex = false } = Astro.props;
+const { titulo, descricao = '', noindex = false, isHome = false } = Astro.props;
 const siteName = 'Franquinho.info';
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
@@ -27,7 +28,7 @@ const pathname = Astro.url.pathname.replace(/\/$/, '') || '/';
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{titulo === 'Inicio' ? siteName : `${titulo} — ${siteName}`}</title>
+    <title>{isHome ? siteName : `${titulo} — ${siteName}`}</title>
     {descricao && <meta name="description" content={descricao} />}
     {noindex && <meta name="robots" content="noindex, nofollow" />}
     <link rel="canonical" href={canonicalURL} />
@@ -82,7 +83,7 @@ const pathname = Astro.url.pathname.replace(/\/$/, '') || '/';
       </div>
 
       <!-- Mobile: menu dropdown -->
-      <div id="nav-mobile" class="hidden sm:hidden border-t border-stone-100 bg-white/95 backdrop-blur">
+      <div id="nav-mobile" class="hidden sm:hidden border-t border-stone-100 bg-white/95 backdrop-blur" aria-hidden="true">
         <ul class="max-w-7xl mx-auto px-6 py-3 flex flex-col gap-1">
           {navLinks.map(({ href, label }) => {
             const ativo = pathname === href || (href !== '/' && pathname.startsWith(href));
@@ -124,10 +125,15 @@ const pathname = Astro.url.pathname.replace(/\/$/, '') || '/';
       toggle.addEventListener('click', () => {
         const open = menu.classList.toggle('hidden');
         toggle.setAttribute('aria-expanded', String(!open));
+        menu.setAttribute('aria-hidden', String(open));
       });
       // Fecha ao clicar num link
       menu.querySelectorAll('a').forEach((a) =>
-        a.addEventListener('click', () => menu.classList.add('hidden'))
+        a.addEventListener('click', () => {
+          menu.classList.add('hidden');
+          menu.setAttribute('aria-hidden', 'true');
+          toggle.setAttribute('aria-expanded', 'false');
+        })
       );
     </script>
 

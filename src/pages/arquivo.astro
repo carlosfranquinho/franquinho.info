@@ -81,7 +81,7 @@ for (const { item } of documentosDedup) {
 
     <!-- Tabs -->
     <div class="flex gap-2 mb-8" id="tabs">
-      <button data-tab="fotos"      class="tab-btn px-4 py-2 text-sm font-medium rounded-lg border transition-all border-stone-300 text-stone-600 hover:border-amber-400 hover:text-amber-700" data-activo="false">
+      <button data-tab="fotos"      class="tab-btn px-4 py-2 text-sm font-medium rounded-lg border transition-all border-stone-300 text-stone-600 hover:border-amber-400 hover:text-amber-700" data-activo="true">
         Fotografias <span class="text-stone-400 font-normal">({fotosDedup.length})</span>
       </button>
       <button data-tab="documentos" class="tab-btn px-4 py-2 text-sm font-medium rounded-lg border transition-all border-stone-300 text-stone-600 hover:border-amber-400 hover:text-amber-700" data-activo="false">
@@ -90,7 +90,7 @@ for (const { item } of documentosDedup) {
     </div>
 
     <!-- ── FOTOGRAFIAS ──────────────────────────────────────────────── -->
-    <div id="painel-fotos" class="painel hidden">
+    <div id="painel-fotos" class="painel">
       <div class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-2">
         {fotosDedup.map(({ item, pessoas }) => (
           <button

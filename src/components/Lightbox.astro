@@ -30,9 +30,16 @@
   const lbImg     = document.getElementById('lb-img') as HTMLImageElement;
   const lbCaption = document.getElementById('lb-caption')!;
   const lbPessoas = document.getElementById('lb-pessoas')!;
+  const lbClose   = document.getElementById('lb-close')!;
+  const lbPrev    = document.getElementById('lb-prev')!;
+  const lbNext    = document.getElementById('lb-next')!;
 
   const items = Array.from(document.querySelectorAll<HTMLElement>('[data-lightbox-src]'));
   let current = 0;
+  let triggerEl: HTMLElement | null = null;
+
+  // Elementos focáveis dentro do lightbox (para focus trap)
+  const focusable = [lbPrev, lbNext, lbClose];
 
   function show(index: number) {
     current = (index + items.length) % items.length;
@@ -61,23 +68,50 @@
     lb.classList.remove('hidden');
     lb.classList.add('flex');
     document.body.style.overflow = 'hidden';
+
+    // Mover foco para o botão de fechar
+    lbClose.focus();
+  }
+
+  function open(index: number, trigger: HTMLElement) {
+    triggerEl = trigger;
+    show(index);
   }
 
   function close() {
     lb.classList.add('hidden');
     lb.classList.remove('flex');
     document.body.style.overflow = '';
+
+    // Devolver foco ao elemento que abriu o lightbox
+    triggerEl?.focus();
+    triggerEl = null;
   }
 
-  items.forEach((el, i) => el.addEventListener('click', () => show(i)));
-  document.getElementById('lb-close')!.addEventListener('click', close);
-  document.getElementById('lb-prev')!.addEventListener('click', () => show(current - 1));
-  document.getElementById('lb-next')!.addEventListener('click', () => show(current + 1));
+  items.forEach((el, i) => el.addEventListener('click', () => open(i, el)));
+  lbClose.addEventListener('click', close);
+  lbPrev.addEventListener('click', () => show(current - 1));
+  lbNext.addEventListener('click', () => show(current + 1));
   lb.addEventListener('click', (e) => { if (e.target === lb) close(); });
+
   document.addEventListener('keydown', (e) => {
     if (lb.classList.contains('hidden')) return;
-    if (e.key === 'Escape') close();
-    if (e.key === 'ArrowLeft') show(current - 1);
-    if (e.key === 'ArrowRight') show(current + 1);
+    if (e.key === 'Escape') { close(); return; }
+    if (e.key === 'ArrowLeft')  { show(current - 1); return; }
+    if (e.key === 'ArrowRight') { show(current + 1); return; }
+
+    // Focus trap: Tab e Shift+Tab circulam pelos botões do lightbox
+    if (e.key === 'Tab') {
+      // Incluir links de pessoas gerados dinamicamente
+      const links = Array.from(lbPessoas.querySelectorAll<HTMLElement>('a'));
+      const trappable = [...focusable, ...links];
+      const first = trappable[0];
+      const last  = trappable[trappable.length - 1];
+      if (e.shiftKey) {
+        if (document.activeElement === first) { e.preventDefault(); last.focus(); }
+      } else {
+        if (document.activeElement === last)  { e.preventDefault(); first.focus(); }
+      }
+    }
   });
 </script>
