@@ -3238,12 +3238,19 @@
     "mmdd_nasc": "09-19",
     "ano_obit": 1932,
     "mmdd_obit": "12-18",
-    "thumb_id": "O0288"
+    "thumb_id": "O1070"
   },
   {
     "id": "I0206",
     "nome": "Joaquim Franquinho",
     "sexo": "M"
+  },
+  {
+    "id": "I1511",
+    "nome": "Joaquim Gaspar",
+    "sexo": "M",
+    "ano_obit": 1920,
+    "mmdd_obit": "04-14"
   },
   {
     "id": "I0023",
@@ -4351,7 +4358,8 @@
     "nome": "José Pontes",
     "sexo": "M",
     "ano_nasc": 1880,
-    "mmdd_nasc": "02-14"
+    "mmdd_nasc": "02-14",
+    "thumb_id": "O1069"
   },
   {
     "id": "I1049",
@@ -7041,7 +7049,7 @@
     "mmdd_nasc": "09-14",
     "ano_obit": 1961,
     "mmdd_obit": "05-31",
-    "thumb_id": "O0452"
+    "thumb_id": "O1068"
   },
   {
     "id": "I0018",
@@ -7413,6 +7421,13 @@
     "sexo": "F"
   },
   {
+    "id": "I1513",
+    "nome": "Maria Quitéria",
+    "sexo": "F",
+    "ano_obit": 1918,
+    "mmdd_obit": "06-03"
+  },
+  {
     "id": "I0594",
     "nome": "Maria Ramos",
     "sexo": "F"
@@ -7637,6 +7652,11 @@
   {
     "id": "I1426",
     "nome": "Maria de Escovar",
+    "sexo": "F"
+  },
+  {
+    "id": "I1512",
+    "nome": "Maria de Jesus",
     "sexo": "F"
   },
   {

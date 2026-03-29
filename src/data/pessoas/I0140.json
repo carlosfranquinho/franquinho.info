@@ -16,9 +16,12 @@
     "lugar_id": "P0002"
   },
   "sepultura": null,
-  "profissao": null,
-  "familias_como_filho": null,
+  "profissao": "Comerciante",
+  "familias_como_filho": [
+    "F0418"
+  ],
   "familias_como_pai": [
+    "F0419",
     "F0070"
   ],
   "media": [

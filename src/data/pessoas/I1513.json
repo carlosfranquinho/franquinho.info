@@ -1,0 +1,24 @@
+{
+  "id": "I1513",
+  "protegida": false,
+  "nome": "Maria Quitéria",
+  "nome_proprio": "Maria",
+  "apelido": "Quitéria",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1918-06-03",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0419"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

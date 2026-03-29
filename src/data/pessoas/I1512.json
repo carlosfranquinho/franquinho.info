@@ -1,32 +1,24 @@
 {
-  "id": "I0008",
+  "id": "I1512",
   "protegida": false,
-  "nome": "Maria Ferreira",
+  "nome": "Maria de Jesus",
   "nome_proprio": "Maria",
-  "apelido": "Ferreira",
+  "apelido": "de Jesus",
   "nomes_alt": null,
   "sexo": "F",
   "nascimento": {
-    "data": "1870-09-14",
+    "data": null,
     "lugar_id": "P0002"
   },
   "baptismo": null,
-  "obito": {
-    "data": "1961-05-31",
-    "lugar_id": "P0002"
-  },
+  "obito": null,
   "sepultura": null,
   "profissao": "Doméstica",
-  "familias_como_filho": [
-    "F0008"
-  ],
+  "familias_como_filho": null,
   "familias_como_pai": [
-    "F0003"
+    "F0418"
   ],
-  "media": [
-    "O1068",
-    "O0051"
-  ],
+  "media": null,
   "notas": null,
   "citacoes": null
 }

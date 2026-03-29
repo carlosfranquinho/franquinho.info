@@ -1,0 +1,27 @@
+{
+  "id": "I1511",
+  "protegida": false,
+  "nome": "Joaquim Gaspar",
+  "nome_proprio": "Joaquim",
+  "apelido": "Gaspar",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0002"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1920-04-14",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0418"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

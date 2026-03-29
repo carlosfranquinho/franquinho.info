@@ -440,6 +440,61 @@
     "web": "/media/web/O1065.jpg"
   },
   {
+    "id": "O1066",
+    "caminho_original": "home/carlos/Hobbies/Genealogia/Imagens/Casamentos/manuelgaspar+delmiraferreira_14abr1920.jpg",
+    "caminho": "/media/originais/O1066.jpg",
+    "thumb": "/media/thumbs/O1066.jpg",
+    "descricao": "manuelgaspar+delmiraferreira_14abr1920",
+    "data": null,
+    "mime": "image/jpeg",
+    "tipo": "documento",
+    "web": "/media/web/O1066.jpg"
+  },
+  {
+    "id": "O1067",
+    "caminho_original": "home/carlos/Hobbies/Genealogia/Imagens/Registos/mariadaconceicaosintra_7out1916.jpg",
+    "caminho": "/media/originais/O1067.jpg",
+    "thumb": "/media/thumbs/O1067.jpg",
+    "descricao": "mariadaconceicaosintra_7out1916",
+    "data": null,
+    "mime": "image/jpeg",
+    "tipo": "documento",
+    "web": "/media/web/O1067.jpg"
+  },
+  {
+    "id": "O1068",
+    "caminho_original": "home/carlos/Hobbies/Genealogia/Imagens/Fotos/perfil/I0008.jpg",
+    "caminho": "/media/originais/O1068.jpg",
+    "thumb": "/media/thumbs/O1068.jpg",
+    "descricao": "I0008",
+    "data": null,
+    "mime": "image/jpeg",
+    "tipo": "foto",
+    "web": "/media/web/O1068.jpg"
+  },
+  {
+    "id": "O1069",
+    "caminho_original": "home/carlos/Hobbies/Genealogia/Imagens/Fotos/perfil/I1477.jpg",
+    "caminho": "/media/originais/O1069.jpg",
+    "thumb": "/media/thumbs/O1069.jpg",
+    "descricao": "I1477",
+    "data": null,
+    "mime": "image/jpeg",
+    "tipo": "foto",
+    "web": "/media/web/O1069.jpg"
+  },
+  {
+    "id": "O1070",
+    "caminho_original": "home/carlos/Hobbies/Genealogia/Imagens/Fotos/perfil/I0166.jpg",
+    "caminho": "/media/originais/O1070.jpg",
+    "thumb": "/media/thumbs/O1070.jpg",
+    "descricao": "I0166",
+    "data": null,
+    "mime": "image/jpeg",
+    "tipo": "foto",
+    "web": "/media/web/O1070.jpg"
+  },
+  {
     "id": "O0001",
     "caminho_original": "dados/Hobbies/Genealogia/Imagens/Registos/DelmiraFerreira_nasc.jpg",
     "caminho": "/media/originais/O0001.jpg",
@@ -3267,17 +3322,6 @@
     "web": "/media/web/O0287.jpg"
   },
   {
-    "id": "O0288",
-    "caminho_original": "dados/Hobbies/Genealogia/Imagens/Fotos/joaquimfranquinho.jpg",
-    "caminho": "/media/originais/O0288.jpg",
-    "thumb": "/media/thumbs/O0288.jpg",
-    "descricao": "joaquimfranquinho",
-    "data": null,
-    "mime": "image/jpeg",
-    "tipo": "foto",
-    "web": "/media/web/O0288.jpg"
-  },
-  {
     "id": "O0289",
     "caminho_original": "dados/Hobbies/Genealogia/Imagens/Registos/felicia10fev1729.jpg",
     "caminho": "/media/originais/O0289.jpg",
@@ -4871,17 +4915,6 @@
     "mime": "image/jpeg",
     "tipo": "documento",
     "web": "/media/web/O0440.jpg"
-  },
-  {
-    "id": "O0452",
-    "caminho_original": "dados/Hobbies/Genealogia/Imagens/Fotos/P840_72_72.jpg",
-    "caminho": "/media/originais/O0452.jpg",
-    "thumb": "/media/thumbs/O0452.jpg",
-    "descricao": "P840_72_72",
-    "data": null,
-    "mime": "image/jpeg",
-    "tipo": "foto",
-    "web": "/media/web/O0452.jpg"
   },
   {
     "id": "O0462",
@@ -9601,17 +9634,6 @@
     "mime": "image/jpeg",
     "tipo": "documento",
     "web": "/media/web/O1017.jpg"
-  },
-  {
-    "id": "O1021",
-    "caminho_original": "dados/Hobbies/Genealogia/Imagens/Outros/biJosePontes.jpg",
-    "caminho": "/media/originais/O1021.jpg",
-    "thumb": "/media/thumbs/O1021.jpg",
-    "descricao": "biJosePontes",
-    "data": null,
-    "mime": "image/jpeg",
-    "tipo": "documento",
-    "web": "/media/web/O1021.jpg"
   },
   {
     "id": "O1036",
