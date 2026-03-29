@@ -141,18 +141,20 @@ for (const f of todasFamilias) {
   }
 }
 
-// ─── Pessoa mais longeva ───────────────────────────────────────────────────────
+// ─── Pessoa mais longeva (por sexo) ───────────────────────────────────────────
 
 type PessoaLongeva = { id: string; nome: string | null; anoNasc: number; anoObit: number; idade: number };
-let pessoaMaisVelha: PessoaLongeva | null = null;
+let pessoaMaisVelhaM: PessoaLongeva | null = null;
+let pessoaMaisVelhaF: PessoaLongeva | null = null;
 for (const p of publicas) {
   const anoN = getAno(p.nascimento?.data);
   const anoO = getAno(p.obito?.data);
   if (!anoN || !anoO) continue;
   const idade = anoO - anoN;
   if (idade < 0 || idade > 125) continue;
-  if (!pessoaMaisVelha || idade > pessoaMaisVelha.idade)
-    pessoaMaisVelha = { id: p.id, nome: p.nome ?? null, anoNasc: anoN, anoObit: anoO, idade };
+  const registo: PessoaLongeva = { id: p.id, nome: p.nome ?? null, anoNasc: anoN, anoObit: anoO, idade };
+  if (p.sexo === 'M' && (!pessoaMaisVelhaM || idade > pessoaMaisVelhaM.idade)) pessoaMaisVelhaM = registo;
+  if (p.sexo === 'F' && (!pessoaMaisVelhaF || idade > pessoaMaisVelhaF.idade)) pessoaMaisVelhaF = registo;
 }
 
 // ─── Casamento mais longevo ────────────────────────────────────────────────────
@@ -416,17 +418,33 @@ const pessoasComFoto = publicas.filter((p) => p.media && p.media.length > 0).len
         </div>
       )}
 
-      {pessoaMaisVelha && (
+      {pessoaMaisVelhaM && (
         <div class="bg-white border border-stone-200 rounded-xl p-5">
           <div class="flex items-start gap-3">
-            <div class="text-2xl flex-shrink-0">🧓</div>
+            <div class="text-2xl flex-shrink-0">👴</div>
             <div>
-              <div class="text-xs font-semibold uppercase tracking-wide text-amber-600 mb-1">Pessoa mais longeva</div>
-              <a href={`/pessoas/${pessoaMaisVelha.id}`} class="font-semibold text-stone-800 hover:text-amber-700 transition-colors">
-                {pessoaMaisVelha.nome ?? 'Desconhecido'}
+              <div class="text-xs font-semibold uppercase tracking-wide text-blue-600 mb-1">Homem mais longevo</div>
+              <a href={`/pessoas/${pessoaMaisVelhaM.id}`} class="font-semibold text-stone-800 hover:text-amber-700 transition-colors">
+                {pessoaMaisVelhaM.nome ?? 'Desconhecido'}
               </a>
-              <div class="text-stone-500 text-sm mt-0.5">{pessoaMaisVelha.idade} anos</div>
-              <div class="text-stone-400 text-xs mt-0.5">{pessoaMaisVelha.anoNasc} — {pessoaMaisVelha.anoObit}</div>
+              <div class="text-stone-500 text-sm mt-0.5">{pessoaMaisVelhaM.idade} anos</div>
+              <div class="text-stone-400 text-xs mt-0.5">{pessoaMaisVelhaM.anoNasc} — {pessoaMaisVelhaM.anoObit}</div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {pessoaMaisVelhaF && (
+        <div class="bg-white border border-stone-200 rounded-xl p-5">
+          <div class="flex items-start gap-3">
+            <div class="text-2xl flex-shrink-0">👵</div>
+            <div>
+              <div class="text-xs font-semibold uppercase tracking-wide text-rose-600 mb-1">Mulher mais longeva</div>
+              <a href={`/pessoas/${pessoaMaisVelhaF.id}`} class="font-semibold text-stone-800 hover:text-amber-700 transition-colors">
+                {pessoaMaisVelhaF.nome ?? 'Desconhecida'}
+              </a>
+              <div class="text-stone-500 text-sm mt-0.5">{pessoaMaisVelhaF.idade} anos</div>
+              <div class="text-stone-400 text-xs mt-0.5">{pessoaMaisVelhaF.anoNasc} — {pessoaMaisVelhaF.anoObit}</div>
             </div>
           </div>
         </div>
