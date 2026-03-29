@@ -316,19 +316,26 @@ const pessoasComFoto = publicas.filter((p) => p.media && p.media.length > 0).len
       <div class="bg-white border border-stone-200 rounded-xl p-6">
         <h2 class="text-lg font-semibold text-stone-700 mb-5">Distribuição por sexo</h2>
         <div class="flex items-center gap-8">
-          <!-- Pie chart via conic-gradient -->
-          <div
-            class="w-32 h-32 rounded-full flex-shrink-0"
-            style={`background: conic-gradient(#d97706 0% ${pctM}%, #92400e ${pctM}% ${pctM + pctF}%, #d6d3d1 ${pctM + pctF}% 100%)`}
-          />
+          <!-- Donut chart: conic-gradient + buraco branco central via radial-gradient -->
+          <div class="relative flex-shrink-0 w-36 h-36">
+            <div
+              class="w-full h-full rounded-full"
+              style={`background: radial-gradient(circle, white 42%, transparent 42%), conic-gradient(#3b82f6 0% ${pctM}%, #f43f5e ${pctM}% ${pctM + pctF}%, #d6d3d1 ${pctM + pctF}% 100%)`}
+            />
+            <!-- Total no centro -->
+            <div class="absolute inset-0 flex flex-col items-center justify-center pointer-events-none">
+              <span class="text-xl font-bold text-stone-800 leading-none">{totalSexos}</span>
+              <span class="text-xs text-stone-400 mt-0.5">pessoas</span>
+            </div>
+          </div>
           <div class="flex flex-col gap-3 text-sm">
             <div class="flex items-center gap-2">
-              <span class="w-3 h-3 rounded-sm bg-amber-600 inline-block flex-shrink-0" />
+              <span class="w-3 h-3 rounded-sm bg-blue-500 inline-block flex-shrink-0" />
               <span class="text-stone-600">Homens</span>
               <span class="ml-auto font-semibold text-stone-800">{sexos.M} <span class="font-normal text-stone-400">({pctM}%)</span></span>
             </div>
             <div class="flex items-center gap-2">
-              <span class="w-3 h-3 rounded-sm bg-amber-900 inline-block flex-shrink-0" />
+              <span class="w-3 h-3 rounded-sm bg-rose-500 inline-block flex-shrink-0" />
               <span class="text-stone-600">Mulheres</span>
               <span class="ml-auto font-semibold text-stone-800">{sexos.F} <span class="font-normal text-stone-400">({pctF}%)</span></span>
             </div>
