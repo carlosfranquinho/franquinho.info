@@ -4,11 +4,17 @@ interface Props {
   descricao?: string;
   noindex?: boolean;
   isHome?: boolean;
+  /** URL absoluta da imagem para og:image (thumbnail do retrato, etc.) */
+  ogImage?: string;
 }
 
-const { titulo, descricao = '', noindex = false, isHome = false } = Astro.props;
+const { titulo, descricao = '', noindex = false, isHome = false, ogImage } = Astro.props;
 const siteName = 'Franquinho.info';
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const ogTitle = isHome ? siteName : `${titulo} — ${siteName}`;
+const ogImageAbsoluto = ogImage
+  ? (ogImage.startsWith('http') ? ogImage : new URL(ogImage, Astro.site).toString())
+  : null;
 
 const navLinks = [
   { href: '/',         label: 'Início'   },
@@ -28,11 +34,25 @@ const pathname = Astro.url.pathname.replace(/\/$/, '') || '/';
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{isHome ? siteName : `${titulo} — ${siteName}`}</title>
+    <title>{ogTitle}</title>
     {descricao && <meta name="description" content={descricao} />}
     {noindex && <meta name="robots" content="noindex, nofollow" />}
     <link rel="canonical" href={canonicalURL} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Open Graph -->
+    <meta property="og:site_name" content={siteName} />
+    <meta property="og:type"      content="website" />
+    <meta property="og:url"       content={canonicalURL} />
+    <meta property="og:title"     content={ogTitle} />
+    {descricao && <meta property="og:description" content={descricao} />}
+    {ogImageAbsoluto && <meta property="og:image" content={ogImageAbsoluto} />}
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card"  content={ogImageAbsoluto ? 'summary_large_image' : 'summary'} />
+    <meta name="twitter:title" content={ogTitle} />
+    {descricao && <meta name="twitter:description" content={descricao} />}
+    {ogImageAbsoluto && <meta name="twitter:image" content={ogImageAbsoluto} />}
   </head>
   <body class="min-h-screen bg-white text-stone-800 font-serif antialiased">
 

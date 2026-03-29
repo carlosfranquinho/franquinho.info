@@ -123,9 +123,28 @@ const corSexo = pessoa.sexo === 'M' ? 'from-blue-800 to-blue-950'
 const nascidoLabel = pessoa.sexo === 'F' ? 'Nascida a' : 'Nascido a';
 const nascidoIndeterminadoLabel = pessoa.sexo === 'F' ? 'Nascida em data indeterminada' : 'Nascido em data indeterminada';
 const falecidoLabel = pessoa.sexo === 'F' ? 'Falecida a' : 'Falecido a';
+
+// JSON-LD Person (apenas para pessoas não-protegidas)
+const jsonLd = !protegida && p ? {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: titulo,
+  ...(anoNasc && { birthDate: anoNasc }),
+  ...(anoObit && { deathDate: anoObit }),
+  ...(lugarNasc?.nome && { birthPlace: { '@type': 'Place', name: lugarNasc.nome } }),
+  ...(lugarObit?.nome && { deathPlace: { '@type': 'Place', name: lugarObit.nome } }),
+  ...(p.profissao && { jobTitle: p.profissao }),
+  ...(fotoHero?.thumb && { image: fotoHero.thumb }),
+  url: new URL(`/pessoas/${pessoa.id}`, Astro.site).toString(),
+} : null;
 ---
 
-<Base titulo={titulo} descricao={protegida ? undefined : `Ficha genealogica de ${titulo}`} noindex={protegida}>
+<Base
+  titulo={titulo}
+  descricao={protegida ? undefined : `Ficha genealogica de ${titulo}`}
+  noindex={protegida}
+  ogImage={fotoHero?.thumb ?? undefined}
+>
 
   {/* Metadados para Pagefind */}
   {!protegida && (
@@ -136,6 +155,11 @@ const falecidoLabel = pessoa.sexo === 'F' ? 'Falecida a' : 'Falecido a';
       {anoObit && <span data-pagefind-meta="obito">{anoObit}</span>}
       {lugarNasc && <span data-pagefind-meta="lugar_nasc">{lugarNasc.nome}</span>}
     </div>
+  )}
+
+  {/* JSON-LD */}
+  {jsonLd && (
+    <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
   )}
 
   <!-- HERO -->
