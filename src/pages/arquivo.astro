@@ -96,7 +96,7 @@ for (const { item } of documentosDedup) {
           <button
             type="button"
             class="group relative block aspect-square rounded overflow-hidden border border-stone-200 hover:border-amber-400 hover:shadow-sm transition-all cursor-zoom-in"
-            data-lightbox-src={item.caminho ?? item.thumb ?? ''}
+            data-lightbox-src={item.thumb ?? item.caminho ?? ''}
             data-lightbox-caption={item.descricao ?? ''}
             data-lightbox-pessoas={JSON.stringify(pessoas)}
           >
@@ -163,7 +163,7 @@ for (const { item } of documentosDedup) {
             type="button"
             data-cat={getCategoria(item)}
             class="doc-item group relative block aspect-square rounded overflow-hidden border border-stone-200 hover:border-amber-400 hover:shadow-sm transition-all cursor-zoom-in"
-            data-lightbox-src={item.caminho ?? item.thumb ?? ''}
+            data-lightbox-src={item.thumb ?? item.caminho ?? ''}
             data-lightbox-caption={item.descricao ?? ''}
             data-lightbox-pessoas={JSON.stringify(pessoas)}
             title={item.descricao ?? pessoas.map((p) => p.nome).join(', ')}

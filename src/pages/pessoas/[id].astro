@@ -305,7 +305,7 @@ const falecidoLabel = pessoa.sexo === 'F' ? 'Falecida a' : 'Falecido a';
                     <button
                       type="button"
                       class="group block aspect-square rounded-lg overflow-hidden border border-stone-200 hover:border-amber-400 hover:shadow-md transition-all cursor-zoom-in"
-                      data-lightbox-src={item.caminho ?? item.thumb ?? ''}
+                      data-lightbox-src={item.thumb ?? item.caminho ?? ''}
                       data-lightbox-caption={item.descricao ?? ''}
                       data-lightbox-pessoas={pessoaLbJson}
                       title={item.descricao ?? ''}
@@ -334,7 +334,7 @@ const falecidoLabel = pessoa.sexo === 'F' ? 'Falecida a' : 'Falecido a';
                       <button
                         type="button"
                         class="group relative block aspect-square rounded-lg overflow-hidden border border-stone-200 hover:border-amber-400 hover:shadow-md transition-all cursor-zoom-in"
-                        data-lightbox-src={item.caminho ?? item.thumb ?? ''}
+                        data-lightbox-src={item.thumb ?? item.caminho ?? ''}
                         data-lightbox-caption={caption}
                         data-lightbox-pessoas={pessoaLbJson}
                         title={caption}
