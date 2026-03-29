@@ -398,6 +398,29 @@ const pessoasComFoto = publicas.filter((p) => p.media && p.media.length > 0).len
     <h2 class="text-xl font-semibold text-stone-700 mb-4">Recordes familiares</h2>
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
 
+      {/* Linha 1: casamento | família */}
+      {casamentoLongevo && (
+        <div class="bg-white border border-stone-200 rounded-xl p-5">
+          <div class="flex items-start gap-3">
+            <div class="text-2xl flex-shrink-0">💍</div>
+            <div>
+              <div class="text-xs font-semibold uppercase tracking-wide text-amber-600 mb-1">Casamento mais longevo</div>
+              <div class="font-semibold text-stone-800 leading-snug">
+                {casamentoLongevo.paiId && casamentoLongevo.paiNome
+                  ? <a href={`/pessoas/${casamentoLongevo.paiId}`} class="hover:text-amber-700 transition-colors">{casamentoLongevo.paiNome}</a>
+                  : <span>{casamentoLongevo.paiNome ?? 'Desconhecido'}</span>}
+                {' & '}
+                {casamentoLongevo.maeId && casamentoLongevo.maeNome
+                  ? <a href={`/pessoas/${casamentoLongevo.maeId}`} class="hover:text-amber-700 transition-colors">{casamentoLongevo.maeNome}</a>
+                  : <span>{casamentoLongevo.maeNome ?? 'Desconhecida'}</span>}
+              </div>
+              <div class="text-stone-500 text-sm mt-0.5">{casamentoLongevo.duracao} anos de casamento</div>
+              <div class="text-stone-400 text-xs mt-0.5">Casados em {casamentoLongevo.anoCas}</div>
+            </div>
+          </div>
+        </div>
+      )}
+
       {familiaRecord && (
         <div class="bg-white border border-stone-200 rounded-xl p-5">
           <div class="flex items-start gap-3">
@@ -418,6 +441,7 @@ const pessoasComFoto = publicas.filter((p) => p.media && p.media.length > 0).len
         </div>
       )}
 
+      {/* Linha 2: homem mais longevo | mulher mais longeva */}
       {pessoaMaisVelhaM && (
         <div class="bg-white border border-stone-200 rounded-xl p-5">
           <div class="flex items-start gap-3">
@@ -450,34 +474,13 @@ const pessoasComFoto = publicas.filter((p) => p.media && p.media.length > 0).len
         </div>
       )}
 
-      {casamentoLongevo && (
-        <div class="bg-white border border-stone-200 rounded-xl p-5">
-          <div class="flex items-start gap-3">
-            <div class="text-2xl flex-shrink-0">💍</div>
-            <div>
-              <div class="text-xs font-semibold uppercase tracking-wide text-amber-600 mb-1">Casamento mais longevo</div>
-              <div class="font-semibold text-stone-800 leading-snug">
-                {casamentoLongevo.paiId && casamentoLongevo.paiNome
-                  ? <a href={`/pessoas/${casamentoLongevo.paiId}`} class="hover:text-amber-700 transition-colors">{casamentoLongevo.paiNome}</a>
-                  : <span>{casamentoLongevo.paiNome ?? 'Desconhecido'}</span>}
-                {' & '}
-                {casamentoLongevo.maeId && casamentoLongevo.maeNome
-                  ? <a href={`/pessoas/${casamentoLongevo.maeId}`} class="hover:text-amber-700 transition-colors">{casamentoLongevo.maeNome}</a>
-                  : <span>{casamentoLongevo.maeNome ?? 'Desconhecida'}</span>}
-              </div>
-              <div class="text-stone-500 text-sm mt-0.5">{casamentoLongevo.duracao} anos de casamento</div>
-              <div class="text-stone-400 text-xs mt-0.5">Casados em {casamentoLongevo.anoCas}</div>
-            </div>
-          </div>
-        </div>
-      )}
-
+      {/* Linha 3: pai mais velho | mãe mais velha */}
       {maisVelhoPaiM && (
         <div class="bg-white border border-stone-200 rounded-xl p-5">
           <div class="flex items-start gap-3">
             <div class="text-2xl flex-shrink-0">👴</div>
             <div>
-              <div class="text-xs font-semibold uppercase tracking-wide text-amber-600 mb-1">Pai mais velho ao nascimento do 1.º filho</div>
+              <div class="text-xs font-semibold uppercase tracking-wide text-blue-600 mb-1">Pai mais velho ao nascimento do 1.º filho</div>
               <a href={`/pessoas/${maisVelhoPaiM.id}`} class="font-semibold text-stone-800 hover:text-amber-700 transition-colors">
                 {maisVelhoPaiM.nome ?? 'Desconhecido'}
               </a>
@@ -495,7 +498,7 @@ const pessoasComFoto = publicas.filter((p) => p.media && p.media.length > 0).len
           <div class="flex items-start gap-3">
             <div class="text-2xl flex-shrink-0">👵</div>
             <div>
-              <div class="text-xs font-semibold uppercase tracking-wide text-amber-600 mb-1">Mãe mais velha ao nascimento do 1.º filho</div>
+              <div class="text-xs font-semibold uppercase tracking-wide text-rose-600 mb-1">Mãe mais velha ao nascimento do 1.º filho</div>
               <a href={`/pessoas/${maisVelhoPaiF.id}`} class="font-semibold text-stone-800 hover:text-amber-700 transition-colors">
                 {maisVelhoPaiF.nome ?? 'Desconhecida'}
               </a>
@@ -508,12 +511,13 @@ const pessoasComFoto = publicas.filter((p) => p.media && p.media.length > 0).len
         </div>
       )}
 
+      {/* Linha 4: pai mais novo | mãe mais nova */}
       {maisNovoPaiM && (
         <div class="bg-white border border-stone-200 rounded-xl p-5">
           <div class="flex items-start gap-3">
             <div class="text-2xl flex-shrink-0">👦</div>
             <div>
-              <div class="text-xs font-semibold uppercase tracking-wide text-amber-600 mb-1">Pai mais novo ao nascimento do 1.º filho</div>
+              <div class="text-xs font-semibold uppercase tracking-wide text-blue-600 mb-1">Pai mais novo ao nascimento do 1.º filho</div>
               <a href={`/pessoas/${maisNovoPaiM.id}`} class="font-semibold text-stone-800 hover:text-amber-700 transition-colors">
                 {maisNovoPaiM.nome ?? 'Desconhecido'}
               </a>
@@ -531,7 +535,7 @@ const pessoasComFoto = publicas.filter((p) => p.media && p.media.length > 0).len
           <div class="flex items-start gap-3">
             <div class="text-2xl flex-shrink-0">👧</div>
             <div>
-              <div class="text-xs font-semibold uppercase tracking-wide text-amber-600 mb-1">Mãe mais nova ao nascimento do 1.º filho</div>
+              <div class="text-xs font-semibold uppercase tracking-wide text-rose-600 mb-1">Mãe mais nova ao nascimento do 1.º filho</div>
               <a href={`/pessoas/${maisNovoPaiF.id}`} class="font-semibold text-stone-800 hover:text-amber-700 transition-colors">
                 {maisNovoPaiF.nome ?? 'Desconhecida'}
               </a>
