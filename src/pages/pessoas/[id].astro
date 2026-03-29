@@ -111,8 +111,8 @@ for (const f of familiaComoPai) {
       idade: calcularIdade(f.casamento.data),
     });
   }
-  // Falecimento do cônjuge
-  if (outro?.obito?.data) {
+  // Falecimento do cônjuge — só se ocorreu antes do óbito do próprio
+  if (outro?.obito?.data && (!pessoa.obito?.data || outro.obito.data < pessoa.obito.data)) {
     timeline.push({
       data: outro.obito.data,
       label: `Falecimento do cônjuge${!outro.protegida ? ` (${outro.nome})` : ''}`,
