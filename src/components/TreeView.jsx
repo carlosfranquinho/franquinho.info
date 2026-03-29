@@ -366,6 +366,7 @@ export default function TreeView({ defaultRootId = 'I0007', defaultRootName = ''
   const [search, setSearch] = useState('');
   const [searchResults, setSearchResults] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [panelOpen, setPanelOpen] = useState(() => typeof window !== 'undefined' ? window.innerWidth >= 640 : true);
   const rfInstance = useRef(null);
 
   // Carregar arvore.json; se URL tiver #I0001, usar esse ID como raiz inicial
@@ -471,113 +472,139 @@ export default function TreeView({ defaultRootId = 'I0007', defaultRootName = ''
 
         {/* Painel de controlos */}
         <Panel position="top-left">
-          <div style={{
-            background: '#fff', border: '1.5px solid #e7e5e4', borderRadius: 12,
-            padding: 14, minWidth: 220, boxShadow: '0 4px 16px rgba(0,0,0,0.08)',
-          }}>
-            {/* Pessoa raiz */}
-            <div style={{ marginBottom: 12 }}>
-              <div style={{ fontSize: 10, fontWeight: 600, color: '#a8a29e', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: 4 }}>
-                Ponto de partida
-              </div>
-              <div style={{ fontSize: 13, fontWeight: 600, color: '#1c1917' }}>
-                {rootPessoa?.nome ?? rootId}
-              </div>
-              {(rootPessoa?.ano_nasc || rootPessoa?.ano_obit) && (
-                <div style={{ fontSize: 11, color: '#78716c' }}>
-                  {rootPessoa.ano_nasc ?? '?'}{rootPessoa.ano_obit ? ` — ${rootPessoa.ano_obit}` : ''}
+          {panelOpen ? (
+            <div style={{
+              background: '#fff', border: '1.5px solid #e7e5e4', borderRadius: 12,
+              padding: 14, width: 220, boxShadow: '0 4px 16px rgba(0,0,0,0.08)',
+            }}>
+              {/* Cabeçalho com botão fechar */}
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 12 }}>
+                <div style={{ fontSize: 10, fontWeight: 600, color: '#a8a29e', textTransform: 'uppercase', letterSpacing: '0.08em' }}>
+                  Controlos
                 </div>
-              )}
-            </div>
-
-            {/* Modo */}
-            <div style={{ marginBottom: 12 }}>
-              <div style={{ fontSize: 10, fontWeight: 600, color: '#a8a29e', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: 6 }}>Modo</div>
-              <div style={{ display: 'flex', gap: 4 }}>
-                {[
-                  { id: 'ancestors',   label: 'Antepassados' },
-                  { id: 'hourglass',   label: 'Ampulheta' },
-                  { id: 'descendants', label: 'Descendentes' },
-                ].map(({ id, label }) => (
-                  <button
-                    key={id}
-                    onClick={() => setMode(id)}
-                    style={{
-                      flex: 1, padding: '5px 0', fontSize: 10, fontWeight: 600,
-                      borderRadius: 6, border: '1.5px solid',
-                      cursor: 'pointer', transition: 'all 0.15s',
-                      borderColor: mode === id ? '#f59e0b' : '#e7e5e4',
-                      background: mode === id ? '#fef3c7' : '#fafaf9',
-                      color: mode === id ? '#92400e' : '#78716c',
-                    }}
-                  >
-                    {label}
-                  </button>
-                ))}
+                <button
+                  onClick={() => setPanelOpen(false)}
+                  style={{ background: 'none', border: 'none', cursor: 'pointer', color: '#a8a29e', fontSize: 16, lineHeight: 1, padding: '0 2px' }}
+                  aria-label="Fechar painel"
+                >✕</button>
               </div>
-            </div>
 
-            {/* Profundidade */}
-            <div style={{ marginBottom: 12 }}>
-              <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 4 }}>
-                <span style={{ fontSize: 10, fontWeight: 600, color: '#a8a29e', textTransform: 'uppercase', letterSpacing: '0.08em' }}>Gerações</span>
-                <span style={{ fontSize: 11, fontWeight: 700, color: '#92400e' }}>{depth}</span>
+              {/* Pessoa raiz */}
+              <div style={{ marginBottom: 12 }}>
+                <div style={{ fontSize: 10, fontWeight: 600, color: '#a8a29e', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: 4 }}>
+                  Ponto de partida
+                </div>
+                <div style={{ fontSize: 13, fontWeight: 600, color: '#1c1917' }}>
+                  {rootPessoa?.nome ?? rootId}
+                </div>
+                {(rootPessoa?.ano_nasc || rootPessoa?.ano_obit) && (
+                  <div style={{ fontSize: 11, color: '#78716c' }}>
+                    {rootPessoa.ano_nasc ?? '?'}{rootPessoa.ano_obit ? ` — ${rootPessoa.ano_obit}` : ''}
+                  </div>
+                )}
               </div>
-              <input
-                type="range" min={1} max={6} value={depth}
-                onChange={(e) => setDepth(Number(e.target.value))}
-                style={{ width: '100%', accentColor: '#f59e0b' }}
-              />
-            </div>
 
-            {/* Pesquisa */}
-            <div style={{ position: 'relative' }}>
-              <div style={{ fontSize: 10, fontWeight: 600, color: '#a8a29e', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: 4 }}>Navegar para</div>
-              <input
-                type="text"
-                placeholder="Nome..."
-                value={search}
-                onChange={(e) => setSearch(e.target.value)}
-                style={{
-                  width: '100%', padding: '6px 10px', fontSize: 12,
-                  border: '1.5px solid #e7e5e4', borderRadius: 7,
-                  outline: 'none', boxSizing: 'border-box',
-                  fontFamily: 'inherit',
-                }}
-              />
-              {searchResults.length > 0 && (
-                <div style={{
-                  position: 'absolute', top: '100%', left: 0, right: 0, zIndex: 30,
-                  background: '#fff', border: '1.5px solid #e7e5e4', borderRadius: 8,
-                  marginTop: 2, boxShadow: '0 4px 16px rgba(0,0,0,0.1)',
-                  maxHeight: 200, overflowY: 'auto',
-                }}>
-                  {searchResults.map(({ id, nome, ano_nasc }) => (
+              {/* Modo */}
+              <div style={{ marginBottom: 12 }}>
+                <div style={{ fontSize: 10, fontWeight: 600, color: '#a8a29e', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: 6 }}>Modo</div>
+                <div style={{ display: 'flex', gap: 4 }}>
+                  {[
+                    { id: 'ancestors',   label: 'Antepass.' },
+                    { id: 'hourglass',   label: 'Ampulheta' },
+                    { id: 'descendants', label: 'Descend.' },
+                  ].map(({ id, label }) => (
                     <button
                       key={id}
-                      onClick={() => handleSetRoot(id)}
+                      onClick={() => setMode(id)}
                       style={{
-                        display: 'flex', justifyContent: 'space-between', alignItems: 'center',
-                        width: '100%', padding: '7px 10px', textAlign: 'left',
-                        background: 'none', border: 'none', cursor: 'pointer',
-                        borderBottom: '1px solid #f5f5f4', fontSize: 12,
+                        flex: 1, padding: '5px 0', fontSize: 10, fontWeight: 600,
+                        borderRadius: 6, border: '1.5px solid',
+                        cursor: 'pointer', transition: 'all 0.15s',
+                        borderColor: mode === id ? '#f59e0b' : '#e7e5e4',
+                        background: mode === id ? '#fef3c7' : '#fafaf9',
+                        color: mode === id ? '#92400e' : '#78716c',
                       }}
-                      onMouseEnter={(e) => e.currentTarget.style.background = '#fef9ee'}
-                      onMouseLeave={(e) => e.currentTarget.style.background = 'none'}
                     >
-                      <span style={{ color: '#1c1917', fontWeight: 500 }}>{nome}</span>
-                      {ano_nasc && <span style={{ color: '#a8a29e', fontSize: 11 }}>{ano_nasc}</span>}
+                      {label}
                     </button>
                   ))}
                 </div>
-              )}
-            </div>
+              </div>
 
-            {/* Contagem */}
-            <div style={{ marginTop: 10, fontSize: 10, color: '#a8a29e', textAlign: 'right' }}>
-              {nodes.filter(n => n.type === 'person').length} pessoas · {edges.length} ligações
+              {/* Profundidade */}
+              <div style={{ marginBottom: 12 }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 4 }}>
+                  <span style={{ fontSize: 10, fontWeight: 600, color: '#a8a29e', textTransform: 'uppercase', letterSpacing: '0.08em' }}>Gerações</span>
+                  <span style={{ fontSize: 11, fontWeight: 700, color: '#92400e' }}>{depth}</span>
+                </div>
+                <input
+                  type="range" min={1} max={6} value={depth}
+                  onChange={(e) => setDepth(Number(e.target.value))}
+                  style={{ width: '100%', accentColor: '#f59e0b' }}
+                />
+              </div>
+
+              {/* Pesquisa */}
+              <div style={{ position: 'relative' }}>
+                <div style={{ fontSize: 10, fontWeight: 600, color: '#a8a29e', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: 4 }}>Navegar para</div>
+                <input
+                  type="text"
+                  placeholder="Nome..."
+                  value={search}
+                  onChange={(e) => setSearch(e.target.value)}
+                  style={{
+                    width: '100%', padding: '6px 10px', fontSize: 12,
+                    border: '1.5px solid #e7e5e4', borderRadius: 7,
+                    outline: 'none', boxSizing: 'border-box',
+                    fontFamily: 'inherit',
+                  }}
+                />
+                {searchResults.length > 0 && (
+                  <div style={{
+                    position: 'absolute', top: '100%', left: 0, right: 0, zIndex: 30,
+                    background: '#fff', border: '1.5px solid #e7e5e4', borderRadius: 8,
+                    marginTop: 2, boxShadow: '0 4px 16px rgba(0,0,0,0.1)',
+                    maxHeight: 200, overflowY: 'auto',
+                  }}>
+                    {searchResults.map(({ id, nome, ano_nasc }) => (
+                      <button
+                        key={id}
+                        onClick={() => handleSetRoot(id)}
+                        style={{
+                          display: 'flex', justifyContent: 'space-between', alignItems: 'center',
+                          width: '100%', padding: '7px 10px', textAlign: 'left',
+                          background: 'none', border: 'none', cursor: 'pointer',
+                          borderBottom: '1px solid #f5f5f4', fontSize: 12,
+                        }}
+                        onMouseEnter={(e) => e.currentTarget.style.background = '#fef9ee'}
+                        onMouseLeave={(e) => e.currentTarget.style.background = 'none'}
+                      >
+                        <span style={{ color: '#1c1917', fontWeight: 500 }}>{nome}</span>
+                        {ano_nasc && <span style={{ color: '#a8a29e', fontSize: 11 }}>{ano_nasc}</span>}
+                      </button>
+                    ))}
+                  </div>
+                )}
+              </div>
+
+              {/* Contagem */}
+              <div style={{ marginTop: 10, fontSize: 10, color: '#a8a29e', textAlign: 'right' }}>
+                {nodes.filter(n => n.type === 'person').length} pessoas · {edges.length} ligações
+              </div>
             </div>
-          </div>
+          ) : (
+            <button
+              onClick={() => setPanelOpen(true)}
+              style={{
+                background: '#fff', border: '1.5px solid #e7e5e4', borderRadius: 10,
+                width: 38, height: 38, display: 'flex', alignItems: 'center', justifyContent: 'center',
+                cursor: 'pointer', boxShadow: '0 2px 8px rgba(0,0,0,0.1)', fontSize: 18,
+              }}
+              aria-label="Abrir controlos"
+            >
+              ⚙
+            </button>
+          )}
         </Panel>
       </ReactFlow>
 

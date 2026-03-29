@@ -43,6 +43,7 @@ const pathname = Astro.url.pathname.replace(/\/$/, '') || '/';
           {siteName}
         </a>
 
+        <!-- Desktop nav -->
         <nav class="hidden sm:block">
           <ul class="flex items-center gap-1">
             {navLinks.map(({ href, label }) => {
@@ -66,20 +67,48 @@ const pathname = Astro.url.pathname.replace(/\/$/, '') || '/';
           </ul>
         </nav>
 
-        <!-- Mobile: menu simples -->
-        <div class="sm:hidden flex gap-2 overflow-x-auto text-xs">
-          {navLinks.slice(1).map(({ href, label }) => (
-            <a href={href} class="text-stone-500 hover:text-stone-900 shrink-0">{label}</a>
-          ))}
-        </div>
+        <!-- Mobile: botão hambúrguer -->
+        <button
+          id="nav-toggle"
+          class="sm:hidden flex flex-col justify-center items-center gap-1.5 w-8 h-8 shrink-0"
+          aria-label="Menu"
+          aria-expanded="false"
+        >
+          <span class="nav-bar block w-5 h-0.5 bg-stone-700 transition-all duration-200"></span>
+          <span class="nav-bar block w-5 h-0.5 bg-stone-700 transition-all duration-200"></span>
+          <span class="nav-bar block w-5 h-0.5 bg-stone-700 transition-all duration-200"></span>
+        </button>
 
+      </div>
+
+      <!-- Mobile: menu dropdown -->
+      <div id="nav-mobile" class="hidden sm:hidden border-t border-stone-100 bg-white/95 backdrop-blur">
+        <ul class="max-w-7xl mx-auto px-6 py-3 flex flex-col gap-1">
+          {navLinks.map(({ href, label }) => {
+            const ativo = pathname === href || (href !== '/' && pathname.startsWith(href));
+            return (
+              <li>
+                <a
+                  href={href}
+                  class:list={[
+                    'block px-3 py-2.5 rounded text-sm transition-colors',
+                    ativo
+                      ? 'bg-stone-900 text-white font-medium'
+                      : 'text-stone-600 hover:text-stone-900 hover:bg-stone-50',
+                  ]}
+                >
+                  {label}
+                </a>
+              </li>
+            );
+          })}
+        </ul>
       </div>
     </header>
 
     <main data-pagefind-body={noindex ? undefined : true}>
       <slot />
     </main>
-    <!-- Margem inferior para páginas que não têm secção final com padding próprio -->
     <div class="min-h-[1px]"></div>
 
     <footer class="mt-24 border-t border-stone-100 bg-stone-50">
@@ -88,6 +117,19 @@ const pathname = Astro.url.pathname.replace(/\/$/, '') || '/';
         <span>Dados de pessoas vivas ou recentemente falecidas são protegidos por razões de privacidade.</span>
       </div>
     </footer>
+
+    <script>
+      const toggle = document.getElementById('nav-toggle')!;
+      const menu   = document.getElementById('nav-mobile')!;
+      toggle.addEventListener('click', () => {
+        const open = menu.classList.toggle('hidden');
+        toggle.setAttribute('aria-expanded', String(!open));
+      });
+      // Fecha ao clicar num link
+      menu.querySelectorAll('a').forEach((a) =>
+        a.addEventListener('click', () => menu.classList.add('hidden'))
+      );
+    </script>
 
   </body>
 </html>
