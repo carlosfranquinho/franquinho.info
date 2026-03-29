@@ -15,15 +15,15 @@
   <button id="lb-prev" class="absolute left-3 top-1/2 -translate-y-1/2 text-white/50 hover:text-white text-5xl leading-none px-2 select-none" aria-label="Anterior">&#8249;</button>
   <button id="lb-next" class="absolute right-3 top-1/2 -translate-y-1/2 text-white/50 hover:text-white text-5xl leading-none px-2 select-none" aria-label="Seguinte">&#8250;</button>
   <button id="lb-close" class="absolute top-4 right-4 text-white/50 hover:text-white text-2xl leading-none px-2 select-none" aria-label="Fechar">&#10005;</button>
+  <a id="lb-download" href="#" download class="hidden absolute bottom-4 right-4 text-xs text-white/30 hover:text-white/70 transition-colors" title="Descarregar original">
+    ↓ original
+  </a>
 
   <figure class="flex flex-col items-center gap-3 max-w-[90vw] max-h-[90vh] px-12">
     <img id="lb-img" src="" alt="" class="max-w-full max-h-[78vh] object-contain rounded shadow-2xl" />
     <figcaption class="text-center space-y-1.5">
       <p id="lb-caption" class="text-sm text-white/60 px-4"></p>
       <div id="lb-pessoas" class="flex flex-wrap justify-center gap-2"></div>
-      <a id="lb-download" href="#" download class="hidden text-xs text-white/30 hover:text-white/70 transition-colors">
-        ↓ descarregar original
-      </a>
     </figcaption>
   </figure>
 </div>
@@ -43,7 +43,7 @@
   let triggerEl: HTMLElement | null = null;
 
   // Elementos focáveis dentro do lightbox (para focus trap)
-  const focusable = [lbPrev, lbNext, lbClose, lbDownload];
+  const focusable = [lbPrev, lbNext, lbClose];
 
   function show(index: number) {
     current = (index + items.length) % items.length;
