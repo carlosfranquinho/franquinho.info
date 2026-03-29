@@ -20,7 +20,7 @@
   <figure class="flex flex-col items-center gap-3 max-w-[90vw] max-h-[90vh] px-12">
     <img id="lb-img" src="" alt="" class="max-w-full max-h-[80vh] object-contain rounded shadow-2xl" />
     <figcaption class="w-full flex items-center justify-between gap-3 min-h-[2rem]">
-      <div id="lb-pessoas" class="flex flex-wrap gap-2"></div>
+      <div id="lb-pessoas" class="flex flex-wrap items-center gap-2"></div>
       <a id="lb-download" href="#" download class="hidden shrink-0 text-xs px-2.5 py-1 rounded-full bg-white/10 text-white/50 hover:bg-white/20 hover:text-white transition-colors">
         ↓ original
       </a>
@@ -62,10 +62,18 @@
 
     // Links para pessoas associadas
     lbPessoas.innerHTML = '';
+    const tipo = el.dataset.lightboxTipo ?? '';
     const pessoasRaw = el.dataset.lightboxPessoas;
     if (pessoasRaw) {
       try {
         const pessoas: { id: string; nome: string }[] = JSON.parse(pessoasRaw);
+        if (tipo && pessoas.length > 0) {
+          // Documentos: "Registo de nascimento de [link]"
+          const prefix = document.createElement('span');
+          prefix.className = 'text-xs text-white/50';
+          prefix.textContent = `${tipo} de`;
+          lbPessoas.appendChild(prefix);
+        }
         for (const p of pessoas) {
           const a = document.createElement('a');
           a.href = `/pessoas/${p.id}`;
