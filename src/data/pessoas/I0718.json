@@ -1,0 +1,29 @@
+{
+  "id": "I0718",
+  "protegida": false,
+  "nome": "Luís",
+  "nome_proprio": "Luís",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1850-10-26",
+    "lugar_id": "P0092"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1936-05-10",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0206"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0585"
+  ],
+  "notas": null,
+  "citacoes": null
+}

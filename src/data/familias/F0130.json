@@ -1,0 +1,18 @@
+{
+  "id": "F0130",
+  "pai": "I0379",
+  "mae": "I0380",
+  "filhos": [
+    "I0043",
+    "I0381"
+  ],
+  "tipo_relacao": "Married",
+  "casamento": null,
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei por filhos do casal, no Souto da Carpalhosa, de 1809 a 1814."
+    }
+  ],
+  "media": null
+}

@@ -1,0 +1,41 @@
+{
+  "id": "I0038",
+  "protegida": false,
+  "nome": "Joaquina Maria",
+  "nome_proprio": "Joaquina",
+  "apelido": "Maria",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": {
+    "data": "1751-03-07",
+    "lugar_id": "P0023"
+  },
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0035"
+  ],
+  "familias_como_pai": [
+    "F0018"
+  ],
+  "media": [
+    "O0084"
+  ],
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "Gémea com Ana"
+    },
+    {
+      "tipo": "",
+      "texto": "há um falecimento de uma joaquina maria, em macarca, no livro de alfeizerão, em 18 de março de 1811 - invaões francesas. o registo não tem quaisquer dados adicionais."
+    },
+    {
+      "tipo": "",
+      "texto": "procurei pelo falecimento em alfeizerão de 1769 a 1851, tendo encontrado apenas o registo duvidoso da nota anterior\ntambém procurei em famalicão, nas mesmas datas aproximadas."
+    }
+  ],
+  "citacoes": null
+}

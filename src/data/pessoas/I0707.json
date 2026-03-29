@@ -1,0 +1,29 @@
+{
+  "id": "I0707",
+  "protegida": false,
+  "nome": "Manuel Pedro",
+  "nome_proprio": "Manuel",
+  "apelido": "Pedro",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1770",
+    "lugar_id": "P0092"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1849-09-25",
+    "lugar_id": "P0092"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0208"
+  ],
+  "media": [
+    "O0589"
+  ],
+  "notas": null,
+  "citacoes": null
+}

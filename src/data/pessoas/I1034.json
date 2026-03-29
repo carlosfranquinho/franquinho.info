@@ -1,0 +1,24 @@
+{
+  "id": "I1034",
+  "protegida": true,
+  "sexo": "M",
+  "nome": "Familiar",
+  "apelido": "dos Santos Rainho",
+  "nascimento": {
+    "data": "1941-02-15",
+    "lugar_id": "P0002"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0296"
+  ],
+  "familias_como_pai": [
+    "F0292"
+  ],
+  "relacoes": [
+    "F0296",
+    "F0292"
+  ]
+}

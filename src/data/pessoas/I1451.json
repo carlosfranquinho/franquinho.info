@@ -1,0 +1,29 @@
+{
+  "id": "I1451",
+  "protegida": false,
+  "nome": "Brás Simões",
+  "nome_proprio": "Brás",
+  "apelido": "Simões",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1661-02-04",
+    "lugar_id": "P0173"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0401"
+  ],
+  "familias_como_pai": [
+    "F0399",
+    "F0403"
+  ],
+  "media": [
+    "O1013"
+  ],
+  "notas": null,
+  "citacoes": null
+}

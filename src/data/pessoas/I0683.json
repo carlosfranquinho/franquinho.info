@@ -1,0 +1,26 @@
+{
+  "id": "I0683",
+  "protegida": false,
+  "nome": "Quitéria",
+  "nome_proprio": "Quitéria",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1802-11-11",
+    "lugar_id": "P0086"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0198"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0545"
+  ],
+  "notas": null,
+  "citacoes": null
+}

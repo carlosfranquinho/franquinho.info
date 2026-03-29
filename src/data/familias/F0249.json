@@ -1,0 +1,26 @@
+{
+  "id": "F0249",
+  "pai": "I0906",
+  "mae": "I0907",
+  "filhos": [
+    "I1107",
+    "I1106",
+    "I1104",
+    "I0900",
+    "I1105"
+  ],
+  "tipo_relacao": "Married",
+  "casamento": {
+    "data": "1812-04-22",
+    "lugar_id": "P0079"
+  },
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei filhos no Carriçoi até 1830"
+    }
+  ],
+  "media": [
+    "O0899"
+  ]
+}

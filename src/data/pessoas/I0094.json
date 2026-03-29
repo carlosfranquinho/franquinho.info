@@ -1,0 +1,32 @@
+{
+  "id": "I0094",
+  "protegida": false,
+  "nome": "António Pereira",
+  "nome_proprio": "António",
+  "apelido": "Pereira",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": {
+    "data": "1670-01-10",
+    "lugar_id": "P0070"
+  },
+  "obito": {
+    "data": "1717-03-17",
+    "lugar_id": "P0031"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0149"
+  ],
+  "familias_como_pai": [
+    "F0046"
+  ],
+  "media": [
+    "O0342",
+    "O0329"
+  ],
+  "notas": null,
+  "citacoes": null
+}

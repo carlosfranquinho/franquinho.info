@@ -1,0 +1,31 @@
+{
+  "id": "I0051",
+  "protegida": false,
+  "nome": "Lourenço Lopes",
+  "nome_proprio": "Lourenço",
+  "apelido": "Lopes",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0019"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0332"
+  ],
+  "familias_como_pai": [
+    "F0025"
+  ],
+  "media": null,
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei pelo falecimento, na Ruivaqueira e Várzeas, até 1875"
+    }
+  ],
+  "citacoes": null
+}

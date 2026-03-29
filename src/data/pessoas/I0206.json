@@ -1,0 +1,23 @@
+{
+  "id": "I0206",
+  "protegida": false,
+  "nome": "Joaquim Franquinho",
+  "nome_proprio": "Joaquim",
+  "apelido": "Franquinho",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0017"
+  ],
+  "familias_como_pai": [
+    "F0085"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

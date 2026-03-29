@@ -1,0 +1,29 @@
+{
+  "id": "I0675",
+  "protegida": false,
+  "nome": "Manuel Dias",
+  "nome_proprio": "Manuel",
+  "apelido": "Dias",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0087"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0199"
+  ],
+  "media": null,
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "Procurei por filhos na Caxieira, Pousos, de 1802 a 1808"
+    }
+  ],
+  "citacoes": null
+}

@@ -1,0 +1,29 @@
+{
+  "id": "I0323",
+  "protegida": false,
+  "nome": "Humberto Augusto Ferreira de Sousa",
+  "nome_proprio": "Humberto Augusto",
+  "apelido": "Ferreira de Sousa",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1947-08-13",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1984-04",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0118"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O1051"
+  ],
+  "notas": null,
+  "citacoes": null
+}

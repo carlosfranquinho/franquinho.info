@@ -1,0 +1,26 @@
+{
+  "id": "I0875",
+  "protegida": false,
+  "nome": "Manuel",
+  "nome_proprio": "Manuel",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1777-01-26",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0240"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0723"
+  ],
+  "notas": null,
+  "citacoes": null
+}

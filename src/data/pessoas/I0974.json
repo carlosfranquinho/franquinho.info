@@ -1,0 +1,26 @@
+{
+  "id": "I0974",
+  "protegida": false,
+  "nome": "Gracia",
+  "nome_proprio": "Gracia",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": {
+    "data": "1696-04-03",
+    "lugar_id": "P0107"
+  },
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0265"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0781"
+  ],
+  "notas": null,
+  "citacoes": null
+}

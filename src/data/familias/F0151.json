@@ -1,0 +1,14 @@
+{
+  "id": "F0151",
+  "pai": "I0506",
+  "mae": "I0507",
+  "filhos": [
+    "I0512",
+    "I0097",
+    "I0510"
+  ],
+  "tipo_relacao": "Married",
+  "casamento": null,
+  "notas": null,
+  "media": null
+}

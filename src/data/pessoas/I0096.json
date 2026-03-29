@@ -1,0 +1,31 @@
+{
+  "id": "I0096",
+  "protegida": false,
+  "nome": "António Fernandes Pardo",
+  "nome_proprio": "António",
+  "apelido": "Fernandes Pardo",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": {
+    "data": "1671-03-07",
+    "lugar_id": "P0031"
+  },
+  "obito": {
+    "data": "1716-01-02",
+    "lugar_id": "P0069"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0150"
+  ],
+  "familias_como_pai": [
+    "F0047"
+  ],
+  "media": [
+    "O0333"
+  ],
+  "notas": null,
+  "citacoes": null
+}

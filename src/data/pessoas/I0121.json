@@ -1,0 +1,31 @@
+{
+  "id": "I0121",
+  "protegida": false,
+  "nome": "André Rodrigues",
+  "nome_proprio": "André",
+  "apelido": "Rodrigues",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1665-10-06",
+    "lugar_id": "P0038"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0061"
+  ],
+  "media": [
+    "O0286"
+  ],
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "Há um casamento de uma Maria Dinis, em 10 Fevereiro 1664 em que dizer ser filha de um André Rodrigues Tanoeiro e de Maria Dinos, todos de Famalicão."
+    }
+  ],
+  "citacoes": null
+}

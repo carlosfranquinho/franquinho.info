@@ -1,0 +1,29 @@
+{
+  "id": "I1168",
+  "protegida": false,
+  "nome": "António Fernandes",
+  "nome_proprio": "António",
+  "apelido": "Fernandes",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1681-03-10",
+    "lugar_id": "P0097"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0341"
+  ],
+  "familias_como_pai": [
+    "F0342",
+    "F0336"
+  ],
+  "media": [
+    "O0940"
+  ],
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,31 @@
+{
+  "id": "I0043",
+  "protegida": false,
+  "nome": "Manuel Pereira",
+  "nome_proprio": "Manuel",
+  "apelido": "Pereira",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0015"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0130"
+  ],
+  "familias_como_pai": [
+    "F0021"
+  ],
+  "media": null,
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei pelo falecimento, em Monte Real, entre 1824 e 1866."
+    }
+  ],
+  "citacoes": null
+}

@@ -1,0 +1,29 @@
+{
+  "id": "I0680",
+  "protegida": false,
+  "nome": "António Rodrigues Francisco",
+  "nome_proprio": "António",
+  "apelido": "Rodrigues Francisco",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0090"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1810-03-04",
+    "lugar_id": "P0086"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0201"
+  ],
+  "media": [
+    "O0547"
+  ],
+  "notas": null,
+  "citacoes": null
+}

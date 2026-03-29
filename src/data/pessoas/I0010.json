@@ -1,0 +1,33 @@
+{
+  "id": "I0010",
+  "protegida": false,
+  "nome": "Isabel Faustina",
+  "nome_proprio": "Isabel",
+  "apelido": "Faustina",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1836-06-29",
+    "lugar_id": "P0005"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0010"
+  ],
+  "familias_como_pai": [
+    "F0004"
+  ],
+  "media": [
+    "O0074"
+  ],
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei pelo falecimento de 1881 a 1898 e em 1909-11. Falta procurar de 1899 a 1909. Nalguns registos digitais dos anos que procurei as páginas encontram-se desfocadas/ilegíveis."
+    }
+  ],
+  "citacoes": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "I0545",
+  "protegida": false,
+  "nome": "Maria Madeira",
+  "nome_proprio": "Maria",
+  "apelido": "Madeira",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1671-03-01",
+    "lugar_id": "P0034"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0159"
+  ],
+  "media": [
+    "O0396"
+  ],
+  "notas": null,
+  "citacoes": null
+}

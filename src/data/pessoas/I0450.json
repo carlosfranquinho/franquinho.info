@@ -1,0 +1,26 @@
+{
+  "id": "I0450",
+  "protegida": false,
+  "nome": "José",
+  "nome_proprio": "José",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1726-03-08",
+    "lugar_id": "P0025"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0036"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0264"
+  ],
+  "notas": null,
+  "citacoes": null
+}

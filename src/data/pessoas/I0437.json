@@ -1,0 +1,26 @@
+{
+  "id": "I0437",
+  "protegida": false,
+  "nome": "Joana Maria",
+  "nome_proprio": "Joana Maria",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1842-05-09",
+    "lugar_id": "P0002"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0140"
+  ],
+  "media": [
+    "O0244"
+  ],
+  "notas": null,
+  "citacoes": null
+}

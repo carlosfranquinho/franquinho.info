@@ -1,0 +1,27 @@
+{
+  "id": "I0991",
+  "protegida": false,
+  "nome": "Paulo Jorge Franquinho Tomás",
+  "nome_proprio": "Paulo Jorge",
+  "apelido": "Franquinho Tomás",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1970-02-16",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1978-02-06",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0276"
+  ],
+  "familias_como_pai": null,
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

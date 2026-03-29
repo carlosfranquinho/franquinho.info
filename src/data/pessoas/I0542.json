@@ -1,0 +1,26 @@
+{
+  "id": "I0542",
+  "protegida": false,
+  "nome": "Alexandrino",
+  "nome_proprio": "Alexandrino",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": {
+    "data": "1700-09-16",
+    "lugar_id": "P0034"
+  },
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0158"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0388"
+  ],
+  "notas": null,
+  "citacoes": null
+}

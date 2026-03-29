@@ -1,0 +1,28 @@
+{
+  "id": "I0583",
+  "protegida": false,
+  "nome": "Quitéria Maria",
+  "nome_proprio": "Quitéria",
+  "apelido": "Maria",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1728-01-23",
+    "lugar_id": "P0036"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0069"
+  ],
+  "familias_como_pai": [
+    "F0170"
+  ],
+  "media": [
+    "O0430"
+  ],
+  "notas": null,
+  "citacoes": null
+}

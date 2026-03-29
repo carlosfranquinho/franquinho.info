@@ -1,0 +1,30 @@
+{
+  "id": "F0066",
+  "pai": "I0131",
+  "mae": "I0132",
+  "filhos": [
+    "I0470",
+    "I0472",
+    "I0474",
+    "I0476",
+    "I0478",
+    "I0481",
+    "I0482",
+    "I0483",
+    "I0079"
+  ],
+  "tipo_relacao": "Married",
+  "casamento": {
+    "data": "1676-01-19",
+    "lugar_id": "P0027"
+  },
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei por filhos até 1908, em S. M."
+    }
+  ],
+  "media": [
+    "O0294"
+  ]
+}

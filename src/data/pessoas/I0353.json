@@ -1,0 +1,26 @@
+{
+  "id": "I0353",
+  "protegida": false,
+  "nome": "José",
+  "nome_proprio": "José",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1822-03-18",
+    "lugar_id": "P0005"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0009"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0123"
+  ],
+  "notas": null,
+  "citacoes": null
+}

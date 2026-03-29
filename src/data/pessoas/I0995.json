@@ -1,0 +1,21 @@
+{
+  "id": "I0995",
+  "protegida": true,
+  "sexo": "M",
+  "nome": "Familiar",
+  "apelido": "Tomás Pedrosa",
+  "nascimento": {
+    "data": "2004-05-31",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0278"
+  ],
+  "familias_como_pai": null,
+  "relacoes": [
+    "F0278"
+  ]
+}

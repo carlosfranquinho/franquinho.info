@@ -1,0 +1,31 @@
+{
+  "id": "I0013",
+  "protegida": false,
+  "nome": "José Pontes",
+  "nome_proprio": "José",
+  "apelido": "Pontes",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1836",
+    "lugar_id": "P0009"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1873-09-02",
+    "lugar_id": "P0002"
+  },
+  "sepultura": null,
+  "profissao": "Trabalhador",
+  "familias_como_filho": [
+    "F0013"
+  ],
+  "familias_como_pai": [
+    "F0006"
+  ],
+  "media": [
+    "O0060"
+  ],
+  "notas": null,
+  "citacoes": null
+}

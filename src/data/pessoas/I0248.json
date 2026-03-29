@@ -1,0 +1,21 @@
+{
+  "id": "I0248",
+  "protegida": true,
+  "sexo": "M",
+  "nome": "Familiar",
+  "apelido": "Lopes Luís",
+  "nascimento": {
+    "data": "1979-01-26",
+    "lugar_id": "P0050"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0092"
+  ],
+  "familias_como_pai": null,
+  "relacoes": [
+    "F0092"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "I0840",
+  "protegida": false,
+  "nome": "Pedro Soares",
+  "nome_proprio": "Pedro",
+  "apelido": "Soares",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0235"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

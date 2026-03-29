@@ -1,0 +1,29 @@
+{
+  "id": "I0647",
+  "protegida": false,
+  "nome": "Heitor Marques Gaspar",
+  "nome_proprio": "Heitor",
+  "apelido": "Marques Gaspar",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1913-12-10",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1997-02-13",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0193"
+  ],
+  "media": [
+    "O0797"
+  ],
+  "notas": null,
+  "citacoes": null
+}

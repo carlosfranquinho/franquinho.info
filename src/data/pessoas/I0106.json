@@ -1,0 +1,31 @@
+{
+  "id": "I0106",
+  "protegida": false,
+  "nome": "Maria Antónia",
+  "nome_proprio": "Maria",
+  "apelido": "Antónia",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1763-08-04",
+    "lugar_id": "P0036"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1829-11-29",
+    "lugar_id": "P0036"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0054"
+  ],
+  "familias_como_pai": [
+    "F0052"
+  ],
+  "media": [
+    "O0407"
+  ],
+  "notas": null,
+  "citacoes": null
+}

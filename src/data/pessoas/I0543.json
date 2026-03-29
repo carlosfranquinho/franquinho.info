@@ -1,0 +1,26 @@
+{
+  "id": "I0543",
+  "protegida": false,
+  "nome": "Paulina",
+  "nome_proprio": "Paulina",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": {
+    "data": "1703-12-30",
+    "lugar_id": "P0034"
+  },
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0158"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0389"
+  ],
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "I0969",
+  "protegida": false,
+  "nome": "Maria",
+  "nome_proprio": "Maria",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1779-05-14",
+    "lugar_id": "P0104"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0250"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0776"
+  ],
+  "notas": null,
+  "citacoes": null
+}

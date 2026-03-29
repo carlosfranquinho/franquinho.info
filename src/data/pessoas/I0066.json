@@ -1,0 +1,33 @@
+{
+  "id": "I0066",
+  "protegida": false,
+  "nome": "Josefa Maria",
+  "nome_proprio": "Josefa Maria",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1821-07-31",
+    "lugar_id": "P0005"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0037"
+  ],
+  "familias_como_pai": [
+    "F0032"
+  ],
+  "media": [
+    "O0130"
+  ],
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei pelo nascimento (ou do de irmãos), na Cela, no livro 1701-43."
+    }
+  ],
+  "citacoes": null
+}

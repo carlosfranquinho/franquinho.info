@@ -1,0 +1,24 @@
+{
+  "id": "I0249",
+  "protegida": false,
+  "nome": "Christina Suzan Wolf",
+  "nome_proprio": "Christina Suzan",
+  "apelido": "Wolf",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1975-02-20",
+    "lugar_id": "P0051"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0093"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

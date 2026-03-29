@@ -1,0 +1,24 @@
+{
+  "id": "I1484",
+  "protegida": false,
+  "nome": "Josefa",
+  "nome_proprio": "Josefa",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1762-06-29",
+    "lugar_id": "P0105"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0325"
+  ],
+  "familias_como_pai": null,
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

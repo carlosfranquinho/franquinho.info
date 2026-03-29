@@ -1,0 +1,32 @@
+{
+  "id": "I0685",
+  "protegida": false,
+  "nome": "Maria de Jesus",
+  "nome_proprio": "Maria",
+  "apelido": "de Jesus",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1827-11-03",
+    "lugar_id": "P0092"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1867-01-31",
+    "lugar_id": "P0091"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0206"
+  ],
+  "familias_como_pai": [
+    "F0202"
+  ],
+  "media": [
+    "O0575",
+    "O0917"
+  ],
+  "notas": null,
+  "citacoes": null
+}

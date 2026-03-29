@@ -1,0 +1,36 @@
+{
+  "id": "I0117",
+  "protegida": false,
+  "nome": "João Simões",
+  "nome_proprio": "João",
+  "apelido": "Simões",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0139"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1712-08-02",
+    "lugar_id": "P0025"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0062"
+  ],
+  "familias_como_pai": [
+    "F0059"
+  ],
+  "media": [
+    "O0278"
+  ],
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procure pelo falecimento, em famalicão, desde 1738 a 1790"
+    }
+  ],
+  "citacoes": null
+}

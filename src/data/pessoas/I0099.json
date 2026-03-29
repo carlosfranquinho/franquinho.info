@@ -1,0 +1,21 @@
+{
+  "id": "I0099",
+  "protegida": false,
+  "nome": "Maria Clara",
+  "nome_proprio": "Maria Clara",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0048"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

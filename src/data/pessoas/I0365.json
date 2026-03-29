@@ -1,0 +1,26 @@
+{
+  "id": "I0365",
+  "protegida": false,
+  "nome": "Joaquina",
+  "nome_proprio": "Joaquina",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1839-01-13",
+    "lugar_id": "P0007"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0011"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0151"
+  ],
+  "notas": null,
+  "citacoes": null
+}

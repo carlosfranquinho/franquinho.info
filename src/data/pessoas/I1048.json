@@ -1,0 +1,31 @@
+{
+  "id": "I1048",
+  "protegida": false,
+  "nome": "Vitória Jorge",
+  "nome_proprio": "Vitória",
+  "apelido": "Jorge",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1862-11-18",
+    "lugar_id": "P0002"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0298"
+  ],
+  "familias_como_pai": [
+    "F0296"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": [
+    {
+      "fonte": "Batismos de Amor (1859 a 1869)",
+      "pagina": "ficheiro 44/149"
+    }
+  ]
+}

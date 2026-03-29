@@ -1,0 +1,26 @@
+{
+  "id": "I0366",
+  "protegida": false,
+  "nome": "Emília",
+  "nome_proprio": "Emília",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1841-03-08",
+    "lugar_id": "P0007"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0011"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0152"
+  ],
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "I1393",
+  "protegida": false,
+  "nome": "Francisco",
+  "nome_proprio": "Francisco",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1682-07-22",
+    "lugar_id": "P0131"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0387"
+  ],
+  "familias_como_pai": null,
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

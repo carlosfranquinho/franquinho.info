@@ -1,0 +1,18 @@
+{
+  "id": "F0053",
+  "pai": "I0107",
+  "mae": "I0108",
+  "filhos": [
+    "I0105",
+    "I0566"
+  ],
+  "tipo_relacao": "Married",
+  "casamento": null,
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "Procurei pelo falecimento de ambos, desde 1747 a 1808, em Mafra."
+    }
+  ],
+  "media": null
+}

@@ -1,0 +1,18 @@
+{
+  "id": "I0326",
+  "protegida": true,
+  "sexo": "F",
+  "nome": "Familiar",
+  "apelido": "Santos Ferreira",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0119"
+  ],
+  "relacoes": [
+    "F0119"
+  ]
+}

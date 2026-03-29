@@ -1,0 +1,30 @@
+{
+  "id": "I0643",
+  "protegida": false,
+  "nome": "José Rodrigues Romeiro",
+  "nome_proprio": "José",
+  "apelido": "Rodrigues Romeiro",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1863-12-28",
+    "lugar_id": "P0003"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1885-12-08",
+    "lugar_id": "P0003"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0190"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0501",
+    "O0513"
+  ],
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,32 @@
+{
+  "id": "I0732",
+  "protegida": false,
+  "nome": "Manuel Fernandes",
+  "nome_proprio": "Manuel",
+  "apelido": "Fernandes",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1731-03-04",
+    "lugar_id": "P0080"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1779-07-25",
+    "lugar_id": "P0080"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0214"
+  ],
+  "familias_como_pai": [
+    "F0213"
+  ],
+  "media": [
+    "O0944",
+    "O0632"
+  ],
+  "notas": null,
+  "citacoes": null
+}

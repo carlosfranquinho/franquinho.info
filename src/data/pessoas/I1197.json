@@ -1,0 +1,21 @@
+{
+  "id": "I1197",
+  "protegida": false,
+  "nome": "Isabel de Abreu",
+  "nome_proprio": "Isabel",
+  "apelido": "de Abreu",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0344"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

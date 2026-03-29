@@ -1,0 +1,21 @@
+{
+  "id": "I0302",
+  "protegida": true,
+  "sexo": "F",
+  "nome": "Familiar",
+  "apelido": "Gonçalves Couto",
+  "nascimento": {
+    "data": "1996-04-23",
+    "lugar_id": "P0055"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0109"
+  ],
+  "familias_como_pai": null,
+  "relacoes": [
+    "F0109"
+  ]
+}

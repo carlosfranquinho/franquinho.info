@@ -1,0 +1,27 @@
+{
+  "id": "I0178",
+  "protegida": false,
+  "nome": "José Gaspar",
+  "nome_proprio": "José",
+  "apelido": "Gaspar",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1864",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1946-07-01",
+    "lugar_id": "P0002"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0080"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

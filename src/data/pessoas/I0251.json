@@ -1,0 +1,21 @@
+{
+  "id": "I0251",
+  "protegida": true,
+  "sexo": "F",
+  "nome": "Familiar",
+  "apelido": "Ferreira Gil",
+  "nascimento": {
+    "data": "1955-01-17",
+    "lugar_id": "P0052"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0094"
+  ],
+  "relacoes": [
+    "F0094"
+  ]
+}

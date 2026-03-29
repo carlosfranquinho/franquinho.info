@@ -1,0 +1,23 @@
+{
+  "id": "I0554",
+  "protegida": false,
+  "nome": "Mariana dos Santos",
+  "nome_proprio": "Mariana",
+  "apelido": "dos Santos",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0058"
+  ],
+  "familias_como_pai": [
+    "F0164"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

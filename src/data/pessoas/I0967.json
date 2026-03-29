@@ -1,0 +1,26 @@
+{
+  "id": "I0967",
+  "protegida": false,
+  "nome": "Teresa",
+  "nome_proprio": "Teresa",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1776-10-08",
+    "lugar_id": "P0076"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0251"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0774"
+  ],
+  "notas": null,
+  "citacoes": null
+}

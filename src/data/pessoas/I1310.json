@@ -1,0 +1,26 @@
+{
+  "id": "I1310",
+  "protegida": false,
+  "nome": "Domingos dos Santos",
+  "nome_proprio": "Domingos",
+  "apelido": "dos Santos",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1731-09-23",
+    "lugar_id": "P0127"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0373"
+  ],
+  "media": [
+    "O0979"
+  ],
+  "notas": null,
+  "citacoes": null
+}

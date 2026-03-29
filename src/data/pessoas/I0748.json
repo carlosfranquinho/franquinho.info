@@ -1,0 +1,21 @@
+{
+  "id": "I0748",
+  "protegida": false,
+  "nome": "Jerónima Dias",
+  "nome_proprio": "Jerónima",
+  "apelido": "Dias",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0215"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "I1124",
+  "protegida": false,
+  "nome": "João Dias",
+  "nome_proprio": "João",
+  "apelido": "Dias",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1699-07-25",
+    "lugar_id": "P0076"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0326"
+  ],
+  "media": [
+    "O0924"
+  ],
+  "notas": null,
+  "citacoes": null
+}

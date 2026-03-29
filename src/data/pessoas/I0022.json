@@ -1,0 +1,37 @@
+{
+  "id": "I0022",
+  "protegida": false,
+  "nome": "Joaquina Nobre",
+  "nome_proprio": "Joaquina",
+  "apelido": "Nobre",
+  "nomes_alt": [
+    {
+      "tipo": "Also Known As",
+      "nome": "Joaquina Faustina Nobre"
+    }
+  ],
+  "sexo": "F",
+  "nascimento": {
+    "data": "1800-11-26",
+    "lugar_id": "P0005"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1878-11-03",
+    "lugar_id": "P0005"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0019"
+  ],
+  "familias_como_pai": [
+    "F0010"
+  ],
+  "media": [
+    "O0136",
+    "O0080"
+  ],
+  "notas": null,
+  "citacoes": null
+}

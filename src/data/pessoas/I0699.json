@@ -1,0 +1,29 @@
+{
+  "id": "I0699",
+  "protegida": false,
+  "nome": "Manuel Francisco Malhão",
+  "nome_proprio": "Manuel Francisco",
+  "apelido": "Malhão",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0001"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1812-01-06",
+    "lugar_id": "P0091"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0205"
+  ],
+  "media": [
+    "O0573"
+  ],
+  "notas": null,
+  "citacoes": null
+}

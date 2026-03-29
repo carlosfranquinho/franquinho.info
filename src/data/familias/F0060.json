@@ -1,0 +1,21 @@
+{
+  "id": "F0060",
+  "pai": "I0119",
+  "mae": "I0120",
+  "filhos": [
+    "I0115",
+    "I0459",
+    "I0460",
+    "I0461",
+    "I0462"
+  ],
+  "tipo_relacao": "Married",
+  "casamento": null,
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei por filhos, em Alfeizerão, até 1676"
+    }
+  ],
+  "media": null
+}

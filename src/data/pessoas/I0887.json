@@ -1,0 +1,25 @@
+{
+  "id": "I0887",
+  "protegida": false,
+  "nome": "José Francisco Leal",
+  "nome_proprio": "José",
+  "apelido": "Francisco Leal",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0245"
+  ],
+  "familias_como_pai": [
+    "F0244"
+  ],
+  "media": [
+    "O0742"
+  ],
+  "notas": null,
+  "citacoes": null
+}

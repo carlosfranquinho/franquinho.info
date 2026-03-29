@@ -1,0 +1,26 @@
+{
+  "id": "I0901",
+  "protegida": false,
+  "nome": "José",
+  "nome_proprio": "José",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1848-09-11",
+    "lugar_id": "P0076"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0247"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0753"
+  ],
+  "notas": null,
+  "citacoes": null
+}

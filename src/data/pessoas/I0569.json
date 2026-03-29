@@ -1,0 +1,26 @@
+{
+  "id": "I0569",
+  "protegida": false,
+  "nome": "Felisberto",
+  "nome_proprio": "Felisberto",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1764-10-02",
+    "lugar_id": "P0036"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0054"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0408"
+  ],
+  "notas": null,
+  "citacoes": null
+}

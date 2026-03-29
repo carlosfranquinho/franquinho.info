@@ -1,0 +1,27 @@
+{
+  "id": "F0209",
+  "pai": "I0719",
+  "mae": "I0720",
+  "filhos": [
+    "I0721",
+    "I0722",
+    "I0723",
+    "I0724",
+    "I0627",
+    "I0725"
+  ],
+  "tipo_relacao": "Married",
+  "casamento": {
+    "data": "1821-11-20",
+    "lugar_id": "P0081"
+  },
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "faltam folhas (1826, 27, 28) nos registos online."
+    }
+  ],
+  "media": [
+    "O0590"
+  ]
+}

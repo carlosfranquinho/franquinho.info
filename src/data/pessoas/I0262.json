@@ -1,0 +1,21 @@
+{
+  "id": "I0262",
+  "protegida": true,
+  "sexo": "F",
+  "nome": "Familiar",
+  "apelido": "Gaspar Gonzalez",
+  "nascimento": {
+    "data": "1985-08-21",
+    "lugar_id": "P0053"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0096"
+  ],
+  "familias_como_pai": null,
+  "relacoes": [
+    "F0096"
+  ]
+}

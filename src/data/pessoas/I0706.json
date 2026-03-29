@@ -1,0 +1,29 @@
+{
+  "id": "I0706",
+  "protegida": false,
+  "nome": "Maria Joaquina",
+  "nome_proprio": "Maria",
+  "apelido": "Joaquina",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0019"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0207"
+  ],
+  "media": null,
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei pelo óbito, na Ruivaqueira, até 1881"
+    }
+  ],
+  "citacoes": null
+}

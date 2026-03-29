@@ -1,0 +1,26 @@
+{
+  "id": "I0093",
+  "protegida": false,
+  "nome": "Francisca da Silva",
+  "nome_proprio": "Francisca",
+  "apelido": "da Silva",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1789-03-16",
+    "lugar_id": "P0033"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0045"
+  ],
+  "media": [
+    "O0406"
+  ],
+  "notas": null,
+  "citacoes": null
+}

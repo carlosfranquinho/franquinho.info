@@ -1,0 +1,26 @@
+{
+  "id": "I0564",
+  "protegida": false,
+  "nome": "Joaquina",
+  "nome_proprio": "Joaquina",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1744-03-21",
+    "lugar_id": "P0033"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0045"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0402"
+  ],
+  "notas": null,
+  "citacoes": null
+}

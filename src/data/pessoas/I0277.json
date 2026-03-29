@@ -1,0 +1,27 @@
+{
+  "id": "I0277",
+  "protegida": true,
+  "sexo": "F",
+  "nome": "Familiar",
+  "apelido": "Ferreira",
+  "nascimento": {
+    "data": "1925-02-17",
+    "lugar_id": "P0002"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "2010-09-26",
+    "lugar_id": "P0141"
+  },
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0071"
+  ],
+  "familias_como_pai": [
+    "F0118"
+  ],
+  "relacoes": [
+    "F0118",
+    "F0071"
+  ]
+}

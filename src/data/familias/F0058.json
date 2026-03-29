@@ -1,0 +1,28 @@
+{
+  "id": "F0058",
+  "pai": "I0115",
+  "mae": "I0116",
+  "filhos": [
+    "I0073",
+    "I0548",
+    "I0550",
+    "I0552",
+    "I0554",
+    "I0556",
+    "I0558"
+  ],
+  "tipo_relacao": "Married",
+  "casamento": {
+    "data": "1672-10-24",
+    "lugar_id": "P0025"
+  },
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei por filhos em Famalicão até 1716"
+    }
+  ],
+  "media": [
+    "O0270"
+  ]
+}

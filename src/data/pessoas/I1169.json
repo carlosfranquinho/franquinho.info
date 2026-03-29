@@ -1,0 +1,33 @@
+{
+  "id": "I1169",
+  "protegida": false,
+  "nome": "Luísa Fernandes",
+  "nome_proprio": "Luísa",
+  "apelido": "Fernandes",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1692-08-23",
+    "lugar_id": "P0097"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0343"
+  ],
+  "familias_como_pai": [
+    "F0336"
+  ],
+  "media": [
+    "O0941"
+  ],
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "o reg de óbito diz ser viuva do \"Tanoeiro\" do Outeiro. Será?"
+    }
+  ],
+  "citacoes": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "I1284",
+  "protegida": false,
+  "nome": "Manuel",
+  "nome_proprio": "Manuel",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1661-04-18",
+    "lugar_id": "P0125"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0364"
+  ],
+  "familias_como_pai": null,
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

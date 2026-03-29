@@ -1,0 +1,38 @@
+{
+  "id": "I0184",
+  "protegida": false,
+  "nome": "Emília Silva",
+  "nome_proprio": "Emília",
+  "apelido": "Silva",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1902-09-13",
+    "lugar_id": "P0047"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1987-12-05",
+    "lugar_id": "P0003"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0005"
+  ],
+  "familias_como_pai": [
+    "F0081"
+  ],
+  "media": [
+    "O1040",
+    "O1062",
+    "O0806"
+  ],
+  "notas": null,
+  "citacoes": [
+    {
+      "fonte": "Batismos de Amor (1902 a1905)",
+      "pagina": "ficheiro 15/99"
+    }
+  ]
+}

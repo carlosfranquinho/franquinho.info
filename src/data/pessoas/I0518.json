@@ -1,0 +1,26 @@
+{
+  "id": "I0518",
+  "protegida": false,
+  "nome": "Catarina Dias",
+  "nome_proprio": "Catarina",
+  "apelido": "Dias",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1666-10-10",
+    "lugar_id": "P0031"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0154"
+  ],
+  "media": [
+    "O0358"
+  ],
+  "notas": null,
+  "citacoes": null
+}

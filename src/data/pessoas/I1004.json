@@ -1,0 +1,27 @@
+{
+  "id": "I1004",
+  "protegida": false,
+  "nome": "Conceição",
+  "nome_proprio": "Conceição",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1895-06-05",
+    "lugar_id": "P0002"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1918-10-22",
+    "lugar_id": "P0002"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0280"
+  ],
+  "familias_como_pai": null,
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

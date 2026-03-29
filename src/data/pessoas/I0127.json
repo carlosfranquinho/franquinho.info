@@ -1,0 +1,24 @@
+{
+  "id": "I0127",
+  "protegida": false,
+  "nome": "António Simões",
+  "nome_proprio": "António",
+  "apelido": "Simões",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1663-02-04",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0064"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

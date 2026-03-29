@@ -1,0 +1,24 @@
+{
+  "id": "I1464",
+  "protegida": false,
+  "nome": "Brás",
+  "nome_proprio": "Brás",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1692-01-18",
+    "lugar_id": "P0134"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0403"
+  ],
+  "familias_como_pai": null,
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

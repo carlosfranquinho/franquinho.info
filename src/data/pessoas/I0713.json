@@ -1,0 +1,26 @@
+{
+  "id": "I0713",
+  "protegida": false,
+  "nome": "Rita",
+  "nome_proprio": "Rita",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1839-10-20",
+    "lugar_id": "P0092"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0206"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0580"
+  ],
+  "notas": null,
+  "citacoes": null
+}

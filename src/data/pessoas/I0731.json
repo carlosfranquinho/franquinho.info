@@ -1,0 +1,33 @@
+{
+  "id": "I0731",
+  "protegida": false,
+  "nome": "Catarina Domingues",
+  "nome_proprio": "Catarina",
+  "apelido": "Domingues",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1730-12-24",
+    "lugar_id": "P0097"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0217"
+  ],
+  "familias_como_pai": [
+    "F0212"
+  ],
+  "media": [
+    "O0927"
+  ],
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei pelo óbito, na Mata Mourisca, até 1880"
+    }
+  ],
+  "citacoes": null
+}

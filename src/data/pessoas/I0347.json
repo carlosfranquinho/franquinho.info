@@ -1,0 +1,26 @@
+{
+  "id": "I0347",
+  "protegida": false,
+  "nome": "Ana",
+  "nome_proprio": "Ana",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1765-04-01",
+    "lugar_id": "P0005"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0032"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0116"
+  ],
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,21 @@
+{
+  "id": "I0648",
+  "protegida": true,
+  "sexo": "M",
+  "nome": "Familiar",
+  "apelido": "Sintra Rodrigues Romeiro",
+  "nascimento": {
+    "data": "1953-01-22",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0184"
+  ],
+  "familias_como_pai": null,
+  "relacoes": [
+    "F0184"
+  ]
+}

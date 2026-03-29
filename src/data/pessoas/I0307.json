@@ -1,0 +1,29 @@
+{
+  "id": "I0307",
+  "protegida": false,
+  "nome": "Matilde Marques Caseiro",
+  "nome_proprio": "Matilde",
+  "apelido": "Marques Caseiro",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1931-11-03",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "2005-03-10",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0112"
+  ],
+  "media": [
+    "O0443"
+  ],
+  "notas": null,
+  "citacoes": null
+}

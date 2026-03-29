@@ -1,0 +1,27 @@
+{
+  "id": "I1006",
+  "protegida": true,
+  "sexo": "F",
+  "nome": "Familiar",
+  "apelido": "da Silva Franquinho",
+  "nascimento": {
+    "data": "1937-12-05",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "2024-01-15",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0002"
+  ],
+  "familias_como_pai": [
+    "F0283"
+  ],
+  "relacoes": [
+    "F0002",
+    "F0283"
+  ]
+}

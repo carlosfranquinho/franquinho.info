@@ -1,0 +1,32 @@
+{
+  "id": "I0900",
+  "protegida": false,
+  "nome": "Josefa Maria",
+  "nome_proprio": "Josefa",
+  "apelido": "Maria",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1821-10-15",
+    "lugar_id": "P0096"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1870-04-21",
+    "lugar_id": "P0076"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0249"
+  ],
+  "familias_como_pai": [
+    "F0247"
+  ],
+  "media": [
+    "O0895",
+    "O0758"
+  ],
+  "notas": null,
+  "citacoes": null
+}

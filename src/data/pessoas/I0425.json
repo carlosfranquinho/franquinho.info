@@ -1,0 +1,26 @@
+{
+  "id": "I0425",
+  "protegida": false,
+  "nome": "Manuel",
+  "nome_proprio": "Manuel",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1810-09-24",
+    "lugar_id": "P0019"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0025"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0221"
+  ],
+  "notas": null,
+  "citacoes": null
+}

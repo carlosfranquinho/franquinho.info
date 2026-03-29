@@ -1,0 +1,21 @@
+{
+  "id": "I0567",
+  "protegida": false,
+  "nome": "Isabel de Sousa",
+  "nome_proprio": "Isabel",
+  "apelido": "de Sousa",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0167"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

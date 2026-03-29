@@ -1,0 +1,26 @@
+{
+  "id": "F0327",
+  "pai": "I1126",
+  "mae": "I1127",
+  "filhos": [
+    "I0754",
+    "I1132",
+    "I1135",
+    "I1136",
+    "I1141"
+  ],
+  "tipo_relacao": "Married",
+  "casamento": {
+    "data": "1694-02-25",
+    "lugar_id": "P0079"
+  },
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "só procurei por filhos até 1711 inclusive. falta daí para diante."
+    }
+  ],
+  "media": [
+    "O0913"
+  ]
+}

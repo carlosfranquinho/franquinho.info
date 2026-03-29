@@ -1,0 +1,26 @@
+{
+  "id": "I0172",
+  "protegida": false,
+  "nome": "Joaquina Ferreira",
+  "nome_proprio": "Joaquina",
+  "apelido": "Ferreira",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1852-07-03",
+    "lugar_id": "P0008"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0012"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0173"
+  ],
+  "notas": null,
+  "citacoes": null
+}

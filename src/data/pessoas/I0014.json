@@ -1,0 +1,38 @@
+{
+  "id": "I0014",
+  "protegida": false,
+  "nome": "Tomásia Serrana",
+  "nome_proprio": "Tomásia",
+  "apelido": "Serrana",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1840-06-27",
+    "lugar_id": "P0021"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1920-02-26",
+    "lugar_id": "P0002"
+  },
+  "sepultura": null,
+  "profissao": "Doméstica",
+  "familias_como_filho": [
+    "F0014"
+  ],
+  "familias_como_pai": [
+    "F0006",
+    "F0388"
+  ],
+  "media": [
+    "O0226",
+    "O0097"
+  ],
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei pelo falecimento entre 1873 e 1911"
+    }
+  ],
+  "citacoes": null
+}

@@ -1,0 +1,23 @@
+{
+  "id": "I1285",
+  "protegida": false,
+  "nome": "Matias Mendes",
+  "nome_proprio": "Matias",
+  "apelido": "Mendes",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0370"
+  ],
+  "familias_como_pai": [
+    "F0369"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

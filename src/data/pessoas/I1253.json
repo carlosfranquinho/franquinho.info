@@ -1,0 +1,24 @@
+{
+  "id": "I1253",
+  "protegida": false,
+  "nome": "Francisca",
+  "nome_proprio": "Francisca",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1730-06-13",
+    "lugar_id": "P0096"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0215"
+  ],
+  "familias_como_pai": null,
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

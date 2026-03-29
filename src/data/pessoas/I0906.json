@@ -1,0 +1,31 @@
+{
+  "id": "I0906",
+  "protegida": false,
+  "nome": "José Manuel",
+  "nome_proprio": "José",
+  "apelido": "Manuel",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1784-12-22",
+    "lugar_id": "P0096"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1850-06-15",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0252"
+  ],
+  "familias_como_pai": [
+    "F0249"
+  ],
+  "media": [
+    "O0902"
+  ],
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,29 @@
+{
+  "id": "I1503",
+  "protegida": false,
+  "nome": "Manuel da Costa Rico",
+  "nome_proprio": "Manuel",
+  "apelido": "da Costa Rico",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1921-11-09",
+    "lugar_id": "P0079"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1971-12-18",
+    "lugar_id": "P0176"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0186"
+  ],
+  "familias_como_pai": [
+    "F0414"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

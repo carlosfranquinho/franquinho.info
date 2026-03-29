@@ -1,0 +1,18 @@
+{
+  "id": "I0319",
+  "protegida": true,
+  "sexo": "F",
+  "nome": "Familiar",
+  "apelido": "Ferreira dos Santos",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0117"
+  ],
+  "relacoes": [
+    "F0117"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "I1215",
+  "protegida": false,
+  "nome": "António João",
+  "nome_proprio": "António",
+  "apelido": "João",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1681-05-07",
+    "lugar_id": "P0104"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0352"
+  ],
+  "familias_como_pai": [
+    "F0349"
+  ],
+  "media": [
+    "O0951"
+  ],
+  "notas": null,
+  "citacoes": null
+}

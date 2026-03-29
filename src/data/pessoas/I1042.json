@@ -1,0 +1,21 @@
+{
+  "id": "I1042",
+  "protegida": true,
+  "sexo": "F",
+  "nome": "Familiar",
+  "apelido": "Dailhau",
+  "nascimento": {
+    "data": "1982-01-15",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0295"
+  ],
+  "relacoes": [
+    "F0295"
+  ]
+}

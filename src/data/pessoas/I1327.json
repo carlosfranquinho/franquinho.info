@@ -1,0 +1,24 @@
+{
+  "id": "I1327",
+  "protegida": false,
+  "nome": "Ana",
+  "nome_proprio": "Ana",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1732-04-06",
+    "lugar_id": "P0128"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0372"
+  ],
+  "familias_como_pai": null,
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

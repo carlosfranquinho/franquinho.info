@@ -1,0 +1,18 @@
+{
+  "id": "F0034",
+  "pai": "I0069",
+  "mae": "I0070",
+  "filhos": [
+    "I0979",
+    "I0037"
+  ],
+  "tipo_relacao": "Married",
+  "casamento": null,
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "Há um casamento de um Aleixo Rodrigues com uma Maria Marques em Famalicão em 15 fev 1722. Serão eles? Um primeiro casamento do Aleixo?"
+    }
+  ],
+  "media": null
+}

@@ -1,0 +1,28 @@
+{
+  "id": "I1265",
+  "protegida": false,
+  "nome": "Josefa Maria",
+  "nome_proprio": "Josefa",
+  "apelido": "Maria",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1688-11-06",
+    "lugar_id": "P0079"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0369"
+  ],
+  "familias_como_pai": [
+    "F0363"
+  ],
+  "media": [
+    "O0967"
+  ],
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,27 @@
+{
+  "id": "I0667",
+  "protegida": false,
+  "nome": "Joaquina Dinis",
+  "nome_proprio": "Joaquina",
+  "apelido": "Dinis",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0085"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1811-05-05",
+    "lugar_id": "P0085"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0197"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

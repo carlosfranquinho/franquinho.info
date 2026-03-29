@@ -1,0 +1,24 @@
+{
+  "id": "I1483",
+  "protegida": false,
+  "nome": "José",
+  "nome_proprio": "José",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1766-12-21",
+    "lugar_id": "P0105"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0325"
+  ],
+  "familias_como_pai": null,
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

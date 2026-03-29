@@ -1,0 +1,26 @@
+{
+  "id": "I1207",
+  "protegida": false,
+  "nome": "Manuel",
+  "nome_proprio": "Manuel",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1671-05-17",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0335"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0938"
+  ],
+  "notas": null,
+  "citacoes": null
+}

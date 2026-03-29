@@ -1,0 +1,21 @@
+{
+  "id": "I0258",
+  "protegida": true,
+  "sexo": "M",
+  "nome": "Familiar",
+  "apelido": "Gaspar Gonzalez",
+  "nascimento": {
+    "data": "1977-01-12",
+    "lugar_id": "P0053"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0096"
+  ],
+  "familias_como_pai": null,
+  "relacoes": [
+    "F0096"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "I1343",
+  "protegida": false,
+  "nome": "João Fernandes",
+  "nome_proprio": "João",
+  "apelido": "Fernandes",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0378"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

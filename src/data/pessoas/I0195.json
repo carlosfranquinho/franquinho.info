@@ -1,0 +1,26 @@
+{
+  "id": "I0195",
+  "protegida": false,
+  "nome": "Quitéria",
+  "nome_proprio": "Quitéria",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1891-07-12",
+    "lugar_id": "P0002"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0008"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0057"
+  ],
+  "notas": null,
+  "citacoes": null
+}

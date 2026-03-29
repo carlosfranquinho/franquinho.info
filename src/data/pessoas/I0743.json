@@ -1,0 +1,31 @@
+{
+  "id": "I0743",
+  "protegida": false,
+  "nome": "M",
+  "nome_proprio": "M",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "U",
+  "nascimento": {
+    "data": "1755-07",
+    "lugar_id": "P0080"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0212"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0616"
+  ],
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "Informação do batismo ilegível. Tinta trespassada."
+    }
+  ],
+  "citacoes": null
+}

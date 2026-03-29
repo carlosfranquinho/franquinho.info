@@ -1,0 +1,29 @@
+{
+  "id": "F0131",
+  "pai": "I0382",
+  "mae": "I0383",
+  "filhos": [
+    "I0389",
+    "I0390",
+    "I0388",
+    "I0044"
+  ],
+  "tipo_relacao": "Married",
+  "casamento": {
+    "data": "1764-05-03",
+    "lugar_id": "P0016"
+  },
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei por filhos de 1772 a 1788, em Pombal"
+    },
+    {
+      "tipo": "",
+      "texto": "procurei pelo casamento, em Pombal, de 1770 a 1780. em castanheira, de 1750 a 1780."
+    }
+  ],
+  "media": [
+    "O0166"
+  ]
+}

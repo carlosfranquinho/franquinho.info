@@ -1,0 +1,26 @@
+{
+  "id": "I0897",
+  "protegida": false,
+  "nome": "Josefa",
+  "nome_proprio": "Josefa",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1792-11-20",
+    "lugar_id": "P0103"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0244"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0745"
+  ],
+  "notas": null,
+  "citacoes": null
+}

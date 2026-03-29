@@ -1,0 +1,24 @@
+{
+  "id": "I0727",
+  "protegida": false,
+  "nome": "Teresa Maria",
+  "nome_proprio": "Teresa",
+  "apelido": "Maria",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0076"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0210"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

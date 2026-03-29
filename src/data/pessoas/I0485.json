@@ -1,0 +1,26 @@
+{
+  "id": "I0485",
+  "protegida": false,
+  "nome": "Isabel Nunes",
+  "nome_proprio": "Isabel",
+  "apelido": "Nunes",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1704-08-10",
+    "lugar_id": "P0029"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0146"
+  ],
+  "media": [
+    "O0313"
+  ],
+  "notas": null,
+  "citacoes": null
+}

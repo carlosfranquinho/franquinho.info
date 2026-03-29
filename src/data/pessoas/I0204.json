@@ -1,0 +1,26 @@
+{
+  "id": "I0204",
+  "protegida": false,
+  "nome": "Rita",
+  "nome_proprio": "Rita",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1833-04-22",
+    "lugar_id": "P0005"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0010"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0072"
+  ],
+  "notas": null,
+  "citacoes": null
+}

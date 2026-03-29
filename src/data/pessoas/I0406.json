@@ -1,0 +1,26 @@
+{
+  "id": "I0406",
+  "protegida": false,
+  "nome": "Teresa da Conceição",
+  "nome_proprio": "Teresa",
+  "apelido": "da Conceição",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1833-01-21",
+    "lugar_id": "P0018"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0023"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0191"
+  ],
+  "notas": null,
+  "citacoes": null
+}

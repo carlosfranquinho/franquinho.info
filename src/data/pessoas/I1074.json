@@ -1,0 +1,21 @@
+{
+  "id": "I1074",
+  "protegida": false,
+  "nome": "José Gaspar",
+  "nome_proprio": "José",
+  "apelido": "Gaspar",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0310"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

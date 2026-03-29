@@ -1,0 +1,29 @@
+{
+  "id": "I0424",
+  "protegida": false,
+  "nome": "Maria",
+  "nome_proprio": "Maria",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1799",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1808-05-18",
+    "lugar_id": "P0019"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0024"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0218"
+  ],
+  "notas": null,
+  "citacoes": null
+}

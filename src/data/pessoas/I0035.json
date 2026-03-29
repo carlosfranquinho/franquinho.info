@@ -1,0 +1,34 @@
+{
+  "id": "I0035",
+  "protegida": false,
+  "nome": "Joaquim de São Bernardo",
+  "nome_proprio": "Joaquim",
+  "apelido": "de São Bernardo",
+  "nomes_alt": [
+    {
+      "tipo": "Also Known As",
+      "nome": "Joaquim António"
+    }
+  ],
+  "sexo": "M",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0005"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1819-01-29",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0032"
+  ],
+  "familias_como_pai": [
+    "F0017"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,29 @@
+{
+  "id": "I0140",
+  "protegida": false,
+  "nome": "Manuel Gaspar",
+  "nome_proprio": "Manuel",
+  "apelido": "Gaspar",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1877-05-28",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1952-12-30",
+    "lugar_id": "P0002"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0070"
+  ],
+  "media": [
+    "O0220"
+  ],
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "I0378",
+  "protegida": false,
+  "nome": "Catarina Duarte",
+  "nome_proprio": "Catarina",
+  "apelido": "Duarte",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0014"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0129"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

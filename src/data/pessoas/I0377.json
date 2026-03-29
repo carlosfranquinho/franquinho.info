@@ -1,0 +1,24 @@
+{
+  "id": "I0377",
+  "protegida": false,
+  "nome": "João Domingues Pesqueira",
+  "nome_proprio": "João",
+  "apelido": "Domingues Pesqueira",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0014"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0129"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

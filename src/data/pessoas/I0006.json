@@ -1,0 +1,34 @@
+{
+  "id": "I0006",
+  "protegida": false,
+  "nome": "Conceição da Silva",
+  "nome_proprio": "Conceição",
+  "apelido": "da Silva",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1909-09-21",
+    "lugar_id": "P0002"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1975-11-28",
+    "lugar_id": "P0002"
+  },
+  "sepultura": null,
+  "profissao": "Doméstica",
+  "familias_como_filho": [
+    "F0005"
+  ],
+  "familias_como_pai": [
+    "F0002"
+  ],
+  "media": [
+    "O0732",
+    "O1060",
+    "O1063",
+    "O0048"
+  ],
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,22 @@
+{
+  "id": "F0089",
+  "pai": "I0230",
+  "mae": "I0231",
+  "filhos": [
+    "I0227"
+  ],
+  "tipo_relacao": "Married",
+  "casamento": {
+    "data": "1666-02-15",
+    "lugar_id": "P0025"
+  },
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "dispensados por 3º e 4º grau de consanguinidade"
+    }
+  ],
+  "media": [
+    "O0467"
+  ]
+}

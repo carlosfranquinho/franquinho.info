@@ -1,0 +1,34 @@
+{
+  "id": "I0074",
+  "protegida": false,
+  "nome": "Maria de São Bernardo",
+  "nome_proprio": "Maria",
+  "apelido": "de São Bernardo",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1696-07-10",
+    "lugar_id": "P0025"
+  },
+  "baptismo": {
+    "data": "1696-07-15",
+    "lugar_id": "P0025"
+  },
+  "obito": {
+    "data": "1747-10-01",
+    "lugar_id": "P0025"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0059"
+  ],
+  "familias_como_pai": [
+    "F0036"
+  ],
+  "media": [
+    "O0271"
+  ],
+  "notas": null,
+  "citacoes": null
+}

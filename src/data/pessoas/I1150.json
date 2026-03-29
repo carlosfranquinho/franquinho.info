@@ -1,0 +1,24 @@
+{
+  "id": "I1150",
+  "protegida": false,
+  "nome": "Isabel",
+  "nome_proprio": "Isabel",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1667-05-22",
+    "lugar_id": "P0113"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0328"
+  ],
+  "familias_como_pai": null,
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

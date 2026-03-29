@@ -1,0 +1,26 @@
+{
+  "id": "I0575",
+  "protegida": false,
+  "nome": "António",
+  "nome_proprio": "António",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": {
+    "data": "1714-09-12",
+    "lugar_id": "P0071"
+  },
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0068"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0418"
+  ],
+  "notas": null,
+  "citacoes": null
+}

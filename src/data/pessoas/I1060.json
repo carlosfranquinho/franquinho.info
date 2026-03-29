@@ -1,0 +1,23 @@
+{
+  "id": "I1060",
+  "protegida": false,
+  "nome": "Teresa de jesus",
+  "nome_proprio": "Teresa de jesus",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0309"
+  ],
+  "familias_como_pai": [
+    "F0302"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

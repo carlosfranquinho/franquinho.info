@@ -1,0 +1,28 @@
+{
+  "id": "I0083",
+  "protegida": false,
+  "nome": "Maria Marques",
+  "nome_proprio": "Maria",
+  "apelido": "Marques",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1737-09-18",
+    "lugar_id": "P0034"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0043"
+  ],
+  "familias_como_pai": [
+    "F0040"
+  ],
+  "media": [
+    "O0375"
+  ],
+  "notas": null,
+  "citacoes": null
+}

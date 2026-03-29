@@ -1,0 +1,26 @@
+{
+  "id": "I1105",
+  "protegida": false,
+  "nome": "Engrácia",
+  "nome_proprio": "Engrácia",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1823-10-16",
+    "lugar_id": "P0096"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0249"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0896"
+  ],
+  "notas": null,
+  "citacoes": null
+}

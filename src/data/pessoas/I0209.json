@@ -1,0 +1,26 @@
+{
+  "id": "I0209",
+  "protegida": false,
+  "nome": "Francisco",
+  "nome_proprio": "Francisco",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1839-04-03",
+    "lugar_id": "P0005"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0010"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0076"
+  ],
+  "notas": null,
+  "citacoes": null
+}

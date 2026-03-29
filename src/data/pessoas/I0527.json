@@ -1,0 +1,26 @@
+{
+  "id": "I0527",
+  "protegida": false,
+  "nome": "Isabel",
+  "nome_proprio": "Isabel",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": {
+    "data": "1676-10-07",
+    "lugar_id": "P0031"
+  },
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0152"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0368"
+  ],
+  "notas": null,
+  "citacoes": null
+}

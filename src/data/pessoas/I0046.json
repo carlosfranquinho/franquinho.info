@@ -1,0 +1,24 @@
+{
+  "id": "I0046",
+  "protegida": false,
+  "nome": "Teresa Joaquina",
+  "nome_proprio": "Teresa",
+  "apelido": "Joaquina",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1813-12-03",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0022"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

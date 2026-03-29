@@ -1,0 +1,24 @@
+{
+  "id": "I0244",
+  "protegida": true,
+  "sexo": "M",
+  "nome": "Familiar",
+  "apelido": "Lopes Gaspar",
+  "nascimento": {
+    "data": "1961-03-14",
+    "lugar_id": "P0002"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0091"
+  ],
+  "familias_como_pai": [
+    "F0098"
+  ],
+  "relacoes": [
+    "F0091",
+    "F0098"
+  ]
+}

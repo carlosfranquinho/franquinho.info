@@ -1,0 +1,24 @@
+{
+  "id": "I0309",
+  "protegida": true,
+  "sexo": "F",
+  "nome": "Familiar",
+  "apelido": "Caseiro Gonçalves",
+  "nascimento": {
+    "data": "29 mar",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0112"
+  ],
+  "familias_como_pai": [
+    "F0114"
+  ],
+  "relacoes": [
+    "F0114",
+    "F0112"
+  ]
+}

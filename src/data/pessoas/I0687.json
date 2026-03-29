@@ -1,0 +1,31 @@
+{
+  "id": "I0687",
+  "protegida": false,
+  "nome": "Maria da Conceição",
+  "nome_proprio": "Maria",
+  "apelido": "da Conceição",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1857-08-20",
+    "lugar_id": "P0091"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1942-10-07",
+    "lugar_id": "P0003"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0202"
+  ],
+  "familias_como_pai": [
+    "F0187"
+  ],
+  "media": [
+    "O0557"
+  ],
+  "notas": null,
+  "citacoes": null
+}

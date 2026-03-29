@@ -1,0 +1,24 @@
+{
+  "id": "I1369",
+  "protegida": false,
+  "nome": "Graça",
+  "nome_proprio": "Graça",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1711-04-12",
+    "lugar_id": "P0131"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0381"
+  ],
+  "familias_como_pai": null,
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

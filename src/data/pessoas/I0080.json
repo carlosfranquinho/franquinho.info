@@ -1,0 +1,28 @@
+{
+  "id": "I0080",
+  "protegida": false,
+  "nome": "Páscoa Rodrigues",
+  "nome_proprio": "Páscoa",
+  "apelido": "Rodrigues",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": {
+    "data": "1698-04-10",
+    "lugar_id": "P0026"
+  },
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0067"
+  ],
+  "familias_como_pai": [
+    "F0039"
+  ],
+  "media": [
+    "O0306"
+  ],
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "I1148",
+  "protegida": false,
+  "nome": "Jordão",
+  "nome_proprio": "Jordão",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1664-08-20",
+    "lugar_id": "P0097"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0329"
+  ],
+  "familias_como_pai": null,
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

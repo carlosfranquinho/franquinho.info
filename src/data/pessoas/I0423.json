@@ -1,0 +1,26 @@
+{
+  "id": "I0423",
+  "protegida": false,
+  "nome": "Joaquim",
+  "nome_proprio": "Joaquim",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1843-10-09",
+    "lugar_id": "P0019"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0013"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0214"
+  ],
+  "notas": null,
+  "citacoes": null
+}

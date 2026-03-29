@@ -1,0 +1,26 @@
+{
+  "id": "I0579",
+  "protegida": false,
+  "nome": "Maria Duarte",
+  "nome_proprio": "Maria",
+  "apelido": "Duarte",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1755-06-01",
+    "lugar_id": "P0036"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0169"
+  ],
+  "media": [
+    "O0423"
+  ],
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,18 @@
+{
+  "id": "I1077",
+  "protegida": true,
+  "sexo": "F",
+  "nome": "Familiar",
+  "apelido": "Gréu Gomes",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0311"
+  ],
+  "relacoes": [
+    "F0311"
+  ]
+}

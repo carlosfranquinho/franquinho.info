@@ -1,0 +1,31 @@
+{
+  "id": "I1091",
+  "protegida": false,
+  "nome": "Sérgio da Silva Franquinho",
+  "nome_proprio": "Sérgio",
+  "apelido": "da Silva Franquinho",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1936-03-29",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "2005-01-14",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0002"
+  ],
+  "familias_como_pai": [
+    "F0317"
+  ],
+  "media": [
+    "O1055"
+  ],
+  "notas": null,
+  "citacoes": null
+}

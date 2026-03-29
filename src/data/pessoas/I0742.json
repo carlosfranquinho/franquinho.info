@@ -1,0 +1,26 @@
+{
+  "id": "I0742",
+  "protegida": false,
+  "nome": "Manuel",
+  "nome_proprio": "Manuel",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1751-09-11",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0212"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0614"
+  ],
+  "notas": null,
+  "citacoes": null
+}

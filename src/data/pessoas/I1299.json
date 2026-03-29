@@ -1,0 +1,29 @@
+{
+  "id": "I1299",
+  "protegida": false,
+  "nome": "Inácio",
+  "nome_proprio": "Inácio",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1750-09-29",
+    "lugar_id": "P0127"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1752-05-19",
+    "lugar_id": "P0127"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0232"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0969"
+  ],
+  "notas": null,
+  "citacoes": null
+}

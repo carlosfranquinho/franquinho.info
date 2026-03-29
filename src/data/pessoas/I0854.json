@@ -1,0 +1,29 @@
+{
+  "id": "I0854",
+  "protegida": false,
+  "nome": "Maria Teresa",
+  "nome_proprio": "Maria",
+  "apelido": "Teresa",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1781-10-17",
+    "lugar_id": "P0101"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0240",
+    "F0241"
+  ],
+  "familias_como_pai": [
+    "F0237"
+  ],
+  "media": [
+    "O0718"
+  ],
+  "notas": null,
+  "citacoes": null
+}

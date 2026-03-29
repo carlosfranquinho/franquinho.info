@@ -1,0 +1,26 @@
+{
+  "id": "I0858",
+  "protegida": false,
+  "nome": "Teresa",
+  "nome_proprio": "Teresa",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1821-09-29",
+    "lugar_id": "P0101"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0237"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0709"
+  ],
+  "notas": null,
+  "citacoes": null
+}

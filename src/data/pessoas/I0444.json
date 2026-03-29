@@ -1,0 +1,26 @@
+{
+  "id": "I0444",
+  "protegida": false,
+  "nome": "Josefa",
+  "nome_proprio": "Josefa",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1836-04-06",
+    "lugar_id": "P0002"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0016"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0254"
+  ],
+  "notas": null,
+  "citacoes": null
+}

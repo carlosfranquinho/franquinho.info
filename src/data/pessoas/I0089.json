@@ -1,0 +1,26 @@
+{
+  "id": "I0089",
+  "protegida": false,
+  "nome": "Maria Marques",
+  "nome_proprio": "Maria",
+  "apelido": "Marques",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0043"
+  ],
+  "media": null,
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei pelo falecimento, nos Raposos, Famalicão, até 1796. E Cela?"
+    }
+  ],
+  "citacoes": null
+}

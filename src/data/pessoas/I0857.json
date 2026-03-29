@@ -1,0 +1,26 @@
+{
+  "id": "I0857",
+  "protegida": false,
+  "nome": "Maria do Rosário",
+  "nome_proprio": "Maria do Rosário",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": {
+    "data": "1820-01-11",
+    "lugar_id": "P0101"
+  },
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0237"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0708"
+  ],
+  "notas": null,
+  "citacoes": null
+}

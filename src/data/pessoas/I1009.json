@@ -1,0 +1,24 @@
+{
+  "id": "I1009",
+  "protegida": true,
+  "sexo": "M",
+  "nome": "Familiar",
+  "apelido": "da Silva Rodrigues Grácio",
+  "nascimento": {
+    "data": "1967-09-27",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0283"
+  ],
+  "familias_como_pai": [
+    "F0285"
+  ],
+  "relacoes": [
+    "F0285",
+    "F0283"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "I0289",
+  "protegida": true,
+  "sexo": "F",
+  "nome": "Familiar",
+  "apelido": "S. F. Domingues",
+  "nascimento": {
+    "data": "17 nov",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "2017-10-28",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0104"
+  ],
+  "relacoes": [
+    "F0104"
+  ]
+}

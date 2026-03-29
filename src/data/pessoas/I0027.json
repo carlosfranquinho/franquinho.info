@@ -1,0 +1,31 @@
+{
+  "id": "I0027",
+  "protegida": false,
+  "nome": "Joaquim Pontes",
+  "nome_proprio": "Joaquim",
+  "apelido": "Pontes",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1801",
+    "lugar_id": "P0019"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1869-01-21",
+    "lugar_id": "P0019"
+  },
+  "sepultura": null,
+  "profissao": "Jornaleiro",
+  "familias_como_filho": [
+    "F0024"
+  ],
+  "familias_como_pai": [
+    "F0013"
+  ],
+  "media": [
+    "O0217"
+  ],
+  "notas": null,
+  "citacoes": null
+}

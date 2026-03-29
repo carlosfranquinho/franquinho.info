@@ -1,0 +1,24 @@
+{
+  "id": "I0993",
+  "protegida": true,
+  "sexo": "F",
+  "nome": "Familiar",
+  "apelido": "Franquinho Tomás",
+  "nascimento": {
+    "data": "1980-01-11",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0276"
+  ],
+  "familias_como_pai": [
+    "F0278"
+  ],
+  "relacoes": [
+    "F0278",
+    "F0276"
+  ]
+}

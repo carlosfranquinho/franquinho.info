@@ -1,0 +1,32 @@
+{
+  "id": "I0138",
+  "protegida": false,
+  "nome": "Maria da Silva",
+  "nome_proprio": "Maria",
+  "apelido": "da Silva",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1699-10-29",
+    "lugar_id": "P0073"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1787-02-25",
+    "lugar_id": "P0036"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0173"
+  ],
+  "familias_como_pai": [
+    "F0069"
+  ],
+  "media": [
+    "O0433",
+    "O0434"
+  ],
+  "notas": null,
+  "citacoes": null
+}

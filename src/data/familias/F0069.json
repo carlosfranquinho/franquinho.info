@@ -1,0 +1,27 @@
+{
+  "id": "F0069",
+  "pai": "I0137",
+  "mae": "I0138",
+  "filhos": [
+    "I0584",
+    "I0583",
+    "I0582",
+    "I0581",
+    "I0580",
+    "I0110"
+  ],
+  "tipo_relacao": "Married",
+  "casamento": {
+    "data": "1726-03-18",
+    "lugar_id": "P0072"
+  },
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "ATENÇÃO:\nestou a assumir que o casamento de António Rodrigues e Maria da Silva, na freguesia do Gradil, se refere ao casal de pais da Antónia Maria. A única base para tal, além da ausência do casamento dos pais em Mafra, é o apelido Ferreira nos pais do António, que surge também no registo de falecimento da Antónia Maria (Ferreira).\n\nTambém não encontrei filhos do casal António Rodrigues e Maria Silva na freguesia do casamento (Gradil) o que me leva a supor que mudaram logo depois."
+    }
+  ],
+  "media": [
+    "O0432"
+  ]
+}

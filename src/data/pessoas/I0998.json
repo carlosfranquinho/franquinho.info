@@ -1,0 +1,18 @@
+{
+  "id": "I0998",
+  "protegida": true,
+  "sexo": "F",
+  "nome": "Familiar",
+  "apelido": null,
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0082"
+  ],
+  "familias_como_pai": null,
+  "relacoes": [
+    "F0082"
+  ]
+}

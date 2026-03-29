@@ -1,0 +1,26 @@
+{
+  "id": "I0163",
+  "protegida": false,
+  "nome": "Jaime",
+  "nome_proprio": "Jaime",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1870-05-07",
+    "lugar_id": "P0005"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0074"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0019"
+  ],
+  "notas": null,
+  "citacoes": null
+}

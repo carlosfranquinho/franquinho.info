@@ -1,0 +1,26 @@
+{
+  "id": "I0898",
+  "protegida": false,
+  "nome": "Agostinho",
+  "nome_proprio": "Agostinho",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": {
+    "data": "1793-11-19",
+    "lugar_id": "P0076"
+  },
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0243"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0746"
+  ],
+  "notas": null,
+  "citacoes": null
+}

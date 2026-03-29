@@ -1,0 +1,27 @@
+{
+  "id": "I0327",
+  "protegida": false,
+  "nome": "Maria Margarida",
+  "nome_proprio": "Maria Margarida",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1910-11-07",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "2002-05-16",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0120"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

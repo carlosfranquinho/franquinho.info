@@ -1,0 +1,31 @@
+{
+  "id": "I0030",
+  "protegida": false,
+  "nome": "Joaquina de Jesus",
+  "nome_proprio": "Joaquina",
+  "apelido": "de Jesus",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1809",
+    "lugar_id": "P0021"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1866-02-12",
+    "lugar_id": "P0021"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0027"
+  ],
+  "familias_como_pai": [
+    "F0014"
+  ],
+  "media": [
+    "O0230"
+  ],
+  "notas": null,
+  "citacoes": null
+}

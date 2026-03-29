@@ -1,0 +1,32 @@
+{
+  "id": "I0095",
+  "protegida": false,
+  "nome": "Catarina Lopes",
+  "nome_proprio": "Catarina",
+  "apelido": "Lopes",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": {
+    "data": "1674-05-08",
+    "lugar_id": "P0031"
+  },
+  "obito": {
+    "data": "1744-08-23",
+    "lugar_id": "P0031"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0152"
+  ],
+  "familias_como_pai": [
+    "F0046"
+  ],
+  "media": [
+    "O0352",
+    "O0330"
+  ],
+  "notas": null,
+  "citacoes": null
+}

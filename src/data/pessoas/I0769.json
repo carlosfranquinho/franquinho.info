@@ -1,0 +1,32 @@
+{
+  "id": "I0769",
+  "protegida": false,
+  "nome": "José Ferreira Rico",
+  "nome_proprio": "José",
+  "apelido": "Ferreira Rico",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1779-04-30",
+    "lugar_id": "P0079"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1847-12-23",
+    "lugar_id": "P0076"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0225"
+  ],
+  "familias_como_pai": [
+    "F0221"
+  ],
+  "media": [
+    "O0667",
+    "O0691"
+  ],
+  "notas": null,
+  "citacoes": null
+}

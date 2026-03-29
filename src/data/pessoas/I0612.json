@@ -1,0 +1,29 @@
+{
+  "id": "I0612",
+  "protegida": false,
+  "nome": "Antónia",
+  "nome_proprio": "Antónia",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1673-07-06",
+    "lugar_id": "P0025"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0181"
+  ],
+  "familias_como_pai": null,
+  "media": null,
+  "notas": null,
+  "citacoes": [
+    {
+      "fonte": "Óbitos de Famalicão (Nazaré)  (1649 a 1684)",
+      "pagina": "ficheiro 55/95"
+    }
+  ]
+}

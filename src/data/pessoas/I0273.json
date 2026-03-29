@@ -1,0 +1,24 @@
+{
+  "id": "I0273",
+  "protegida": true,
+  "sexo": "M",
+  "nome": "Familiar",
+  "apelido": "Ferreira Gonçalves",
+  "nascimento": {
+    "data": "1931-09-02",
+    "lugar_id": "P0002"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0071"
+  ],
+  "familias_como_pai": [
+    "F0107"
+  ],
+  "relacoes": [
+    "F0071",
+    "F0107"
+  ]
+}

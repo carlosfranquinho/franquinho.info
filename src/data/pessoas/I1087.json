@@ -1,0 +1,18 @@
+{
+  "id": "I1087",
+  "protegida": true,
+  "sexo": "M",
+  "nome": "Familiar",
+  "apelido": "Gaspar Vicente Ribeiro",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0315"
+  ],
+  "relacoes": [
+    "F0315"
+  ]
+}

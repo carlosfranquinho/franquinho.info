@@ -1,0 +1,32 @@
+{
+  "id": "F0023",
+  "pai": "I0047",
+  "mae": "I0048",
+  "filhos": [
+    "I0842",
+    "I0026",
+    "I0399",
+    "I0400",
+    "I0401",
+    "I0402",
+    "I0405",
+    "I0396",
+    "I0406",
+    "I0407",
+    "I0408"
+  ],
+  "tipo_relacao": "Married",
+  "casamento": {
+    "data": "1815-02-27",
+    "lugar_id": "P0036"
+  },
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei por filhos, em Amor, até 1842"
+    }
+  ],
+  "media": [
+    "O0693"
+  ]
+}

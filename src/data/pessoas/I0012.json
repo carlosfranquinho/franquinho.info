@@ -1,0 +1,31 @@
+{
+  "id": "I0012",
+  "protegida": false,
+  "nome": "Emília da Silva",
+  "nome_proprio": "Emília",
+  "apelido": "da Silva",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1867-04-06",
+    "lugar_id": "P0002"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": "Doméstica",
+  "familias_como_filho": [
+    "F0007"
+  ],
+  "familias_como_pai": [
+    "F0005"
+  ],
+  "media": [
+    "O1000",
+    "O1058",
+    "O1059",
+    "O0108"
+  ],
+  "notas": null,
+  "citacoes": null
+}

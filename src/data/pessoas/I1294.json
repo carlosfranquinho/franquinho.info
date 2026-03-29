@@ -1,0 +1,24 @@
+{
+  "id": "I1294",
+  "protegida": false,
+  "nome": "Inês",
+  "nome_proprio": "Inês",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1700-05-04",
+    "lugar_id": "P0079"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0369"
+  ],
+  "familias_como_pai": null,
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,31 @@
+{
+  "id": "I0899",
+  "protegida": false,
+  "nome": "Manuel Francisco Sintra",
+  "nome_proprio": "Manuel Francisco",
+  "apelido": "Sintra",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1806-09-28",
+    "lugar_id": "P0076"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1889-09-30",
+    "lugar_id": "P0076"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0248"
+  ],
+  "familias_como_pai": [
+    "F0247"
+  ],
+  "media": [
+    "O0763"
+  ],
+  "notas": null,
+  "citacoes": null
+}

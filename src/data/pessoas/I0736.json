@@ -1,0 +1,29 @@
+{
+  "id": "I0736",
+  "protegida": false,
+  "nome": "Manuel",
+  "nome_proprio": "Manuel",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1782-09-08",
+    "lugar_id": "P0080"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1782-10-15",
+    "lugar_id": "P0080"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0211"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0600"
+  ],
+  "notas": null,
+  "citacoes": null
+}

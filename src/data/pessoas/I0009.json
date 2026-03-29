@@ -1,0 +1,36 @@
+{
+  "id": "I0009",
+  "protegida": false,
+  "nome": "Joaquim Franquinho",
+  "nome_proprio": "Joaquim",
+  "apelido": "Franquinho",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1823-12-07",
+    "lugar_id": "P0005"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1911-12-19",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "profissao": "Jornaleiro",
+  "familias_como_filho": [
+    "F0009"
+  ],
+  "familias_como_pai": [
+    "F0004"
+  ],
+  "media": [
+    "O0067"
+  ],
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "- out 25: confirmar a data de falecimento (procurar o registo)a data estimada vem da escritura de partilhas."
+    }
+  ],
+  "citacoes": null
+}

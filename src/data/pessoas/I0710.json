@@ -1,0 +1,30 @@
+{
+  "id": "I0710",
+  "protegida": false,
+  "nome": "Emília",
+  "nome_proprio": "Emília",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1832-05-23",
+    "lugar_id": "P0092"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1860-08-31",
+    "lugar_id": "P0092"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0206"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0577",
+    "O0586"
+  ],
+  "notas": null,
+  "citacoes": null
+}

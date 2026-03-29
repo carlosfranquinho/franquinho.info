@@ -1,0 +1,21 @@
+{
+  "id": "I0299",
+  "protegida": true,
+  "sexo": "F",
+  "nome": "Familiar",
+  "apelido": "da Silva Gonçalves",
+  "nascimento": {
+    "data": "1995-10-17",
+    "lugar_id": "P0043"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0108"
+  ],
+  "familias_como_pai": null,
+  "relacoes": [
+    "F0108"
+  ]
+}

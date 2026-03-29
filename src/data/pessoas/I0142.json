@@ -1,0 +1,31 @@
+{
+  "id": "I0142",
+  "protegida": false,
+  "nome": "Jacinto Matias Gonçalves",
+  "nome_proprio": "Jacinto",
+  "apelido": "Matias Gonçalves",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1902-04-18",
+    "lugar_id": "P0054"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1952-12-16",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0416"
+  ],
+  "familias_como_pai": [
+    "F0071"
+  ],
+  "media": [
+    "O1047"
+  ],
+  "notas": null,
+  "citacoes": null
+}

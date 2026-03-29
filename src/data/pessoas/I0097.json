@@ -1,0 +1,32 @@
+{
+  "id": "I0097",
+  "protegida": false,
+  "nome": "Leonor Rebela",
+  "nome_proprio": "Leonor",
+  "apelido": "Rebela",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": {
+    "data": "1670-01-12",
+    "lugar_id": "P0068"
+  },
+  "obito": {
+    "data": "1700-10-17",
+    "lugar_id": "P0068"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0151"
+  ],
+  "familias_como_pai": [
+    "F0047"
+  ],
+  "media": [
+    "O0347",
+    "O0321"
+  ],
+  "notas": null,
+  "citacoes": null
+}

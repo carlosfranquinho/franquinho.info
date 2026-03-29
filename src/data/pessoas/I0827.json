@@ -1,0 +1,28 @@
+{
+  "id": "I0827",
+  "protegida": false,
+  "nome": "Cristina dos Santos",
+  "nome_proprio": "Cristina",
+  "apelido": "dos Santos",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1707-11-01",
+    "lugar_id": "P0127"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0373"
+  ],
+  "familias_como_pai": [
+    "F0232"
+  ],
+  "media": [
+    "O0972"
+  ],
+  "notas": null,
+  "citacoes": null
+}

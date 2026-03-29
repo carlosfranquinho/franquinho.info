@@ -1,0 +1,26 @@
+{
+  "id": "I0371",
+  "protegida": false,
+  "nome": "Manuel",
+  "nome_proprio": "Manuel",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1818-04-22",
+    "lugar_id": "P0007"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0020"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0159"
+  ],
+  "notas": null,
+  "citacoes": null
+}

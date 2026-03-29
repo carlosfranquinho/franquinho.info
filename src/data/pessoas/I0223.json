@@ -1,0 +1,26 @@
+{
+  "id": "I0223",
+  "protegida": false,
+  "nome": "Antónia",
+  "nome_proprio": "Antónia",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1764-01-01",
+    "lugar_id": "P0023"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0035"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0093"
+  ],
+  "notas": null,
+  "citacoes": null
+}

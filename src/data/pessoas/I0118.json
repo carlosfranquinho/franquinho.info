@@ -1,0 +1,31 @@
+{
+  "id": "I0118",
+  "protegida": false,
+  "nome": "Inês Maria",
+  "nome_proprio": "Inês",
+  "apelido": "Maria",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0139"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0063"
+  ],
+  "familias_como_pai": [
+    "F0059"
+  ],
+  "media": null,
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procure pelo falecimento, em famalicão, desde 1738 a 1790"
+    }
+  ],
+  "citacoes": null
+}

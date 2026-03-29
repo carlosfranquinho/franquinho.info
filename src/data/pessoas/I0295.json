@@ -1,0 +1,24 @@
+{
+  "id": "I0295",
+  "protegida": true,
+  "sexo": "F",
+  "nome": "Familiar",
+  "apelido": "Figueiredo",
+  "nascimento": {
+    "data": "1936-09-18",
+    "lugar_id": "P0056"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0415"
+  ],
+  "familias_como_pai": [
+    "F0107"
+  ],
+  "relacoes": [
+    "F0107",
+    "F0415"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "I0110",
+  "protegida": false,
+  "nome": "Antónia Maria",
+  "nome_proprio": "Antónia",
+  "apelido": "Maria",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1739-01-01",
+    "lugar_id": "P0036"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1765-02-02",
+    "lugar_id": "P0036"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0069"
+  ],
+  "familias_como_pai": [
+    "F0054"
+  ],
+  "media": [
+    "O0426",
+    "O0409"
+  ],
+  "notas": null,
+  "citacoes": null
+}

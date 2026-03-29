@@ -1,0 +1,29 @@
+{
+  "id": "I0057",
+  "protegida": false,
+  "nome": "Manuel Ferreira",
+  "nome_proprio": "Manuel",
+  "apelido": "Ferreira",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0022"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1831-12-04",
+    "lugar_id": "P0022"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0028"
+  ],
+  "media": [
+    "O0248"
+  ],
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "I1260",
+  "protegida": false,
+  "nome": "Sebastião",
+  "nome_proprio": "Sebastião",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1757-10-01",
+    "lugar_id": "P0079"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0231"
+  ],
+  "familias_como_pai": null,
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

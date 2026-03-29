@@ -1,0 +1,21 @@
+{
+  "id": "I0298",
+  "protegida": true,
+  "sexo": "F",
+  "nome": "Familiar",
+  "apelido": "Vieira da Silva",
+  "nascimento": {
+    "data": "1963-01-03",
+    "lugar_id": "P0058"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0108"
+  ],
+  "relacoes": [
+    "F0108"
+  ]
+}

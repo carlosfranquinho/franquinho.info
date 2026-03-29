@@ -1,0 +1,31 @@
+{
+  "id": "I0915",
+  "protegida": false,
+  "nome": "Maria Rosa",
+  "nome_proprio": "Maria",
+  "apelido": "Rosa",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1749-11-03",
+    "lugar_id": "P0105"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": {
+    "data": "1749-11-03",
+    "lugar_id": "P0105"
+  },
+  "profissao": null,
+  "familias_como_filho": [
+    "F0325"
+  ],
+  "familias_como_pai": [
+    "F0253"
+  ],
+  "media": [
+    "O1036"
+  ],
+  "notas": null,
+  "citacoes": null
+}

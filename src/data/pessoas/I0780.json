@@ -1,0 +1,29 @@
+{
+  "id": "I0780",
+  "protegida": false,
+  "nome": "José",
+  "nome_proprio": "José",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": {
+    "data": "1814-12-31",
+    "lugar_id": "P0098"
+  },
+  "obito": {
+    "data": "1829-01-08",
+    "lugar_id": "P0098"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0222"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0646"
+  ],
+  "notas": null,
+  "citacoes": null
+}

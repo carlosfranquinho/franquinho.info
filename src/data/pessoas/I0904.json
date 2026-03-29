@@ -1,0 +1,32 @@
+{
+  "id": "I0904",
+  "protegida": false,
+  "nome": "António Francisco Sintra",
+  "nome_proprio": "António",
+  "apelido": "Francisco Sintra",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1773-03-05",
+    "lugar_id": "P0104"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1831-05-13",
+    "lugar_id": "P0076"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0250"
+  ],
+  "familias_como_pai": [
+    "F0248"
+  ],
+  "media": [
+    "O0771",
+    "O0893"
+  ],
+  "notas": null,
+  "citacoes": null
+}

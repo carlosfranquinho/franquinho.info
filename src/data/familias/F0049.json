@@ -1,0 +1,18 @@
+{
+  "id": "F0049",
+  "pai": "I0100",
+  "mae": "I0101",
+  "filhos": [
+    "I0042",
+    "I0374"
+  ],
+  "tipo_relacao": "Married",
+  "casamento": null,
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei por filhos do casal entre 1781 e 1787, em Carvide."
+    }
+  ],
+  "media": null
+}

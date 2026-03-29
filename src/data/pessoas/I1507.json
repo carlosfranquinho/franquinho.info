@@ -1,0 +1,24 @@
+{
+  "id": "I1507",
+  "protegida": false,
+  "nome": "Manuel Matias Gonçalves",
+  "nome_proprio": "Manuel",
+  "apelido": "Matias Gonçalves",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0000"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0416"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

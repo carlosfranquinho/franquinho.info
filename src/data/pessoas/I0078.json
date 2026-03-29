@@ -1,0 +1,24 @@
+{
+  "id": "I0078",
+  "protegida": false,
+  "nome": "Maria Marques",
+  "nome_proprio": "Maria",
+  "apelido": "Marques",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1762-04-18",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0038"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

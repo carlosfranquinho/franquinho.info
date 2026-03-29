@@ -1,0 +1,21 @@
+{
+  "id": "I0316",
+  "protegida": true,
+  "sexo": "M",
+  "nome": "Familiar",
+  "apelido": "Domingues Gonçalves",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0115"
+  ],
+  "familias_como_pai": [
+    "F0117"
+  ],
+  "relacoes": [
+    "F0115",
+    "F0117"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "I0950",
+  "protegida": false,
+  "nome": "Luzia",
+  "nome_proprio": "Luzia",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1858-01-19",
+    "lugar_id": "P0076"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0247"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0761"
+  ],
+  "notas": null,
+  "citacoes": null
+}

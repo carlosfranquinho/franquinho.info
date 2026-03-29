@@ -1,0 +1,24 @@
+{
+  "id": "I0296",
+  "protegida": true,
+  "sexo": "M",
+  "nome": "Familiar",
+  "apelido": "Figueiredo Gonçalves",
+  "nascimento": {
+    "data": "1957-06-27",
+    "lugar_id": "P0055"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0107"
+  ],
+  "familias_como_pai": [
+    "F0108"
+  ],
+  "relacoes": [
+    "F0107",
+    "F0108"
+  ]
+}

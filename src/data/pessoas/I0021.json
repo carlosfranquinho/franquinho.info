@@ -1,0 +1,29 @@
+{
+  "id": "I0021",
+  "protegida": false,
+  "nome": "Faustino dos Santos",
+  "nome_proprio": "Faustino",
+  "apelido": "dos Santos",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1796",
+    "lugar_id": "P0003"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1862-05-22",
+    "lugar_id": "P0005"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0010"
+  ],
+  "media": [
+    "O0135"
+  ],
+  "notas": null,
+  "citacoes": null
+}

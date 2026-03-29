@@ -1,0 +1,26 @@
+{
+  "id": "I0872",
+  "protegida": false,
+  "nome": "António",
+  "nome_proprio": "António",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1787-01-14",
+    "lugar_id": "P0101"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0240"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0720"
+  ],
+  "notas": null,
+  "citacoes": null
+}

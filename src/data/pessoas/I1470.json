@@ -1,0 +1,29 @@
+{
+  "id": "I1470",
+  "protegida": false,
+  "nome": "Manuel da Silva Ferreira",
+  "nome_proprio": "Manuel",
+  "apelido": "da Silva Ferreira",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1892",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0280"
+  ],
+  "familias_como_pai": null,
+  "media": null,
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "passaporte para Santos, Brasil, em 24 janeiro 1912, aos 20 anos\nidem, em 26 niovembro 1912, aos 21 anos"
+    }
+  ],
+  "citacoes": null
+}

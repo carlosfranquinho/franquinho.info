@@ -1,0 +1,29 @@
+{
+  "id": "I0059",
+  "protegida": false,
+  "nome": "José Pires",
+  "nome_proprio": "José",
+  "apelido": "Pires",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0002"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0029"
+  ],
+  "media": null,
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei pelo falecimento, em Amor, de 1827 a 1870"
+    }
+  ],
+  "citacoes": null
+}

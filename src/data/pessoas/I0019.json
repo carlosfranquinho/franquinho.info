@@ -1,0 +1,32 @@
+{
+  "id": "I0019",
+  "protegida": false,
+  "nome": "Luis de São Bernardo",
+  "nome_proprio": "Luis",
+  "apelido": "de São Bernardo",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1784-12-18",
+    "lugar_id": "P0010"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1842-03-03",
+    "lugar_id": "P0005"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0017"
+  ],
+  "familias_como_pai": [
+    "F0009"
+  ],
+  "media": [
+    "O0112",
+    "O0113"
+  ],
+  "notas": null,
+  "citacoes": null
+}

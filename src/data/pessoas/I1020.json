@@ -1,0 +1,24 @@
+{
+  "id": "I1020",
+  "protegida": true,
+  "sexo": "M",
+  "nome": "Familiar",
+  "apelido": "Franquinho",
+  "nascimento": {
+    "data": "1964-06-18",
+    "lugar_id": "P0002"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0287"
+  ],
+  "familias_como_pai": [
+    "F0288"
+  ],
+  "relacoes": [
+    "F0288",
+    "F0287"
+  ]
+}

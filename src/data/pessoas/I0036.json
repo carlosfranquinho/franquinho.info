@@ -1,0 +1,32 @@
+{
+  "id": "I0036",
+  "protegida": false,
+  "nome": "Teresa de Jesus",
+  "nome_proprio": "Teresa",
+  "apelido": "de Jesus",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1765-10-15",
+    "lugar_id": "P0010"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1819-01-29",
+    "lugar_id": "P0005"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0033"
+  ],
+  "familias_como_pai": [
+    "F0017"
+  ],
+  "media": [
+    "O0118",
+    "O0119"
+  ],
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "I0501",
+  "protegida": false,
+  "nome": "João",
+  "nome_proprio": "João",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": {
+    "data": "1675-12-09",
+    "lugar_id": "P0070"
+  },
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0149"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0340"
+  ],
+  "notas": null,
+  "citacoes": null
+}

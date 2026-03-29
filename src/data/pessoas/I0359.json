@@ -1,0 +1,27 @@
+{
+  "id": "I0359",
+  "protegida": false,
+  "nome": "Manuel Ferreira Morganisso",
+  "nome_proprio": "Manuel",
+  "apelido": "Ferreira Morganisso",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1848",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1919-10-04",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0388"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

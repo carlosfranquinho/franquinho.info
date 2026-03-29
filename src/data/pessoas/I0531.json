@@ -1,0 +1,26 @@
+{
+  "id": "I0531",
+  "protegida": false,
+  "nome": "Josefa",
+  "nome_proprio": "Josefa",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": {
+    "data": "1687-05-03",
+    "lugar_id": "P0031"
+  },
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0152"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0372"
+  ],
+  "notas": null,
+  "citacoes": null
+}

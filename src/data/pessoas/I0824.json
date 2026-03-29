@@ -1,0 +1,28 @@
+{
+  "id": "I0824",
+  "protegida": false,
+  "nome": "Manuel Ferreira",
+  "nome_proprio": "Manuel",
+  "apelido": "Ferreira",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1723-06-17",
+    "lugar_id": "P0079"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0362"
+  ],
+  "familias_como_pai": [
+    "F0231"
+  ],
+  "media": [
+    "O0958"
+  ],
+  "notas": null,
+  "citacoes": null
+}

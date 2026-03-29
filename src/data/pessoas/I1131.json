@@ -1,0 +1,29 @@
+{
+  "id": "I1131",
+  "protegida": false,
+  "nome": "José",
+  "nome_proprio": "José",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1738-10-19",
+    "lugar_id": "P0076"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1763-04-15",
+    "lugar_id": "P0076"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0216"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0910"
+  ],
+  "notas": null,
+  "citacoes": null
+}

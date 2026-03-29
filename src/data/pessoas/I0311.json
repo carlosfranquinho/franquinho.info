@@ -1,0 +1,21 @@
+{
+  "id": "I0311",
+  "protegida": true,
+  "sexo": "F",
+  "nome": "Familiar",
+  "apelido": "Gonçalves",
+  "nascimento": {
+    "data": "1984-09-30",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0113"
+  ],
+  "familias_como_pai": null,
+  "relacoes": [
+    "F0113"
+  ]
+}

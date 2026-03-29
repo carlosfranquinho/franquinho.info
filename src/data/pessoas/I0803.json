@@ -1,0 +1,28 @@
+{
+  "id": "I0803",
+  "protegida": false,
+  "nome": "José da Silva",
+  "nome_proprio": "José",
+  "apelido": "da Silva",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1696-01-26",
+    "lugar_id": "P0079"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0389"
+  ],
+  "familias_como_pai": [
+    "F0229"
+  ],
+  "media": [
+    "O1002"
+  ],
+  "notas": null,
+  "citacoes": null
+}

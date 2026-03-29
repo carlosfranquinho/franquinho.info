@@ -1,0 +1,19 @@
+{
+  "id": "F0385",
+  "pai": "I1377",
+  "mae": "I1378",
+  "filhos": [
+    "I1399",
+    "I1366",
+    "I1400"
+  ],
+  "tipo_relacao": "Married",
+  "casamento": {
+    "data": "1684-10-17",
+    "lugar_id": "P0079"
+  },
+  "notas": null,
+  "media": [
+    "O0098"
+  ]
+}

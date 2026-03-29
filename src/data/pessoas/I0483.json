@@ -1,0 +1,26 @@
+{
+  "id": "I0483",
+  "protegida": false,
+  "nome": "Josefa",
+  "nome_proprio": "Josefa",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": {
+    "data": "1701-03-19",
+    "lugar_id": "P0066"
+  },
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0066"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0309"
+  ],
+  "notas": null,
+  "citacoes": null
+}

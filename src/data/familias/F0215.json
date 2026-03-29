@@ -1,0 +1,19 @@
+{
+  "id": "F0215",
+  "pai": "I0747",
+  "mae": "I0748",
+  "filhos": [
+    "I1258",
+    "I1257",
+    "I1256",
+    "I1255",
+    "I1254",
+    "I1253",
+    "I0733",
+    "I1259"
+  ],
+  "tipo_relacao": "Married",
+  "casamento": null,
+  "notas": null,
+  "media": null
+}

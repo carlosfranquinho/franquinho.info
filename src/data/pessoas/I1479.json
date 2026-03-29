@@ -1,0 +1,21 @@
+{
+  "id": "I1479",
+  "protegida": true,
+  "sexo": "F",
+  "nome": "Familiar",
+  "apelido": "Alves Neto",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0407"
+  ],
+  "familias_como_pai": [
+    "F0406"
+  ],
+  "relacoes": [
+    "F0406",
+    "F0407"
+  ]
+}

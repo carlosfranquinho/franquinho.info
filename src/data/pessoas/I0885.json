@@ -1,0 +1,26 @@
+{
+  "id": "I0885",
+  "protegida": false,
+  "nome": "Manuel Francisco",
+  "nome_proprio": "Manuel",
+  "apelido": "Francisco",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1751-04-08",
+    "lugar_id": "P0107"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0262"
+  ],
+  "familias_como_pai": [
+    "F0243"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

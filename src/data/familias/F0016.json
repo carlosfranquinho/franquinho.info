@@ -1,0 +1,34 @@
+{
+  "id": "F0016",
+  "pai": "I0033",
+  "mae": "I0034",
+  "filhos": [
+    "I0440",
+    "I0441",
+    "I0016",
+    "I0442",
+    "I0443",
+    "I0444",
+    "I0445",
+    "I0446",
+    "I0447"
+  ],
+  "tipo_relacao": "Married",
+  "casamento": {
+    "data": "1826-06-07",
+    "lugar_id": "P0002"
+  },
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "parentes em 3º grau de consanguinidade"
+    },
+    {
+      "tipo": "",
+      "texto": "procurei por filhos até 1850, em Amor."
+    }
+  ],
+  "media": [
+    "O0258"
+  ]
+}

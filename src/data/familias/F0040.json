@@ -1,0 +1,20 @@
+{
+  "id": "F0040",
+  "pai": "I0081",
+  "mae": "I0083",
+  "filhos": [
+    "I0039"
+  ],
+  "tipo_relacao": "Married",
+  "casamento": {
+    "data": null,
+    "lugar_id": "P0005"
+  },
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "Atenção: há filhos do casal a falecer nos Raposos, Famalicão. Terão outros nascido lá? E o casamento dos pais?"
+    }
+  ],
+  "media": null
+}

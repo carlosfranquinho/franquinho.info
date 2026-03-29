@@ -1,0 +1,21 @@
+{
+  "id": "I0185",
+  "protegida": true,
+  "sexo": "M",
+  "nome": "Familiar",
+  "apelido": "Rodrigues",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1956-10-15",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0081"
+  ],
+  "relacoes": [
+    "F0081"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "I1157",
+  "protegida": false,
+  "nome": "José Pereira",
+  "nome_proprio": "José",
+  "apelido": "Pereira",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0055"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

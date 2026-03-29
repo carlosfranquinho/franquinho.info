@@ -1,0 +1,29 @@
+{
+  "id": "I0652",
+  "protegida": false,
+  "nome": "Luísa de Jesus",
+  "nome_proprio": "Luísa",
+  "apelido": "de Jesus",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0084"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1861-06-12",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0196"
+  ],
+  "familias_como_pai": [
+    "F0195"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

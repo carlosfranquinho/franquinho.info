@@ -1,0 +1,28 @@
+{
+  "id": "I0123",
+  "protegida": false,
+  "nome": "Manuel Simões",
+  "nome_proprio": "Manuel",
+  "apelido": "Simões",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1685-06-20",
+    "lugar_id": "P0025"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0064"
+  ],
+  "familias_como_pai": [
+    "F0062"
+  ],
+  "media": [
+    "O0391"
+  ],
+  "notas": null,
+  "citacoes": null
+}

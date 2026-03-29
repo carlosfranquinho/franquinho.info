@@ -1,0 +1,26 @@
+{
+  "id": "I0820",
+  "protegida": false,
+  "nome": "Rosa",
+  "nome_proprio": "Rosa",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": {
+    "data": "1789-03-15",
+    "lugar_id": "P0076"
+  },
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0226"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0674"
+  ],
+  "notas": null,
+  "citacoes": null
+}

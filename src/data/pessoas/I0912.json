@@ -1,0 +1,27 @@
+{
+  "id": "I0912",
+  "protegida": false,
+  "nome": "Manuel José",
+  "nome_proprio": "Manuel",
+  "apelido": "José",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0097"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0268"
+  ],
+  "familias_como_pai": [
+    "F0322",
+    "F0252"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

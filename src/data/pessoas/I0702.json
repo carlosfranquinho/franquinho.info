@@ -1,0 +1,29 @@
+{
+  "id": "I0702",
+  "protegida": false,
+  "nome": "João",
+  "nome_proprio": "João",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1809-02",
+    "lugar_id": "P0091"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1809-04-25",
+    "lugar_id": "P0091"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0203"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0572"
+  ],
+  "notas": null,
+  "citacoes": null
+}

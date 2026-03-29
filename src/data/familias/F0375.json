@@ -1,0 +1,20 @@
+{
+  "id": "F0375",
+  "pai": "I1320",
+  "mae": "I1321",
+  "filhos": [
+    "I1330",
+    "I1329",
+    "I1328",
+    "I1309"
+  ],
+  "tipo_relacao": "Married",
+  "casamento": null,
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei pelo casamemento na Almagreira, de cerca de 1678 a 1683 - não encontrei."
+    }
+  ],
+  "media": null
+}

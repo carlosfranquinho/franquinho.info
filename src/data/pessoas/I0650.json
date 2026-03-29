@@ -1,0 +1,21 @@
+{
+  "id": "I0650",
+  "protegida": false,
+  "nome": "Maria Vicência",
+  "nome_proprio": "Maria",
+  "apelido": "Vicência",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0194"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

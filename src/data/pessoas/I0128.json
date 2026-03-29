@@ -1,0 +1,26 @@
+{
+  "id": "I0128",
+  "protegida": false,
+  "nome": "Catarina Martins Apella (?)",
+  "nome_proprio": "Catarina",
+  "apelido": "Martins Apella (?)",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1675-03-25",
+    "lugar_id": "P0038"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0064"
+  ],
+  "media": [
+    "O0436"
+  ],
+  "notas": null,
+  "citacoes": null
+}

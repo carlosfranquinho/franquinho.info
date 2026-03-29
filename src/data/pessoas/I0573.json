@@ -1,0 +1,26 @@
+{
+  "id": "I0573",
+  "protegida": false,
+  "nome": "Manuel",
+  "nome_proprio": "Manuel",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1720-10-20",
+    "lugar_id": "P0071"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0068"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0416"
+  ],
+  "notas": null,
+  "citacoes": null
+}

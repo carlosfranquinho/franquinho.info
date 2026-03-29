@@ -1,0 +1,26 @@
+{
+  "id": "I0794",
+  "protegida": false,
+  "nome": "António",
+  "nome_proprio": "António",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1799-06-06",
+    "lugar_id": "P0098"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0222"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0652"
+  ],
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,21 @@
+{
+  "id": "I0895",
+  "protegida": false,
+  "nome": "Agostinho Lopes",
+  "nome_proprio": "Agostinho",
+  "apelido": "Lopes",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0246"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "I1442",
+  "protegida": false,
+  "nome": "Luís",
+  "nome_proprio": "Luís",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1665-03-06",
+    "lugar_id": "P0098"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0392"
+  ],
+  "familias_como_pai": null,
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

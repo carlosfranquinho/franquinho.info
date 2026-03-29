@@ -1,0 +1,26 @@
+{
+  "id": "I0658",
+  "protegida": false,
+  "nome": "Joaquina",
+  "nome_proprio": "Joaquina",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1828-03-18",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0195"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0524"
+  ],
+  "notas": null,
+  "citacoes": null
+}

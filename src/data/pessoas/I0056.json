@@ -1,0 +1,27 @@
+{
+  "id": "I0056",
+  "protegida": false,
+  "nome": "Josefa de Jesus",
+  "nome_proprio": "Josefa",
+  "apelido": "de Jesus",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0021"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1817-02",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0027"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

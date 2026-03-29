@@ -1,0 +1,31 @@
+{
+  "id": "I0621",
+  "protegida": false,
+  "nome": "Joaquim Rodrigues Romeiro",
+  "nome_proprio": "Joaquim",
+  "apelido": "Rodrigues Romeiro",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1898-04-10",
+    "lugar_id": "P0001"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1971-12-30",
+    "lugar_id": "P0003"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0187"
+  ],
+  "familias_como_pai": [
+    "F0185"
+  ],
+  "media": [
+    "O0484"
+  ],
+  "notas": null,
+  "citacoes": null
+}

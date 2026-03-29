@@ -1,0 +1,36 @@
+{
+  "id": "I0162",
+  "protegida": false,
+  "nome": "Manuel Franquinho",
+  "nome_proprio": "Manuel",
+  "apelido": "Franquinho",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1870-03-07",
+    "lugar_id": "P0005"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1955-07-04",
+    "lugar_id": "P0005"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0004"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0032",
+    "O0607",
+    "O0606"
+  ],
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "passaporte para o Rio de Janeiro, Brasil em 3 dezembro 1907"
+    }
+  ],
+  "citacoes": null
+}

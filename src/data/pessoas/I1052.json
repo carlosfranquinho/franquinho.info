@@ -1,0 +1,31 @@
+{
+  "id": "I1052",
+  "protegida": false,
+  "nome": "Vitória de Jesus",
+  "nome_proprio": "Vitória",
+  "apelido": "de Jesus",
+  "nomes_alt": [
+    {
+      "tipo": "Also Known As",
+      "nome": "Vitória de Jesus"
+    }
+  ],
+  "sexo": "F",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0002"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0302"
+  ],
+  "familias_como_pai": [
+    "F0298"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

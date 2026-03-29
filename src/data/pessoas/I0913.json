@@ -1,0 +1,26 @@
+{
+  "id": "I0913",
+  "protegida": false,
+  "nome": "Maria Francisca",
+  "nome_proprio": "Maria",
+  "apelido": "Francisca",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0096"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0269"
+  ],
+  "familias_como_pai": [
+    "F0252"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

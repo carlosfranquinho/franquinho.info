@@ -1,0 +1,24 @@
+{
+  "id": "I1388",
+  "protegida": false,
+  "nome": "Domingos",
+  "nome_proprio": "Domingos",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1674-03-25",
+    "lugar_id": "P0081"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0384"
+  ],
+  "familias_como_pai": null,
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

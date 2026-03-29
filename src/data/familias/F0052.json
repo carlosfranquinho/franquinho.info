@@ -1,0 +1,31 @@
+{
+  "id": "F0052",
+  "pai": "I0105",
+  "mae": "I0106",
+  "filhos": [
+    "I0411",
+    "I0356",
+    "I0412",
+    "I0413",
+    "I0414",
+    "I0048",
+    "I0415",
+    "I0416",
+    "I0417",
+    "I0418"
+  ],
+  "tipo_relacao": "Married",
+  "casamento": {
+    "data": "1784-07-05",
+    "lugar_id": "P0036"
+  },
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei por filhos, em Mafra, até 1811"
+    }
+  ],
+  "media": [
+    "O0209"
+  ]
+}

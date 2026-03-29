@@ -1,0 +1,21 @@
+{
+  "id": "I0994",
+  "protegida": true,
+  "sexo": "M",
+  "nome": "Familiar",
+  "apelido": "Inácio Pedrosa",
+  "nascimento": {
+    "data": "1977-06-02",
+    "lugar_id": "P0003"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0278"
+  ],
+  "relacoes": [
+    "F0278"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "F0227",
+  "pai": "I0799",
+  "mae": "I0800",
+  "filhos": [
+    "I1340",
+    "I1339",
+    "I1338",
+    "I1337",
+    "I0787"
+  ],
+  "tipo_relacao": "Married",
+  "casamento": {
+    "data": "1723-01-27",
+    "lugar_id": "P0081"
+  },
+  "notas": null,
+  "media": [
+    "O0985"
+  ]
+}

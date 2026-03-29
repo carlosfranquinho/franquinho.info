@@ -1,0 +1,33 @@
+{
+  "id": "I0630",
+  "protegida": false,
+  "nome": "Maria Rosa",
+  "nome_proprio": "Maria",
+  "apelido": "Rosa",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1851-10-12",
+    "lugar_id": "P0076"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0247"
+  ],
+  "familias_como_pai": [
+    "F0189"
+  ],
+  "media": [
+    "O0754"
+  ],
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "Procurei pelo falecimento na Moita do Boi, Mata Mourisca, até 1900 (anos disponíveis online) e não encontrei."
+    }
+  ],
+  "citacoes": null
+}

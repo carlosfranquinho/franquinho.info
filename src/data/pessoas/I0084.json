@@ -1,0 +1,36 @@
+{
+  "id": "I0084",
+  "protegida": false,
+  "nome": "Jerónimo de Mendonça",
+  "nome_proprio": "Jerónimo",
+  "apelido": "de Mendonça",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0032"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1811-05-18",
+    "lugar_id": "P0013"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0044"
+  ],
+  "familias_como_pai": [
+    "F0041"
+  ],
+  "media": [
+    "O0143"
+  ],
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei pelo batismo (e de irmãos) entre 1733 e 1743."
+    }
+  ],
+  "citacoes": null
+}

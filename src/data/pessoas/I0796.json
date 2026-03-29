@@ -1,0 +1,26 @@
+{
+  "id": "I0796",
+  "protegida": false,
+  "nome": "Clara",
+  "nome_proprio": "Clara",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": {
+    "data": "1820-06-28",
+    "lugar_id": "P0076"
+  },
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0221"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0654"
+  ],
+  "notas": null,
+  "citacoes": null
+}

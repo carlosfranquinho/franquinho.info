@@ -1,0 +1,31 @@
+{
+  "id": "I0383",
+  "protegida": false,
+  "nome": "Maria Josefa",
+  "nome_proprio": "Maria Josefa",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0063"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0133"
+  ],
+  "familias_como_pai": [
+    "F0131"
+  ],
+  "media": null,
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei pelo falecimento de 1783 até 1835, em Pombal (mas há uma falha de anos entre 1797 e 1811)"
+    }
+  ],
+  "citacoes": null
+}

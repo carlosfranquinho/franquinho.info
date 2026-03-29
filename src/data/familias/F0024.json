@@ -1,0 +1,22 @@
+{
+  "id": "F0024",
+  "pai": "I0049",
+  "mae": "I0050",
+  "filhos": [
+    "I0424",
+    "I0027"
+  ],
+  "tipo_relacao": "Married",
+  "casamento": null,
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei por filhos de 1809 a 1815, na Ruivaqueira."
+    },
+    {
+      "tipo": "",
+      "texto": "procurei pelo casamento na Ruivaqueira, Souto Carpalhosa, de 1802 a 1810"
+    }
+  ],
+  "media": null
+}

@@ -1,0 +1,28 @@
+{
+  "id": "I0101",
+  "protegida": false,
+  "nome": "Maria Duarte",
+  "nome_proprio": "Maria",
+  "apelido": "Duarte",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0129"
+  ],
+  "familias_como_pai": [
+    "F0049"
+  ],
+  "media": null,
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei pelo falecimento, em Carvide, de 1802 a 1844"
+    }
+  ],
+  "citacoes": null
+}

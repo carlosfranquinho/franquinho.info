@@ -1,0 +1,24 @@
+{
+  "id": "I0333",
+  "protegida": true,
+  "sexo": "F",
+  "nome": "Familiar",
+  "apelido": "Caseiro",
+  "nascimento": {
+    "data": "1932-01-23",
+    "lugar_id": "P0061"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "2022-12-03",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0122"
+  ],
+  "relacoes": [
+    "F0122"
+  ]
+}

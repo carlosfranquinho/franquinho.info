@@ -1,0 +1,32 @@
+{
+  "id": "I0770",
+  "protegida": false,
+  "nome": "Clara Ramos",
+  "nome_proprio": "Clara",
+  "apelido": "Ramos",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1780-04-05",
+    "lugar_id": "P0076"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1842-05-17",
+    "lugar_id": "P0076"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0226"
+  ],
+  "familias_como_pai": [
+    "F0221"
+  ],
+  "media": [
+    "O0666",
+    "O0690"
+  ],
+  "notas": null,
+  "citacoes": null
+}

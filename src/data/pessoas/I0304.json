@@ -1,0 +1,21 @@
+{
+  "id": "I0304",
+  "protegida": true,
+  "sexo": "F",
+  "nome": "Familiar",
+  "apelido": "Mastorakos Gonçalves",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0110"
+  ],
+  "familias_como_pai": [
+    "F0111"
+  ],
+  "relacoes": [
+    "F0111",
+    "F0110"
+  ]
+}

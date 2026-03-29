@@ -1,0 +1,29 @@
+{
+  "id": "I0058",
+  "protegida": false,
+  "nome": "Joaquina Maria",
+  "nome_proprio": "Joaquina Maria",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0022"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1849-12-27",
+    "lugar_id": "P0022"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0028"
+  ],
+  "media": [
+    "O0247"
+  ],
+  "notas": null,
+  "citacoes": null
+}

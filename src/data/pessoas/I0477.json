@@ -1,0 +1,26 @@
+{
+  "id": "I0477",
+  "protegida": false,
+  "nome": "Maria",
+  "nome_proprio": "Maria",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": {
+    "data": "1690-09-10",
+    "lugar_id": "P0066"
+  },
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0067"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0302"
+  ],
+  "notas": null,
+  "citacoes": null
+}

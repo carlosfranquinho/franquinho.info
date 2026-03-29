@@ -1,0 +1,26 @@
+{
+  "id": "I0515",
+  "protegida": false,
+  "nome": "Luís Fernandes",
+  "nome_proprio": "Luís",
+  "apelido": "Fernandes",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1672-03-05",
+    "lugar_id": "P0031"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0153"
+  ],
+  "media": [
+    "O0354"
+  ],
+  "notas": null,
+  "citacoes": null
+}

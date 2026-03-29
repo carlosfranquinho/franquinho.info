@@ -1,0 +1,26 @@
+{
+  "id": "I0614",
+  "protegida": false,
+  "nome": "Francisco Enes",
+  "nome_proprio": "Francisco",
+  "apelido": "Enes",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0182"
+  ],
+  "media": null,
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "Há um falecimento de um Francisco Annes em novembro de 1603 (ficheiro 13/13 dos mistos). Não há como saber se se trata do mesmo."
+    }
+  ],
+  "citacoes": null
+}

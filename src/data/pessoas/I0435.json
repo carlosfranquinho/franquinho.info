@@ -1,0 +1,26 @@
+{
+  "id": "I0435",
+  "protegida": false,
+  "nome": "Luís Alves",
+  "nome_proprio": "Luís",
+  "apelido": "Alves",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1801-01-08",
+    "lugar_id": "P0065"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0139"
+  ],
+  "media": [
+    "O0235"
+  ],
+  "notas": null,
+  "citacoes": null
+}

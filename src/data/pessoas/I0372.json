@@ -1,0 +1,26 @@
+{
+  "id": "I0372",
+  "protegida": false,
+  "nome": "Maximianna",
+  "nome_proprio": "Maximianna",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1820-01-31",
+    "lugar_id": "P0022"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0021"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0162"
+  ],
+  "notas": null,
+  "citacoes": null
+}

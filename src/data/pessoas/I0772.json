@@ -1,0 +1,28 @@
+{
+  "id": "I0772",
+  "protegida": false,
+  "nome": "Mariana Rosa",
+  "nome_proprio": "Mariana",
+  "apelido": "Rosa",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1857-01-09",
+    "lugar_id": "P0098"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0224"
+  ],
+  "familias_como_pai": [
+    "F0222"
+  ],
+  "media": [
+    "O0692"
+  ],
+  "notas": null,
+  "citacoes": null
+}

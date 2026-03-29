@@ -1,0 +1,31 @@
+{
+  "id": "I0037",
+  "protegida": false,
+  "nome": "Joaquim Aleixo",
+  "nome_proprio": "Joaquim",
+  "apelido": "Aleixo",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0011"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0034"
+  ],
+  "familias_como_pai": [
+    "F0018"
+  ],
+  "media": null,
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei pelo falecimento em alfeizerão de 1769 a 1851.\ntambém procurei em famalicão, nas mesmas datas aproximadas."
+    }
+  ],
+  "citacoes": null
+}

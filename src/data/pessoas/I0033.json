@@ -1,0 +1,31 @@
+{
+  "id": "I0033",
+  "protegida": false,
+  "nome": "José Gomes",
+  "nome_proprio": "José",
+  "apelido": "Gomes",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0002"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1849-02-26",
+    "lugar_id": "P0002"
+  },
+  "sepultura": null,
+  "profissao": "Trabalhador",
+  "familias_como_filho": [
+    "F0030"
+  ],
+  "familias_como_pai": [
+    "F0016"
+  ],
+  "media": [
+    "O0259"
+  ],
+  "notas": null,
+  "citacoes": null
+}

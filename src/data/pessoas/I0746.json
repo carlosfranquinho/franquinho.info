@@ -1,0 +1,28 @@
+{
+  "id": "I0746",
+  "protegida": false,
+  "nome": "Josefa Fernandes",
+  "nome_proprio": "Josefa",
+  "apelido": "Fernandes",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1704-02-17",
+    "lugar_id": "P0104"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0349"
+  ],
+  "familias_como_pai": [
+    "F0214"
+  ],
+  "media": [
+    "O0945"
+  ],
+  "notas": null,
+  "citacoes": null
+}

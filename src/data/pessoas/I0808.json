@@ -1,0 +1,26 @@
+{
+  "id": "I0808",
+  "protegida": false,
+  "nome": "João",
+  "nome_proprio": "João",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1775-09-25",
+    "lugar_id": "P0100"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0224"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0660"
+  ],
+  "notas": null,
+  "citacoes": null
+}

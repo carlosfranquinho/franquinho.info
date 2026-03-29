@@ -1,0 +1,31 @@
+{
+  "id": "I1140",
+  "protegida": false,
+  "nome": "Domingas Brás",
+  "nome_proprio": "Domingas",
+  "apelido": "Brás",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0114"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1691-06-29",
+    "lugar_id": "P0097"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0331"
+  ],
+  "familias_como_pai": [
+    "F0329"
+  ],
+  "media": [
+    "O0923"
+  ],
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "I0793",
+  "protegida": false,
+  "nome": "Manuel Ferreira Rico",
+  "nome_proprio": "Manuel",
+  "apelido": "Ferreira Rico",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1795-11",
+    "lugar_id": "P0099"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0225"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0651"
+  ],
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "I0463",
+  "protegida": false,
+  "nome": "Felícia",
+  "nome_proprio": "Felícia",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1729-02-10",
+    "lugar_id": "P0027"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0039"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0289"
+  ],
+  "notas": null,
+  "citacoes": null
+}

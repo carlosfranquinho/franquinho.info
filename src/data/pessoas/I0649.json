@@ -1,0 +1,21 @@
+{
+  "id": "I0649",
+  "protegida": true,
+  "sexo": "F",
+  "nome": "Familiar",
+  "apelido": "Rodrigues Romeiro",
+  "nascimento": {
+    "data": "1950-09-27",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0184"
+  ],
+  "familias_como_pai": null,
+  "relacoes": [
+    "F0184"
+  ]
+}

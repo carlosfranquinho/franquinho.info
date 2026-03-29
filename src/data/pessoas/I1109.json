@@ -1,0 +1,26 @@
+{
+  "id": "I1109",
+  "protegida": false,
+  "nome": "António",
+  "nome_proprio": "António",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1781-02-11",
+    "lugar_id": "P0096"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0322"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0901"
+  ],
+  "notas": null,
+  "citacoes": null
+}

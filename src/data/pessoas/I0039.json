@@ -1,0 +1,32 @@
+{
+  "id": "I0039",
+  "protegida": false,
+  "nome": "António Pereira Nobre",
+  "nome_proprio": "António",
+  "apelido": "Pereira Nobre",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1765-01-16",
+    "lugar_id": "P0011"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1806-09-08",
+    "lugar_id": "P0005"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0040"
+  ],
+  "familias_como_pai": [
+    "F0019"
+  ],
+  "media": [
+    "O0137",
+    "O0138"
+  ],
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "I0213",
+  "protegida": false,
+  "nome": "José",
+  "nome_proprio": "José",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1745-12-01",
+    "lugar_id": "P0025"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0035"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0082"
+  ],
+  "notas": null,
+  "citacoes": null
+}

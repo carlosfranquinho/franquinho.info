@@ -1,0 +1,35 @@
+{
+  "id": "I0044",
+  "protegida": false,
+  "nome": "Gertrudes Maria",
+  "nome_proprio": "Gertrudes",
+  "apelido": "Maria",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1783-06-28",
+    "lugar_id": "P0062"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0131"
+  ],
+  "familias_como_pai": [
+    "F0021"
+  ],
+  "media": null,
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "há uma gertrudes maria a falecer em Monte Real, em 14 nov 1850, viuva. Sem mais dados. Folha 43 vs."
+    },
+    {
+      "tipo": "",
+      "texto": "procurei pelo falecimento, em Monte Real, entre 1824 e 1866."
+    }
+  ],
+  "citacoes": null
+}

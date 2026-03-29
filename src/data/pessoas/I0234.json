@@ -1,0 +1,24 @@
+{
+  "id": "I0234",
+  "protegida": true,
+  "sexo": "F",
+  "nome": "Familiar",
+  "apelido": "Ferreira Gaspar",
+  "nascimento": {
+    "data": "1928",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "2024-08-01",
+    "lugar_id": "P0175"
+  },
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0070"
+  ],
+  "familias_como_pai": null,
+  "relacoes": [
+    "F0070"
+  ]
+}

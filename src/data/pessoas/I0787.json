@@ -1,0 +1,38 @@
+{
+  "id": "I0787",
+  "protegida": false,
+  "nome": "José Francisco",
+  "nome_proprio": "José",
+  "apelido": "Francisco",
+  "nomes_alt": [
+    {
+      "tipo": "Married Name",
+      "nome": "José Francisco"
+    },
+    {
+      "tipo": "Also Known As",
+      "nome": "José Francisco Fazendeiro"
+    }
+  ],
+  "sexo": "M",
+  "nascimento": {
+    "data": "1736-05-13",
+    "lugar_id": "P0080"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0227"
+  ],
+  "familias_como_pai": [
+    "F0226"
+  ],
+  "media": [
+    "O0737",
+    "O0984"
+  ],
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "I0308",
+  "protegida": false,
+  "nome": "Luís José Caseiro Gonçalves",
+  "nome_proprio": "Luís José",
+  "apelido": "Caseiro Gonçalves",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "2004-10-14",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0112"
+  ],
+  "familias_como_pai": [
+    "F0113"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

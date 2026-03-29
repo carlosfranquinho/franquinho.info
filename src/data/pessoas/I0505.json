@@ -1,0 +1,28 @@
+{
+  "id": "I0505",
+  "protegida": false,
+  "nome": "Maria Gomes",
+  "nome_proprio": "Maria",
+  "apelido": "Gomes",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1726-11-08",
+    "lugar_id": "P0069"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0154"
+  ],
+  "familias_como_pai": [
+    "F0150"
+  ],
+  "media": [
+    "O0363"
+  ],
+  "notas": null,
+  "citacoes": null
+}

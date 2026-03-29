@@ -1,0 +1,31 @@
+{
+  "id": "I0605",
+  "protegida": false,
+  "nome": "João Francisco",
+  "nome_proprio": "João",
+  "apelido": "Francisco",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1589-11-20",
+    "lugar_id": "P0027"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1666-02-15",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0182"
+  ],
+  "familias_como_pai": [
+    "F0179"
+  ],
+  "media": [
+    "O0474"
+  ],
+  "notas": null,
+  "citacoes": null
+}

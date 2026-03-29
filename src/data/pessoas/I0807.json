@@ -1,0 +1,26 @@
+{
+  "id": "I0807",
+  "protegida": false,
+  "nome": "Joaquina",
+  "nome_proprio": "Joaquina",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1775-01-17",
+    "lugar_id": "P0098"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0223"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0658"
+  ],
+  "notas": null,
+  "citacoes": null
+}

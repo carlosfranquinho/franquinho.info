@@ -1,0 +1,26 @@
+{
+  "id": "I0192",
+  "protegida": false,
+  "nome": "Josefa Silva",
+  "nome_proprio": "Josefa",
+  "apelido": "Silva",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1872-02-26",
+    "lugar_id": "P0002"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0007"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0045"
+  ],
+  "notas": null,
+  "citacoes": null
+}

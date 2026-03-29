@@ -1,0 +1,21 @@
+{
+  "id": "I0246",
+  "protegida": true,
+  "sexo": "M",
+  "nome": "Familiar",
+  "apelido": "Ferreira Luís",
+  "nascimento": {
+    "data": "1947-05-04",
+    "lugar_id": "P0049"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0092"
+  ],
+  "relacoes": [
+    "F0092"
+  ]
+}

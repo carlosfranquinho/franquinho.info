@@ -1,0 +1,24 @@
+{
+  "id": "I0338",
+  "protegida": true,
+  "sexo": "F",
+  "nome": "Familiar",
+  "apelido": "Caseiro Franquinho dos Santos",
+  "nascimento": {
+    "data": "1961-01-13",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0122"
+  ],
+  "familias_como_pai": [
+    "F0124"
+  ],
+  "relacoes": [
+    "F0124",
+    "F0122"
+  ]
+}

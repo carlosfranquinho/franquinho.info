@@ -1,0 +1,24 @@
+{
+  "id": "I1458",
+  "protegida": false,
+  "nome": "Domingos Francisco",
+  "nome_proprio": "Domingos",
+  "apelido": "Francisco",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1681",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0401"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

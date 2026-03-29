@@ -1,0 +1,21 @@
+{
+  "id": "I1235",
+  "protegida": false,
+  "nome": "Margarida Gomes",
+  "nome_proprio": "Margarida",
+  "apelido": "Gomes",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0355"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

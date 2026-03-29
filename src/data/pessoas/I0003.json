@@ -1,0 +1,24 @@
+{
+  "id": "I0003",
+  "protegida": true,
+  "sexo": "F",
+  "nome": "Familiar",
+  "apelido": "Sintra Rodrigues Romeiro",
+  "nascimento": {
+    "data": "1948-02-28",
+    "lugar_id": "P0003"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0184"
+  ],
+  "familias_como_pai": [
+    "F0001"
+  ],
+  "relacoes": [
+    "F0001",
+    "F0184"
+  ]
+}

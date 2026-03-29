@@ -1,0 +1,31 @@
+{
+  "id": "I0905",
+  "protegida": false,
+  "nome": "Maria Clara",
+  "nome_proprio": "Maria",
+  "apelido": "Clara",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1771-03-18",
+    "lugar_id": "P0076"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1831-05-13",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0251"
+  ],
+  "familias_como_pai": [
+    "F0248"
+  ],
+  "media": [
+    "O0770"
+  ],
+  "notas": null,
+  "citacoes": null
+}

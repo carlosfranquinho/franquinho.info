@@ -1,0 +1,22 @@
+{
+  "id": "F0237",
+  "pai": "I0853",
+  "mae": "I0854",
+  "filhos": [
+    "I0843",
+    "I0855",
+    "I0856",
+    "I0857",
+    "I0858",
+    "I0859"
+  ],
+  "tipo_relacao": "Married",
+  "casamento": {
+    "data": "1812-04-08",
+    "lugar_id": "P0081"
+  },
+  "notas": null,
+  "media": [
+    "O0711"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "I1023",
+  "protegida": true,
+  "sexo": "F",
+  "nome": "Familiar",
+  "apelido": "Franquinho",
+  "nascimento": {
+    "data": "1973",
+    "lugar_id": "P0002"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0287"
+  ],
+  "familias_como_pai": [
+    "F0291"
+  ],
+  "relacoes": [
+    "F0291",
+    "F0287"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "I0124",
+  "protegida": false,
+  "nome": "Maria Dinis",
+  "nome_proprio": "Maria",
+  "apelido": "Dinis",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1726-01-28",
+    "lugar_id": "P0025"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0065"
+  ],
+  "familias_como_pai": [
+    "F0062"
+  ],
+  "media": [
+    "O0440"
+  ],
+  "notas": null,
+  "citacoes": null
+}

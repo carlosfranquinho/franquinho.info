@@ -1,0 +1,21 @@
+{
+  "id": "I1471",
+  "protegida": false,
+  "nome": "Faustina Carreira",
+  "nome_proprio": "Faustina",
+  "apelido": "Carreira",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0404"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

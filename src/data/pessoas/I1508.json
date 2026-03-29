@@ -1,0 +1,24 @@
+{
+  "id": "I1508",
+  "protegida": false,
+  "nome": "Maria Marques",
+  "nome_proprio": "Maria",
+  "apelido": "Marques",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0180"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0416"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

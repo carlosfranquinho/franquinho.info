@@ -1,0 +1,13 @@
+{
+  "id": "F0406",
+  "pai": "I1478",
+  "mae": "I1479",
+  "filhos": null,
+  "tipo_relacao": "Married",
+  "casamento": {
+    "data": "1970-09-05",
+    "lugar_id": null
+  },
+  "notas": null,
+  "media": null
+}

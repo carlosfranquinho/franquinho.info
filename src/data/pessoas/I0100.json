@@ -1,0 +1,28 @@
+{
+  "id": "I0100",
+  "protegida": false,
+  "nome": "Joaquim Francisco Féteira",
+  "nome_proprio": "Joaquim Francisco",
+  "apelido": "Féteira",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0128"
+  ],
+  "familias_como_pai": [
+    "F0049"
+  ],
+  "media": null,
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei pelo falecimento, em Carvide, de 1802 a 1844"
+    }
+  ],
+  "citacoes": null
+}

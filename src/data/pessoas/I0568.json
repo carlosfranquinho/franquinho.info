@@ -1,0 +1,24 @@
+{
+  "id": "I0568",
+  "protegida": false,
+  "nome": "José de Almada",
+  "nome_proprio": "José",
+  "apelido": "de Almada",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1760",
+    "lugar_id": "P0036"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0167"
+  ],
+  "familias_como_pai": null,
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,17 @@
+{
+  "id": "F0026",
+  "pai": "I0053",
+  "mae": "I0054",
+  "filhos": [
+    "I0029"
+  ],
+  "tipo_relacao": "Married",
+  "casamento": null,
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei por filhos, em regueira de pontes, de 1811 a 1815. e em riba d'aves de 1809 a 1815."
+    }
+  ],
+  "media": null
+}

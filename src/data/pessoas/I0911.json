@@ -1,0 +1,26 @@
+{
+  "id": "I0911",
+  "protegida": false,
+  "nome": "Clara Maria",
+  "nome_proprio": "Clara",
+  "apelido": "Maria",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0096"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0273"
+  ],
+  "familias_como_pai": [
+    "F0251"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

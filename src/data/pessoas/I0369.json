@@ -1,0 +1,26 @@
+{
+  "id": "I0369",
+  "protegida": false,
+  "nome": "Jacinto",
+  "nome_proprio": "Jacinto",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1849-03-10",
+    "lugar_id": "P0007"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0011"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0155"
+  ],
+  "notas": null,
+  "citacoes": null
+}

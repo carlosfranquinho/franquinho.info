@@ -1,0 +1,28 @@
+{
+  "id": "I0540",
+  "protegida": false,
+  "nome": "Manuel Madeira",
+  "nome_proprio": "Manuel",
+  "apelido": "Madeira",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1715-04-12",
+    "lugar_id": "P0034"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0159"
+  ],
+  "familias_como_pai": [
+    "F0158"
+  ],
+  "media": [
+    "O0395"
+  ],
+  "notas": null,
+  "citacoes": null
+}

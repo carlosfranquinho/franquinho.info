@@ -1,0 +1,21 @@
+{
+  "id": "I1040",
+  "protegida": true,
+  "sexo": "M",
+  "nome": "Familiar",
+  "apelido": "Rigaud",
+  "nascimento": {
+    "data": "1976-07-22",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0294"
+  ],
+  "relacoes": [
+    "F0294"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "I1249",
+  "protegida": false,
+  "nome": "Catarina",
+  "nome_proprio": "Catarina",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1681-11-16",
+    "lugar_id": "P0104"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0353"
+  ],
+  "familias_como_pai": null,
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

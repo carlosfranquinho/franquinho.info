@@ -1,0 +1,28 @@
+{
+  "id": "I0521",
+  "protegida": false,
+  "nome": "Manuel de Oliveira",
+  "nome_proprio": "Manuel",
+  "apelido": "de Oliveira",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1677-01-22",
+    "lugar_id": "P0031"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0157"
+  ],
+  "familias_como_pai": [
+    "F0156"
+  ],
+  "media": [
+    "O0361"
+  ],
+  "notas": null,
+  "citacoes": null
+}

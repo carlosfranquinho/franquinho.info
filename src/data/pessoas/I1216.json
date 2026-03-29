@@ -1,0 +1,28 @@
+{
+  "id": "I1216",
+  "protegida": false,
+  "nome": "Maria Fernandes",
+  "nome_proprio": "Maria",
+  "apelido": "Fernandes",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1673-02-28",
+    "lugar_id": "P0104"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0353"
+  ],
+  "familias_como_pai": [
+    "F0349"
+  ],
+  "media": [
+    "O0950"
+  ],
+  "notas": null,
+  "citacoes": null
+}

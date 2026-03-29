@@ -1,0 +1,21 @@
+{
+  "id": "I0300",
+  "protegida": true,
+  "sexo": "M",
+  "nome": "Familiar",
+  "apelido": "Leite Couto",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0059"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0109"
+  ],
+  "relacoes": [
+    "F0109"
+  ]
+}

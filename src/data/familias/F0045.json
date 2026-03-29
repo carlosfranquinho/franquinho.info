@@ -1,0 +1,23 @@
+{
+  "id": "F0045",
+  "pai": "I0092",
+  "mae": "I0093",
+  "filhos": [
+    "I0085",
+    "I0565",
+    "I0564",
+    "I0563",
+    "I0562",
+    "I0561",
+    "I0560"
+  ],
+  "tipo_relacao": "Married",
+  "casamento": null,
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "Procurei o casamento, em Famalicão e em S. Martinho do Porto, de 1730 a 1740. Falta procurar em Cela."
+    }
+  ],
+  "media": null
+}

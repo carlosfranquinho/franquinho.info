@@ -1,0 +1,33 @@
+{
+  "id": "I0720",
+  "protegida": false,
+  "nome": "Catarina Maria",
+  "nome_proprio": "Catarina",
+  "apelido": "Maria",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1798-08-25",
+    "lugar_id": "P0080"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0211"
+  ],
+  "familias_como_pai": [
+    "F0209"
+  ],
+  "media": [
+    "O0609"
+  ],
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei pelo óbito, na Mata Mourisca, até 1880"
+    }
+  ],
+  "citacoes": null
+}

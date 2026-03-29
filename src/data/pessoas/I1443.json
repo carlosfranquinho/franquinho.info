@@ -1,0 +1,27 @@
+{
+  "id": "I1443",
+  "protegida": false,
+  "nome": "José Gaspar",
+  "nome_proprio": "José",
+  "apelido": "Gaspar",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1912-01-11",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1985-06-25",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0070"
+  ],
+  "familias_como_pai": null,
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

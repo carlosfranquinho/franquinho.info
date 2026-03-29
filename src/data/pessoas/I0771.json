@@ -1,0 +1,32 @@
+{
+  "id": "I0771",
+  "protegida": false,
+  "nome": "Jerónimo da Silva",
+  "nome_proprio": "Jerónimo",
+  "apelido": "da Silva",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1772-04-20",
+    "lugar_id": "P0098"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1827-06-20",
+    "lugar_id": "P0098"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0223"
+  ],
+  "familias_como_pai": [
+    "F0222"
+  ],
+  "media": [
+    "O0656",
+    "O0689"
+  ],
+  "notas": null,
+  "citacoes": null
+}

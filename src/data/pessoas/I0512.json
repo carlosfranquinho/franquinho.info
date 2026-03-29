@@ -1,0 +1,26 @@
+{
+  "id": "I0512",
+  "protegida": false,
+  "nome": "Manuel",
+  "nome_proprio": "Manuel",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": {
+    "data": "1667-02-27",
+    "lugar_id": "P0068"
+  },
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0151"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0349"
+  ],
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "I0154",
+  "protegida": false,
+  "nome": "José Faustino",
+  "nome_proprio": "José",
+  "apelido": "Faustino",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1903-07-15",
+    "lugar_id": "P0005"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0010"
+  ],
+  "familias_como_pai": null,
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,36 @@
+{
+  "id": "I0729",
+  "protegida": false,
+  "nome": "Maria Fernandes",
+  "nome_proprio": "Maria",
+  "apelido": "Fernandes",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1758-04",
+    "lugar_id": "P0080"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1812-12-03",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0213"
+  ],
+  "familias_como_pai": [
+    "F0211"
+  ],
+  "media": [
+    "O0630"
+  ],
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei pelo óbito, na Mata Mourisca, até 1880"
+    }
+  ],
+  "citacoes": null
+}

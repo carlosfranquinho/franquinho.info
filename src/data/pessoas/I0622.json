@@ -1,0 +1,33 @@
+{
+  "id": "I0622",
+  "protegida": false,
+  "nome": "Conrada de Jesus",
+  "nome_proprio": "Conrada",
+  "apelido": "de Jesus",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1896-02",
+    "lugar_id": "P0077"
+  },
+  "baptismo": {
+    "data": "1896-02-27",
+    "lugar_id": "P0077"
+  },
+  "obito": {
+    "data": "1970-01-19",
+    "lugar_id": "P0078"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0185"
+  ],
+  "media": [
+    "O0481",
+    "O1065"
+  ],
+  "notas": null,
+  "citacoes": null
+}

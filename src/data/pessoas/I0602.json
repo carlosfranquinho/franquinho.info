@@ -1,0 +1,21 @@
+{
+  "id": "I0602",
+  "protegida": false,
+  "nome": "Maria Henriques(?)",
+  "nome_proprio": "Maria",
+  "apelido": "Henriques(?)",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0177"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,22 @@
+{
+  "id": "F0187",
+  "pai": "I0625",
+  "mae": "I0687",
+  "filhos": [
+    "I0621"
+  ],
+  "tipo_relacao": "Married",
+  "casamento": {
+    "data": "1897-08-03",
+    "lugar_id": "P0001"
+  },
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "Procurei por filhos do casal, em Regueira de Pontes, de 1898 a 1904 e só encontro o Joaquim."
+    }
+  ],
+  "media": [
+    "O0483"
+  ]
+}

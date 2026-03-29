@@ -1,0 +1,23 @@
+{
+  "id": "I1489",
+  "protegida": false,
+  "nome": "Maria Gomes",
+  "nome_proprio": "Maria",
+  "apelido": "Gomes",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0411"
+  ],
+  "familias_como_pai": [
+    "F0408"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

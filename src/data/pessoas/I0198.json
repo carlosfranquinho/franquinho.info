@@ -1,0 +1,30 @@
+{
+  "id": "I0198",
+  "protegida": false,
+  "nome": "Manuel Serra",
+  "nome_proprio": "Manuel",
+  "apelido": "Serra",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1821-12-04",
+    "lugar_id": "P0002"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1888-06-07",
+    "lugar_id": "P0002"
+  },
+  "sepultura": null,
+  "profissao": "Mendigo",
+  "familias_como_filho": [
+    "F0015"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0239",
+    "O0064"
+  ],
+  "notas": null,
+  "citacoes": null
+}

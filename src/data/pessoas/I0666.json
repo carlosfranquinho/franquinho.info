@@ -1,0 +1,29 @@
+{
+  "id": "I0666",
+  "protegida": false,
+  "nome": "António Duarte",
+  "nome_proprio": "António",
+  "apelido": "Duarte",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0014"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1810-08-06",
+    "lugar_id": "P0085"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0197"
+  ],
+  "media": [
+    "O0533"
+  ],
+  "notas": null,
+  "citacoes": null
+}

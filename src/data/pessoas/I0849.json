@@ -1,0 +1,26 @@
+{
+  "id": "I0849",
+  "protegida": false,
+  "nome": "Emília",
+  "nome_proprio": "Emília",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1853-04-11",
+    "lugar_id": "P0080"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0236"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0701"
+  ],
+  "notas": null,
+  "citacoes": null
+}

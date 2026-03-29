@@ -1,0 +1,23 @@
+{
+  "id": "F0020",
+  "pai": "I0041",
+  "mae": "I0042",
+  "filhos": [
+    "I0023",
+    "I0370",
+    "I0371"
+  ],
+  "tipo_relacao": "Married",
+  "casamento": null,
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei por filhos do casal de 1811 a 1831."
+    },
+    {
+      "tipo": "",
+      "texto": "procurei pelo casamento de 1811 a 14 em Monte Real e em Carvide."
+    }
+  ],
+  "media": null
+}

@@ -1,0 +1,27 @@
+{
+  "id": "F0036",
+  "pai": "I0073",
+  "mae": "I0074",
+  "filhos": [
+    "I0449",
+    "I0450",
+    "I0065",
+    "I0451",
+    "I0452",
+    "I0453"
+  ],
+  "tipo_relacao": "Married",
+  "casamento": {
+    "data": "1722-01-12",
+    "lugar_id": "P0025"
+  },
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei por filhos, em Famalicão, até 1743"
+    }
+  ],
+  "media": [
+    "O0262"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "I0902",
+  "protegida": false,
+  "nome": "Rosa",
+  "nome_proprio": "Rosa",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1855-03-21",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0247"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0757"
+  ],
+  "notas": null,
+  "citacoes": null
+}

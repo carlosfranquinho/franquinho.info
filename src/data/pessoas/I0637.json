@@ -1,0 +1,34 @@
+{
+  "id": "I0637",
+  "protegida": false,
+  "nome": "João Rodrigues",
+  "nome_proprio": "João",
+  "apelido": "Rodrigues",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1822-12-22",
+    "lugar_id": "P0086"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1898-12-10",
+    "lugar_id": "P0003"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0192"
+  ],
+  "familias_como_pai": [
+    "F0191",
+    "F0190",
+    "F0194"
+  ],
+  "media": [
+    "O0538",
+    "O0515"
+  ],
+  "notas": null,
+  "citacoes": null
+}

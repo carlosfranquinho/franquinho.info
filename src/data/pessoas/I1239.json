@@ -1,0 +1,21 @@
+{
+  "id": "I1239",
+  "protegida": false,
+  "nome": "António Brás",
+  "nome_proprio": "António",
+  "apelido": "Brás",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0358"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

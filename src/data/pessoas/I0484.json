@@ -1,0 +1,26 @@
+{
+  "id": "I0484",
+  "protegida": false,
+  "nome": "João Jorge",
+  "nome_proprio": "João",
+  "apelido": "Jorge",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1703-02-22",
+    "lugar_id": "P0029"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0146"
+  ],
+  "media": [
+    "O0312"
+  ],
+  "notas": null,
+  "citacoes": null
+}

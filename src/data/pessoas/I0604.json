@@ -1,0 +1,26 @@
+{
+  "id": "I0604",
+  "protegida": false,
+  "nome": "Margarida Fernandes",
+  "nome_proprio": "Margarida",
+  "apelido": "Fernandes",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1667-09-02",
+    "lugar_id": "P0025"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0178"
+  ],
+  "media": [
+    "O0471"
+  ],
+  "notas": null,
+  "citacoes": null
+}

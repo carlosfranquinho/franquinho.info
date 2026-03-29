@@ -1,0 +1,30 @@
+{
+  "id": "I0199",
+  "protegida": false,
+  "nome": "José Ferreira Serra",
+  "nome_proprio": "José",
+  "apelido": "Ferreira Serra",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1824-09-23",
+    "lugar_id": "P0002"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1901-02-18",
+    "lugar_id": "P0002"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0015"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0240",
+    "O0065"
+  ],
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "I0220",
+  "protegida": false,
+  "nome": "António",
+  "nome_proprio": "António",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1758-09-24",
+    "lugar_id": "P0023"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0035"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0090"
+  ],
+  "notas": null,
+  "citacoes": null
+}

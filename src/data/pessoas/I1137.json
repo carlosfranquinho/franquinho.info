@@ -1,0 +1,26 @@
+{
+  "id": "I1137",
+  "protegida": false,
+  "nome": "António Domingues",
+  "nome_proprio": "António",
+  "apelido": "Domingues",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1709-03-06",
+    "lugar_id": "P0113"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0328"
+  ],
+  "media": [
+    "O0925"
+  ],
+  "notas": null,
+  "citacoes": null
+}

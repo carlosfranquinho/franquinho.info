@@ -1,0 +1,24 @@
+{
+  "id": "I1505",
+  "protegida": false,
+  "nome": "António da Costa Rico",
+  "nome_proprio": "António",
+  "apelido": "da Costa Rico",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1963-07-28",
+    "lugar_id": "P0176"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0414"
+  ],
+  "familias_como_pai": null,
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

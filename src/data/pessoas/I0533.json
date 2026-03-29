@@ -1,0 +1,26 @@
+{
+  "id": "I0533",
+  "protegida": false,
+  "nome": "Francisco",
+  "nome_proprio": "Francisco",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": {
+    "data": "1692-05-05",
+    "lugar_id": null
+  },
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0152"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0374"
+  ],
+  "notas": null,
+  "citacoes": null
+}

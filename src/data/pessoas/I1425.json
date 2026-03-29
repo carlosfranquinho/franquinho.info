@@ -1,0 +1,24 @@
+{
+  "id": "I1425",
+  "protegida": false,
+  "nome": "Diogo Lopes",
+  "nome_proprio": "Diogo",
+  "apelido": "Lopes",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1653-02-17",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0393"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "I0414",
+  "protegida": false,
+  "nome": "Domingos",
+  "nome_proprio": "Domingos",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1793-10-01",
+    "lugar_id": "P0036"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0052"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0203"
+  ],
+  "notas": null,
+  "citacoes": null
+}

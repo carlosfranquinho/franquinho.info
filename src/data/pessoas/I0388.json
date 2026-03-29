@@ -1,0 +1,26 @@
+{
+  "id": "I0388",
+  "protegida": false,
+  "nome": "Bernardina",
+  "nome_proprio": "Bernardina",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1780-07-08",
+    "lugar_id": "P0063"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0131"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0165"
+  ],
+  "notas": null,
+  "citacoes": null
+}

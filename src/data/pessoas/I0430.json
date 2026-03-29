@@ -1,0 +1,29 @@
+{
+  "id": "I0430",
+  "protegida": false,
+  "nome": "Maria Serrana",
+  "nome_proprio": "Maria",
+  "apelido": "Serrana",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1843-03-15",
+    "lugar_id": "P0021"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1870-05-15",
+    "lugar_id": "P0021"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0014"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0227"
+  ],
+  "notas": null,
+  "citacoes": null
+}

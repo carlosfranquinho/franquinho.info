@@ -1,0 +1,26 @@
+{
+  "id": "I0856",
+  "protegida": false,
+  "nome": "Amaro",
+  "nome_proprio": "Amaro",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1817-10-12",
+    "lugar_id": "P0101"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0237"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0707"
+  ],
+  "notas": null,
+  "citacoes": null
+}

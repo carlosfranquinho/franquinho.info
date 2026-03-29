@@ -1,0 +1,29 @@
+{
+  "id": "I0189",
+  "protegida": false,
+  "nome": "Joaquina Silva",
+  "nome_proprio": "Joaquina",
+  "apelido": "Silva",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1864-04-29",
+    "lugar_id": "P0002"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1958-03-02",
+    "lugar_id": "P0002"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0007"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0040"
+  ],
+  "notas": null,
+  "citacoes": null
+}

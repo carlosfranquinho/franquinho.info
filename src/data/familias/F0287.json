@@ -1,0 +1,18 @@
+{
+  "id": "F0287",
+  "pai": "I1018",
+  "mae": "I1019",
+  "filhos": [
+    "I1020",
+    "I1021",
+    "I1022",
+    "I1023"
+  ],
+  "tipo_relacao": "Married",
+  "casamento": {
+    "data": "1962",
+    "lugar_id": null
+  },
+  "notas": null,
+  "media": null
+}

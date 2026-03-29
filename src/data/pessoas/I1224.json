@@ -1,0 +1,29 @@
+{
+  "id": "I1224",
+  "protegida": false,
+  "nome": "Manuel João",
+  "nome_proprio": "Manuel",
+  "apelido": "João",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1696-05-20",
+    "lugar_id": "P0104"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0361"
+  ],
+  "familias_como_pai": [
+    "F0354",
+    "F0352"
+  ],
+  "media": [
+    "O0953"
+  ],
+  "notas": null,
+  "citacoes": null
+}

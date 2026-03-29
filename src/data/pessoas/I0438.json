@@ -1,0 +1,26 @@
+{
+  "id": "I0438",
+  "protegida": false,
+  "nome": "António Francisco Serrano",
+  "nome_proprio": "António Francisco",
+  "apelido": "Serrano",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0141"
+  ],
+  "media": null,
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei pelo falecimento, nos Barreiros, até 1883"
+    }
+  ],
+  "citacoes": null
+}

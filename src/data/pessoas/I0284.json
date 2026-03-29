@@ -1,0 +1,27 @@
+{
+  "id": "I0284",
+  "protegida": true,
+  "sexo": "M",
+  "nome": "Familiar",
+  "apelido": "Ferreira Domingues",
+  "nascimento": {
+    "data": "1949-09-25",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "2016-01-17",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0103"
+  ],
+  "familias_como_pai": [
+    "F0104"
+  ],
+  "relacoes": [
+    "F0104",
+    "F0103"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "I0041",
+  "protegida": false,
+  "nome": "Joaquim José Leal",
+  "nome_proprio": "Joaquim José",
+  "apelido": "Leal",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0007"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1858-01-12",
+    "lugar_id": "P0007"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0048"
+  ],
+  "familias_como_pai": [
+    "F0020"
+  ],
+  "media": [
+    "O0146",
+    "O0160"
+  ],
+  "notas": null,
+  "citacoes": null
+}

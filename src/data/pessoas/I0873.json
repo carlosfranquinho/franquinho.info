@@ -1,0 +1,26 @@
+{
+  "id": "I0873",
+  "protegida": false,
+  "nome": "Clara",
+  "nome_proprio": "Clara",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1789-07-02",
+    "lugar_id": "P0101"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0240"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0721"
+  ],
+  "notas": null,
+  "citacoes": null
+}

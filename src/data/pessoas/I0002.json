@@ -1,0 +1,27 @@
+{
+  "id": "I0002",
+  "protegida": true,
+  "sexo": "M",
+  "nome": "Familiar",
+  "apelido": "da Silva Franquinho",
+  "nascimento": {
+    "data": "1947-02-14",
+    "lugar_id": "P0002"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "2018-11-12",
+    "lugar_id": "P0083"
+  },
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0002"
+  ],
+  "familias_como_pai": [
+    "F0001"
+  ],
+  "relacoes": [
+    "F0001",
+    "F0002"
+  ]
+}

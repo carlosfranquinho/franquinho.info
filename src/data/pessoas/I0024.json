@@ -1,0 +1,36 @@
+{
+  "id": "I0024",
+  "protegida": false,
+  "nome": "Maria de Jesus",
+  "nome_proprio": "Maria",
+  "apelido": "de Jesus",
+  "nomes_alt": [
+    {
+      "tipo": "Also Known As",
+      "nome": "Maria de Jesus"
+    }
+  ],
+  "sexo": "F",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0017"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0021"
+  ],
+  "familias_como_pai": [
+    "F0011"
+  ],
+  "media": null,
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei pelo óbito de 1869 a 1891 e em 1910/11. Falta ver em 1892-1909."
+    }
+  ],
+  "citacoes": null
+}

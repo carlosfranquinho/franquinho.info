@@ -1,0 +1,28 @@
+{
+  "id": "I0047",
+  "protegida": false,
+  "nome": "Jacinto da Fonseca",
+  "nome_proprio": "Jacinto",
+  "apelido": "da Fonseca",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1856-09-14",
+    "lugar_id": "P0018"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0134"
+  ],
+  "familias_como_pai": [
+    "F0023"
+  ],
+  "media": [
+    "O0197"
+  ],
+  "notas": null,
+  "citacoes": null
+}

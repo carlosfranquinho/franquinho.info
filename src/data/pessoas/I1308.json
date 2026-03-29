@@ -1,0 +1,28 @@
+{
+  "id": "I1308",
+  "protegida": false,
+  "nome": "João Gonçalves",
+  "nome_proprio": "João",
+  "apelido": "Gonçalves",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1683-02-04",
+    "lugar_id": "P0129"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0374"
+  ],
+  "familias_como_pai": [
+    "F0372"
+  ],
+  "media": [
+    "O0976"
+  ],
+  "notas": null,
+  "citacoes": null
+}

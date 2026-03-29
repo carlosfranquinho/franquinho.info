@@ -1,0 +1,26 @@
+{
+  "id": "I0883",
+  "protegida": false,
+  "nome": "João",
+  "nome_proprio": "João",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1829-10-08",
+    "lugar_id": "P0076"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0242"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0734"
+  ],
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,32 @@
+{
+  "id": "I0826",
+  "protegida": false,
+  "nome": "Manuel Gonçalves",
+  "nome_proprio": "Manuel",
+  "apelido": "Gonçalves",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1709-01-27",
+    "lugar_id": "P0128"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1753-01-02",
+    "lugar_id": "P0127"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0372"
+  ],
+  "familias_como_pai": [
+    "F0232"
+  ],
+  "media": [
+    "O0971",
+    "O0981"
+  ],
+  "notas": null,
+  "citacoes": null
+}

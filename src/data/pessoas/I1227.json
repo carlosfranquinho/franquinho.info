@@ -1,0 +1,26 @@
+{
+  "id": "I1227",
+  "protegida": false,
+  "nome": "António Fernandes",
+  "nome_proprio": "António",
+  "apelido": "Fernandes",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1647-08-25",
+    "lugar_id": "P0104"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0357"
+  ],
+  "familias_como_pai": [
+    "F0353"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

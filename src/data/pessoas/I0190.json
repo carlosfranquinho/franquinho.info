@@ -1,0 +1,30 @@
+{
+  "id": "I0190",
+  "protegida": false,
+  "nome": "Maria Ferreira",
+  "nome_proprio": "Maria",
+  "apelido": "Ferreira",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1815",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1869-03-03",
+    "lugar_id": "P0002"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0015"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0042",
+    "O0043"
+  ],
+  "notas": null,
+  "citacoes": null
+}

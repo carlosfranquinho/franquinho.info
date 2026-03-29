@@ -1,0 +1,26 @@
+{
+  "id": "I0722",
+  "protegida": false,
+  "nome": "Manuel",
+  "nome_proprio": "Manuel",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1829-08-31",
+    "lugar_id": "P0076"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0209"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0592"
+  ],
+  "notas": null,
+  "citacoes": null
+}

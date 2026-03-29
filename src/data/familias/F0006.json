@@ -1,0 +1,24 @@
+{
+  "id": "F0006",
+  "pai": "I0013",
+  "mae": "I0014",
+  "filhos": [
+    "I0180",
+    "I0011",
+    "I0181"
+  ],
+  "tipo_relacao": "Married",
+  "casamento": {
+    "data": "1866-01-24",
+    "lugar_id": "P0002"
+  },
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei por filhos do casal até outubro de 1874"
+    }
+  ],
+  "media": [
+    "O0059"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "I1368",
+  "protegida": false,
+  "nome": "Maria Soares",
+  "nome_proprio": "Maria",
+  "apelido": "Soares",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1673-10-11",
+    "lugar_id": "P0131"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0387"
+  ],
+  "familias_como_pai": [
+    "F0382",
+    "F0381"
+  ],
+  "media": [
+    "O0997"
+  ],
+  "notas": null,
+  "citacoes": null
+}

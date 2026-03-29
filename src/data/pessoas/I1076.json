@@ -1,0 +1,24 @@
+{
+  "id": "I1076",
+  "protegida": true,
+  "sexo": "M",
+  "nome": "Familiar",
+  "apelido": "da Silva Franquinho",
+  "nascimento": {
+    "data": "1943-12-21",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0002"
+  ],
+  "familias_como_pai": [
+    "F0311"
+  ],
+  "relacoes": [
+    "F0002",
+    "F0311"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "I0264",
+  "protegida": true,
+  "sexo": "F",
+  "nome": "Familiar",
+  "apelido": "Queirós Gaspar",
+  "nascimento": {
+    "data": "1996-12-22",
+    "lugar_id": "P0003"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0098"
+  ],
+  "familias_como_pai": null,
+  "relacoes": [
+    "F0098"
+  ]
+}

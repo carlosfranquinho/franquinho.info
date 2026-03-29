@@ -1,0 +1,24 @@
+{
+  "id": "I1314",
+  "protegida": false,
+  "nome": "Teresa",
+  "nome_proprio": "Teresa",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1710-09-14",
+    "lugar_id": "P0127"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0373"
+  ],
+  "familias_como_pai": null,
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

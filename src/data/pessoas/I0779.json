@@ -1,0 +1,29 @@
+{
+  "id": "I0779",
+  "protegida": false,
+  "nome": "António",
+  "nome_proprio": "António",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": {
+    "data": "1813-11-23",
+    "lugar_id": "P0076"
+  },
+  "obito": {
+    "data": "1813-12-27",
+    "lugar_id": "P0076"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0221"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0645"
+  ],
+  "notas": null,
+  "citacoes": null
+}

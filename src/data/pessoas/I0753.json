@@ -1,0 +1,32 @@
+{
+  "id": "I0753",
+  "protegida": false,
+  "nome": "Manuel Dias",
+  "nome_proprio": "Manuel",
+  "apelido": "Dias",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1691-01-19",
+    "lugar_id": "P0076"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1774-01-31",
+    "lugar_id": "P0076"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0326"
+  ],
+  "familias_como_pai": [
+    "F0216"
+  ],
+  "media": [
+    "O0912",
+    "O0920"
+  ],
+  "notas": null,
+  "citacoes": null
+}

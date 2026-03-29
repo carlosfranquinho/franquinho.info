@@ -1,0 +1,35 @@
+{
+  "id": "I0081",
+  "protegida": false,
+  "nome": "José Pereira Nobre",
+  "nome_proprio": "José",
+  "apelido": "Pereira Nobre",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1736-03-06",
+    "lugar_id": "P0030"
+  },
+  "baptismo": {
+    "data": null,
+    "lugar_id": "P0031"
+  },
+  "obito": {
+    "data": "1811-04-20",
+    "lugar_id": "P0010"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0042"
+  ],
+  "familias_como_pai": [
+    "F0040"
+  ],
+  "media": [
+    "O0317",
+    "O0142"
+  ],
+  "notas": null,
+  "citacoes": null
+}

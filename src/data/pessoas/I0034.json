@@ -1,0 +1,32 @@
+{
+  "id": "I0034",
+  "protegida": false,
+  "nome": "Maria da Conceição",
+  "nome_proprio": "Maria da Conceição",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1806",
+    "lugar_id": "P0002"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1869-09-25",
+    "lugar_id": "P0002"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0031"
+  ],
+  "familias_como_pai": [
+    "F0016",
+    "F0142"
+  ],
+  "media": [
+    "O0261"
+  ],
+  "notas": null,
+  "citacoes": null
+}

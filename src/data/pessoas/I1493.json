@@ -1,0 +1,24 @@
+{
+  "id": "I1493",
+  "protegida": false,
+  "nome": "Manuel Dias",
+  "nome_proprio": "Manuel",
+  "apelido": "Dias",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1717-07-21",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0410"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

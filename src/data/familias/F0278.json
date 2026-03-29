@@ -1,0 +1,15 @@
+{
+  "id": "F0278",
+  "pai": "I0994",
+  "mae": "I0993",
+  "filhos": [
+    "I0995"
+  ],
+  "tipo_relacao": "Married",
+  "casamento": {
+    "data": "2003-05-10",
+    "lugar_id": "P0003"
+  },
+  "notas": null,
+  "media": null
+}

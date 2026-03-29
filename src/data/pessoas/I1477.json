@@ -1,0 +1,31 @@
+{
+  "id": "I1477",
+  "protegida": false,
+  "nome": "José Pontes",
+  "nome_proprio": "José",
+  "apelido": "Pontes",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1880-02-14",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0404"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O1021"
+  ],
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "passaporte para o Brasil em 24 dezembro 1914"
+    }
+  ],
+  "citacoes": null
+}

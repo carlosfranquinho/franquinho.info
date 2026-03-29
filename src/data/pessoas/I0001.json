@@ -1,0 +1,21 @@
+{
+  "id": "I0001",
+  "protegida": true,
+  "sexo": "F",
+  "nome": "Familiar",
+  "apelido": "Cardoso Morgado",
+  "nascimento": {
+    "data": "1975-07-20",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0000"
+  ],
+  "relacoes": [
+    "F0000"
+  ]
+}

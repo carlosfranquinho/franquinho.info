@@ -1,0 +1,26 @@
+{
+  "id": "I1050",
+  "protegida": false,
+  "nome": "Joaquina de Jesus",
+  "nome_proprio": "Joaquina",
+  "apelido": "de Jesus",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1842",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0300"
+  ],
+  "familias_como_pai": [
+    "F0297"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "I1035",
+  "protegida": true,
+  "sexo": "F",
+  "nome": "Familiar",
+  "apelido": "Franquinho Rainho",
+  "nascimento": {
+    "data": "1978-03-18",
+    "lugar_id": "P0060"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0292"
+  ],
+  "familias_como_pai": [
+    "F0293"
+  ],
+  "relacoes": [
+    "F0292",
+    "F0293"
+  ]
+}

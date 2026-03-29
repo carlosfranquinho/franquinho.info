@@ -1,0 +1,28 @@
+{
+  "id": "I1341",
+  "protegida": false,
+  "nome": "António Dias",
+  "nome_proprio": "António",
+  "apelido": "Dias",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1674-04-04",
+    "lugar_id": "P0080"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0378"
+  ],
+  "familias_como_pai": [
+    "F0377"
+  ],
+  "media": [
+    "O0989"
+  ],
+  "notas": null,
+  "citacoes": null
+}

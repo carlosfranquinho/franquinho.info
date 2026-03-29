@@ -1,0 +1,33 @@
+{
+  "id": "I0768",
+  "protegida": false,
+  "nome": "Margarida Rosa",
+  "nome_proprio": "Margarida",
+  "apelido": "Rosa",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": {
+    "data": "1812-04-24",
+    "lugar_id": "P0098"
+  },
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0222"
+  ],
+  "familias_como_pai": [
+    "F0220"
+  ],
+  "media": [
+    "O0644"
+  ],
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "não encontrei o óbito em Santo António. Procurei de 1845 a 1895."
+    }
+  ],
+  "citacoes": null
+}

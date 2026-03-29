@@ -1,0 +1,26 @@
+{
+  "id": "I0368",
+  "protegida": false,
+  "nome": "Rosária",
+  "nome_proprio": "Rosária",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1846-05-18",
+    "lugar_id": "P0007"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0011"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0154"
+  ],
+  "notas": null,
+  "citacoes": null
+}

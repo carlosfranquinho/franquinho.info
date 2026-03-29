@@ -1,0 +1,23 @@
+{
+  "id": "I0131",
+  "protegida": false,
+  "nome": "Pedro Nunes",
+  "nome_proprio": "Pedro",
+  "apelido": "Nunes",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0144"
+  ],
+  "familias_como_pai": [
+    "F0066"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,31 @@
+{
+  "id": "I0620",
+  "protegida": false,
+  "nome": "Maria da Conceição Cintra",
+  "nome_proprio": "Maria da Conceição",
+  "apelido": "Cintra",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1916-10-07",
+    "lugar_id": "P0076"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1994-02-12",
+    "lugar_id": "P0003"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0186"
+  ],
+  "familias_como_pai": [
+    "F0184"
+  ],
+  "media": [
+    "O1046"
+  ],
+  "notas": null,
+  "citacoes": null
+}

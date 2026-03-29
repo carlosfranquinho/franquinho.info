@@ -1,0 +1,26 @@
+{
+  "id": "I0922",
+  "protegida": false,
+  "nome": "André Gaspar",
+  "nome_proprio": "André",
+  "apelido": "Gaspar",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0106"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0260"
+  ],
+  "familias_como_pai": [
+    "F0257"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

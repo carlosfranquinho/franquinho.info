@@ -1,0 +1,21 @@
+{
+  "id": "I0337",
+  "protegida": true,
+  "sexo": "M",
+  "nome": "Familiar",
+  "apelido": "Caseiro Rorigues Melo",
+  "nascimento": {
+    "data": "1982-09-04",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0123"
+  ],
+  "familias_como_pai": null,
+  "relacoes": [
+    "F0123"
+  ]
+}

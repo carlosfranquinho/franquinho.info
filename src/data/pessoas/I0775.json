@@ -1,0 +1,30 @@
+{
+  "id": "I0775",
+  "protegida": false,
+  "nome": "Maria",
+  "nome_proprio": "Maria",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1845-04-03",
+    "lugar_id": "P0098"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1855-05-18",
+    "lugar_id": "P0076"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0220"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0639",
+    "O0751"
+  ],
+  "notas": null,
+  "citacoes": null
+}

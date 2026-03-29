@@ -1,0 +1,33 @@
+{
+  "id": "I0629",
+  "protegida": false,
+  "nome": "José António Lourenço",
+  "nome_proprio": "José António",
+  "apelido": "Lourenço",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1845-03-06",
+    "lugar_id": "P0080"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1890-11-06",
+    "lugar_id": "P0080"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0236"
+  ],
+  "familias_como_pai": [
+    "F0189"
+  ],
+  "media": [
+    "O0493",
+    "O0698",
+    "O0495"
+  ],
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,21 @@
+{
+  "id": "I1041",
+  "protegida": true,
+  "sexo": "M",
+  "nome": "Familiar",
+  "apelido": "Rigaud",
+  "nascimento": {
+    "data": "2002-06-10",
+    "lugar_id": "P0060"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0294"
+  ],
+  "familias_como_pai": null,
+  "relacoes": [
+    "F0294"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "I1010",
+  "protegida": true,
+  "sexo": "F",
+  "nome": "Familiar",
+  "apelido": "da Silva Rodrigues Grácio",
+  "nascimento": {
+    "data": "11 jan",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0283"
+  ],
+  "familias_como_pai": [
+    "F0284"
+  ],
+  "relacoes": [
+    "F0284",
+    "F0283"
+  ]
+}

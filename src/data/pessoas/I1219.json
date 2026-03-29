@@ -1,0 +1,21 @@
+{
+  "id": "I1219",
+  "protegida": false,
+  "nome": "Simão Fernandes",
+  "nome_proprio": "Simão",
+  "apelido": "Fernandes",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0351"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

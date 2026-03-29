@@ -1,0 +1,26 @@
+{
+  "id": "I0536",
+  "protegida": false,
+  "nome": "Luísa",
+  "nome_proprio": "Luísa",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": {
+    "data": "1747-11-30",
+    "lugar_id": "P0034"
+  },
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0043"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0379"
+  ],
+  "notas": null,
+  "citacoes": null
+}

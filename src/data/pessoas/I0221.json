@@ -1,0 +1,26 @@
+{
+  "id": "I0221",
+  "protegida": false,
+  "nome": "Caetana",
+  "nome_proprio": "Caetana",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1760-07-03",
+    "lugar_id": "P0023"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0035"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0091"
+  ],
+  "notas": null,
+  "citacoes": null
+}

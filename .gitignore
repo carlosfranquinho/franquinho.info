@@ -6,7 +6,7 @@ dist/
 .astro/
 
 # Base de dados Gramps (dados privados completos)
-data/
+/data/
 
 # Media originais (alta resolução, demasiado grandes)
 public/media/originais/

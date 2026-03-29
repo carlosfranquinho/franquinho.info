@@ -1,0 +1,26 @@
+{
+  "id": "I1180",
+  "protegida": false,
+  "nome": "Manuel João",
+  "nome_proprio": "Manuel",
+  "apelido": "João",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0119"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0346"
+  ],
+  "familias_como_pai": [
+    "F0338"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

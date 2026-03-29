@@ -1,0 +1,28 @@
+{
+  "id": "I1119",
+  "protegida": false,
+  "nome": "Rosa Maria",
+  "nome_proprio": "Rosa",
+  "apelido": "Maria",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1727-09-04",
+    "lugar_id": "P0096"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0409"
+  ],
+  "familias_como_pai": [
+    "F0325"
+  ],
+  "media": [
+    "O1039"
+  ],
+  "notas": null,
+  "citacoes": null
+}

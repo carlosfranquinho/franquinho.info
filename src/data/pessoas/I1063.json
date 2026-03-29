@@ -1,0 +1,24 @@
+{
+  "id": "I1063",
+  "protegida": false,
+  "nome": "Manuel Alexandre",
+  "nome_proprio": "Manuel",
+  "apelido": "Alexandre",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1836-12-25",
+    "lugar_id": "P0002"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0304"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

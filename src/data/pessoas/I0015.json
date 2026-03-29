@@ -1,0 +1,37 @@
+{
+  "id": "I0015",
+  "protegida": false,
+  "nome": "António Ferreira",
+  "nome_proprio": "António",
+  "apelido": "Ferreira",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1829-05-18",
+    "lugar_id": "P0002"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1911-12-18",
+    "lugar_id": "P0002"
+  },
+  "sepultura": null,
+  "profissao": "Trabalhador",
+  "familias_como_filho": [
+    "F0015"
+  ],
+  "familias_como_pai": [
+    "F0007"
+  ],
+  "media": [
+    "O0241",
+    "O0050"
+  ],
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei pelo óbito de 1875 a 1911"
+    }
+  ],
+  "citacoes": null
+}

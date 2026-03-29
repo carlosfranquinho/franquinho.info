@@ -1,0 +1,18 @@
+{
+  "id": "I1095",
+  "protegida": true,
+  "sexo": "F",
+  "nome": "Familiar",
+  "apelido": null,
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0318"
+  ],
+  "relacoes": [
+    "F0318"
+  ]
+}

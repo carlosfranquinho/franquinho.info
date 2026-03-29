@@ -1,0 +1,24 @@
+{
+  "id": "I0283",
+  "protegida": false,
+  "nome": "Joaquim Domingues",
+  "nome_proprio": "Joaquim",
+  "apelido": "Domingues",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "2001",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0103"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

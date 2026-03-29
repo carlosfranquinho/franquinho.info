@@ -1,0 +1,21 @@
+{
+  "id": "I0336",
+  "protegida": true,
+  "sexo": "F",
+  "nome": "Familiar",
+  "apelido": "Rodrigues de Melo",
+  "nascimento": {
+    "data": "1977-05-27",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0123"
+  ],
+  "familias_como_pai": null,
+  "relacoes": [
+    "F0123"
+  ]
+}

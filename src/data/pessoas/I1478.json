@@ -1,0 +1,24 @@
+{
+  "id": "I1478",
+  "protegida": true,
+  "sexo": "M",
+  "nome": "Familiar",
+  "apelido": "de Oliveira Franquinho",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "2013-01-17",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0072"
+  ],
+  "familias_como_pai": [
+    "F0406"
+  ],
+  "relacoes": [
+    "F0072",
+    "F0406"
+  ]
+}

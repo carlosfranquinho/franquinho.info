@@ -1,0 +1,34 @@
+{
+  "id": "I1127",
+  "protegida": false,
+  "nome": "Bernarda Jordoa",
+  "nome_proprio": "Bernarda",
+  "apelido": "Jordoa",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0097"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1743-01-27",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0329"
+  ],
+  "familias_como_pai": [
+    "F0327"
+  ],
+  "media": null,
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "nos batismos 1648/1702 há um assento de uma Bernarda, filha de um casal Jordão Martins e Maria Fernandes, a 20/AGO/1680. Embora exista de facto esse casal na paróquia, julgo que não são do Outeiro, como indica o registo. Assim este será, provavelmenete, o registo desta Bernarda Jordoa. ficheiro 279/425"
+    }
+  ],
+  "citacoes": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "I0399",
+  "protegida": false,
+  "nome": "Rosália",
+  "nome_proprio": "Rosália",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1819-07-16",
+    "lugar_id": "P0018"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0023"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0185"
+  ],
+  "notas": null,
+  "citacoes": null
+}

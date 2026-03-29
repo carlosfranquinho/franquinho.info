@@ -1,0 +1,37 @@
+{
+  "id": "I0016",
+  "protegida": false,
+  "nome": "Joaquina da Silva",
+  "nome_proprio": "Joaquina",
+  "apelido": "da Silva",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1830-11-13",
+    "lugar_id": "P0002"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1913-10-26",
+    "lugar_id": "P0002"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0016"
+  ],
+  "familias_como_pai": [
+    "F0007"
+  ],
+  "media": [
+    "O0251",
+    "O0096"
+  ],
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei pelo óbito de 1875 a 1911"
+    }
+  ],
+  "citacoes": null
+}

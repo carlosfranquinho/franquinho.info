@@ -1,0 +1,24 @@
+{
+  "id": "I0224",
+  "protegida": false,
+  "nome": "Dionisio",
+  "nome_proprio": "Dionisio",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1766-11-17",
+    "lugar_id": "P0023"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0035"
+  ],
+  "familias_como_pai": null,
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

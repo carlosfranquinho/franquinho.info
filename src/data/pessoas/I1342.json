@@ -1,0 +1,28 @@
+{
+  "id": "I1342",
+  "protegida": false,
+  "nome": "Catarina Fernandes",
+  "nome_proprio": "Catarina",
+  "apelido": "Fernandes",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1677-01-18",
+    "lugar_id": "P0130"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0379"
+  ],
+  "familias_como_pai": [
+    "F0377"
+  ],
+  "media": [
+    "O0988"
+  ],
+  "notas": null,
+  "citacoes": null
+}

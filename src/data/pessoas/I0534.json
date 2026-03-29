@@ -1,0 +1,26 @@
+{
+  "id": "I0534",
+  "protegida": false,
+  "nome": "Teresa",
+  "nome_proprio": "Teresa",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1740-12-11",
+    "lugar_id": "P0034"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0043"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0376"
+  ],
+  "notas": null,
+  "citacoes": null
+}

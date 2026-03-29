@@ -1,0 +1,31 @@
+{
+  "id": "I0187",
+  "protegida": false,
+  "nome": "Noémia Ferreira",
+  "nome_proprio": "Noémia",
+  "apelido": "Ferreira",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1917-02-23",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1998-12-15",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0279"
+  ],
+  "familias_como_pai": [
+    "F0082"
+  ],
+  "media": [
+    "O1043"
+  ],
+  "notas": null,
+  "citacoes": null
+}

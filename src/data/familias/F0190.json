@@ -1,0 +1,26 @@
+{
+  "id": "F0190",
+  "pai": "I0637",
+  "mae": "I0638",
+  "filhos": [
+    "I0625",
+    "I0640",
+    "I0641",
+    "I0642",
+    "I0643"
+  ],
+  "tipo_relacao": "Married",
+  "casamento": {
+    "data": "1854-11-30",
+    "lugar_id": "P0003"
+  },
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "Procurei por filhos, em Leiria, até final de 1868"
+    }
+  ],
+  "media": [
+    "O0496"
+  ]
+}

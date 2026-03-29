@@ -1,0 +1,29 @@
+{
+  "id": "I0662",
+  "protegida": false,
+  "nome": "Vitorino",
+  "nome_proprio": "Vitorino",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1838",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1843-03-10",
+    "lugar_id": "P0084"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0195"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0528"
+  ],
+  "notas": null,
+  "citacoes": null
+}

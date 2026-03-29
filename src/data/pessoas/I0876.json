@@ -1,0 +1,32 @@
+{
+  "id": "I0876",
+  "protegida": false,
+  "nome": "António Francisco",
+  "nome_proprio": "António",
+  "apelido": "Francisco",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": {
+    "data": "1788-03-05",
+    "lugar_id": "P0076"
+  },
+  "obito": {
+    "data": "1862-03-28",
+    "lugar_id": "P0076"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0243"
+  ],
+  "familias_como_pai": [
+    "F0242"
+  ],
+  "media": [
+    "O0741",
+    "O0756"
+  ],
+  "notas": null,
+  "citacoes": null
+}

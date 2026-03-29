@@ -1,0 +1,26 @@
+{
+  "id": "I0400",
+  "protegida": false,
+  "nome": "José",
+  "nome_proprio": "José",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1821-09-12",
+    "lugar_id": "P0018"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0023"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0186"
+  ],
+  "notas": null,
+  "citacoes": null
+}

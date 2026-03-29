@@ -1,0 +1,27 @@
+{
+  "id": "F0005",
+  "pai": "I0011",
+  "mae": "I0012",
+  "filhos": [
+    "I0182",
+    "I0183",
+    "I0184",
+    "I0186",
+    "I0006"
+  ],
+  "tipo_relacao": "Married",
+  "casamento": {
+    "data": "1894-04-22",
+    "lugar_id": "P0002"
+  },
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei filhos até 1911"
+    }
+  ],
+  "media": [
+    "O0053",
+    "O0107"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "I0000",
+  "protegida": true,
+  "sexo": "M",
+  "nome": "Familiar",
+  "apelido": "Romeiro Franquinho",
+  "nascimento": {
+    "data": "1974-10-21",
+    "lugar_id": "P0000"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0001"
+  ],
+  "familias_como_pai": [
+    "F0000"
+  ],
+  "relacoes": [
+    "F0000",
+    "F0001"
+  ]
+}

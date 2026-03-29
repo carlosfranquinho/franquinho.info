@@ -1,0 +1,24 @@
+{
+  "id": "I0334",
+  "protegida": true,
+  "sexo": "F",
+  "nome": "Familiar",
+  "apelido": "Caseiro Franquinho Melo",
+  "nascimento": {
+    "data": "1954-11-07",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0122"
+  ],
+  "familias_como_pai": [
+    "F0123"
+  ],
+  "relacoes": [
+    "F0123",
+    "F0122"
+  ]
+}

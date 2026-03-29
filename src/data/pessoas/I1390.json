@@ -1,0 +1,24 @@
+{
+  "id": "I1390",
+  "protegida": false,
+  "nome": "Domingas",
+  "nome_proprio": "Domingas",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1683-04-11",
+    "lugar_id": "P0103"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0386"
+  ],
+  "familias_como_pai": null,
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

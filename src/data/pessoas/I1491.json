@@ -1,0 +1,23 @@
+{
+  "id": "I1491",
+  "protegida": false,
+  "nome": "Maria Domingues",
+  "nome_proprio": "Maria",
+  "apelido": "Domingues",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0413"
+  ],
+  "familias_como_pai": [
+    "F0409"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

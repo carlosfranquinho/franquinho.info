@@ -1,0 +1,31 @@
+{
+  "id": "I0147",
+  "protegida": false,
+  "nome": "José Franquinho",
+  "nome_proprio": "José",
+  "apelido": "Franquinho",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1826",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1891-01-30",
+    "lugar_id": "P0005"
+  },
+  "sepultura": null,
+  "profissao": "Trabalhador",
+  "familias_como_filho": [
+    "F0009"
+  ],
+  "familias_como_pai": [
+    "F0074"
+  ],
+  "media": [
+    "O0101"
+  ],
+  "notas": null,
+  "citacoes": null
+}

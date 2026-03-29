@@ -1,0 +1,31 @@
+{
+  "id": "I0067",
+  "protegida": false,
+  "nome": "António Marques",
+  "nome_proprio": "António",
+  "apelido": "Marques",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0010"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0038"
+  ],
+  "familias_como_pai": [
+    "F0033"
+  ],
+  "media": null,
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei pelo batismo (e dos irmãos) em Cela, entre 1730 e 1743, em vão."
+    }
+  ],
+  "citacoes": null
+}

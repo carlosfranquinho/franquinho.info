@@ -1,0 +1,29 @@
+{
+  "id": "I0566",
+  "protegida": false,
+  "nome": "Manuel de Almada",
+  "nome_proprio": "Manuel",
+  "apelido": "de Almada",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1733",
+    "lugar_id": "P0037"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1793-12-06",
+    "lugar_id": "P0036"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0053"
+  ],
+  "familias_como_pai": [
+    "F0167"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

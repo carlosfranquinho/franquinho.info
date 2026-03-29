@@ -1,0 +1,24 @@
+{
+  "id": "I1061",
+  "protegida": false,
+  "nome": "Luís Ribeirete",
+  "nome_proprio": "Luís",
+  "apelido": "Ribeirete",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0111"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0303"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

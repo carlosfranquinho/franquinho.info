@@ -1,0 +1,31 @@
+{
+  "id": "F0013",
+  "pai": "I0027",
+  "mae": "I0028",
+  "filhos": [
+    "I0419",
+    "I0420",
+    "I0013",
+    "I0421",
+    "I0422",
+    "I0423"
+  ],
+  "tipo_relacao": "Married",
+  "casamento": {
+    "data": "1831-05-10",
+    "lugar_id": "P0009"
+  },
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "parentes em terceiro grau de consanguinidade"
+    },
+    {
+      "tipo": "",
+      "texto": "procurei por filhos, na Ruivaqueira, até 1950"
+    }
+  ],
+  "media": [
+    "O0215"
+  ]
+}

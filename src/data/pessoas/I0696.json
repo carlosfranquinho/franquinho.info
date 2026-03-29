@@ -1,0 +1,32 @@
+{
+  "id": "I0696",
+  "protegida": false,
+  "nome": "Joaquim Malhão",
+  "nome_proprio": "Joaquim",
+  "apelido": "Malhão",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1825-07-26",
+    "lugar_id": "P0091"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1889-08-30",
+    "lugar_id": "P0001"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0203"
+  ],
+  "familias_como_pai": [
+    "F0202"
+  ],
+  "media": [
+    "O0567",
+    "O0568"
+  ],
+  "notas": null,
+  "citacoes": null
+}

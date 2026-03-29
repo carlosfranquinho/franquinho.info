@@ -1,0 +1,28 @@
+{
+  "id": "I0228",
+  "protegida": false,
+  "nome": "Domingos do Couto",
+  "nome_proprio": "Domingos",
+  "apelido": "do Couto",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1694-03-28",
+    "lugar_id": "P0025"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0180"
+  ],
+  "familias_como_pai": [
+    "F0088"
+  ],
+  "media": [
+    "O0438"
+  ],
+  "notas": null,
+  "citacoes": null
+}

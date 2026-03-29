@@ -1,0 +1,23 @@
+{
+  "id": "I0921",
+  "protegida": false,
+  "nome": "Maria Gomes",
+  "nome_proprio": "Maria Gomes",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0259"
+  ],
+  "familias_como_pai": [
+    "F0256"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

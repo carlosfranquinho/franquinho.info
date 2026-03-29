@@ -1,0 +1,31 @@
+{
+  "id": "I0029",
+  "protegida": false,
+  "nome": "António Gaspar",
+  "nome_proprio": "António",
+  "apelido": "Gaspar",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1794",
+    "lugar_id": "P0021"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1866-05-05",
+    "lugar_id": "P0021"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0026"
+  ],
+  "familias_como_pai": [
+    "F0014"
+  ],
+  "media": [
+    "O0231"
+  ],
+  "notas": null,
+  "citacoes": null
+}

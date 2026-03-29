@@ -1,0 +1,26 @@
+{
+  "id": "I0930",
+  "protegida": false,
+  "nome": "João da Silva",
+  "nome_proprio": "João",
+  "apelido": "da Silva",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1725-05-03",
+    "lugar_id": "P0107"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0263"
+  ],
+  "familias_como_pai": [
+    "F0262"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

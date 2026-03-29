@@ -1,0 +1,18 @@
+{
+  "id": "I1013",
+  "protegida": true,
+  "sexo": "F",
+  "nome": "Familiar",
+  "apelido": "Rainho",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0285"
+  ],
+  "relacoes": [
+    "F0285"
+  ]
+}

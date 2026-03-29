@@ -1,0 +1,26 @@
+{
+  "id": "I1321",
+  "protegida": false,
+  "nome": "Isabel Mendes",
+  "nome_proprio": "Isabel",
+  "apelido": "Mendes",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1729-01-24",
+    "lugar_id": "P0128"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0375"
+  ],
+  "media": [
+    "O0978"
+  ],
+  "notas": null,
+  "citacoes": null
+}

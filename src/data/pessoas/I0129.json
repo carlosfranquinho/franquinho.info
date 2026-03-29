@@ -1,0 +1,26 @@
+{
+  "id": "I0129",
+  "protegida": false,
+  "nome": "André Rodrigues Rebelo",
+  "nome_proprio": "André",
+  "apelido": "Rodrigues Rebelo",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1656-08-27",
+    "lugar_id": "P0025"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0065"
+  ],
+  "media": [
+    "O0437"
+  ],
+  "notas": null,
+  "citacoes": null
+}

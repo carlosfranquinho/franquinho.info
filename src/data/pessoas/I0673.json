@@ -1,0 +1,31 @@
+{
+  "id": "I0673",
+  "protegida": false,
+  "nome": "Manuel Rodrigues Romeiro",
+  "nome_proprio": "Manuel",
+  "apelido": "Rodrigues Romeiro",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0086"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1811-09-24",
+    "lugar_id": "P0086"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0200"
+  ],
+  "familias_como_pai": [
+    "F0198"
+  ],
+  "media": [
+    "O0548"
+  ],
+  "notas": null,
+  "citacoes": null
+}

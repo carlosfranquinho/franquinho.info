@@ -1,0 +1,32 @@
+{
+  "id": "I0144",
+  "protegida": false,
+  "nome": "Manuel Franquinho",
+  "nome_proprio": "Manuel",
+  "apelido": "Franquinho",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1906-01-09",
+    "lugar_id": "P0002"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1988-03-15",
+    "lugar_id": "P0040"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0003"
+  ],
+  "familias_como_pai": [
+    "F0072"
+  ],
+  "media": [
+    "O0444",
+    "O0128"
+  ],
+  "notas": null,
+  "citacoes": null
+}

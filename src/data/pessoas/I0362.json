@@ -1,0 +1,26 @@
+{
+  "id": "I0362",
+  "protegida": false,
+  "nome": "Cândida",
+  "nome_proprio": "Cândida",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1832-06-01",
+    "lugar_id": "P0007"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0011"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0157"
+  ],
+  "notas": null,
+  "citacoes": null
+}

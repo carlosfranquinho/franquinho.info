@@ -1,0 +1,21 @@
+{
+  "id": "I1026",
+  "protegida": true,
+  "sexo": "M",
+  "nome": "Familiar",
+  "apelido": "Franquinho",
+  "nascimento": {
+    "data": "1999-12-11",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0288"
+  ],
+  "familias_como_pai": null,
+  "relacoes": [
+    "F0288"
+  ]
+}

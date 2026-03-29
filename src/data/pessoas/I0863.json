@@ -1,0 +1,23 @@
+{
+  "id": "I0863",
+  "protegida": false,
+  "nome": "Bernardo Rodrigues",
+  "nome_proprio": "Bernardo",
+  "apelido": "Rodrigues",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0270"
+  ],
+  "familias_como_pai": [
+    "F0240"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

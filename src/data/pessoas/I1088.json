@@ -1,0 +1,24 @@
+{
+  "id": "I1088",
+  "protegida": true,
+  "sexo": "F",
+  "nome": "Familiar",
+  "apelido": "Franquinho Ribeiro",
+  "nascimento": {
+    "data": "1976-04-18",
+    "lugar_id": "P0000"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0315"
+  ],
+  "familias_como_pai": [
+    "F0316"
+  ],
+  "relacoes": [
+    "F0316",
+    "F0315"
+  ]
+}

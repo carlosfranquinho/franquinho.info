@@ -1,0 +1,24 @@
+{
+  "id": "F0043",
+  "pai": "I0088",
+  "mae": "I0089",
+  "filhos": [
+    "I0360",
+    "I0538",
+    "I0083",
+    "I0534",
+    "I0535",
+    "I0536",
+    "I0537",
+    "I0539"
+  ],
+  "tipo_relacao": "Married",
+  "casamento": null,
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "Não encontro o casamento entre 1711 e 1731. Terão casado noutra freguesia?? Procurar em Cela."
+    }
+  ],
+  "media": null
+}

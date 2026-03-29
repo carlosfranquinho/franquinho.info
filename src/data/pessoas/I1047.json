@@ -1,0 +1,26 @@
+{
+  "id": "I1047",
+  "protegida": false,
+  "nome": "Manuel Rainho",
+  "nome_proprio": "Manuel",
+  "apelido": "Rainho",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1866-05-29",
+    "lugar_id": "P0002"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0297"
+  ],
+  "familias_como_pai": [
+    "F0296"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

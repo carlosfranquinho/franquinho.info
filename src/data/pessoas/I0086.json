@@ -1,0 +1,32 @@
+{
+  "id": "I0086",
+  "protegida": false,
+  "nome": "Manuel Pereira Nobre",
+  "nome_proprio": "Manuel",
+  "apelido": "Pereira Nobre",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1703-04-17",
+    "lugar_id": "P0031"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1771-08-17",
+    "lugar_id": "P0030"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0046"
+  ],
+  "familias_como_pai": [
+    "F0042"
+  ],
+  "media": [
+    "O0322",
+    "O0331"
+  ],
+  "notas": null,
+  "citacoes": null
+}

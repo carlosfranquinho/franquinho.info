@@ -1,0 +1,32 @@
+{
+  "id": "I0627",
+  "protegida": false,
+  "nome": "Francisco da Costa",
+  "nome_proprio": "Francisco",
+  "apelido": "da Costa",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1838-01-25",
+    "lugar_id": "P0076"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1878-01-06",
+    "lugar_id": "P0076"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0209"
+  ],
+  "familias_como_pai": [
+    "F0188"
+  ],
+  "media": [
+    "O0595",
+    "O0490"
+  ],
+  "notas": null,
+  "citacoes": null
+}

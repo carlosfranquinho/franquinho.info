@@ -1,0 +1,23 @@
+{
+  "id": "I0920",
+  "protegida": false,
+  "nome": "Manuel Francisco",
+  "nome_proprio": "Manuel",
+  "apelido": "Francisco",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0258"
+  ],
+  "familias_como_pai": [
+    "F0256"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

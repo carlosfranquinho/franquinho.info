@@ -1,0 +1,26 @@
+{
+  "id": "I0846",
+  "protegida": false,
+  "nome": "Manuel Lourenço",
+  "nome_proprio": "Manuel",
+  "apelido": "Lourenço",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1842-10-14",
+    "lugar_id": "P0080"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0236"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0697"
+  ],
+  "notas": null,
+  "citacoes": null
+}

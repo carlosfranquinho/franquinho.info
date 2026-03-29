@@ -1,0 +1,24 @@
+{
+  "id": "I0381",
+  "protegida": false,
+  "nome": "Maria Pereira",
+  "nome_proprio": "Maria",
+  "apelido": "Pereira",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1810-05-31",
+    "lugar_id": "P0015"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0130"
+  ],
+  "familias_como_pai": null,
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

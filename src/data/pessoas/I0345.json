@@ -1,0 +1,21 @@
+{
+  "id": "I0345",
+  "protegida": true,
+  "sexo": "M",
+  "nome": "Familiar",
+  "apelido": "Monteiro Franquinho",
+  "nascimento": {
+    "data": "1985-11-09",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0126"
+  ],
+  "familias_como_pai": null,
+  "relacoes": [
+    "F0126"
+  ]
+}

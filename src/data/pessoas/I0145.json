@@ -1,0 +1,18 @@
+{
+  "id": "I0145",
+  "protegida": true,
+  "sexo": "F",
+  "nome": "Familiar",
+  "apelido": "de Oliveira",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0072"
+  ],
+  "relacoes": [
+    "F0072"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "I0625",
+  "protegida": false,
+  "nome": "Francisco Rodrigues",
+  "nome_proprio": "Francisco",
+  "apelido": "Rodrigues",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1856-03-13",
+    "lugar_id": "P0003"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1910-07-10",
+    "lugar_id": "P0001"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0190"
+  ],
+  "familias_como_pai": [
+    "F0187"
+  ],
+  "media": [
+    "O0497",
+    "O0485"
+  ],
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,21 @@
+{
+  "id": "I1043",
+  "protegida": true,
+  "sexo": "F",
+  "nome": "Familiar",
+  "apelido": "Rainho",
+  "nascimento": {
+    "data": "2004-04-02",
+    "lugar_id": "P0060"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0295"
+  ],
+  "familias_como_pai": null,
+  "relacoes": [
+    "F0295"
+  ]
+}

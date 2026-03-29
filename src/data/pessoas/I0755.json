@@ -1,0 +1,28 @@
+{
+  "id": "I0755",
+  "protegida": false,
+  "nome": "António Dias",
+  "nome_proprio": "António",
+  "apelido": "Dias",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1703-05-01",
+    "lugar_id": "P0116"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0333"
+  ],
+  "familias_como_pai": [
+    "F0217"
+  ],
+  "media": [
+    "O0930"
+  ],
+  "notas": null,
+  "citacoes": null
+}

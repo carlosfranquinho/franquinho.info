@@ -1,0 +1,26 @@
+{
+  "id": "I0571",
+  "protegida": false,
+  "nome": "Pascoal",
+  "nome_proprio": "Pascoal",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1727-04-13",
+    "lugar_id": "P0071"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0068"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0414"
+  ],
+  "notas": null,
+  "citacoes": null
+}

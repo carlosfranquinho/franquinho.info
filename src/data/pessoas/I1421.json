@@ -1,0 +1,23 @@
+{
+  "id": "I1421",
+  "protegida": false,
+  "nome": "João Dias",
+  "nome_proprio": "João",
+  "apelido": "Dias",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0395"
+  ],
+  "familias_como_pai": [
+    "F0391"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "I0492",
+  "protegida": false,
+  "nome": "Catarina",
+  "nome_proprio": "Catarina",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": {
+    "data": "1711-05-05",
+    "lugar_id": "P0031"
+  },
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0046"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0326"
+  ],
+  "notas": null,
+  "citacoes": null
+}

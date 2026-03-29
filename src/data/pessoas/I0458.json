@@ -1,0 +1,26 @@
+{
+  "id": "I0458",
+  "protegida": false,
+  "nome": "Inácio",
+  "nome_proprio": "Inácio",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1710-04-27",
+    "lugar_id": "P0025"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0059"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0276"
+  ],
+  "notas": null,
+  "citacoes": null
+}

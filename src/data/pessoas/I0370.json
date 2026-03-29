@@ -1,0 +1,26 @@
+{
+  "id": "I0370",
+  "protegida": false,
+  "nome": "Ana",
+  "nome_proprio": "Ana",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1814-02-08",
+    "lugar_id": "P0007"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0020"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0158"
+  ],
+  "notas": null,
+  "citacoes": null
+}

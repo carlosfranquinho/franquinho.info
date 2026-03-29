@@ -1,0 +1,26 @@
+{
+  "id": "I0942",
+  "protegida": false,
+  "nome": "José da Silva Trelisco",
+  "nome_proprio": "José",
+  "apelido": "da Silva Trelisco",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1766-09-15",
+    "lugar_id": "P0097"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0268"
+  ],
+  "media": [
+    "O0919"
+  ],
+  "notas": null,
+  "citacoes": null
+}

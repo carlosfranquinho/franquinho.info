@@ -1,0 +1,17 @@
+{
+  "id": "F0061",
+  "pai": "I0121",
+  "mae": "I0122",
+  "filhos": [
+    "I0116"
+  ],
+  "tipo_relacao": "Married",
+  "casamento": null,
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei pelo casamento, em Famalicão, de 1608 a 1627"
+    }
+  ],
+  "media": null
+}

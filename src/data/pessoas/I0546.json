@@ -1,0 +1,26 @@
+{
+  "id": "I0546",
+  "protegida": false,
+  "nome": "António Fernandes Madeira",
+  "nome_proprio": "António",
+  "apelido": "Fernandes Madeira",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1702-09-28",
+    "lugar_id": "P0034"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0160"
+  ],
+  "media": [
+    "O0393"
+  ],
+  "notas": null,
+  "citacoes": null
+}

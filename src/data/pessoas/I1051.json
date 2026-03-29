@@ -1,0 +1,26 @@
+{
+  "id": "I1051",
+  "protegida": false,
+  "nome": "António Inácio",
+  "nome_proprio": "António",
+  "apelido": "Inácio",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0002"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0301"
+  ],
+  "familias_como_pai": [
+    "F0298"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

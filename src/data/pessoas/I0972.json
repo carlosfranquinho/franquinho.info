@@ -1,0 +1,26 @@
+{
+  "id": "I0972",
+  "protegida": false,
+  "nome": "Brigida",
+  "nome_proprio": "Brigida",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": {
+    "data": "1788-09-23",
+    "lugar_id": null
+  },
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0250"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0779"
+  ],
+  "notas": null,
+  "citacoes": null
+}

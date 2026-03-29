@@ -1,0 +1,26 @@
+{
+  "id": "I0572",
+  "protegida": false,
+  "nome": "Vicência",
+  "nome_proprio": "Vicência",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1724-01-15",
+    "lugar_id": "P0071"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0068"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0415"
+  ],
+  "notas": null,
+  "citacoes": null
+}

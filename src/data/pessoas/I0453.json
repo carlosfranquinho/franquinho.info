@@ -1,0 +1,26 @@
+{
+  "id": "I0453",
+  "protegida": false,
+  "nome": "Isabel",
+  "nome_proprio": "Isabel",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1738-03-02",
+    "lugar_id": "P0025"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0036"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0268"
+  ],
+  "notas": null,
+  "citacoes": null
+}

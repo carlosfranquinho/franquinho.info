@@ -1,0 +1,15 @@
+{
+  "id": "F0176",
+  "pai": "I0217",
+  "mae": "I0595",
+  "filhos": null,
+  "tipo_relacao": "Married",
+  "casamento": {
+    "data": "1688-02-08",
+    "lugar_id": "P0025"
+  },
+  "notas": null,
+  "media": [
+    "O0466"
+  ]
+}

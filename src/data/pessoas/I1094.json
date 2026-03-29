@@ -1,0 +1,21 @@
+{
+  "id": "I1094",
+  "protegida": true,
+  "sexo": "M",
+  "nome": "Familiar",
+  "apelido": "Franquinho",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0317"
+  ],
+  "familias_como_pai": [
+    "F0321"
+  ],
+  "relacoes": [
+    "F0317",
+    "F0321"
+  ]
+}

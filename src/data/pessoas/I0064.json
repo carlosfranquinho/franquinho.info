@@ -1,0 +1,29 @@
+{
+  "id": "I0064",
+  "protegida": false,
+  "nome": "Josefa da Silva",
+  "nome_proprio": "Josefa",
+  "apelido": "da Silva",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0002"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0031"
+  ],
+  "media": null,
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei pelo falecimento, em Amor, até 1911"
+    }
+  ],
+  "citacoes": null
+}

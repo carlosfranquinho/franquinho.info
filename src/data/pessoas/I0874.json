@@ -1,0 +1,26 @@
+{
+  "id": "I0874",
+  "protegida": false,
+  "nome": "Agostinho",
+  "nome_proprio": "Agostinho",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1779-01-25",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0240"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0722"
+  ],
+  "notas": null,
+  "citacoes": null
+}

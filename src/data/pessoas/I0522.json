@@ -1,0 +1,26 @@
+{
+  "id": "I0522",
+  "protegida": false,
+  "nome": "Maria Francisca",
+  "nome_proprio": "Maria",
+  "apelido": "Francisca",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1692-10-03",
+    "lugar_id": "P0031"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0156"
+  ],
+  "media": [
+    "O0362"
+  ],
+  "notas": null,
+  "citacoes": null
+}

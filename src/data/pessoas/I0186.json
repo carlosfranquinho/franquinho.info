@@ -1,0 +1,36 @@
+{
+  "id": "I0186",
+  "protegida": false,
+  "nome": "Joaquim Pontes",
+  "nome_proprio": "Joaquim",
+  "apelido": "Pontes",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1904-11-17",
+    "lugar_id": "P0002"
+  },
+  "baptismo": {
+    "data": "1904-11-24",
+    "lugar_id": "P0002"
+  },
+  "obito": {
+    "data": "1996-10-08",
+    "lugar_id": "P0002"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0005"
+  ],
+  "familias_como_pai": [
+    "F0082"
+  ],
+  "media": [
+    "O1042",
+    "O1061",
+    "O0807"
+  ],
+  "notas": null,
+  "citacoes": null
+}

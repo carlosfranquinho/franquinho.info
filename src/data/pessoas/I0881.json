@@ -1,0 +1,30 @@
+{
+  "id": "I0881",
+  "protegida": false,
+  "nome": "Felícia",
+  "nome_proprio": "Felícia",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1822-09-07",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1826-03-04",
+    "lugar_id": "P0076"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0242"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0731",
+    "O0747"
+  ],
+  "notas": null,
+  "citacoes": null
+}

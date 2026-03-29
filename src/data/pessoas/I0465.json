@@ -1,0 +1,26 @@
+{
+  "id": "I0465",
+  "protegida": false,
+  "nome": "Josefa",
+  "nome_proprio": "Josefa",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1733-11-06",
+    "lugar_id": "P0027"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0039"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0292"
+  ],
+  "notas": null,
+  "citacoes": null
+}

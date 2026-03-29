@@ -1,0 +1,24 @@
+{
+  "id": "I0988",
+  "protegida": true,
+  "sexo": "M",
+  "nome": "Familiar",
+  "apelido": "Pelerigo Tomás",
+  "nascimento": {
+    "data": "1944-06-22",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0277"
+  ],
+  "familias_como_pai": [
+    "F0276"
+  ],
+  "relacoes": [
+    "F0277",
+    "F0276"
+  ]
+}

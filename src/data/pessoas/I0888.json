@@ -1,0 +1,23 @@
+{
+  "id": "I0888",
+  "protegida": false,
+  "nome": "Teresa Maria",
+  "nome_proprio": "Teresa",
+  "apelido": "Maria",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0246"
+  ],
+  "familias_como_pai": [
+    "F0244"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

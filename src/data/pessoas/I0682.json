@@ -1,0 +1,30 @@
+{
+  "id": "I0682",
+  "protegida": false,
+  "nome": "Joaquim",
+  "nome_proprio": "Joaquim",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1807-02-15",
+    "lugar_id": "P0086"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1807-07-27",
+    "lugar_id": "P0086"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0198"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0544",
+    "O0546"
+  ],
+  "notas": null,
+  "citacoes": null
+}

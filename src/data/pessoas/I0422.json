@@ -1,0 +1,33 @@
+{
+  "id": "I0422",
+  "protegida": false,
+  "nome": "Patrício Pontes",
+  "nome_proprio": "Patrício",
+  "apelido": "Pontes",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1841-04-07",
+    "lugar_id": "P0019"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0013"
+  ],
+  "familias_como_pai": [
+    "F0404"
+  ],
+  "media": [
+    "O0213"
+  ],
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "Passaporte para o Brasil em 25 outubro 1890 (com 49 anos), levando os seus dois filhos, Teresa (20 anos) e José (10 anos).\nPassaporte para o Brasil em 24 dezembro 1894 (com 52 anos), levando os filhos Manuel (20 anos) e José (14 anos).\nPassaporte para Santos, Brasil em 2 março 1909 (com 67 anos)."
+    }
+  ],
+  "citacoes": null
+}

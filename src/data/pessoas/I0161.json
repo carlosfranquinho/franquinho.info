@@ -1,0 +1,26 @@
+{
+  "id": "I0161",
+  "protegida": false,
+  "nome": "Delmira",
+  "nome_proprio": "Delmira",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1868-04-04",
+    "lugar_id": "P0005"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0004"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0017"
+  ],
+  "notas": null,
+  "citacoes": null
+}

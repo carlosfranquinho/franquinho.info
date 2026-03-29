@@ -1,0 +1,26 @@
+{
+  "id": "I0212",
+  "protegida": false,
+  "nome": "João",
+  "nome_proprio": "João",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1844-06-26",
+    "lugar_id": "P0005"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0010"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0079"
+  ],
+  "notas": null,
+  "citacoes": null
+}

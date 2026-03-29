@@ -1,0 +1,21 @@
+{
+  "id": "I0945",
+  "protegida": false,
+  "nome": "Madalena Maria",
+  "nome_proprio": "Madalena",
+  "apelido": "Maria",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0269"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

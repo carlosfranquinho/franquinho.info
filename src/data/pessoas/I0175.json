@@ -1,0 +1,29 @@
+{
+  "id": "I0175",
+  "protegida": false,
+  "nome": "Ana Rosa",
+  "nome_proprio": "Ana",
+  "apelido": "Rosa",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1856-07-19",
+    "lugar_id": "P0008"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1936-06-25",
+    "lugar_id": "P0008"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0012"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0175"
+  ],
+  "notas": null,
+  "citacoes": null
+}

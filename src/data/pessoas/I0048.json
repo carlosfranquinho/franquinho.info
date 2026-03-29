@@ -1,0 +1,38 @@
+{
+  "id": "I0048",
+  "protegida": false,
+  "nome": "Ana Jacinta Rosa",
+  "nome_proprio": "Ana",
+  "apelido": "Jacinta Rosa",
+  "nomes_alt": [
+    {
+      "tipo": "Married Name",
+      "nome": "Ana Jacinta Rosa"
+    }
+  ],
+  "sexo": "F",
+  "nascimento": {
+    "data": "1796-08-17",
+    "lugar_id": "P0036"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1865-11-13",
+    "lugar_id": "P0018"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0052"
+  ],
+  "familias_como_pai": [
+    "F0023",
+    "F0136"
+  ],
+  "media": [
+    "O0204",
+    "O0199"
+  ],
+  "notas": null,
+  "citacoes": null
+}

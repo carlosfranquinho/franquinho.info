@@ -1,0 +1,24 @@
+{
+  "id": "I0679",
+  "protegida": false,
+  "nome": "Teresa de Gouveia",
+  "nome_proprio": "Teresa",
+  "apelido": "de Gouveia",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0086"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0200"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "I0931",
+  "protegida": false,
+  "nome": "Josefa Maria",
+  "nome_proprio": "Josefa",
+  "apelido": "Maria",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1725-08-08",
+    "lugar_id": "P0108"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0264"
+  ],
+  "familias_como_pai": [
+    "F0262"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "I0848",
+  "protegida": false,
+  "nome": "Felícia",
+  "nome_proprio": "Felícia",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1850-06-17",
+    "lugar_id": "P0080"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0236"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0700"
+  ],
+  "notas": null,
+  "citacoes": null
+}

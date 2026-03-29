@@ -1,0 +1,26 @@
+{
+  "id": "I0773",
+  "protegida": false,
+  "nome": "José",
+  "nome_proprio": "José",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1838-05-07",
+    "lugar_id": "P0098"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0220"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0636"
+  ],
+  "notas": null,
+  "citacoes": null
+}

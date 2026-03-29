@@ -1,0 +1,31 @@
+{
+  "id": "I0271",
+  "protegida": false,
+  "nome": "Artur Matias Gonçalves",
+  "nome_proprio": "Artur",
+  "apelido": "Matias Gonçalves",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1926-02-07",
+    "lugar_id": "P0002"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1991",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0071"
+  ],
+  "familias_como_pai": [
+    "F0101"
+  ],
+  "media": [
+    "O1052"
+  ],
+  "notas": null,
+  "citacoes": null
+}

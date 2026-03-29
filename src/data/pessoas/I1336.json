@@ -1,0 +1,24 @@
+{
+  "id": "I1336",
+  "protegida": false,
+  "nome": "Isabel",
+  "nome_proprio": "Isabel",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1694-11-15",
+    "lugar_id": "P0129"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0376"
+  ],
+  "familias_como_pai": null,
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,29 @@
+{
+  "id": "I1003",
+  "protegida": false,
+  "nome": "Emília Joana Rainha",
+  "nome_proprio": "Emília",
+  "apelido": "Joana Rainha",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1852-05-02",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1917-04-12",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0280"
+  ],
+  "media": [
+    "O1044"
+  ],
+  "notas": null,
+  "citacoes": null
+}

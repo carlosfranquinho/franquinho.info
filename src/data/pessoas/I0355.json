@@ -1,0 +1,26 @@
+{
+  "id": "I0355",
+  "protegida": false,
+  "nome": "Carolina",
+  "nome_proprio": "Carolina",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1819-01-01",
+    "lugar_id": "P0005"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0009"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0126"
+  ],
+  "notas": null,
+  "citacoes": null
+}

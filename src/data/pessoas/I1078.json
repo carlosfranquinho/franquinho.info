@@ -1,0 +1,24 @@
+{
+  "id": "I1078",
+  "protegida": true,
+  "sexo": "F",
+  "nome": "Familiar",
+  "apelido": "da Gomes Franquinho",
+  "nascimento": {
+    "data": "1974-11-13",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0311"
+  ],
+  "familias_como_pai": [
+    "F0312"
+  ],
+  "relacoes": [
+    "F0312",
+    "F0311"
+  ]
+}

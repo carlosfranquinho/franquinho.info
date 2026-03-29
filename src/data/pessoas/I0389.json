@@ -1,0 +1,26 @@
+{
+  "id": "I0389",
+  "protegida": false,
+  "nome": "Josefa Maria",
+  "nome_proprio": "Josefa Maria",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1767-04-25",
+    "lugar_id": "P0063"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0131"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0167"
+  ],
+  "notas": null,
+  "citacoes": null
+}

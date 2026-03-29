@@ -1,0 +1,28 @@
+{
+  "id": "F0014",
+  "pai": "I0029",
+  "mae": "I0030",
+  "filhos": [
+    "I0426",
+    "I0427",
+    "I0428",
+    "I0429",
+    "I0014",
+    "I0430",
+    "I0431"
+  ],
+  "tipo_relacao": "Married",
+  "casamento": {
+    "data": "1829-02-25",
+    "lugar_id": "P0002"
+  },
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei por filhos, nos Barreiros, até 1849"
+    }
+  ],
+  "media": [
+    "O0229"
+  ]
+}

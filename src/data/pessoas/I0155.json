@@ -1,0 +1,26 @@
+{
+  "id": "I0155",
+  "protegida": false,
+  "nome": "Maria",
+  "nome_proprio": "Maria",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1862-01-18",
+    "lugar_id": "P0005"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0004"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0011"
+  ],
+  "notas": null,
+  "citacoes": null
+}

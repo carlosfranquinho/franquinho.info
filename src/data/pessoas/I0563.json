@@ -1,0 +1,26 @@
+{
+  "id": "I0563",
+  "protegida": false,
+  "nome": "Faustino",
+  "nome_proprio": "Faustino",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1746-04-08",
+    "lugar_id": "P0033"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0045"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0401"
+  ],
+  "notas": null,
+  "citacoes": null
+}

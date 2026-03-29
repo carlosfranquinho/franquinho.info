@@ -1,0 +1,32 @@
+{
+  "id": "I0137",
+  "protegida": false,
+  "nome": "António Rodrigues",
+  "nome_proprio": "António",
+  "apelido": "Rodrigues",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0074"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1771-09-10",
+    "lugar_id": "P0036"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0175"
+  ],
+  "familias_como_pai": [
+    "F0069",
+    "F0174"
+  ],
+  "media": [
+    "O0435"
+  ],
+  "notas": null,
+  "citacoes": null
+}

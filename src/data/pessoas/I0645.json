@@ -1,0 +1,26 @@
+{
+  "id": "I0645",
+  "protegida": false,
+  "nome": "Maria Joaquina",
+  "nome_proprio": "Maria",
+  "apelido": "Joaquina",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0087"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0199"
+  ],
+  "familias_como_pai": [
+    "F0192"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

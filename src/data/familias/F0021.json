@@ -1,0 +1,23 @@
+{
+  "id": "F0021",
+  "pai": "I0043",
+  "mae": "I0044",
+  "filhos": [
+    "I0024",
+    "I0372",
+    "I0373"
+  ],
+  "tipo_relacao": "Married",
+  "casamento": null,
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei por filhos do casal, em Monte Real, entre 1811 e 1835"
+    },
+    {
+      "tipo": "",
+      "texto": "procurei pelo casamento em Monte Real entre 1811 e 1820, em Pombal entre 1813 e 1820 e no Souto da Carpalhosa de 1802 a 1820. procurei também em Leiria, entre 1810 e 1820."
+    }
+  ],
+  "media": null
+}

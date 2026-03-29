@@ -1,0 +1,33 @@
+{
+  "id": "F0010",
+  "pai": "I0021",
+  "mae": "I0022",
+  "filhos": [
+    "I0154",
+    "I0200",
+    "I0201",
+    "I0202",
+    "I0204",
+    "I0205",
+    "I0010",
+    "I0208",
+    "I0209",
+    "I0210",
+    "I0211",
+    "I0212"
+  ],
+  "tipo_relacao": "Married",
+  "casamento": {
+    "data": "1820-02-09",
+    "lugar_id": "P0005"
+  },
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei por filhos do casal até 1849. falta, porém, procurar nos anos 1820-22 e 1825-31 por não estarem disponíveis online."
+    }
+  ],
+  "media": [
+    "O0134"
+  ]
+}

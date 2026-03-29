@@ -1,0 +1,21 @@
+{
+  "id": "I0254",
+  "protegida": true,
+  "sexo": "F",
+  "nome": "Familiar",
+  "apelido": "da Conceição Pereira",
+  "nascimento": {
+    "data": "1958-01-17",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0095"
+  ],
+  "relacoes": [
+    "F0095"
+  ]
+}

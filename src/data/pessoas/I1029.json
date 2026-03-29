@@ -1,0 +1,21 @@
+{
+  "id": "I1029",
+  "protegida": true,
+  "sexo": "M",
+  "nome": "Familiar",
+  "apelido": "de Jesus Duarte",
+  "nascimento": {
+    "data": "1965-03-10",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0290"
+  ],
+  "relacoes": [
+    "F0290"
+  ]
+}

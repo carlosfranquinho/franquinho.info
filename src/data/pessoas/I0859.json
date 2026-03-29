@@ -1,0 +1,26 @@
+{
+  "id": "I0859",
+  "protegida": false,
+  "nome": "Rosa Clara",
+  "nome_proprio": "Rosa Clara",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1824-06-07",
+    "lugar_id": "P0101"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0237"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0710"
+  ],
+  "notas": null,
+  "citacoes": null
+}

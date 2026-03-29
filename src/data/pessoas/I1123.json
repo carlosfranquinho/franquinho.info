@@ -1,0 +1,24 @@
+{
+  "id": "I1123",
+  "protegida": false,
+  "nome": "Agostinho José",
+  "nome_proprio": "Agostinho",
+  "apelido": "José",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1798-02",
+    "lugar_id": "P0096"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0252"
+  ],
+  "familias_como_pai": null,
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

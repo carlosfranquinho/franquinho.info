@@ -1,0 +1,39 @@
+{
+  "id": "I0065",
+  "protegida": false,
+  "nome": "João de São Bernardo",
+  "nome_proprio": "João",
+  "apelido": "de São Bernardo",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1729-04-02",
+    "lugar_id": "P0025"
+  },
+  "baptismo": {
+    "data": "1729-04-10",
+    "lugar_id": "P0025"
+  },
+  "obito": {
+    "data": "1821-07-31",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0036"
+  ],
+  "familias_como_pai": [
+    "F0032"
+  ],
+  "media": [
+    "O0265"
+  ],
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "falta procurar o falecimento porque não estão online os primeiros anos de Cela."
+    }
+  ],
+  "citacoes": null
+}

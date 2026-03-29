@@ -1,0 +1,32 @@
+{
+  "id": "I0781",
+  "protegida": false,
+  "nome": "João da Silva",
+  "nome_proprio": "João",
+  "apelido": "da Silva",
+  "nomes_alt": [
+    {
+      "tipo": "Also Known As",
+      "nome": "João da Silva Picão"
+    }
+  ],
+  "sexo": "M",
+  "nascimento": {
+    "data": "1727-03-16",
+    "lugar_id": "P0098"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0229"
+  ],
+  "familias_como_pai": [
+    "F0233",
+    "F0223"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

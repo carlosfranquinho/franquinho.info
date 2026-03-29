@@ -1,0 +1,26 @@
+{
+  "id": "I0723",
+  "protegida": false,
+  "nome": "António",
+  "nome_proprio": "António",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1832-09-30",
+    "lugar_id": "P0076"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0209"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0593"
+  ],
+  "notas": null,
+  "citacoes": null
+}

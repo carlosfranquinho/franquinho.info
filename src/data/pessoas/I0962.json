@@ -1,0 +1,21 @@
+{
+  "id": "I0962",
+  "protegida": false,
+  "nome": "Manuel Jordão",
+  "nome_proprio": "Manuel",
+  "apelido": "Jordão",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0275"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

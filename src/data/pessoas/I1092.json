@@ -1,0 +1,24 @@
+{
+  "id": "I1092",
+  "protegida": true,
+  "sexo": "F",
+  "nome": "Familiar",
+  "apelido": "Rainho Ferreira Bom",
+  "nascimento": {
+    "data": "1939-08-17",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "2021-10-13",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0317"
+  ],
+  "relacoes": [
+    "F0317"
+  ]
+}

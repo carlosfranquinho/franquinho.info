@@ -1,0 +1,18 @@
+{
+  "id": "I1090",
+  "protegida": true,
+  "sexo": "M",
+  "nome": "Familiar",
+  "apelido": "Franquinho Almeida",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0316"
+  ],
+  "familias_como_pai": null,
+  "relacoes": [
+    "F0316"
+  ]
+}

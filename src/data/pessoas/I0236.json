@@ -1,0 +1,18 @@
+{
+  "id": "I0236",
+  "protegida": true,
+  "sexo": "M",
+  "nome": "Familiar",
+  "apelido": "Ferreira Lopes",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0090"
+  ],
+  "relacoes": [
+    "F0090"
+  ]
+}

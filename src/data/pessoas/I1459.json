@@ -1,0 +1,24 @@
+{
+  "id": "I1459",
+  "protegida": false,
+  "nome": "Maria Simões",
+  "nome_proprio": "Maria",
+  "apelido": "Simões",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1681",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0401"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "I1195",
+  "protegida": false,
+  "nome": "Luísa",
+  "nome_proprio": "Luísa",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1674-01-26",
+    "lugar_id": "P0097"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0336"
+  ],
+  "familias_como_pai": null,
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

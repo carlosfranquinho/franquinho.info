@@ -1,0 +1,24 @@
+{
+  "id": "I1371",
+  "protegida": false,
+  "nome": "Mariana",
+  "nome_proprio": "Mariana",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1707-09-25",
+    "lugar_id": "P0131"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0381"
+  ],
+  "familias_como_pai": null,
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

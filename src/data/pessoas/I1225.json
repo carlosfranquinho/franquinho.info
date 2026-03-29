@@ -1,0 +1,28 @@
+{
+  "id": "I1225",
+  "protegida": false,
+  "nome": "Isabel da Costa",
+  "nome_proprio": "Isabel",
+  "apelido": "da Costa",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1696-04-30",
+    "lugar_id": "P0104"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0355"
+  ],
+  "familias_como_pai": [
+    "F0352"
+  ],
+  "media": [
+    "O0952"
+  ],
+  "notas": null,
+  "citacoes": null
+}

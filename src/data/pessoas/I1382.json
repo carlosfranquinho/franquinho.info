@@ -1,0 +1,21 @@
+{
+  "id": "I1382",
+  "protegida": false,
+  "nome": "Maria Soares",
+  "nome_proprio": "Maria",
+  "apelido": "Soares",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0387"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

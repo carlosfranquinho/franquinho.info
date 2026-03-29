@@ -1,0 +1,31 @@
+{
+  "id": "I1181",
+  "protegida": false,
+  "nome": "Maria Dias",
+  "nome_proprio": "Maria",
+  "apelido": "Dias",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0097"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0347"
+  ],
+  "familias_como_pai": [
+    "F0338"
+  ],
+  "media": null,
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "há uma maria dias a falecer em julho de 1693, já viuva, dos Foitos (261/427). Será a mesma??"
+    }
+  ],
+  "citacoes": null
+}

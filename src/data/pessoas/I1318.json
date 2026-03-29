@@ -1,0 +1,26 @@
+{
+  "id": "I1318",
+  "protegida": false,
+  "nome": "João Nunes",
+  "nome_proprio": "João",
+  "apelido": "Nunes",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1691-06-07",
+    "lugar_id": "P0129"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0374"
+  ],
+  "media": [
+    "O0977"
+  ],
+  "notas": null,
+  "citacoes": null
+}

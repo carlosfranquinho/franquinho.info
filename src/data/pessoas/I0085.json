@@ -1,0 +1,32 @@
+{
+  "id": "I0085",
+  "protegida": false,
+  "nome": "Maria Joaquina",
+  "nome_proprio": "Maria Joaquina",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1740-07-15",
+    "lugar_id": "P0033"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1804-11-09",
+    "lugar_id": "P0013"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0045"
+  ],
+  "familias_como_pai": [
+    "F0041"
+  ],
+  "media": [
+    "O0404",
+    "O0144"
+  ],
+  "notas": null,
+  "citacoes": null
+}

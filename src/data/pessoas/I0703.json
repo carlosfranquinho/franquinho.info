@@ -1,0 +1,31 @@
+{
+  "id": "I0703",
+  "protegida": false,
+  "nome": "José Domingues",
+  "nome_proprio": "José",
+  "apelido": "Domingues",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1800",
+    "lugar_id": "P0019"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1870-10-24",
+    "lugar_id": "P0092"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0207"
+  ],
+  "familias_como_pai": [
+    "F0206"
+  ],
+  "media": [
+    "O0587"
+  ],
+  "notas": null,
+  "citacoes": null
+}

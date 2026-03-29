@@ -1,0 +1,24 @@
+{
+  "id": "I1316",
+  "protegida": false,
+  "nome": "Catarina",
+  "nome_proprio": "Catarina",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1705-10-15",
+    "lugar_id": "P0127"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0373"
+  ],
+  "familias_como_pai": null,
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,31 @@
+{
+  "id": "I1139",
+  "protegida": false,
+  "nome": "Jordão Martins",
+  "nome_proprio": "Jordão",
+  "apelido": "Martins",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0097"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1690-03-05",
+    "lugar_id": "P0097"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0330"
+  ],
+  "familias_como_pai": [
+    "F0329"
+  ],
+  "media": [
+    "O0922"
+  ],
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "I0427",
+  "protegida": false,
+  "nome": "Luís",
+  "nome_proprio": "Luís",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1832-05-09",
+    "lugar_id": "P0021"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0014"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0223"
+  ],
+  "notas": null,
+  "citacoes": null
+}

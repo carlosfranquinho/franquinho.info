@@ -1,0 +1,21 @@
+{
+  "id": "I1039",
+  "protegida": true,
+  "sexo": "M",
+  "nome": "Familiar",
+  "apelido": "Lacombe",
+  "nascimento": {
+    "data": "2004-09-10",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0293"
+  ],
+  "familias_como_pai": null,
+  "relacoes": [
+    "F0293"
+  ]
+}

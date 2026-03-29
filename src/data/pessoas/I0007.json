@@ -1,0 +1,32 @@
+{
+  "id": "I0007",
+  "protegida": false,
+  "nome": "Francisco Franquinho",
+  "nome_proprio": "Francisco",
+  "apelido": "Franquinho",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1859-03-03",
+    "lugar_id": "P0005"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1940-04-06",
+    "lugar_id": "P0002"
+  },
+  "sepultura": null,
+  "profissao": "Guarda Florestal",
+  "familias_como_filho": [
+    "F0004"
+  ],
+  "familias_como_pai": [
+    "F0003"
+  ],
+  "media": [
+    "O1053",
+    "O0049"
+  ],
+  "notas": null,
+  "citacoes": null
+}

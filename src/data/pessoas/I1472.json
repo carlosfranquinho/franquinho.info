@@ -1,0 +1,31 @@
+{
+  "id": "I1472",
+  "protegida": false,
+  "nome": "Manuel Pontes",
+  "nome_proprio": "Manuel",
+  "apelido": "Pontes",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1875",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0404"
+  ],
+  "familias_como_pai": [
+    "F0405"
+  ],
+  "media": null,
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "passaporte para São Paulo, Brasil, em 24 março 1913, aos 38 anos, levando sua mulher Joaquina Rosária e filhos Manuel, Rita e Maria."
+    }
+  ],
+  "citacoes": null
+}

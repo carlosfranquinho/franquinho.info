@@ -1,0 +1,26 @@
+{
+  "id": "I0578",
+  "protegida": false,
+  "nome": "Joana Maria",
+  "nome_proprio": "Joana",
+  "apelido": "Maria",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1762-01-20",
+    "lugar_id": "P0036"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0168"
+  ],
+  "media": [
+    "O0424"
+  ],
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,28 @@
+{
+  "id": "I1452",
+  "protegida": false,
+  "nome": "Catarina João",
+  "nome_proprio": "Catarina",
+  "apelido": "João",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1666-11-27",
+    "lugar_id": "P0174"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0402"
+  ],
+  "familias_como_pai": [
+    "F0399"
+  ],
+  "media": [
+    "O1015"
+  ],
+  "notas": null,
+  "citacoes": null
+}

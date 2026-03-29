@@ -1,0 +1,36 @@
+{
+  "id": "I0011",
+  "protegida": false,
+  "nome": "Manuel Pontes",
+  "nome_proprio": "Manuel",
+  "apelido": "Pontes",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1870-04-15",
+    "lugar_id": "P0002"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1935-06-12",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "profissao": "Trabalhador",
+  "familias_como_filho": [
+    "F0006"
+  ],
+  "familias_como_pai": [
+    "F0005"
+  ],
+  "media": [
+    "O0052"
+  ],
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "Passaporte para Santos, Brasil em 13 janeiro 1893, onde dizia ter 24 anos.\nPassaporte para Rio de Janeiro, Brasil, em 4 março 1904, aos 33 anos.\nPassaporte para Santos, Brasil em 8 janeiro 1910, aos 39 anos.\nPassaporte para o Rio de Janeiro, Brasil, em 20 janeiro 1912, aos 41 anos, levando seu filho de 16 anos (deve ser o filho Manuel).\nprocurei pelo falecimento em 1910-22"
+    }
+  ],
+  "citacoes": null
+}

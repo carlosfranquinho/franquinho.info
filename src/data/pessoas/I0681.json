@@ -1,0 +1,29 @@
+{
+  "id": "I0681",
+  "protegida": false,
+  "nome": "Quitéria Maria",
+  "nome_proprio": "Quitéria",
+  "apelido": "Maria",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0086"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1812-09-06",
+    "lugar_id": "P0086"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0201"
+  ],
+  "media": [
+    "O0549"
+  ],
+  "notas": null,
+  "citacoes": null
+}

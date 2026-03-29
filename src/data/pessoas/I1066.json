@@ -1,0 +1,21 @@
+{
+  "id": "I1066",
+  "protegida": false,
+  "nome": "Manuel de Oliveira",
+  "nome_proprio": "Manuel",
+  "apelido": "de Oliveira",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0306"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "I1262",
+  "protegida": false,
+  "nome": "Domingos Ferreira",
+  "nome_proprio": "Domingos",
+  "apelido": "Ferreira",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0362"
+  ],
+  "media": null,
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "Julgo ser duvidoso o apelido \"Ferreira\". Não só não encontro o casamento, como nos eventuais filhos do casal, o que surge é um \"Domingos Fernandes\". Será a mesma pessoa? É nesse pressuposto que registo os filhos."
+    }
+  ],
+  "citacoes": null
+}

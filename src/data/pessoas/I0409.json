@@ -1,0 +1,31 @@
+{
+  "id": "I0409",
+  "protegida": false,
+  "nome": "Josefa Lopes",
+  "nome_proprio": "Josefa",
+  "apelido": "Lopes",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1841-07-28",
+    "lugar_id": "P0018"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0135"
+  ],
+  "media": [
+    "O0196"
+  ],
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "viuva de Manoel Gaspar, da Coucinheira."
+    }
+  ],
+  "citacoes": null
+}

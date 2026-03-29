@@ -1,0 +1,26 @@
+{
+  "id": "I0480",
+  "protegida": false,
+  "nome": "Francisco",
+  "nome_proprio": "Francisco",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1695-12-28",
+    "lugar_id": "P0026"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0067"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0305"
+  ],
+  "notas": null,
+  "citacoes": null
+}

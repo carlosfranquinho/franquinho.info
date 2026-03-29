@@ -1,0 +1,26 @@
+{
+  "id": "I0640",
+  "protegida": false,
+  "nome": "António",
+  "nome_proprio": "António",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1858-05-06",
+    "lugar_id": "P0003"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0190"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0498"
+  ],
+  "notas": null,
+  "citacoes": null
+}

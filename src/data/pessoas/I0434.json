@@ -1,0 +1,26 @@
+{
+  "id": "I0434",
+  "protegida": false,
+  "nome": "Jacinta Maria",
+  "nome_proprio": "Jacinta Maria",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0138"
+  ],
+  "media": null,
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei pelo falecimento em Riba d'Aves até 1844. Há um casal de nome semelhante mas conclui não serem eles."
+    }
+  ],
+  "citacoes": null
+}

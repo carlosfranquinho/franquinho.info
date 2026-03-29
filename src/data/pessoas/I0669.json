@@ -1,0 +1,26 @@
+{
+  "id": "I0669",
+  "protegida": false,
+  "nome": "João",
+  "nome_proprio": "João",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1809-05-22",
+    "lugar_id": "P0087"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0192"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0539"
+  ],
+  "notas": null,
+  "citacoes": null
+}

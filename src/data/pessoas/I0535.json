@@ -1,0 +1,26 @@
+{
+  "id": "I0535",
+  "protegida": false,
+  "nome": "Genoeva",
+  "nome_proprio": "Genoeva",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1744-10-05",
+    "lugar_id": "P0034"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0043"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0378"
+  ],
+  "notas": null,
+  "citacoes": null
+}

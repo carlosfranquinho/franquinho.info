@@ -1,0 +1,26 @@
+{
+  "id": "I0431",
+  "protegida": false,
+  "nome": "Manuel",
+  "nome_proprio": "Manuel",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1844-10-14",
+    "lugar_id": "P0021"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0014"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0228"
+  ],
+  "notas": null,
+  "citacoes": null
+}

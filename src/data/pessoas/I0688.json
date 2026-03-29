@@ -1,0 +1,29 @@
+{
+  "id": "I0688",
+  "protegida": false,
+  "nome": "Joaquina",
+  "nome_proprio": "Joaquina",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1857-08-20",
+    "lugar_id": "P0091"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1935-03-03",
+    "lugar_id": "P0003"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0202"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0558"
+  ],
+  "notas": null,
+  "citacoes": null
+}

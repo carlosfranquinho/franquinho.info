@@ -1,0 +1,28 @@
+{
+  "id": "I0804",
+  "protegida": false,
+  "nome": "Maria de Escovar",
+  "nome_proprio": "Maria",
+  "apelido": "de Escovar",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1694-11-20",
+    "lugar_id": "P0098"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0390"
+  ],
+  "familias_como_pai": [
+    "F0229"
+  ],
+  "media": [
+    "O1003"
+  ],
+  "notas": null,
+  "citacoes": null
+}

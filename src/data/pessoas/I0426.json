@@ -1,0 +1,26 @@
+{
+  "id": "I0426",
+  "protegida": false,
+  "nome": "António",
+  "nome_proprio": "António",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1831-03-28",
+    "lugar_id": "P0021"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0014"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0222"
+  ],
+  "notas": null,
+  "citacoes": null
+}

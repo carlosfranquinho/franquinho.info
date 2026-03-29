@@ -1,0 +1,24 @@
+{
+  "id": "I0468",
+  "protegida": false,
+  "nome": "Francisco Marques",
+  "nome_proprio": "Francisco",
+  "apelido": "Marques",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1676-01-19",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0145"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

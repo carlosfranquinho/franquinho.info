@@ -1,0 +1,24 @@
+{
+  "id": "I0239",
+  "protegida": true,
+  "sexo": "F",
+  "nome": "Familiar",
+  "apelido": "Lopes",
+  "nascimento": {
+    "data": "1927-02-13",
+    "lugar_id": "P0022"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "2006-12-25",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0091"
+  ],
+  "relacoes": [
+    "F0091"
+  ]
+}

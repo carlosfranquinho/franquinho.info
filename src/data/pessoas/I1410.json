@@ -1,0 +1,28 @@
+{
+  "id": "I1410",
+  "protegida": false,
+  "nome": "António de Escovar",
+  "nome_proprio": "António",
+  "apelido": "de Escovar",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1672-06-13",
+    "lugar_id": "P0098"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0392"
+  ],
+  "familias_como_pai": [
+    "F0390"
+  ],
+  "media": [
+    "O1008"
+  ],
+  "notas": null,
+  "citacoes": null
+}

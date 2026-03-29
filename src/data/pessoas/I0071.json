@@ -1,0 +1,31 @@
+{
+  "id": "I0071",
+  "protegida": false,
+  "nome": "Manuel Correia",
+  "nome_proprio": "Manuel",
+  "apelido": "Correia",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0005"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0087"
+  ],
+  "familias_como_pai": [
+    "F0035"
+  ],
+  "media": null,
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "Falta investigar o nascimento, em Cela. Os anos ainda não estão disponíveis online."
+    }
+  ],
+  "citacoes": null
+}

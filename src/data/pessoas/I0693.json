@@ -1,0 +1,30 @@
+{
+  "id": "I0693",
+  "protegida": false,
+  "nome": "Luís",
+  "nome_proprio": "Luís",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1812-08-15",
+    "lugar_id": "P0091"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1826-10-05",
+    "lugar_id": "P0091"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0203"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0563",
+    "O0569"
+  ],
+  "notas": null,
+  "citacoes": null
+}

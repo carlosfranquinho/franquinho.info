@@ -1,0 +1,26 @@
+{
+  "id": "I0978",
+  "protegida": false,
+  "nome": "Pedro",
+  "nome_proprio": "Pedro",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": {
+    "data": "1701-09-25",
+    "lugar_id": "P0107"
+  },
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0265"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0785"
+  ],
+  "notas": null,
+  "citacoes": null
+}

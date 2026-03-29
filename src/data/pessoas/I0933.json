@@ -1,0 +1,26 @@
+{
+  "id": "I0933",
+  "protegida": false,
+  "nome": "Luísa da Silva",
+  "nome_proprio": "Luísa",
+  "apelido": "da Silva",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0101"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0266"
+  ],
+  "familias_como_pai": [
+    "F0263"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

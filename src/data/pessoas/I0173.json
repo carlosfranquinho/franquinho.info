@@ -1,0 +1,36 @@
+{
+  "id": "I0173",
+  "protegida": false,
+  "nome": "José Leal",
+  "nome_proprio": "José",
+  "apelido": "Leal",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1874-01-11",
+    "lugar_id": "P0002"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1963-07-18",
+    "lugar_id": "P0002"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0008"
+  ],
+  "familias_como_pai": [
+    "F0079"
+  ],
+  "media": [
+    "O0025"
+  ],
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "passaporte para o Rio de Janeiro,  Brasil em 9 janeiro 1896"
+    }
+  ],
+  "citacoes": null
+}

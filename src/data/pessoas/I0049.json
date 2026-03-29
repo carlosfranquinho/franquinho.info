@@ -1,0 +1,29 @@
+{
+  "id": "I0049",
+  "protegida": false,
+  "nome": "Luís Pontes",
+  "nome_proprio": "Luís",
+  "apelido": "Pontes",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0019"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0024"
+  ],
+  "media": null,
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei pelo falecimento, na Ruivaqueira, até 1875"
+    }
+  ],
+  "citacoes": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "I0528",
+  "protegida": false,
+  "nome": "Umbelina",
+  "nome_proprio": "Umbelina",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": {
+    "data": "1680-05-06",
+    "lugar_id": "P0031"
+  },
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0152"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0369"
+  ],
+  "notas": null,
+  "citacoes": null
+}

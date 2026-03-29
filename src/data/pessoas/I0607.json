@@ -1,0 +1,26 @@
+{
+  "id": "I0607",
+  "protegida": false,
+  "nome": "Domingos do Couto",
+  "nome_proprio": "Domingos",
+  "apelido": "do Couto",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1654-09-07",
+    "lugar_id": "P0025"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0180"
+  ],
+  "media": [
+    "O0469"
+  ],
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "I0910",
+  "protegida": false,
+  "nome": "José Francisco",
+  "nome_proprio": "José",
+  "apelido": "Francisco",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0076"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0272"
+  ],
+  "familias_como_pai": [
+    "F0251"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

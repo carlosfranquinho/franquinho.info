@@ -1,0 +1,26 @@
+{
+  "id": "I0594",
+  "protegida": false,
+  "nome": "Maria Ramos",
+  "nome_proprio": "Maria",
+  "apelido": "Ramos",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0064"
+  ],
+  "familias_como_pai": null,
+  "media": null,
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "Sabe-se da existência desta filha através do registo de falecimento de sua mãe, Catarina Martins"
+    }
+  ],
+  "citacoes": null
+}

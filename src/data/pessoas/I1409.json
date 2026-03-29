@@ -1,0 +1,21 @@
+{
+  "id": "I1409",
+  "protegida": false,
+  "nome": "Luísa Silva",
+  "nome_proprio": "Luísa",
+  "apelido": "Silva",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0389"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

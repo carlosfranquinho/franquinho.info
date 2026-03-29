@@ -1,0 +1,21 @@
+{
+  "id": "I0263",
+  "protegida": true,
+  "sexo": "F",
+  "nome": "Familiar",
+  "apelido": "Queirós",
+  "nascimento": {
+    "data": "1964-10-22",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0098"
+  ],
+  "relacoes": [
+    "F0098"
+  ]
+}

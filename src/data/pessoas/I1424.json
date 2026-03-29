@@ -1,0 +1,23 @@
+{
+  "id": "I1424",
+  "protegida": false,
+  "nome": "Maria João",
+  "nome_proprio": "Maria",
+  "apelido": "João",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0394"
+  ],
+  "familias_como_pai": [
+    "F0392"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

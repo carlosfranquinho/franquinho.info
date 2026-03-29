@@ -1,0 +1,26 @@
+{
+  "id": "I0490",
+  "protegida": false,
+  "nome": "Maria dos Reis",
+  "nome_proprio": "Maria dos Reis",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": {
+    "data": "1707-01-16",
+    "lugar_id": "P0031"
+  },
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0046"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0324"
+  ],
+  "notas": null,
+  "citacoes": null
+}

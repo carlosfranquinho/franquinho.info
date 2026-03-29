@@ -1,0 +1,31 @@
+{
+  "id": "I0143",
+  "protegida": false,
+  "nome": "Artur Franquinho",
+  "nome_proprio": "Artur",
+  "apelido": "Franquinho",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1901-04-06",
+    "lugar_id": "P0002"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1940-04",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0003"
+  ],
+  "familias_como_pai": [
+    "F0120"
+  ],
+  "media": [
+    "O0003"
+  ],
+  "notas": null,
+  "citacoes": null
+}

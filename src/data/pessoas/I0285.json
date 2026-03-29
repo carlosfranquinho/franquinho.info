@@ -1,0 +1,24 @@
+{
+  "id": "I0285",
+  "protegida": true,
+  "sexo": "F",
+  "nome": "Familiar",
+  "apelido": "Ferreira Domingues",
+  "nascimento": {
+    "data": "15 dezembro",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0103"
+  ],
+  "familias_como_pai": [
+    "F0105"
+  ],
+  "relacoes": [
+    "F0105",
+    "F0103"
+  ]
+}

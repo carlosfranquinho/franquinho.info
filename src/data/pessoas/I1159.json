@@ -1,0 +1,26 @@
+{
+  "id": "I1159",
+  "protegida": false,
+  "nome": "Maria da Ascensão",
+  "nome_proprio": "Maria",
+  "apelido": "da Ascensão",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0116"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0336"
+  ],
+  "familias_como_pai": [
+    "F0333"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

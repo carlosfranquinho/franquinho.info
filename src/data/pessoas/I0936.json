@@ -1,0 +1,24 @@
+{
+  "id": "I0936",
+  "protegida": false,
+  "nome": "João Fernandes Pisco",
+  "nome_proprio": "João",
+  "apelido": "Fernandes Pisco",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1725-12-31",
+    "lugar_id": "P0107"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0265"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

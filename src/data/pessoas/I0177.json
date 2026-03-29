@@ -1,0 +1,31 @@
+{
+  "id": "I0177",
+  "protegida": false,
+  "nome": "Teresa",
+  "nome_proprio": "Teresa",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1880-01-25",
+    "lugar_id": "P0002"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1961-12-16",
+    "lugar_id": "P0002"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0008"
+  ],
+  "familias_como_pai": [
+    "F0080"
+  ],
+  "media": [
+    "O0028"
+  ],
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "I0684",
+  "protegida": false,
+  "nome": "Joaquim",
+  "nome_proprio": "Joaquim",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1816-01-16",
+    "lugar_id": "P0091"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0203"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0564"
+  ],
+  "notas": null,
+  "citacoes": null
+}

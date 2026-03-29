@@ -1,0 +1,28 @@
+{
+  "id": "I0756",
+  "protegida": false,
+  "nome": "Isabel Domingues",
+  "nome_proprio": "Isabel",
+  "apelido": "Domingues",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1700-03-03",
+    "lugar_id": "P0097"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0334"
+  ],
+  "familias_como_pai": [
+    "F0217"
+  ],
+  "media": [
+    "O0929"
+  ],
+  "notas": null,
+  "citacoes": null
+}

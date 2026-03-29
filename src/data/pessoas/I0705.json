@@ -1,0 +1,29 @@
+{
+  "id": "I0705",
+  "protegida": false,
+  "nome": "António Domingues",
+  "nome_proprio": "António",
+  "apelido": "Domingues",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0095"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0207"
+  ],
+  "media": null,
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei pelo óbito, na Ruivaqueira, até 1881"
+    }
+  ],
+  "citacoes": null
+}

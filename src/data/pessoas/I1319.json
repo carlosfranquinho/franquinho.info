@@ -1,0 +1,27 @@
+{
+  "id": "I1319",
+  "protegida": false,
+  "nome": "Catarina Gonçalves",
+  "nome_proprio": "Catarina",
+  "apelido": "Gonçalves",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1695-03-14",
+    "lugar_id": "P0129"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0374",
+    "F0376"
+  ],
+  "media": [
+    "O0983"
+  ],
+  "notas": null,
+  "citacoes": null
+}

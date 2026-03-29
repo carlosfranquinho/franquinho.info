@@ -1,0 +1,35 @@
+{
+  "id": "I0073",
+  "protegida": false,
+  "nome": "José Simões",
+  "nome_proprio": "José",
+  "apelido": "Simões",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": {
+    "data": "1697-10-30",
+    "lugar_id": "P0038"
+  },
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0058"
+  ],
+  "familias_como_pai": [
+    "F0036",
+    "F0143"
+  ],
+  "media": [
+    "O0383",
+    "O0272"
+  ],
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei pelo falecimento em famalicão até 1790"
+    }
+  ],
+  "citacoes": null
+}

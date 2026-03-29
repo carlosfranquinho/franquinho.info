@@ -1,0 +1,26 @@
+{
+  "id": "I0072",
+  "protegida": false,
+  "nome": "Maria do Couto",
+  "nome_proprio": "Maria",
+  "apelido": "do Couto",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0025"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0086"
+  ],
+  "familias_como_pai": [
+    "F0035"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "I0923",
+  "protegida": false,
+  "nome": "Madalena Domingues",
+  "nome_proprio": "Madalena",
+  "apelido": "Domingues",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0101"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0261"
+  ],
+  "familias_como_pai": [
+    "F0257"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

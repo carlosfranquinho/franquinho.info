@@ -1,0 +1,24 @@
+{
+  "id": "I1326",
+  "protegida": false,
+  "nome": "Rosa",
+  "nome_proprio": "Rosa",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1729-04-08",
+    "lugar_id": "P0128"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0372"
+  ],
+  "familias_como_pai": null,
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

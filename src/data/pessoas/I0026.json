@@ -1,0 +1,31 @@
+{
+  "id": "I0026",
+  "protegida": false,
+  "nome": "Jacintha de Jesus",
+  "nome_proprio": "Jacintha",
+  "apelido": "de Jesus",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1820",
+    "lugar_id": "P0018"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1861-03-22",
+    "lugar_id": "P0008"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0023"
+  ],
+  "familias_como_pai": [
+    "F0012"
+  ],
+  "media": [
+    "O0184"
+  ],
+  "notas": null,
+  "citacoes": null
+}

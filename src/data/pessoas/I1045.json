@@ -1,0 +1,18 @@
+{
+  "id": "I1045",
+  "protegida": true,
+  "sexo": "M",
+  "nome": "Familiar",
+  "apelido": "Lacombe",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0293"
+  ],
+  "familias_como_pai": null,
+  "relacoes": [
+    "F0293"
+  ]
+}

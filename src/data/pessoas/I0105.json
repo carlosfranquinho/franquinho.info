@@ -1,0 +1,32 @@
+{
+  "id": "I0105",
+  "protegida": false,
+  "nome": "Rozendo de Almada",
+  "nome_proprio": "Rozendo",
+  "apelido": "de Almada",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1746-03-18",
+    "lugar_id": "P0037"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1826-03-04",
+    "lugar_id": "P0036"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0053"
+  ],
+  "familias_como_pai": [
+    "F0052"
+  ],
+  "media": [
+    "O0769",
+    "O0219"
+  ],
+  "notas": null,
+  "citacoes": null
+}

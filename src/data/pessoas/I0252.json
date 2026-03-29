@@ -1,0 +1,21 @@
+{
+  "id": "I0252",
+  "protegida": true,
+  "sexo": "M",
+  "nome": "Familiar",
+  "apelido": "Ferreira Gaspar",
+  "nascimento": {
+    "data": "1979-11-16",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0094"
+  ],
+  "familias_como_pai": null,
+  "relacoes": [
+    "F0094"
+  ]
+}

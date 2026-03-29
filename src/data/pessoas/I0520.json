@@ -1,0 +1,26 @@
+{
+  "id": "I0520",
+  "protegida": false,
+  "nome": "Catarina Gomes",
+  "nome_proprio": "Catarina",
+  "apelido": "Gomes",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1674-09-01",
+    "lugar_id": "P0031"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0155"
+  ],
+  "media": [
+    "O0355"
+  ],
+  "notas": null,
+  "citacoes": null
+}

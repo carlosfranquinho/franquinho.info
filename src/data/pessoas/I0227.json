@@ -1,0 +1,23 @@
+{
+  "id": "I0227",
+  "protegida": false,
+  "nome": "Isabel do Couto",
+  "nome_proprio": "Isabel",
+  "apelido": "do Couto",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0089"
+  ],
+  "familias_como_pai": [
+    "F0086"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

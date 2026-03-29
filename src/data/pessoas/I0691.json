@@ -1,0 +1,31 @@
+{
+  "id": "I0691",
+  "protegida": false,
+  "nome": "António Joaquim",
+  "nome_proprio": "António",
+  "apelido": "Joaquim",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0093"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1844-07-29",
+    "lugar_id": "P0091"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0204"
+  ],
+  "familias_como_pai": [
+    "F0203"
+  ],
+  "media": [
+    "O0571"
+  ],
+  "notas": null,
+  "citacoes": null
+}

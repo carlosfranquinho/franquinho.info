@@ -1,0 +1,31 @@
+{
+  "id": "I1377",
+  "protegida": false,
+  "nome": "Manuel Borralho",
+  "nome_proprio": "Manuel",
+  "apelido": "Borralho",
+  "nomes_alt": [
+    {
+      "tipo": "Also Known As",
+      "nome": "Manuel"
+    }
+  ],
+  "sexo": "M",
+  "nascimento": {
+    "data": "1640-09-30",
+    "lugar_id": "P0076"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0397"
+  ],
+  "familias_como_pai": [
+    "F0385"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

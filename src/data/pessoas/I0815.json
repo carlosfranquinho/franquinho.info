@@ -1,0 +1,26 @@
+{
+  "id": "I0815",
+  "protegida": false,
+  "nome": "Francisco",
+  "nome_proprio": "Francisco",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1782-08-04",
+    "lugar_id": "P0076"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0226"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0669"
+  ],
+  "notas": null,
+  "citacoes": null
+}

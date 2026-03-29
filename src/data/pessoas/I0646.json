@@ -1,0 +1,32 @@
+{
+  "id": "I0646",
+  "protegida": false,
+  "nome": "Emília Ferreira Franquinho",
+  "nome_proprio": "Emília",
+  "apelido": "Ferreira Franquinho",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1911-01-21",
+    "lugar_id": "P0004"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1986-04-15",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0003"
+  ],
+  "familias_como_pai": [
+    "F0193"
+  ],
+  "media": [
+    "O0794",
+    "O0787"
+  ],
+  "notas": null,
+  "citacoes": null
+}

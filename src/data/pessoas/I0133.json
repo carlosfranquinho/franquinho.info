@@ -1,0 +1,28 @@
+{
+  "id": "I0133",
+  "protegida": false,
+  "nome": "Simão Jorge",
+  "nome_proprio": "Simão",
+  "apelido": "Jorge",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1731-10-10",
+    "lugar_id": "P0027"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0146"
+  ],
+  "familias_como_pai": [
+    "F0067"
+  ],
+  "media": [
+    "O0316"
+  ],
+  "notas": null,
+  "citacoes": null
+}

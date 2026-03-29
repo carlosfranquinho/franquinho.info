@@ -1,0 +1,26 @@
+{
+  "id": "F0015",
+  "pai": "I0031",
+  "mae": "I0032",
+  "filhos": [
+    "I0190",
+    "I0196",
+    "I0198",
+    "I0199",
+    "I0015"
+  ],
+  "tipo_relacao": "Married",
+  "casamento": {
+    "data": "1814-04-14",
+    "lugar_id": "P0002"
+  },
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei por filhos do casal, em Amor, até 1835"
+    }
+  ],
+  "media": [
+    "O0242"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "I0656",
+  "protegida": false,
+  "nome": "Maria",
+  "nome_proprio": "Maria",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1823-11-23",
+    "lugar_id": "P0084"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1833-07-04",
+    "lugar_id": "P0084"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0195"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0522",
+    "O0536"
+  ],
+  "notas": null,
+  "citacoes": null
+}

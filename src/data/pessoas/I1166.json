@@ -1,0 +1,26 @@
+{
+  "id": "I1166",
+  "protegida": false,
+  "nome": "Miguel Rodrigues",
+  "nome_proprio": "Miguel",
+  "apelido": "Rodrigues",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0115"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0339"
+  ],
+  "familias_como_pai": [
+    "F0335"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

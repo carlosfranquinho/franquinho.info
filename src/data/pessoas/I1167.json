@@ -1,0 +1,26 @@
+{
+  "id": "I1167",
+  "protegida": false,
+  "nome": "Catarina Fernandes",
+  "nome_proprio": "Catarina",
+  "apelido": "Fernandes",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0118"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0340"
+  ],
+  "familias_como_pai": [
+    "F0335"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

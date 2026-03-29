@@ -1,0 +1,26 @@
+{
+  "id": "I0517",
+  "protegida": false,
+  "nome": "Pero Gomes",
+  "nome_proprio": "Pero",
+  "apelido": "Gomes",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1668-03-15",
+    "lugar_id": "P0031"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0154"
+  ],
+  "media": [
+    "O0359"
+  ],
+  "notas": null,
+  "citacoes": null
+}

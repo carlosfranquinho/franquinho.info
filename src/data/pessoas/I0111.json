@@ -1,0 +1,23 @@
+{
+  "id": "I0111",
+  "protegida": false,
+  "nome": "Luísa Domingues",
+  "nome_proprio": "Luísa",
+  "apelido": "Domingues",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0056"
+  ],
+  "familias_como_pai": [
+    "F0055"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

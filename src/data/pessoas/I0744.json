@@ -1,0 +1,26 @@
+{
+  "id": "I0744",
+  "protegida": false,
+  "nome": "João",
+  "nome_proprio": "João",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1762-02-18",
+    "lugar_id": "P0080"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0212"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0617"
+  ],
+  "notas": null,
+  "citacoes": null
+}

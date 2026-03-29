@@ -1,0 +1,29 @@
+{
+  "id": "I0668",
+  "protegida": false,
+  "nome": "Ana",
+  "nome_proprio": "Ana",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1796",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1810-10-06",
+    "lugar_id": "P0085"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0197"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0534"
+  ],
+  "notas": null,
+  "citacoes": null
+}

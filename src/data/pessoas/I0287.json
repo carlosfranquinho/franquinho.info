@@ -1,0 +1,18 @@
+{
+  "id": "I0287",
+  "protegida": true,
+  "sexo": "M",
+  "nome": "Familiar",
+  "apelido": null,
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0104"
+  ],
+  "familias_como_pai": null,
+  "relacoes": [
+    "F0104"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "I0335",
+  "protegida": false,
+  "nome": "Rui Gaspar Rodrigues de Melo",
+  "nome_proprio": "Rui",
+  "apelido": "Gaspar Rodrigues de Melo",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1950-07-14",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "2002",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0123"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

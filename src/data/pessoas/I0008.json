@@ -1,0 +1,32 @@
+{
+  "id": "I0008",
+  "protegida": false,
+  "nome": "Maria Ferreira",
+  "nome_proprio": "Maria",
+  "apelido": "Ferreira",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1870-09-14",
+    "lugar_id": "P0002"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1961-05-31",
+    "lugar_id": "P0002"
+  },
+  "sepultura": null,
+  "profissao": "Doméstica",
+  "familias_como_filho": [
+    "F0008"
+  ],
+  "familias_como_pai": [
+    "F0003"
+  ],
+  "media": [
+    "O0452",
+    "O0051"
+  ],
+  "notas": null,
+  "citacoes": null
+}

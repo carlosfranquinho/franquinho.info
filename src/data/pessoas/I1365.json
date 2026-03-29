@@ -1,0 +1,28 @@
+{
+  "id": "I1365",
+  "protegida": false,
+  "nome": "Domingos Simões",
+  "nome_proprio": "Domingos",
+  "apelido": "Simões",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1682-02-10",
+    "lugar_id": "P0081"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0384"
+  ],
+  "familias_como_pai": [
+    "F0380"
+  ],
+  "media": [
+    "O0995"
+  ],
+  "notas": null,
+  "citacoes": null
+}

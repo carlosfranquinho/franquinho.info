@@ -1,0 +1,22 @@
+{
+  "id": "F0025",
+  "pai": "I0051",
+  "mae": "I0052",
+  "filhos": [
+    "I0028",
+    "I0425"
+  ],
+  "tipo_relacao": "Married",
+  "casamento": null,
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei por filhos até 1815, na Ruivaqueira. também procurei por filhos nos óbitos até 1810."
+    },
+    {
+      "tipo": "",
+      "texto": "procurei pelo casamento, no Souto, de 1802 a 1811"
+    }
+  ],
+  "media": null
+}

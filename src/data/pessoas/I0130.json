@@ -1,0 +1,24 @@
+{
+  "id": "I0130",
+  "protegida": false,
+  "nome": "Isabel Dinis",
+  "nome_proprio": "Isabel",
+  "apelido": "Dinis",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1685-04-09",
+    "lugar_id": "P0025"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0065"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

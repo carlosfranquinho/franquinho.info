@@ -1,0 +1,37 @@
+{
+  "id": "I0730",
+  "protegida": false,
+  "nome": "Manuel Dias",
+  "nome_proprio": "Manuel",
+  "apelido": "Dias",
+  "nomes_alt": [
+    {
+      "tipo": "Married Name",
+      "nome": "Manuel Dias"
+    }
+  ],
+  "sexo": "M",
+  "nascimento": {
+    "data": "1725-02-18",
+    "lugar_id": "P0076"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1800-07-13",
+    "lugar_id": "P0080"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0216"
+  ],
+  "familias_como_pai": [
+    "F0212"
+  ],
+  "media": [
+    "O0908",
+    "O0610"
+  ],
+  "notas": null,
+  "citacoes": null
+}

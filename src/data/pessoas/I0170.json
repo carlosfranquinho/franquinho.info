@@ -1,0 +1,21 @@
+{
+  "id": "I0170",
+  "protegida": false,
+  "nome": "Francisco de Almeida",
+  "nome_proprio": "Francisco",
+  "apelido": "de Almeida",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0078"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

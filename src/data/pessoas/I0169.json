@@ -1,0 +1,31 @@
+{
+  "id": "I0169",
+  "protegida": false,
+  "nome": "Gertrudes Isabel",
+  "nome_proprio": "Gertrudes",
+  "apelido": "Isabel",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1881-05-02",
+    "lugar_id": "P0005"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1970-04-25",
+    "lugar_id": "P0005"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0004"
+  ],
+  "familias_como_pai": [
+    "F0078"
+  ],
+  "media": [
+    "O0023"
+  ],
+  "notas": null,
+  "citacoes": null
+}

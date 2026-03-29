@@ -1,0 +1,37 @@
+{
+  "id": "F0035",
+  "pai": "I0071",
+  "mae": "I0072",
+  "filhos": [
+    "I0213",
+    "I0214",
+    "I0038",
+    "I0215",
+    "I0216",
+    "I0218",
+    "I0219",
+    "I0220",
+    "I0221",
+    "I0222",
+    "I0223",
+    "I0224"
+  ],
+  "tipo_relacao": "Married",
+  "casamento": {
+    "data": "1741-11-06",
+    "lugar_id": "P0031"
+  },
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei pelo casamento desde 1727 a 1751, em famalicão"
+    },
+    {
+      "tipo": "",
+      "texto": "procurei por filhos do casal em famalicão, de 1740 a 1772"
+    }
+  ],
+  "media": [
+    "O0094"
+  ]
+}

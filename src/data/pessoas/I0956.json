@@ -1,0 +1,21 @@
+{
+  "id": "I0956",
+  "protegida": false,
+  "nome": "Manuel das Neves",
+  "nome_proprio": "Manuel",
+  "apelido": "das Neves",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0273"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

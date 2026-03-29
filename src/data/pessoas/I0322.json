@@ -1,0 +1,27 @@
+{
+  "id": "I0322",
+  "protegida": false,
+  "nome": "António Pedro de Sousa",
+  "nome_proprio": "António Pedro",
+  "apelido": "de Sousa",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1920-12-16",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1995-10-03",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0118"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

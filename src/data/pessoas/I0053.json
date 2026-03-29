@@ -1,0 +1,36 @@
+{
+  "id": "I0053",
+  "protegida": false,
+  "nome": "Luís António",
+  "nome_proprio": "Luís",
+  "apelido": "António",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0015"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0138"
+  ],
+  "familias_como_pai": [
+    "F0026",
+    "F0137"
+  ],
+  "media": null,
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei pelo falecimento, em Regueira de Pontes, até 1866."
+    },
+    {
+      "tipo": "",
+      "texto": "Julgo que terá casado segunda vez, com Luisa Inácia Franca. Nesse registo de casamento está com o nome de Luís António Lopes Gaspar, viuvo de Faustina Inácia. Não há forma concreta de saber se se trata de o mesmo casal, mas tudo me leva a crer que sim. Assim sendo, fico a saber o nome dos seus pais assim como os da sua falecida esposa.\nDe notar também os padrinhos do seu segundo casamento, padres, com apelidos iguais ao noivo: José Alves Gaspar e Luis Lopes Gaspar. Serão familiares? Em que grau?"
+    }
+  ],
+  "citacoes": null
+}

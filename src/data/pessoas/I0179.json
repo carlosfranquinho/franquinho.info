@@ -1,0 +1,28 @@
+{
+  "id": "I0179",
+  "protegida": false,
+  "nome": "Manuel Joaquim Leal",
+  "nome_proprio": "Manuel",
+  "apelido": "Joaquim Leal",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1884-08-13",
+    "lugar_id": "P0002"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0008"
+  ],
+  "familias_como_pai": [
+    "F0282"
+  ],
+  "media": [
+    "O0029"
+  ],
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "I1328",
+  "protegida": false,
+  "nome": "Luísa",
+  "nome_proprio": "Luísa",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1687-09-07",
+    "lugar_id": "P0128"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0375"
+  ],
+  "familias_como_pai": null,
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

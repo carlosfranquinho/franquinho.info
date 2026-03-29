@@ -1,0 +1,26 @@
+{
+  "id": "I0373",
+  "protegida": false,
+  "nome": "Quitéria",
+  "nome_proprio": "Quitéria",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1825-05-31",
+    "lugar_id": "P0007"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0021"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0163"
+  ],
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,34 @@
+{
+  "id": "I0109",
+  "protegida": false,
+  "nome": "António Gomes",
+  "nome_proprio": "António",
+  "apelido": "Gomes",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1730-01-09",
+    "lugar_id": "P0071"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1797-12-08",
+    "lugar_id": "P0036"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0068"
+  ],
+  "familias_como_pai": [
+    "F0169",
+    "F0168",
+    "F0054"
+  ],
+  "media": [
+    "O0412",
+    "O0425"
+  ],
+  "notas": null,
+  "citacoes": null
+}

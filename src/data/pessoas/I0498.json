@@ -1,0 +1,26 @@
+{
+  "id": "I0498",
+  "protegida": false,
+  "nome": "Maria Pereira",
+  "nome_proprio": "Maria",
+  "apelido": "Pereira",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1707-04-29",
+    "lugar_id": "P0070"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0149"
+  ],
+  "media": [
+    "O0364"
+  ],
+  "notas": null,
+  "citacoes": null
+}

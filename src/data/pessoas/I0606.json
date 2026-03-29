@@ -1,0 +1,28 @@
+{
+  "id": "I0606",
+  "protegida": false,
+  "nome": "Catarina Luís",
+  "nome_proprio": "Catarina",
+  "apelido": "Luís",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1681-07-02",
+    "lugar_id": "P0038"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0183"
+  ],
+  "familias_como_pai": [
+    "F0179"
+  ],
+  "media": [
+    "O0473"
+  ],
+  "notas": null,
+  "citacoes": null
+}

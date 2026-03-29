@@ -1,0 +1,32 @@
+{
+  "id": "I1309",
+  "protegida": false,
+  "nome": "Antónia Gonçalves",
+  "nome_proprio": "Antónia",
+  "apelido": "Gonçalves",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1690-03-26",
+    "lugar_id": "P0128"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1764-12-23",
+    "lugar_id": "P0128"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0375"
+  ],
+  "familias_como_pai": [
+    "F0372"
+  ],
+  "media": [
+    "O0975",
+    "O0982"
+  ],
+  "notas": null,
+  "citacoes": null
+}

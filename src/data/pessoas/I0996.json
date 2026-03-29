@@ -1,0 +1,29 @@
+{
+  "id": "I0996",
+  "protegida": false,
+  "nome": "Manuel da Silva Rodrigues",
+  "nome_proprio": "Manuel",
+  "apelido": "da Silva Rodrigues",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1935-12-26",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1993-03-05",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0081"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O1041"
+  ],
+  "notas": null,
+  "citacoes": null
+}

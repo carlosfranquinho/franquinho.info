@@ -1,0 +1,26 @@
+{
+  "id": "I0447",
+  "protegida": false,
+  "nome": "Joaquim",
+  "nome_proprio": "Joaquim",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1844-04-14",
+    "lugar_id": "P0002"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0016"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0257"
+  ],
+  "notas": null,
+  "citacoes": null
+}

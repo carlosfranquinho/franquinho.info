@@ -1,0 +1,27 @@
+{
+  "id": "I0165",
+  "protegida": false,
+  "nome": "Manuel dos Santos Cabral",
+  "nome_proprio": "Manuel",
+  "apelido": "dos Santos Cabral",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1889",
+    "lugar_id": "P0045"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1962-06",
+    "lugar_id": "P0044"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0076"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

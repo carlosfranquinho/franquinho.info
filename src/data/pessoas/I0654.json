@@ -1,0 +1,30 @@
+{
+  "id": "I0654",
+  "protegida": false,
+  "nome": "José",
+  "nome_proprio": "José",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1816-11-06",
+    "lugar_id": "P0084"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1817-08-18",
+    "lugar_id": "P0084"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0195"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0519",
+    "O0535"
+  ],
+  "notas": null,
+  "citacoes": null
+}

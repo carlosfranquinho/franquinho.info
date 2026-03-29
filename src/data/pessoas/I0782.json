@@ -1,0 +1,33 @@
+{
+  "id": "I0782",
+  "protegida": false,
+  "nome": "Luísa Marques",
+  "nome_proprio": "Luísa",
+  "apelido": "Marques",
+  "nomes_alt": [
+    {
+      "tipo": "Married Name",
+      "nome": "Luísa Marques"
+    }
+  ],
+  "sexo": "F",
+  "nascimento": {
+    "data": "1742-05-16",
+    "lugar_id": "P0133"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0230"
+  ],
+  "familias_como_pai": [
+    "F0223"
+  ],
+  "media": [
+    "O1009"
+  ],
+  "notas": null,
+  "citacoes": null
+}

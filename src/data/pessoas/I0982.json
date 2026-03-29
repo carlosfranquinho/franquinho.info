@@ -1,0 +1,27 @@
+{
+  "id": "I0982",
+  "protegida": true,
+  "sexo": "F",
+  "nome": "Familiar",
+  "apelido": "Franquinho Gaspar",
+  "nascimento": {
+    "data": "1942-09-17",
+    "lugar_id": "P0002"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "2015-01-23",
+    "lugar_id": "P0002"
+  },
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0193"
+  ],
+  "familias_como_pai": [
+    "F0276"
+  ],
+  "relacoes": [
+    "F0193",
+    "F0276"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "I0619",
+  "protegida": false,
+  "nome": "Jacinto Rodrigues Romeiro",
+  "nome_proprio": "Jacinto",
+  "apelido": "Rodrigues Romeiro",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1923-12-08",
+    "lugar_id": "P0001"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1994-09-08",
+    "lugar_id": "P0075"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0185"
+  ],
+  "familias_como_pai": [
+    "F0184"
+  ],
+  "media": [
+    "O1054",
+    "O0552",
+    "O0480"
+  ],
+  "notas": null,
+  "citacoes": null
+}

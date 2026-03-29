@@ -1,0 +1,26 @@
+{
+  "id": "I0092",
+  "protegida": false,
+  "nome": "António Nunes",
+  "nome_proprio": "António",
+  "apelido": "Nunes",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1758-09-21",
+    "lugar_id": "P0033"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0045"
+  ],
+  "media": [
+    "O0405"
+  ],
+  "notas": null,
+  "citacoes": null
+}

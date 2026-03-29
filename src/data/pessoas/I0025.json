@@ -1,0 +1,32 @@
+{
+  "id": "I0025",
+  "protegida": false,
+  "nome": "Manuel da Silva Ferreiro",
+  "nome_proprio": "Manuel",
+  "apelido": "da Silva Ferreiro",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1800",
+    "lugar_id": "P0018"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1899-01-13",
+    "lugar_id": "P0008"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0022"
+  ],
+  "familias_como_pai": [
+    "F0012",
+    "F0050"
+  ],
+  "media": [
+    "O0061"
+  ],
+  "notas": null,
+  "citacoes": null
+}

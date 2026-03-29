@@ -1,0 +1,21 @@
+{
+  "id": "I1012",
+  "protegida": true,
+  "sexo": "M",
+  "nome": "Familiar",
+  "apelido": "Grácio",
+  "nascimento": {
+    "data": "2000-05-02",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0284"
+  ],
+  "familias_como_pai": null,
+  "relacoes": [
+    "F0284"
+  ]
+}

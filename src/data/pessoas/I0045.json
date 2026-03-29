@@ -1,0 +1,32 @@
+{
+  "id": "I0045",
+  "protegida": false,
+  "nome": "Manuel da Silva Ferreiro",
+  "nome_proprio": "Manuel",
+  "apelido": "da Silva Ferreiro",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1842-09-03",
+    "lugar_id": "P0018"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0022",
+    "F0135"
+  ],
+  "media": [
+    "O0195"
+  ],
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "há um manuel da silva ferreiro a falecer no casal dos  claros em 3 set 1842, mas é viuvo de Josefa Lorios(?). Será um segundo casamento?"
+    }
+  ],
+  "citacoes": null
+}

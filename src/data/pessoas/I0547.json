@@ -1,0 +1,26 @@
+{
+  "id": "I0547",
+  "protegida": false,
+  "nome": "Catarina Soares",
+  "nome_proprio": "Catarina",
+  "apelido": "Soares",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1712-01-07",
+    "lugar_id": "P0034"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0160"
+  ],
+  "media": [
+    "O0394"
+  ],
+  "notas": null,
+  "citacoes": null
+}

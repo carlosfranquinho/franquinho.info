@@ -1,0 +1,26 @@
+{
+  "id": "I1049",
+  "protegida": false,
+  "nome": "José Rainho",
+  "nome_proprio": "José",
+  "apelido": "Rainho",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1836",
+    "lugar_id": "P0002"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0299"
+  ],
+  "familias_como_pai": [
+    "F0297"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

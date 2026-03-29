@@ -1,0 +1,31 @@
+{
+  "id": "I0028",
+  "protegida": false,
+  "nome": "Angélica Maria",
+  "nome_proprio": "Angélica Maria",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1801 – 1807",
+    "lugar_id": "P0019"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1853-07-29",
+    "lugar_id": "P0019"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0025"
+  ],
+  "familias_como_pai": [
+    "F0013"
+  ],
+  "media": [
+    "O0216"
+  ],
+  "notas": null,
+  "citacoes": null
+}

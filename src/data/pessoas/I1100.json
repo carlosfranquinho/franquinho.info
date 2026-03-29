@@ -1,0 +1,18 @@
+{
+  "id": "I1100",
+  "protegida": true,
+  "sexo": "F",
+  "nome": "Familiar",
+  "apelido": "Jorge",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0320"
+  ],
+  "relacoes": [
+    "F0320"
+  ]
+}

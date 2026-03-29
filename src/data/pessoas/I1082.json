@@ -1,0 +1,18 @@
+{
+  "id": "I1082",
+  "protegida": true,
+  "sexo": "F",
+  "nome": "Familiar",
+  "apelido": "Fernandes",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0312"
+  ],
+  "familias_como_pai": null,
+  "relacoes": [
+    "F0312"
+  ]
+}

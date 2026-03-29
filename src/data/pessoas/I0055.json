@@ -1,0 +1,32 @@
+{
+  "id": "I0055",
+  "protegida": false,
+  "nome": "António Francisco Serrano",
+  "nome_proprio": "António Francisco",
+  "apelido": "Serrano",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0021"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1832-01-08",
+    "lugar_id": "P0002"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0141"
+  ],
+  "familias_como_pai": [
+    "F0027",
+    "F0140"
+  ],
+  "media": [
+    "O0243"
+  ],
+  "notas": null,
+  "citacoes": null
+}

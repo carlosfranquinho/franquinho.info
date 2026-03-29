@@ -1,0 +1,31 @@
+{
+  "id": "F0007",
+  "pai": "I0015",
+  "mae": "I0016",
+  "filhos": [
+    "I0188",
+    "I0189",
+    "I0012",
+    "I0191",
+    "I0192",
+    "I0193"
+  ],
+  "tipo_relacao": "Married",
+  "casamento": {
+    "data": "1860-02-19",
+    "lugar_id": "P0002"
+  },
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "quarto grau dobrado de consanguinidade (onde estará esta dispensa?)"
+    },
+    {
+      "tipo": "",
+      "texto": "procurei por filhos do casal até dezembro de 1880"
+    }
+  ],
+  "media": [
+    "O0062"
+  ]
+}

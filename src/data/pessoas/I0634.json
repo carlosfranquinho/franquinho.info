@@ -1,0 +1,27 @@
+{
+  "id": "I0634",
+  "protegida": false,
+  "nome": "Luzia Cintra",
+  "nome_proprio": "Luzia",
+  "apelido": "Cintra",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1883-04-23",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1970-01-05",
+    "lugar_id": "P0081"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0189"
+  ],
+  "familias_como_pai": null,
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,28 @@
+{
+  "id": "I1411",
+  "protegida": false,
+  "nome": "Isabel Antónia",
+  "nome_proprio": "Isabel",
+  "apelido": "Antónia",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1669-02-04",
+    "lugar_id": "P0098"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0391"
+  ],
+  "familias_como_pai": [
+    "F0390"
+  ],
+  "media": [
+    "O1007"
+  ],
+  "notas": null,
+  "citacoes": null
+}

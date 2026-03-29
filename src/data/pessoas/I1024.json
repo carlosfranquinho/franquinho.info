@@ -1,0 +1,21 @@
+{
+  "id": "I1024",
+  "protegida": true,
+  "sexo": "F",
+  "nome": "Familiar",
+  "apelido": "Santos",
+  "nascimento": {
+    "data": "1969-10-06",
+    "lugar_id": "P0000"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0288"
+  ],
+  "relacoes": [
+    "F0288"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "I0230",
+  "protegida": false,
+  "nome": "Manuel do Couto",
+  "nome_proprio": "Manuel",
+  "apelido": "do Couto",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1702-12-25",
+    "lugar_id": "P0025"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0178"
+  ],
+  "familias_como_pai": [
+    "F0089"
+  ],
+  "media": [
+    "O0439"
+  ],
+  "notas": null,
+  "citacoes": null
+}

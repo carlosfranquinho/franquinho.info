@@ -1,0 +1,32 @@
+{
+  "id": "I0069",
+  "protegida": false,
+  "nome": "Aleixo Rodrigues",
+  "nome_proprio": "Aleixo",
+  "apelido": "Rodrigues",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0011"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1775-11-20",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0034"
+  ],
+  "media": null,
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei pelo bastismo (e dos irmaõs) entre 1730 e 1743."
+    }
+  ],
+  "citacoes": null
+}

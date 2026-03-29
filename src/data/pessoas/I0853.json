@@ -1,0 +1,29 @@
+{
+  "id": "I0853",
+  "protegida": false,
+  "nome": "Manuel Francisco Lourenço",
+  "nome_proprio": "Manuel",
+  "apelido": "Francisco Lourenço",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1778-03-27",
+    "lugar_id": "P0102"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0239"
+  ],
+  "familias_como_pai": [
+    "F0238",
+    "F0237"
+  ],
+  "media": [
+    "O0715"
+  ],
+  "notas": null,
+  "citacoes": null
+}

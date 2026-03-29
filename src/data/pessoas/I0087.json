@@ -1,0 +1,35 @@
+{
+  "id": "I0087",
+  "protegida": false,
+  "nome": "Arcângela Maria",
+  "nome_proprio": "Arcângela Maria",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1700-10-17",
+    "lugar_id": "P0030"
+  },
+  "baptismo": {
+    "data": "1700-11-17",
+    "lugar_id": "P0030"
+  },
+  "obito": {
+    "data": "1776-03-17",
+    "lugar_id": "P0030"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0047"
+  ],
+  "familias_como_pai": [
+    "F0042"
+  ],
+  "media": [
+    "O0320",
+    "O0332"
+  ],
+  "notas": null,
+  "citacoes": null
+}

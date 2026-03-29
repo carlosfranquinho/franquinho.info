@@ -1,0 +1,26 @@
+{
+  "id": "F0186",
+  "pai": "I0623",
+  "mae": "I0624",
+  "filhos": [
+    "I0620",
+    "I1502",
+    "I1503"
+  ],
+  "tipo_relacao": "Married",
+  "casamento": {
+    "data": "1930-10-25",
+    "lugar_id": "P0079"
+  },
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "Procurei por filhos do casal entre 1896 e 1900 (os disponíveis online) e não encontrei."
+    },
+    {
+      "tipo": "",
+      "texto": "Procurei pelo casamento nos livros disponíveis online: duplicados de 1903 a 1905 e originais de 1909/11. Deverão ter casado entre 1912 e 1916."
+    }
+  ],
+  "media": null
+}

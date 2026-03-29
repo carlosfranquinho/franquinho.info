@@ -1,0 +1,21 @@
+{
+  "id": "F0210",
+  "pai": "I0726",
+  "mae": "I0727",
+  "filhos": [
+    "I0719"
+  ],
+  "tipo_relacao": "Married",
+  "casamento": null,
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei pelo casamento, no Louriçal, entre 1811 e 1820. Há uma falha de anos entre 1782 e 1811..."
+    },
+    {
+      "tipo": "",
+      "texto": "procurei por filhos na Moita do Boi e nas Matas (Louriçal) entre 1788 e 1820)"
+    }
+  ],
+  "media": null
+}

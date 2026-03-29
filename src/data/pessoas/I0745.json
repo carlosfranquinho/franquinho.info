@@ -1,0 +1,29 @@
+{
+  "id": "I0745",
+  "protegida": false,
+  "nome": "José Fernandes",
+  "nome_proprio": "José",
+  "apelido": "Fernandes",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1692-12-04",
+    "lugar_id": "P0121"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0348"
+  ],
+  "familias_como_pai": [
+    "F0350",
+    "F0214"
+  ],
+  "media": [
+    "O0946"
+  ],
+  "notas": null,
+  "citacoes": null
+}

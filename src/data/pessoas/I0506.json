@@ -1,0 +1,26 @@
+{
+  "id": "I0506",
+  "protegida": false,
+  "nome": "Manuel Rebelo",
+  "nome_proprio": "Manuel",
+  "apelido": "Rebelo",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1675-11-03",
+    "lugar_id": "P0068"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0151"
+  ],
+  "media": [
+    "O0360"
+  ],
+  "notas": null,
+  "citacoes": null
+}

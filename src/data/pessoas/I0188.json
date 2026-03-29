@@ -1,0 +1,30 @@
+{
+  "id": "I0188",
+  "protegida": false,
+  "nome": "Maria Silva",
+  "nome_proprio": "Maria",
+  "apelido": "Silva",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1860-11-29",
+    "lugar_id": "P0002"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1887-03-19",
+    "lugar_id": "P0002"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0007"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0039",
+    "O0063"
+  ],
+  "notas": null,
+  "citacoes": null
+}

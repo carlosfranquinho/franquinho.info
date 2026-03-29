@@ -1,0 +1,37 @@
+{
+  "id": "I0728",
+  "protegida": false,
+  "nome": "António Dias",
+  "nome_proprio": "António",
+  "apelido": "Dias",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1753-10-04",
+    "lugar_id": "P0080"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1830-07",
+    "lugar_id": "P0076"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0212"
+  ],
+  "familias_como_pai": [
+    "F0211"
+  ],
+  "media": [
+    "O0615",
+    "O0634"
+  ],
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei pelo óbito, na Mata Mourisca, até 1880"
+    }
+  ],
+  "citacoes": null
+}

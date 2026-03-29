@@ -1,0 +1,32 @@
+{
+  "id": "I0139",
+  "protegida": false,
+  "nome": "Delmira Ferreira",
+  "nome_proprio": "Delmira",
+  "apelido": "Ferreira",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1895-01-29",
+    "lugar_id": "P0002"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1988-08-30",
+    "lugar_id": "P0002"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0003"
+  ],
+  "familias_como_pai": [
+    "F0070"
+  ],
+  "media": [
+    "O0099",
+    "O0001"
+  ],
+  "notas": null,
+  "citacoes": null
+}

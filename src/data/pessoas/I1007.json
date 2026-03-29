@@ -1,0 +1,27 @@
+{
+  "id": "I1007",
+  "protegida": true,
+  "sexo": "M",
+  "nome": "Familiar",
+  "apelido": "Fonseca Rodrigues Grácio",
+  "nascimento": {
+    "data": "1939-07-21",
+    "lugar_id": "P0002"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "2023-07-12",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0286"
+  ],
+  "familias_como_pai": [
+    "F0283"
+  ],
+  "relacoes": [
+    "F0286",
+    "F0283"
+  ]
+}

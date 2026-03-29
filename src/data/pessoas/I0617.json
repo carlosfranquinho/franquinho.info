@@ -1,0 +1,21 @@
+{
+  "id": "I0617",
+  "protegida": false,
+  "nome": "Maria Pires(?)",
+  "nome_proprio": "Maria",
+  "apelido": "Pires(?)",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0183"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

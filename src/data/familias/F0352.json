@@ -1,0 +1,22 @@
+{
+  "id": "F0352",
+  "pai": "I1224",
+  "mae": "I1225",
+  "filhos": [
+    "I1232",
+    "I1215",
+    "I1250",
+    "I1226",
+    "I1251",
+    "I1252"
+  ],
+  "tipo_relacao": "Married",
+  "casamento": {
+    "data": "1677-05-03",
+    "lugar_id": "P0079"
+  },
+  "notas": null,
+  "media": [
+    "O0948"
+  ]
+}

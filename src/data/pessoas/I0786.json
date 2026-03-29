@@ -1,0 +1,33 @@
+{
+  "id": "I0786",
+  "protegida": false,
+  "nome": "Rosa Maria",
+  "nome_proprio": "Rosa",
+  "apelido": "Maria",
+  "nomes_alt": [
+    {
+      "tipo": "Married Name",
+      "nome": "Rosa Maria"
+    }
+  ],
+  "sexo": "F",
+  "nascimento": {
+    "data": "1752-06-20",
+    "lugar_id": "P0127"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0232"
+  ],
+  "familias_como_pai": [
+    "F0225"
+  ],
+  "media": [
+    "O0968"
+  ],
+  "notas": null,
+  "citacoes": null
+}

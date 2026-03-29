@@ -1,0 +1,13 @@
+{
+  "id": "F0171",
+  "pai": "I0586",
+  "mae": "I0582",
+  "filhos": null,
+  "tipo_relacao": "Married",
+  "casamento": {
+    "data": "1753-11-17",
+    "lugar_id": "P0036"
+  },
+  "notas": null,
+  "media": null
+}

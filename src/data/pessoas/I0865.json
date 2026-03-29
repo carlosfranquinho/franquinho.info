@@ -1,0 +1,26 @@
+{
+  "id": "I0865",
+  "protegida": false,
+  "nome": "Maria",
+  "nome_proprio": "Maria",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1774-04-10",
+    "lugar_id": "P0102"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0239"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0713"
+  ],
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,32 @@
+{
+  "id": "I0193",
+  "protegida": false,
+  "nome": "Manuel Ferreira Serra",
+  "nome_proprio": "Manuel",
+  "apelido": "Ferreira Serra",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1875-05-13",
+    "lugar_id": "P0002"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1965-07-23",
+    "lugar_id": "P0002"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0007"
+  ],
+  "familias_como_pai": [
+    "F0083"
+  ],
+  "media": [
+    "O1056",
+    "O0800"
+  ],
+  "notas": null,
+  "citacoes": null
+}

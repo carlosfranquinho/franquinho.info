@@ -1,0 +1,37 @@
+{
+  "id": "I0166",
+  "protegida": false,
+  "nome": "Joaquim Franquinho",
+  "nome_proprio": "Joaquim",
+  "apelido": "Franquinho",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1875-09-19",
+    "lugar_id": "P0005"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1932-12-18",
+    "lugar_id": "P0005"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0004"
+  ],
+  "familias_como_pai": [
+    "F0077"
+  ],
+  "media": [
+    "O0288",
+    "O0021"
+  ],
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "passaporte para o Brasil em 6 setembro 1897 aos 21 anos.\npassaporte para o Rio de Janeiro, Brasil, em 18 novembro 1913, aos 38 anos."
+    }
+  ],
+  "citacoes": null
+}

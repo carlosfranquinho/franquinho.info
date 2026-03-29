@@ -1,0 +1,26 @@
+{
+  "id": "I0403",
+  "protegida": false,
+  "nome": "Manuel da Fonseca",
+  "nome_proprio": "Manuel",
+  "apelido": "da Fonseca",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0134"
+  ],
+  "media": null,
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei pelo falecimento, na Bidoeira de Baixo, de 1808 a 1860"
+    }
+  ],
+  "citacoes": null
+}

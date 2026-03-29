@@ -1,0 +1,28 @@
+{
+  "id": "I0788",
+  "protegida": false,
+  "nome": "Maria dos Ramos",
+  "nome_proprio": "Maria",
+  "apelido": "dos Ramos",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1745-02-21",
+    "lugar_id": "P0076"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0228"
+  ],
+  "familias_como_pai": [
+    "F0226"
+  ],
+  "media": [
+    "O0990"
+  ],
+  "notas": null,
+  "citacoes": null
+}

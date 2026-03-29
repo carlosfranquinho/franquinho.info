@@ -1,0 +1,26 @@
+{
+  "id": "I0764",
+  "protegida": false,
+  "nome": "António Francisco",
+  "nome_proprio": "António",
+  "apelido": "Francisco",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0080"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0219"
+  ],
+  "familias_como_pai": [
+    "F0218"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

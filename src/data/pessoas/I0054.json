@@ -1,0 +1,36 @@
+{
+  "id": "I0054",
+  "protegida": false,
+  "nome": "Faustina de Jesus",
+  "nome_proprio": "Faustina",
+  "apelido": "de Jesus",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0001"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1799-09-15",
+    "lugar_id": "P0001"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0139"
+  ],
+  "familias_como_pai": [
+    "F0026"
+  ],
+  "media": [
+    "O0233"
+  ],
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "Para todos os efeitos, estou a considerar tratar-se da mesma Joaquina Inácia de que falo na nota do seu marido, Luis António."
+    }
+  ],
+  "citacoes": null
+}

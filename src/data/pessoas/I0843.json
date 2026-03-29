@@ -1,0 +1,31 @@
+{
+  "id": "I0843",
+  "protegida": false,
+  "nome": "António Manuel Lourenço",
+  "nome_proprio": "António",
+  "apelido": "Manuel Lourenço",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1815-02-18",
+    "lugar_id": "P0101"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1890-11",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0237"
+  ],
+  "familias_como_pai": [
+    "F0236"
+  ],
+  "media": [
+    "O0705"
+  ],
+  "notas": null,
+  "citacoes": null
+}

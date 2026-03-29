@@ -1,0 +1,28 @@
+{
+  "id": "I0799",
+  "protegida": false,
+  "nome": "Manuel Dias Fazendeiro",
+  "nome_proprio": "Manuel",
+  "apelido": "Dias Fazendeiro",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1699-03-16",
+    "lugar_id": "P0076"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0377"
+  ],
+  "familias_como_pai": [
+    "F0227"
+  ],
+  "media": [
+    "O0987"
+  ],
+  "notas": null,
+  "citacoes": null
+}

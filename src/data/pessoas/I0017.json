@@ -1,0 +1,37 @@
+{
+  "id": "I0017",
+  "protegida": false,
+  "nome": "Urbano Joaquim Leal",
+  "nome_proprio": "Urbano",
+  "apelido": "Joaquim Leal",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1835-05-31",
+    "lugar_id": "P0007"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1922-09-04",
+    "lugar_id": "P0002"
+  },
+  "sepultura": null,
+  "profissao": "Sangrador",
+  "familias_como_filho": [
+    "F0011"
+  ],
+  "familias_como_pai": [
+    "F0008"
+  ],
+  "media": [
+    "O0027",
+    "O0148"
+  ],
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei o óbito entre 1891 e 1911"
+    }
+  ],
+  "citacoes": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "I0609",
+  "protegida": false,
+  "nome": "João Dinis",
+  "nome_proprio": "João",
+  "apelido": "Dinis",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1679-03-27",
+    "lugar_id": "P0025"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0181"
+  ],
+  "media": [
+    "O0472"
+  ],
+  "notas": null,
+  "citacoes": null
+}

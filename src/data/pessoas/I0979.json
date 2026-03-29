@@ -1,0 +1,26 @@
+{
+  "id": "I0979",
+  "protegida": false,
+  "nome": "Antónia",
+  "nome_proprio": "Antónia",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1740-08-27",
+    "lugar_id": "P0011"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0034"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0786"
+  ],
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "I0932",
+  "protegida": false,
+  "nome": "Domingos Fernandes",
+  "nome_proprio": "Domingos",
+  "apelido": "Fernandes",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0107"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0265"
+  ],
+  "familias_como_pai": [
+    "F0263"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

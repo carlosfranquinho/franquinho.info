@@ -1,0 +1,26 @@
+{
+  "id": "I1311",
+  "protegida": false,
+  "nome": "Helena Cordeira",
+  "nome_proprio": "Helena",
+  "apelido": "Cordeira",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1750-12-25",
+    "lugar_id": "P0127"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0373"
+  ],
+  "media": [
+    "O0980"
+  ],
+  "notas": null,
+  "citacoes": null
+}

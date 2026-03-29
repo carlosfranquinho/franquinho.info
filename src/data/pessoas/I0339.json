@@ -1,0 +1,24 @@
+{
+  "id": "I0339",
+  "protegida": true,
+  "sexo": "M",
+  "nome": "Familiar",
+  "apelido": "Caseiro Franquinho",
+  "nascimento": {
+    "data": "1965-05-08",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0122"
+  ],
+  "familias_como_pai": [
+    "F0126"
+  ],
+  "relacoes": [
+    "F0126",
+    "F0122"
+  ]
+}

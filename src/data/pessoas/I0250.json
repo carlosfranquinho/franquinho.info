@@ -1,0 +1,24 @@
+{
+  "id": "I0250",
+  "protegida": false,
+  "nome": "Nicholas Antonio Luis",
+  "nome_proprio": "Nicholas",
+  "apelido": "Antonio Luis",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "2005-12-30",
+    "lugar_id": "P0051"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0093"
+  ],
+  "familias_como_pai": null,
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

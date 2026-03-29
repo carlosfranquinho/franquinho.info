@@ -1,0 +1,26 @@
+{
+  "id": "I0834",
+  "protegida": false,
+  "nome": "Sebastião",
+  "nome_proprio": "Sebastião",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1763-12-05",
+    "lugar_id": "P0098"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0223"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0684"
+  ],
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,29 @@
+{
+  "id": "I1264",
+  "protegida": false,
+  "nome": "José Fernandes",
+  "nome_proprio": "José",
+  "apelido": "Fernandes",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1664-03-25",
+    "lugar_id": "P0125"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0364"
+  ],
+  "familias_como_pai": [
+    "F0365",
+    "F0363"
+  ],
+  "media": [
+    "O0964"
+  ],
+  "notas": null,
+  "citacoes": null
+}

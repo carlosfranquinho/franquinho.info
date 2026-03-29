@@ -1,0 +1,29 @@
+{
+  "id": "I0749",
+  "protegida": false,
+  "nome": "Catarina",
+  "nome_proprio": "Catarina",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1762-09-19",
+    "lugar_id": "P0080"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1776-12-10",
+    "lugar_id": "P0080"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0213"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0618"
+  ],
+  "notas": null,
+  "citacoes": null
+}

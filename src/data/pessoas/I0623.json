@@ -1,0 +1,31 @@
+{
+  "id": "I0623",
+  "protegida": false,
+  "nome": "António da Costa Rico",
+  "nome_proprio": "António",
+  "apelido": "da Costa Rico",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1876-02-07",
+    "lugar_id": "P0076"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1947-11-28",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0188"
+  ],
+  "familias_como_pai": [
+    "F0186"
+  ],
+  "media": [
+    "O0488"
+  ],
+  "notas": null,
+  "citacoes": null
+}

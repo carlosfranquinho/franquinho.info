@@ -1,0 +1,21 @@
+{
+  "id": "I0255",
+  "protegida": true,
+  "sexo": "F",
+  "nome": "Familiar",
+  "apelido": "Pereira Gaspar",
+  "nascimento": {
+    "data": "1983-10-05",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0095"
+  ],
+  "familias_como_pai": null,
+  "relacoes": [
+    "F0095"
+  ]
+}

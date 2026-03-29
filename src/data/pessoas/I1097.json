@@ -1,0 +1,24 @@
+{
+  "id": "I1097",
+  "protegida": true,
+  "sexo": "M",
+  "nome": "Familiar",
+  "apelido": "Franquinho",
+  "nascimento": {
+    "data": "1990-01-08",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0318"
+  ],
+  "familias_como_pai": [
+    "F0320"
+  ],
+  "relacoes": [
+    "F0318",
+    "F0320"
+  ]
+}

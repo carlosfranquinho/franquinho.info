@@ -1,0 +1,21 @@
+{
+  "id": "I1245",
+  "protegida": false,
+  "nome": "Pedro Francisco",
+  "nome_proprio": "Pedro",
+  "apelido": "Francisco",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0361"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

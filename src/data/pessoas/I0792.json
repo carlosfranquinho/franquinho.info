@@ -1,0 +1,26 @@
+{
+  "id": "I0792",
+  "protegida": false,
+  "nome": "António da Silva",
+  "nome_proprio": "António",
+  "apelido": "da Silva",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1796-06-06",
+    "lugar_id": "P0098"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0222"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0650"
+  ],
+  "notas": null,
+  "citacoes": null
+}

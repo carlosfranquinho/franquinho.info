@@ -1,0 +1,15 @@
+{
+  "id": "F0300",
+  "pai": "I1055",
+  "mae": "I1056",
+  "filhos": [
+    "I1050"
+  ],
+  "tipo_relacao": "Married",
+  "casamento": {
+    "data": "1838-01-14",
+    "lugar_id": "P0002"
+  },
+  "notas": null,
+  "media": null
+}

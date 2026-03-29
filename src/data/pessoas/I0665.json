@@ -1,0 +1,29 @@
+{
+  "id": "I0665",
+  "protegida": false,
+  "nome": "Casimiro",
+  "nome_proprio": "Casimiro",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1804",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1807-08-03",
+    "lugar_id": "P0084"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0196"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0532"
+  ],
+  "notas": null,
+  "citacoes": null
+}

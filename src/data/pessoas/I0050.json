@@ -1,0 +1,31 @@
+{
+  "id": "I0050",
+  "protegida": false,
+  "nome": "Angélica Maria",
+  "nome_proprio": "Angélica Maria",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0019"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0057"
+  ],
+  "familias_como_pai": [
+    "F0024"
+  ],
+  "media": null,
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei pelo falecimento, na Ruivaqueira, até 1875"
+    }
+  ],
+  "citacoes": null
+}

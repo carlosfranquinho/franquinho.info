@@ -1,0 +1,24 @@
+{
+  "id": "I1080",
+  "protegida": true,
+  "sexo": "F",
+  "nome": "Familiar",
+  "apelido": "Franquinho",
+  "nascimento": {
+    "data": "1977-03-19",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0311"
+  ],
+  "familias_como_pai": [
+    "F0314"
+  ],
+  "relacoes": [
+    "F0311",
+    "F0314"
+  ]
+}

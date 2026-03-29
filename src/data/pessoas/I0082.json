@@ -1,0 +1,24 @@
+{
+  "id": "I0082",
+  "protegida": true,
+  "sexo": "F",
+  "nome": "Familiar",
+  "apelido": "Cecília",
+  "nascimento": {
+    "data": "1904-10-25",
+    "lugar_id": "P0002"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1956-10-06",
+    "lugar_id": "P0176"
+  },
+  "sepultura": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0281"
+  ],
+  "relacoes": [
+    "F0281"
+  ]
+}

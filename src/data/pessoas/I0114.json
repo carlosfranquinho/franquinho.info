@@ -1,0 +1,23 @@
+{
+  "id": "I0114",
+  "protegida": false,
+  "nome": "João Domingues",
+  "nome_proprio": "João",
+  "apelido": "Domingues",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0056"
+  ],
+  "familias_como_pai": [
+    "F0057"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

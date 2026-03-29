@@ -1,0 +1,26 @@
+{
+  "id": "I0380",
+  "protegida": false,
+  "nome": "Maria Pereira",
+  "nome_proprio": "Maria",
+  "apelido": "Pereira",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0130"
+  ],
+  "media": null,
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei pelo falecimento, no Souto da Carpalhosa, de 1802 a 1810.  Entre 1811 e 1854, apenas em Riba d'Aves."
+    }
+  ],
+  "citacoes": null
+}

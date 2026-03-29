@@ -1,0 +1,34 @@
+{
+  "id": "I0005",
+  "protegida": false,
+  "nome": "Luís Franquinho",
+  "nome_proprio": "Luís",
+  "apelido": "Franquinho",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1908-08-24",
+    "lugar_id": "P0004"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1992-09-20",
+    "lugar_id": "P0002"
+  },
+  "sepultura": null,
+  "profissao": "Guarda Fios",
+  "familias_como_filho": [
+    "F0003"
+  ],
+  "familias_como_pai": [
+    "F0002",
+    "F0073"
+  ],
+  "media": [
+    "O0446",
+    "O1064",
+    "O0047"
+  ],
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "I0644",
+  "protegida": false,
+  "nome": "José Rodrigues Romeiro",
+  "nome_proprio": "José",
+  "apelido": "Rodrigues Romeiro",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0086"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0198"
+  ],
+  "familias_como_pai": [
+    "F0192"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

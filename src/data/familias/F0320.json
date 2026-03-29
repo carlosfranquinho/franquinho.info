@@ -1,0 +1,16 @@
+{
+  "id": "F0320",
+  "pai": "I1097",
+  "mae": "I1100",
+  "filhos": [
+    "I1101",
+    "I1102"
+  ],
+  "tipo_relacao": "Married",
+  "casamento": {
+    "data": "2019-09-14",
+    "lugar_id": null
+  },
+  "notas": null,
+  "media": null
+}

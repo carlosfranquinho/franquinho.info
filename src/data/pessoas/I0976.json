@@ -1,0 +1,26 @@
+{
+  "id": "I0976",
+  "protegida": false,
+  "nome": "Luís",
+  "nome_proprio": "Luís",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": {
+    "data": "1685-06-12",
+    "lugar_id": "P0107"
+  },
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0265"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0783"
+  ],
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "I0661",
+  "protegida": false,
+  "nome": "Maria da Piedade",
+  "nome_proprio": "Maria da Piedade",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1836-03-16",
+    "lugar_id": "P0084"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0195"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0527"
+  ],
+  "notas": null,
+  "citacoes": null
+}

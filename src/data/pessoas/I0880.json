@@ -1,0 +1,30 @@
+{
+  "id": "I0880",
+  "protegida": false,
+  "nome": "Dinis",
+  "nome_proprio": "Dinis",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": {
+    "data": "1820-01-25",
+    "lugar_id": "P0076"
+  },
+  "obito": {
+    "data": "1827-09-14",
+    "lugar_id": "P0076"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0242"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0730",
+    "O0749"
+  ],
+  "notas": null,
+  "citacoes": null
+}

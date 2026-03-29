@@ -1,0 +1,21 @@
+{
+  "id": "F0189",
+  "pai": "I0629",
+  "mae": "I0630",
+  "filhos": [
+    "I0633",
+    "I0624",
+    "I0634",
+    "I0635",
+    "I0636"
+  ],
+  "tipo_relacao": "Married",
+  "casamento": {
+    "data": "1877-02-07",
+    "lugar_id": "P0079"
+  },
+  "notas": null,
+  "media": [
+    "O0492"
+  ]
+}

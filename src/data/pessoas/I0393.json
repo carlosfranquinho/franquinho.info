@@ -1,0 +1,26 @@
+{
+  "id": "I0393",
+  "protegida": false,
+  "nome": "Patrício",
+  "nome_proprio": "Patrício",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1850-05-28",
+    "lugar_id": "P0008"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0012"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0172"
+  ],
+  "notas": null,
+  "citacoes": null
+}

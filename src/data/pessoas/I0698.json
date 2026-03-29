@@ -1,0 +1,29 @@
+{
+  "id": "I0698",
+  "protegida": false,
+  "nome": "Teresa Maria",
+  "nome_proprio": "Teresa",
+  "apelido": "Maria",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0094"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0204"
+  ],
+  "media": null,
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei pelo óbito até 1840, nas bidoeiras (cima e baixo). não encontrei."
+    }
+  ],
+  "citacoes": null
+}

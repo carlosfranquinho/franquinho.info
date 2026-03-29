@@ -1,0 +1,26 @@
+{
+  "id": "I0565",
+  "protegida": false,
+  "nome": "Antónia",
+  "nome_proprio": "Antónia",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1742-02-26",
+    "lugar_id": "P0033"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0045"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0403"
+  ],
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,1426 @@
+[
+  {
+    "id": "P0139",
+    "nome": "Famalicão de Cima",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0025"
+  },
+  {
+    "id": "P0142",
+    "nome": "Paraná",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0048"
+  },
+  {
+    "id": "P0177",
+    "nome": "Maringá",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0142"
+  },
+  {
+    "id": "P0178",
+    "nome": "Canadá",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": null
+  },
+  {
+    "id": "P0179",
+    "nome": "Toronto",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0178"
+  },
+  {
+    "id": "P0180",
+    "nome": "Ribeira da Escoura",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0002"
+  },
+  {
+    "id": "P0000",
+    "nome": "Marinha Grande",
+    "tipo": null,
+    "lat": "39.7511195",
+    "lon": "-8.9354899",
+    "pai_id": "P0137"
+  },
+  {
+    "id": "P0001",
+    "nome": "Regueira de Pontes",
+    "tipo": null,
+    "lat": "39.799",
+    "lon": "-8.833",
+    "pai_id": "P0003"
+  },
+  {
+    "id": "P0002",
+    "nome": "Amor",
+    "tipo": null,
+    "lat": "39.803",
+    "lon": "-8.862",
+    "pai_id": "P0003"
+  },
+  {
+    "id": "P0004",
+    "nome": "Mioteira",
+    "tipo": null,
+    "lat": "39.830",
+    "lon": "-8.917",
+    "pai_id": "P0149"
+  },
+  {
+    "id": "P0005",
+    "nome": "Cela",
+    "tipo": null,
+    "lat": "39.537",
+    "lon": "-9.037",
+    "pai_id": "P0046"
+  },
+  {
+    "id": "P0006",
+    "nome": "Casal da Maceda",
+    "tipo": null,
+    "lat": "39.543",
+    "lon": "-9.050",
+    "pai_id": "P0005"
+  },
+  {
+    "id": "P0007",
+    "nome": "Monte Real",
+    "tipo": null,
+    "lat": "39.850",
+    "lon": "-8.867",
+    "pai_id": "P0003"
+  },
+  {
+    "id": "P0008",
+    "nome": "Coucinheira",
+    "tipo": null,
+    "lat": "39.803",
+    "lon": "-8.891",
+    "pai_id": "P0002"
+  },
+  {
+    "id": "P0009",
+    "nome": "Souto da Carpalhosa",
+    "tipo": null,
+    "lat": "39.850",
+    "lon": "-8.837",
+    "pai_id": "P0003"
+  },
+  {
+    "id": "P0010",
+    "nome": "Cela Velha",
+    "tipo": null,
+    "lat": "39.553",
+    "lon": "-9.055",
+    "pai_id": "P0005"
+  },
+  {
+    "id": "P0011",
+    "nome": "Bica",
+    "tipo": null,
+    "lat": "39.526",
+    "lon": "-9.062",
+    "pai_id": "P0005"
+  },
+  {
+    "id": "P0013",
+    "nome": "Casal da Galega",
+    "tipo": null,
+    "lat": "39.520",
+    "lon": "-9.045",
+    "pai_id": "P0005"
+  },
+  {
+    "id": "P0014",
+    "nome": "Carvide",
+    "tipo": null,
+    "lat": "39.860",
+    "lon": "-8.893",
+    "pai_id": "P0003"
+  },
+  {
+    "id": "P0015",
+    "nome": "Riba de Aves",
+    "tipo": null,
+    "lat": "39.8165283",
+    "lon": "-8.8344389",
+    "pai_id": "P0009"
+  },
+  {
+    "id": "P0016",
+    "nome": "Pombal",
+    "tipo": null,
+    "lat": "39.918",
+    "lon": "-8.640",
+    "pai_id": "P0137"
+  },
+  {
+    "id": "P0017",
+    "nome": "Caldas da Rainha",
+    "tipo": null,
+    "lat": "39.405",
+    "lon": "-9.138",
+    "pai_id": "P0147"
+  },
+  {
+    "id": "P0018",
+    "nome": "Casal dos Claros",
+    "tipo": null,
+    "lat": "39.803",
+    "lon": "-8.876",
+    "pai_id": "P0002"
+  },
+  {
+    "id": "P0019",
+    "nome": "Ruivaqueira",
+    "tipo": null,
+    "lat": "39.827",
+    "lon": "-8.849",
+    "pai_id": "P0009"
+  },
+  {
+    "id": "P0020",
+    "nome": "Várzeas",
+    "tipo": null,
+    "lat": "39.849",
+    "lon": "-8.843",
+    "pai_id": "P0009"
+  },
+  {
+    "id": "P0021",
+    "nome": "Barreiros",
+    "tipo": null,
+    "lat": "39.786",
+    "lon": "-8.849",
+    "pai_id": "P0002"
+  },
+  {
+    "id": "P0022",
+    "nome": "Serra do Porto de Urso",
+    "tipo": null,
+    "lat": "39.828",
+    "lon": "-8.873",
+    "pai_id": "P0007"
+  },
+  {
+    "id": "P0023",
+    "nome": "Macarca",
+    "tipo": null,
+    "lat": "39.519",
+    "lon": "-9.095",
+    "pai_id": "P0025"
+  },
+  {
+    "id": "P0024",
+    "nome": "Junceira",
+    "tipo": null,
+    "lat": "39.524",
+    "lon": "-9.022",
+    "pai_id": "P0005"
+  },
+  {
+    "id": "P0025",
+    "nome": "Famalicão",
+    "tipo": null,
+    "lat": "39.537",
+    "lon": "-9.087",
+    "pai_id": "P0042"
+  },
+  {
+    "id": "P0026",
+    "nome": "Serra de Mangues",
+    "tipo": null,
+    "lat": "39.530",
+    "lon": "-9.121",
+    "pai_id": "P0027"
+  },
+  {
+    "id": "P0027",
+    "nome": "São Martinho do Porto",
+    "tipo": null,
+    "lat": "39.514",
+    "lon": "-9.133",
+    "pai_id": "P0046"
+  },
+  {
+    "id": "P0028",
+    "nome": "Vale da Azenha",
+    "tipo": null,
+    "lat": "39.546",
+    "lon": "-9.042",
+    "pai_id": "P0005"
+  },
+  {
+    "id": "P0030",
+    "nome": "Macalhona",
+    "tipo": null,
+    "lat": "39.501",
+    "lon": "-9.069",
+    "pai_id": "P0031"
+  },
+  {
+    "id": "P0031",
+    "nome": "Alfeizerão",
+    "tipo": null,
+    "lat": "39.501",
+    "lon": "-9.109",
+    "pai_id": "P0046"
+  },
+  {
+    "id": "P0032",
+    "nome": "Carrascas",
+    "tipo": null,
+    "lat": "39.512",
+    "lon": "-9.051",
+    "pai_id": "P0005"
+  },
+  {
+    "id": "P0033",
+    "nome": "Casal do Mota",
+    "tipo": null,
+    "lat": "39.570",
+    "lon": "-9.074",
+    "pai_id": "P0025"
+  },
+  {
+    "id": "P0034",
+    "nome": "Raposos",
+    "tipo": null,
+    "lat": "39.525",
+    "lon": "-9.068",
+    "pai_id": "P0025"
+  },
+  {
+    "id": "P0036",
+    "nome": "Mafra",
+    "tipo": null,
+    "lat": "38.940",
+    "lon": "-9.335",
+    "pai_id": "P0152"
+  },
+  {
+    "id": "P0037",
+    "nome": "Santirso",
+    "tipo": null,
+    "lat": "42.2411003112793",
+    "lon": "-7.570781230926514",
+    "pai_id": "P0164"
+  },
+  {
+    "id": "P0038",
+    "nome": "Casal do Bispo",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0025"
+  },
+  {
+    "id": "P0039",
+    "nome": "Freiria",
+    "tipo": null,
+    "lat": "39.023",
+    "lon": "-9.321",
+    "pai_id": "P0143"
+  },
+  {
+    "id": "P0040",
+    "nome": "São Pedro",
+    "tipo": null,
+    "lat": "32.650",
+    "lon": "-16.916",
+    "pai_id": "P0170"
+  },
+  {
+    "id": "P0041",
+    "nome": "Figueira da Foz",
+    "tipo": null,
+    "lat": "40.152",
+    "lon": "-8.863",
+    "pai_id": "P0155"
+  },
+  {
+    "id": "P0042",
+    "nome": "Nazaré",
+    "tipo": null,
+    "lat": "39.605",
+    "lon": "-9.077",
+    "pai_id": "P0137"
+  },
+  {
+    "id": "P0043",
+    "nome": "Lisboa",
+    "tipo": null,
+    "lat": "38.72",
+    "lon": "-9.14",
+    "pai_id": "P0141"
+  },
+  {
+    "id": "P0044",
+    "nome": "Belém",
+    "tipo": null,
+    "lat": "38.697",
+    "lon": "-9.217",
+    "pai_id": "P0043"
+  },
+  {
+    "id": "P0045",
+    "nome": "Nespereira",
+    "tipo": null,
+    "lat": "40.513",
+    "lon": "-7.612",
+    "pai_id": "P0172"
+  },
+  {
+    "id": "P0046",
+    "nome": "Alcobaça",
+    "tipo": null,
+    "lat": "39.54",
+    "lon": "-8.98",
+    "pai_id": "P0137"
+  },
+  {
+    "id": "P0047",
+    "nome": "Moinho de Cima",
+    "tipo": null,
+    "lat": "39.7996357",
+    "lon": "-8.8651682",
+    "pai_id": "P0002"
+  },
+  {
+    "id": "P0048",
+    "nome": "Brasil",
+    "tipo": null,
+    "lat": "-11.5223324",
+    "lon": "-67.4429943",
+    "pai_id": null
+  },
+  {
+    "id": "P0049",
+    "nome": "Boavista",
+    "tipo": null,
+    "lat": "39.78006",
+    "lon": "-8.7563431",
+    "pai_id": "P0003"
+  },
+  {
+    "id": "P0050",
+    "nome": "Newark",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0160"
+  },
+  {
+    "id": "P0051",
+    "nome": "Estados Unidos da América",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": null
+  },
+  {
+    "id": "P0052",
+    "nome": "Casal",
+    "tipo": null,
+    "lat": "39.8393553",
+    "lon": "-8.8488304",
+    "pai_id": "P0092"
+  },
+  {
+    "id": "P0053",
+    "nome": "Espanha",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": null
+  },
+  {
+    "id": "P0054",
+    "nome": "Escoura",
+    "tipo": null,
+    "lat": "39.8006598",
+    "lon": "-8.9207898",
+    "pai_id": "P0154"
+  },
+  {
+    "id": "P0055",
+    "nome": "Maputo",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0159"
+  },
+  {
+    "id": "P0056",
+    "nome": "Xinavane",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0159"
+  },
+  {
+    "id": "P0057",
+    "nome": "Marracuene",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0159"
+  },
+  {
+    "id": "P0058",
+    "nome": "Chaínça",
+    "tipo": null,
+    "lat": "39.6707655",
+    "lon": "-8.7115052",
+    "pai_id": "P0151"
+  },
+  {
+    "id": "P0059",
+    "nome": "Beira",
+    "tipo": null,
+    "lat": "-19.7729899",
+    "lon": "34.8208862",
+    "pai_id": "P0145"
+  },
+  {
+    "id": "P0060",
+    "nome": "França",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": null
+  },
+  {
+    "id": "P0061",
+    "nome": "Gândara dos Olivais",
+    "tipo": null,
+    "lat": "39.7742653",
+    "lon": "-8.8252383",
+    "pai_id": "P0158"
+  },
+  {
+    "id": "P0062",
+    "nome": "Escoural",
+    "tipo": null,
+    "lat": "39.9311615",
+    "lon": "-8.6475937",
+    "pai_id": "P0138"
+  },
+  {
+    "id": "P0063",
+    "nome": "Aldeia dos Anjos",
+    "tipo": null,
+    "lat": "39.9372132",
+    "lon": "-8.6440114",
+    "pai_id": "P0138"
+  },
+  {
+    "id": "P0064",
+    "nome": "Castanheira de Pêra",
+    "tipo": null,
+    "lat": "40.0060599",
+    "lon": "-8.2156868",
+    "pai_id": "P0150"
+  },
+  {
+    "id": "P0065",
+    "nome": "Matoeira",
+    "tipo": null,
+    "lat": "39.8035979",
+    "lon": "-8.8264222",
+    "pai_id": "P0001"
+  },
+  {
+    "id": "P0066",
+    "nome": "Bom Jesus",
+    "tipo": null,
+    "lat": "39.5384795",
+    "lon": "-9.1068336",
+    "pai_id": "P0027"
+  },
+  {
+    "id": "P0029",
+    "nome": "Venda Nova",
+    "tipo": null,
+    "lat": "39.5381528",
+    "lon": "-9.1130221",
+    "pai_id": "P0027"
+  },
+  {
+    "id": "P0068",
+    "nome": "Casal Velho",
+    "tipo": null,
+    "lat": "39.4880764",
+    "lon": "-9.0773002",
+    "pai_id": "P0031"
+  },
+  {
+    "id": "P0069",
+    "nome": "Casal do Pardo",
+    "tipo": null,
+    "lat": "39.5008923",
+    "lon": "-9.0812236",
+    "pai_id": "P0031"
+  },
+  {
+    "id": "P0070",
+    "nome": "Vale do Paraíso",
+    "tipo": null,
+    "lat": "39.5122683",
+    "lon": "-9.1077233",
+    "pai_id": "P0027"
+  },
+  {
+    "id": "P0071",
+    "nome": "Asseiceira",
+    "tipo": null,
+    "lat": "39.0173644",
+    "lon": "-9.3052303",
+    "pai_id": "P0039"
+  },
+  {
+    "id": "P0072",
+    "nome": "Gradil",
+    "tipo": null,
+    "lat": "38.9805687",
+    "lon": "-9.2828593",
+    "pai_id": "P0152"
+  },
+  {
+    "id": "P0073",
+    "nome": "Encarnação",
+    "tipo": null,
+    "lat": "39.0281104",
+    "lon": "-9.3705932",
+    "pai_id": "P0152"
+  },
+  {
+    "id": "P0074",
+    "nome": "Freamunde",
+    "tipo": null,
+    "lat": "41.2877187",
+    "lon": "-8.3426521",
+    "pai_id": "P0157"
+  },
+  {
+    "id": "P0075",
+    "nome": "São Martinho do Bispo",
+    "tipo": null,
+    "lat": "40.2096865",
+    "lon": "-8.468887",
+    "pai_id": "P0165"
+  },
+  {
+    "id": "P0076",
+    "nome": "Moita do Boi",
+    "tipo": null,
+    "lat": "39.9836512",
+    "lon": "-8.75663",
+    "pai_id": "P0079"
+  },
+  {
+    "id": "P0077",
+    "nome": "Mouraria",
+    "tipo": null,
+    "lat": "38.7162509",
+    "lon": "-9.1352173",
+    "pai_id": "P0043"
+  },
+  {
+    "id": "P0078",
+    "nome": "São João Baptista",
+    "tipo": null,
+    "lat": "39.6011671",
+    "lon": "-8.8148455",
+    "pai_id": "P0166"
+  },
+  {
+    "id": "P0079",
+    "nome": "Louriçal",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0016"
+  },
+  {
+    "id": "P0080",
+    "nome": "Moita do Boi",
+    "tipo": null,
+    "lat": "39.9710112",
+    "lon": "-8.7570452",
+    "pai_id": "P0081"
+  },
+  {
+    "id": "P0081",
+    "nome": "Mata Mourisca",
+    "tipo": null,
+    "lat": "39.9485675",
+    "lon": "-8.7575199",
+    "pai_id": "P0016"
+  },
+  {
+    "id": "P0082",
+    "nome": "Pousos",
+    "tipo": null,
+    "lat": "39.7412408",
+    "lon": "-8.7794505",
+    "pai_id": "P0003"
+  },
+  {
+    "id": "P0083",
+    "nome": "Santo António dos Olivais",
+    "tipo": null,
+    "lat": "40.2218271",
+    "lon": "-8.4137778",
+    "pai_id": "P0165"
+  },
+  {
+    "id": "P0084",
+    "nome": "Carril",
+    "tipo": null,
+    "lat": "39.8037896",
+    "lon": "-8.8313573",
+    "pai_id": "P0001"
+  },
+  {
+    "id": "P0085",
+    "nome": "Juncal",
+    "tipo": null,
+    "lat": "39.8027027",
+    "lon": "-8.8328722",
+    "pai_id": "P0001"
+  },
+  {
+    "id": "P0086",
+    "nome": "Souto do Meio",
+    "tipo": null,
+    "lat": "39.7470131",
+    "lon": "-8.7279541",
+    "pai_id": "P0161"
+  },
+  {
+    "id": "P0087",
+    "nome": "Caxieira",
+    "tipo": null,
+    "lat": "39.7609871",
+    "lon": "-8.7454684",
+    "pai_id": "P0082"
+  },
+  {
+    "id": "P0088",
+    "nome": "Lapedo",
+    "tipo": null,
+    "lat": "39.7616042",
+    "lon": "-8.7300744",
+    "pai_id": "P0082"
+  },
+  {
+    "id": "P0089",
+    "nome": "Cardosos",
+    "tipo": null,
+    "lat": "39.7169753",
+    "lon": "-8.7124767",
+    "pai_id": "P0148"
+  },
+  {
+    "id": "P0090",
+    "nome": "Opeia",
+    "tipo": null,
+    "lat": "39.7345689",
+    "lon": "-8.7269961",
+    "pai_id": "P0161"
+  },
+  {
+    "id": "P0091",
+    "nome": "Outeiro",
+    "tipo": null,
+    "lat": "39.8015353",
+    "lon": "-8.8352906",
+    "pai_id": "P0001"
+  },
+  {
+    "id": "P0092",
+    "nome": "Ortigosa",
+    "tipo": null,
+    "lat": "39.8272904",
+    "lon": "-8.8415999",
+    "pai_id": "P0009"
+  },
+  {
+    "id": "P0093",
+    "nome": "Bidoeira de Baixo",
+    "tipo": null,
+    "lat": "39.8267173",
+    "lon": "-8.7473514",
+    "pai_id": "P0140"
+  },
+  {
+    "id": "P0094",
+    "nome": "Bidoeira de Cima",
+    "tipo": null,
+    "lat": "39.8446372",
+    "lon": "-8.7509917",
+    "pai_id": "P0140"
+  },
+  {
+    "id": "P0095",
+    "nome": "Ilha",
+    "tipo": null,
+    "lat": "39.9107669",
+    "lon": "-8.7682935",
+    "pai_id": "P0081"
+  },
+  {
+    "id": "P0096",
+    "nome": "Carriço",
+    "tipo": null,
+    "lat": "39.9845044",
+    "lon": "-8.8046177",
+    "pai_id": "P0079"
+  },
+  {
+    "id": "P0097",
+    "nome": "Outeiro",
+    "tipo": null,
+    "lat": "39.9938514",
+    "lon": "-8.7821501",
+    "pai_id": "P0079"
+  },
+  {
+    "id": "P0098",
+    "nome": "Casal de Santo António",
+    "tipo": null,
+    "lat": "39.997326",
+    "lon": "-8.7441302",
+    "pai_id": "P0079"
+  },
+  {
+    "id": "P0099",
+    "nome": "Casal do Loureiro",
+    "tipo": null,
+    "lat": "40.0068228",
+    "lon": "-8.7305095",
+    "pai_id": "P0079"
+  },
+  {
+    "id": "P0100",
+    "nome": "Ribeira de Santo Amaro",
+    "tipo": null,
+    "lat": "40.0014202",
+    "lon": "-8.7645385",
+    "pai_id": "P0079"
+  },
+  {
+    "id": "P0101",
+    "nome": "Biqueiras",
+    "tipo": null,
+    "lat": "39.9683878",
+    "lon": "-8.7258965",
+    "pai_id": "P0081"
+  },
+  {
+    "id": "P0102",
+    "nome": "Espinheiras",
+    "tipo": null,
+    "lat": "39.9608465",
+    "lon": "-8.7665033",
+    "pai_id": "P0081"
+  },
+  {
+    "id": "P0103",
+    "nome": "Castelhanas",
+    "tipo": null,
+    "lat": "39.9794272",
+    "lon": "-8.7363273",
+    "pai_id": "P0079"
+  },
+  {
+    "id": "P0104",
+    "nome": "Antões",
+    "tipo": null,
+    "lat": "39.9696488",
+    "lon": "-8.7708976",
+    "pai_id": "P0079"
+  },
+  {
+    "id": "P0105",
+    "nome": "Marinha",
+    "tipo": null,
+    "lat": "39.9690104",
+    "lon": "-8.7994343",
+    "pai_id": "P0079"
+  },
+  {
+    "id": "P0106",
+    "nome": "Ratos",
+    "tipo": null,
+    "lat": "39.9405882",
+    "lon": "-8.729693",
+    "pai_id": "P0081"
+  },
+  {
+    "id": "P0107",
+    "nome": "Foz",
+    "tipo": null,
+    "lat": "39.9451191",
+    "lon": "-8.7162847",
+    "pai_id": "P0081"
+  },
+  {
+    "id": "P0108",
+    "nome": "Espinheiras",
+    "tipo": null,
+    "lat": "39.9405632",
+    "lon": "-8.7034122",
+    "pai_id": "P0109"
+  },
+  {
+    "id": "P0109",
+    "nome": "Almagreira",
+    "tipo": null,
+    "lat": "39.9928928",
+    "lon": "-8.6594702",
+    "pai_id": "P0016"
+  },
+  {
+    "id": "P0110",
+    "nome": "Rio de Janeiro",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0162"
+  },
+  {
+    "id": "P0111",
+    "nome": "Casal das Raposas",
+    "tipo": null,
+    "lat": "39.875446",
+    "lon": "-8.9405549",
+    "pai_id": "P0149"
+  },
+  {
+    "id": "P0112",
+    "nome": "Serra de Bonha",
+    "tipo": null,
+    "lat": "39.8637971",
+    "lon": "-8.6285846",
+    "pai_id": "P0168"
+  },
+  {
+    "id": "P0113",
+    "nome": "Barroqueira",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0079"
+  },
+  {
+    "id": "P0114",
+    "nome": "Caxaria",
+    "tipo": null,
+    "lat": "39.9707165",
+    "lon": "-8.7960121",
+    "pai_id": "P0079"
+  },
+  {
+    "id": "P0115",
+    "nome": "Casal da Rola",
+    "tipo": null,
+    "lat": "40.0231811",
+    "lon": "-8.7219637",
+    "pai_id": "P0079"
+  },
+  {
+    "id": "P0116",
+    "nome": "Casas Brancas",
+    "tipo": null,
+    "lat": "39.9877321",
+    "lon": "-8.7868347",
+    "pai_id": "P0079"
+  },
+  {
+    "id": "P0117",
+    "nome": "Ervedeira",
+    "tipo": null,
+    "lat": "39.925513",
+    "lon": "-8.8852782",
+    "pai_id": "P0153"
+  },
+  {
+    "id": "P0118",
+    "nome": "Valarinho",
+    "tipo": null,
+    "lat": "40.0336738",
+    "lon": "-8.7480849",
+    "pai_id": "P0079"
+  },
+  {
+    "id": "P0119",
+    "nome": "Casal da Boavista",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0079"
+  },
+  {
+    "id": "P0120",
+    "nome": "Fonte Fria",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0079"
+  },
+  {
+    "id": "P0121",
+    "nome": "Casais de Além",
+    "tipo": null,
+    "lat": "39.9990338",
+    "lon": "-8.7273326",
+    "pai_id": "P0079"
+  },
+  {
+    "id": "P0122",
+    "nome": "Casal do Queijo",
+    "tipo": null,
+    "lat": "39.9950119",
+    "lon": "-8.7189668",
+    "pai_id": "P0079"
+  },
+  {
+    "id": "P0123",
+    "nome": "Tondela",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0146"
+  },
+  {
+    "id": "P0124",
+    "nome": "Molelos",
+    "tipo": null,
+    "lat": "40.5290568",
+    "lon": "-8.1035149",
+    "pai_id": "P0123"
+  },
+  {
+    "id": "P0125",
+    "nome": "Botulho",
+    "tipo": null,
+    "lat": "40.5170151",
+    "lon": "-8.1021829",
+    "pai_id": "P0124"
+  },
+  {
+    "id": "P0126",
+    "nome": "Casal Novo",
+    "tipo": null,
+    "lat": "40.534755",
+    "lon": "-8.0990694",
+    "pai_id": "P0124"
+  },
+  {
+    "id": "P0127",
+    "nome": "Bonitos",
+    "tipo": null,
+    "lat": "39.9935428",
+    "lon": "-8.7096292",
+    "pai_id": "P0109"
+  },
+  {
+    "id": "P0128",
+    "nome": "Paço",
+    "tipo": null,
+    "lat": "39.9863383",
+    "lon": "-8.6945983",
+    "pai_id": "P0109"
+  },
+  {
+    "id": "P0129",
+    "nome": "Venda do Diabo",
+    "tipo": null,
+    "lat": "39.960255",
+    "lon": "-8.6319486",
+    "pai_id": "P0138"
+  },
+  {
+    "id": "P0130",
+    "nome": "Matas",
+    "tipo": null,
+    "lat": "40.0210217",
+    "lon": "-8.795413",
+    "pai_id": "P0079"
+  },
+  {
+    "id": "P0131",
+    "nome": "Cabeços",
+    "tipo": null,
+    "lat": "40.0043803843648",
+    "lon": "-8.78289067826445",
+    "pai_id": "P0079"
+  },
+  {
+    "id": "P0132",
+    "nome": "Murtinheira",
+    "tipo": null,
+    "lat": "40.012745",
+    "lon": "-8.7502317",
+    "pai_id": "P0079"
+  },
+  {
+    "id": "P0133",
+    "nome": "Casais do Porto",
+    "tipo": null,
+    "lat": "40.0185292",
+    "lon": "-8.7363887",
+    "pai_id": "P0079"
+  },
+  {
+    "id": "P0134",
+    "nome": "Vale de Madeiros",
+    "tipo": null,
+    "lat": "40.1641719",
+    "lon": "-8.2142934",
+    "pai_id": "P0135"
+  },
+  {
+    "id": "P0135",
+    "nome": "Serpins",
+    "tipo": null,
+    "lat": "40.156665",
+    "lon": "-8.2098365",
+    "pai_id": "P0167"
+  },
+  {
+    "id": "P0136",
+    "nome": "Portugal",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": null
+  },
+  {
+    "id": "P0137",
+    "nome": "Leiria",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0136"
+  },
+  {
+    "id": "P0138",
+    "nome": "Pombal",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0016"
+  },
+  {
+    "id": "P0003",
+    "nome": "Leiria",
+    "tipo": null,
+    "lat": "39.749",
+    "lon": "-8.810",
+    "pai_id": "P0137"
+  },
+  {
+    "id": "P0140",
+    "nome": "Milagres",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0003"
+  },
+  {
+    "id": "P0141",
+    "nome": "Lisboa",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0136"
+  },
+  {
+    "id": "P0143",
+    "nome": "Torres Vedras",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0141"
+  },
+  {
+    "id": "P0144",
+    "nome": "Moçambique",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": null
+  },
+  {
+    "id": "P0145",
+    "nome": "Sofala",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0144"
+  },
+  {
+    "id": "P0146",
+    "nome": "Viseu",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0136"
+  },
+  {
+    "id": "P0147",
+    "nome": "Caldas da Rainha",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0137"
+  },
+  {
+    "id": "P0148",
+    "nome": "Arrabal",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0003"
+  },
+  {
+    "id": "P0149",
+    "nome": "Vieira de Leiria",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0000"
+  },
+  {
+    "id": "P0150",
+    "nome": "Castanheira de Pêra",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0137"
+  },
+  {
+    "id": "P0151",
+    "nome": "Santa Catarina da Serra",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0003"
+  },
+  {
+    "id": "P0152",
+    "nome": "Mafra",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0141"
+  },
+  {
+    "id": "P0153",
+    "nome": "Coimbrão",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0003"
+  },
+  {
+    "id": "P0154",
+    "nome": "Marinha Grande",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0000"
+  },
+  {
+    "id": "P0155",
+    "nome": "Coimbra",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0136"
+  },
+  {
+    "id": "P0156",
+    "nome": "Porto",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0136"
+  },
+  {
+    "id": "P0157",
+    "nome": "Paços de Ferreira",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0156"
+  },
+  {
+    "id": "P0158",
+    "nome": "Marrazes",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0003"
+  },
+  {
+    "id": "P0159",
+    "nome": "Maputo",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0144"
+  },
+  {
+    "id": "P0160",
+    "nome": "Nova Jersey",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0051"
+  },
+  {
+    "id": "P0161",
+    "nome": "Caranguejeira",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0003"
+  },
+  {
+    "id": "P0162",
+    "nome": "Rio de Janeiro",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0048"
+  },
+  {
+    "id": "P0163",
+    "nome": "Ourense",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0053"
+  },
+  {
+    "id": "P0164",
+    "nome": "Maceda",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0163"
+  },
+  {
+    "id": "P0165",
+    "nome": "Coimbra",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0155"
+  },
+  {
+    "id": "P0166",
+    "nome": "Porto de Mós",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0137"
+  },
+  {
+    "id": "P0167",
+    "nome": "Lousã",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0155"
+  },
+  {
+    "id": "P0168",
+    "nome": "Santiago de Litém",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0016"
+  },
+  {
+    "id": "P0169",
+    "nome": "Madeira",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0136"
+  },
+  {
+    "id": "P0170",
+    "nome": "Funchal",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0169"
+  },
+  {
+    "id": "P0171",
+    "nome": "Guarda",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0136"
+  },
+  {
+    "id": "P0172",
+    "nome": "Gouveia",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0171"
+  },
+  {
+    "id": "P0173",
+    "nome": "Soutelo",
+    "tipo": null,
+    "lat": "40.142648",
+    "lon": "-8.1880632",
+    "pai_id": "P0135"
+  },
+  {
+    "id": "P0174",
+    "nome": "Ribeira do Alveite",
+    "tipo": null,
+    "lat": "40.1789254",
+    "lon": "-8.1908844",
+    "pai_id": "P0135"
+  },
+  {
+    "id": "P0175",
+    "nome": "Beja",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0136"
+  },
+  {
+    "id": "P0176",
+    "nome": "Pataias",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0046"
+  }
+]

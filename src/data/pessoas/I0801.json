@@ -1,0 +1,28 @@
+{
+  "id": "I0801",
+  "protegida": false,
+  "nome": "Manuel António",
+  "nome_proprio": "Manuel",
+  "apelido": "António",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1717-03-29",
+    "lugar_id": "P0076"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0380"
+  ],
+  "familias_como_pai": [
+    "F0228"
+  ],
+  "media": [
+    "O0994"
+  ],
+  "notas": null,
+  "citacoes": null
+}

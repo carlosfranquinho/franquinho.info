@@ -1,0 +1,35 @@
+{
+  "id": "I0719",
+  "protegida": false,
+  "nome": "Manuel da Costa",
+  "nome_proprio": "Manuel",
+  "apelido": "da Costa",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0076"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0210"
+  ],
+  "familias_como_pai": [
+    "F0209"
+  ],
+  "media": null,
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei pelo óbito, na Mata Mourisca, até 1880"
+    },
+    {
+      "tipo": "",
+      "texto": "procurei pelo batismo na Moita do Boi e nas Matas (Louriçal) entre 1788 e 1820)"
+    }
+  ],
+  "citacoes": null
+}

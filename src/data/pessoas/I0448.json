@@ -1,0 +1,21 @@
+{
+  "id": "I0448",
+  "protegida": false,
+  "nome": "Evaristo Ferreira",
+  "nome_proprio": "Evaristo",
+  "apelido": "Ferreira",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0142"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

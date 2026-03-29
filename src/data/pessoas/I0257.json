@@ -1,0 +1,21 @@
+{
+  "id": "I0257",
+  "protegida": true,
+  "sexo": "F",
+  "nome": "Familiar",
+  "apelido": "Gonzalez",
+  "nascimento": {
+    "data": "1958-06-14",
+    "lugar_id": "P0053"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0096"
+  ],
+  "relacoes": [
+    "F0096"
+  ]
+}

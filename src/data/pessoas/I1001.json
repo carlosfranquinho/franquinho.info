@@ -1,0 +1,28 @@
+{
+  "id": "I1001",
+  "protegida": false,
+  "nome": "Joaquina Ferreira Rainha",
+  "nome_proprio": "Joaquina",
+  "apelido": "Ferreira Rainha",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1878-11-04",
+    "lugar_id": "P0002"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0280"
+  ],
+  "familias_como_pai": [
+    "F0279"
+  ],
+  "media": [
+    "O0796"
+  ],
+  "notas": null,
+  "citacoes": null
+}

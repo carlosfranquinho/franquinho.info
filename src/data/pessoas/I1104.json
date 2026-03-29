@@ -1,0 +1,26 @@
+{
+  "id": "I1104",
+  "protegida": false,
+  "nome": "Manuel",
+  "nome_proprio": "Manuel",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1819-02-21",
+    "lugar_id": "P0096"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0249"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0894"
+  ],
+  "notas": null,
+  "citacoes": null
+}

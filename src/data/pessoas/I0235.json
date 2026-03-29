@@ -1,0 +1,31 @@
+{
+  "id": "I0235",
+  "protegida": false,
+  "nome": "Fernando Gaspar",
+  "nome_proprio": "Fernando",
+  "apelido": "Gaspar",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1932-01-29",
+    "lugar_id": "P0002"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "2002-05-18",
+    "lugar_id": "P0177"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0070"
+  ],
+  "familias_como_pai": [
+    "F0100"
+  ],
+  "media": [
+    "O1049"
+  ],
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,28 @@
+{
+  "id": "I0079",
+  "protegida": false,
+  "nome": "Bernardo Marques",
+  "nome_proprio": "Bernardo",
+  "apelido": "Marques",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1703-03-27",
+    "lugar_id": "P0066"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0066"
+  ],
+  "familias_como_pai": [
+    "F0039"
+  ],
+  "media": [
+    "O0310"
+  ],
+  "notas": null,
+  "citacoes": null
+}

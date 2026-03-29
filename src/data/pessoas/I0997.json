@@ -1,0 +1,18 @@
+{
+  "id": "I0997",
+  "protegida": true,
+  "sexo": "M",
+  "nome": "Familiar",
+  "apelido": "Pontes",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0082"
+  ],
+  "familias_como_pai": null,
+  "relacoes": [
+    "F0082"
+  ]
+}

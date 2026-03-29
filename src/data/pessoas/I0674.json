@@ -1,0 +1,31 @@
+{
+  "id": "I0674",
+  "protegida": false,
+  "nome": "Josefa Maria",
+  "nome_proprio": "Josefa",
+  "apelido": "Maria",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0086"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1831-07-21",
+    "lugar_id": "P0086"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0201"
+  ],
+  "familias_como_pai": [
+    "F0198"
+  ],
+  "media": [
+    "O0551"
+  ],
+  "notas": null,
+  "citacoes": null
+}

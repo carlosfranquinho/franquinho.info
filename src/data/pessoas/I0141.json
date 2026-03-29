@@ -1,0 +1,32 @@
+{
+  "id": "I0141",
+  "protegida": false,
+  "nome": "Maria Ferreira Franquinho",
+  "nome_proprio": "Maria",
+  "apelido": "Ferreira Franquinho",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1898-09-03",
+    "lugar_id": "P0002"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1967-06-02",
+    "lugar_id": "P0002"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0003"
+  ],
+  "familias_como_pai": [
+    "F0071"
+  ],
+  "media": [
+    "O1048",
+    "O0124"
+  ],
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "I0829",
+  "protegida": false,
+  "nome": "Bernardo",
+  "nome_proprio": "Bernardo",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1769-07-27",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0223"
+  ],
+  "familias_como_pai": null,
+  "media": [
+    "O0679"
+  ],
+  "notas": null,
+  "citacoes": null
+}

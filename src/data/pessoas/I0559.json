@@ -1,0 +1,21 @@
+{
+  "id": "I0559",
+  "protegida": false,
+  "nome": "Miguel Vicente",
+  "nome_proprio": "Miguel",
+  "apelido": "Vicente",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0166"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,31 @@
+{
+  "id": "I0088",
+  "protegida": false,
+  "nome": "Inácio Soares",
+  "nome_proprio": "Inácio",
+  "apelido": "Soares",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": {
+    "data": "1697-10-06",
+    "lugar_id": "P0034"
+  },
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0043"
+  ],
+  "media": [
+    "O0387"
+  ],
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei pelo falecimento, nos Raposos, Famalicão, até 1796. E Cela?"
+    }
+  ],
+  "citacoes": null
+}

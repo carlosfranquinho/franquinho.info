@@ -1,0 +1,17 @@
+{
+  "id": "F0028",
+  "pai": "I0057",
+  "mae": "I0058",
+  "filhos": [
+    "I0031"
+  ],
+  "tipo_relacao": "Married",
+  "casamento": null,
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei por filhos, na Serra de Porto de Urso, de 1811 até 1817"
+    }
+  ],
+  "media": null
+}

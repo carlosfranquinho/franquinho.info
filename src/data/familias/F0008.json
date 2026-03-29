@@ -1,0 +1,28 @@
+{
+  "id": "F0008",
+  "pai": "I0017",
+  "mae": "I0018",
+  "filhos": [
+    "I0008",
+    "I0173",
+    "I0176",
+    "I0177",
+    "I0179",
+    "I0195"
+  ],
+  "tipo_relacao": "Married",
+  "casamento": {
+    "data": "1868-01-29",
+    "lugar_id": "P0002"
+  },
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei por filhos desde jan 1868 a dez de 1889"
+    }
+  ],
+  "media": [
+    "O0055",
+    "O0111"
+  ]
+}

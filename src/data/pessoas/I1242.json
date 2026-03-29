@@ -1,0 +1,21 @@
+{
+  "id": "I1242",
+  "protegida": false,
+  "nome": "Francisco Fernandes",
+  "nome_proprio": "Francisco",
+  "apelido": "Fernandes",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0360"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

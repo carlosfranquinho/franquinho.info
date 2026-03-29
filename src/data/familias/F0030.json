@@ -1,0 +1,17 @@
+{
+  "id": "F0030",
+  "pai": "I0061",
+  "mae": "I0062",
+  "filhos": [
+    "I0033"
+  ],
+  "tipo_relacao": "Married",
+  "casamento": null,
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "procurei por filhos até 1825 em Amor"
+    }
+  ],
+  "media": null
+}

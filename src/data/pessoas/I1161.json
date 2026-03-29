@@ -1,0 +1,28 @@
+{
+  "id": "I1161",
+  "protegida": false,
+  "nome": "Isabel Neta",
+  "nome_proprio": "Isabel",
+  "apelido": "Neta",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1672-02-29",
+    "lugar_id": "P0119"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0338"
+  ],
+  "familias_como_pai": [
+    "F0334"
+  ],
+  "media": [
+    "O0937"
+  ],
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,28 @@
+{
+  "id": "I0102",
+  "protegida": false,
+  "nome": "Maria Lopes",
+  "nome_proprio": "Maria",
+  "apelido": "Lopes",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1843-04-01",
+    "lugar_id": "P0008"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0051"
+  ],
+  "familias_como_pai": [
+    "F0050"
+  ],
+  "media": [
+    "O0182"
+  ],
+  "notas": null,
+  "citacoes": null
+}
