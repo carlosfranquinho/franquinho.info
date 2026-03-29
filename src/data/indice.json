@@ -1087,13 +1087,6 @@
     "ano_obit": 1940
   },
   {
-    "id": "I0329",
-    "nome": "Artur Franquinho",
-    "sexo": "M",
-    "ano_nasc": 1932,
-    "mmdd_nasc": "12-10"
-  },
-  {
     "id": "I0271",
     "nome": "Artur Matias Gonçalves",
     "sexo": "M",
@@ -1974,6 +1967,15 @@
     "ano_nasc": 1867,
     "mmdd_nasc": "04-06",
     "thumb_id": "O1000"
+  },
+  {
+    "id": "I1510",
+    "nome": "Emília dos Santos",
+    "sexo": "F",
+    "ano_nasc": 1895,
+    "mmdd_nasc": "02-26",
+    "ano_obit": 1973,
+    "mmdd_obit": "06-05"
   },
   {
     "id": "I1105",
@@ -6084,6 +6086,15 @@
     "nome": "Manuel Pontes",
     "sexo": "M",
     "ano_nasc": 1875
+  },
+  {
+    "id": "I1509",
+    "nome": "Manuel Rainho",
+    "sexo": "M",
+    "ano_nasc": 1892,
+    "mmdd_nasc": "01-02",
+    "ano_obit": 1956,
+    "mmdd_obit": "08-24"
   },
   {
     "id": "I1047",

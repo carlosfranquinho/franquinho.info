@@ -1,11 +1,9 @@
 {
   "id": "I0329",
-  "protegida": false,
-  "nome": "Artur Franquinho",
-  "nome_proprio": "Artur",
-  "apelido": "Franquinho",
-  "nomes_alt": null,
+  "protegida": true,
   "sexo": "M",
+  "nome": "Familiar",
+  "apelido": "Franquinho",
   "nascimento": {
     "data": "1932-12-10",
     "lugar_id": null
@@ -13,14 +11,14 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
-  "profissao": null,
   "familias_como_filho": [
     "F0120"
   ],
   "familias_como_pai": [
     "F0122"
   ],
-  "media": null,
-  "notas": null,
-  "citacoes": null
+  "relacoes": [
+    "F0122",
+    "F0120"
+  ]
 }
