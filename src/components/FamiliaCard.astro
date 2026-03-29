@@ -1,6 +1,6 @@
 ---
 import type { Pessoa, PessoaProtegida, MediaItem, Lugar } from '../types';
-import { silhueta, eRetrato } from '../utils';
+import { silhueta, eRetrato, formatarNome } from '../utils';
 
 interface Props {
   pessoa: Pessoa | PessoaProtegida;
@@ -12,9 +12,7 @@ interface Props {
 const { pessoa, mediaMap, lugaresMap, compact = false } = Astro.props;
 
 const protegida = pessoa.protegida;
-const nome = protegida
-  ? (pessoa.apelido ? `Privado ${pessoa.apelido}` : 'Privado')
-  : (pessoa.nome ?? 'Sem nome');
+const nome = formatarNome(pessoa);
 const p = protegida ? null : (pessoa as Pessoa);
 
 const thumb = p?.media

@@ -4,6 +4,7 @@ import { resolve } from 'path';
 import Base from '../layouts/Base.astro';
 import Lightbox from '../components/Lightbox.astro';
 import type { MediaItem, Pessoa } from '../types';
+import { categoriaPorCaminho } from '../utils';
 
 const media: MediaItem[] = JSON.parse(readFileSync(resolve('src/data/media.json'), 'utf-8'));
 const mediaComFicheiro = media.filter((m) => m.caminho);
@@ -21,15 +22,6 @@ for (const f of readdirSync(pessoasDir)) {
   }
 }
 
-// Mapear pasta → categoria de documento
-function getCategoria(item: MediaItem): string {
-  const path = item.caminho_original ?? '';
-  if (path.includes('/Registos/'))    return 'nascimento';
-  if (path.includes('/Casamentos/'))  return 'casamento';
-  if (path.includes('/Obitos/'))      return 'obito';
-  if (path.includes('/Passaportes/')) return 'passaporte';
-  return 'outro';
-}
 
 // Deduplicar por nome do ficheiro original, fundindo as pessoas de cada duplicado
 type ItemDedup = { item: MediaItem; pessoas: { id: string; nome: string }[] };
@@ -65,7 +57,7 @@ const categorias: CatDef[] = [
 
 const contagemCat: Record<string, number> = {};
 for (const { item } of documentosDedup) {
-  const cat = getCategoria(item);
+  const cat = categoriaPorCaminho(item.caminho_original);
   contagemCat[cat] = (contagemCat[cat] ?? 0) + 1;
 }
 ---
@@ -161,7 +153,7 @@ for (const { item } of documentosDedup) {
         {documentosDedup.map(({ item, pessoas }) => (
           <button
             type="button"
-            data-cat={getCategoria(item)}
+            data-cat={categoriaPorCaminho(item.caminho_original)}
             class="doc-item group relative block aspect-square rounded overflow-hidden border border-stone-200 hover:border-amber-400 hover:shadow-sm transition-all cursor-zoom-in"
             data-lightbox-src={item.caminho ?? item.thumb ?? ''}
             data-lightbox-caption={item.descricao ?? ''}

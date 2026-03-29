@@ -3,36 +3,40 @@ export function eRetrato(item: { caminho_original: string | null }): boolean {
   return !!item.caminho_original?.includes('/Fotos/');
 }
 
-/** Devolve o caminho para a silhueta SVG adequada ao sexo, época e idade */
-export function silhueta(
-  sexo: string | undefined,
-  anoNasc?: string | null,
-  anoObit?: string | null,
-): string {
-  const nasc = anoNasc ? parseInt(anoNasc) : null;
-  const obit = anoObit ? parseInt(anoObit) : null;
-  const anoAtual = new Date().getFullYear();
+export { silhueta } from './lib/silhueta.js';
+export { formatarNome } from './lib/pessoa.js';
 
-  // Criança falecida com menos de 16 anos
-  if (nasc && obit && obit - nasc < 16) return '/silhuetas/crianca_antiga.svg';
-  // Criança viva hoje com menos de 16 anos
-  if (nasc && !obit && anoAtual - nasc < 16)
-    return sexo === 'F' ? '/silhuetas/crianca_rapariga.svg' : '/silhuetas/crianca_rapaz.svg';
-
-  const s = sexo === 'F' ? 'mulher' : 'homem';
-  if (!nasc)  return `/silhuetas/${s}_contemporaneo.svg`;
-  if (nasc < 1700) return `/silhuetas/${s}_sec17.svg`;
-  if (nasc < 1800) return `/silhuetas/${s}_sec18.svg`;
-  if (nasc < 1850) return `/silhuetas/${s}_sec19a.svg`;
-  if (nasc < 1900) return `/silhuetas/${s}_sec19b.svg`;
-  if (nasc < 1950) return `/silhuetas/${s}_sec20a.svg`;
-  return `/silhuetas/${s}_contemporaneo.svg`;
+/** Extrai o primeiro ano válido (1000–2099) de uma string de data */
+export function extrairAno(data: string | null | undefined): string | undefined {
+  return data?.match(/\b(1[0-9]{3}|20[0-9]{2})\b/)?.[1];
 }
 
 const MESES = [
   'janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho',
   'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'dezembro',
 ];
+
+/** Devolve a categoria (key) de um documento com base no caminho do ficheiro original */
+export function categoriaPorCaminho(caminho: string | null | undefined): string {
+  const p = caminho ?? '';
+  if (p.includes('/Registos/'))    return 'nascimento';
+  if (p.includes('/Casamentos/'))  return 'casamento';
+  if (p.includes('/Obitos/'))      return 'obito';
+  if (p.includes('/Passaportes/')) return 'passaporte';
+  return 'outro';
+}
+
+/** Devolve a legenda legível de um documento com base no caminho do ficheiro original */
+export function legendaDocumento(caminho: string | null | undefined): string {
+  const p = caminho ?? '';
+  if (p.includes('/Registos/'))    return 'Registo de Nascimento';
+  if (p.includes('/Casamentos/'))  return 'Registo de Casamento';
+  if (p.includes('/Obitos/'))      return 'Registo de Óbito';
+  if (p.includes('/Passaportes/')) return 'Pedido de Passaporte';
+  if (p.includes('/Assinaturas/')) return 'Assinatura';
+  if (p.includes('/Batizados/'))   return 'Registo de Batismo';
+  return 'Documento';
+}
 
 /** Converte "1950-06-10" → "10 de junho de 1950"; "1950-06" → "junho de 1950"; "1950" → "1950" */
 export function formatarData(data: string | null | undefined): string {

@@ -12,6 +12,8 @@ import {
 } from '@xyflow/react';
 import * as dagre from '@dagrejs/dagre';
 import '@xyflow/react/dist/style.css';
+import { silhueta } from '../lib/silhueta.js';
+import { formatarNome } from '../lib/pessoa.js';
 
 // ---------------------------------------------------------------------------
 // Constantes
@@ -28,23 +30,6 @@ const COR_SEXO = {
   U: { border: '#a8a29e', bg: '#fafaf9', iniciais: '#78716c' },
 };
 
-function silhueta(sexo, anoNasc, anoObit) {
-  const nasc = anoNasc ? parseInt(anoNasc) : null;
-  const obit = anoObit ? parseInt(anoObit) : null;
-  const anoAtual = new Date().getFullYear();
-  if (nasc && obit && obit - nasc < 16) return '/silhuetas/crianca_antiga.svg';
-  if (nasc && !obit && anoAtual - nasc < 16)
-    return sexo === 'F' ? '/silhuetas/crianca_rapariga.svg' : '/silhuetas/crianca_rapaz.svg';
-  const s = sexo === 'F' ? 'mulher' : 'homem';
-  if (!nasc)       return `/silhuetas/${s}_contemporaneo.svg`;
-  if (nasc < 1700) return `/silhuetas/${s}_sec17.svg`;
-  if (nasc < 1800) return `/silhuetas/${s}_sec18.svg`;
-  if (nasc < 1850) return `/silhuetas/${s}_sec19a.svg`;
-  if (nasc < 1900) return `/silhuetas/${s}_sec19b.svg`;
-  if (nasc < 1950) return `/silhuetas/${s}_sec20a.svg`;
-  return `/silhuetas/${s}_contemporaneo.svg`;
-}
-
 // ---------------------------------------------------------------------------
 // Nó de pessoa
 // ---------------------------------------------------------------------------
@@ -52,9 +37,7 @@ function silhueta(sexo, anoNasc, anoObit) {
 function PersonNode({ data }) {
   const { nome, apelido, sexo, protegida, ano_nasc, ano_obit, thumb, isRoot } = data;
   const cor = COR_SEXO[sexo] ?? COR_SEXO.U;
-  const nomeDisplay = protegida
-    ? (apelido ? `Privado ${apelido}` : 'Privado')
-    : (nome || 'Sem nome');
+  const nomeDisplay = formatarNome({ protegida, apelido, nome });
   const avatarSrc = thumb ?? silhueta(sexo, ano_nasc, ano_obit);
 
   return (
@@ -262,9 +245,7 @@ function InfoPanel({ data, id, onClose, onSetRoot }) {
   if (!data) return null;
   const { nome, apelido, sexo, ano_nasc, ano_obit, protegida, thumb } = data;
   const cor = COR_SEXO[sexo] ?? COR_SEXO.U;
-  const nomeDisplay = protegida
-    ? (apelido ? `Privado ${apelido}` : 'Privado')
-    : (nome || 'Sem nome');
+  const nomeDisplay = formatarNome({ protegida, apelido, nome });
   const avatarSrc = thumb ?? silhueta(sexo, ano_nasc, ano_obit);
 
   return (

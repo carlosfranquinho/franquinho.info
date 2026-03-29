@@ -6,7 +6,7 @@ import Lightbox from '../../components/Lightbox.astro';
 import LugarLink from '../../components/LugarLink.astro';
 import FamiliaCard from '../../components/FamiliaCard.astro';
 import type { Pessoa, PessoaProtegida, Familia, Lugar, MediaItem } from '../../types';
-import { formatarData, silhueta, eRetrato } from '../../utils';
+import { formatarData, silhueta, eRetrato, formatarNome, legendaDocumento } from '../../utils';
 
 export function getStaticPaths() {
   const dir = resolve('src/data/pessoas');
@@ -54,21 +54,8 @@ const galeriaFotos = galeria.filter((m) => m.tipo === 'foto');
 const galeriaDocumentos = galeria.filter((m) => m.tipo !== 'foto');
 const fotoHero = galeria.find(eRetrato) ?? null;
 
-function legendaDocumento(item: MediaItem): string {
-  const path = item.caminho_original ?? '';
-  if (path.includes('/Registos/'))    return 'Registo de Nascimento';
-  if (path.includes('/Casamentos/'))  return 'Registo de Casamento';
-  if (path.includes('/Obitos/'))      return 'Registo de Óbito';
-  if (path.includes('/Passaportes/')) return 'Pedido de Passaporte';
-  if (path.includes('/Assinaturas/')) return 'Assinatura';
-  if (path.includes('/Batizados/'))   return 'Registo de Batismo';
-  return 'Documento';
-}
 
-const nomePrivado = pessoa.protegida
-  ? (pessoa.apelido ? `Privado ${pessoa.apelido}` : 'Privado')
-  : null;
-const titulo = nomePrivado ?? (p?.nome ?? 'Sem nome');
+const titulo = formatarNome(pessoa);
 const pessoaLbJson = JSON.stringify([{ id: pessoa.id, nome: titulo }]);
 const anoNasc = pessoa.nascimento?.data?.match(/(\d{4})/)?.[1];
 const anoObit = pessoa.obito?.data?.match(/(\d{4})/)?.[1];
@@ -115,9 +102,7 @@ for (const f of familiaComoPai) {
   for (const filhoId of f.filhos ?? []) {
     const filho = filhoId !== id ? lerPessoa(filhoId) : null;
     if (!filho?.nascimento?.data) continue;
-    const nomeFilho = filho.protegida
-      ? (filho.apelido ? `Privado ${filho.apelido}` : 'Privado')
-      : (filho.nome ?? 'filho');
+    const nomeFilho = formatarNome(filho, 'filho');
     timeline.push({
       data: filho.nascimento.data,
       label: `Nascimento de ${nomeFilho}`,
@@ -328,7 +313,7 @@ const falecidoLabel = pessoa.sexo === 'F' ? 'Falecida a' : 'Falecido a';
                 </h2>
                 <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
                   {galeriaDocumentos.map((item) => {
-                    const legenda = legendaDocumento(item);
+                    const legenda = legendaDocumento(item.caminho_original);
                     const caption = item.descricao ? `${legenda} · ${item.descricao}` : legenda;
                     return (
                       <button
