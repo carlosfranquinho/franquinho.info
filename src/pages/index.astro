@@ -219,7 +219,7 @@ const anoMaisAntigo = indice.filter(p => p.ano_nasc).sort((a,b) => (a.ano_nasc??
       <!-- Foto -->
       <div class="flex justify-center lg:justify-end">
         <img
-          src={fotoDestaque?.caminho ?? silhueta(destaque.sexo, anoNasc, anoObit)}
+          src={fotoDestaque?.thumb ?? silhueta(destaque.sexo, anoNasc, anoObit)}
           alt={destaque.nome ?? ''}
           class="w-64 h-64 sm:w-80 sm:h-80 object-cover rounded-full border-4 border-stone-100 shadow-xl"
         />
