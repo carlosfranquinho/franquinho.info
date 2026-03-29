@@ -9,12 +9,9 @@ import { categoriaPorCaminho, legendaDocumento } from '../utils';
 const media: MediaItem[] = JSON.parse(readFileSync(resolve('src/data/media.json'), 'utf-8'));
 const mediaComFicheiro = media.filter((m) => m.caminho);
 
-// Mapa inverso: media_id → [{id, nome}] das pessoas públicas — pré-computado pelo gramps_to_json.py
 const mediaPessoas: Record<string, { id: string; nome: string }[]> =
   JSON.parse(readFileSync(resolve('src/data/media-pessoas.json'), 'utf-8'));
 
-
-// Deduplicar por nome do ficheiro original, fundindo as pessoas de cada duplicado
 type ItemDedup = { item: MediaItem; pessoas: { id: string; nome: string }[] };
 
 function deduplicar(items: MediaItem[]): ItemDedup[] {
@@ -51,6 +48,24 @@ for (const { item } of documentosDedup) {
   const cat = categoriaPorCaminho(item.caminho_original);
   contagemCat[cat] = (contagemCat[cat] ?? 0) + 1;
 }
+
+// Dados serializados para o cliente — sem overhead de DOM
+const fotosData = fotosDedup.map(({ item, pessoas }) => ({
+  src:      item.web ?? item.caminho ?? item.thumb ?? '',
+  thumb:    item.thumb ?? null,
+  original: item.caminho ?? '',
+  caption:  item.descricao ?? '',
+  pessoas,
+}));
+
+const docsData = documentosDedup.map(({ item, pessoas }) => ({
+  src:      item.web ?? item.caminho ?? item.thumb ?? '',
+  thumb:    item.thumb ?? null,
+  original: item.caminho ?? '',
+  tipo:     legendaDocumento(item.caminho_original),
+  cat:      categoriaPorCaminho(item.caminho_original),
+  pessoas,
+}));
 ---
 
 <Base titulo="Arquivo" descricao="Galeria de fotos e documentos digitalizados">
@@ -63,8 +78,8 @@ for (const { item } of documentosDedup) {
     </div>
 
     <!-- Tabs -->
-    <div class="flex gap-2 mb-8" id="tabs">
-      <button data-tab="fotos"      class="tab-btn px-4 py-2 text-sm font-medium rounded-lg border transition-all border-stone-300 text-stone-600 hover:border-amber-400 hover:text-amber-700" data-activo="true">
+    <div class="flex gap-2 mb-8">
+      <button data-tab="fotos" class="tab-btn px-4 py-2 text-sm font-medium rounded-lg border transition-all border-stone-300 text-stone-600 hover:border-amber-400 hover:text-amber-700" data-activo="true">
         Fotografias <span class="text-stone-400 font-normal">({fotosDedup.length})</span>
       </button>
       <button data-tab="documentos" class="tab-btn px-4 py-2 text-sm font-medium rounded-lg border transition-all border-stone-300 text-stone-600 hover:border-amber-400 hover:text-amber-700" data-activo="false">
@@ -74,27 +89,9 @@ for (const { item } of documentosDedup) {
 
     <!-- ── FOTOGRAFIAS ──────────────────────────────────────────────── -->
     <div id="painel-fotos" class="painel">
-      <div class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-2">
-        {fotosDedup.map(({ item, pessoas }) => (
-          <button
-            type="button"
-            class="group relative block aspect-square rounded overflow-hidden border border-stone-200 hover:border-amber-400 hover:shadow-sm transition-all cursor-zoom-in"
-            data-lightbox-src={item.web ?? item.caminho ?? item.thumb ?? ''}
-            data-lightbox-caption={item.descricao ?? ''}
-            data-lightbox-pessoas={JSON.stringify(pessoas)}
-            data-lightbox-original={item.caminho ?? ''}
-          >
-            {item.thumb
-              ? <img src={item.thumb} alt={item.descricao ?? ''} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-200" loading="lazy" />
-              : <div class="w-full h-full bg-stone-100 flex items-center justify-center text-3xl text-stone-300">📷</div>
-            }
-            {pessoas.length > 0 && (
-              <div class="absolute bottom-0 inset-x-0 bg-black/60 px-1.5 py-1 text-white text-xs leading-tight translate-y-full group-hover:translate-y-0 transition-transform duration-200">
-                {pessoas.map((p) => p.nome).join(', ')}
-              </div>
-            )}
-          </button>
-        ))}
+      <div id="grelha-fotos" class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-2"></div>
+      <div id="fotos-mais" class="hidden mt-6 text-center">
+        <button id="btn-mais-fotos" class="px-5 py-2 rounded-lg border border-stone-200 text-sm text-stone-600 hover:border-amber-400 hover:text-amber-700 transition-colors"></button>
       </div>
     </div>
 
@@ -140,31 +137,7 @@ for (const { item } of documentosDedup) {
         <span id="breadcrumb-cat" class="text-sm font-medium text-stone-700"></span>
         <span id="breadcrumb-count" class="text-xs text-stone-400"></span>
       </div>
-
-      <div id="grelha-doc" class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-2">
-        {documentosDedup.map(({ item, pessoas }) => (
-          <button
-            type="button"
-            data-cat={categoriaPorCaminho(item.caminho_original)}
-            class="doc-item group relative block aspect-square rounded overflow-hidden border border-stone-200 hover:border-amber-400 hover:shadow-sm transition-all cursor-zoom-in"
-            data-lightbox-src={item.web ?? item.caminho ?? item.thumb ?? ''}
-            data-lightbox-pessoas={JSON.stringify(pessoas)}
-            data-lightbox-tipo={legendaDocumento(item.caminho_original)}
-            data-lightbox-original={item.caminho ?? ''}
-            title={pessoas.map((p) => p.nome).join(', ')}
-          >
-            {item.thumb
-              ? <img src={item.thumb} alt={item.descricao ?? ''} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-200" loading="lazy" />
-              : <div class="w-full h-full bg-stone-100 flex items-center justify-center text-3xl text-stone-300">📄</div>
-            }
-            {pessoas.length > 0 && (
-              <div class="absolute bottom-0 inset-x-0 bg-black/60 px-1.5 py-1 text-white text-xs leading-tight translate-y-full group-hover:translate-y-0 transition-transform duration-200">
-                {pessoas.map((p) => p.nome).join(', ')}
-              </div>
-            )}
-          </button>
-        ))}
-      </div>
+      <div id="grelha-doc" class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-2"></div>
     </div>
 
   </div>
@@ -172,8 +145,22 @@ for (const { item } of documentosDedup) {
 
 <Lightbox />
 
-<script>
-  const LABELS: Record<string, string> = {
+<script define:vars={{ fotosData, docsData }}>
+  const PAGE = 72;
+  let fotosShown = 0;
+
+  const painelFotos   = document.getElementById('painel-fotos');
+  const painelCats    = document.getElementById('painel-categorias');
+  const painelDetalhe = document.getElementById('painel-doc-detalhe');
+  const grelhaFotos   = document.getElementById('grelha-fotos');
+  const grelhaDocs    = document.getElementById('grelha-doc');
+  const fotosMais     = document.getElementById('fotos-mais');
+  const btnMais       = document.getElementById('btn-mais-fotos');
+  const btnVoltar     = document.getElementById('btn-voltar');
+  const breadcrumbCat   = document.getElementById('breadcrumb-cat');
+  const breadcrumbCount = document.getElementById('breadcrumb-count');
+
+  const LABELS = {
     nascimento: 'Registos de Nascimento',
     casamento:  'Registos de Casamento',
     obito:      'Registos de Óbito',
@@ -181,50 +168,99 @@ for (const { item } of documentosDedup) {
     outro:      'Outros',
   };
 
-  const tabBtns       = document.querySelectorAll<HTMLButtonElement>('.tab-btn');
-  const painelFotos   = document.getElementById('painel-fotos')!;
-  const painelCats    = document.getElementById('painel-categorias')!;
-  const painelDetalhe = document.getElementById('painel-doc-detalhe')!;
-  const catCards      = document.querySelectorAll<HTMLButtonElement>('.cat-card');
-  const docItems      = document.querySelectorAll<HTMLButtonElement>('.doc-item');
-  const btnVoltar     = document.getElementById('btn-voltar')!;
-  const breadcrumbCat   = document.getElementById('breadcrumb-cat')!;
-  const breadcrumbCount = document.getElementById('breadcrumb-count')!;
+  // ── Criação de botão de media ──────────────────────────────────────
+  function criarBotao(tipo, d) {
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'group relative block aspect-square rounded overflow-hidden border border-stone-200 hover:border-amber-400 hover:shadow-sm transition-all cursor-zoom-in';
+    btn.dataset.lightboxSrc      = d.src;
+    btn.dataset.lightboxPessoas  = JSON.stringify(d.pessoas);
+    btn.dataset.lightboxOriginal = d.original;
+    if (tipo === 'doc') {
+      btn.dataset.lightboxTipo = d.tipo;
+      btn.title = d.pessoas.map(p => p.nome).join(', ');
+    } else {
+      btn.dataset.lightboxCaption = d.caption;
+    }
 
-  function showPainel(painel: HTMLElement) {
-    [painelFotos, painelCats, painelDetalhe].forEach((p) => p.classList.add('hidden'));
-    painel.classList.remove('hidden');
+    if (d.thumb) {
+      const img = document.createElement('img');
+      img.src = d.thumb;
+      img.alt = tipo === 'doc' ? '' : d.caption;
+      img.className = 'w-full h-full object-cover group-hover:scale-105 transition-transform duration-200';
+      img.loading = 'lazy';
+      img.decoding = 'async';
+      btn.appendChild(img);
+    } else {
+      const ph = document.createElement('div');
+      ph.className = 'w-full h-full bg-stone-100 flex items-center justify-center text-3xl text-stone-300';
+      ph.textContent = tipo === 'doc' ? '📄' : '📷';
+      btn.appendChild(ph);
+    }
+
+    if (d.pessoas.length > 0) {
+      const ov = document.createElement('div');
+      ov.className = 'absolute bottom-0 inset-x-0 bg-black/60 px-1.5 py-1 text-white text-xs leading-tight translate-y-full group-hover:translate-y-0 transition-transform duration-200';
+      ov.textContent = d.pessoas.map(p => p.nome).join(', ');
+      btn.appendChild(ov);
+    }
+
+    return btn;
   }
 
-  function setTabActivo(tab: string) {
-    tabBtns.forEach((b) => b.dataset.activo = b.dataset.tab === tab ? 'true' : 'false');
+  // ── Fotos: paginação ───────────────────────────────────────────────
+  function carregarMaisFotos() {
+    const lote = fotosData.slice(fotosShown, fotosShown + PAGE);
+    const frag = document.createDocumentFragment();
+    for (const f of lote) frag.appendChild(criarBotao('foto', f));
+    grelhaFotos.appendChild(frag);
+    fotosShown += lote.length;
+
+    if (fotosShown >= fotosData.length) {
+      fotosMais.classList.add('hidden');
+    } else {
+      fotosMais.classList.remove('hidden');
+      btnMais.textContent = `Carregar mais (${fotosData.length - fotosShown} restantes)`;
+    }
   }
 
-  tabBtns.forEach((btn) => {
+  // ── Documentos: renderizar categoria on-demand ─────────────────────
+  function abrirCategoria(cat) {
+    grelhaDocs.innerHTML = '';
+    const frag = document.createDocumentFragment();
+    let count = 0;
+    for (const d of docsData) {
+      if (d.cat === cat) { frag.appendChild(criarBotao('doc', d)); count++; }
+    }
+    grelhaDocs.appendChild(frag);
+    breadcrumbCat.textContent   = LABELS[cat] ?? cat;
+    breadcrumbCount.textContent = `${count} registos`;
+    showPainel(painelDetalhe);
+    location.hash = cat;
+  }
+
+  // ── Navegação entre painéis ────────────────────────────────────────
+  function showPainel(p) {
+    [painelFotos, painelCats, painelDetalhe].forEach(x => x.classList.add('hidden'));
+    p.classList.remove('hidden');
+  }
+
+  function setTabActivo(tab) {
+    document.querySelectorAll('.tab-btn').forEach(b => b.dataset.activo = b.dataset.tab === tab ? 'true' : 'false');
+  }
+
+  document.querySelectorAll('.tab-btn').forEach(btn => {
     btn.addEventListener('click', () => {
-      const tab = btn.dataset.tab!;
+      const tab = btn.dataset.tab;
       setTabActivo(tab);
       showPainel(tab === 'fotos' ? painelFotos : painelCats);
       location.hash = tab === 'fotos' ? 'fotos' : 'documentos';
     });
   });
 
-  catCards.forEach((card) => {
-    card.addEventListener('click', () => abrirCategoria(card.dataset.cat!));
+  document.querySelectorAll('.cat-card').forEach(card => {
+    card.addEventListener('click', () => abrirCategoria(card.dataset.cat));
   });
-
-  function abrirCategoria(cat: string) {
-    let count = 0;
-    docItems.forEach((item) => {
-      const visivel = item.dataset.cat === cat;
-      item.style.display = visivel ? '' : 'none';
-      if (visivel) count++;
-    });
-    breadcrumbCat.textContent = LABELS[cat] ?? cat;
-    breadcrumbCount.textContent = `${count} registos`;
-    showPainel(painelDetalhe);
-    location.hash = cat;
-  }
 
   btnVoltar.addEventListener('click', () => {
     setTabActivo('documentos');
@@ -232,6 +268,9 @@ for (const { item } of documentosDedup) {
     location.hash = 'documentos';
   });
 
+  btnMais.addEventListener('click', carregarMaisFotos);
+
+  // ── Restaurar estado via hash ──────────────────────────────────────
   function restoreHash() {
     const hash = location.hash.replace('#', '');
     if (hash === 'fotos') {
@@ -245,6 +284,8 @@ for (const { item } of documentosDedup) {
     }
   }
 
+  // Carga inicial
+  carregarMaisFotos();
   restoreHash();
   window.addEventListener('hashchange', restoreHash);
 </script>

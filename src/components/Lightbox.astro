@@ -1,10 +1,11 @@
 ---
-// Lightbox partilhado.
+// Lightbox partilhado — usa event delegation para funcionar com items dinâmicos.
 // Triggers devem ter:
 //   data-lightbox-src      — URL da imagem a mostrar
 //   data-lightbox-caption  — legenda (opcional)
 //   data-lightbox-pessoas  — JSON: [{id, nome}]  (opcional)
-//   data-lightbox-original — URL do ficheiro original para download (opcional)
+//   data-lightbox-tipo     — tipo de documento (opcional, ex: "Registo de Nascimento")
+//   data-lightbox-original — URL do original para download (opcional)
 ---
 
 <div
@@ -16,14 +17,14 @@
   <button id="lb-prev" class="absolute left-3 top-1/2 -translate-y-1/2 text-white/50 hover:text-white text-5xl leading-none px-2 select-none" aria-label="Anterior">&#8249;</button>
   <button id="lb-next" class="absolute right-3 top-1/2 -translate-y-1/2 text-white/50 hover:text-white text-5xl leading-none px-2 select-none" aria-label="Seguinte">&#8250;</button>
   <button id="lb-close" class="absolute top-4 right-4 text-white/50 hover:text-white text-2xl leading-none px-2 select-none" aria-label="Fechar">&#10005;</button>
+  <a id="lb-download" href="#" download class="hidden absolute bottom-4 right-4 text-xs px-2.5 py-1 rounded-full bg-amber-500/20 text-amber-300 hover:bg-amber-500 hover:text-white transition-colors">
+    ↓ original
+  </a>
 
   <figure class="flex flex-col items-center gap-3 max-w-[90vw] max-h-[90vh] px-12">
     <img id="lb-img" src="" alt="" class="max-w-full max-h-[80vh] object-contain rounded shadow-2xl" />
     <figcaption class="w-full flex items-center justify-between gap-3 min-h-[2rem]">
       <div id="lb-pessoas" class="flex flex-wrap items-center gap-2"></div>
-      <a id="lb-download" href="#" download class="hidden shrink-0 text-xs px-2.5 py-1 rounded-full bg-amber-500/20 text-amber-300 hover:bg-amber-500 hover:text-white transition-colors">
-        ↓ original
-      </a>
     </figcaption>
   </figure>
 </div>
@@ -37,11 +38,11 @@
   const lbNext     = document.getElementById('lb-next')!;
   const lbDownload = document.getElementById('lb-download') as HTMLAnchorElement;
 
-  const items = Array.from(document.querySelectorAll<HTMLElement>('[data-lightbox-src]'));
+  // Lista dinâmica — reconstruída a cada abertura
+  let items: HTMLElement[] = [];
   let current = 0;
   let triggerEl: HTMLElement | null = null;
 
-  // Elementos focáveis dentro do lightbox (para focus trap)
   const focusable = [lbPrev, lbNext, lbClose];
 
   function show(index: number) {
@@ -51,7 +52,7 @@
     lbImg.src = el.dataset.lightboxSrc ?? '';
     lbImg.alt = el.dataset.lightboxCaption ?? '';
 
-    // Link para descarregar original
+    // Download
     const original = el.dataset.lightboxOriginal;
     if (original) {
       lbDownload.href = original;
@@ -60,7 +61,7 @@
       lbDownload.classList.add('hidden');
     }
 
-    // Links para pessoas associadas
+    // Pessoas + tipo de documento
     lbPessoas.innerHTML = '';
     const tipo = el.dataset.lightboxTipo ?? '';
     const pessoasRaw = el.dataset.lightboxPessoas;
@@ -68,7 +69,6 @@
       try {
         const pessoas: { id: string; nome: string }[] = JSON.parse(pessoasRaw);
         if (tipo && pessoas.length > 0) {
-          // Documentos: "Registo de nascimento de [link]"
           const prefix = document.createElement('span');
           prefix.className = 'text-xs text-white/50';
           prefix.textContent = `${tipo} de`;
@@ -87,11 +87,11 @@
     lb.classList.remove('hidden');
     lb.classList.add('flex');
     document.body.style.overflow = 'hidden';
-
     lbClose.focus();
   }
 
-  function open(index: number, trigger: HTMLElement) {
+  function open(index: number, trigger: HTMLElement, snapshot: HTMLElement[]) {
+    items = snapshot;
     triggerEl = trigger;
     show(index);
   }
@@ -104,7 +104,16 @@
     triggerEl = null;
   }
 
-  items.forEach((el, i) => el.addEventListener('click', () => open(i, el)));
+  // Event delegation — funciona com elementos adicionados dinamicamente
+  document.addEventListener('click', (e: MouseEvent) => {
+    if (!lb.classList.contains('hidden')) return; // já aberto
+    const trigger = (e.target as Element).closest<HTMLElement>('[data-lightbox-src]');
+    if (!trigger) return;
+    const snapshot = Array.from(document.querySelectorAll<HTMLElement>('[data-lightbox-src]'));
+    const index = snapshot.indexOf(trigger);
+    if (index >= 0) open(index, trigger, snapshot);
+  });
+
   lbClose.addEventListener('click', close);
   lbPrev.addEventListener('click', () => show(current - 1));
   lbNext.addEventListener('click', () => show(current + 1));

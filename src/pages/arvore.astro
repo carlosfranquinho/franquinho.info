@@ -11,6 +11,9 @@ const rootName = root.nome ?? ROOT_ID;
 ---
 
 <Base titulo="Arvore" descricao="Arvore genealogica interactiva da familia Franquinho">
+  <!-- Preload do JSON da árvore para eliminar waterfall JS → fetch -->
+  <link slot="head" rel="preload" href="/data/arvore.json" as="fetch" crossorigin="anonymous" />
+
   <div class="space-y-4">
 
     <div class="flex items-baseline justify-between border-b border-stone-200 pb-4">
@@ -19,7 +22,14 @@ const rootName = root.nome ?? ROOT_ID;
     </div>
 
     <!-- Contentor com altura fixa para o ReactFlow -->
-    <div class="rounded-xl overflow-hidden border border-stone-200 shadow-sm" style="height: 70vh; min-height: 500px;">
+    <div class="rounded-xl overflow-hidden border border-stone-200 shadow-sm relative" style="height: 70vh; min-height: 500px;">
+      <!-- Placeholder estático visível enquanto o bundle JS descarrega -->
+      <div id="tree-placeholder" class="absolute inset-0 flex items-center justify-center bg-stone-50 text-stone-400 pointer-events-none">
+        <div class="text-center select-none">
+          <div class="text-5xl mb-3 opacity-30">🌳</div>
+          <div class="text-sm">A carregar árvore…</div>
+        </div>
+      </div>
       <TreeView
         client:load
         defaultRootId={ROOT_ID}
