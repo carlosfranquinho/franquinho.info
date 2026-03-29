@@ -1,0 +1,69 @@
+---
+import type { Pessoa, PessoaProtegida, MediaItem } from '../types';
+import { silhueta, eRetrato } from '../utils';
+
+interface Props {
+  pessoa: Pessoa | PessoaProtegida;
+  mediaMap?: Record<string, MediaItem>;
+  relacao?: string; // ex: 'Pai', 'Mae', 'Filho'
+}
+
+const { pessoa, mediaMap = {}, relacao } = Astro.props;
+
+const protegida = pessoa.protegida;
+const nome = protegida
+  ? (pessoa.apelido ? `Privado ${pessoa.apelido}` : 'Privado')
+  : (pessoa.nome ?? 'Sem nome');
+
+let thumb: string | null = null;
+if (!protegida && (pessoa as Pessoa).media) {
+  const retrato = (pessoa as Pessoa).media!.map((id) => mediaMap[id]).filter(Boolean).find(eRetrato);
+  thumb = retrato?.thumb ?? null;
+}
+
+const iniciais = nome
+  .split(' ')
+  .filter(Boolean)
+  .slice(0, 2)
+  .map((p) => p[0])
+  .join('')
+  .toUpperCase();
+
+const anoNasc = pessoa.nascimento?.data?.match(/\b(1[0-9]{3}|20[0-9]{2})\b/)?.[1];
+const anoObit = pessoa.obito?.data?.match(/\b(1[0-9]{3}|20[0-9]{2})\b/)?.[1];
+const avatarSrc = silhueta((pessoa as any).sexo, anoNasc, anoObit);
+const datas = (anoNasc || anoObit)
+  ? [anoNasc ?? '?', anoObit ?? ''].filter(Boolean).join(' — ')
+  : null;
+---
+
+<a
+  href={`/pessoas/${pessoa.id}`}
+  class="flex items-center gap-3 p-3 rounded-lg border border-stone-200 bg-white hover:border-amber-400 hover:shadow-sm transition-all group"
+  title={protegida ? 'Dados privados' : nome}
+>
+  <!-- Foto ou iniciais -->
+  <div class="flex-shrink-0 w-12 h-12 rounded-full overflow-hidden">
+    {thumb ? (
+      <img src={thumb} alt={nome} class="w-full h-full object-cover" loading="lazy" />
+    ) : (
+      <img src={avatarSrc} alt="" class="w-full h-full object-cover" loading="lazy" />
+    )}
+  </div>
+
+  <!-- Texto -->
+  <div class="min-w-0 flex-1">
+    {relacao && (
+      <span class="block text-xs text-stone-400 uppercase tracking-wide mb-0.5">{relacao}</span>
+    )}
+    <span class:list={[
+      'block text-sm font-semibold leading-tight group-hover:text-amber-700 transition-colors',
+      protegida ? 'text-stone-400 italic' : 'text-stone-800',
+    ]}>
+      {nome}
+    </span>
+    {datas && (
+      <span class="block text-xs text-stone-500 mt-0.5">{datas}</span>
+    )}
+  </div>
+</a>

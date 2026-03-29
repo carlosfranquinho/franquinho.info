@@ -1,0 +1,273 @@
+---
+import { readFileSync, readdirSync } from 'fs';
+import { resolve } from 'path';
+import Base from '../layouts/Base.astro';
+import Lightbox from '../components/Lightbox.astro';
+import type { MediaItem, Pessoa } from '../types';
+
+const media: MediaItem[] = JSON.parse(readFileSync(resolve('src/data/media.json'), 'utf-8'));
+const mediaComFicheiro = media.filter((m) => m.caminho);
+
+// Mapa inverso: media_id → [{id, nome}] das pessoas públicas associadas
+const mediaPessoas: Record<string, { id: string; nome: string }[]> = {};
+const pessoasDir = resolve('src/data/pessoas');
+for (const f of readdirSync(pessoasDir)) {
+  if (!f.endsWith('.json')) continue;
+  const p: Pessoa = JSON.parse(readFileSync(resolve(pessoasDir, f), 'utf-8'));
+  if (p.protegida || !p.media?.length) continue;
+  for (const mid of p.media) {
+    if (!mediaPessoas[mid]) mediaPessoas[mid] = [];
+    mediaPessoas[mid].push({ id: p.id, nome: p.nome ?? p.id });
+  }
+}
+
+// Mapear pasta → categoria de documento
+function getCategoria(item: MediaItem): string {
+  const path = item.caminho_original ?? '';
+  if (path.includes('/Registos/'))    return 'nascimento';
+  if (path.includes('/Casamentos/'))  return 'casamento';
+  if (path.includes('/Obitos/'))      return 'obito';
+  if (path.includes('/Passaportes/')) return 'passaporte';
+  return 'outro';
+}
+
+// Deduplicar por nome do ficheiro original, fundindo as pessoas de cada duplicado
+type ItemDedup = { item: MediaItem; pessoas: { id: string; nome: string }[] };
+
+function deduplicar(items: MediaItem[]): ItemDedup[] {
+  const seen = new Map<string, ItemDedup>();
+  for (const item of items) {
+    const key = item.caminho_original?.split('/').pop() ?? item.id;
+    const pessoas = mediaPessoas[item.id] ?? [];
+    if (seen.has(key)) {
+      const entry = seen.get(key)!;
+      for (const p of pessoas) {
+        if (!entry.pessoas.find((ep) => ep.id === p.id)) entry.pessoas.push(p);
+      }
+    } else {
+      seen.set(key, { item, pessoas: [...pessoas] });
+    }
+  }
+  return Array.from(seen.values());
+}
+
+const fotosDedup      = deduplicar(mediaComFicheiro.filter((m) => m.tipo === 'foto'));
+const documentosDedup = deduplicar(mediaComFicheiro.filter((m) => m.tipo === 'documento'));
+
+type CatDef = { id: string; label: string; descricao: string; icone: string };
+const categorias: CatDef[] = [
+  { id: 'nascimento',  label: 'Registos de Nascimento', descricao: 'Registos paroquiais e civis de nascimento', icone: '🌱' },
+  { id: 'casamento',   label: 'Registos de Casamento',  descricao: 'Registos paroquiais e civis de casamento',  icone: '💍' },
+  { id: 'obito',       label: 'Registos de Óbito',      descricao: 'Registos paroquiais e civis de óbito',      icone: '✝' },
+  { id: 'passaporte',  label: 'Pedidos de Passaporte',  descricao: 'Processos de pedido de passaporte',         icone: '📋' },
+  { id: 'outro',       label: 'Outros',                 descricao: 'Assinaturas, livros e outros documentos',   icone: '📁' },
+];
+
+const contagemCat: Record<string, number> = {};
+for (const { item } of documentosDedup) {
+  const cat = getCategoria(item);
+  contagemCat[cat] = (contagemCat[cat] ?? 0) + 1;
+}
+---
+
+<Base titulo="Arquivo" descricao="Galeria de fotos e documentos digitalizados">
+  <div class="max-w-7xl mx-auto px-6 py-10">
+
+    <!-- Cabeçalho -->
+    <div class="flex items-baseline justify-between border-b border-stone-200 pb-4 mb-6">
+      <h1 class="text-2xl font-bold text-stone-800">Arquivo</h1>
+      <span class="text-sm text-stone-500">{fotosDedup.length + documentosDedup.length} ficheiros</span>
+    </div>
+
+    <!-- Tabs -->
+    <div class="flex gap-2 mb-8" id="tabs">
+      <button data-tab="fotos"      class="tab-btn px-4 py-2 text-sm font-medium rounded-lg border transition-all border-stone-300 text-stone-600 hover:border-amber-400 hover:text-amber-700" data-activo="false">
+        Fotografias <span class="text-stone-400 font-normal">({fotosDedup.length})</span>
+      </button>
+      <button data-tab="documentos" class="tab-btn px-4 py-2 text-sm font-medium rounded-lg border transition-all border-stone-300 text-stone-600 hover:border-amber-400 hover:text-amber-700" data-activo="false">
+        Documentos <span class="text-stone-400 font-normal">({documentosDedup.length})</span>
+      </button>
+    </div>
+
+    <!-- ── FOTOGRAFIAS ──────────────────────────────────────────────── -->
+    <div id="painel-fotos" class="painel hidden">
+      <div class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-2">
+        {fotosDedup.map(({ item, pessoas }) => (
+          <button
+            type="button"
+            class="group relative block aspect-square rounded overflow-hidden border border-stone-200 hover:border-amber-400 hover:shadow-sm transition-all cursor-zoom-in"
+            data-lightbox-src={item.caminho ?? item.thumb ?? ''}
+            data-lightbox-caption={item.descricao ?? ''}
+            data-lightbox-pessoas={JSON.stringify(pessoas)}
+          >
+            {item.thumb
+              ? <img src={item.thumb} alt={item.descricao ?? ''} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-200" loading="lazy" />
+              : <div class="w-full h-full bg-stone-100 flex items-center justify-center text-3xl text-stone-300">📷</div>
+            }
+            {pessoas.length > 0 && (
+              <div class="absolute bottom-0 inset-x-0 bg-black/60 px-1.5 py-1 text-white text-xs leading-tight translate-y-full group-hover:translate-y-0 transition-transform duration-200">
+                {pessoas.map((p) => p.nome).join(', ')}
+              </div>
+            )}
+          </button>
+        ))}
+      </div>
+    </div>
+
+    <!-- ── DOCUMENTOS: CARDS DE CATEGORIA ──────────────────────────── -->
+    <div id="painel-categorias" class="painel hidden">
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+        {categorias.map(({ id, label, descricao, icone }) => {
+          const count = contagemCat[id] ?? 0;
+          return (
+            <button
+              data-cat={id}
+              disabled={count === 0}
+              class:list={[
+                'cat-card text-left p-5 rounded-xl border transition-all',
+                count > 0
+                  ? 'border-stone-200 bg-white hover:border-amber-400 hover:shadow-md cursor-pointer'
+                  : 'border-stone-100 bg-stone-50 opacity-50 cursor-not-allowed',
+              ]}
+            >
+              <div class="text-3xl mb-3">{icone}</div>
+              <div class="font-semibold text-stone-800 leading-tight mb-1">{label}</div>
+              <div class="text-xs text-stone-400 mb-3">{descricao}</div>
+              <div class:list={[
+                'text-sm font-semibold px-2 py-0.5 rounded-full inline-block',
+                count > 0 ? 'bg-amber-100 text-amber-700' : 'bg-stone-100 text-stone-400',
+              ]}>
+                {count > 0 ? `${count} registos` : 'sem registos'}
+              </div>
+            </button>
+          );
+        })}
+      </div>
+    </div>
+
+    <!-- ── DOCUMENTOS: DETALHE DE UMA CATEGORIA ────────────────────── -->
+    <div id="painel-doc-detalhe" class="painel hidden">
+      <div class="flex items-center gap-3 mb-6">
+        <button id="btn-voltar" class="flex items-center gap-1.5 text-sm text-stone-500 hover:text-amber-700 transition-colors">
+          <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+          Voltar
+        </button>
+        <span class="text-stone-200">/</span>
+        <span id="breadcrumb-cat" class="text-sm font-medium text-stone-700"></span>
+        <span id="breadcrumb-count" class="text-xs text-stone-400"></span>
+      </div>
+
+      <div id="grelha-doc" class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-2">
+        {documentosDedup.map(({ item, pessoas }) => (
+          <button
+            type="button"
+            data-cat={getCategoria(item)}
+            class="doc-item group relative block aspect-square rounded overflow-hidden border border-stone-200 hover:border-amber-400 hover:shadow-sm transition-all cursor-zoom-in"
+            data-lightbox-src={item.caminho ?? item.thumb ?? ''}
+            data-lightbox-caption={item.descricao ?? ''}
+            data-lightbox-pessoas={JSON.stringify(pessoas)}
+            title={item.descricao ?? pessoas.map((p) => p.nome).join(', ')}
+          >
+            {item.thumb
+              ? <img src={item.thumb} alt={item.descricao ?? ''} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-200" loading="lazy" />
+              : <div class="w-full h-full bg-stone-100 flex items-center justify-center text-3xl text-stone-300">📄</div>
+            }
+            {pessoas.length > 0 && (
+              <div class="absolute bottom-0 inset-x-0 bg-black/60 px-1.5 py-1 text-white text-xs leading-tight translate-y-full group-hover:translate-y-0 transition-transform duration-200">
+                {pessoas.map((p) => p.nome).join(', ')}
+              </div>
+            )}
+          </button>
+        ))}
+      </div>
+    </div>
+
+  </div>
+</Base>
+
+<Lightbox />
+
+<script>
+  const LABELS: Record<string, string> = {
+    nascimento: 'Registos de Nascimento',
+    casamento:  'Registos de Casamento',
+    obito:      'Registos de Óbito',
+    passaporte: 'Pedidos de Passaporte',
+    outro:      'Outros',
+  };
+
+  const tabBtns       = document.querySelectorAll<HTMLButtonElement>('.tab-btn');
+  const painelFotos   = document.getElementById('painel-fotos')!;
+  const painelCats    = document.getElementById('painel-categorias')!;
+  const painelDetalhe = document.getElementById('painel-doc-detalhe')!;
+  const catCards      = document.querySelectorAll<HTMLButtonElement>('.cat-card');
+  const docItems      = document.querySelectorAll<HTMLButtonElement>('.doc-item');
+  const btnVoltar     = document.getElementById('btn-voltar')!;
+  const breadcrumbCat   = document.getElementById('breadcrumb-cat')!;
+  const breadcrumbCount = document.getElementById('breadcrumb-count')!;
+
+  function showPainel(painel: HTMLElement) {
+    [painelFotos, painelCats, painelDetalhe].forEach((p) => p.classList.add('hidden'));
+    painel.classList.remove('hidden');
+  }
+
+  function setTabActivo(tab: string) {
+    tabBtns.forEach((b) => b.dataset.activo = b.dataset.tab === tab ? 'true' : 'false');
+  }
+
+  tabBtns.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const tab = btn.dataset.tab!;
+      setTabActivo(tab);
+      showPainel(tab === 'fotos' ? painelFotos : painelCats);
+      location.hash = tab === 'fotos' ? 'fotos' : 'documentos';
+    });
+  });
+
+  catCards.forEach((card) => {
+    card.addEventListener('click', () => abrirCategoria(card.dataset.cat!));
+  });
+
+  function abrirCategoria(cat: string) {
+    let count = 0;
+    docItems.forEach((item) => {
+      const visivel = item.dataset.cat === cat;
+      item.style.display = visivel ? '' : 'none';
+      if (visivel) count++;
+    });
+    breadcrumbCat.textContent = LABELS[cat] ?? cat;
+    breadcrumbCount.textContent = `${count} registos`;
+    showPainel(painelDetalhe);
+    location.hash = cat;
+  }
+
+  btnVoltar.addEventListener('click', () => {
+    setTabActivo('documentos');
+    showPainel(painelCats);
+    location.hash = 'documentos';
+  });
+
+  function restoreHash() {
+    const hash = location.hash.replace('#', '');
+    if (hash === 'fotos') {
+      setTabActivo('fotos'); showPainel(painelFotos);
+    } else if (hash === 'documentos') {
+      setTabActivo('documentos'); showPainel(painelCats);
+    } else if (LABELS[hash]) {
+      setTabActivo('documentos'); abrirCategoria(hash);
+    } else {
+      setTabActivo('fotos'); showPainel(painelFotos);
+    }
+  }
+
+  restoreHash();
+  window.addEventListener('hashchange', restoreHash);
+</script>
+
+<style>
+  .tab-btn[data-activo="true"] {
+    background-color: rgb(217 119 6);
+    color: white;
+    border-color: rgb(217 119 6);
+  }
+</style>

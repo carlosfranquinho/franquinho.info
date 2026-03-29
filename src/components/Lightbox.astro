@@ -1,0 +1,83 @@
+---
+// Lightbox partilhado.
+// Triggers devem ter:
+//   data-lightbox-src      — URL da imagem a mostrar
+//   data-lightbox-caption  — legenda (opcional)
+//   data-lightbox-pessoas  — JSON: [{id, nome}]  (opcional)
+---
+
+<div
+  id="lightbox"
+  class="fixed inset-0 z-50 hidden items-center justify-center bg-black/90"
+  role="dialog"
+  aria-modal="true"
+>
+  <button id="lb-prev" class="absolute left-3 top-1/2 -translate-y-1/2 text-white/50 hover:text-white text-5xl leading-none px-2 select-none" aria-label="Anterior">&#8249;</button>
+  <button id="lb-next" class="absolute right-3 top-1/2 -translate-y-1/2 text-white/50 hover:text-white text-5xl leading-none px-2 select-none" aria-label="Seguinte">&#8250;</button>
+  <button id="lb-close" class="absolute top-4 right-4 text-white/50 hover:text-white text-2xl leading-none px-2 select-none" aria-label="Fechar">&#10005;</button>
+
+  <figure class="flex flex-col items-center gap-3 max-w-[90vw] max-h-[90vh] px-12">
+    <img id="lb-img" src="" alt="" class="max-w-full max-h-[78vh] object-contain rounded shadow-2xl" />
+    <figcaption class="text-center space-y-1.5">
+      <p id="lb-caption" class="text-sm text-white/60 px-4"></p>
+      <div id="lb-pessoas" class="flex flex-wrap justify-center gap-2"></div>
+    </figcaption>
+  </figure>
+</div>
+
+<script>
+  const lb        = document.getElementById('lightbox')!;
+  const lbImg     = document.getElementById('lb-img') as HTMLImageElement;
+  const lbCaption = document.getElementById('lb-caption')!;
+  const lbPessoas = document.getElementById('lb-pessoas')!;
+
+  const items = Array.from(document.querySelectorAll<HTMLElement>('[data-lightbox-src]'));
+  let current = 0;
+
+  function show(index: number) {
+    current = (index + items.length) % items.length;
+    const el = items[current];
+
+    lbImg.src = el.dataset.lightboxSrc ?? '';
+    lbImg.alt = el.dataset.lightboxCaption ?? '';
+    lbCaption.textContent = el.dataset.lightboxCaption ?? '';
+
+    // Links para pessoas associadas
+    lbPessoas.innerHTML = '';
+    const pessoasRaw = el.dataset.lightboxPessoas;
+    if (pessoasRaw) {
+      try {
+        const pessoas: { id: string; nome: string }[] = JSON.parse(pessoasRaw);
+        for (const p of pessoas) {
+          const a = document.createElement('a');
+          a.href = `/pessoas/${p.id}`;
+          a.textContent = p.nome;
+          a.className = 'text-xs px-2.5 py-1 rounded-full bg-white/10 text-white/80 hover:bg-amber-500 hover:text-white transition-colors';
+          lbPessoas.appendChild(a);
+        }
+      } catch {}
+    }
+
+    lb.classList.remove('hidden');
+    lb.classList.add('flex');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function close() {
+    lb.classList.add('hidden');
+    lb.classList.remove('flex');
+    document.body.style.overflow = '';
+  }
+
+  items.forEach((el, i) => el.addEventListener('click', () => show(i)));
+  document.getElementById('lb-close')!.addEventListener('click', close);
+  document.getElementById('lb-prev')!.addEventListener('click', () => show(current - 1));
+  document.getElementById('lb-next')!.addEventListener('click', () => show(current + 1));
+  lb.addEventListener('click', (e) => { if (e.target === lb) close(); });
+  document.addEventListener('keydown', (e) => {
+    if (lb.classList.contains('hidden')) return;
+    if (e.key === 'Escape') close();
+    if (e.key === 'ArrowLeft') show(current - 1);
+    if (e.key === 'ArrowRight') show(current + 1);
+  });
+</script>

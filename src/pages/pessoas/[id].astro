@@ -1,0 +1,458 @@
+---
+import { readFileSync, readdirSync } from 'fs';
+import { resolve } from 'path';
+import Base from '../../layouts/Base.astro';
+import Lightbox from '../../components/Lightbox.astro';
+import LugarLink from '../../components/LugarLink.astro';
+import FamiliaCard from '../../components/FamiliaCard.astro';
+import type { Pessoa, PessoaProtegida, Familia, Lugar, MediaItem } from '../../types';
+import { formatarData, silhueta, eRetrato } from '../../utils';
+
+export function getStaticPaths() {
+  const dir = resolve('src/data/pessoas');
+  return readdirSync(dir)
+    .filter((f) => f.endsWith('.json'))
+    .map((f) => ({ params: { id: f.replace('.json', '') } }));
+}
+
+const { id } = Astro.params;
+
+function lerPessoa(pid: string): Pessoa | PessoaProtegida {
+  return JSON.parse(readFileSync(resolve(`src/data/pessoas/${pid}.json`), 'utf-8'));
+}
+function lerFamilia(fid: string): Familia | null {
+  try { return JSON.parse(readFileSync(resolve(`src/data/familias/${fid}.json`), 'utf-8')); }
+  catch { return null; }
+}
+
+const pessoa = lerPessoa(id);
+const protegida = pessoa.protegida;
+const p = protegida ? null : (pessoa as Pessoa);
+
+const lugares: Lugar[] = JSON.parse(readFileSync(resolve('src/data/lugares.json'), 'utf-8'));
+const lugaresMap: Record<string, Lugar> = Object.fromEntries(lugares.map((l) => [l.id, l]));
+const mediaList: MediaItem[] = JSON.parse(readFileSync(resolve('src/data/media.json'), 'utf-8'));
+const mediaMap: Record<string, MediaItem> = Object.fromEntries(mediaList.map((m) => [m.id, m]));
+
+const familiaComoFilho = (pessoa.familias_como_filho ?? []).map(lerFamilia).filter(Boolean) as Familia[];
+const familiaComoPai   = (pessoa.familias_como_pai   ?? []).map(lerFamilia).filter(Boolean) as Familia[];
+
+function pessoasUnicas(ids: (string | null | undefined)[]): (Pessoa | PessoaProtegida)[] {
+  const vistos = new Set<string>();
+  return ids
+    .filter((x): x is string => !!x && x !== id && !vistos.has(x) && !!vistos.add(x))
+    .map(lerPessoa);
+}
+
+const pais     = pessoasUnicas(familiaComoFilho.flatMap((f) => [f.pai, f.mae]));
+const conjuges = pessoasUnicas(familiaComoPai.flatMap((f) => [f.pai, f.mae]));
+const filhos   = pessoasUnicas(familiaComoPai.flatMap((f) => f.filhos ?? []));
+const irmaos   = pessoasUnicas(familiaComoFilho.flatMap((f) => f.filhos ?? []));
+
+const galeria: MediaItem[] = (p?.media ?? []).map((mid) => mediaMap[mid]).filter(Boolean);
+const galeriaFotos = galeria.filter((m) => m.tipo === 'foto');
+const galeriaDocumentos = galeria.filter((m) => m.tipo !== 'foto');
+const fotoHero = galeria.find(eRetrato) ?? null;
+
+function legendaDocumento(item: MediaItem): string {
+  const path = item.caminho_original ?? '';
+  if (path.includes('/Registos/'))    return 'Registo de Nascimento';
+  if (path.includes('/Casamentos/'))  return 'Registo de Casamento';
+  if (path.includes('/Obitos/'))      return 'Registo de Óbito';
+  if (path.includes('/Passaportes/')) return 'Pedido de Passaporte';
+  if (path.includes('/Assinaturas/')) return 'Assinatura';
+  if (path.includes('/Batizados/'))   return 'Registo de Batismo';
+  return 'Documento';
+}
+
+const nomePrivado = pessoa.protegida
+  ? (pessoa.apelido ? `Privado ${pessoa.apelido}` : 'Privado')
+  : null;
+const titulo = nomePrivado ?? (p?.nome ?? 'Sem nome');
+const pessoaLbJson = JSON.stringify([{ id: pessoa.id, nome: titulo }]);
+const anoNasc = pessoa.nascimento?.data?.match(/(\d{4})/)?.[1];
+const anoObit = pessoa.obito?.data?.match(/(\d{4})/)?.[1];
+const lugarNasc = pessoa.nascimento?.lugar_id ? lugaresMap[pessoa.nascimento.lugar_id] : null;
+const lugarObit = pessoa.obito?.lugar_id ? lugaresMap[pessoa.obito.lugar_id] : null;
+
+// Linha do tempo
+type EventoTL = { data: string; label: string; lugar: Lugar | null; destaque?: boolean; idade?: number };
+const timeline: EventoTL[] = [];
+
+function calcularIdade(dataEvento: string): number | undefined {
+  if (!anoNasc) return undefined;
+  const anoEv = dataEvento.match(/(\d{4})/)?.[1];
+  if (!anoEv) return undefined;
+  const diff = parseInt(anoEv) - parseInt(anoNasc);
+  return diff >= 0 ? diff : undefined;
+}
+
+const pushEv = (label: string, ev: { data: string | null; lugar_id: string | null } | null, destaque = false) => {
+  if (!ev?.data) return;
+  timeline.push({
+    data: ev.data,
+    label,
+    lugar: ev.lugar_id ? lugaresMap[ev.lugar_id] ?? null : null,
+    destaque,
+    idade: calcularIdade(ev.data),
+  });
+};
+pushEv('Nascimento', pessoa.nascimento, true);
+pushEv('Baptismo',   pessoa.baptismo);
+for (const f of familiaComoPai) {
+  if (f.casamento?.data) {
+    const outroId = f.pai === id ? f.mae : f.pai;
+    const outro = outroId ? lerPessoa(outroId) : null;
+    timeline.push({
+      data: f.casamento.data,
+      label: `Casamento${outro && !outro.protegida ? ` com ${outro.nome}` : ''}`,
+      lugar: f.casamento.lugar_id ? lugaresMap[f.casamento.lugar_id] ?? null : null,
+      destaque: true,
+      idade: calcularIdade(f.casamento.data),
+    });
+  }
+  // Nascimentos dos filhos
+  for (const filhoId of f.filhos ?? []) {
+    const filho = filhoId !== id ? lerPessoa(filhoId) : null;
+    if (!filho?.nascimento?.data) continue;
+    const nomeFilho = filho.protegida
+      ? (filho.apelido ? `Privado ${filho.apelido}` : 'Privado')
+      : (filho.nome ?? 'filho');
+    timeline.push({
+      data: filho.nascimento.data,
+      label: `Nascimento de ${nomeFilho}`,
+      lugar: filho.nascimento.lugar_id ? lugaresMap[filho.nascimento.lugar_id] ?? null : null,
+      destaque: false,
+      idade: calcularIdade(filho.nascimento.data),
+    });
+  }
+}
+pushEv('Óbito',     pessoa.obito, true);
+pushEv('Sepultura', pessoa.sepultura);
+timeline.sort((a, b) => a.data.localeCompare(b.data));
+
+const avatarSrc = silhueta(pessoa.sexo, anoNasc, anoObit);
+const corSexo = pessoa.sexo === 'M' ? 'from-blue-800 to-blue-950'
+               : pessoa.sexo === 'F' ? 'from-rose-800 to-rose-950'
+               : 'from-stone-700 to-stone-900';
+const nascidoLabel = pessoa.sexo === 'F' ? 'Nascida a' : 'Nascido a';
+const nascidoIndeterminadoLabel = pessoa.sexo === 'F' ? 'Nascida em data indeterminada' : 'Nascido em data indeterminada';
+const falecidoLabel = pessoa.sexo === 'F' ? 'Falecida a' : 'Falecido a';
+---
+
+<Base titulo={titulo} descricao={protegida ? undefined : `Ficha genealogica de ${titulo}`} noindex={protegida}>
+
+  {/* Metadados para Pagefind */}
+  {!protegida && (
+    <div hidden>
+      <span data-pagefind-meta="title">{titulo}</span>
+      {fotoHero?.thumb && <img data-pagefind-meta="image[src]" src={fotoHero.thumb} alt={titulo} />}
+      {anoNasc && <span data-pagefind-meta="nascimento">{anoNasc}</span>}
+      {anoObit && <span data-pagefind-meta="obito">{anoObit}</span>}
+      {lugarNasc && <span data-pagefind-meta="lugar_nasc">{lugarNasc.nome}</span>}
+    </div>
+  )}
+
+  <!-- HERO -->
+  <div class="mb-0 relative overflow-hidden bg-stone-900 min-h-[300px] flex items-end">
+    <!-- Foto ou gradiente -->
+    {fotoHero?.caminho ? (
+      <div class="absolute inset-0">
+        <img src={fotoHero.caminho} alt={titulo} class="w-full h-full object-cover object-top opacity-25" />
+        <div class="absolute inset-0 bg-gradient-to-t from-stone-900 via-stone-900/80 to-stone-900/30"></div>
+      </div>
+    ) : (
+      <div class={`absolute inset-0 bg-gradient-to-br ${corSexo} opacity-60`}></div>
+    )}
+
+    <div class="relative z-10 w-full max-w-7xl mx-auto px-6 pb-10 pt-12 flex gap-6 items-end">
+
+      <!-- Retrato -->
+      <div class="flex-shrink-0">
+        {fotoHero?.thumb ? (
+          <img
+            src={fotoHero.thumb}
+            alt={titulo}
+            class="w-28 h-28 sm:w-36 sm:h-36 object-cover rounded-full border-4 border-white/20 shadow-2xl"
+          />
+        ) : (
+          <img
+            src={avatarSrc}
+            alt=""
+            class="w-28 h-28 sm:w-36 sm:h-36 rounded-full object-cover border-4 border-white/20 shadow-2xl"
+          />
+        )}
+      </div>
+
+      <!-- Nome e dados -->
+      <div class="flex-1 min-w-0 pb-1">
+        <h1 class:list={[
+          'text-3xl sm:text-4xl font-bold leading-tight mb-3',
+          protegida ? 'text-stone-400 italic' : 'text-white',
+        ]}>{titulo}</h1>
+        <div class="space-y-1.5 text-base text-stone-300">
+          {!protegida && (
+            <p class="flex items-baseline gap-2">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-3.5 h-3.5 text-amber-400 shrink-0 self-center" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2l2.55 7.85H22l-6.63 4.82 2.55 7.85L12 17.7l-5.92 4.82 2.55-7.85L2 9.85h7.45z"/>
+              </svg>
+              <span>
+                {pessoa.nascimento?.data
+                  ? <><span class="text-stone-500">{nascidoLabel} </span>{formatarData(pessoa.nascimento.data)}</>
+                  : <span class="text-stone-500 italic">{nascidoIndeterminadoLabel}</span>
+                }
+                {lugarNasc
+                  ? <>, <span class="text-stone-500">em </span><LugarLink lugar={lugarNasc} lugaresMap={lugaresMap} /></>
+                  : <>, <span class="text-stone-500 italic">em local indeterminado</span></>
+                }
+              </span>
+            </p>
+          )}
+          {pessoa.obito?.data && (
+            <p class="flex items-baseline gap-2">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-3.5 h-3.5 text-stone-400 shrink-0 self-center" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M11 2h2v7h7v2h-7v11h-2V11H4V9h7V2z"/>
+              </svg>
+              <span>
+                <span class="text-stone-500">{falecidoLabel} </span>{formatarData(pessoa.obito.data)}
+                {lugarObit
+                  ? <>, <span class="text-stone-500">em </span><LugarLink lugar={lugarObit} lugaresMap={lugaresMap} /></>
+                  : <>, <span class="text-stone-500 italic">em local indeterminado</span></>
+                }
+              </span>
+            </p>
+          )}
+          {p?.profissao && <p class="text-stone-400 mt-1">{p.profissao}</p>}
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="max-w-7xl mx-auto px-6 py-10">
+    <div class="lg:grid lg:grid-cols-[1fr_320px] lg:gap-14 lg:items-start space-y-10 lg:space-y-0">
+
+      <!-- COLUNA PRINCIPAL -->
+      <div class="space-y-12">
+
+        <!-- FAMÍLIA -->
+        {(pais.length > 0 || conjuges.length > 0 || filhos.length > 0 || irmaos.length > 0) && (
+          <section>
+            <h2 class="text-xl font-semibold text-stone-800 mb-6 pb-2 border-b border-stone-100">Família</h2>
+
+            <div class="space-y-8">
+
+              <!-- Pais -->
+              {pais.length > 0 && (
+                <div>
+                  <h3 class="text-xs font-semibold text-stone-400 uppercase tracking-widest mb-3">Pais</h3>
+                  <div class="flex flex-wrap gap-3">
+                    {pais.map((rel) => <FamiliaCard pessoa={rel} mediaMap={mediaMap} lugaresMap={lugaresMap} />)}
+                  </div>
+                </div>
+              )}
+
+              <!-- Cônjuge(s) -->
+              {conjuges.length > 0 && (
+                <div>
+                  <h3 class="text-xs font-semibold text-stone-400 uppercase tracking-widest mb-3">Cônjuge</h3>
+                  <div class="flex flex-wrap gap-3">
+                    {conjuges.map((rel) => <FamiliaCard pessoa={rel} mediaMap={mediaMap} lugaresMap={lugaresMap} />)}
+                  </div>
+                </div>
+              )}
+
+              <!-- Filhos -->
+              {filhos.length > 0 && (
+                <div>
+                  <h3 class="text-xs font-semibold text-stone-400 uppercase tracking-widest mb-3">
+                    Filhos <span class="font-normal">({filhos.length})</span>
+                  </h3>
+                  <div class="flex flex-wrap gap-2">
+                    {filhos.map((rel) => <FamiliaCard pessoa={rel} mediaMap={mediaMap} lugaresMap={lugaresMap} compact />)}
+                  </div>
+                </div>
+              )}
+
+              <!-- Irmãos -->
+              {irmaos.length > 0 && (
+                <div>
+                  <h3 class="text-xs font-semibold text-stone-400 uppercase tracking-widest mb-3">
+                    Irmãos <span class="font-normal">({irmaos.length})</span>
+                  </h3>
+                  <div class="flex flex-wrap gap-2">
+                    {irmaos.map((rel) => <FamiliaCard pessoa={rel} mediaMap={mediaMap} lugaresMap={lugaresMap} compact />)}
+                  </div>
+                </div>
+              )}
+
+            </div>
+          </section>
+        )}
+
+        <!-- GALERIA -->
+        {galeria.length > 0 && (
+          <section class="space-y-6">
+
+            {galeriaFotos.length > 0 && (
+              <div>
+                <h2 class="text-xl font-semibold text-stone-800 mb-4 pb-2 border-b border-stone-100">
+                  Fotografias
+                  <span class="text-stone-400 text-base font-normal ml-2">({galeriaFotos.length})</span>
+                </h2>
+                <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+                  {galeriaFotos.map((item) => (
+                    <button
+                      type="button"
+                      class="group block aspect-square rounded-lg overflow-hidden border border-stone-200 hover:border-amber-400 hover:shadow-md transition-all cursor-zoom-in"
+                      data-lightbox-src={item.caminho ?? item.thumb ?? ''}
+                      data-lightbox-caption={item.descricao ?? ''}
+                      data-lightbox-pessoas={pessoaLbJson}
+                      title={item.descricao ?? ''}
+                    >
+                      {item.thumb
+                        ? <img src={item.thumb} alt={item.descricao ?? ''} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+                        : <div class="w-full h-full bg-stone-100 flex items-center justify-center text-stone-300 text-4xl">📷</div>
+                      }
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {galeriaDocumentos.length > 0 && (
+              <div>
+                <h2 class="text-xl font-semibold text-stone-800 mb-4 pb-2 border-b border-stone-100">
+                  Documentos
+                  <span class="text-stone-400 text-base font-normal ml-2">({galeriaDocumentos.length})</span>
+                </h2>
+                <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+                  {galeriaDocumentos.map((item) => {
+                    const legenda = legendaDocumento(item);
+                    const caption = item.descricao ? `${legenda} · ${item.descricao}` : legenda;
+                    return (
+                      <button
+                        type="button"
+                        class="group relative block aspect-square rounded-lg overflow-hidden border border-stone-200 hover:border-amber-400 hover:shadow-md transition-all cursor-zoom-in"
+                        data-lightbox-src={item.caminho ?? item.thumb ?? ''}
+                        data-lightbox-caption={caption}
+                        data-lightbox-pessoas={pessoaLbJson}
+                        title={caption}
+                      >
+                        {item.thumb
+                          ? <img src={item.thumb} alt={caption} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+                          : <div class="w-full h-full bg-stone-100 flex items-center justify-center text-stone-300 text-4xl">📄</div>
+                        }
+                        <div class="absolute bottom-0 inset-x-0 bg-black/50 px-2 py-1 text-white text-xs text-center leading-tight translate-y-full group-hover:translate-y-0 transition-transform duration-200">
+                          {legenda}
+                        </div>
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+            )}
+
+          </section>
+        )}
+
+        <!-- NOTAS -->
+        {p?.notas && p.notas.length > 0 && (
+          <section>
+            <h2 class="text-xl font-semibold text-stone-800 mb-4 pb-2 border-b border-stone-100">Notas de investigação</h2>
+            <div class="space-y-3">
+              {p.notas.map((nota) => (
+                <div class="border-l-4 border-amber-300 bg-amber-50 px-4 py-3 rounded-r">
+                  {nota.tipo && <p class="text-xs text-amber-700 font-semibold uppercase tracking-wide mb-1">{nota.tipo}</p>}
+                  <p class="text-base text-stone-700 whitespace-pre-wrap leading-relaxed">{nota.texto}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
+        <!-- FONTES -->
+        {p?.citacoes && p.citacoes.length > 0 && (
+          <section>
+            <h2 class="text-xl font-semibold text-stone-800 mb-4 pb-2 border-b border-stone-100">Fontes</h2>
+            <ul class="space-y-2">
+              {p.citacoes.map((c) => (
+                <li class="flex gap-3 text-base text-stone-600">
+                  <span class="text-amber-400 mt-0.5 shrink-0">—</span>
+                  <span>{c.fonte}{c.pagina ? <span class="text-stone-400">, p. {c.pagina}</span> : ''}</span>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+
+      </div>
+
+      <!-- COLUNA LATERAL -->
+      <aside class="space-y-8">
+
+          <!-- Ver na árvore -->
+          <a
+            href={`/arvore#${id}`}
+            class="flex items-center gap-3 px-5 py-3.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-stone-900 font-semibold transition-all shadow hover:shadow-md hover:-translate-y-0.5 group"
+          >
+            <svg class="w-5 h-5 shrink-0" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2L7 10h3.5L7 17h4v5h2v-5h4l-3.5-7H17L12 2z"/>
+            </svg>
+            <span class="text-base">Ver na árvore</span>
+            <span class="ml-auto opacity-60 group-hover:opacity-100 transition-opacity">&#8594;</span>
+          </a>
+
+          <!-- LINHA DO TEMPO -->
+          {timeline.length > 0 && (
+            <div>
+              <h2 class="text-xl font-semibold text-stone-800 mb-5 pb-2 border-b border-stone-100">Linha do tempo</h2>
+              <div class="relative">
+                <div class="absolute left-[4.5rem] top-0 bottom-0 w-px bg-stone-200"></div>
+                <ol class="space-y-0">
+                  {timeline.map((ev) => (
+                    <li class="flex gap-3 group">
+                      <!-- Ano -->
+                      <div class="w-16 flex-shrink-0 text-right pt-2.5">
+                        <span class="text-sm font-mono text-stone-400">
+                          {ev.data.match(/(\d{4})/)?.[1] ?? ev.data}
+                        </span>
+                      </div>
+                      <!-- Ponto -->
+                      <div class="flex-shrink-0 flex flex-col items-center pt-3">
+                        <div class:list={[
+                          'w-3 h-3 rounded-full border-2 border-white ring-2 z-10',
+                          ev.destaque ? 'bg-amber-500 ring-amber-300' : 'bg-stone-300 ring-stone-200',
+                        ]}></div>
+                      </div>
+                      <!-- Conteúdo -->
+                      <div class="flex-1 pb-5 pt-1.5">
+                        <p class:list={['text-base', ev.destaque ? 'font-semibold text-stone-800' : 'text-stone-600']}>
+                          {ev.label}
+                          {ev.idade !== undefined && ev.idade > 0 && (
+                            <span class="ml-2 text-sm font-normal text-stone-400">({ev.idade} anos)</span>
+                          )}
+                        </p>
+                        {formatarData(ev.data) !== (ev.data.match(/(\d{4})/)?.[1] ?? ev.data) && (
+                          <p class="text-sm text-stone-400 mt-0.5">{formatarData(ev.data)}</p>
+                        )}
+                        {ev.lugar && (
+                          <p class="text-sm text-stone-400 mt-0.5">
+                            <LugarLink lugar={ev.lugar} lugaresMap={lugaresMap} />
+                          </p>
+                        )}
+                      </div>
+                    </li>
+                  ))}
+                </ol>
+              </div>
+            </div>
+          )}
+
+        </aside>
+
+    </div>
+  </div>
+</Base>
+
+<Lightbox />

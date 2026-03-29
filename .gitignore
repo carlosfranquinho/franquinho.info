@@ -1,0 +1,21 @@
+# Dependências
+node_modules/
+
+# Build
+dist/
+.astro/
+
+# Base de dados Gramps (dados privados completos)
+data/
+
+# Media originais (alta resolução, demasiado grandes)
+public/media/originais/
+
+# Ambiente
+.env
+.env.*
+!.env.example
+
+# Sistema
+.DS_Store
+Thumbs.db

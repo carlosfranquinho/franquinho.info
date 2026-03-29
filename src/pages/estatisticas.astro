@@ -1,0 +1,596 @@
+---
+import { readFileSync, readdirSync } from 'fs';
+import { resolve } from 'path';
+import Base from '../layouts/Base.astro';
+import type { Pessoa, PessoaProtegida, Familia, Lugar } from '../types';
+
+// ─── Carregar dados ────────────────────────────────────────────────────────────
+
+const pessoasDir = resolve('src/data/pessoas');
+const familiasDir = resolve('src/data/familias');
+
+const todasPessoas: (Pessoa | PessoaProtegida)[] = [];
+for (const f of readdirSync(pessoasDir)) {
+  if (f.endsWith('.json'))
+    todasPessoas.push(JSON.parse(readFileSync(resolve(pessoasDir, f), 'utf-8')));
+}
+
+const todasFamilias: Familia[] = [];
+for (const f of readdirSync(familiasDir)) {
+  if (f.endsWith('.json'))
+    todasFamilias.push(JSON.parse(readFileSync(resolve(familiasDir, f), 'utf-8')));
+}
+
+const lugares: Lugar[] = JSON.parse(readFileSync(resolve('src/data/lugares.json'), 'utf-8'));
+const lugaresMap: Record<string, Lugar> = Object.fromEntries(lugares.map((l) => [l.id, l]));
+
+const pessoaMap: Record<string, Pessoa | PessoaProtegida> = Object.fromEntries(
+  todasPessoas.map((p) => [p.id, p])
+);
+
+function getAno(data: string | null | undefined): number | null {
+  if (!data) return null;
+  const m = data.match(/(\d{4})/);
+  return m ? parseInt(m[1]) : null;
+}
+
+function getNome(id: string | null): string | null {
+  if (!id) return null;
+  const p = pessoaMap[id];
+  if (!p || p.protegida) return null;
+  return (p as Pessoa).nome ?? null;
+}
+
+const publicas = todasPessoas.filter((p) => !p.protegida) as Pessoa[];
+const protegidas = todasPessoas.filter((p) => p.protegida);
+const totalFamilias = todasFamilias.length;
+
+// ─── Distribuição por sexo ─────────────────────────────────────────────────────
+
+const sexos = { M: 0, F: 0, U: 0 };
+for (const p of publicas) sexos[p.sexo as 'M' | 'F' | 'U']++;
+const totalSexos = sexos.M + sexos.F + sexos.U;
+const pctM = Math.round((sexos.M / totalSexos) * 100);
+const pctF = Math.round((sexos.F / totalSexos) * 100);
+const pctU = 100 - pctM - pctF;
+
+// ─── Nascimentos e óbitos por década ──────────────────────────────────────────
+
+const nascPorDecada: Record<number, number> = {};
+const obitosPorDecada: Record<number, number> = {};
+for (const p of publicas) {
+  const anoN = getAno(p.nascimento?.data ?? p.baptismo?.data);
+  if (anoN) { const d = Math.floor(anoN / 10) * 10; nascPorDecada[d] = (nascPorDecada[d] ?? 0) + 1; }
+  const anoO = getAno(p.obito?.data ?? p.sepultura?.data);
+  if (anoO) { const d = Math.floor(anoO / 10) * 10; obitosPorDecada[d] = (obitosPorDecada[d] ?? 0) + 1; }
+}
+const todasDecadas = Array.from(new Set([
+  ...Object.keys(nascPorDecada), ...Object.keys(obitosPorDecada)
+].map(Number))).sort((a, b) => a - b);
+const dadosDecadas = todasDecadas.map((d) => ({
+  decada: d,
+  nasc: nascPorDecada[d] ?? 0,
+  obit: obitosPorDecada[d] ?? 0,
+}));
+const maxDecada = Math.max(...dadosDecadas.map((d) => Math.max(d.nasc, d.obit)), 1);
+
+// ─── Família com mais filhos ───────────────────────────────────────────────────
+
+const famOrdenadas = [...todasFamilias]
+  .filter((f) => (f.filhos?.length ?? 0) > 0)
+  .sort((a, b) => (b.filhos?.length ?? 0) - (a.filhos?.length ?? 0));
+const familiaRecord = famOrdenadas[0] ?? null;
+const familiaRecordPai = getNome(familiaRecord?.pai ?? null);
+const familiaRecordMae = getNome(familiaRecord?.mae ?? null);
+
+// ─── Pai/mãe mais velhos e mais novos ao nascimento do primeiro filho ──────────
+
+type RegisoPai = { id: string; nome: string | null; idade: number; anoFilho: number; anoNasc: number; filhoNome: string | null };
+let maisVelhoPaiM: RegisoPai | null = null;
+let maisNovoPaiM: RegisoPai | null = null;
+let maisVelhoPaiF: RegisoPai | null = null;
+let maisNovoPaiF: RegisoPai | null = null;
+
+for (const f of todasFamilias) {
+  const candidatos = [
+    { id: f.pai, sexo: 'M' },
+    { id: f.mae, sexo: 'F' },
+  ].filter((c) => c.id) as { id: string; sexo: string }[];
+
+  const filhosIds = f.filhos ?? [];
+
+  const anosFilhos = filhosIds
+    .map((fid) => {
+      const fp = pessoaMap[fid];
+      return fp ? getAno((fp as Pessoa).nascimento?.data ?? (fp as Pessoa).baptismo?.data) : null;
+    })
+    .filter((a): a is number => a !== null)
+    .sort((a, b) => a - b);
+
+  if (!anosFilhos.length) continue;
+  const anoFirstFilho = anosFilhos[0];
+  const firstFilhoId = filhosIds.find((fid) => {
+    const fp = pessoaMap[fid];
+    return fp && getAno((fp as Pessoa).nascimento?.data ?? (fp as Pessoa).baptismo?.data) === anoFirstFilho;
+  });
+
+  for (const { id: paiId, sexo } of candidatos) {
+    const pai = pessoaMap[paiId];
+    if (!pai || pai.protegida) continue;
+    const anoPai = getAno((pai as Pessoa).nascimento?.data ?? (pai as Pessoa).baptismo?.data);
+    if (!anoPai) continue;
+    const idade = anoFirstFilho - anoPai;
+    if (idade < 12 || idade > 85) continue;
+
+    const registo: RegisoPai = {
+      id: paiId,
+      nome: (pai as Pessoa).nome ?? null,
+      idade,
+      anoFilho: anoFirstFilho,
+      anoNasc: anoPai,
+      filhoNome: firstFilhoId ? getNome(firstFilhoId) : null,
+    };
+
+    if (sexo === 'M') {
+      if (!maisVelhoPaiM || idade > maisVelhoPaiM.idade) maisVelhoPaiM = registo;
+      if (!maisNovoPaiM || idade < maisNovoPaiM.idade) maisNovoPaiM = registo;
+    } else {
+      if (!maisVelhoPaiF || idade > maisVelhoPaiF.idade) maisVelhoPaiF = registo;
+      if (!maisNovoPaiF || idade < maisNovoPaiF.idade) maisNovoPaiF = registo;
+    }
+  }
+}
+
+// ─── Pessoa mais longeva ───────────────────────────────────────────────────────
+
+type PessoaLongeva = { id: string; nome: string | null; anoNasc: number; anoObit: number; idade: number };
+let pessoaMaisVelha: PessoaLongeva | null = null;
+for (const p of publicas) {
+  const anoN = getAno(p.nascimento?.data);
+  const anoO = getAno(p.obito?.data);
+  if (!anoN || !anoO) continue;
+  const idade = anoO - anoN;
+  if (idade < 0 || idade > 125) continue;
+  if (!pessoaMaisVelha || idade > pessoaMaisVelha.idade)
+    pessoaMaisVelha = { id: p.id, nome: p.nome ?? null, anoNasc: anoN, anoObit: anoO, idade };
+}
+
+// ─── Casamento mais longevo ────────────────────────────────────────────────────
+
+type CasLongevo = { familiaId: string; paiId: string | null; maeId: string | null; paiNome: string | null; maeNome: string | null; anoCas: number; duracao: number };
+let casamentoLongevo: CasLongevo | null = null;
+for (const f of todasFamilias) {
+  const anoCas = getAno(f.casamento?.data);
+  if (!anoCas) continue;
+  const anosObit = [f.pai, f.mae].filter(Boolean).map((pid) => {
+    const p = pessoaMap[pid!];
+    return p ? getAno((p as Pessoa).obito?.data) : null;
+  }).filter((a): a is number => a !== null);
+  if (!anosObit.length) continue;
+  const fimCas = Math.min(...anosObit);
+  const duracao = fimCas - anoCas;
+  if (duracao <= 0 || duracao > 100) continue;
+  if (!casamentoLongevo || duracao > casamentoLongevo.duracao) {
+    casamentoLongevo = {
+      familiaId: f.id,
+      paiId: f.pai,
+      maeId: f.mae,
+      paiNome: getNome(f.pai),
+      maeNome: getNome(f.mae),
+      anoCas,
+      duracao,
+    };
+  }
+}
+
+// ─── Apelidos mais comuns ──────────────────────────────────────────────────────
+
+const apelidosCount: Record<string, number> = {};
+for (const p of publicas) {
+  if (p.apelido) apelidosCount[p.apelido] = (apelidosCount[p.apelido] ?? 0) + 1;
+}
+const topApelidos = Object.entries(apelidosCount).sort((a, b) => b[1] - a[1]).slice(0, 12);
+const maxApelido = topApelidos[0]?.[1] ?? 1;
+
+// ─── Nomes próprios mais comuns ────────────────────────────────────────────────
+
+const nomesPropriosCount: Record<string, number> = {};
+for (const p of publicas) {
+  if (p.nome_proprio) nomesPropriosCount[p.nome_proprio] = (nomesPropriosCount[p.nome_proprio] ?? 0) + 1;
+}
+const topNomesProprios = Object.entries(nomesPropriosCount).sort((a, b) => b[1] - a[1]).slice(0, 12);
+const maxNomeProprio = topNomesProprios[0]?.[1] ?? 1;
+
+// ─── Locais de nascimento mais comuns (agrupados à freguesia) ─────────────────
+
+// Encontra o ancestral ao nível de freguesia (profundidade 3: lugar > concelho > distrito > país)
+function getFreguesia(lid: string): string {
+  let cur = lugaresMap[lid];
+  if (!cur) return lid;
+  // calcular profundidade
+  let depth = 0;
+  let tmp = cur;
+  while (tmp.pai_id) { depth++; tmp = lugaresMap[tmp.pai_id] ?? { id: '', pai_id: null, nome: null, tipo: null, lat: null, lon: null }; }
+  // subir até depth 3 (freguesia)
+  cur = lugaresMap[lid];
+  let d = depth;
+  while (d > 3 && cur.pai_id) {
+    cur = lugaresMap[cur.pai_id];
+    d--;
+  }
+  return cur.id;
+}
+
+const lugarNascCount: Record<string, number> = {};
+for (const p of publicas) {
+  const lid = p.nascimento?.lugar_id;
+  if (lid) {
+    const fid = getFreguesia(lid);
+    lugarNascCount[fid] = (lugarNascCount[fid] ?? 0) + 1;
+  }
+}
+const topLugares = Object.entries(lugarNascCount)
+  .sort((a, b) => b[1] - a[1])
+  .slice(0, 10)
+  .map(([lid, count]) => {
+    const lugar = lugaresMap[lid] ?? null;
+    const pai = lugar?.pai_id ? lugaresMap[lugar.pai_id] : null;
+    const label = pai?.nome && pai.pai_id ? `${lugar?.nome}, ${pai.nome}` : lugar?.nome ?? lid;
+    return { id: lid, label, count };
+  });
+const maxLugar = topLugares[0]?.count ?? 1;
+
+// ─── Profissões ───────────────────────────────────────────────────────────────
+
+const profissoesCount: Record<string, number> = {};
+for (const p of publicas) {
+  if (p.profissao) profissoesCount[p.profissao] = (profissoesCount[p.profissao] ?? 0) + 1;
+}
+const topProfissoes = Object.entries(profissoesCount).sort((a, b) => b[1] - a[1]).slice(0, 10);
+const maxProfissao = topProfissoes[0]?.[1] ?? 1;
+
+// ─── Esperança de vida por século ─────────────────────────────────────────────
+
+const vidaPorSeculo: Record<number, { total: number; count: number }> = {};
+for (const p of publicas) {
+  const anoN = getAno(p.nascimento?.data);
+  const anoO = getAno(p.obito?.data);
+  if (!anoN || !anoO) continue;
+  const idade = anoO - anoN;
+  if (idade < 1 || idade > 120) continue;
+  const sec = Math.ceil(anoN / 100);
+  if (!vidaPorSeculo[sec]) vidaPorSeculo[sec] = { total: 0, count: 0 };
+  vidaPorSeculo[sec].total += idade;
+  vidaPorSeculo[sec].count++;
+}
+const mediaVidaSeculo = Object.entries(vidaPorSeculo)
+  .filter(([, v]) => v.count >= 5)
+  .sort(([a], [b]) => parseInt(a) - parseInt(b))
+  .map(([sec, v]) => ({ seculo: parseInt(sec), media: Math.round(v.total / v.count), count: v.count }));
+const maxMedia = Math.max(...mediaVidaSeculo.map((s) => s.media), 1);
+
+// ─── Números de famílias com casamento registado ───────────────────────────────
+const famComCasamento = todasFamilias.filter((f) => f.casamento?.data).length;
+const pessoasComFoto = publicas.filter((p) => p.media && p.media.length > 0).length;
+---
+
+<Base titulo="Estatísticas" descricao="Estatísticas e curiosidades sobre a árvore genealógica Franquinho.info">
+  <div class="max-w-5xl mx-auto px-6 py-12">
+
+    <!-- Cabeçalho -->
+    <div class="mb-10">
+      <h1 class="text-3xl font-bold text-stone-800 mb-2">Estatísticas</h1>
+      <p class="text-stone-500">Uma análise numérica da árvore genealógica</p>
+    </div>
+
+    <!-- Visão geral -->
+    <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-10">
+      {[
+        { valor: todasPessoas.length, label: 'Total de pessoas' },
+        { valor: totalFamilias, label: 'Famílias' },
+        { valor: famComCasamento, label: 'Casamentos registados' },
+        { valor: publicas.length, label: `Perfis públicos (${protegidas.length} privados)` },
+      ].map(({ valor, label }) => (
+        <div class="bg-amber-50 border border-amber-100 rounded-xl p-4 text-center">
+          <div class="text-3xl font-bold text-amber-700">{valor}</div>
+          <div class="text-sm text-stone-500 mt-1">{label}</div>
+        </div>
+      ))}
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
+
+      <!-- Distribuição por sexo -->
+      <div class="bg-white border border-stone-200 rounded-xl p-6">
+        <h2 class="text-lg font-semibold text-stone-700 mb-5">Distribuição por sexo</h2>
+        <div class="flex items-center gap-8">
+          <!-- Pie chart via conic-gradient -->
+          <div
+            class="w-32 h-32 rounded-full flex-shrink-0"
+            style={`background: conic-gradient(#d97706 0% ${pctM}%, #92400e ${pctM}% ${pctM + pctF}%, #d6d3d1 ${pctM + pctF}% 100%)`}
+          />
+          <div class="flex flex-col gap-3 text-sm">
+            <div class="flex items-center gap-2">
+              <span class="w-3 h-3 rounded-sm bg-amber-600 inline-block flex-shrink-0" />
+              <span class="text-stone-600">Homens</span>
+              <span class="ml-auto font-semibold text-stone-800">{sexos.M} <span class="font-normal text-stone-400">({pctM}%)</span></span>
+            </div>
+            <div class="flex items-center gap-2">
+              <span class="w-3 h-3 rounded-sm bg-amber-900 inline-block flex-shrink-0" />
+              <span class="text-stone-600">Mulheres</span>
+              <span class="ml-auto font-semibold text-stone-800">{sexos.F} <span class="font-normal text-stone-400">({pctF}%)</span></span>
+            </div>
+            {sexos.U > 0 && (
+              <div class="flex items-center gap-2">
+                <span class="w-3 h-3 rounded-sm bg-stone-300 inline-block flex-shrink-0" />
+                <span class="text-stone-600">Desconhecido</span>
+                <span class="ml-auto font-semibold text-stone-800">{sexos.U} <span class="font-normal text-stone-400">({pctU}%)</span></span>
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+
+      <!-- Esperança de vida por século -->
+      <div class="bg-white border border-stone-200 rounded-xl p-6">
+        <h2 class="text-lg font-semibold text-stone-700 mb-5">Idade média ao óbito por século</h2>
+        <div class="flex flex-col gap-2">
+          {mediaVidaSeculo.map(({ seculo, media, count }) => (
+            <div class="flex items-center gap-3 text-sm">
+              <span class="w-14 text-stone-500 text-right flex-shrink-0">séc. {seculo < 0 ? `${Math.abs(seculo - 1)} a.C.` : seculo}</span>
+              <div class="flex-1 bg-stone-100 rounded-full h-5 relative overflow-hidden">
+                <div
+                  class="h-full bg-amber-400 rounded-full"
+                  style={`width: ${Math.round((media / maxMedia) * 100)}%`}
+                />
+                <span class="absolute inset-0 flex items-center px-2 text-xs font-medium text-stone-700">{media} anos</span>
+              </div>
+              <span class="w-12 text-stone-400 text-xs flex-shrink-0">({count})</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+
+    <!-- Nascimentos e óbitos por década -->
+    <div class="bg-white border border-stone-200 rounded-xl p-6 mb-10">
+      <h2 class="text-lg font-semibold text-stone-700 mb-6">Nascimentos e óbitos por década</h2>
+      <div class="flex gap-4 mb-3 text-xs text-stone-500">
+        <span class="flex items-center gap-1.5"><span class="w-3 h-3 rounded-sm bg-amber-500 inline-block"/> Nascimentos</span>
+        <span class="flex items-center gap-1.5"><span class="w-3 h-3 rounded-sm bg-stone-400 inline-block"/> Óbitos</span>
+      </div>
+      <div class="overflow-x-auto">
+        <div class="flex items-end gap-1 min-w-max" style="height: 160px;">
+          {dadosDecadas.map(({ decada, nasc, obit }) => (
+            <div class="flex flex-col items-center gap-0.5" style="width: 32px;">
+              <div class="flex items-end gap-0.5 w-full" style="height: 140px;">
+                <div
+                  class="flex-1 bg-amber-400 rounded-t-sm"
+                  style={`height: ${Math.round((nasc / maxDecada) * 140)}px; min-height: ${nasc > 0 ? 2 : 0}px`}
+                  title={`${nasc} nascimentos`}
+                />
+                <div
+                  class="flex-1 bg-stone-400 rounded-t-sm"
+                  style={`height: ${Math.round((obit / maxDecada) * 140)}px; min-height: ${obit > 0 ? 2 : 0}px`}
+                  title={`${obit} óbitos`}
+                />
+              </div>
+              <span class="text-stone-400 text-center leading-tight" style="font-size: 9px; writing-mode: vertical-rl; transform: rotate(180deg); height: 36px;">{decada}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+
+    <!-- Recordes familiares -->
+    <h2 class="text-xl font-semibold text-stone-700 mb-4">Recordes familiares</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
+
+      {familiaRecord && (
+        <div class="bg-white border border-stone-200 rounded-xl p-5">
+          <div class="flex items-start gap-3">
+            <div class="text-2xl flex-shrink-0">👨‍👩‍👧‍👦</div>
+            <div>
+              <div class="text-xs font-semibold uppercase tracking-wide text-amber-600 mb-1">Família com mais filhos</div>
+              <div class="font-semibold text-stone-800">
+                {familiaRecordPai && familiaRecordMae
+                  ? `${familiaRecordPai} & ${familiaRecordMae}`
+                  : familiaRecordPai ?? familiaRecordMae ?? 'Família desconhecida'}
+              </div>
+              <div class="text-stone-500 text-sm mt-0.5">{familiaRecord.filhos!.length} filhos</div>
+              {familiaRecord.casamento?.data && (
+                <div class="text-stone-400 text-xs mt-0.5">Casados em {getAno(familiaRecord.casamento.data)}</div>
+              )}
+            </div>
+          </div>
+        </div>
+      )}
+
+      {pessoaMaisVelha && (
+        <div class="bg-white border border-stone-200 rounded-xl p-5">
+          <div class="flex items-start gap-3">
+            <div class="text-2xl flex-shrink-0">🧓</div>
+            <div>
+              <div class="text-xs font-semibold uppercase tracking-wide text-amber-600 mb-1">Pessoa mais longeva</div>
+              <a href={`/pessoas/${pessoaMaisVelha.id}`} class="font-semibold text-stone-800 hover:text-amber-700 transition-colors">
+                {pessoaMaisVelha.nome ?? 'Desconhecido'}
+              </a>
+              <div class="text-stone-500 text-sm mt-0.5">{pessoaMaisVelha.idade} anos</div>
+              <div class="text-stone-400 text-xs mt-0.5">{pessoaMaisVelha.anoNasc} — {pessoaMaisVelha.anoObit}</div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {casamentoLongevo && (
+        <div class="bg-white border border-stone-200 rounded-xl p-5">
+          <div class="flex items-start gap-3">
+            <div class="text-2xl flex-shrink-0">💍</div>
+            <div>
+              <div class="text-xs font-semibold uppercase tracking-wide text-amber-600 mb-1">Casamento mais longevo</div>
+              <div class="font-semibold text-stone-800 leading-snug">
+                {casamentoLongevo.paiId && casamentoLongevo.paiNome
+                  ? <a href={`/pessoas/${casamentoLongevo.paiId}`} class="hover:text-amber-700 transition-colors">{casamentoLongevo.paiNome}</a>
+                  : <span>{casamentoLongevo.paiNome ?? 'Desconhecido'}</span>}
+                {' & '}
+                {casamentoLongevo.maeId && casamentoLongevo.maeNome
+                  ? <a href={`/pessoas/${casamentoLongevo.maeId}`} class="hover:text-amber-700 transition-colors">{casamentoLongevo.maeNome}</a>
+                  : <span>{casamentoLongevo.maeNome ?? 'Desconhecida'}</span>}
+              </div>
+              <div class="text-stone-500 text-sm mt-0.5">{casamentoLongevo.duracao} anos de casamento</div>
+              <div class="text-stone-400 text-xs mt-0.5">Casados em {casamentoLongevo.anoCas}</div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {maisVelhoPaiM && (
+        <div class="bg-white border border-stone-200 rounded-xl p-5">
+          <div class="flex items-start gap-3">
+            <div class="text-2xl flex-shrink-0">👴</div>
+            <div>
+              <div class="text-xs font-semibold uppercase tracking-wide text-amber-600 mb-1">Pai mais velho ao nascimento do 1.º filho</div>
+              <a href={`/pessoas/${maisVelhoPaiM.id}`} class="font-semibold text-stone-800 hover:text-amber-700 transition-colors">
+                {maisVelhoPaiM.nome ?? 'Desconhecido'}
+              </a>
+              <div class="text-stone-500 text-sm mt-0.5">{maisVelhoPaiM.idade} anos</div>
+              {maisVelhoPaiM.filhoNome && (
+                <div class="text-stone-400 text-xs mt-0.5">1.º filho: {maisVelhoPaiM.filhoNome} ({maisVelhoPaiM.anoFilho})</div>
+              )}
+            </div>
+          </div>
+        </div>
+      )}
+
+      {maisVelhoPaiF && (
+        <div class="bg-white border border-stone-200 rounded-xl p-5">
+          <div class="flex items-start gap-3">
+            <div class="text-2xl flex-shrink-0">👵</div>
+            <div>
+              <div class="text-xs font-semibold uppercase tracking-wide text-amber-600 mb-1">Mãe mais velha ao nascimento do 1.º filho</div>
+              <a href={`/pessoas/${maisVelhoPaiF.id}`} class="font-semibold text-stone-800 hover:text-amber-700 transition-colors">
+                {maisVelhoPaiF.nome ?? 'Desconhecida'}
+              </a>
+              <div class="text-stone-500 text-sm mt-0.5">{maisVelhoPaiF.idade} anos</div>
+              {maisVelhoPaiF.filhoNome && (
+                <div class="text-stone-400 text-xs mt-0.5">1.º filho: {maisVelhoPaiF.filhoNome} ({maisVelhoPaiF.anoFilho})</div>
+              )}
+            </div>
+          </div>
+        </div>
+      )}
+
+      {maisNovoPaiM && (
+        <div class="bg-white border border-stone-200 rounded-xl p-5">
+          <div class="flex items-start gap-3">
+            <div class="text-2xl flex-shrink-0">👦</div>
+            <div>
+              <div class="text-xs font-semibold uppercase tracking-wide text-amber-600 mb-1">Pai mais novo ao nascimento do 1.º filho</div>
+              <a href={`/pessoas/${maisNovoPaiM.id}`} class="font-semibold text-stone-800 hover:text-amber-700 transition-colors">
+                {maisNovoPaiM.nome ?? 'Desconhecido'}
+              </a>
+              <div class="text-stone-500 text-sm mt-0.5">{maisNovoPaiM.idade} anos</div>
+              {maisNovoPaiM.filhoNome && (
+                <div class="text-stone-400 text-xs mt-0.5">1.º filho: {maisNovoPaiM.filhoNome} ({maisNovoPaiM.anoFilho})</div>
+              )}
+            </div>
+          </div>
+        </div>
+      )}
+
+      {maisNovoPaiF && (
+        <div class="bg-white border border-stone-200 rounded-xl p-5">
+          <div class="flex items-start gap-3">
+            <div class="text-2xl flex-shrink-0">👧</div>
+            <div>
+              <div class="text-xs font-semibold uppercase tracking-wide text-amber-600 mb-1">Mãe mais nova ao nascimento do 1.º filho</div>
+              <a href={`/pessoas/${maisNovoPaiF.id}`} class="font-semibold text-stone-800 hover:text-amber-700 transition-colors">
+                {maisNovoPaiF.nome ?? 'Desconhecida'}
+              </a>
+              <div class="text-stone-500 text-sm mt-0.5">{maisNovoPaiF.idade} anos</div>
+              {maisNovoPaiF.filhoNome && (
+                <div class="text-stone-400 text-xs mt-0.5">1.º filho: {maisNovoPaiF.filhoNome} ({maisNovoPaiF.anoFilho})</div>
+              )}
+            </div>
+          </div>
+        </div>
+      )}
+
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
+
+      <!-- Apelidos mais comuns -->
+      <div class="bg-white border border-stone-200 rounded-xl p-6">
+        <h2 class="text-lg font-semibold text-stone-700 mb-5">Apelidos mais comuns</h2>
+        <div class="flex flex-col gap-2">
+          {topApelidos.map(([apelido, count]) => (
+            <div class="flex items-center gap-3 text-sm">
+              <span class="w-32 truncate text-stone-700 font-medium">{apelido}</span>
+              <div class="flex-1 bg-stone-100 rounded-full h-4 overflow-hidden">
+                <div class="h-full bg-amber-400 rounded-full" style={`width: ${Math.round((count / maxApelido) * 100)}%`} />
+              </div>
+              <span class="w-6 text-right text-stone-500">{count}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <!-- Nomes próprios mais comuns -->
+      <div class="bg-white border border-stone-200 rounded-xl p-6">
+        <h2 class="text-lg font-semibold text-stone-700 mb-5">Nomes próprios mais comuns</h2>
+        <div class="flex flex-col gap-2">
+          {topNomesProprios.map(([nome, count]) => (
+            <div class="flex items-center gap-3 text-sm">
+              <span class="w-32 truncate text-stone-700 font-medium">{nome}</span>
+              <div class="flex-1 bg-stone-100 rounded-full h-4 overflow-hidden">
+                <div class="h-full bg-amber-400 rounded-full" style={`width: ${Math.round((count / maxNomeProprio) * 100)}%`} />
+              </div>
+              <span class="w-6 text-right text-stone-500">{count}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
+
+      <!-- Profissões mais comuns -->
+      <div class="bg-white border border-stone-200 rounded-xl p-6">
+        <h2 class="text-lg font-semibold text-stone-700 mb-5">Profissões mais comuns</h2>
+        {topProfissoes.length > 0 ? (
+          <div class="flex flex-col gap-2">
+            {topProfissoes.map(([prof, count]) => (
+              <div class="flex items-center gap-3 text-sm">
+                <span class="w-36 truncate text-stone-700 font-medium">{prof}</span>
+                <div class="flex-1 bg-stone-100 rounded-full h-4 overflow-hidden">
+                  <div class="h-full bg-amber-400 rounded-full" style={`width: ${Math.round((count / maxProfissao) * 100)}%`} />
+                </div>
+                <span class="w-6 text-right text-stone-500">{count}</span>
+              </div>
+            ))}
+          </div>
+        ) : (
+          <p class="text-stone-400 text-sm">Sem dados de profissão.</p>
+        )}
+      </div>
+    </div>
+
+    <!-- Locais de nascimento -->
+    <div class="bg-white border border-stone-200 rounded-xl p-6 mb-10">
+      <h2 class="text-lg font-semibold text-stone-700 mb-5">Locais de nascimento mais comuns</h2>
+      <div class="flex flex-col gap-2">
+        {topLugares.map(({ label, count }) => (
+          <div class="flex items-center gap-3 text-sm">
+            <span class="w-48 truncate text-stone-700 font-medium">{label}</span>
+            <div class="flex-1 bg-stone-100 rounded-full h-4 overflow-hidden">
+              <div class="h-full bg-amber-400 rounded-full" style={`width: ${Math.round((count / maxLugar) * 100)}%`} />
+            </div>
+            <span class="w-8 text-right text-stone-500">{count}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+
+  </div>
+</Base>

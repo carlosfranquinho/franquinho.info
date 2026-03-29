@@ -1,0 +1,230 @@
+---
+import { readFileSync, readdirSync } from 'fs';
+import { resolve } from 'path';
+import Base from '../../layouts/Base.astro';
+import type { Lugar, Pessoa } from '../../types';
+
+const lugares: Lugar[] = JSON.parse(readFileSync(resolve('src/data/lugares.json'), 'utf-8'));
+const lugaresMap: Record<string, Lugar> = Object.fromEntries(lugares.map((l) => [l.id, l]));
+
+// ─── Contagem de pessoas por lugar ────────────────────────────────────────────
+
+const contagemDireta: Record<string, number> = {};
+const pessoasDir = resolve('src/data/pessoas');
+for (const f of readdirSync(pessoasDir)) {
+  if (!f.endsWith('.json')) continue;
+  const p: Pessoa = JSON.parse(readFileSync(resolve(pessoasDir, f), 'utf-8'));
+  if (p.protegida) continue;
+  for (const lid of [p.nascimento?.lugar_id, p.obito?.lugar_id, p.baptismo?.lugar_id, p.sepultura?.lugar_id]) {
+    if (lid) contagemDireta[lid] = (contagemDireta[lid] ?? 0) + 1;
+  }
+}
+
+function totalComFilhos(lid: string): number {
+  const filhos = lugares.filter((l) => l.pai_id === lid);
+  return (contagemDireta[lid] ?? 0) + filhos.reduce((s, f) => s + totalComFilhos(f.id), 0);
+}
+
+// ─── Derivar profundidade ──────────────────────────────────────────────────────
+
+function profundidade(lid: string): number {
+  let d = 0, cur = lugaresMap[lid];
+  while (cur?.pai_id) { d++; cur = lugaresMap[cur.pai_id]; }
+  return d;
+}
+
+// ─── Estrutura: país > distrito > município > freguesias ──────────────────────
+
+type Freguesia   = { lugar: Lugar; total: number };
+type Municipio   = { lugar: Lugar; total: number; freguesias: Freguesia[] };
+type Distrito    = { lugar: Lugar; total: number; municipios: Municipio[] };
+type Pais        = { lugar: Lugar; total: number; distritos: Distrito[] };
+
+// Apenas Portugal como nó de topo (os outros países têm poucos registos)
+const raizes = lugares.filter((l) => !l.pai_id || !lugaresMap[l.pai_id]);
+
+function buildPais(pais: Lugar): Pais {
+  const distritos = lugares
+    .filter((l) => l.pai_id === pais.id)
+    .map((d): Distrito => {
+      const municipios = lugares
+        .filter((l) => l.pai_id === d.id)
+        .map((m): Municipio => {
+          const freguesias = lugares
+            .filter((l) => l.pai_id === m.id)
+            .map((fr): Freguesia => ({ lugar: fr, total: totalComFilhos(fr.id) }))
+            .filter((fr) => fr.total > 0)
+            .sort((a, b) => b.total - a.total);
+          const totalMunic = totalComFilhos(m.id);
+          return { lugar: m, total: totalMunic, freguesias };
+        })
+        .filter((m) => m.total > 0)
+        .sort((a, b) => b.total - a.total);
+      return { lugar: d, total: totalComFilhos(d.id), municipios };
+    })
+    .filter((d) => d.total > 0)
+    .sort((a, b) => b.total - a.total);
+  return { lugar: pais, total: totalComFilhos(pais.id), distritos };
+}
+
+// Países reais (com pai_id nulo e nome limpo)
+const paisesReais = lugares.filter((l) => {
+  if (l.pai_id) return false;
+  // ignorar entradas com vírgula no nome (artefactos do Gramps)
+  return !(l.nome ?? '').includes(',');
+});
+
+const arvore = paisesReais
+  .map(buildPais)
+  .filter((p) => p.total > 0)
+  .sort((a, b) => b.total - a.total);
+
+// ─── Top freguesias para destaques ────────────────────────────────────────────
+
+type FreguesiaFlat = { lugar: Lugar; total: number; municipio: Lugar | null; distrito: Lugar | null };
+const todasFreguesias: FreguesiaFlat[] = [];
+for (const l of lugares) {
+  if (profundidade(l.id) === 3) {
+    const t = totalComFilhos(l.id);
+    if (t === 0) continue;
+    const municipio = l.pai_id ? lugaresMap[l.pai_id] ?? null : null;
+    const distrito = municipio?.pai_id ? lugaresMap[municipio.pai_id] ?? null : null;
+    todasFreguesias.push({ lugar: l, total: t, municipio, distrito });
+  }
+}
+todasFreguesias.sort((a, b) => b.total - a.total);
+const destaques = todasFreguesias.slice(0, 6);
+
+// Totais globais
+const totalPessoas = Object.values(contagemDireta).reduce((s, n) => s + n, 0);
+const totalFreguesias = todasFreguesias.length;
+---
+
+<Base titulo="Lugares" descricao="Lugares referenciados na árvore genealógica Franquinho.info">
+  <div class="max-w-5xl mx-auto px-6 py-12">
+
+    <!-- Cabeçalho -->
+    <div class="mb-10">
+      <h1 class="text-3xl font-bold text-stone-800 mb-2">Lugares</h1>
+      <p class="text-stone-500">
+        <span class="font-medium text-stone-700">{totalFreguesias}</span> freguesias com registos
+        &nbsp;·&nbsp;
+        <span class="font-medium text-stone-700">{totalPessoas}</span> pessoas associadas
+      </p>
+    </div>
+
+    <!-- Destaques: top freguesias -->
+    <div class="mb-12">
+      <h2 class="text-xs font-semibold uppercase tracking-widest text-stone-400 mb-4">Freguesias com mais registos</h2>
+      <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
+        {destaques.map(({ lugar, total, municipio, distrito }, i) => (
+          <a
+            href={`/lugares/${lugar.id}`}
+            class:list={[
+              'group relative flex flex-col justify-between p-4 rounded-xl border transition-all',
+              i === 0
+                ? 'border-amber-300 bg-amber-50 hover:border-amber-400 hover:shadow-md'
+                : 'border-stone-200 bg-white hover:border-amber-300 hover:shadow-sm',
+            ]}
+          >
+            <div>
+              <span class:list={[
+                'block font-semibold leading-tight mb-1 group-hover:text-amber-700 transition-colors',
+                i === 0 ? 'text-amber-800 text-lg' : 'text-stone-800',
+              ]}>
+                {lugar.nome}
+              </span>
+              <span class="block text-xs text-stone-400">
+                {municipio?.nome}{distrito?.nome ? `, ${distrito.nome}` : ''}
+              </span>
+            </div>
+            <span class:list={[
+              'mt-3 self-start text-xs font-semibold px-2 py-0.5 rounded-full',
+              i === 0
+                ? 'bg-amber-200 text-amber-800'
+                : 'bg-stone-100 text-stone-500',
+            ]}>
+              {total} pessoas
+            </span>
+          </a>
+        ))}
+      </div>
+    </div>
+
+    <!-- Árvore por país > distrito > município > freguesia -->
+    <div class="space-y-10">
+      {arvore.map((pais) => (
+        <div>
+          <!-- País -->
+          <div class="flex items-center gap-3 mb-6">
+            <h2 class="text-xl font-bold text-stone-800">{pais.lugar.nome}</h2>
+            <span class="text-sm text-stone-400">{pais.total} pessoas</span>
+            <div class="flex-1 border-t border-stone-200" />
+          </div>
+
+          <div class="space-y-8">
+            {pais.distritos.map((distrito) => (
+              <div>
+                <!-- Distrito -->
+                <h3 class="text-sm font-semibold text-stone-500 uppercase tracking-wide mb-4">
+                  {distrito.lugar.nome}
+                  <span class="ml-2 normal-case font-normal text-stone-300">{distrito.total}</span>
+                </h3>
+
+                <div class="space-y-5">
+                  {distrito.municipios.map((municipio) => (
+                    <div>
+                      <!-- Município -->
+                      <div class="flex items-center gap-2 mb-2">
+                        <a
+                          href={`/lugares/${municipio.lugar.id}`}
+                          class="text-sm font-semibold text-stone-600 hover:text-amber-700 transition-colors"
+                        >
+                          {municipio.lugar.nome}
+                        </a>
+                        <span class="text-xs text-stone-300">{municipio.total}</span>
+                        <div class="flex-1 border-t border-stone-100" />
+                      </div>
+
+                      <!-- Freguesias -->
+                      <div class="flex flex-wrap gap-2">
+                        {municipio.freguesias.map(({ lugar, total }) => (
+                          <a
+                            href={`/lugares/${lugar.id}`}
+                            class="group flex items-center gap-2 px-3 py-1.5 rounded-lg border border-stone-200 bg-white hover:border-amber-400 hover:shadow-sm transition-all"
+                          >
+                            <span class="text-sm text-stone-700 group-hover:text-amber-700 transition-colors font-medium">
+                              {lugar.nome}
+                            </span>
+                            <span class="text-xs bg-amber-50 text-amber-600 font-semibold px-1.5 py-0.5 rounded-full">
+                              {total}
+                            </span>
+                          </a>
+                        ))}
+                        {/* Município sem sub-freguesias mas com pessoas diretas */}
+                        {municipio.freguesias.length === 0 && (
+                          <a
+                            href={`/lugares/${municipio.lugar.id}`}
+                            class="group flex items-center gap-2 px-3 py-1.5 rounded-lg border border-stone-200 bg-white hover:border-amber-400 hover:shadow-sm transition-all"
+                          >
+                            <span class="text-sm text-stone-700 group-hover:text-amber-700 transition-colors font-medium">
+                              {municipio.lugar.nome}
+                            </span>
+                            <span class="text-xs bg-amber-50 text-amber-600 font-semibold px-1.5 py-0.5 rounded-full">
+                              {municipio.total}
+                            </span>
+                          </a>
+                        )}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      ))}
+    </div>
+
+  </div>
+</Base>

@@ -1,0 +1,26 @@
+---
+import type { Lugar } from '../types';
+
+interface Props {
+  lugar: Lugar | null | undefined;
+  lugaresMap?: Record<string, Lugar>;
+  class?: string;
+}
+
+const { lugar, lugaresMap, class: className } = Astro.props;
+
+if (!lugar) return;
+
+const nome = lugar.nome ?? lugar.id;
+const pai = lugar.pai_id && lugaresMap ? lugaresMap[lugar.pai_id] : null;
+// Não mostrar o pai se for raiz (país) — pai do pai seria null
+const mostrarPai = pai && pai.nome && pai.pai_id;
+const label = mostrarPai ? `${nome}, ${pai.nome}` : nome;
+---
+
+<a
+  href={`/lugares/${lugar.id}`}
+  class:list={['text-amber-700 hover:underline hover:text-amber-900 transition-colors', className]}
+>
+  {label}
+</a>

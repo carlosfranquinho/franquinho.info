@@ -1,0 +1,93 @@
+---
+interface Props {
+  titulo: string;
+  descricao?: string;
+  noindex?: boolean;
+}
+
+const { titulo, descricao = '', noindex = false } = Astro.props;
+const siteName = 'Franquinho.info';
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+
+const navLinks = [
+  { href: '/',         label: 'Início'   },
+  { href: '/arvore',   label: 'Árvore'   },
+  { href: '/pessoas',  label: 'Pessoas'  },
+  { href: '/lugares',  label: 'Lugares'  },
+  { href: '/arquivo',  label: 'Arquivo'  },
+  { href: '/pesquisa',     label: 'Pesquisa'    },
+  { href: '/estatisticas', label: 'Estatísticas' },
+];
+
+const pathname = Astro.url.pathname.replace(/\/$/, '') || '/';
+---
+
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{titulo === 'Inicio' ? siteName : `${titulo} — ${siteName}`}</title>
+    {descricao && <meta name="description" content={descricao} />}
+    {noindex && <meta name="robots" content="noindex, nofollow" />}
+    <link rel="canonical" href={canonicalURL} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  </head>
+  <body class="min-h-screen bg-white text-stone-800 font-serif antialiased">
+
+    <!-- NAVEGAÇÃO -->
+    <header class="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-stone-100">
+      <div class="max-w-7xl mx-auto px-6 h-14 flex items-center justify-between gap-6">
+
+        <a href="/" class="text-sm font-bold tracking-widest uppercase text-stone-900 hover:text-amber-700 transition-colors shrink-0">
+          {siteName}
+        </a>
+
+        <nav class="hidden sm:block">
+          <ul class="flex items-center gap-1">
+            {navLinks.map(({ href, label }) => {
+              const ativo = pathname === href || (href !== '/' && pathname.startsWith(href));
+              return (
+                <li>
+                  <a
+                    href={href}
+                    class:list={[
+                      'px-3 py-1.5 rounded text-sm transition-colors',
+                      ativo
+                        ? 'bg-stone-900 text-white font-medium'
+                        : 'text-stone-500 hover:text-stone-900 hover:bg-stone-50',
+                    ]}
+                  >
+                    {label}
+                  </a>
+                </li>
+              );
+            })}
+          </ul>
+        </nav>
+
+        <!-- Mobile: menu simples -->
+        <div class="sm:hidden flex gap-2 overflow-x-auto text-xs">
+          {navLinks.slice(1).map(({ href, label }) => (
+            <a href={href} class="text-stone-500 hover:text-stone-900 shrink-0">{label}</a>
+          ))}
+        </div>
+
+      </div>
+    </header>
+
+    <main data-pagefind-body={noindex ? undefined : true}>
+      <slot />
+    </main>
+    <!-- Margem inferior para páginas que não têm secção final com padding próprio -->
+    <div class="min-h-[1px]"></div>
+
+    <footer class="mt-24 border-t border-stone-100 bg-stone-50">
+      <div class="max-w-7xl mx-auto px-6 py-10 flex flex-col sm:flex-row justify-between gap-4 text-xs text-stone-400">
+        <span class="font-semibold tracking-wider uppercase">{siteName}</span>
+        <span>Dados de pessoas vivas ou recentemente falecidas são protegidos por razões de privacidade.</span>
+      </div>
+    </footer>
+
+  </body>
+</html>

@@ -1,0 +1,30 @@
+{
+  "name": "franquinho-info",
+  "type": "module",
+  "version": "0.1.0",
+  "scripts": {
+    "data": "python3 scripts/gramps_to_json.py --input data/arvore.gpkg && python3 scripts/processar_media.py --gpkg data/arvore.gpkg",
+    "dev": "astro dev",
+    "build": "npm run data && astro build && pagefind --site dist",
+    "build:only": "astro build && pagefind --site dist",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@astrojs/react": "^3.6.0",
+    "@astrojs/sitemap": "^3.2.1",
+    "@astrojs/tailwind": "^5.1.3",
+    "@dagrejs/dagre": "^1.1.4",
+    "@xyflow/react": "^12.3.6",
+    "astro": "^4.16.18",
+    "pagefind": "^1.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwindcss": "^3.4.17",
+    "yet-another-react-lightbox": "^3.21.7"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "typescript": "^5.7.3"
+  }
+}

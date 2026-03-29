@@ -1,0 +1,122 @@
+---
+import { readFileSync, readdirSync } from 'fs';
+import { resolve } from 'path';
+import Base from '../../layouts/Base.astro';
+import LugarLink from '../../components/LugarLink.astro';
+import PessoaCard from '../../components/PessoaCard.astro';
+import type { Lugar, Pessoa, PessoaProtegida, MediaItem } from '../../types';
+
+export function getStaticPaths() {
+  const lugares: Lugar[] = JSON.parse(readFileSync(resolve('src/data/lugares.json'), 'utf-8'));
+  return lugares.map((l) => ({ params: { id: l.id } }));
+}
+
+const { id } = Astro.params;
+
+const lugares: Lugar[] = JSON.parse(readFileSync(resolve('src/data/lugares.json'), 'utf-8'));
+const lugaresMap: Record<string, Lugar> = Object.fromEntries(lugares.map((l) => [l.id, l]));
+const lugar = lugaresMap[id];
+
+const mediaList: MediaItem[] = JSON.parse(readFileSync(resolve('src/data/media.json'), 'utf-8'));
+const mediaMap: Record<string, MediaItem> = Object.fromEntries(mediaList.map((m) => [m.id, m]));
+
+// Recolher todos os IDs descendentes deste lugar (recursivo)
+function getDescendantIds(lid: string): Set<string> {
+  const result = new Set<string>([lid]);
+  for (const l of lugares) {
+    if (l.pai_id === lid) {
+      for (const did of getDescendantIds(l.id)) result.add(did);
+    }
+  }
+  return result;
+}
+const lugarIds = getDescendantIds(id);
+
+// Encontrar pessoas associadas a este lugar e todos os seus sub-lugares
+const pessoasDir = resolve('src/data/pessoas');
+const pessoasAssociadas: { pessoa: Pessoa | PessoaProtegida; relacao: string; lugarNome: string | null }[] = [];
+
+for (const ficheiro of readdirSync(pessoasDir)) {
+  if (!ficheiro.endsWith('.json')) continue;
+  const p: Pessoa | PessoaProtegida = JSON.parse(readFileSync(resolve(pessoasDir, ficheiro), 'utf-8'));
+  if (p.protegida) continue;
+  const pp = p as Pessoa;
+  const nascLid = pp.nascimento?.lugar_id;
+  const obitLid = pp.obito?.lugar_id;
+  const baptLid = pp.baptismo?.lugar_id;
+  const sepLid = pp.sepultura?.lugar_id;
+  if (nascLid && lugarIds.has(nascLid)) {
+    const subLugar = nascLid !== id ? lugaresMap[nascLid]?.nome ?? null : null;
+    pessoasAssociadas.push({ pessoa: pp, relacao: 'Nascimento', lugarNome: subLugar });
+  } else if (obitLid && lugarIds.has(obitLid)) {
+    const subLugar = obitLid !== id ? lugaresMap[obitLid]?.nome ?? null : null;
+    pessoasAssociadas.push({ pessoa: pp, relacao: 'Obito', lugarNome: subLugar });
+  } else if (baptLid && lugarIds.has(baptLid)) {
+    const subLugar = baptLid !== id ? lugaresMap[baptLid]?.nome ?? null : null;
+    pessoasAssociadas.push({ pessoa: pp, relacao: 'Baptismo', lugarNome: subLugar });
+  } else if (sepLid && lugarIds.has(sepLid)) {
+    const subLugar = sepLid !== id ? lugaresMap[sepLid]?.nome ?? null : null;
+    pessoasAssociadas.push({ pessoa: pp, relacao: 'Sepultura', lugarNome: subLugar });
+  }
+}
+
+// Lugares filhos diretos (mostrar como subdivisões informativas)
+const lugaresFilhos = lugares.filter((l) => l.pai_id === id);
+const lugarPai = lugar?.pai_id ? lugaresMap[lugar.pai_id] : null;
+---
+
+<Base
+  titulo={lugar?.nome ?? id}
+  descricao={lugar?.nome ? `Pessoas associadas a ${lugar.nome}` : undefined}
+>
+  <div class="max-w-7xl mx-auto px-6 py-10 space-y-8">
+
+    <header class="border-b border-stone-200 pb-4">
+      <div class="flex items-center gap-2 text-sm text-stone-500 mb-2">
+        <a href="/lugares" class="hover:text-amber-700 transition-colors">Lugares</a>
+        {lugarPai && (
+          <>
+            <span>/</span>
+            <LugarLink lugar={lugarPai} lugaresMap={lugaresMap} />
+          </>
+        )}
+      </div>
+      <h1 class="text-2xl font-bold text-stone-800">{lugar?.nome ?? id}</h1>
+      {lugar?.tipo && <p class="text-sm text-stone-500 mt-1">{lugar.tipo}</p>}
+      {lugar?.lat && lugar?.lon && (
+        <p class="text-sm text-stone-400 mt-1">
+          {lugar.lat}, {lugar.lon}
+        </p>
+      )}
+    </header>
+
+    {lugaresFilhos.length > 0 && (
+      <section>
+        <h2 class="text-xs font-semibold text-stone-400 uppercase tracking-wider mb-2">Subdivisoes</h2>
+        <ul class="flex flex-wrap gap-2">
+          {lugaresFilhos.map((l) => (
+            <li>
+              <LugarLink lugar={l} lugaresMap={lugaresMap} class="text-sm border border-amber-200 rounded px-2 py-0.5 hover:bg-amber-50" />
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {pessoasAssociadas.length > 0 ? (
+      <section>
+        <h2 class="text-xs font-semibold text-stone-400 uppercase tracking-wider mb-3">
+          Pessoas ({pessoasAssociadas.length})
+        </h2>
+        <div class="grid sm:grid-cols-2 gap-2">
+          {pessoasAssociadas.map(({ pessoa, relacao, lugarNome }) => (
+            <PessoaCard pessoa={pessoa} mediaMap={mediaMap} relacao={lugarNome ? `${relacao} · ${lugarNome}` : relacao} />
+          ))}
+        </div>
+      </section>
+    ) : (
+      <p class="text-stone-500 text-sm">Nenhuma pessoa publica associada a este lugar.</p>
+    )}
+
+  </div>
+</Base>

@@ -1,0 +1,104 @@
+---
+import type { LugarNode } from '../types';
+
+interface Props {
+  node: LugarNode;
+  nivel: number;
+  maxNivel?: number;
+}
+
+const { node, nivel, maxNivel = 99 } = Astro.props;
+
+const temFilhos = node.filhos.length > 0 && nivel < maxNivel;
+const label = node.nome ?? node.id;
+const abertoInicial = nivel < 2; // países e distritos abertos por omissão
+---
+
+{temFilhos ? (
+  <details open={abertoInicial} class="grupo-lugar">
+    <summary class:list={[
+      'flex items-center gap-2 cursor-pointer select-none list-none group',
+      nivel === 0 && 'py-2 border-b border-stone-100',
+      nivel === 1 && 'py-1.5',
+      nivel >= 2 && 'py-1',
+    ]}>
+      <!-- Seta -->
+      <span class="text-stone-300 group-hover:text-stone-500 transition-colors w-4 text-center text-xs seta-details shrink-0">
+        &#9658;
+      </span>
+
+      <!-- Nome -->
+      <a
+        href={`/lugares/${node.id}`}
+        class:list={[
+          'hover:text-amber-700 transition-colors flex-1 min-w-0',
+          nivel === 0 && 'font-bold text-stone-800',
+          nivel === 1 && 'font-semibold text-stone-700',
+          nivel === 2 && 'font-medium text-stone-600',
+          nivel >= 3 && 'text-stone-500',
+        ]}
+        onclick="event.stopPropagation()"
+      >
+        {label}
+      </a>
+
+      <!-- Contagem -->
+      {node.total_pessoas > 0 && (
+        <span class="text-xs text-stone-300 tabular-nums shrink-0">{node.total_pessoas}</span>
+      )}
+    </summary>
+
+    <!-- Filhos -->
+    <ul class:list={[
+      'border-l border-stone-100',
+      nivel === 0 && 'ml-2 pl-4 mt-1 mb-2',
+      nivel >= 1 && 'ml-2 pl-3',
+    ]}>
+      {node.filhos
+        .sort((a, b) => (a.nome ?? '').localeCompare(b.nome ?? '', 'pt'))
+        .map((filho) => (
+          <li>
+            <Astro.self node={filho} nivel={nivel + 1} maxNivel={maxNivel} />
+          </li>
+        ))
+      }
+    </ul>
+  </details>
+) : (
+  <!-- Folha sem filhos -->
+  <div class:list={[
+    'flex items-center gap-2 py-1 group',
+    nivel >= 3 && 'py-0.5',
+  ]}>
+    <span class="w-4 shrink-0 text-stone-200 text-xs text-center">&#9642;</span>
+    <a
+      href={`/lugares/${node.id}`}
+      class:list={[
+        'flex-1 min-w-0 hover:text-amber-700 transition-colors truncate',
+        nivel === 0 && 'font-bold text-stone-800',
+        nivel === 1 && 'font-semibold text-stone-700',
+        nivel === 2 && 'font-medium text-stone-600',
+        nivel >= 3 && 'text-stone-500 text-sm',
+      ]}
+    >
+      {label}
+    </a>
+    {node.total_pessoas > 0 && (
+      <span class="text-xs text-stone-300 tabular-nums shrink-0">{node.total_pessoas}</span>
+    )}
+  </div>
+)}
+
+<style>
+  /* Rodar a seta quando details está aberto */
+  details[open] > summary .seta-details {
+    transform: rotate(90deg);
+  }
+  .seta-details {
+    display: inline-block;
+    transition: transform 0.15s ease;
+  }
+  /* Remover triângulo nativo do details */
+  summary::-webkit-details-marker { display: none; }
+  summary::marker { display: none; }
+</style>
