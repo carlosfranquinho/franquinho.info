@@ -87,15 +87,25 @@ const pushEv = (label: string, ev: { data: string | null; lugar_id: string | nul
 pushEv('Nascimento', pessoa.nascimento, true);
 pushEv('Baptismo',   pessoa.baptismo);
 for (const f of familiaComoPai) {
+  const outroId = f.pai === id ? f.mae : f.pai;
+  const outro = outroId ? lerPessoa(outroId) : null;
   if (f.casamento?.data) {
-    const outroId = f.pai === id ? f.mae : f.pai;
-    const outro = outroId ? lerPessoa(outroId) : null;
     timeline.push({
       data: f.casamento.data,
       label: `Casamento${outro && !outro.protegida ? ` com ${outro.nome}` : ''}`,
       lugar: f.casamento.lugar_id ? lugaresMap[f.casamento.lugar_id] ?? null : null,
       destaque: true,
       idade: calcularIdade(f.casamento.data),
+    });
+  }
+  // Falecimento do cônjuge
+  if (outro?.obito?.data) {
+    timeline.push({
+      data: outro.obito.data,
+      label: `Falecimento do cônjuge${!outro.protegida ? ` (${outro.nome})` : ''}`,
+      lugar: outro.obito.lugar_id ? lugaresMap[outro.obito.lugar_id] ?? null : null,
+      destaque: false,
+      idade: calcularIdade(outro.obito.data),
     });
   }
   // Nascimentos dos filhos
