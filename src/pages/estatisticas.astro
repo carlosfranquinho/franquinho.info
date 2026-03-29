@@ -83,13 +83,17 @@ const familiaRecord = famOrdenadas[0] ?? null;
 const familiaRecordPai = getNome(familiaRecord?.pai ?? null);
 const familiaRecordMae = getNome(familiaRecord?.mae ?? null);
 
-// ─── Pai/mãe mais velhos e mais novos ao nascimento do primeiro filho ──────────
+// ─── Pai/mãe mais velhos e mais novos ao nascimento do 1.º e último filho ──────
 
 type RegisoPai = { id: string; nome: string | null; idade: number; anoFilho: number; anoNasc: number; filhoNome: string | null };
 let maisVelhoPaiM: RegisoPai | null = null;
 let maisNovoPaiM: RegisoPai | null = null;
 let maisVelhoPaiF: RegisoPai | null = null;
 let maisNovoPaiF: RegisoPai | null = null;
+let maisVelhoPaiMUlt: RegisoPai | null = null;
+let maisNovoPaiMUlt: RegisoPai | null = null;
+let maisVelhoPaiFUlt: RegisoPai | null = null;
+let maisNovoPaiFUlt: RegisoPai | null = null;
 
 for (const f of todasFamilias) {
   const candidatos = [
@@ -108,35 +112,63 @@ for (const f of todasFamilias) {
     .sort((a, b) => a - b);
 
   if (!anosFilhos.length) continue;
+
   const anoFirstFilho = anosFilhos[0];
   const firstFilhoId = filhosIds.find((fid) => {
     const fp = pessoaMap[fid];
     return fp && getAno((fp as Pessoa).nascimento?.data ?? (fp as Pessoa).baptismo?.data) === anoFirstFilho;
-  });
+  }) ?? null;
+
+  const anoLastFilho = anosFilhos[anosFilhos.length - 1];
+  const lastFilhoId = [...filhosIds].reverse().find((fid) => {
+    const fp = pessoaMap[fid];
+    return fp && getAno((fp as Pessoa).nascimento?.data ?? (fp as Pessoa).baptismo?.data) === anoLastFilho;
+  }) ?? null;
 
   for (const { id: paiId, sexo } of candidatos) {
     const pai = pessoaMap[paiId];
     if (!pai || pai.protegida) continue;
     const anoPai = getAno((pai as Pessoa).nascimento?.data ?? (pai as Pessoa).baptismo?.data);
     if (!anoPai) continue;
+
+    // 1.º filho
     const idade = anoFirstFilho - anoPai;
-    if (idade < 12 || idade > 85) continue;
+    if (idade >= 12 && idade <= 85) {
+      const registo: RegisoPai = {
+        id: paiId,
+        nome: (pai as Pessoa).nome ?? null,
+        idade,
+        anoFilho: anoFirstFilho,
+        anoNasc: anoPai,
+        filhoNome: firstFilhoId ? getNome(firstFilhoId) : null,
+      };
+      if (sexo === 'M') {
+        if (!maisVelhoPaiM || idade > maisVelhoPaiM.idade) maisVelhoPaiM = registo;
+        if (!maisNovoPaiM || idade < maisNovoPaiM.idade) maisNovoPaiM = registo;
+      } else {
+        if (!maisVelhoPaiF || idade > maisVelhoPaiF.idade) maisVelhoPaiF = registo;
+        if (!maisNovoPaiF || idade < maisNovoPaiF.idade) maisNovoPaiF = registo;
+      }
+    }
 
-    const registo: RegisoPai = {
-      id: paiId,
-      nome: (pai as Pessoa).nome ?? null,
-      idade,
-      anoFilho: anoFirstFilho,
-      anoNasc: anoPai,
-      filhoNome: firstFilhoId ? getNome(firstFilhoId) : null,
-    };
-
-    if (sexo === 'M') {
-      if (!maisVelhoPaiM || idade > maisVelhoPaiM.idade) maisVelhoPaiM = registo;
-      if (!maisNovoPaiM || idade < maisNovoPaiM.idade) maisNovoPaiM = registo;
-    } else {
-      if (!maisVelhoPaiF || idade > maisVelhoPaiF.idade) maisVelhoPaiF = registo;
-      if (!maisNovoPaiF || idade < maisNovoPaiF.idade) maisNovoPaiF = registo;
+    // Último filho
+    const idadeUlt = anoLastFilho - anoPai;
+    if (idadeUlt >= 12 && idadeUlt <= 85) {
+      const registoUlt: RegisoPai = {
+        id: paiId,
+        nome: (pai as Pessoa).nome ?? null,
+        idade: idadeUlt,
+        anoFilho: anoLastFilho,
+        anoNasc: anoPai,
+        filhoNome: lastFilhoId ? getNome(lastFilhoId) : null,
+      };
+      if (sexo === 'M') {
+        if (!maisVelhoPaiMUlt || idadeUlt > maisVelhoPaiMUlt.idade) maisVelhoPaiMUlt = registoUlt;
+        if (!maisNovoPaiMUlt || idadeUlt < maisNovoPaiMUlt.idade) maisNovoPaiMUlt = registoUlt;
+      } else {
+        if (!maisVelhoPaiFUlt || idadeUlt > maisVelhoPaiFUlt.idade) maisVelhoPaiFUlt = registoUlt;
+        if (!maisNovoPaiFUlt || idadeUlt < maisNovoPaiFUlt.idade) maisNovoPaiFUlt = registoUlt;
+      }
     }
   }
 }
@@ -554,6 +586,79 @@ const pessoasComFoto = publicas.filter((p) => p.media && p.media.length > 0).len
               <div class="text-stone-500 text-sm mt-0.5">{maisNovoPaiF.idade} anos</div>
               {maisNovoPaiF.filhoNome && (
                 <div class="text-stone-400 text-xs mt-0.5">1.º filho: {maisNovoPaiF.filhoNome} ({maisNovoPaiF.anoFilho})</div>
+              )}
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Último filho: mais velho + mais nova */}
+      {maisVelhoPaiMUlt && (
+        <div class="bg-white border border-stone-200 rounded-xl p-5">
+          <div class="flex items-start gap-3">
+            <div class="text-2xl flex-shrink-0">👴</div>
+            <div>
+              <div class="text-xs font-semibold uppercase tracking-wide text-blue-600 mb-1">Pai mais velho ao nascimento do último filho</div>
+              <a href={`/pessoas/${maisVelhoPaiMUlt.id}`} class="font-semibold text-stone-800 hover:text-amber-700 transition-colors">
+                {maisVelhoPaiMUlt.nome ?? 'Desconhecido'}
+              </a>
+              <div class="text-stone-500 text-sm mt-0.5">{maisVelhoPaiMUlt.idade} anos</div>
+              {maisVelhoPaiMUlt.filhoNome && (
+                <div class="text-stone-400 text-xs mt-0.5">Último filho: {maisVelhoPaiMUlt.filhoNome} ({maisVelhoPaiMUlt.anoFilho})</div>
+              )}
+            </div>
+          </div>
+        </div>
+      )}
+
+      {maisVelhoPaiFUlt && (
+        <div class="bg-white border border-stone-200 rounded-xl p-5">
+          <div class="flex items-start gap-3">
+            <div class="text-2xl flex-shrink-0">👵</div>
+            <div>
+              <div class="text-xs font-semibold uppercase tracking-wide text-rose-600 mb-1">Mãe mais velha ao nascimento do último filho</div>
+              <a href={`/pessoas/${maisVelhoPaiFUlt.id}`} class="font-semibold text-stone-800 hover:text-amber-700 transition-colors">
+                {maisVelhoPaiFUlt.nome ?? 'Desconhecida'}
+              </a>
+              <div class="text-stone-500 text-sm mt-0.5">{maisVelhoPaiFUlt.idade} anos</div>
+              {maisVelhoPaiFUlt.filhoNome && (
+                <div class="text-stone-400 text-xs mt-0.5">Último filho: {maisVelhoPaiFUlt.filhoNome} ({maisVelhoPaiFUlt.anoFilho})</div>
+              )}
+            </div>
+          </div>
+        </div>
+      )}
+
+      {maisNovoPaiMUlt && (
+        <div class="bg-white border border-stone-200 rounded-xl p-5">
+          <div class="flex items-start gap-3">
+            <div class="text-2xl flex-shrink-0">👦</div>
+            <div>
+              <div class="text-xs font-semibold uppercase tracking-wide text-blue-600 mb-1">Pai mais novo ao nascimento do último filho</div>
+              <a href={`/pessoas/${maisNovoPaiMUlt.id}`} class="font-semibold text-stone-800 hover:text-amber-700 transition-colors">
+                {maisNovoPaiMUlt.nome ?? 'Desconhecido'}
+              </a>
+              <div class="text-stone-500 text-sm mt-0.5">{maisNovoPaiMUlt.idade} anos</div>
+              {maisNovoPaiMUlt.filhoNome && (
+                <div class="text-stone-400 text-xs mt-0.5">Último filho: {maisNovoPaiMUlt.filhoNome} ({maisNovoPaiMUlt.anoFilho})</div>
+              )}
+            </div>
+          </div>
+        </div>
+      )}
+
+      {maisNovoPaiFUlt && (
+        <div class="bg-white border border-stone-200 rounded-xl p-5">
+          <div class="flex items-start gap-3">
+            <div class="text-2xl flex-shrink-0">👧</div>
+            <div>
+              <div class="text-xs font-semibold uppercase tracking-wide text-rose-600 mb-1">Mãe mais nova ao nascimento do último filho</div>
+              <a href={`/pessoas/${maisNovoPaiFUlt.id}`} class="font-semibold text-stone-800 hover:text-amber-700 transition-colors">
+                {maisNovoPaiFUlt.nome ?? 'Desconhecida'}
+              </a>
+              <div class="text-stone-500 text-sm mt-0.5">{maisNovoPaiFUlt.idade} anos</div>
+              {maisNovoPaiFUlt.filhoNome && (
+                <div class="text-stone-400 text-xs mt-0.5">Último filho: {maisNovoPaiFUlt.filhoNome} ({maisNovoPaiFUlt.anoFilho})</div>
               )}
             </div>
           </div>

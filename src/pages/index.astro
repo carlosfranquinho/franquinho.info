@@ -41,10 +41,6 @@ const totalFamilias = readdirSync(resolve('src/data/familias')).filter((f) => f.
 const totalLugares  = lugares.length;
 const totalMedia    = media.filter((m) => m.caminho).length;
 
-// Hero: mosaico de documentos (registos, certidões, etc. — não retratos)
-const fotosHero = media
-  .filter((m) => m.thumb && m.caminho && !eRetrato(m) && m.mime?.startsWith('image/'))
-  .slice(0, 15);
 
 // Aniversários de hoje (nascimento e óbito) — usa indice pré-computado, sem leituras individuais
 const hoje = new Date();
@@ -70,25 +66,14 @@ const anoMaisAntigo = indice.filter(p => p.ano_nasc).sort((a,b) => (a.ano_nasc??
 ---
 
 <Base titulo="Início" isHome descricao="Árvore genealógica da família Franquinho — três séculos de história familiar">
+  <link slot="head" rel="preload" href="/hero-mosaic.webp" as="image" type="image/webp" />
 
   <!-- ===================== HERO ===================== -->
   <section class="relative overflow-hidden" style="height: 92vh; min-height: 560px; max-height: 860px;">
 
-    <!-- Mosaico de documentos como fundo -->
-    <div class="absolute inset-0 grid grid-cols-4 sm:grid-cols-5 grid-rows-3 gap-0.5 bg-stone-900">
-      {fotosHero.slice(0, 15).map((foto, i) => (
-        <div class:list={[
-          'overflow-hidden',
-          i === 0 ? 'col-span-2 row-span-2' : '',
-          i === 6 ? 'col-span-2' : '',
-        ]}>
-          <img
-            src={foto.thumb!}
-            alt=""
-            class="w-full h-full object-cover opacity-60 grayscale hover:grayscale-0 hover:opacity-80 transition-all duration-700"
-          />
-        </div>
-      ))}
+    <!-- Mosaico de documentos pré-gerado em build (scripts/build-hero.py) -->
+    <div class="absolute inset-0 bg-stone-900">
+      <img src="/hero-mosaic.webp" alt="" class="w-full h-full object-cover opacity-60" fetchpriority="high" />
     </div>
 
     <!-- Gradientes -->

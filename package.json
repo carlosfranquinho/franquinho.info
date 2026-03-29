@@ -5,8 +5,8 @@
   "scripts": {
     "data": "python3 scripts/gramps_to_json.py --input data/arvore.gpkg && python3 scripts/processar_media.py --gpkg data/arvore.gpkg",
     "dev": "astro dev",
-    "build": "npm run data && astro build && pagefind --site dist",
-    "build:only": "astro build && pagefind --site dist",
+    "build": "npm run data && python3 scripts/build-hero.py && astro build && pagefind --site dist",
+    "build:only": "python3 scripts/build-hero.py && astro build && pagefind --site dist",
     "preview": "astro preview"
   },
   "dependencies": {
