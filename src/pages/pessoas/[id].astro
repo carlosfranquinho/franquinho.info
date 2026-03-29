@@ -126,9 +126,10 @@ for (const f of familiaComoPai) {
     const filho = filhoId !== id ? lerPessoa(filhoId) : null;
     if (!filho?.nascimento?.data) continue;
     const nomeFilho = formatarNome(filho, 'filho');
+    const generoFilho = filho.sexo === 'F' ? 'filha' : 'filho';
     timeline.push({
       data: filho.nascimento.data,
-      label: `Nascimento de ${nomeFilho}`,
+      label: `Nascimento ${generoFilho === 'filha' ? 'da' : 'do'} ${generoFilho} ${nomeFilho}`,
       lugar: filho.nascimento.lugar_id ? lugaresMap[filho.nascimento.lugar_id] ?? null : null,
       destaque: false,
       idade: calcularIdade(filho.nascimento.data),
