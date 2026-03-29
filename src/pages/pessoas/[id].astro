@@ -54,6 +54,19 @@ const galeriaFotos = galeria.filter((m) => m.tipo === 'foto');
 const galeriaDocumentos = galeria.filter((m) => m.tipo !== 'foto');
 const fotoHero = galeria.find(eRetrato) ?? null;
 
+// Prioridade para fundo do hero: assinatura → nascimento → óbito → outro doc → foto de perfil
+function prioridadeHeroDoc(m: MediaItem): number {
+  const p = m.caminho_original ?? '';
+  if (p.includes('/Assinaturas/')) return 0;
+  if (p.includes('/Registos/'))    return 1;
+  if (p.includes('/Obitos/'))      return 2;
+  return 3;
+}
+const docFundo = galeriaDocumentos
+  .filter((m) => !!(m.web ?? m.caminho))
+  .sort((a, b) => prioridadeHeroDoc(a) - prioridadeHeroDoc(b))[0] ?? null;
+const heroFundo = docFundo ?? fotoHero;
+
 
 const titulo = formatarNome(pessoa);
 const pessoaLbJson = JSON.stringify([{ id: pessoa.id, nome: titulo }]);
@@ -174,10 +187,10 @@ const jsonLd = !protegida && p ? {
 
   <!-- HERO -->
   <div class="mb-0 relative overflow-hidden bg-stone-900 min-h-[300px] flex items-end">
-    <!-- Foto ou gradiente -->
-    {(fotoHero?.web ?? fotoHero?.caminho) ? (
+    <!-- Documento/foto de fundo ou gradiente -->
+    {(heroFundo?.web ?? heroFundo?.caminho) ? (
       <div class="absolute inset-0">
-        <img src={fotoHero!.web ?? fotoHero!.caminho!} alt={titulo} class="w-full h-full object-cover object-top opacity-25" />
+        <img src={heroFundo!.web ?? heroFundo!.caminho!} alt={titulo} class="w-full h-full object-cover object-top opacity-25" />
         <div class="absolute inset-0 bg-gradient-to-t from-stone-900 via-stone-900/80 to-stone-900/30"></div>
       </div>
     ) : (
