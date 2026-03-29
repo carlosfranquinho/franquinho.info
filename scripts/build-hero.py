@@ -3,7 +3,12 @@
 
 import json
 from pathlib import Path
-from PIL import Image, ImageOps
+
+try:
+    from PIL import Image, ImageOps
+except ImportError:
+    print('build-hero: Pillow não disponível, a saltar geração do mosaico.')
+    raise SystemExit(0)
 
 ROOT   = Path(__file__).parent.parent
 OUTPUT = ROOT / 'public' / 'hero-mosaic.webp'
