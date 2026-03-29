@@ -34,7 +34,7 @@ const lugarIds = getDescendantIds(id);
 
 // Encontrar pessoas associadas a este lugar e todos os seus sub-lugares
 const pessoasDir = resolve('src/data/pessoas');
-const pessoasAssociadas: { pessoa: Pessoa | PessoaProtegida; relacao: string; lugarNome: string | null }[] = [];
+const pessoasAssociadas: { pessoa: Pessoa | PessoaProtegida; relacao: string; lugarNome: string | null; data: string | null }[] = [];
 
 for (const ficheiro of readdirSync(pessoasDir)) {
   if (!ficheiro.endsWith('.json')) continue;
@@ -47,18 +47,26 @@ for (const ficheiro of readdirSync(pessoasDir)) {
   const sepLid = pp.sepultura?.lugar_id;
   if (nascLid && lugarIds.has(nascLid)) {
     const subLugar = nascLid !== id ? lugaresMap[nascLid]?.nome ?? null : null;
-    pessoasAssociadas.push({ pessoa: pp, relacao: 'Nascimento', lugarNome: subLugar });
+    pessoasAssociadas.push({ pessoa: pp, relacao: 'Nascimento', lugarNome: subLugar, data: pp.nascimento?.data ?? null });
   } else if (obitLid && lugarIds.has(obitLid)) {
     const subLugar = obitLid !== id ? lugaresMap[obitLid]?.nome ?? null : null;
-    pessoasAssociadas.push({ pessoa: pp, relacao: 'Obito', lugarNome: subLugar });
+    pessoasAssociadas.push({ pessoa: pp, relacao: 'Obito', lugarNome: subLugar, data: pp.obito?.data ?? null });
   } else if (baptLid && lugarIds.has(baptLid)) {
     const subLugar = baptLid !== id ? lugaresMap[baptLid]?.nome ?? null : null;
-    pessoasAssociadas.push({ pessoa: pp, relacao: 'Baptismo', lugarNome: subLugar });
+    pessoasAssociadas.push({ pessoa: pp, relacao: 'Baptismo', lugarNome: subLugar, data: pp.baptismo?.data ?? null });
   } else if (sepLid && lugarIds.has(sepLid)) {
     const subLugar = sepLid !== id ? lugaresMap[sepLid]?.nome ?? null : null;
-    pessoasAssociadas.push({ pessoa: pp, relacao: 'Sepultura', lugarNome: subLugar });
+    pessoasAssociadas.push({ pessoa: pp, relacao: 'Sepultura', lugarNome: subLugar, data: pp.sepultura?.data ?? null });
   }
 }
+
+// Mais recentes primeiro; sem data vão para o fim
+pessoasAssociadas.sort((a, b) => {
+  if (!a.data && !b.data) return 0;
+  if (!a.data) return 1;
+  if (!b.data) return -1;
+  return b.data.localeCompare(a.data);
+});
 
 // Lugares filhos diretos (mostrar como subdivisões informativas)
 const lugaresFilhos = lugares.filter((l) => l.pai_id === id);
