@@ -30,7 +30,7 @@ jobs:
       - uses: actions/configure-pages@v5
         id: pages
 
-      - run: npm run build
+      - run: npm run build:only
         env:
           SITE: ${{ steps.pages.outputs.origin }}
           BASE_PATH: ${{ steps.pages.outputs.base_path }}
