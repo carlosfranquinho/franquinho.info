@@ -132,25 +132,56 @@ def gerar_nome_destino(gramps_id, caminho_original):
     return f'{gramps_id}{sufixo}'
 
 
+def _para_rgb(img):
+    """Converte qualquer modo de imagem para RGB (necessario para guardar em JPEG)."""
+    if img.mode in ('RGBA', 'LA', 'P'):
+        if img.mode == 'P':
+            img = img.convert('RGBA')
+        fundo = Image.new('RGB', img.size, (255, 255, 255))
+        fundo.paste(img, mask=img.split()[-1] if img.mode in ('RGBA', 'LA') else None)
+        return fundo
+    if img.mode != 'RGB':
+        return img.convert('RGB')
+    return img
+
+
 def gerar_thumbnail(caminho_orig, caminho_thumb, tamanho):
     """Gera thumbnail de uma imagem. Devolve True se bem sucedido."""
     try:
         with Image.open(caminho_orig) as img:
             img.thumbnail((tamanho, tamanho), Image.LANCZOS)
-            # Converter para RGB se necessario (ex: PNG com transparencia)
-            if img.mode in ('RGBA', 'P', 'LA'):
-                fundo = Image.new('RGB', img.size, (255, 255, 255))
-                if img.mode == 'P':
-                    img = img.convert('RGBA')
-                fundo.paste(img, mask=img.split()[-1] if img.mode in ('RGBA', 'LA') else None)
-                img = fundo
-            elif img.mode != 'RGB':
-                img = img.convert('RGB')
+            img = _para_rgb(img)
             caminho_thumb.parent.mkdir(parents=True, exist_ok=True)
             img.save(caminho_thumb, 'JPEG', quality=85, optimize=True)
         return True
     except Exception as e:
         print(f'  Aviso: nao foi possivel gerar thumbnail para {caminho_orig.name}: {e}')
+        return False
+
+
+def gerar_web(caminho_orig, caminho_web, tamanho_max, qualidade):
+    """
+    Gera versao web de uma imagem: redimensiona para max tamanho_max px no lado
+    maior (se necessario) e guarda em JPEG com a qualidade indicada.
+    Nao reprocessa se o ficheiro de destino ja existir.
+    Devolve True se bem sucedido.
+    """
+    try:
+        with Image.open(caminho_orig) as img:
+            larg, alt = img.size
+            if larg <= tamanho_max and alt <= tamanho_max:
+                # Ja e suficientemente pequena — apenas recomprimir
+                img = _para_rgb(img)
+                caminho_web.parent.mkdir(parents=True, exist_ok=True)
+                img.save(caminho_web, 'JPEG', quality=qualidade, optimize=True)
+            else:
+                img.thumbnail((tamanho_max, tamanho_max), Image.LANCZOS)
+                img = _para_rgb(img)
+                caminho_web.parent.mkdir(parents=True, exist_ok=True)
+                img.save(caminho_web, 'JPEG', quality=qualidade, optimize=True)
+        return True
+    except Exception as e:
+        print(f'  Aviso: nao foi possivel gerar versao web para {caminho_orig.name}: {e}')
         return False
 
 
@@ -187,6 +218,10 @@ def main():
                         help='Directorio de saida (originais/ e thumbs/ serao criados aqui)')
     parser.add_argument('--thumb-size', type=int, default=300,
                         help='Tamanho maximo do thumbnail em pixeis (default: 300)')
+    parser.add_argument('--web-size', type=int, default=1920,
+                        help='Tamanho maximo da versao web em pixeis (default: 1920)')
+    parser.add_argument('--web-quality', type=int, default=80,
+                        help='Qualidade JPEG da versao web (default: 80)')
     args = parser.parse_args()
 
     media_json_path = Path(args.media_json)
@@ -213,11 +248,14 @@ def main():
     output_dir = Path(args.output_dir)
     dir_originais = output_dir / 'originais'
     dir_thumbs = output_dir / 'thumbs'
+    dir_web = output_dir / 'web'
     dir_originais.mkdir(parents=True, exist_ok=True)
     dir_thumbs.mkdir(parents=True, exist_ok=True)
+    dir_web.mkdir(parents=True, exist_ok=True)
 
     copiados = 0
     thumbnails = 0
+    webs = 0
     nao_encontrados = []
 
     for entrada in media_data:
@@ -258,18 +296,26 @@ def main():
         if fonte is None or not Path(fonte).exists():
             entrada['caminho'] = f'/media/originais/{nome_dest}'
             entrada['thumb'] = None
+            entrada['web'] = None
             continue
 
         # Caminho publico
         entrada['caminho'] = f'/media/originais/{nome_dest}'
 
-        # Gerar thumbnail
+        # Gerar thumbnail e versao web
         if ext in EXTENSOES_IMAGEM:
             if not caminho_thumb.exists():
                 ok = gerar_thumbnail(Path(fonte), caminho_thumb, args.thumb_size)
                 if ok:
                     thumbnails += 1
             entrada['thumb'] = f'/media/thumbs/{gramps_id}.jpg'
+
+            caminho_web = dir_web / f'{gramps_id}.jpg'
+            if not caminho_web.exists():
+                ok = gerar_web(Path(fonte), caminho_web, args.web_size, args.web_quality)
+                if ok:
+                    webs += 1
+            entrada['web'] = f'/media/web/{gramps_id}.jpg'
 
         elif ext in EXTENSOES_DOCUMENTO:
             if not caminho_thumb.exists():
@@ -280,14 +326,17 @@ def main():
                 entrada['thumb'] = f'/media/thumbs/{gramps_id}.jpg'
             else:
                 entrada['thumb'] = None
+            entrada['web'] = None
 
         else:
             entrada['thumb'] = None
+            entrada['web'] = None
 
     gravar_media_json(media_json_path, media_data)
 
     print(f'Ficheiros copiados/extraidos: {copiados}')
     print(f'Thumbnails gerados: {thumbnails}')
+    print(f'Versoes web geradas: {webs}')
     if nao_encontrados:
         print(f'Nao encontrados ({len(nao_encontrados)}):')
         for c in nao_encontrados[:10]:

@@ -76,6 +76,7 @@ export interface MediaItem {
   caminho_original: string | null;
   caminho: string | null;
   thumb: string | null;
+  web: string | null;
   descricao: string | null;
   data: string | null;
   mime: string | null;

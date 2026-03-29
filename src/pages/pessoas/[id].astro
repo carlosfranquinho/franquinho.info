@@ -165,9 +165,9 @@ const jsonLd = !protegida && p ? {
   <!-- HERO -->
   <div class="mb-0 relative overflow-hidden bg-stone-900 min-h-[300px] flex items-end">
     <!-- Foto ou gradiente -->
-    {fotoHero?.caminho ? (
+    {(fotoHero?.web ?? fotoHero?.caminho) ? (
       <div class="absolute inset-0">
-        <img src={fotoHero.caminho} alt={titulo} class="w-full h-full object-cover object-top opacity-25" />
+        <img src={fotoHero!.web ?? fotoHero!.caminho!} alt={titulo} class="w-full h-full object-cover object-top opacity-25" />
         <div class="absolute inset-0 bg-gradient-to-t from-stone-900 via-stone-900/80 to-stone-900/30"></div>
       </div>
     ) : (
@@ -314,9 +314,10 @@ const jsonLd = !protegida && p ? {
                     <button
                       type="button"
                       class="group block aspect-square rounded-lg overflow-hidden border border-stone-200 hover:border-amber-400 hover:shadow-md transition-all cursor-zoom-in"
-                      data-lightbox-src={item.caminho ?? item.thumb ?? ''}
+                      data-lightbox-src={item.web ?? item.caminho ?? item.thumb ?? ''}
                       data-lightbox-caption={item.descricao ?? ''}
                       data-lightbox-pessoas={pessoaLbJson}
+                      data-lightbox-original={item.caminho ?? ''}
                       title={item.descricao ?? ''}
                     >
                       {item.thumb
@@ -343,9 +344,10 @@ const jsonLd = !protegida && p ? {
                       <button
                         type="button"
                         class="group relative block aspect-square rounded-lg overflow-hidden border border-stone-200 hover:border-amber-400 hover:shadow-md transition-all cursor-zoom-in"
-                        data-lightbox-src={item.caminho ?? item.thumb ?? ''}
+                        data-lightbox-src={item.web ?? item.caminho ?? item.thumb ?? ''}
                         data-lightbox-caption={caption}
                         data-lightbox-pessoas={pessoaLbJson}
+                        data-lightbox-original={item.caminho ?? ''}
                         title={caption}
                       >
                         {item.thumb

@@ -21,6 +21,9 @@
     <figcaption class="text-center space-y-1.5">
       <p id="lb-caption" class="text-sm text-white/60 px-4"></p>
       <div id="lb-pessoas" class="flex flex-wrap justify-center gap-2"></div>
+      <a id="lb-download" href="#" download class="hidden text-xs text-white/30 hover:text-white/70 transition-colors">
+        ↓ descarregar original
+      </a>
     </figcaption>
   </figure>
 </div>
@@ -30,16 +33,17 @@
   const lbImg     = document.getElementById('lb-img') as HTMLImageElement;
   const lbCaption = document.getElementById('lb-caption')!;
   const lbPessoas = document.getElementById('lb-pessoas')!;
-  const lbClose   = document.getElementById('lb-close')!;
-  const lbPrev    = document.getElementById('lb-prev')!;
-  const lbNext    = document.getElementById('lb-next')!;
+  const lbClose    = document.getElementById('lb-close')!;
+  const lbPrev     = document.getElementById('lb-prev')!;
+  const lbNext     = document.getElementById('lb-next')!;
+  const lbDownload = document.getElementById('lb-download') as HTMLAnchorElement;
 
   const items = Array.from(document.querySelectorAll<HTMLElement>('[data-lightbox-src]'));
   let current = 0;
   let triggerEl: HTMLElement | null = null;
 
   // Elementos focáveis dentro do lightbox (para focus trap)
-  const focusable = [lbPrev, lbNext, lbClose];
+  const focusable = [lbPrev, lbNext, lbClose, lbDownload];
 
   function show(index: number) {
     current = (index + items.length) % items.length;
@@ -48,6 +52,15 @@
     lbImg.src = el.dataset.lightboxSrc ?? '';
     lbImg.alt = el.dataset.lightboxCaption ?? '';
     lbCaption.textContent = el.dataset.lightboxCaption ?? '';
+
+    // Link para descarregar original
+    const original = el.dataset.lightboxOriginal;
+    if (original) {
+      lbDownload.href = original;
+      lbDownload.classList.remove('hidden');
+    } else {
+      lbDownload.classList.add('hidden');
+    }
 
     // Links para pessoas associadas
     lbPessoas.innerHTML = '';
