@@ -30,6 +30,8 @@ const protegida = pessoa.protegida;
 const p = protegida ? null : (pessoa as Pessoa);
 
 const lugares: Lugar[] = JSON.parse(readFileSync(resolve('src/data/lugares.json'), 'utf-8'));
+const eventosHistoricos: { data: string; label: string; categoria: string }[] =
+  JSON.parse(readFileSync(resolve('src/data/eventos_historicos.json'), 'utf-8'));
 const lugaresMap: Record<string, Lugar> = Object.fromEntries(lugares.map((l) => [l.id, l]));
 const mediaList: MediaItem[] = JSON.parse(readFileSync(resolve('src/data/media.json'), 'utf-8'));
 const mediaMap: Record<string, MediaItem> = Object.fromEntries(mediaList.map((m) => [m.id, m]));
@@ -76,7 +78,7 @@ const lugarNasc = pessoa.nascimento?.lugar_id ? lugaresMap[pessoa.nascimento.lug
 const lugarObit = pessoa.obito?.lugar_id ? lugaresMap[pessoa.obito.lugar_id] : null;
 
 // Linha do tempo
-type EventoTL = { data: string; label: string; lugar: Lugar | null; destaque?: boolean; idade?: number };
+type EventoTL = { data: string; label: string; lugar: Lugar | null; destaque?: boolean; idade?: number; historico?: boolean; categoria?: string };
 const timeline: EventoTL[] = [];
 
 function calcularIdade(dataEvento: string): number | undefined {
@@ -138,6 +140,27 @@ for (const f of familiaComoPai) {
 }
 pushEv('Óbito',     pessoa.obito, true);
 pushEv('Sepultura', pessoa.sepultura);
+
+// Eventos históricos dentro do período de vida da pessoa
+if (anoNasc) {
+  const anoFim = anoObit ?? new Date().getFullYear().toString();
+  for (const ev of eventosHistoricos) {
+    const anoEv = ev.data.match(/(\d{4})/)?.[1];
+    if (!anoEv) continue;
+    if (anoEv >= anoNasc && anoEv <= anoFim) {
+      timeline.push({
+        data: ev.data.length === 4 ? `${ev.data}-01-01` : ev.data,
+        label: ev.label,
+        lugar: null,
+        destaque: false,
+        historico: true,
+        categoria: ev.categoria,
+        idade: calcularIdade(ev.data),
+      });
+    }
+  }
+}
+
 timeline.sort((a, b) => a.data.localeCompare(b.data));
 
 const avatarSrc = silhueta(pessoa.sexo, anoNasc, anoObit);
@@ -449,7 +472,7 @@ const jsonLd = !protegida && p ? {
                     <li class="flex gap-3 group">
                       <!-- Ano -->
                       <div class="w-16 flex-shrink-0 text-right pt-2.5">
-                        <span class="text-sm font-mono text-stone-400">
+                        <span class:list={['text-sm font-mono', ev.historico ? 'text-sky-400' : 'text-stone-400']}>
                           {ev.data.match(/(\d{4})/)?.[1] ?? ev.data}
                         </span>
                       </div>
@@ -457,18 +480,29 @@ const jsonLd = !protegida && p ? {
                       <div class="flex-shrink-0 flex flex-col items-center pt-3">
                         <div class:list={[
                           'w-3 h-3 rounded-full border-2 border-white ring-2 z-10',
-                          ev.destaque ? 'bg-amber-500 ring-amber-300' : 'bg-stone-300 ring-stone-200',
+                          ev.historico    ? 'bg-sky-400 ring-sky-200'
+                          : ev.destaque   ? 'bg-amber-500 ring-amber-300'
+                          :                 'bg-stone-300 ring-stone-200',
                         ]}></div>
                       </div>
                       <!-- Conteúdo -->
                       <div class="flex-1 pb-5 pt-1.5">
-                        <p class:list={['text-base', ev.destaque ? 'font-semibold text-stone-800' : 'text-stone-600']}>
-                          {ev.label}
-                          {ev.idade !== undefined && ev.idade > 0 && (
-                            <span class="ml-2 text-sm font-normal text-stone-400">({ev.idade} anos)</span>
-                          )}
-                        </p>
-                        {formatarData(ev.data) !== (ev.data.match(/(\d{4})/)?.[1] ?? ev.data) && (
+                        {ev.historico ? (
+                          <p class="text-sm text-sky-700 italic leading-snug">
+                            {ev.label}
+                            {ev.idade !== undefined && ev.idade > 0 && (
+                              <span class="ml-2 text-xs font-normal text-sky-400 not-italic">({ev.idade} anos)</span>
+                            )}
+                          </p>
+                        ) : (
+                          <p class:list={['text-base', ev.destaque ? 'font-semibold text-stone-800' : 'text-stone-600']}>
+                            {ev.label}
+                            {ev.idade !== undefined && ev.idade > 0 && (
+                              <span class="ml-2 text-sm font-normal text-stone-400">({ev.idade} anos)</span>
+                            )}
+                          </p>
+                        )}
+                        {!ev.historico && formatarData(ev.data) !== (ev.data.match(/(\d{4})/)?.[1] ?? ev.data) && (
                           <p class="text-sm text-stone-400 mt-0.5">{formatarData(ev.data)}</p>
                         )}
                         {ev.lugar && (
