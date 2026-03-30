@@ -364,6 +364,13 @@ export default function TreeView({ defaultRootId = 'I0007', defaultRootName = ''
       .catch(() => setLoading(false));
   }, []);
 
+  // Remover o placeholder estático do Astro assim que a árvore estiver pronta
+  useEffect(() => {
+    if (!loading) {
+      document.getElementById('tree-placeholder')?.remove();
+    }
+  }, [loading]);
+
   // Reconstruir grafo
   useEffect(() => {
     if (!arvore || !indices) return;
