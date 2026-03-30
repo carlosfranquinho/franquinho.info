@@ -677,6 +677,8 @@ def gerar_indice(pessoas_data, media_por_id=None):
         entrada = {'id': p['id']}
         if p.get('nome'):
             entrada['nome'] = p['nome']
+        if p.get('apelido'):
+            entrada['apelido'] = p['apelido']
         entrada['sexo'] = p.get('sexo', 'U')
 
         nasc = p.get('nascimento')
