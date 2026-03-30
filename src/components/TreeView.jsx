@@ -3,7 +3,6 @@ import {
   ReactFlow,
   Background,
   Controls,
-  MiniMap,
   useNodesState,
   useEdgesState,
   Handle,
@@ -448,16 +447,6 @@ export default function TreeView({ defaultRootId = 'I0007', defaultRootName = ''
       >
         <Background color="#d6d3d1" gap={20} size={0.8} />
         <Controls showInteractive={false} />
-        <MiniMap
-          nodeColor={(n) => {
-            if (n.type === 'family') return '#d6d3d1';
-            const s = n.data?.sexo;
-            if (n.data?.protegida) return '#e7e5e4';
-            return s === 'M' ? '#93c5fd' : s === 'F' ? '#fda4af' : '#d6d3d1';
-          }}
-          style={{ background: '#fafaf9', border: '1px solid #e7e5e4' }}
-        />
-
         {/* Painel de controlos */}
         <Panel position="top-left">
           {panelOpen ? (
