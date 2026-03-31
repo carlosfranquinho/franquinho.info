@@ -273,7 +273,14 @@ const jsonLd = !p.protegida ? {
               </span>
             </p>
           )}
-          {p?.profissao && <p class="text-stone-400 mt-1">{p.profissao}</p>}
+          {p?.profissao && (
+            <p class="flex items-baseline gap-2">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-3.5 h-3.5 text-stone-400 shrink-0 self-center" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M20 6h-2.18c.07-.44.18-.86.18-1a3 3 0 0 0-6 0c0 .14.11.56.18 1H10a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2zm-8-1a1 1 0 0 1 2 0c0 .14-.09.55-.18 1h-1.64C12.09 5.55 12 5.14 12 5zM4 18V10.17A3.99 3.99 0 0 0 6 11h12a3.99 3.99 0 0 0 2-0.56V18a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z"/>
+              </svg>
+              <span class="text-stone-300">{p.profissao}</span>
+            </p>
+          )}
         </div>
       </div>
 
