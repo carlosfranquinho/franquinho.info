@@ -6,13 +6,6 @@
     "mmdd_nasc": "03-15"
   },
   {
-    "id": "I1527",
-    "nome": "Adelaide Franquinho",
-    "apelido": "Franquinho",
-    "sexo": "F",
-    "ano_nasc": 1961
-  },
-  {
     "id": "I1192",
     "nome": "Afonso",
     "sexo": "M",
@@ -5296,16 +5289,6 @@
     "mmdd_nasc": "04-02",
     "ano_obit": 1821,
     "mmdd_obit": "07-31"
-  },
-  {
-    "id": "I1514",
-    "nome": "Laurinda Franquinho",
-    "apelido": "Franquinho",
-    "sexo": "F",
-    "ano_nasc": 1911,
-    "mmdd_nasc": "12-03",
-    "ano_obit": 2009,
-    "mmdd_obit": "09-11"
   },
   {
     "id": "I0097",

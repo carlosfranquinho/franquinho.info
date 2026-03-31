@@ -80,6 +80,14 @@
     "pai_id": "P0170"
   },
   {
+    "id": "P0185",
+    "nome": "São Julião",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0041"
+  },
+  {
     "id": "P0000",
     "nome": "Marinha Grande",
     "tipo": null,

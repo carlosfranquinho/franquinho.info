@@ -4,7 +4,10 @@
   "sexo": "F",
   "nome": "Familiar",
   "apelido": "de Oliveira",
-  "nascimento": null,
+  "nascimento": {
+    "data": "1912-05-05",
+    "lugar_id": "P0185"
+  },
   "baptismo": null,
   "obito": {
     "data": "2012-11-11",
