@@ -37,8 +37,8 @@ function getAno(data: string | null | undefined): number | null {
 function getNome(id: string | null): string | null {
   if (!id) return null;
   const p = pessoaMap[id];
-  if (!p || p.protegida) return null;
-  return (p as Pessoa).nome ?? null;
+  if (!p) return null;
+  return p.nome ?? null;
 }
 
 const publicas = todasPessoas.filter((p) => !p.protegida) as Pessoa[];
