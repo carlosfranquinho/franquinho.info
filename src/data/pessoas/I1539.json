@@ -1,0 +1,26 @@
+{
+  "id": "I1539",
+  "protegida": true,
+  "nome": "Privado de Abreu Franquinho",
+  "nome_proprio": "Privado",
+  "apelido": "de Abreu Franquinho",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1974-07-05",
+    "lugar_id": "P0170"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0428"
+  ],
+  "familias_como_pai": [
+    "F0429"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

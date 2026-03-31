@@ -1,0 +1,23 @@
+{
+  "id": "I1553",
+  "protegida": true,
+  "nome": "Privado de Oliveira Franquinho",
+  "nome_proprio": "Privado",
+  "apelido": "de Oliveira Franquinho",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0072"
+  ],
+  "familias_como_pai": [
+    "F0433"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

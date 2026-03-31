@@ -1,0 +1,24 @@
+{
+  "id": "I1549",
+  "protegida": true,
+  "nome": "Privado Franquinho Teixeira",
+  "nome_proprio": "Privado",
+  "apelido": "Franquinho Teixeira",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1996-12-14",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0431"
+  ],
+  "familias_como_pai": null,
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

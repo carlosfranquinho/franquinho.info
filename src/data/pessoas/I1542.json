@@ -1,0 +1,24 @@
+{
+  "id": "I1542",
+  "protegida": false,
+  "nome": "Marília Rita Abreu Franquinho",
+  "nome_proprio": "Marília Rita",
+  "apelido": "Abreu Franquinho",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1978-10-03",
+    "lugar_id": "P0170"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0428"
+  ],
+  "familias_como_pai": null,
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

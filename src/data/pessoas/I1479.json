@@ -6,7 +6,10 @@
   "apelido": "Alves Neto",
   "nomes_alt": null,
   "sexo": "F",
-  "nascimento": null,
+  "nascimento": {
+    "data": "1948-11-29",
+    "lugar_id": "P0043"
+  },
   "baptismo": null,
   "obito": null,
   "sepultura": null,

@@ -85,6 +85,14 @@
     "mmdd_obit": "11-20"
   },
   {
+    "id": "I1545",
+    "nome": "Alexandre Franquinho",
+    "apelido": "Franquinho",
+    "sexo": "M",
+    "ano_nasc": 1990,
+    "mmdd_nasc": "02-18"
+  },
+  {
     "id": "I0542",
     "nome": "Alexandrino",
     "sexo": "M"
@@ -3049,6 +3057,14 @@
     "sexo": "F"
   },
   {
+    "id": "I1543",
+    "nome": "Isabel Maria Neto Franquinho",
+    "apelido": "Neto Franquinho",
+    "sexo": "F",
+    "ano_nasc": 1970,
+    "mmdd_nasc": "12-12"
+  },
+  {
     "id": "I1321",
     "nome": "Isabel Mendes",
     "apelido": "Mendes",
@@ -4688,6 +4704,11 @@
     "mmdd_obit": "06-15"
   },
   {
+    "id": "I1551",
+    "nome": "José Pedro",
+    "sexo": "M"
+  },
+  {
     "id": "I0379",
     "nome": "José Pereira",
     "apelido": "Pereira",
@@ -5107,6 +5128,12 @@
     "sexo": "M"
   },
   {
+    "id": "I1544",
+    "nome": "João Eduardo Passos",
+    "apelido": "Passos",
+    "sexo": "M"
+  },
+  {
     "id": "I1343",
     "nome": "João Fernandes",
     "apelido": "Fernandes",
@@ -5262,6 +5289,12 @@
     "id": "I0838",
     "nome": "João Simões",
     "apelido": "Simões",
+    "sexo": "M"
+  },
+  {
+    "id": "I1546",
+    "nome": "João Tiago Franquinho Passos",
+    "apelido": "Franquinho Passos",
     "sexo": "M"
   },
   {
@@ -8516,6 +8549,14 @@
     "sexo": "F"
   },
   {
+    "id": "I1542",
+    "nome": "Marília Rita Abreu Franquinho",
+    "apelido": "Abreu Franquinho",
+    "sexo": "F",
+    "ano_nasc": 1978,
+    "mmdd_nasc": "10-03"
+  },
+  {
     "id": "I1231",
     "nome": "Mateus",
     "sexo": "M",
@@ -8615,6 +8656,14 @@
     "mmdd_obit": "03-21"
   },
   {
+    "id": "I1562",
+    "nome": "Miguel Ângelo Franquinho",
+    "apelido": "Franquinho",
+    "sexo": "M",
+    "ano_nasc": 1999,
+    "mmdd_nasc": "09-09"
+  },
+  {
     "id": "I0250",
     "nome": "Nicholas Antonio Luis",
     "apelido": "Antonio Luis",
@@ -8698,6 +8747,12 @@
     "mmdd_obit": "02-06"
   },
   {
+    "id": "I1559",
+    "nome": "Paulo Nóbrega",
+    "apelido": "Nóbrega",
+    "sexo": "M"
+  },
+  {
     "id": "I0978",
     "nome": "Pedro",
     "sexo": "M"
@@ -8774,6 +8829,11 @@
     "nome": "Privado",
     "sexo": "F",
     "ano_nasc": 1985
+  },
+  {
+    "id": "I1561",
+    "nome": "Privado",
+    "sexo": "F"
   },
   {
     "id": "I0232",
@@ -8976,7 +9036,9 @@
     "id": "I1479",
     "nome": "Privado Alves Neto",
     "apelido": "Alves Neto",
-    "sexo": "F"
+    "sexo": "F",
+    "ano_nasc": 1948,
+    "mmdd_nasc": "11-29"
   },
   {
     "id": "I0291",
@@ -9388,6 +9450,26 @@
     "ano_nasc": 1961
   },
   {
+    "id": "I1555",
+    "nome": "Privado Franquinho",
+    "apelido": "Franquinho",
+    "sexo": "M",
+    "ano_nasc": 1965,
+    "mmdd_nasc": "09-16"
+  },
+  {
+    "id": "I1558",
+    "nome": "Privado Franquinho",
+    "apelido": "Franquinho",
+    "sexo": "F"
+  },
+  {
+    "id": "I1560",
+    "nome": "Privado Franquinho",
+    "apelido": "Franquinho",
+    "sexo": "M"
+  },
+  {
     "id": "I0328",
     "nome": "Privado Franquinho",
     "apelido": "Franquinho",
@@ -9623,6 +9705,14 @@
     "ano_nasc": 1976,
     "mmdd_nasc": "04-18",
     "thumb_id": "O0874"
+  },
+  {
+    "id": "I1549",
+    "nome": "Privado Franquinho Teixeira",
+    "apelido": "Franquinho Teixeira",
+    "sexo": "F",
+    "ano_nasc": 1996,
+    "mmdd_nasc": "12-14"
   },
   {
     "id": "I0992",
@@ -9883,10 +9973,24 @@
     "mmdd_nasc": "01-26"
   },
   {
+    "id": "I1556",
+    "nome": "Privado Martins",
+    "apelido": "Martins",
+    "sexo": "F"
+  },
+  {
     "id": "I0268",
     "nome": "Privado Martins",
     "apelido": "Martins",
     "sexo": "F"
+  },
+  {
+    "id": "I1557",
+    "nome": "Privado Martins Franquinho",
+    "apelido": "Martins Franquinho",
+    "sexo": "F",
+    "ano_nasc": 2000,
+    "mmdd_nasc": "05-30"
   },
   {
     "id": "I0304",
@@ -9909,12 +10013,34 @@
     "mmdd_nasc": "06-15"
   },
   {
+    "id": "I1541",
+    "nome": "Privado Moniz Franquinho",
+    "apelido": "Moniz Franquinho",
+    "sexo": "M"
+  },
+  {
     "id": "I0345",
     "nome": "Privado Monteiro Franquinho",
     "apelido": "Monteiro Franquinho",
     "sexo": "M",
     "ano_nasc": 1985,
     "mmdd_nasc": "11-09"
+  },
+  {
+    "id": "I1547",
+    "nome": "Privado Neto Franquinho",
+    "apelido": "Neto Franquinho",
+    "sexo": "F",
+    "ano_nasc": 1972,
+    "mmdd_nasc": "03-31"
+  },
+  {
+    "id": "I1550",
+    "nome": "Privado Neto Franquinho",
+    "apelido": "Neto Franquinho",
+    "sexo": "F",
+    "ano_nasc": 1973,
+    "mmdd_nasc": "04-09"
   },
   {
     "id": "I0265",
@@ -10050,6 +10176,14 @@
     "mmdd_nasc": "09-27"
   },
   {
+    "id": "I1538",
+    "nome": "Privado Rodrigues de Abreu",
+    "apelido": "Rodrigues de Abreu",
+    "sexo": "F",
+    "ano_nasc": 1939,
+    "mmdd_nasc": "10-16"
+  },
+  {
     "id": "I0336",
     "nome": "Privado Rodrigues de Melo",
     "apelido": "Rodrigues de Melo",
@@ -10123,12 +10257,28 @@
     "mmdd_nasc": "01-22"
   },
   {
+    "id": "I1548",
+    "nome": "Privado Teixeira",
+    "apelido": "Teixeira",
+    "sexo": "M",
+    "ano_nasc": 1960,
+    "mmdd_nasc": "07-29"
+  },
+  {
     "id": "I0995",
     "nome": "Privado Tomás Pedrosa",
     "apelido": "Tomás Pedrosa",
     "sexo": "M",
     "ano_nasc": 2004,
     "mmdd_nasc": "05-31"
+  },
+  {
+    "id": "I1540",
+    "nome": "Privado Vieira Moniz",
+    "apelido": "Vieira Moniz",
+    "sexo": "F",
+    "ano_nasc": 1976,
+    "mmdd_nasc": "01-30"
   },
   {
     "id": "I0298",
@@ -10257,6 +10407,14 @@
     "thumb_id": "O0833"
   },
   {
+    "id": "I1539",
+    "nome": "Privado de Abreu Franquinho",
+    "apelido": "de Abreu Franquinho",
+    "sexo": "M",
+    "ano_nasc": 1974,
+    "mmdd_nasc": "07-05"
+  },
+  {
     "id": "I1029",
     "nome": "Privado de Jesus Duarte",
     "apelido": "de Jesus Duarte",
@@ -10282,6 +10440,14 @@
     "mmdd_obit": "05-25"
   },
   {
+    "id": "I1554",
+    "nome": "Privado de Mendonça",
+    "apelido": "de Mendonça",
+    "sexo": "F",
+    "ano_obit": 2009,
+    "mmdd_obit": "06-18"
+  },
+  {
     "id": "I0145",
     "nome": "Privado de Oliveira",
     "apelido": "de Oliveira",
@@ -10301,10 +10467,26 @@
     "mmdd_nasc": "01-20"
   },
   {
+    "id": "I1537",
+    "nome": "Privado de Oliveira Franquinho",
+    "apelido": "de Oliveira Franquinho",
+    "sexo": "M",
+    "ano_nasc": 1935,
+    "mmdd_nasc": "05-19"
+  },
+  {
+    "id": "I1553",
+    "nome": "Privado de Oliveira Franquinho",
+    "apelido": "de Oliveira Franquinho",
+    "sexo": "M"
+  },
+  {
     "id": "I1478",
     "nome": "Privado de Oliveira Franquinho",
     "apelido": "de Oliveira Franquinho",
     "sexo": "M",
+    "ano_nasc": 1947,
+    "mmdd_nasc": "05-25",
     "ano_obit": 2013,
     "mmdd_obit": "01-17"
   },
@@ -10520,6 +10702,14 @@
     "mmdd_nasc": "03-18",
     "ano_obit": 1826,
     "mmdd_obit": "03-04"
+  },
+  {
+    "id": "I1552",
+    "nome": "Rui Franquinho",
+    "apelido": "Franquinho",
+    "sexo": "M",
+    "ano_nasc": 1979,
+    "mmdd_nasc": "09-20"
   },
   {
     "id": "I0335",

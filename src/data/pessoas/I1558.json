@@ -1,0 +1,23 @@
+{
+  "id": "I1558",
+  "protegida": true,
+  "nome": "Privado Franquinho",
+  "nome_proprio": "Privado",
+  "apelido": "Franquinho",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0433"
+  ],
+  "familias_como_pai": [
+    "F0435"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

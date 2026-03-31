@@ -1,0 +1,24 @@
+{
+  "id": "I1540",
+  "protegida": true,
+  "nome": "Privado Vieira Moniz",
+  "nome_proprio": "Privado",
+  "apelido": "Vieira Moniz",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1976-01-30",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0429"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

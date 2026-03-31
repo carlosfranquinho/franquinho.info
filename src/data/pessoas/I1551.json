@@ -1,0 +1,21 @@
+{
+  "id": "I1551",
+  "protegida": false,
+  "nome": "José Pedro",
+  "nome_proprio": "José Pedro",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0432"
+  ],
+  "familias_como_pai": null,
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

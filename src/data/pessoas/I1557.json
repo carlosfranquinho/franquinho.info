@@ -1,0 +1,24 @@
+{
+  "id": "I1557",
+  "protegida": true,
+  "nome": "Privado Martins Franquinho",
+  "nome_proprio": "Privado",
+  "apelido": "Martins Franquinho",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "2000-05-30",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0434"
+  ],
+  "familias_como_pai": null,
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

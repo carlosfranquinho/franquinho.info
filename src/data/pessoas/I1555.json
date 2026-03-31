@@ -1,0 +1,26 @@
+{
+  "id": "I1555",
+  "protegida": true,
+  "nome": "Privado Franquinho",
+  "nome_proprio": "Privado",
+  "apelido": "Franquinho",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1965-09-16",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0433"
+  ],
+  "familias_como_pai": [
+    "F0434"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "I1554",
+  "protegida": true,
+  "nome": "Privado de Mendonça",
+  "nome_proprio": "Privado",
+  "apelido": "de Mendonça",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "2009-06-18",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0433"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

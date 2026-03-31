@@ -1,0 +1,26 @@
+{
+  "id": "I1543",
+  "protegida": false,
+  "nome": "Isabel Maria Neto Franquinho",
+  "nome_proprio": "Isabel Maria",
+  "apelido": "Neto Franquinho",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1970-12-12",
+    "lugar_id": "P0170"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0406"
+  ],
+  "familias_como_pai": [
+    "F0430"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "I1537",
+  "protegida": true,
+  "nome": "Privado de Oliveira Franquinho",
+  "nome_proprio": "Privado",
+  "apelido": "de Oliveira Franquinho",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1935-05-19",
+    "lugar_id": "P0182"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0072"
+  ],
+  "familias_como_pai": [
+    "F0428"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

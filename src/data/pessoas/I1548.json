@@ -1,0 +1,24 @@
+{
+  "id": "I1548",
+  "protegida": true,
+  "nome": "Privado Teixeira",
+  "nome_proprio": "Privado",
+  "apelido": "Teixeira",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1960-07-29",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0431"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}
