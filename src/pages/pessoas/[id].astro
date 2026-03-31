@@ -247,7 +247,7 @@ const jsonLd = !protegida && p ? {
           protegida ? 'text-stone-400 italic' : 'text-white',
         ]}>{titulo}</h1>
         <div class="space-y-1.5 text-base text-stone-300">
-          {!protegida && (
+          {(pessoa.nascimento?.data || lugarNasc) && (
             <p class="flex items-baseline gap-2">
               <svg xmlns="http://www.w3.org/2000/svg" class="w-3.5 h-3.5 text-amber-400 shrink-0 self-center" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M12 2l2.55 7.85H22l-6.63 4.82 2.55 7.85L12 17.7l-5.92 4.82 2.55-7.85L2 9.85h7.45z"/>
@@ -259,7 +259,7 @@ const jsonLd = !protegida && p ? {
                 }
                 {lugarNasc
                   ? <>, <span class="text-stone-500">em </span><LugarLink lugar={lugarNasc} lugaresMap={lugaresMap} /></>
-                  : <>, <span class="text-stone-500 italic">em local indeterminado</span></>
+                  : null
                 }
               </span>
             </p>

@@ -48,7 +48,7 @@ const totalFamilias = todasFamilias.length;
 // ─── Distribuição por sexo ─────────────────────────────────────────────────────
 
 const sexos = { M: 0, F: 0, U: 0 };
-for (const p of publicas) sexos[p.sexo as 'M' | 'F' | 'U']++;
+for (const p of todasPessoas) sexos[p.sexo as 'M' | 'F' | 'U']++;
 const totalSexos = sexos.M + sexos.F + sexos.U;
 const pctM = Math.round((sexos.M / totalSexos) * 100);
 const pctF = Math.round((sexos.F / totalSexos) * 100);
@@ -58,7 +58,7 @@ const pctU = 100 - pctM - pctF;
 
 const nascPorDecada: Record<number, number> = {};
 const obitosPorDecada: Record<number, number> = {};
-for (const p of publicas) {
+for (const p of todasPessoas) {
   const anoN = getAno(p.nascimento?.data ?? p.baptismo?.data);
   if (anoN) { const d = Math.floor(anoN / 10) * 10; nascPorDecada[d] = (nascPorDecada[d] ?? 0) + 1; }
   const anoO = getAno(p.obito?.data ?? p.sepultura?.data);
@@ -125,8 +125,8 @@ for (const f of todasFamilias) {
 
   for (const { id: paiId, sexo } of candidatos) {
     const pai = pessoaMap[paiId];
-    if (!pai || pai.protegida) continue;
-    const anoPai = getAno((pai as Pessoa).nascimento?.data ?? (pai as Pessoa).baptismo?.data);
+    if (!pai) continue;
+    const anoPai = getAno(pai.nascimento?.data ?? pai.baptismo?.data);
     if (!anoPai) continue;
 
     // 1.º filho
@@ -134,7 +134,7 @@ for (const f of todasFamilias) {
     if (idade >= 12 && idade <= 85) {
       const registo: RegisoPai = {
         id: paiId,
-        nome: (pai as Pessoa).nome ?? null,
+        nome: pai.nome ?? null,
         idade,
         anoFilho: anoFirstFilho,
         anoNasc: anoPai,
@@ -154,7 +154,7 @@ for (const f of todasFamilias) {
     if (idadeUlt >= 12 && idadeUlt <= 85) {
       const registoUlt: RegisoPai = {
         id: paiId,
-        nome: (pai as Pessoa).nome ?? null,
+        nome: pai.nome ?? null,
         idade: idadeUlt,
         anoFilho: anoLastFilho,
         anoNasc: anoPai,
@@ -174,7 +174,7 @@ for (const f of todasFamilias) {
 type PessoaLongeva = { id: string; nome: string | null; anoNasc: number; anoObit: number; idade: number };
 let pessoaMaisVelhaM: PessoaLongeva | null = null;
 let pessoaMaisVelhaF: PessoaLongeva | null = null;
-for (const p of publicas) {
+for (const p of todasPessoas) {
   const anoN = getAno(p.nascimento?.data);
   const anoO = getAno(p.obito?.data);
   if (!anoN || !anoO) continue;
@@ -216,7 +216,7 @@ for (const f of todasFamilias) {
 // ─── Apelidos mais comuns ──────────────────────────────────────────────────────
 
 const apelidosCount: Record<string, number> = {};
-for (const p of publicas) {
+for (const p of todasPessoas) {
   if (p.apelido) apelidosCount[p.apelido] = (apelidosCount[p.apelido] ?? 0) + 1;
 }
 const topApelidos = Object.entries(apelidosCount).sort((a, b) => b[1] - a[1]).slice(0, 12);
@@ -257,7 +257,7 @@ function getFreguesia(lid: string): string {
 }
 
 const lugarNascCount: Record<string, number> = {};
-for (const p of publicas) {
+for (const p of todasPessoas) {
   const lid = p.nascimento?.lugar_id;
   if (lid) {
     const fid = getFreguesia(lid);
@@ -292,7 +292,7 @@ const maxProfissaoF = topProfissoesF[0]?.[1] ?? 1;
 // ─── Esperança de vida por século ─────────────────────────────────────────────
 
 const vidaPorSeculo: Record<number, { total: number; count: number }> = {};
-for (const p of publicas) {
+for (const p of todasPessoas) {
   const anoN = getAno(p.nascimento?.data);
   const anoO = getAno(p.obito?.data);
   if (!anoN || !anoO) continue;
