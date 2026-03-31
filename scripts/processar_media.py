@@ -145,7 +145,7 @@ def _para_rgb(img):
     return img
 
 
-def _pixelizar(img, blocos=12):
+def _pixelizar(img, blocos=20):
     """Pixeliza uma imagem reduzindo para `blocos` px e escalando de volta."""
     orig_size = img.size
     pequena = img.resize((blocos, blocos), Image.NEAREST)
