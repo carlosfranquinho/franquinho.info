@@ -1,18 +1,23 @@
 {
   "id": "I1014",
-  "protegida": true,
-  "sexo": "F",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Grácio",
+  "nome_proprio": "Privado",
   "apelido": "Grácio",
+  "nomes_alt": null,
+  "sexo": "F",
   "nascimento": null,
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0285"
   ],
   "familias_como_pai": null,
-  "relacoes": [
-    "F0285"
-  ]
+  "media": [
+    "O0814"
+  ],
+  "notas": null,
+  "citacoes": null
 }

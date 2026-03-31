@@ -1,18 +1,21 @@
 {
   "id": "I0344",
-  "protegida": true,
-  "sexo": "F",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado de Jesus Monteiro",
+  "nome_proprio": "Privado",
   "apelido": "de Jesus Monteiro",
+  "nomes_alt": null,
+  "sexo": "F",
   "nascimento": null,
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": null,
   "familias_como_pai": [
     "F0126"
   ],
-  "relacoes": [
-    "F0126"
-  ]
+  "media": null,
+  "notas": null,
+  "citacoes": null
 }

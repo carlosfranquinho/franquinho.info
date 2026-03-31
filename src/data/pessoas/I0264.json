@@ -1,9 +1,11 @@
 {
   "id": "I0264",
-  "protegida": true,
-  "sexo": "F",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Queirós Gaspar",
+  "nome_proprio": "Privado",
   "apelido": "Queirós Gaspar",
+  "nomes_alt": null,
+  "sexo": "F",
   "nascimento": {
     "data": "1996-12-22",
     "lugar_id": "P0003"
@@ -11,11 +13,12 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0098"
   ],
   "familias_como_pai": null,
-  "relacoes": [
-    "F0098"
-  ]
+  "media": null,
+  "notas": null,
+  "citacoes": null
 }

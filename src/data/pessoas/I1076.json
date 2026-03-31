@@ -1,9 +1,11 @@
 {
   "id": "I1076",
-  "protegida": true,
-  "sexo": "M",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado da Silva Franquinho",
+  "nome_proprio": "Privado",
   "apelido": "da Silva Franquinho",
+  "nomes_alt": null,
+  "sexo": "M",
   "nascimento": {
     "data": "1943-12-21",
     "lugar_id": null
@@ -11,14 +13,16 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0002"
   ],
   "familias_como_pai": [
     "F0311"
   ],
-  "relacoes": [
-    "F0311",
-    "F0002"
-  ]
+  "media": [
+    "O0869"
+  ],
+  "notas": null,
+  "citacoes": null
 }

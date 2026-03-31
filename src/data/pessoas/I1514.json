@@ -1,9 +1,11 @@
 {
   "id": "I1514",
-  "protegida": true,
-  "sexo": "F",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Franquinho",
+  "nome_proprio": "Privado",
   "apelido": "Franquinho",
+  "nomes_alt": null,
+  "sexo": "F",
   "nascimento": {
     "data": "1911-12-03",
     "lugar_id": null
@@ -14,11 +16,12 @@
     "lugar_id": null
   },
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0077"
   ],
   "familias_como_pai": null,
-  "relacoes": [
-    "F0077"
-  ]
+  "media": null,
+  "notas": null,
+  "citacoes": null
 }

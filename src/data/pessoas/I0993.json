@@ -1,9 +1,11 @@
 {
   "id": "I0993",
-  "protegida": true,
-  "sexo": "F",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Franquinho Tomás",
+  "nome_proprio": "Privado",
   "apelido": "Franquinho Tomás",
+  "nomes_alt": null,
+  "sexo": "F",
   "nascimento": {
     "data": "1980-01-11",
     "lugar_id": null
@@ -11,14 +13,16 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0276"
   ],
   "familias_como_pai": [
     "F0278"
   ],
-  "relacoes": [
-    "F0276",
-    "F0278"
-  ]
+  "media": [
+    "O0792"
+  ],
+  "notas": null,
+  "citacoes": null
 }

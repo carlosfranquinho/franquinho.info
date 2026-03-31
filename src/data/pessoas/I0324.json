@@ -1,9 +1,11 @@
 {
   "id": "I0324",
-  "protegida": true,
-  "sexo": "F",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Ferreira de Sousa",
+  "nome_proprio": "Privado",
   "apelido": "Ferreira de Sousa",
+  "nomes_alt": null,
+  "sexo": "F",
   "nascimento": {
     "data": "1950-09-14",
     "lugar_id": null
@@ -14,11 +16,12 @@
     "lugar_id": "P0179"
   },
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0118"
   ],
   "familias_como_pai": null,
-  "relacoes": [
-    "F0118"
-  ]
+  "media": null,
+  "notas": null,
+  "citacoes": null
 }

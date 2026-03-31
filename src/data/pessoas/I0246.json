@@ -1,9 +1,11 @@
 {
   "id": "I0246",
-  "protegida": true,
-  "sexo": "M",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Ferreira Luís",
+  "nome_proprio": "Privado",
   "apelido": "Ferreira Luís",
+  "nomes_alt": null,
+  "sexo": "M",
   "nascimento": {
     "data": "1947-05-04",
     "lugar_id": "P0049"
@@ -11,11 +13,12 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": null,
   "familias_como_pai": [
     "F0092"
   ],
-  "relacoes": [
-    "F0092"
-  ]
+  "media": null,
+  "notas": null,
+  "citacoes": null
 }

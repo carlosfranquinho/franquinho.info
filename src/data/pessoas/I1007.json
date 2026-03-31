@@ -1,9 +1,11 @@
 {
   "id": "I1007",
-  "protegida": true,
-  "sexo": "M",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Fonseca Rodrigues Grácio",
+  "nome_proprio": "Privado",
   "apelido": "Fonseca Rodrigues Grácio",
+  "nomes_alt": null,
+  "sexo": "M",
   "nascimento": {
     "data": "1939-07-21",
     "lugar_id": "P0002"
@@ -14,14 +16,16 @@
     "lugar_id": null
   },
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0286"
   ],
   "familias_como_pai": [
     "F0283"
   ],
-  "relacoes": [
-    "F0283",
-    "F0286"
-  ]
+  "media": [
+    "O0816"
+  ],
+  "notas": null,
+  "citacoes": null
 }

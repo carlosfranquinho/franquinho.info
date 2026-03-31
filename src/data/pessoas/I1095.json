@@ -1,18 +1,24 @@
 {
   "id": "I1095",
-  "protegida": true,
-  "sexo": "F",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado",
+  "nome_proprio": "Privado",
   "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
   "nascimento": null,
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": null,
   "familias_como_pai": [
     "F0318"
   ],
-  "relacoes": [
-    "F0318"
-  ]
+  "media": [
+    "O0885",
+    "O0892"
+  ],
+  "notas": null,
+  "citacoes": null
 }

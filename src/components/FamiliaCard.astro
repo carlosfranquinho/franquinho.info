@@ -1,9 +1,9 @@
 ---
-import type { Pessoa, PessoaProtegida, MediaItem, Lugar } from '../types';
+import type { Pessoa, MediaItem, Lugar } from '../types';
 import { silhueta, eRetrato, formatarNome } from '../utils';
 
 interface Props {
-  pessoa: Pessoa | PessoaProtegida;
+  pessoa: Pessoa;
   mediaMap: Record<string, MediaItem>;
   lugaresMap: Record<string, Lugar>;
   compact?: boolean;
@@ -11,12 +11,10 @@ interface Props {
 
 const { pessoa, mediaMap, lugaresMap, compact = false } = Astro.props;
 
-const protegida = pessoa.protegida;
 const nome = formatarNome(pessoa);
-const p = protegida ? null : (pessoa as Pessoa);
 
-const thumb = p?.media
-  ? (p.media.map((id) => mediaMap[id]).filter(Boolean).find(eRetrato)?.thumb ?? null)
+const thumb = pessoa.media
+  ? (pessoa.media.map((id) => mediaMap[id]).filter(Boolean).find(eRetrato)?.thumb ?? null)
   : null;
 
 const iniciais = nome.split(' ').filter(Boolean).slice(0, 2).map((w) => w[0]).join('').toUpperCase();
@@ -38,12 +36,7 @@ const lugarNascLabel = (() => {
   <!-- Compact: linha horizontal, largura fixa -->
   <a
     href={`/pessoas/${pessoa.id}`}
-    class:list={[
-      'flex items-center gap-3 px-3 py-2 rounded-lg border transition-all group w-52 shrink-0',
-      protegida
-        ? 'border-stone-100 bg-stone-50 hover:border-stone-300'
-        : 'border-stone-200 bg-white hover:border-amber-400 hover:shadow-sm',
-    ]}
+    class="flex items-center gap-3 px-3 py-2 rounded-lg border transition-all group w-52 shrink-0 border-stone-200 bg-white hover:border-amber-400 hover:shadow-sm"
   >
     <!-- Avatar pequeno -->
     <div class="flex-shrink-0 w-10 h-10 rounded-full overflow-hidden">
@@ -55,10 +48,7 @@ const lugarNascLabel = (() => {
     </div>
     <!-- Nome e data -->
     <div class="min-w-0 flex-1">
-      <span class:list={[
-        'block text-base font-medium leading-tight truncate',
-        protegida ? 'text-stone-400 italic group-hover:text-stone-600 transition-colors' : 'text-stone-700 group-hover:text-amber-700 transition-colors',
-      ]}>
+      <span class="block text-base font-medium leading-tight truncate text-stone-700 group-hover:text-amber-700 transition-colors">
         {nome}
       </span>
       {(anoNasc || anoObit) && (
@@ -72,12 +62,7 @@ const lugarNascLabel = (() => {
   <!-- Full: card com largura fixa -->
   <a
     href={`/pessoas/${pessoa.id}`}
-    class:list={[
-      'flex items-center gap-4 p-4 rounded-xl border transition-all group w-52 shrink-0',
-      protegida
-        ? 'border-stone-100 bg-stone-50 hover:border-stone-300'
-        : 'border-stone-200 bg-white hover:border-amber-400 hover:shadow-md',
-    ]}
+    class="flex items-center gap-4 p-4 rounded-xl border transition-all group w-52 shrink-0 border-stone-200 bg-white hover:border-amber-400 hover:shadow-md"
   >
     <!-- Foto ou iniciais -->
     <div class="flex-shrink-0 w-12 h-12 rounded-full overflow-hidden border-2 border-stone-100">
@@ -89,10 +74,7 @@ const lugarNascLabel = (() => {
     </div>
     <!-- Texto -->
     <div class="min-w-0 flex-1">
-      <span class:list={[
-        'block font-semibold leading-tight truncate',
-        protegida ? 'text-stone-400 italic group-hover:text-stone-600 transition-colors' : 'text-stone-800 group-hover:text-amber-700 transition-colors',
-      ]}>
+      <span class="block font-semibold leading-tight truncate text-stone-800 group-hover:text-amber-700 transition-colors">
         {nome}
       </span>
       {(anoNasc || anoObit) && (

@@ -1,9 +1,11 @@
 {
   "id": "I0263",
-  "protegida": true,
-  "sexo": "F",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Queirós",
+  "nome_proprio": "Privado",
   "apelido": "Queirós",
+  "nomes_alt": null,
+  "sexo": "F",
   "nascimento": {
     "data": "1964-10-22",
     "lugar_id": null
@@ -11,11 +13,12 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": null,
   "familias_como_pai": [
     "F0098"
   ],
-  "relacoes": [
-    "F0098"
-  ]
+  "media": null,
+  "notas": null,
+  "citacoes": null
 }

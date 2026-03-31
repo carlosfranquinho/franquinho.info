@@ -1,9 +1,11 @@
 {
   "id": "I0273",
-  "protegida": true,
-  "sexo": "M",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Ferreira Gonçalves",
+  "nome_proprio": "Privado",
   "apelido": "Ferreira Gonçalves",
+  "nomes_alt": null,
+  "sexo": "M",
   "nascimento": {
     "data": "1931-09-02",
     "lugar_id": "P0002"
@@ -11,14 +13,16 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0071"
   ],
   "familias_como_pai": [
     "F0107"
   ],
-  "relacoes": [
-    "F0107",
-    "F0071"
-  ]
+  "media": [
+    "O0456"
+  ],
+  "notas": null,
+  "citacoes": null
 }

@@ -1,9 +1,11 @@
 {
   "id": "I0299",
-  "protegida": true,
-  "sexo": "F",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado da Silva Gonçalves",
+  "nome_proprio": "Privado",
   "apelido": "da Silva Gonçalves",
+  "nomes_alt": null,
+  "sexo": "F",
   "nascimento": {
     "data": "1995-10-17",
     "lugar_id": "P0043"
@@ -11,11 +13,12 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0108"
   ],
   "familias_como_pai": null,
-  "relacoes": [
-    "F0108"
-  ]
+  "media": null,
+  "notas": null,
+  "citacoes": null
 }

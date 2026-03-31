@@ -145,12 +145,21 @@ def _para_rgb(img):
     return img
 
 
-def gerar_thumbnail(caminho_orig, caminho_thumb, tamanho):
+def _pixelizar(img, blocos=12):
+    """Pixeliza uma imagem reduzindo para `blocos` px e escalando de volta."""
+    orig_size = img.size
+    pequena = img.resize((blocos, blocos), Image.NEAREST)
+    return pequena.resize(orig_size, Image.NEAREST)
+
+
+def gerar_thumbnail(caminho_orig, caminho_thumb, tamanho, pixelizar=False):
     """Gera thumbnail de uma imagem. Devolve True se bem sucedido."""
     try:
         with Image.open(caminho_orig) as img:
             img.thumbnail((tamanho, tamanho), Image.LANCZOS)
             img = _para_rgb(img)
+            if pixelizar:
+                img = _pixelizar(img)
             caminho_thumb.parent.mkdir(parents=True, exist_ok=True)
             img.save(caminho_thumb, 'JPEG', quality=85, optimize=True)
         return True
@@ -159,26 +168,24 @@ def gerar_thumbnail(caminho_orig, caminho_thumb, tamanho):
         return False
 
 
-def gerar_web(caminho_orig, caminho_web, tamanho_max, qualidade):
+def gerar_web(caminho_orig, caminho_web, tamanho_max, qualidade, pixelizar=False):
     """
     Gera versao web de uma imagem: redimensiona para max tamanho_max px no lado
     maior (se necessario) e guarda em JPEG com a qualidade indicada.
-    Nao reprocessa se o ficheiro de destino ja existir.
     Devolve True se bem sucedido.
     """
     try:
         with Image.open(caminho_orig) as img:
             larg, alt = img.size
             if larg <= tamanho_max and alt <= tamanho_max:
-                # Ja e suficientemente pequena — apenas recomprimir
                 img = _para_rgb(img)
-                caminho_web.parent.mkdir(parents=True, exist_ok=True)
-                img.save(caminho_web, 'JPEG', quality=qualidade, optimize=True)
             else:
                 img.thumbnail((tamanho_max, tamanho_max), Image.LANCZOS)
                 img = _para_rgb(img)
-                caminho_web.parent.mkdir(parents=True, exist_ok=True)
-                img.save(caminho_web, 'JPEG', quality=qualidade, optimize=True)
+            if pixelizar:
+                img = _pixelizar(img)
+            caminho_web.parent.mkdir(parents=True, exist_ok=True)
+            img.save(caminho_web, 'JPEG', quality=qualidade, optimize=True)
         return True
     except Exception as e:
         print(f'  Aviso: nao foi possivel gerar versao web para {caminho_orig.name}: {e}')
@@ -232,6 +239,9 @@ def main():
     if not media_data:
         print('Nenhuma entrada de media encontrada. Nada a fazer.')
         return
+
+    # IDs de media de pessoas privadas — serão pixelizados
+    ids_privados = {m['id'] for m in media_data if m.get('privado')}
 
     # Abrir .gpkg se disponivel
     tar = None
@@ -304,15 +314,17 @@ def main():
 
         # Gerar thumbnail e versao web
         if ext in EXTENSOES_IMAGEM:
-            if not caminho_thumb.exists():
-                ok = gerar_thumbnail(Path(fonte), caminho_thumb, args.thumb_size)
+            e_privado = gramps_id in ids_privados
+            # Re-gerar sempre se for privado (para garantir pixelização actualizada)
+            if not caminho_thumb.exists() or e_privado:
+                ok = gerar_thumbnail(Path(fonte), caminho_thumb, args.thumb_size, pixelizar=e_privado)
                 if ok:
                     thumbnails += 1
             entrada['thumb'] = f'/media/thumbs/{gramps_id}.jpg'
 
             caminho_web = dir_web / f'{gramps_id}.jpg'
-            if not caminho_web.exists():
-                ok = gerar_web(Path(fonte), caminho_web, args.web_size, args.web_quality)
+            if not caminho_web.exists() or e_privado:
+                ok = gerar_web(Path(fonte), caminho_web, args.web_size, args.web_quality, pixelizar=e_privado)
                 if ok:
                     webs += 1
             entrada['web'] = f'/media/web/{gramps_id}.jpg'

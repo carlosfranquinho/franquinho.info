@@ -1,21 +1,23 @@
 {
   "id": "I1479",
-  "protegida": true,
-  "sexo": "F",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Alves Neto",
+  "nome_proprio": "Privado",
   "apelido": "Alves Neto",
+  "nomes_alt": null,
+  "sexo": "F",
   "nascimento": null,
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0407"
   ],
   "familias_como_pai": [
     "F0406"
   ],
-  "relacoes": [
-    "F0407",
-    "F0406"
-  ]
+  "media": null,
+  "notas": null,
+  "citacoes": null
 }

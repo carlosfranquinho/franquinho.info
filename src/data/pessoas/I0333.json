@@ -1,9 +1,11 @@
 {
   "id": "I0333",
-  "protegida": true,
-  "sexo": "F",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Caseiro",
+  "nome_proprio": "Privado",
   "apelido": "Caseiro",
+  "nomes_alt": null,
+  "sexo": "F",
   "nascimento": {
     "data": "1932-01-23",
     "lugar_id": "P0061"
@@ -14,11 +16,14 @@
     "lugar_id": null
   },
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": null,
   "familias_como_pai": [
     "F0122"
   ],
-  "relacoes": [
-    "F0122"
-  ]
+  "media": [
+    "O1020"
+  ],
+  "notas": null,
+  "citacoes": null
 }

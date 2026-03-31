@@ -1,9 +1,11 @@
 {
   "id": "I0337",
-  "protegida": true,
-  "sexo": "M",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Caseiro Rorigues Melo",
+  "nome_proprio": "Privado",
   "apelido": "Caseiro Rorigues Melo",
+  "nomes_alt": null,
+  "sexo": "M",
   "nascimento": {
     "data": "1982-09-04",
     "lugar_id": null
@@ -11,11 +13,14 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0123"
   ],
   "familias_como_pai": null,
-  "relacoes": [
-    "F0123"
-  ]
+  "media": [
+    "O1026"
+  ],
+  "notas": null,
+  "citacoes": null
 }

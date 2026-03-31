@@ -1,9 +1,11 @@
 {
   "id": "I0297",
-  "protegida": true,
-  "sexo": "F",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Figueiredo Gonçalves",
+  "nome_proprio": "Privado",
   "apelido": "Figueiredo Gonçalves",
+  "nomes_alt": null,
+  "sexo": "F",
   "nascimento": {
     "data": "1965-06-05",
     "lugar_id": "P0059"
@@ -11,14 +13,14 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0107"
   ],
   "familias_como_pai": [
     "F0109"
   ],
-  "relacoes": [
-    "F0107",
-    "F0109"
-  ]
+  "media": null,
+  "notas": null,
+  "citacoes": null
 }

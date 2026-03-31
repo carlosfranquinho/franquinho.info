@@ -1,9 +1,11 @@
 {
   "id": "I1026",
-  "protegida": true,
-  "sexo": "M",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Franquinho",
+  "nome_proprio": "Privado",
   "apelido": "Franquinho",
+  "nomes_alt": null,
+  "sexo": "M",
   "nascimento": {
     "data": "1999-12-11",
     "lugar_id": null
@@ -11,11 +13,16 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0288"
   ],
   "familias_como_pai": null,
-  "relacoes": [
-    "F0288"
-  ]
+  "media": [
+    "O0826",
+    "O0825",
+    "O0824"
+  ],
+  "notas": null,
+  "citacoes": null
 }

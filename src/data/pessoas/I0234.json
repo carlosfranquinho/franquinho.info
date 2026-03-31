@@ -1,9 +1,11 @@
 {
   "id": "I0234",
-  "protegida": true,
-  "sexo": "F",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Ferreira Gaspar",
+  "nome_proprio": "Privado",
   "apelido": "Ferreira Gaspar",
+  "nomes_alt": null,
+  "sexo": "F",
   "nascimento": {
     "data": "1928",
     "lugar_id": null
@@ -14,11 +16,14 @@
     "lugar_id": "P0175"
   },
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0070"
   ],
   "familias_como_pai": null,
-  "relacoes": [
-    "F0070"
-  ]
+  "media": [
+    "O1022"
+  ],
+  "notas": null,
+  "citacoes": null
 }

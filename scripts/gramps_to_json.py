@@ -444,21 +444,10 @@ def converter_pessoa(person_el, mapas, namespace):
     # Privacidade
     protegida = calcular_protegida(private)
 
+    # Anonimizar primeiro nome se privado
     if protegida:
-        return {
-            'id': gramps_id,
-            'protegida': True,
-            'sexo': sexo,
-            'nome': 'Familiar',
-            'apelido': apelido,
-            'nascimento': {'data': data_nasc, 'lugar_id': lugar_nasc_id} if data_nasc or lugar_nasc_id else None,
-            'baptismo':   {'data': data_bap,  'lugar_id': lugar_bap_id}  if data_bap  or lugar_bap_id  else None,
-            'obito':      {'data': data_obit, 'lugar_id': lugar_obit_id} if data_obit or lugar_obit_id else None,
-            'sepultura':  {'data': data_sep,  'lugar_id': lugar_sep_id}  if data_sep  or lugar_sep_id  else None,
-            'familias_como_filho': familias_como_filho or None,
-            'familias_como_pai':   familias_como_pai   or None,
-            'relacoes': todas_familias,
-        }
+        nome_proprio = 'Privado'
+        nome_completo = f'Privado {apelido}' if apelido else 'Privado'
 
     # Notas, citações, media
     notas = extrair_notas(person_el, mapas['notas'], namespace)
@@ -672,8 +661,6 @@ def gerar_indice(pessoas_data, media_por_id=None):
     import re
     indice = []
     for p in pessoas_data:
-        if p.get('protegida'):
-            continue
         entrada = {'id': p['id']}
         if p.get('nome'):
             entrada['nome'] = p['nome']
@@ -799,21 +786,19 @@ def main():
     escrever_json(output / 'lugares.json', lugares_data)
     print(f'Lugares: {len(lugares_data)} escritos')
 
-    # Media — apenas itens referenciados por pessoas ou famílias públicas
-    # Recolher IDs de media permitidos (referenciados por pelo menos uma pessoa pública)
+    # Recolher IDs de media de todos os indivíduos; marcar os de privados para pixelização
     media_permitidos: set[str] = set()
+    media_ids_privados: set[str] = set()
     for p in pessoas_data:
-        if not p.get('protegida'):
-            for mid in (p.get('media') or []):
-                media_permitidos.add(mid)
+        for mid in (p.get('media') or []):
+            media_permitidos.add(mid)
+            if p.get('protegida'):
+                media_ids_privados.add(mid)
 
-    # Famílias: incluir media se pelo menos um membro for público
-    pessoas_publicas_ids = {p['id'] for p in pessoas_data if not p.get('protegida')}
+    # Famílias: incluir sempre a media de família
     for fam in familias_data:
-        membros = [fam.get('pai'), fam.get('mae')] + (fam.get('filhos') or [])
-        if any(m in pessoas_publicas_ids for m in membros if m):
-            for mid in (fam.get('media') or []):
-                media_permitidos.add(mid)
+        for mid in (fam.get('media') or []):
+            media_permitidos.add(mid)
 
     # Preservar caminhos já resolvidos pelo processar_media.py
     media_anterior = {}
@@ -833,10 +818,12 @@ def main():
         if dados['id'] in media_anterior:
             dados['caminho'] = media_anterior[dados['id']]['caminho']
             dados['thumb'] = media_anterior[dados['id']]['thumb']
+        if dados['id'] in media_ids_privados:
+            dados['privado'] = True
         media_data.append(dados)
 
     escrever_json(output / 'media.json', media_data)
-    print(f'Media: {len(media_data)} entradas escritas ({n_excluidos} excluídas por privacidade)')
+    print(f'Media: {len(media_data)} entradas escritas ({len(media_ids_privados)} de privados para pixelização)')
 
     # Indice (com campos extra para evitar leituras individuais no build)
     media_por_id = {m['id']: m for m in media_data}
@@ -857,7 +844,7 @@ def main():
     for p in pessoas_data:
         pid = p['id']
         thumb = None
-        if not p.get('protegida') and p.get('media'):
+        if p.get('media'):
             for mid in p['media']:
                 m = media_por_id.get(mid)
                 if m and m.get('caminho_original', '') and '/Fotos/' in m['caminho_original']:

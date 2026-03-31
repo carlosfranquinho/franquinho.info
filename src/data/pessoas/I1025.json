@@ -1,9 +1,11 @@
 {
   "id": "I1025",
-  "protegida": true,
-  "sexo": "F",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Franquinho",
+  "nome_proprio": "Privado",
   "apelido": "Franquinho",
+  "nomes_alt": null,
+  "sexo": "F",
   "nascimento": {
     "data": "1992-09-21",
     "lugar_id": null
@@ -11,11 +13,17 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0288"
   ],
   "familias_como_pai": null,
-  "relacoes": [
-    "F0288"
-  ]
+  "media": [
+    "O0827",
+    "O0828",
+    "O0829",
+    "O0839"
+  ],
+  "notas": null,
+  "citacoes": null
 }

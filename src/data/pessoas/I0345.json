@@ -1,9 +1,11 @@
 {
   "id": "I0345",
-  "protegida": true,
-  "sexo": "M",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Monteiro Franquinho",
+  "nome_proprio": "Privado",
   "apelido": "Monteiro Franquinho",
+  "nomes_alt": null,
+  "sexo": "M",
   "nascimento": {
     "data": "1985-11-09",
     "lugar_id": null
@@ -11,11 +13,12 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0126"
   ],
   "familias_como_pai": null,
-  "relacoes": [
-    "F0126"
-  ]
+  "media": null,
+  "notas": null,
+  "citacoes": null
 }

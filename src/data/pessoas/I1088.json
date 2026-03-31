@@ -1,9 +1,11 @@
 {
   "id": "I1088",
-  "protegida": true,
-  "sexo": "F",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Franquinho Ribeiro",
+  "nome_proprio": "Privado",
   "apelido": "Franquinho Ribeiro",
+  "nomes_alt": null,
+  "sexo": "F",
   "nascimento": {
     "data": "1976-04-18",
     "lugar_id": "P0000"
@@ -11,14 +13,17 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0315"
   ],
   "familias_como_pai": [
     "F0316"
   ],
-  "relacoes": [
-    "F0316",
-    "F0315"
-  ]
+  "media": [
+    "O0874",
+    "O0872"
+  ],
+  "notas": null,
+  "citacoes": null
 }

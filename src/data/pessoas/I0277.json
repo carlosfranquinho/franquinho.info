@@ -1,9 +1,11 @@
 {
   "id": "I0277",
-  "protegida": true,
-  "sexo": "F",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Ferreira",
+  "nome_proprio": "Privado",
   "apelido": "Ferreira",
+  "nomes_alt": null,
+  "sexo": "F",
   "nascimento": {
     "data": "1925-02-17",
     "lugar_id": "P0002"
@@ -14,14 +16,14 @@
     "lugar_id": "P0141"
   },
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0071"
   ],
   "familias_como_pai": [
     "F0118"
   ],
-  "relacoes": [
-    "F0118",
-    "F0071"
-  ]
+  "media": null,
+  "notas": null,
+  "citacoes": null
 }

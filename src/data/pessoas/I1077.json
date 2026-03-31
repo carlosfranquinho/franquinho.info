@@ -1,18 +1,23 @@
 {
   "id": "I1077",
-  "protegida": true,
-  "sexo": "F",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Gréu Gomes",
+  "nome_proprio": "Privado",
   "apelido": "Gréu Gomes",
+  "nomes_alt": null,
+  "sexo": "F",
   "nascimento": null,
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": null,
   "familias_como_pai": [
     "F0311"
   ],
-  "relacoes": [
-    "F0311"
-  ]
+  "media": [
+    "O0870"
+  ],
+  "notas": null,
+  "citacoes": null
 }

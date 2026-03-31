@@ -2,14 +2,14 @@
 import { readFileSync, readdirSync } from 'fs';
 import { resolve } from 'path';
 import Base from '../layouts/Base.astro';
-import type { Pessoa, PessoaProtegida, Familia, Lugar } from '../types';
+import type { Pessoa, Familia, Lugar } from '../types';
 
 // ─── Carregar dados ────────────────────────────────────────────────────────────
 
 const pessoasDir = resolve('src/data/pessoas');
 const familiasDir = resolve('src/data/familias');
 
-const todasPessoas: (Pessoa | PessoaProtegida)[] = [];
+const todasPessoas: Pessoa[] = [];
 for (const f of readdirSync(pessoasDir)) {
   if (f.endsWith('.json'))
     todasPessoas.push(JSON.parse(readFileSync(resolve(pessoasDir, f), 'utf-8')));
@@ -24,7 +24,7 @@ for (const f of readdirSync(familiasDir)) {
 const lugares: Lugar[] = JSON.parse(readFileSync(resolve('src/data/lugares.json'), 'utf-8'));
 const lugaresMap: Record<string, Lugar> = Object.fromEntries(lugares.map((l) => [l.id, l]));
 
-const pessoaMap: Record<string, Pessoa | PessoaProtegida> = Object.fromEntries(
+const pessoaMap: Record<string, Pessoa> = Object.fromEntries(
   todasPessoas.map((p) => [p.id, p])
 );
 
@@ -41,8 +41,6 @@ function getNome(id: string | null): string | null {
   return p.nome ?? null;
 }
 
-const publicas = todasPessoas.filter((p) => !p.protegida) as Pessoa[];
-const protegidas = todasPessoas.filter((p) => p.protegida);
 const totalFamilias = todasFamilias.length;
 
 // ─── Distribuição por sexo ─────────────────────────────────────────────────────
@@ -226,7 +224,7 @@ const maxApelido = topApelidos[0]?.[1] ?? 1;
 
 const nomesPropriosM: Record<string, number> = {};
 const nomesPropriosF: Record<string, number> = {};
-for (const p of publicas) {
+for (const p of todasPessoas) {
   if (!p.nome_proprio) continue;
   if (p.sexo === 'M') nomesPropriosM[p.nome_proprio] = (nomesPropriosM[p.nome_proprio] ?? 0) + 1;
   else if (p.sexo === 'F') nomesPropriosF[p.nome_proprio] = (nomesPropriosF[p.nome_proprio] ?? 0) + 1;
@@ -279,7 +277,7 @@ const maxLugar = topLugares[0]?.count ?? 1;
 
 const profissoesM: Record<string, number> = {};
 const profissoesF: Record<string, number> = {};
-for (const p of publicas) {
+for (const p of todasPessoas) {
   if (!p.profissao) continue;
   if (p.sexo === 'M') profissoesM[p.profissao] = (profissoesM[p.profissao] ?? 0) + 1;
   else if (p.sexo === 'F') profissoesF[p.profissao] = (profissoesF[p.profissao] ?? 0) + 1;
@@ -311,7 +309,7 @@ const maxMedia = Math.max(...mediaVidaSeculo.map((s) => s.media), 1);
 
 // ─── Números de famílias com casamento registado ───────────────────────────────
 const famComCasamento = todasFamilias.filter((f) => f.casamento?.data).length;
-const pessoasComFoto = publicas.filter((p) => p.media && p.media.length > 0).length;
+const pessoasComFoto = todasPessoas.filter((p) => p.media && p.media.length > 0).length;
 ---
 
 <Base titulo="Estatísticas" descricao="Estatísticas e curiosidades sobre a árvore genealógica Franquinho.info">
@@ -329,7 +327,7 @@ const pessoasComFoto = publicas.filter((p) => p.media && p.media.length > 0).len
         { valor: todasPessoas.length, label: 'Total de pessoas' },
         { valor: totalFamilias, label: 'Famílias' },
         { valor: famComCasamento, label: 'Casamentos registados' },
-        { valor: publicas.length, label: `Perfis públicos (${protegidas.length} privados)` },
+        { valor: pessoasComFoto, label: 'Com fotografia' },
       ].map(({ valor, label }) => (
         <div class="bg-amber-50 border border-amber-100 rounded-xl p-4 text-center">
           <div class="text-3xl font-bold text-amber-700">{valor}</div>

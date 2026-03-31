@@ -1,9 +1,11 @@
 {
   "id": "I0301",
-  "protegida": true,
-  "sexo": "F",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Gonçalves Couto",
+  "nome_proprio": "Privado",
   "apelido": "Gonçalves Couto",
+  "nomes_alt": null,
+  "sexo": "F",
   "nascimento": {
     "data": "1991-06-12",
     "lugar_id": "P0055"
@@ -11,11 +13,12 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0109"
   ],
   "familias_como_pai": null,
-  "relacoes": [
-    "F0109"
-  ]
+  "media": null,
+  "notas": null,
+  "citacoes": null
 }

@@ -1,9 +1,11 @@
 {
   "id": "I0983",
-  "protegida": true,
-  "sexo": "F",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Franquinho Marques Gaspar",
+  "nome_proprio": "Privado",
   "apelido": "Franquinho Marques Gaspar",
+  "nomes_alt": null,
+  "sexo": "F",
   "nascimento": {
     "data": "1943-12-05",
     "lugar_id": "P0002"
@@ -11,11 +13,14 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0193"
   ],
   "familias_como_pai": null,
-  "relacoes": [
-    "F0193"
-  ]
+  "media": [
+    "O0790"
+  ],
+  "notas": null,
+  "citacoes": null
 }

@@ -1,9 +1,11 @@
 {
   "id": "I1039",
-  "protegida": true,
-  "sexo": "M",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Lacombe",
+  "nome_proprio": "Privado",
   "apelido": "Lacombe",
+  "nomes_alt": null,
+  "sexo": "M",
   "nascimento": {
     "data": "2004-09-10",
     "lugar_id": null
@@ -11,11 +13,16 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0293"
   ],
   "familias_como_pai": null,
-  "relacoes": [
-    "F0293"
-  ]
+  "media": [
+    "O0855",
+    "O0856",
+    "O0860"
+  ],
+  "notas": null,
+  "citacoes": null
 }

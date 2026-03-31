@@ -1,9 +1,11 @@
 {
   "id": "I1040",
-  "protegida": true,
-  "sexo": "M",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Rigaud",
+  "nome_proprio": "Privado",
   "apelido": "Rigaud",
+  "nomes_alt": null,
+  "sexo": "M",
   "nascimento": {
     "data": "1976-07-22",
     "lugar_id": null
@@ -11,11 +13,12 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": null,
   "familias_como_pai": [
     "F0294"
   ],
-  "relacoes": [
-    "F0294"
-  ]
+  "media": null,
+  "notas": null,
+  "citacoes": null
 }

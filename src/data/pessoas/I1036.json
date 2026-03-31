@@ -1,9 +1,11 @@
 {
   "id": "I1036",
-  "protegida": true,
-  "sexo": "F",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Franquinho Rainho",
+  "nome_proprio": "Privado",
   "apelido": "Franquinho Rainho",
+  "nomes_alt": null,
+  "sexo": "F",
   "nascimento": {
     "data": "1980-10-24",
     "lugar_id": "P0060"
@@ -11,14 +13,14 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0292"
   ],
   "familias_como_pai": [
     "F0294"
   ],
-  "relacoes": [
-    "F0292",
-    "F0294"
-  ]
+  "media": null,
+  "notas": null,
+  "citacoes": null
 }

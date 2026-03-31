@@ -1,9 +1,11 @@
 {
   "id": "I0000",
-  "protegida": true,
-  "sexo": "M",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Romeiro Franquinho",
+  "nome_proprio": "Privado",
   "apelido": "Romeiro Franquinho",
+  "nomes_alt": null,
+  "sexo": "M",
   "nascimento": {
     "data": "1974-10-21",
     "lugar_id": "P0000"
@@ -11,14 +13,18 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0001"
   ],
   "familias_como_pai": [
     "F0000"
   ],
-  "relacoes": [
-    "F0000",
-    "F0001"
-  ]
+  "media": [
+    "O0459",
+    "O0454",
+    "O0102"
+  ],
+  "notas": null,
+  "citacoes": null
 }

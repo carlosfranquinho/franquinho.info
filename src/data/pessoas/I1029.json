@@ -1,9 +1,11 @@
 {
   "id": "I1029",
-  "protegida": true,
-  "sexo": "M",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado de Jesus Duarte",
+  "nome_proprio": "Privado",
   "apelido": "de Jesus Duarte",
+  "nomes_alt": null,
+  "sexo": "M",
   "nascimento": {
     "data": "1965-03-10",
     "lugar_id": null
@@ -11,11 +13,14 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": null,
   "familias_como_pai": [
     "F0290"
   ],
-  "relacoes": [
-    "F0290"
-  ]
+  "media": [
+    "O0840"
+  ],
+  "notas": null,
+  "citacoes": null
 }

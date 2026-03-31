@@ -1,9 +1,11 @@
 {
   "id": "I0289",
-  "protegida": true,
-  "sexo": "F",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado S. F. Domingues",
+  "nome_proprio": "Privado",
   "apelido": "S. F. Domingues",
+  "nomes_alt": null,
+  "sexo": "F",
   "nascimento": {
     "data": "17 nov",
     "lugar_id": null
@@ -14,11 +16,12 @@
     "lugar_id": null
   },
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": null,
   "familias_como_pai": [
     "F0104"
   ],
-  "relacoes": [
-    "F0104"
-  ]
+  "media": null,
+  "notas": null,
+  "citacoes": null
 }

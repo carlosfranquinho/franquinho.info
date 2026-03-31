@@ -1,9 +1,11 @@
 {
   "id": "I1020",
-  "protegida": true,
-  "sexo": "M",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Franquinho",
+  "nome_proprio": "Privado",
   "apelido": "Franquinho",
+  "nomes_alt": null,
+  "sexo": "M",
   "nascimento": {
     "data": "1964-06-18",
     "lugar_id": "P0002"
@@ -11,14 +13,17 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0287"
   ],
   "familias_como_pai": [
     "F0288"
   ],
-  "relacoes": [
-    "F0288",
-    "F0287"
-  ]
+  "media": [
+    "O0819",
+    "O0818"
+  ],
+  "notas": null,
+  "citacoes": null
 }

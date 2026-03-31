@@ -1,9 +1,11 @@
 {
   "id": "I0282",
-  "protegida": true,
-  "sexo": "M",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Cardoso Gonçalves",
+  "nome_proprio": "Privado",
   "apelido": "Cardoso Gonçalves",
+  "nomes_alt": null,
+  "sexo": "M",
   "nascimento": {
     "data": null,
     "lugar_id": "P0055"
@@ -11,11 +13,12 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0101"
   ],
   "familias_como_pai": null,
-  "relacoes": [
-    "F0101"
-  ]
+  "media": null,
+  "notas": null,
+  "citacoes": null
 }

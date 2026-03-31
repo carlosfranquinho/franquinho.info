@@ -1,18 +1,23 @@
 {
   "id": "I1087",
-  "protegida": true,
-  "sexo": "M",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Gaspar Vicente Ribeiro",
+  "nome_proprio": "Privado",
   "apelido": "Gaspar Vicente Ribeiro",
+  "nomes_alt": null,
+  "sexo": "M",
   "nascimento": null,
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": null,
   "familias_como_pai": [
     "F0315"
   ],
-  "relacoes": [
-    "F0315"
-  ]
+  "media": [
+    "O0876"
+  ],
+  "notas": null,
+  "citacoes": null
 }

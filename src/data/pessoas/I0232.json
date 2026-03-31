@@ -1,9 +1,11 @@
 {
   "id": "I0232",
-  "protegida": true,
-  "sexo": "F",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado",
+  "nome_proprio": "Privado",
   "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
   "nascimento": {
     "data": "1921",
     "lugar_id": "P0002"
@@ -11,14 +13,14 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0070"
   ],
   "familias_como_pai": [
     "F0090"
   ],
-  "relacoes": [
-    "F0070",
-    "F0090"
-  ]
+  "media": null,
+  "notas": null,
+  "citacoes": null
 }

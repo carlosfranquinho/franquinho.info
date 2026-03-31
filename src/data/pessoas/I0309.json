@@ -1,9 +1,11 @@
 {
   "id": "I0309",
-  "protegida": true,
-  "sexo": "F",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Caseiro Gonçalves",
+  "nome_proprio": "Privado",
   "apelido": "Caseiro Gonçalves",
+  "nomes_alt": null,
+  "sexo": "F",
   "nascimento": {
     "data": "29 mar",
     "lugar_id": null
@@ -11,14 +13,14 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0112"
   ],
   "familias_como_pai": [
     "F0114"
   ],
-  "relacoes": [
-    "F0114",
-    "F0112"
-  ]
+  "media": null,
+  "notas": null,
+  "citacoes": null
 }

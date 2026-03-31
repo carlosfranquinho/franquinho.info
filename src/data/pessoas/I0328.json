@@ -1,9 +1,11 @@
 {
   "id": "I0328",
-  "protegida": true,
-  "sexo": "M",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Franquinho",
+  "nome_proprio": "Privado",
   "apelido": "Franquinho",
+  "nomes_alt": null,
+  "sexo": "M",
   "nascimento": {
     "data": "1930-03-18",
     "lugar_id": "P0002"
@@ -14,14 +16,14 @@
     "lugar_id": "P0060"
   },
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0120"
   ],
   "familias_como_pai": [
     "F0121"
   ],
-  "relacoes": [
-    "F0120",
-    "F0121"
-  ]
+  "media": null,
+  "notas": null,
+  "citacoes": null
 }

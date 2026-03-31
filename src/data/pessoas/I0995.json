@@ -1,9 +1,11 @@
 {
   "id": "I0995",
-  "protegida": true,
-  "sexo": "M",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Tomás Pedrosa",
+  "nome_proprio": "Privado",
   "apelido": "Tomás Pedrosa",
+  "nomes_alt": null,
+  "sexo": "M",
   "nascimento": {
     "data": "2004-05-31",
     "lugar_id": null
@@ -11,11 +13,12 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0278"
   ],
   "familias_como_pai": null,
-  "relacoes": [
-    "F0278"
-  ]
+  "media": null,
+  "notas": null,
+  "citacoes": null
 }

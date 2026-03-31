@@ -1,9 +1,11 @@
 {
   "id": "I0339",
-  "protegida": true,
-  "sexo": "M",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Caseiro Franquinho",
+  "nome_proprio": "Privado",
   "apelido": "Caseiro Franquinho",
+  "nomes_alt": null,
+  "sexo": "M",
   "nascimento": {
     "data": "1965-05-08",
     "lugar_id": null
@@ -11,14 +13,16 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0122"
   ],
   "familias_como_pai": [
     "F0126"
   ],
-  "relacoes": [
-    "F0126",
-    "F0122"
-  ]
+  "media": [
+    "O1027"
+  ],
+  "notas": null,
+  "citacoes": null
 }

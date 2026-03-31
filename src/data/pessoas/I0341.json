@@ -1,9 +1,11 @@
 {
   "id": "I0341",
-  "protegida": true,
-  "sexo": "M",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Caseiro dos Santos",
+  "nome_proprio": "Privado",
   "apelido": "Caseiro dos Santos",
+  "nomes_alt": null,
+  "sexo": "M",
   "nascimento": {
     "data": "1981-07-21",
     "lugar_id": null
@@ -11,14 +13,14 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0124"
   ],
   "familias_como_pai": [
     "F0125"
   ],
-  "relacoes": [
-    "F0125",
-    "F0124"
-  ]
+  "media": null,
+  "notas": null,
+  "citacoes": null
 }

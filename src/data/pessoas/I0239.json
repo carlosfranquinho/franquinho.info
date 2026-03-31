@@ -1,9 +1,11 @@
 {
   "id": "I0239",
-  "protegida": true,
-  "sexo": "F",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Lopes",
+  "nome_proprio": "Privado",
   "apelido": "Lopes",
+  "nomes_alt": null,
+  "sexo": "F",
   "nascimento": {
     "data": "1927-02-13",
     "lugar_id": "P0022"
@@ -14,11 +16,12 @@
     "lugar_id": null
   },
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": null,
   "familias_como_pai": [
     "F0091"
   ],
-  "relacoes": [
-    "F0091"
-  ]
+  "media": null,
+  "notas": null,
+  "citacoes": null
 }

@@ -1,9 +1,11 @@
 {
   "id": "I0258",
-  "protegida": true,
-  "sexo": "M",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Gaspar Gonzalez",
+  "nome_proprio": "Privado",
   "apelido": "Gaspar Gonzalez",
+  "nomes_alt": null,
+  "sexo": "M",
   "nascimento": {
     "data": "1977-01-12",
     "lugar_id": "P0053"
@@ -11,11 +13,12 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0096"
   ],
   "familias_como_pai": null,
-  "relacoes": [
-    "F0096"
-  ]
+  "media": null,
+  "notas": null,
+  "citacoes": null
 }

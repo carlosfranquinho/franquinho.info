@@ -1,9 +1,11 @@
 {
   "id": "I0300",
-  "protegida": true,
-  "sexo": "M",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Leite Couto",
+  "nome_proprio": "Privado",
   "apelido": "Leite Couto",
+  "nomes_alt": null,
+  "sexo": "M",
   "nascimento": {
     "data": null,
     "lugar_id": "P0059"
@@ -11,11 +13,12 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": null,
   "familias_como_pai": [
     "F0109"
   ],
-  "relacoes": [
-    "F0109"
-  ]
+  "media": null,
+  "notas": null,
+  "citacoes": null
 }

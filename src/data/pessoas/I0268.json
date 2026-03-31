@@ -1,18 +1,21 @@
 {
   "id": "I0268",
-  "protegida": true,
-  "sexo": "F",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Martins",
+  "nome_proprio": "Privado",
   "apelido": "Martins",
+  "nomes_alt": null,
+  "sexo": "F",
   "nascimento": null,
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": null,
   "familias_como_pai": [
     "F0100"
   ],
-  "relacoes": [
-    "F0100"
-  ]
+  "media": null,
+  "notas": null,
+  "citacoes": null
 }

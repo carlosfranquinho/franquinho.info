@@ -1,21 +1,20 @@
 ---
-import type { Pessoa, PessoaProtegida, MediaItem } from '../types';
+import type { Pessoa, MediaItem } from '../types';
 import { silhueta, eRetrato, extrairAno, formatarNome } from '../utils';
 
 interface Props {
-  pessoa: Pessoa | PessoaProtegida;
+  pessoa: Pessoa;
   mediaMap?: Record<string, MediaItem>;
   relacao?: string; // ex: 'Pai', 'Mae', 'Filho'
 }
 
 const { pessoa, mediaMap = {}, relacao } = Astro.props;
 
-const protegida = pessoa.protegida;
 const nome = formatarNome(pessoa);
 
 let thumb: string | null = null;
-if (!protegida && (pessoa as Pessoa).media) {
-  const retrato = (pessoa as Pessoa).media!.map((id) => mediaMap[id]).filter(Boolean).find(eRetrato);
+if (pessoa.media) {
+  const retrato = pessoa.media.map((id) => mediaMap[id]).filter(Boolean).find(eRetrato);
   thumb = retrato?.thumb ?? null;
 }
 
@@ -38,7 +37,7 @@ const datas = (anoNasc || anoObit)
 <a
   href={`/pessoas/${pessoa.id}`}
   class="flex items-center gap-3 p-3 rounded-lg border border-stone-200 bg-white hover:border-amber-400 hover:shadow-sm transition-all group"
-  title={protegida ? 'Dados privados' : nome}
+  title={nome}
 >
   <!-- Foto ou iniciais -->
   <div class="flex-shrink-0 w-12 h-12 rounded-full overflow-hidden">
@@ -54,10 +53,7 @@ const datas = (anoNasc || anoObit)
     {relacao && (
       <span class="block text-xs text-stone-400 uppercase tracking-wide mb-0.5">{relacao}</span>
     )}
-    <span class:list={[
-      'block text-sm font-semibold leading-tight group-hover:text-amber-700 transition-colors',
-      protegida ? 'text-stone-400 italic' : 'text-stone-800',
-    ]}>
+    <span class="block text-sm font-semibold leading-tight group-hover:text-amber-700 transition-colors text-stone-800">
       {nome}
     </span>
     {datas && (

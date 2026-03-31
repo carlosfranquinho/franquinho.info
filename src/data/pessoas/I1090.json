@@ -1,18 +1,23 @@
 {
   "id": "I1090",
-  "protegida": true,
-  "sexo": "M",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Franquinho Almeida",
+  "nome_proprio": "Privado",
   "apelido": "Franquinho Almeida",
+  "nomes_alt": null,
+  "sexo": "M",
   "nascimento": null,
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0316"
   ],
   "familias_como_pai": null,
-  "relacoes": [
-    "F0316"
-  ]
+  "media": [
+    "O0875"
+  ],
+  "notas": null,
+  "citacoes": null
 }

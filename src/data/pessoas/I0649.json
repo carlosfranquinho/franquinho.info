@@ -1,9 +1,11 @@
 {
   "id": "I0649",
-  "protegida": true,
-  "sexo": "F",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Rodrigues Romeiro",
+  "nome_proprio": "Privado",
   "apelido": "Rodrigues Romeiro",
+  "nomes_alt": null,
+  "sexo": "F",
   "nascimento": {
     "data": "1950-09-27",
     "lugar_id": null
@@ -11,11 +13,12 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0184"
   ],
   "familias_como_pai": null,
-  "relacoes": [
-    "F0184"
-  ]
+  "media": null,
+  "notas": null,
+  "citacoes": null
 }

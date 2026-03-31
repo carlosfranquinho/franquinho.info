@@ -1,9 +1,11 @@
 {
   "id": "I1081",
-  "protegida": true,
-  "sexo": "M",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Fernandes",
+  "nome_proprio": "Privado",
   "apelido": "Fernandes",
+  "nomes_alt": null,
+  "sexo": "M",
   "nascimento": {
     "data": "1965-03-29",
     "lugar_id": null
@@ -11,11 +13,14 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": null,
   "familias_como_pai": [
     "F0312"
   ],
-  "relacoes": [
-    "F0312"
-  ]
+  "media": [
+    "O0865"
+  ],
+  "notas": null,
+  "citacoes": null
 }

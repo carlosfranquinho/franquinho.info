@@ -1,9 +1,11 @@
 {
   "id": "I0002",
-  "protegida": true,
-  "sexo": "M",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado da Silva Franquinho",
+  "nome_proprio": "Privado",
   "apelido": "da Silva Franquinho",
+  "nomes_alt": null,
+  "sexo": "M",
   "nascimento": {
     "data": "1947-02-14",
     "lugar_id": "P0002"
@@ -14,14 +16,17 @@
     "lugar_id": "P0083"
   },
   "sepultura": null,
+  "profissao": "Polícia",
   "familias_como_filho": [
     "F0002"
   ],
   "familias_como_pai": [
     "F0001"
   ],
-  "relacoes": [
-    "F0002",
-    "F0001"
-  ]
+  "media": [
+    "O0449",
+    "O0103"
+  ],
+  "notas": null,
+  "citacoes": null
 }

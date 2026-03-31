@@ -1,9 +1,11 @@
 {
   "id": "I1534",
-  "protegida": true,
-  "sexo": "F",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Freitas Franquinho Aguiar",
+  "nome_proprio": "Privado",
   "apelido": "Freitas Franquinho Aguiar",
+  "nomes_alt": null,
+  "sexo": "F",
   "nascimento": {
     "data": "1965-02-10",
     "lugar_id": "P0184"
@@ -11,14 +13,14 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0426"
   ],
   "familias_como_pai": [
     "F0427"
   ],
-  "relacoes": [
-    "F0427",
-    "F0426"
-  ]
+  "media": null,
+  "notas": null,
+  "citacoes": null
 }

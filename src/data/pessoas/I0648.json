@@ -1,9 +1,11 @@
 {
   "id": "I0648",
-  "protegida": true,
-  "sexo": "M",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Sintra Rodrigues Romeiro",
+  "nome_proprio": "Privado",
   "apelido": "Sintra Rodrigues Romeiro",
+  "nomes_alt": null,
+  "sexo": "M",
   "nascimento": {
     "data": "1953-01-22",
     "lugar_id": null
@@ -11,11 +13,12 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0184"
   ],
   "familias_como_pai": null,
-  "relacoes": [
-    "F0184"
-  ]
+  "media": null,
+  "notas": null,
+  "citacoes": null
 }

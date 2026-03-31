@@ -5,7 +5,7 @@ import Base from '../../layouts/Base.astro';
 import Lightbox from '../../components/Lightbox.astro';
 import LugarLink from '../../components/LugarLink.astro';
 import FamiliaCard from '../../components/FamiliaCard.astro';
-import type { Pessoa, PessoaProtegida, Familia, Lugar, MediaItem } from '../../types';
+import type { Pessoa, Familia, Lugar, MediaItem } from '../../types';
 import { formatarData, silhueta, eRetrato, formatarNome, legendaDocumento } from '../../utils';
 
 export function getStaticPaths() {
@@ -17,7 +17,7 @@ export function getStaticPaths() {
 
 const { id } = Astro.params;
 
-function lerPessoa(pid: string): Pessoa | PessoaProtegida {
+function lerPessoa(pid: string): Pessoa {
   return JSON.parse(readFileSync(resolve(`src/data/pessoas/${pid}.json`), 'utf-8'));
 }
 function lerFamilia(fid: string): Familia | null {
@@ -26,8 +26,7 @@ function lerFamilia(fid: string): Familia | null {
 }
 
 const pessoa = lerPessoa(id);
-const protegida = pessoa.protegida;
-const p = protegida ? null : (pessoa as Pessoa);
+const p = pessoa;
 
 const lugares: Lugar[] = JSON.parse(readFileSync(resolve('src/data/lugares.json'), 'utf-8'));
 const eventosHistoricos: { data: string; label: string; categoria: string }[] =
@@ -39,7 +38,7 @@ const mediaMap: Record<string, MediaItem> = Object.fromEntries(mediaList.map((m)
 const familiaComoFilho = (pessoa.familias_como_filho ?? []).map(lerFamilia).filter(Boolean) as Familia[];
 const familiaComoPai   = (pessoa.familias_como_pai   ?? []).map(lerFamilia).filter(Boolean) as Familia[];
 
-function pessoasUnicas(ids: (string | null | undefined)[]): (Pessoa | PessoaProtegida)[] {
+function pessoasUnicas(ids: (string | null | undefined)[]): Pessoa[] {
   const vistos = new Set<string>();
   return ids
     .filter((x): x is string => !!x && x !== id && !vistos.has(x) && !!vistos.add(x))
@@ -107,7 +106,7 @@ for (const f of familiaComoPai) {
   if (f.casamento?.data) {
     timeline.push({
       data: f.casamento.data,
-      label: `Casamento${outro && !outro.protegida ? ` com ${outro.nome}` : ''}`,
+      label: `Casamento${outro ? ` com ${outro.nome}` : ''}`,
       lugar: f.casamento.lugar_id ? lugaresMap[f.casamento.lugar_id] ?? null : null,
       destaque: true,
       idade: calcularIdade(f.casamento.data),
@@ -117,7 +116,7 @@ for (const f of familiaComoPai) {
   if (outro?.obito?.data && (!pessoa.obito?.data || outro.obito.data < pessoa.obito.data)) {
     timeline.push({
       data: outro.obito.data,
-      label: `Falecimento do cônjuge${!outro.protegida ? ` ${outro.nome}` : ''}`,
+      label: `Falecimento do cônjuge ${outro.nome}`,
       lugar: outro.obito.lugar_id ? lugaresMap[outro.obito.lugar_id] ?? null : null,
       destaque: false,
       idade: calcularIdade(outro.obito.data),
@@ -171,8 +170,7 @@ const nascidoLabel = pessoa.sexo === 'F' ? 'Nascida a' : 'Nascido a';
 const nascidoIndeterminadoLabel = pessoa.sexo === 'F' ? 'Nascida em data indeterminada' : 'Nascido em data indeterminada';
 const falecidoLabel = pessoa.sexo === 'F' ? 'Falecida a' : 'Falecido a';
 
-// JSON-LD Person (apenas para pessoas não-protegidas)
-const jsonLd = !protegida && p ? {
+const jsonLd = !p.protegida ? {
   '@context': 'https://schema.org',
   '@type': 'Person',
   name: titulo,
@@ -188,13 +186,13 @@ const jsonLd = !protegida && p ? {
 
 <Base
   titulo={titulo}
-  descricao={protegida ? undefined : `Ficha genealogica de ${titulo}`}
-  noindex={protegida}
+  descricao={`Ficha genealogica de ${titulo}`}
+  noindex={p.protegida}
   ogImage={fotoHero?.thumb ?? undefined}
 >
 
   {/* Metadados para Pagefind */}
-  {!protegida && (
+  {!p.protegida && (
     <div hidden>
       <span data-pagefind-meta="title">{titulo}</span>
       {fotoHero?.thumb && <img data-pagefind-meta="image[src]" src={fotoHero.thumb} alt={titulo} />}
@@ -242,10 +240,7 @@ const jsonLd = !protegida && p ? {
 
       <!-- Nome e dados -->
       <div class="flex-1 min-w-0 pb-1">
-        <h1 class:list={[
-          'text-3xl sm:text-4xl font-bold leading-tight mb-3',
-          protegida ? 'text-stone-400 italic' : 'text-white',
-        ]}>{titulo}</h1>
+        <h1 class="text-3xl sm:text-4xl font-bold leading-tight mb-3 text-white">{titulo}</h1>
         <div class="space-y-1.5 text-base text-stone-300">
           {(pessoa.nascimento?.data || lugarNasc) && (
             <p class="flex items-baseline gap-2">

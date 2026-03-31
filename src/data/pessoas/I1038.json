@@ -1,9 +1,11 @@
 {
   "id": "I1038",
-  "protegida": true,
-  "sexo": "M",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Lacombe",
+  "nome_proprio": "Privado",
   "apelido": "Lacombe",
+  "nomes_alt": null,
+  "sexo": "M",
   "nascimento": {
     "data": "1977-08-03",
     "lugar_id": null
@@ -11,11 +13,12 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": null,
   "familias_como_pai": [
     "F0293"
   ],
-  "relacoes": [
-    "F0293"
-  ]
+  "media": null,
+  "notas": null,
+  "citacoes": null
 }

@@ -1,9 +1,11 @@
 {
   "id": "I0266",
-  "protegida": true,
-  "sexo": "F",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Duarte Gaspar",
+  "nome_proprio": "Privado",
   "apelido": "Duarte Gaspar",
+  "nomes_alt": null,
+  "sexo": "F",
   "nascimento": {
     "data": "1998-03-04",
     "lugar_id": null
@@ -11,11 +13,12 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0099"
   ],
   "familias_como_pai": null,
-  "relacoes": [
-    "F0099"
-  ]
+  "media": null,
+  "notas": null,
+  "citacoes": null
 }

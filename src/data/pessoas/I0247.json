@@ -1,9 +1,11 @@
 {
   "id": "I0247",
-  "protegida": true,
-  "sexo": "M",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Lopes Luís",
+  "nome_proprio": "Privado",
   "apelido": "Lopes Luís",
+  "nomes_alt": null,
+  "sexo": "M",
   "nascimento": {
     "data": "1975-04-28",
     "lugar_id": "P0050"
@@ -11,14 +13,14 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0092"
   ],
   "familias_como_pai": [
     "F0093"
   ],
-  "relacoes": [
-    "F0092",
-    "F0093"
-  ]
+  "media": null,
+  "notas": null,
+  "citacoes": null
 }

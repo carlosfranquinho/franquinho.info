@@ -1,9 +1,11 @@
 {
   "id": "I1030",
-  "protegida": true,
-  "sexo": "F",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Franquinho",
+  "nome_proprio": "Privado",
   "apelido": "Franquinho",
+  "nomes_alt": null,
+  "sexo": "F",
   "nascimento": {
     "data": "31 ago",
     "lugar_id": null
@@ -11,11 +13,16 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0290"
   ],
   "familias_como_pai": null,
-  "relacoes": [
-    "F0290"
-  ]
+  "media": [
+    "O0836",
+    "O0837",
+    "O0838"
+  ],
+  "notas": null,
+  "citacoes": null
 }

@@ -1,9 +1,11 @@
 {
   "id": "I0255",
-  "protegida": true,
-  "sexo": "F",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Pereira Gaspar",
+  "nome_proprio": "Privado",
   "apelido": "Pereira Gaspar",
+  "nomes_alt": null,
+  "sexo": "F",
   "nascimento": {
     "data": "1983-10-05",
     "lugar_id": null
@@ -11,11 +13,14 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0095"
   ],
   "familias_como_pai": null,
-  "relacoes": [
-    "F0095"
-  ]
+  "media": [
+    "O1032"
+  ],
+  "notas": null,
+  "citacoes": null
 }

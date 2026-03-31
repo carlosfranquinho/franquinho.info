@@ -1,21 +1,23 @@
 {
   "id": "I1094",
-  "protegida": true,
-  "sexo": "M",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Franquinho",
+  "nome_proprio": "Privado",
   "apelido": "Franquinho",
+  "nomes_alt": null,
+  "sexo": "M",
   "nascimento": null,
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0317"
   ],
   "familias_como_pai": [
     "F0321"
   ],
-  "relacoes": [
-    "F0317",
-    "F0321"
-  ]
+  "media": null,
+  "notas": null,
+  "citacoes": null
 }

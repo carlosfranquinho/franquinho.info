@@ -34,9 +34,9 @@ const COR_SEXO = {
 // ---------------------------------------------------------------------------
 
 function PersonNode({ data }) {
-  const { nome, apelido, sexo, protegida, ano_nasc, ano_obit, thumb, isRoot } = data;
+  const { nome, apelido, sexo, ano_nasc, ano_obit, thumb, isRoot } = data;
   const cor = COR_SEXO[sexo] ?? COR_SEXO.U;
-  const nomeDisplay = formatarNome({ protegida, apelido, nome });
+  const nomeDisplay = formatarNome({ apelido, nome });
   const avatarSrc = thumb ?? silhueta(sexo, ano_nasc, ano_obit);
 
   return (
@@ -44,9 +44,9 @@ function PersonNode({ data }) {
       style={{
         width: PERSON_W,
         height: PERSON_H,
-        border: `2px solid ${protegida ? '#d6d3d1' : cor.border}`,
+        border: `2px solid ${cor.border}`,
         borderRadius: 10,
-        background: protegida ? '#f5f5f4' : cor.bg,
+        background: cor.bg,
         boxShadow: isRoot
           ? '0 0 0 3px #f59e0b, 0 4px 12px rgba(0,0,0,0.15)'
           : '0 1px 4px rgba(0,0,0,0.08)',
@@ -66,8 +66,8 @@ function PersonNode({ data }) {
       <div style={{
         width: 40, height: 40, borderRadius: '50%',
         flexShrink: 0, overflow: 'hidden',
-        border: `1.5px solid ${protegida ? '#d6d3d1' : cor.border}`,
-        background: protegida ? '#e7e5e4' : cor.bg,
+        border: `1.5px solid ${cor.border}`,
+        background: cor.bg,
         display: 'flex', alignItems: 'center', justifyContent: 'center',
       }}>
         <img src={avatarSrc} alt="" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
@@ -77,8 +77,7 @@ function PersonNode({ data }) {
       <div style={{ minWidth: 0, flex: 1 }}>
         <div style={{
           fontSize: 12, fontWeight: 600, lineHeight: 1.3,
-          color: protegida ? '#a8a29e' : '#1c1917',
-          fontStyle: protegida ? 'italic' : 'normal',
+          color: '#1c1917',
           whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis',
         }}>
           {nomeDisplay}
@@ -242,9 +241,9 @@ function buildGraph(rootId, mode, maxDepth, pessoas, familias, indices) {
 
 function InfoPanel({ data, id, onClose, onSetRoot }) {
   if (!data) return null;
-  const { nome, apelido, sexo, ano_nasc, ano_obit, protegida, thumb } = data;
+  const { nome, apelido, sexo, ano_nasc, ano_obit, thumb } = data;
   const cor = COR_SEXO[sexo] ?? COR_SEXO.U;
-  const nomeDisplay = formatarNome({ protegida, apelido, nome });
+  const nomeDisplay = formatarNome({ apelido, nome });
   const avatarSrc = thumb ?? silhueta(sexo, ano_nasc, ano_obit);
 
   return (
@@ -267,22 +266,21 @@ function InfoPanel({ data, id, onClose, onSetRoot }) {
         overflow: 'hidden',
       }}>
         {/* Barra de cor */}
-        <div style={{ height: 5, background: protegida ? '#d6d3d1' : cor.border }} />
+        <div style={{ height: 5, background: cor.border }} />
 
         <div style={{ padding: '20px 20px 18px' }}>
           {/* Cabeçalho: avatar + nome */}
           <div style={{ display: 'flex', alignItems: 'center', gap: 14, marginBottom: 16 }}>
             <div style={{
               width: 64, height: 64, borderRadius: '50%', flexShrink: 0, overflow: 'hidden',
-              border: `2px solid ${protegida ? '#d6d3d1' : cor.border}`,
+              border: `2px solid ${cor.border}`,
             }}>
               <img src={avatarSrc} alt="" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
             </div>
             <div style={{ flex: 1, minWidth: 0 }}>
               <div style={{
                 fontWeight: 700, fontSize: 15, lineHeight: 1.3,
-                color: protegida ? '#a8a29e' : '#1c1917',
-                fontStyle: protegida ? 'italic' : 'normal',
+                color: '#1c1917',
               }}>
                 {nomeDisplay}
               </div>
@@ -396,7 +394,7 @@ export default function TreeView({ defaultRootId = 'I0007', defaultRootName = ''
     if (!arvore || !search.trim()) { setSearchResults([]); return; }
     const q = search.toLowerCase();
     const results = Object.entries(arvore.pessoas)
-      .filter(([, p]) => !p.protegida && p.nome?.toLowerCase().includes(q))
+      .filter(([, p]) => p.nome?.toLowerCase().includes(q))
       .slice(0, 8)
       .map(([id, p]) => ({ id, nome: p.nome, ano_nasc: p.ano_nasc }));
     setSearchResults(results);

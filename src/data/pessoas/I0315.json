@@ -1,9 +1,11 @@
 {
   "id": "I0315",
-  "protegida": true,
-  "sexo": "F",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Domingues Gonçalves",
+  "nome_proprio": "Privado",
   "apelido": "Domingues Gonçalves",
+  "nomes_alt": null,
+  "sexo": "F",
   "nascimento": {
     "data": "17 Julho",
     "lugar_id": null
@@ -11,14 +13,16 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0115"
   ],
   "familias_como_pai": [
     "F0116"
   ],
-  "relacoes": [
-    "F0115",
-    "F0116"
-  ]
+  "media": [
+    "O1035"
+  ],
+  "notas": null,
+  "citacoes": null
 }

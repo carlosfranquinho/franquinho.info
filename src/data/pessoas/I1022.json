@@ -1,9 +1,11 @@
 {
   "id": "I1022",
-  "protegida": true,
-  "sexo": "F",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado da Vieira Franquinho",
+  "nome_proprio": "Privado",
   "apelido": "da Vieira Franquinho",
+  "nomes_alt": null,
+  "sexo": "F",
   "nascimento": {
     "data": "1970-03-01",
     "lugar_id": null
@@ -11,14 +13,18 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0287"
   ],
   "familias_como_pai": [
     "F0290"
   ],
-  "relacoes": [
-    "F0287",
-    "F0290"
-  ]
+  "media": [
+    "O0833",
+    "O0834",
+    "O0835"
+  ],
+  "notas": null,
+  "citacoes": null
 }

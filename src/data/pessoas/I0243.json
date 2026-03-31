@@ -1,9 +1,11 @@
 {
   "id": "I0243",
-  "protegida": true,
-  "sexo": "M",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Lopes Gaspar",
+  "nome_proprio": "Privado",
   "apelido": "Lopes Gaspar",
+  "nomes_alt": null,
+  "sexo": "M",
   "nascimento": {
     "data": "1958-02-25",
     "lugar_id": null
@@ -11,14 +13,16 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0091"
   ],
   "familias_como_pai": [
     "F0096"
   ],
-  "relacoes": [
-    "F0096",
-    "F0091"
-  ]
+  "media": [
+    "O1028"
+  ],
+  "notas": null,
+  "citacoes": null
 }

@@ -1,9 +1,11 @@
 {
   "id": "I1044",
-  "protegida": true,
-  "sexo": "M",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Rainho",
+  "nome_proprio": "Privado",
   "apelido": "Rainho",
+  "nomes_alt": null,
+  "sexo": "M",
   "nascimento": {
     "data": "2009-10-19",
     "lugar_id": null
@@ -11,11 +13,14 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0295"
   ],
   "familias_como_pai": null,
-  "relacoes": [
-    "F0295"
-  ]
+  "media": [
+    "O0851"
+  ],
+  "notas": null,
+  "citacoes": null
 }

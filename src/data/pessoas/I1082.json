@@ -1,18 +1,24 @@
 {
   "id": "I1082",
-  "protegida": true,
-  "sexo": "F",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Fernandes",
+  "nome_proprio": "Privado",
   "apelido": "Fernandes",
+  "nomes_alt": null,
+  "sexo": "F",
   "nascimento": null,
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0312"
   ],
   "familias_como_pai": null,
-  "relacoes": [
-    "F0312"
-  ]
+  "media": [
+    "O0868",
+    "O0867"
+  ],
+  "notas": null,
+  "citacoes": null
 }

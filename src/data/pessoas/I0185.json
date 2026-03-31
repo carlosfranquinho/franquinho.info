@@ -1,9 +1,11 @@
 {
   "id": "I0185",
-  "protegida": true,
-  "sexo": "M",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Rodrigues",
+  "nome_proprio": "Privado",
   "apelido": "Rodrigues",
+  "nomes_alt": null,
+  "sexo": "M",
   "nascimento": null,
   "baptismo": null,
   "obito": {
@@ -11,11 +13,12 @@
     "lugar_id": null
   },
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": null,
   "familias_como_pai": [
     "F0081"
   ],
-  "relacoes": [
-    "F0081"
-  ]
+  "media": null,
+  "notas": null,
+  "citacoes": null
 }

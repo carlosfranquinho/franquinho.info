@@ -1,9 +1,11 @@
 {
   "id": "I0338",
-  "protegida": true,
-  "sexo": "F",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Caseiro Franquinho dos Santos",
+  "nome_proprio": "Privado",
   "apelido": "Caseiro Franquinho dos Santos",
+  "nomes_alt": null,
+  "sexo": "F",
   "nascimento": {
     "data": "1961-01-13",
     "lugar_id": null
@@ -11,14 +13,16 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0122"
   ],
   "familias_como_pai": [
     "F0124"
   ],
-  "relacoes": [
-    "F0122",
-    "F0124"
-  ]
+  "media": [
+    "O1025"
+  ],
+  "notas": null,
+  "citacoes": null
 }

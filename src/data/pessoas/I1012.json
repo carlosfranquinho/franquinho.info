@@ -1,9 +1,11 @@
 {
   "id": "I1012",
-  "protegida": true,
-  "sexo": "M",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Grácio",
+  "nome_proprio": "Privado",
   "apelido": "Grácio",
+  "nomes_alt": null,
+  "sexo": "M",
   "nascimento": {
     "data": "2000-05-02",
     "lugar_id": null
@@ -11,11 +13,14 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0284"
   ],
   "familias_como_pai": null,
-  "relacoes": [
-    "F0284"
-  ]
+  "media": [
+    "O0813"
+  ],
+  "notas": null,
+  "citacoes": null
 }

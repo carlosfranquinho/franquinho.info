@@ -1,9 +1,11 @@
 {
   "id": "I0982",
-  "protegida": true,
-  "sexo": "F",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Franquinho Gaspar",
+  "nome_proprio": "Privado",
   "apelido": "Franquinho Gaspar",
+  "nomes_alt": null,
+  "sexo": "F",
   "nascimento": {
     "data": "1942-09-17",
     "lugar_id": "P0002"
@@ -14,14 +16,14 @@
     "lugar_id": "P0002"
   },
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0193"
   ],
   "familias_como_pai": [
     "F0276"
   ],
-  "relacoes": [
-    "F0193",
-    "F0276"
-  ]
+  "media": null,
+  "notas": null,
+  "citacoes": null
 }

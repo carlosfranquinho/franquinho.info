@@ -1,9 +1,11 @@
 {
   "id": "I0285",
-  "protegida": true,
-  "sexo": "F",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Ferreira Domingues",
+  "nome_proprio": "Privado",
   "apelido": "Ferreira Domingues",
+  "nomes_alt": null,
+  "sexo": "F",
   "nascimento": {
     "data": "15 dezembro",
     "lugar_id": null
@@ -11,14 +13,16 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0103"
   ],
   "familias_como_pai": [
     "F0105"
   ],
-  "relacoes": [
-    "F0105",
-    "F0103"
-  ]
+  "media": [
+    "O1019"
+  ],
+  "notas": null,
+  "citacoes": null
 }

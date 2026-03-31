@@ -1,9 +1,11 @@
 {
   "id": "I0082",
-  "protegida": true,
-  "sexo": "F",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Cecília",
+  "nome_proprio": "Privado",
   "apelido": "Cecília",
+  "nomes_alt": null,
+  "sexo": "F",
   "nascimento": {
     "data": "1904-10-25",
     "lugar_id": "P0002"
@@ -14,11 +16,12 @@
     "lugar_id": "P0176"
   },
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": null,
   "familias_como_pai": [
     "F0281"
   ],
-  "relacoes": [
-    "F0281"
-  ]
+  "media": null,
+  "notas": null,
+  "citacoes": null
 }

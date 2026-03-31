@@ -1,9 +1,11 @@
 {
   "id": "I0254",
-  "protegida": true,
-  "sexo": "F",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado da Conceição Pereira",
+  "nome_proprio": "Privado",
   "apelido": "da Conceição Pereira",
+  "nomes_alt": null,
+  "sexo": "F",
   "nascimento": {
     "data": "1958-01-17",
     "lugar_id": null
@@ -11,11 +13,12 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": null,
   "familias_como_pai": [
     "F0095"
   ],
-  "relacoes": [
-    "F0095"
-  ]
+  "media": null,
+  "notas": null,
+  "citacoes": null
 }

@@ -1,9 +1,11 @@
 {
   "id": "I1008",
-  "protegida": true,
-  "sexo": "M",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado da Silva Rodrigues Grácio",
+  "nome_proprio": "Privado",
   "apelido": "da Silva Rodrigues Grácio",
+  "nomes_alt": null,
+  "sexo": "M",
   "nascimento": {
     "data": "1977-02-27",
     "lugar_id": null
@@ -11,11 +13,14 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0283"
   ],
   "familias_como_pai": null,
-  "relacoes": [
-    "F0283"
-  ]
+  "media": [
+    "O0810"
+  ],
+  "notas": null,
+  "citacoes": null
 }

@@ -1,9 +1,11 @@
 {
   "id": "I0261",
-  "protegida": true,
-  "sexo": "F",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Gonzalez",
+  "nome_proprio": "Privado",
   "apelido": "Gonzalez",
+  "nomes_alt": null,
+  "sexo": "F",
   "nascimento": {
     "data": "2002-04-19",
     "lugar_id": "P0053"
@@ -11,11 +13,12 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0097"
   ],
   "familias_como_pai": null,
-  "relacoes": [
-    "F0097"
-  ]
+  "media": null,
+  "notas": null,
+  "citacoes": null
 }

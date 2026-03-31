@@ -14,7 +14,6 @@ const pessoasDir = resolve('src/data/pessoas');
 for (const f of readdirSync(pessoasDir)) {
   if (!f.endsWith('.json')) continue;
   const p: Pessoa = JSON.parse(readFileSync(resolve(pessoasDir, f), 'utf-8'));
-  if (p.protegida) continue;
   for (const lid of [p.nascimento?.lugar_id, p.obito?.lugar_id, p.baptismo?.lugar_id, p.sepultura?.lugar_id]) {
     if (lid) contagemDireta[lid] = (contagemDireta[lid] ?? 0) + 1;
   }

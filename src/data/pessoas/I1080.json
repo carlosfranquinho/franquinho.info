@@ -1,9 +1,11 @@
 {
   "id": "I1080",
-  "protegida": true,
-  "sexo": "F",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Franquinho",
+  "nome_proprio": "Privado",
   "apelido": "Franquinho",
+  "nomes_alt": null,
+  "sexo": "F",
   "nascimento": {
     "data": "1977-03-19",
     "lugar_id": null
@@ -11,14 +13,14 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0311"
   ],
   "familias_como_pai": [
     "F0314"
   ],
-  "relacoes": [
-    "F0311",
-    "F0314"
-  ]
+  "media": null,
+  "notas": null,
+  "citacoes": null
 }

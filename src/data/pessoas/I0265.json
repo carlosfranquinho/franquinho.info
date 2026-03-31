@@ -1,9 +1,11 @@
 {
   "id": "I0265",
-  "protegida": true,
-  "sexo": "F",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Paulo Duarte",
+  "nome_proprio": "Privado",
   "apelido": "Paulo Duarte",
+  "nomes_alt": null,
+  "sexo": "F",
   "nascimento": {
     "data": "1971-12-10",
     "lugar_id": null
@@ -11,11 +13,12 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": null,
   "familias_como_pai": [
     "F0099"
   ],
-  "relacoes": [
-    "F0099"
-  ]
+  "media": null,
+  "notas": null,
+  "citacoes": null
 }

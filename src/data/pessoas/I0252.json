@@ -1,9 +1,11 @@
 {
   "id": "I0252",
-  "protegida": true,
-  "sexo": "M",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Ferreira Gaspar",
+  "nome_proprio": "Privado",
   "apelido": "Ferreira Gaspar",
+  "nomes_alt": null,
+  "sexo": "M",
   "nascimento": {
     "data": "1979-11-16",
     "lugar_id": null
@@ -11,11 +13,12 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0094"
   ],
   "familias_como_pai": null,
-  "relacoes": [
-    "F0094"
-  ]
+  "media": null,
+  "notas": null,
+  "citacoes": null
 }

@@ -1,9 +1,11 @@
 {
   "id": "I0988",
-  "protegida": true,
-  "sexo": "M",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Pelerigo Tomás",
+  "nome_proprio": "Privado",
   "apelido": "Pelerigo Tomás",
+  "nomes_alt": null,
+  "sexo": "M",
   "nascimento": {
     "data": "1944-06-22",
     "lugar_id": null
@@ -11,14 +13,14 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0277"
   ],
   "familias_como_pai": [
     "F0276"
   ],
-  "relacoes": [
-    "F0276",
-    "F0277"
-  ]
+  "media": null,
+  "notas": null,
+  "citacoes": null
 }

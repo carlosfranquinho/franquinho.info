@@ -1,9 +1,11 @@
 {
   "id": "I0286",
-  "protegida": true,
-  "sexo": "M",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Ferreira Domingues",
+  "nome_proprio": "Privado",
   "apelido": "Ferreira Domingues",
+  "nomes_alt": null,
+  "sexo": "M",
   "nascimento": {
     "data": "1953-12-18",
     "lugar_id": null
@@ -14,14 +16,16 @@
     "lugar_id": null
   },
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0103"
   ],
   "familias_como_pai": [
     "F0106"
   ],
-  "relacoes": [
-    "F0106",
-    "F0103"
-  ]
+  "media": [
+    "O1018"
+  ],
+  "notas": null,
+  "citacoes": null
 }

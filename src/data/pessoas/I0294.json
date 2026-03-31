@@ -1,18 +1,21 @@
 {
   "id": "I0294",
-  "protegida": true,
-  "sexo": "M",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado",
+  "nome_proprio": "Privado",
   "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
   "nascimento": null,
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0106"
   ],
   "familias_como_pai": null,
-  "relacoes": [
-    "F0106"
-  ]
+  "media": null,
+  "notas": null,
+  "citacoes": null
 }

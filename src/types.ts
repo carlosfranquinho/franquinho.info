@@ -32,20 +32,6 @@ export interface Pessoa {
   citacoes: { fonte: string | null; pagina: string | null }[] | null;
 }
 
-export interface PessoaProtegida {
-  id: string;
-  protegida: true;
-  sexo: 'M' | 'F' | 'U';
-  nome: 'Familiar';
-  apelido: string | null;
-  nascimento: EventoPessoa | null;
-  baptismo: EventoPessoa | null;
-  obito: EventoPessoa | null;
-  sepultura: EventoPessoa | null;
-  familias_como_filho: string[] | null;
-  familias_como_pai: string[] | null;
-  relacoes: string[];
-}
 
 export interface Familia {
   id: string;

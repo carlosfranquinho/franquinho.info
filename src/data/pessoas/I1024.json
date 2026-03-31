@@ -1,9 +1,11 @@
 {
   "id": "I1024",
-  "protegida": true,
-  "sexo": "F",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Santos",
+  "nome_proprio": "Privado",
   "apelido": "Santos",
+  "nomes_alt": null,
+  "sexo": "F",
   "nascimento": {
     "data": "1969-10-06",
     "lugar_id": "P0000"
@@ -11,11 +13,14 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": null,
   "familias_como_pai": [
     "F0288"
   ],
-  "relacoes": [
-    "F0288"
-  ]
+  "media": [
+    "O0820"
+  ],
+  "notas": null,
+  "citacoes": null
 }

@@ -1,9 +1,11 @@
 {
   "id": "I1536",
-  "protegida": true,
-  "sexo": "F",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Aguiar Abreu",
+  "nome_proprio": "Privado",
   "apelido": "Aguiar Abreu",
+  "nomes_alt": null,
+  "sexo": "F",
   "nascimento": {
     "data": "1992-04-12",
     "lugar_id": "P0170"
@@ -11,11 +13,12 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0427"
   ],
   "familias_como_pai": null,
-  "relacoes": [
-    "F0427"
-  ]
+  "media": null,
+  "notas": null,
+  "citacoes": null
 }

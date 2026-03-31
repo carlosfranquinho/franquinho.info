@@ -1,9 +1,11 @@
 {
   "id": "I1092",
-  "protegida": true,
-  "sexo": "F",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Rainho Ferreira Bom",
+  "nome_proprio": "Privado",
   "apelido": "Rainho Ferreira Bom",
+  "nomes_alt": null,
+  "sexo": "F",
   "nascimento": {
     "data": "1939-08-17",
     "lugar_id": null
@@ -14,11 +16,12 @@
     "lugar_id": null
   },
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": null,
   "familias_como_pai": [
     "F0317"
   ],
-  "relacoes": [
-    "F0317"
-  ]
+  "media": null,
+  "notas": null,
+  "citacoes": null
 }

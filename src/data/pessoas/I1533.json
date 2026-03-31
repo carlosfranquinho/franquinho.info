@@ -1,9 +1,11 @@
 {
   "id": "I1533",
-  "protegida": true,
-  "sexo": "M",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Franquinho Aguiar",
+  "nome_proprio": "Privado",
   "apelido": "Franquinho Aguiar",
+  "nomes_alt": null,
+  "sexo": "M",
   "nascimento": {
     "data": "1960-08-18",
     "lugar_id": "P0184"
@@ -11,11 +13,12 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0426"
   ],
   "familias_como_pai": null,
-  "relacoes": [
-    "F0426"
-  ]
+  "media": null,
+  "notas": null,
+  "citacoes": null
 }

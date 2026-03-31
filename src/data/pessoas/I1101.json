@@ -1,9 +1,11 @@
 {
   "id": "I1101",
-  "protegida": true,
-  "sexo": "M",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado",
+  "nome_proprio": "Privado",
   "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
   "nascimento": {
     "data": "2016-03-20",
     "lugar_id": null
@@ -11,11 +13,14 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0320"
   ],
   "familias_como_pai": null,
-  "relacoes": [
-    "F0320"
-  ]
+  "media": [
+    "O0887"
+  ],
+  "notas": null,
+  "citacoes": null
 }

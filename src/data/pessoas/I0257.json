@@ -1,9 +1,11 @@
 {
   "id": "I0257",
-  "protegida": true,
-  "sexo": "F",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Gonzalez",
+  "nome_proprio": "Privado",
   "apelido": "Gonzalez",
+  "nomes_alt": null,
+  "sexo": "F",
   "nascimento": {
     "data": "1958-06-14",
     "lugar_id": "P0053"
@@ -11,11 +13,12 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": null,
   "familias_como_pai": [
     "F0096"
   ],
-  "relacoes": [
-    "F0096"
-  ]
+  "media": null,
+  "notas": null,
+  "citacoes": null
 }

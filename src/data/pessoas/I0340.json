@@ -1,18 +1,21 @@
 {
   "id": "I0340",
-  "protegida": true,
-  "sexo": "M",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Ferreira dos Santos",
+  "nome_proprio": "Privado",
   "apelido": "Ferreira dos Santos",
+  "nomes_alt": null,
+  "sexo": "M",
   "nascimento": null,
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": null,
   "familias_como_pai": [
     "F0124"
   ],
-  "relacoes": [
-    "F0124"
-  ]
+  "media": null,
+  "notas": null,
+  "citacoes": null
 }

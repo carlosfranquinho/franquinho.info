@@ -1,18 +1,23 @@
 {
   "id": "I1100",
-  "protegida": true,
-  "sexo": "F",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Jorge",
+  "nome_proprio": "Privado",
   "apelido": "Jorge",
+  "nomes_alt": null,
+  "sexo": "F",
   "nascimento": null,
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": null,
   "familias_como_pai": [
     "F0320"
   ],
-  "relacoes": [
-    "F0320"
-  ]
+  "media": [
+    "O0889"
+  ],
+  "notas": null,
+  "citacoes": null
 }

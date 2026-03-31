@@ -1,9 +1,11 @@
 {
   "id": "I0145",
-  "protegida": true,
-  "sexo": "F",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado de Oliveira",
+  "nome_proprio": "Privado",
   "apelido": "de Oliveira",
+  "nomes_alt": null,
+  "sexo": "F",
   "nascimento": {
     "data": "1912-05-05",
     "lugar_id": "P0185"
@@ -14,11 +16,14 @@
     "lugar_id": "P0170"
   },
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": null,
   "familias_como_pai": [
     "F0072"
   ],
-  "relacoes": [
-    "F0072"
-  ]
+  "media": [
+    "O0457"
+  ],
+  "notas": null,
+  "citacoes": null
 }

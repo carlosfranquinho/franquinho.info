@@ -1,9 +1,11 @@
 {
   "id": "I1529",
-  "protegida": true,
-  "sexo": "F",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado",
+  "nome_proprio": "Privado",
   "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
   "nascimento": {
     "data": "1985",
     "lugar_id": null
@@ -11,11 +13,12 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0424"
   ],
   "familias_como_pai": null,
-  "relacoes": [
-    "F0424"
-  ]
+  "media": null,
+  "notas": null,
+  "citacoes": null
 }

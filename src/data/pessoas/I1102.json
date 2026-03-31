@@ -1,9 +1,11 @@
 {
   "id": "I1102",
-  "protegida": true,
-  "sexo": "F",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado",
+  "nome_proprio": "Privado",
   "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
   "nascimento": {
     "data": "2018-03-09",
     "lugar_id": null
@@ -11,11 +13,14 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0320"
   ],
   "familias_como_pai": null,
-  "relacoes": [
-    "F0320"
-  ]
+  "media": [
+    "O0888"
+  ],
+  "notas": null,
+  "citacoes": null
 }

@@ -1,9 +1,11 @@
 {
   "id": "I0336",
-  "protegida": true,
-  "sexo": "F",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Rodrigues de Melo",
+  "nome_proprio": "Privado",
   "apelido": "Rodrigues de Melo",
+  "nomes_alt": null,
+  "sexo": "F",
   "nascimento": {
     "data": "1977-05-27",
     "lugar_id": null
@@ -11,11 +13,14 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0123"
   ],
   "familias_como_pai": null,
-  "relacoes": [
-    "F0123"
-  ]
+  "media": [
+    "O1024"
+  ],
+  "notas": null,
+  "citacoes": null
 }

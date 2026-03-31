@@ -1,21 +1,23 @@
 {
   "id": "I0304",
-  "protegida": true,
-  "sexo": "F",
-  "nome": "Familiar",
+  "protegida": false,
+  "nome": "Privado Mastorakos Gonçalves",
+  "nome_proprio": "Privado",
   "apelido": "Mastorakos Gonçalves",
+  "nomes_alt": null,
+  "sexo": "F",
   "nascimento": null,
   "baptismo": null,
   "obito": null,
   "sepultura": null,
+  "profissao": null,
   "familias_como_filho": [
     "F0110"
   ],
   "familias_como_pai": [
     "F0111"
   ],
-  "relacoes": [
-    "F0111",
-    "F0110"
-  ]
+  "media": null,
+  "notas": null,
+  "citacoes": null
 }
