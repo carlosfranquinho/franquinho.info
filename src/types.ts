@@ -67,6 +67,7 @@ export interface MediaItem {
   data: string | null;
   mime: string | null;
   tipo: 'foto' | 'documento' | 'video' | 'audio' | 'outro';
+  privado?: boolean;
 }
 
 export interface EntradaIndice {
