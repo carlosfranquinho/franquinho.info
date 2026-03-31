@@ -468,7 +468,7 @@ def converter_pessoa(person_el, mapas, namespace):
 
     return {
         'id': gramps_id,
-        'protegida': False,
+        'protegida': protegida,
         'nome': nome_completo,
         'nome_proprio': nome_proprio,
         'apelido': apelido,

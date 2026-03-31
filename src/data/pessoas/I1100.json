@@ -1,6 +1,6 @@
 {
   "id": "I1100",
-  "protegida": false,
+  "protegida": true,
   "nome": "Privado Jorge",
   "nome_proprio": "Privado",
   "apelido": "Jorge",

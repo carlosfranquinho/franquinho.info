@@ -315,6 +315,15 @@ def main():
         # Gerar thumbnail e versao web
         if ext in EXTENSOES_IMAGEM:
             e_privado = gramps_id in ids_privados
+            # Para media privada: pixelizar tambem o original em disco (antes do git)
+            if e_privado:
+                try:
+                    with Image.open(caminho_dest) as img:
+                        img = _para_rgb(img)
+                        img = _pixelizar(img)
+                        img.save(caminho_dest, 'JPEG', quality=85, optimize=True)
+                except Exception as e:
+                    print(f'  Aviso: nao foi possivel pixelizar original {caminho_dest.name}: {e}')
             # Re-gerar sempre se for privado (para garantir pixelização actualizada)
             if not caminho_thumb.exists() or e_privado:
                 ok = gerar_thumbnail(Path(fonte), caminho_thumb, args.thumb_size, pixelizar=e_privado)
