@@ -2,7 +2,10 @@
   "id": "F0077",
   "pai": "I0166",
   "mae": "I0167",
-  "filhos": null,
+  "filhos": [
+    "I1514",
+    "I1515"
+  ],
   "tipo_relacao": "Married",
   "casamento": {
     "data": "1910-01-11",

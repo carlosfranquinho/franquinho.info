@@ -1,0 +1,21 @@
+{
+  "id": "I1516",
+  "protegida": false,
+  "nome": "Joaquim Soares",
+  "nome_proprio": "Joaquim",
+  "apelido": "Soares",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0420"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

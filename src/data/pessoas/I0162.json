@@ -20,7 +20,9 @@
   "familias_como_filho": [
     "F0004"
   ],
-  "familias_como_pai": null,
+  "familias_como_pai": [
+    "F0421"
+  ],
   "media": [
     "O0032",
     "O0607",

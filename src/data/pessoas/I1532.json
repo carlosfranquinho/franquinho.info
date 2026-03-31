@@ -1,0 +1,27 @@
+{
+  "id": "I1532",
+  "protegida": false,
+  "nome": "Carlos Eduardo Lisboa Freitas Aguiar",
+  "nome_proprio": "Carlos Eduardo",
+  "apelido": "Lisboa Freitas Aguiar",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1925-11-07",
+    "lugar_id": "P0183"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "2003-05-05",
+    "lugar_id": "P0170"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0426"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

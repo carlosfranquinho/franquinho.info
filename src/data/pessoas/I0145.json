@@ -6,7 +6,10 @@
   "apelido": "de Oliveira",
   "nascimento": null,
   "baptismo": null,
-  "obito": null,
+  "obito": {
+    "data": "2012-11-11",
+    "lugar_id": "P0170"
+  },
   "sepultura": null,
   "familias_como_filho": null,
   "familias_como_pai": [

@@ -1,11 +1,9 @@
 {
   "id": "I0260",
-  "protegida": false,
-  "nome": "Napoleão",
-  "nome_proprio": "Napoleão",
-  "apelido": null,
-  "nomes_alt": null,
+  "protegida": true,
   "sexo": "M",
+  "nome": "Familiar",
+  "apelido": null,
   "nascimento": {
     "data": null,
     "lugar_id": "P0053"
@@ -13,12 +11,11 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
-  "profissao": null,
   "familias_como_filho": null,
   "familias_como_pai": [
     "F0097"
   ],
-  "media": null,
-  "notas": null,
-  "citacoes": null
+  "relacoes": [
+    "F0097"
+  ]
 }

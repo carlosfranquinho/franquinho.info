@@ -1,0 +1,27 @@
+{
+  "id": "I1514",
+  "protegida": false,
+  "nome": "Laurinda Franquinho",
+  "nome_proprio": "Laurinda",
+  "apelido": "Franquinho",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1911-12-03",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "2009-09-11",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0077"
+  ],
+  "familias_como_pai": null,
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

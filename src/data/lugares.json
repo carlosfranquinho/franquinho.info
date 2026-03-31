@@ -48,6 +48,38 @@
     "pai_id": "P0002"
   },
   {
+    "id": "P0181",
+    "nome": "Sintra",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0141"
+  },
+  {
+    "id": "P0182",
+    "nome": "São Pedro",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0181"
+  },
+  {
+    "id": "P0183",
+    "nome": "Anjos",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0043"
+  },
+  {
+    "id": "P0184",
+    "nome": "Monte",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0170"
+  },
+  {
     "id": "P0000",
     "nome": "Marinha Grande",
     "tipo": null,

@@ -1,0 +1,21 @@
+{
+  "id": "I1536",
+  "protegida": true,
+  "sexo": "F",
+  "nome": "Familiar",
+  "apelido": "Aguiar Abreu",
+  "nascimento": {
+    "data": "1992-04-12",
+    "lugar_id": "P0170"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0427"
+  ],
+  "familias_como_pai": null,
+  "relacoes": [
+    "F0427"
+  ]
+}

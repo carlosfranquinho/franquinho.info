@@ -1,0 +1,21 @@
+{
+  "id": "I1533",
+  "protegida": true,
+  "sexo": "M",
+  "nome": "Familiar",
+  "apelido": "Franquinho Aguiar",
+  "nascimento": {
+    "data": "1960-08-18",
+    "lugar_id": "P0184"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0426"
+  ],
+  "familias_como_pai": null,
+  "relacoes": [
+    "F0426"
+  ]
+}

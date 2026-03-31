@@ -6,6 +6,13 @@
     "mmdd_nasc": "03-15"
   },
   {
+    "id": "I1527",
+    "nome": "Adelaide Franquinho",
+    "apelido": "Franquinho",
+    "sexo": "F",
+    "ano_nasc": 1961
+  },
+  {
     "id": "I1192",
     "nome": "Afonso",
     "sexo": "M",
@@ -57,14 +64,6 @@
     "nome": "Agripina Inês Alves",
     "apelido": "Alves",
     "sexo": "F"
-  },
-  {
-    "id": "I0261",
-    "nome": "Aitana Gonzalez",
-    "apelido": "Gonzalez",
-    "sexo": "F",
-    "ano_nasc": 2002,
-    "mmdd_nasc": "04-19"
   },
   {
     "id": "I0585",
@@ -342,6 +341,11 @@
     "nome": "Antónia de Oliveira",
     "apelido": "de Oliveira",
     "sexo": "F"
+  },
+  {
+    "id": "I1519",
+    "nome": "António",
+    "sexo": "M"
   },
   {
     "id": "I0202",
@@ -1315,6 +1319,16 @@
     "sexo": "M"
   },
   {
+    "id": "I1532",
+    "nome": "Carlos Eduardo Lisboa Freitas Aguiar",
+    "apelido": "Lisboa Freitas Aguiar",
+    "sexo": "M",
+    "ano_nasc": 1925,
+    "mmdd_nasc": "11-07",
+    "ano_obit": 2003,
+    "mmdd_obit": "05-05"
+  },
+  {
     "id": "I0150",
     "nome": "Carolina",
     "sexo": "F",
@@ -1695,7 +1709,7 @@
     "ano_nasc": 1896,
     "ano_obit": 1970,
     "mmdd_obit": "01-19",
-    "thumb_id": "O1065"
+    "thumb_id": "O1071"
   },
   {
     "id": "I1237",
@@ -1758,6 +1772,11 @@
     "id": "I0113",
     "nome": "Desconhecido",
     "sexo": "F"
+  },
+  {
+    "id": "I1518",
+    "nome": "Diamantino",
+    "sexo": "M"
   },
   {
     "id": "I0880",
@@ -2014,6 +2033,11 @@
     "mmdd_obit": "10-31"
   },
   {
+    "id": "I1524",
+    "nome": "Elvira",
+    "sexo": "F"
+  },
+  {
     "id": "I0176",
     "nome": "Emília",
     "sexo": "F",
@@ -2233,6 +2257,11 @@
     "sexo": "F",
     "ano_nasc": 1755,
     "mmdd_nasc": "04-17"
+  },
+  {
+    "id": "I1522",
+    "nome": "Felicidade",
+    "sexo": "F"
   },
   {
     "id": "I0569",
@@ -2687,9 +2716,11 @@
   },
   {
     "id": "I0170",
-    "nome": "Francisco de Almeida",
-    "apelido": "de Almeida",
-    "sexo": "M"
+    "nome": "Francisco de Almeida Forreta",
+    "apelido": "de Almeida Forreta",
+    "sexo": "M",
+    "ano_nasc": 1955,
+    "mmdd_nasc": "11-26"
   },
   {
     "id": "I0535",
@@ -2704,6 +2735,12 @@
     "sexo": "F",
     "ano_nasc": 1791,
     "mmdd_nasc": "09-17"
+  },
+  {
+    "id": "I1517",
+    "nome": "Gertrudes Firmina",
+    "apelido": "Firmina",
+    "sexo": "F"
   },
   {
     "id": "I0169",
@@ -3468,6 +3505,12 @@
     "sexo": "M"
   },
   {
+    "id": "I1525",
+    "nome": "Joaquim Franquinho",
+    "apelido": "Franquinho",
+    "sexo": "M"
+  },
+  {
     "id": "I0009",
     "nome": "Joaquim Franquinho",
     "apelido": "Franquinho",
@@ -3530,6 +3573,12 @@
     "mmdd_obit": "08-30"
   },
   {
+    "id": "I1530",
+    "nome": "Joaquim Marques",
+    "apelido": "Marques",
+    "sexo": "M"
+  },
+  {
     "id": "I0027",
     "nome": "Joaquim Pontes",
     "apelido": "Pontes",
@@ -3566,12 +3615,23 @@
     "mmdd_obit": "12-30"
   },
   {
+    "id": "I1516",
+    "nome": "Joaquim Soares",
+    "apelido": "Soares",
+    "sexo": "M"
+  },
+  {
     "id": "I0035",
     "nome": "Joaquim de São Bernardo",
     "apelido": "de São Bernardo",
     "sexo": "M",
     "ano_obit": 1819,
     "mmdd_obit": "01-29"
+  },
+  {
+    "id": "I1520",
+    "nome": "Joaquina",
+    "sexo": "F"
   },
   {
     "id": "I0153",
@@ -3588,13 +3648,6 @@
     "mmdd_nasc": "11-06",
     "ano_obit": 1949,
     "mmdd_obit": "10-05"
-  },
-  {
-    "id": "I0164",
-    "nome": "Joaquina",
-    "sexo": "F",
-    "ano_nasc": 1872,
-    "mmdd_nasc": "07-15"
   },
   {
     "id": "I0196",
@@ -3694,6 +3747,16 @@
     "sexo": "F",
     "ano_nasc": 1878,
     "mmdd_nasc": "11-04"
+  },
+  {
+    "id": "I0164",
+    "nome": "Joaquina Isabel",
+    "apelido": "Isabel",
+    "sexo": "F",
+    "ano_nasc": 1872,
+    "mmdd_nasc": "07-15",
+    "ano_obit": 1962,
+    "mmdd_obit": "11-27"
   },
   {
     "id": "I0038",
@@ -4084,15 +4147,6 @@
     "sexo": "M",
     "ano_nasc": 1864,
     "mmdd_nasc": "06-01"
-  },
-  {
-    "id": "I0168",
-    "nome": "José",
-    "sexo": "M",
-    "ano_nasc": 1877,
-    "mmdd_nasc": "08-12",
-    "ano_obit": 1952,
-    "mmdd_obit": "04-11"
   },
   {
     "id": "I0183",
@@ -4558,6 +4612,16 @@
     "ano_nasc": 1826,
     "ano_obit": 1891,
     "mmdd_obit": "01-30"
+  },
+  {
+    "id": "I0168",
+    "nome": "José Franquinho",
+    "apelido": "Franquinho",
+    "sexo": "M",
+    "ano_nasc": 1877,
+    "mmdd_nasc": "08-02",
+    "ano_obit": 1952,
+    "mmdd_obit": "04-11"
   },
   {
     "id": "I1443",
@@ -5234,6 +5298,16 @@
     "mmdd_obit": "07-31"
   },
   {
+    "id": "I1514",
+    "nome": "Laurinda Franquinho",
+    "apelido": "Franquinho",
+    "sexo": "F",
+    "ano_nasc": 1911,
+    "mmdd_nasc": "12-03",
+    "ano_obit": 2009,
+    "mmdd_obit": "09-11"
+  },
+  {
     "id": "I0097",
     "nome": "Leonor Rebela",
     "apelido": "Rebela",
@@ -5279,6 +5353,12 @@
     "sexo": "M",
     "ano_nasc": 1701,
     "mmdd_nasc": "10-18"
+  },
+  {
+    "id": "I1515",
+    "nome": "Lucinda Franquinho",
+    "apelido": "Franquinho",
+    "sexo": "F"
   },
   {
     "id": "I0019",
@@ -6753,7 +6833,8 @@
     "apelido": "dos Santos Cabral",
     "sexo": "M",
     "ano_nasc": 1889,
-    "ano_obit": 1962
+    "ano_obit": 1962,
+    "mmdd_obit": "06-18"
   },
   {
     "id": "I0472",
@@ -6820,11 +6901,9 @@
     "mmdd_nasc": "02-26"
   },
   {
-    "id": "I0155",
+    "id": "I1521",
     "nome": "Maria",
-    "sexo": "F",
-    "ano_nasc": 1862,
-    "mmdd_nasc": "01-18"
+    "sexo": "F"
   },
   {
     "id": "I0181",
@@ -7741,6 +7820,14 @@
     "sexo": "F"
   },
   {
+    "id": "I0155",
+    "nome": "Maria Isabel",
+    "apelido": "Isabel",
+    "sexo": "F",
+    "ano_nasc": 1862,
+    "mmdd_nasc": "01-18"
+  },
+  {
     "id": "I0020",
     "nome": "Maria Joaquina",
     "sexo": "F",
@@ -8210,7 +8297,8 @@
     "id": "I0167",
     "nome": "Maria da Conceição Gonçalves",
     "apelido": "Gonçalves",
-    "sexo": "F"
+    "sexo": "F",
+    "ano_nasc": 1879
   },
   {
     "id": "I0303",
@@ -8544,11 +8632,6 @@
     "mmdd_obit": "03-21"
   },
   {
-    "id": "I0260",
-    "nome": "Napoleão",
-    "sexo": "M"
-  },
-  {
     "id": "I0250",
     "nome": "Nicholas Antonio Luis",
     "apelido": "Antonio Luis",
@@ -8772,6 +8855,11 @@
     "sexo": "F",
     "ano_obit": 1812,
     "mmdd_obit": "09-06"
+  },
+  {
+    "id": "I1523",
+    "nome": "Regina",
+    "sexo": "F"
   },
   {
     "id": "I0204",

@@ -6,7 +6,10 @@
   "apelido": "Gonçalves",
   "nomes_alt": null,
   "sexo": "F",
-  "nascimento": null,
+  "nascimento": {
+    "data": "1879",
+    "lugar_id": null
+  },
   "baptismo": null,
   "obito": null,
   "sepultura": null,

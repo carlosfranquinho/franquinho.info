@@ -429,17 +429,6 @@
     "web": "/media/web/O1064.jpg"
   },
   {
-    "id": "O1065",
-    "caminho_original": "home/carlos/Hobbies/Genealogia/Imagens/Fotos/RuadoCapelao.jpg",
-    "caminho": "/media/originais/O1065.jpg",
-    "thumb": "/media/thumbs/O1065.jpg",
-    "descricao": "RuadoCapelao",
-    "data": null,
-    "mime": "image/jpeg",
-    "tipo": "foto",
-    "web": "/media/web/O1065.jpg"
-  },
-  {
     "id": "O1066",
     "caminho_original": "home/carlos/Hobbies/Genealogia/Imagens/Casamentos/manuelgaspar+delmiraferreira_14abr1920.jpg",
     "caminho": "/media/originais/O1066.jpg",
@@ -493,6 +482,17 @@
     "mime": "image/jpeg",
     "tipo": "foto",
     "web": "/media/web/O1070.jpg"
+  },
+  {
+    "id": "O1071",
+    "caminho_original": "home/carlos/Hobbies/Genealogia/Imagens/Fotos/rua_do_capelao.jpg",
+    "caminho": "/media/originais/O1071.jpg",
+    "thumb": "/media/thumbs/O1071.jpg",
+    "descricao": "Rua do Capelão",
+    "data": null,
+    "mime": "image/jpeg",
+    "tipo": "foto",
+    "web": "/media/web/O1071.jpg"
   },
   {
     "id": "O0001",

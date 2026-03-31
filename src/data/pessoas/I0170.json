@@ -1,12 +1,15 @@
 {
   "id": "I0170",
   "protegida": false,
-  "nome": "Francisco de Almeida",
+  "nome": "Francisco de Almeida Forreta",
   "nome_proprio": "Francisco",
-  "apelido": "de Almeida",
+  "apelido": "de Almeida Forreta",
   "nomes_alt": null,
   "sexo": "M",
-  "nascimento": null,
+  "nascimento": {
+    "data": "1955-11-26",
+    "lugar_id": "P0005"
+  },
   "baptismo": null,
   "obito": null,
   "sepultura": null,

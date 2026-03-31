@@ -1,0 +1,24 @@
+{
+  "id": "I1534",
+  "protegida": true,
+  "sexo": "F",
+  "nome": "Familiar",
+  "apelido": "Freitas Franquinho Aguiar",
+  "nascimento": {
+    "data": "1965-02-10",
+    "lugar_id": "P0184"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "familias_como_filho": [
+    "F0426"
+  ],
+  "familias_como_pai": [
+    "F0427"
+  ],
+  "relacoes": [
+    "F0426",
+    "F0427"
+  ]
+}

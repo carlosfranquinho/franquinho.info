@@ -1,0 +1,21 @@
+{
+  "id": "I1530",
+  "protegida": false,
+  "nome": "Joaquim Marques",
+  "nome_proprio": "Joaquim",
+  "apelido": "Marques",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0425"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

@@ -1,13 +1,13 @@
 {
   "id": "I0168",
   "protegida": false,
-  "nome": "José",
+  "nome": "José Franquinho",
   "nome_proprio": "José",
-  "apelido": null,
+  "apelido": "Franquinho",
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": {
-    "data": "1877-08-12",
+    "data": "1877-08-02",
     "lugar_id": "P0005"
   },
   "baptismo": null,

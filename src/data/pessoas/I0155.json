@@ -1,9 +1,9 @@
 {
   "id": "I0155",
   "protegida": false,
-  "nome": "Maria",
+  "nome": "Maria Isabel",
   "nome_proprio": "Maria",
-  "apelido": null,
+  "apelido": "Isabel",
   "nomes_alt": null,
   "sexo": "F",
   "nascimento": {
@@ -17,7 +17,9 @@
   "familias_como_filho": [
     "F0004"
   ],
-  "familias_como_pai": null,
+  "familias_como_pai": [
+    "F0425"
+  ],
   "media": [
     "O0011"
   ],

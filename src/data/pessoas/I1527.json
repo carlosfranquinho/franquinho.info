@@ -1,0 +1,26 @@
+{
+  "id": "I1527",
+  "protegida": false,
+  "nome": "Adelaide Franquinho",
+  "nome_proprio": "Adelaide",
+  "apelido": "Franquinho",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1961",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0423"
+  ],
+  "familias_como_pai": [
+    "F0424"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}
