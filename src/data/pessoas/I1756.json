@@ -1,0 +1,24 @@
+{
+  "id": "I1756",
+  "protegida": false,
+  "nome": "João Francisco",
+  "nome_proprio": "João",
+  "apelido": "Francisco",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0210"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0518"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

@@ -232,6 +232,134 @@
     "pai_id": "P0081"
   },
   {
+    "id": "P0204",
+    "nome": "Casal",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0081"
+  },
+  {
+    "id": "P0205",
+    "nome": "Carnide de Cima",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0192"
+  },
+  {
+    "id": "P0206",
+    "nome": "Outeiro Agudo",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0081"
+  },
+  {
+    "id": "P0207",
+    "nome": "Monte Redondo",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0003"
+  },
+  {
+    "id": "P0208",
+    "nome": "Graveto",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0207"
+  },
+  {
+    "id": "P0209",
+    "nome": "Bajouca de Cima",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0207"
+  },
+  {
+    "id": "P0210",
+    "nome": "Bajouca de Baixo",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0207"
+  },
+  {
+    "id": "P0211",
+    "nome": "Água Formosa",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0081"
+  },
+  {
+    "id": "P0212",
+    "nome": "Lameiras",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0207"
+  },
+  {
+    "id": "P0213",
+    "nome": "Matas da Bajouca",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0207"
+  },
+  {
+    "id": "P0214",
+    "nome": "Bouça",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0207"
+  },
+  {
+    "id": "P0215",
+    "nome": "Engenho",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0207"
+  },
+  {
+    "id": "P0216",
+    "nome": "Bouça de Cima",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0207"
+  },
+  {
+    "id": "P0217",
+    "nome": "Camarneira",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0009"
+  },
+  {
+    "id": "P0218",
+    "nome": "Valado",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0031"
+  },
+  {
+    "id": "P0219",
+    "nome": "Salir do Porto",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0147"
+  },
+  {
     "id": "P0000",
     "nome": "Marinha Grande",
     "tipo": null,

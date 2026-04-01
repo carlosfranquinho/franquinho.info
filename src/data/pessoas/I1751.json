@@ -1,0 +1,30 @@
+{
+  "id": "I1751",
+  "protegida": false,
+  "nome": "Clara Maria",
+  "nome_proprio": "Clara",
+  "apelido": "Maria",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1824-04-02",
+    "lugar_id": "P0211"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "antes de 1934",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0523"
+  ],
+  "familias_como_pai": [
+    "F0515"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,21 @@
+{
+  "id": "I1719",
+  "protegida": false,
+  "nome": "Feliciana Ferreira",
+  "nome_proprio": "Feliciana",
+  "apelido": "Ferreira",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0499"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

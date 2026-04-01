@@ -1,0 +1,24 @@
+{
+  "id": "I1715",
+  "protegida": false,
+  "nome": "Manuel António",
+  "nome_proprio": "Manuel",
+  "apelido": "António",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0204"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0497"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

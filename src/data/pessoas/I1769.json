@@ -1,0 +1,28 @@
+{
+  "id": "I1769",
+  "protegida": false,
+  "nome": "Maria Teresa",
+  "nome_proprio": "Maria",
+  "apelido": "Teresa",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": {
+    "data": "1753-05-20",
+    "lugar_id": "P0211"
+  },
+  "obito": {
+    "data": "antes de 1863",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0524"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

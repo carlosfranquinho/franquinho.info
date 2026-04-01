@@ -6,7 +6,10 @@
     "I1705"
   ],
   "tipo_relacao": "Married",
-  "casamento": null,
+  "casamento": {
+    "data": "1792-11-27",
+    "lugar_id": "P0081"
+  },
   "notas": null,
   "media": null
 }

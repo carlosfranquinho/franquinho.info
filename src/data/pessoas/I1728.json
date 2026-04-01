@@ -1,0 +1,21 @@
+{
+  "id": "I1728",
+  "protegida": false,
+  "nome": "Francisco Carreira",
+  "nome_proprio": "Francisco",
+  "apelido": "Carreira",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0504"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

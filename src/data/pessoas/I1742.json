@@ -1,0 +1,30 @@
+{
+  "id": "I1742",
+  "protegida": false,
+  "nome": "Joaquim Domingues",
+  "nome_proprio": "Joaquim",
+  "apelido": "Domingues",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1856-05-06",
+    "lugar_id": "P0212"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "antes de 1966",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0512"
+  ],
+  "familias_como_pai": [
+    "F0511"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

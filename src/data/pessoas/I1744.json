@@ -1,0 +1,26 @@
+{
+  "id": "I1744",
+  "protegida": false,
+  "nome": "António Domingues",
+  "nome_proprio": "António",
+  "apelido": "Domingues",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0212"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0513"
+  ],
+  "familias_como_pai": [
+    "F0512"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

@@ -6,7 +6,10 @@
     "I1700"
   ],
   "tipo_relacao": "Married",
-  "casamento": null,
+  "casamento": {
+    "data": "1881-10-01",
+    "lugar_id": "P0081"
+  },
   "notas": null,
   "media": null
 }

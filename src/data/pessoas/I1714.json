@@ -6,12 +6,17 @@
   "apelido": "Domingues",
   "nomes_alt": null,
   "sexo": "F",
-  "nascimento": null,
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0205"
+  },
   "baptismo": null,
   "obito": null,
   "sepultura": null,
   "profissao": null,
-  "familias_como_filho": null,
+  "familias_como_filho": [
+    "F0498"
+  ],
   "familias_como_pai": [
     "F0496"
   ],

@@ -6,7 +6,10 @@
     "I1709"
   ],
   "tipo_relacao": "Married",
-  "casamento": null,
+  "casamento": {
+    "data": "1753-01-31",
+    "lugar_id": "P0081"
+  },
   "notas": null,
   "media": null
 }

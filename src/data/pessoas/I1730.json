@@ -1,0 +1,26 @@
+{
+  "id": "I1730",
+  "protegida": false,
+  "nome": "Manuel Lopes",
+  "nome_proprio": "Manuel",
+  "apelido": "Lopes",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0192"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0506"
+  ],
+  "familias_como_pai": [
+    "F0505"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "I1732",
+  "protegida": false,
+  "nome": "José Lopes",
+  "nome_proprio": "José",
+  "apelido": "Lopes",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0208"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0507"
+  ],
+  "familias_como_pai": [
+    "F0506"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

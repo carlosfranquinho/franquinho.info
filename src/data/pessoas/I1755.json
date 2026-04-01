@@ -1,0 +1,26 @@
+{
+  "id": "I1755",
+  "protegida": false,
+  "nome": "Maria Domingues de Jesus",
+  "nome_proprio": "Maria",
+  "apelido": "Domingues de Jesus",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0209"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0519"
+  ],
+  "familias_como_pai": [
+    "F0517"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

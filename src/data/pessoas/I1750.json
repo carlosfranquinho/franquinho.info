@@ -1,0 +1,30 @@
+{
+  "id": "I1750",
+  "protegida": false,
+  "nome": "Manuel Francisco Pedrosa",
+  "nome_proprio": "Manuel",
+  "apelido": "Francisco Pedrosa",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1822-11-30",
+    "lugar_id": "P0210"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "antes de 1932",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0516"
+  ],
+  "familias_como_pai": [
+    "F0515"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

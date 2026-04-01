@@ -1,0 +1,24 @@
+{
+  "id": "I1763",
+  "protegida": false,
+  "nome": "Mariana de São José",
+  "nome_proprio": "Mariana",
+  "apelido": "de São José",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0215"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0521"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

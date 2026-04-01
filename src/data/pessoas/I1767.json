@@ -1,0 +1,28 @@
+{
+  "id": "I1767",
+  "protegida": false,
+  "nome": "Maria Josefa",
+  "nome_proprio": "Maria",
+  "apelido": "Josefa",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1793-07-01",
+    "lugar_id": "P0211"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "antes de 1903",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0523"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

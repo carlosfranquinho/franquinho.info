@@ -1,0 +1,28 @@
+{
+  "id": "I1770",
+  "protegida": false,
+  "nome": "João de Couto",
+  "nome_proprio": "João",
+  "apelido": "de Couto",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1726-03-17",
+    "lugar_id": "P0219"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "antes de 1836",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0525"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "I1721",
+  "protegida": false,
+  "nome": "Maria de Jesus",
+  "nome_proprio": "Maria",
+  "apelido": "de Jesus",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0206"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0502"
+  ],
+  "familias_como_pai": [
+    "F0500"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

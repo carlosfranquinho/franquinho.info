@@ -1,0 +1,26 @@
+{
+  "id": "I1760",
+  "protegida": false,
+  "nome": "Manuel Cordeiro",
+  "nome_proprio": "Manuel",
+  "apelido": "Cordeiro",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0213"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0521"
+  ],
+  "familias_como_pai": [
+    "F0520"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

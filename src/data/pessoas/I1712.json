@@ -6,15 +6,21 @@
   "apelido": "Ferreira",
   "nomes_alt": null,
   "sexo": "F",
-  "nascimento": {
-    "data": null,
+  "nascimento": null,
+  "baptismo": {
+    "data": "1727-10-01",
     "lugar_id": "P0081"
   },
-  "baptismo": null,
-  "obito": null,
+  "obito": {
+    "data": "antes de 1837",
+    "lugar_id": null,
+    "estimado": true
+  },
   "sepultura": null,
   "profissao": null,
-  "familias_como_filho": null,
+  "familias_como_filho": [
+    "F0499"
+  ],
   "familias_como_pai": [
     "F0495"
   ],

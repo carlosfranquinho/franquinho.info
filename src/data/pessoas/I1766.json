@@ -1,0 +1,30 @@
+{
+  "id": "I1766",
+  "protegida": false,
+  "nome": "João Plácido",
+  "nome_proprio": "João",
+  "apelido": "Plácido",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1784-11-03",
+    "lugar_id": "P0211"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "antes de 1894",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0524"
+  ],
+  "familias_como_pai": [
+    "F0523"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

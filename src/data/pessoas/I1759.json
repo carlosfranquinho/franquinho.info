@@ -1,0 +1,24 @@
+{
+  "id": "I1759",
+  "protegida": false,
+  "nome": "Catarina Domingues",
+  "nome_proprio": "Catarina",
+  "apelido": "Domingues",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0209"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0519"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

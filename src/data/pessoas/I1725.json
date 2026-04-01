@@ -1,0 +1,21 @@
+{
+  "id": "I1725",
+  "protegida": false,
+  "nome": "Isabel da Silva",
+  "nome_proprio": "Isabel",
+  "apelido": "da Silva",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0502"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

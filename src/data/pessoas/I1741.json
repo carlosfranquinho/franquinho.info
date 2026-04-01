@@ -1,0 +1,24 @@
+{
+  "id": "I1741",
+  "protegida": false,
+  "nome": "Maria de São José",
+  "nome_proprio": "Maria",
+  "apelido": "de São José",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0210"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0510"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

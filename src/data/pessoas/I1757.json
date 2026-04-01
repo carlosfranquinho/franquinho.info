@@ -1,0 +1,24 @@
+{
+  "id": "I1757",
+  "protegida": false,
+  "nome": "Isabel Pedrosa",
+  "nome_proprio": "Isabel",
+  "apelido": "Pedrosa",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0209"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0518"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

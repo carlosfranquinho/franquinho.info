@@ -1,0 +1,26 @@
+{
+  "id": "I1745",
+  "protegida": false,
+  "nome": "Teresa Maria de Jesus",
+  "nome_proprio": "Teresa",
+  "apelido": "Maria de Jesus",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0210"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0514"
+  ],
+  "familias_como_pai": [
+    "F0512"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

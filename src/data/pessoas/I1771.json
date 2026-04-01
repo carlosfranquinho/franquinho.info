@@ -1,0 +1,27 @@
+{
+  "id": "I1771",
+  "protegida": false,
+  "nome": "Paula Maria",
+  "nome_proprio": "Paula",
+  "apelido": "Maria",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0211"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1797-12-25",
+    "lugar_id": "P0081"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0525"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

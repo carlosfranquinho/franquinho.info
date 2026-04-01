@@ -1,0 +1,30 @@
+{
+  "id": "I1727",
+  "protegida": false,
+  "nome": "Maria Luisa",
+  "nome_proprio": "Maria",
+  "apelido": "Luisa",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1820-03-11",
+    "lugar_id": "P0192"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "antes de 1930",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0505"
+  ],
+  "familias_como_pai": [
+    "F0503"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

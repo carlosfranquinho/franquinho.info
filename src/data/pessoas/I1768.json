@@ -1,0 +1,30 @@
+{
+  "id": "I1768",
+  "protegida": false,
+  "nome": "Plácido de Couto",
+  "nome_proprio": "Plácido",
+  "apelido": "de Couto",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1746-05-15",
+    "lugar_id": "P0218"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "antes de 1856",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0525"
+  ],
+  "familias_como_pai": [
+    "F0524"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

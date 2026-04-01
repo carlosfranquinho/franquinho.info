@@ -1,0 +1,21 @@
+{
+  "id": "I1729",
+  "protegida": false,
+  "nome": "Luisa Maria",
+  "nome_proprio": "Luisa",
+  "apelido": "Maria",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0504"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,30 @@
+{
+  "id": "I1753",
+  "protegida": false,
+  "nome": "Maria Lopes",
+  "nome_proprio": "Maria",
+  "apelido": "Lopes",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1802-05-06",
+    "lugar_id": "P0213"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "antes de 1912",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0520"
+  ],
+  "familias_como_pai": [
+    "F0516"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}
