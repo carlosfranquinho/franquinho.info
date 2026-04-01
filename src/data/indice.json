@@ -3,34 +3,39 @@
     "id": "I1136",
     "sexo": "M",
     "ano_nasc": 1707,
-    "mmdd_nasc": "03-15"
+    "mmdd_nasc": "03-15",
+    "ano_obit": 1817
   },
   {
     "id": "I1192",
     "nome": "Afonso",
     "sexo": "M",
-    "ano_nasc": 1662
+    "ano_nasc": 1662,
+    "ano_obit": 1772
   },
   {
     "id": "I0390",
     "nome": "Agostinha",
     "sexo": "F",
     "ano_nasc": 1768,
-    "mmdd_nasc": "12-18"
+    "mmdd_nasc": "12-18",
+    "ano_obit": 1878
   },
   {
     "id": "I1563",
     "nome": "Agostinho",
     "sexo": "M",
     "ano_nasc": 1826,
-    "mmdd_nasc": "02-10"
+    "mmdd_nasc": "02-10",
+    "ano_obit": 1936
   },
   {
     "id": "I0874",
     "nome": "Agostinho",
     "sexo": "M",
     "ano_nasc": 1779,
-    "mmdd_nasc": "01-25"
+    "mmdd_nasc": "01-25",
+    "ano_obit": 1889
   },
   {
     "id": "I0884",
@@ -57,7 +62,8 @@
     "nome": "Agostinho José",
     "apelido": "José",
     "sexo": "M",
-    "ano_nasc": 1798
+    "ano_nasc": 1798,
+    "ano_obit": 1908
   },
   {
     "id": "I0895",
@@ -127,7 +133,8 @@
     "nome": "Amaro",
     "sexo": "M",
     "ano_nasc": 1817,
-    "mmdd_nasc": "10-12"
+    "mmdd_nasc": "10-12",
+    "ano_obit": 1927
   },
   {
     "id": "I1643",
@@ -140,14 +147,16 @@
     "nome": "Ana",
     "sexo": "F",
     "ano_nasc": 1796,
-    "mmdd_nasc": "01-15"
+    "mmdd_nasc": "01-15",
+    "ano_obit": 1906
   },
   {
     "id": "I1582",
     "nome": "Ana",
     "sexo": "F",
     "ano_nasc": 1823,
-    "mmdd_nasc": "07-01"
+    "mmdd_nasc": "07-01",
+    "ano_obit": 1933
   },
   {
     "id": "I1601",
@@ -166,14 +175,16 @@
     "nome": "Ana",
     "sexo": "F",
     "ano_nasc": 1765,
-    "mmdd_nasc": "04-01"
+    "mmdd_nasc": "04-01",
+    "ano_obit": 1875
   },
   {
     "id": "I0370",
     "nome": "Ana",
     "sexo": "F",
     "ano_nasc": 1814,
-    "mmdd_nasc": "02-08"
+    "mmdd_nasc": "02-08",
+    "ano_obit": 1924
   },
   {
     "id": "I0539",
@@ -209,21 +220,24 @@
     "nome": "Ana",
     "sexo": "F",
     "ano_nasc": 1775,
-    "mmdd_nasc": "05-17"
+    "mmdd_nasc": "05-17",
+    "ano_obit": 1885
   },
   {
     "id": "I1272",
     "nome": "Ana",
     "sexo": "F",
     "ano_nasc": 1728,
-    "mmdd_nasc": "02-11"
+    "mmdd_nasc": "02-11",
+    "ano_obit": 1838
   },
   {
     "id": "I1327",
     "nome": "Ana",
     "sexo": "F",
     "ano_nasc": 1732,
-    "mmdd_nasc": "04-06"
+    "mmdd_nasc": "04-06",
+    "ano_obit": 1842
   },
   {
     "id": "I0048",
@@ -320,14 +334,16 @@
     "nome": "Antónia",
     "sexo": "F",
     "ano_nasc": 1764,
-    "mmdd_nasc": "01-01"
+    "mmdd_nasc": "01-01",
+    "ano_obit": 1874
   },
   {
     "id": "I0565",
     "nome": "Antónia",
     "sexo": "F",
     "ano_nasc": 1742,
-    "mmdd_nasc": "02-26"
+    "mmdd_nasc": "02-26",
+    "ano_obit": 1852
   },
   {
     "id": "I0612",
@@ -341,21 +357,24 @@
     "nome": "Antónia",
     "sexo": "F",
     "ano_nasc": 1740,
-    "mmdd_nasc": "08-27"
+    "mmdd_nasc": "08-27",
+    "ano_obit": 1850
   },
   {
     "id": "I1270",
     "nome": "Antónia",
     "sexo": "F",
     "ano_nasc": 1719,
-    "mmdd_nasc": "03-02"
+    "mmdd_nasc": "03-02",
+    "ano_obit": 1829
   },
   {
     "id": "I1325",
     "nome": "Antónia",
     "sexo": "F",
     "ano_nasc": 1726,
-    "mmdd_nasc": "02-06"
+    "mmdd_nasc": "02-06",
+    "ano_obit": 1836
   },
   {
     "id": "I1191",
@@ -405,63 +424,72 @@
     "nome": "António",
     "sexo": "M",
     "ano_nasc": 1826,
-    "mmdd_nasc": "02-07"
+    "mmdd_nasc": "02-07",
+    "ano_obit": 1936
   },
   {
     "id": "I1594",
     "nome": "António",
     "sexo": "M",
     "ano_nasc": 1826,
-    "mmdd_nasc": "02-08"
+    "mmdd_nasc": "02-08",
+    "ano_obit": 1936
   },
   {
     "id": "I0202",
     "nome": "António",
     "sexo": "M",
     "ano_nasc": 1831,
-    "mmdd_nasc": "06-10"
+    "mmdd_nasc": "06-10",
+    "ano_obit": 1941
   },
   {
     "id": "I0205",
     "nome": "António",
     "sexo": "M",
     "ano_nasc": 1835,
-    "mmdd_nasc": "03-07"
+    "mmdd_nasc": "03-07",
+    "ano_obit": 1945
   },
   {
     "id": "I0220",
     "nome": "António",
     "sexo": "M",
     "ano_nasc": 1758,
-    "mmdd_nasc": "09-24"
+    "mmdd_nasc": "09-24",
+    "ano_obit": 1868
   },
   {
     "id": "I0401",
     "nome": "António",
     "sexo": "M",
     "ano_nasc": 1824,
-    "mmdd_nasc": "02-19"
+    "mmdd_nasc": "02-19",
+    "ano_obit": 1934
   },
   {
     "id": "I0412",
     "nome": "António",
     "sexo": "M",
     "ano_nasc": 1789,
-    "mmdd_nasc": "07-08"
+    "mmdd_nasc": "07-08",
+    "ano_obit": 1899
   },
   {
     "id": "I0426",
     "nome": "António",
     "sexo": "M",
     "ano_nasc": 1831,
-    "mmdd_nasc": "03-28"
+    "mmdd_nasc": "03-28",
+    "ano_obit": 1941
   },
   {
     "id": "I0449",
     "nome": "António",
     "sexo": "M",
     "ano_nasc": 1723,
-    "mmdd_nasc": "04-04"
+    "mmdd_nasc": "04-04",
+    "ano_obit": 1833
   },
   {
     "id": "I0457",
@@ -480,7 +508,8 @@
     "nome": "António",
     "sexo": "M",
     "ano_nasc": 1729,
-    "mmdd_nasc": "11-20"
+    "mmdd_nasc": "11-20",
+    "ano_obit": 1839
   },
   {
     "id": "I0479",
@@ -499,7 +528,8 @@
     "nome": "António",
     "sexo": "M",
     "ano_nasc": 1734,
-    "mmdd_nasc": "02-13"
+    "mmdd_nasc": "02-13",
+    "ano_obit": 1844
   },
   {
     "id": "I0510",
@@ -533,42 +563,48 @@
     "nome": "António",
     "sexo": "M",
     "ano_nasc": 1858,
-    "mmdd_nasc": "05-06"
+    "mmdd_nasc": "05-06",
+    "ano_obit": 1968
   },
   {
     "id": "I0642",
     "nome": "António",
     "sexo": "M",
     "ano_nasc": 1862,
-    "mmdd_nasc": "02-18"
+    "mmdd_nasc": "02-18",
+    "ano_obit": 1972
   },
   {
     "id": "I0690",
     "nome": "António",
     "sexo": "M",
     "ano_nasc": 1863,
-    "mmdd_nasc": "05-28"
+    "mmdd_nasc": "05-28",
+    "ano_obit": 1973
   },
   {
     "id": "I0716",
     "nome": "António",
     "sexo": "M",
     "ano_nasc": 1846,
-    "mmdd_nasc": "12-15"
+    "mmdd_nasc": "12-15",
+    "ano_obit": 1956
   },
   {
     "id": "I0723",
     "nome": "António",
     "sexo": "M",
     "ano_nasc": 1832,
-    "mmdd_nasc": "09-30"
+    "mmdd_nasc": "09-30",
+    "ano_obit": 1942
   },
   {
     "id": "I0758",
     "nome": "António",
     "sexo": "M",
     "ano_nasc": 1769,
-    "mmdd_nasc": "08-12"
+    "mmdd_nasc": "08-12",
+    "ano_obit": 1879
   },
   {
     "id": "I0779",
@@ -582,14 +618,16 @@
     "nome": "António",
     "sexo": "M",
     "ano_nasc": 1799,
-    "mmdd_nasc": "06-06"
+    "mmdd_nasc": "06-06",
+    "ano_obit": 1909
   },
   {
     "id": "I0810",
     "nome": "António",
     "sexo": "M",
     "ano_nasc": 1777,
-    "mmdd_nasc": "05-12"
+    "mmdd_nasc": "05-12",
+    "ano_obit": 1887
   },
   {
     "id": "I0819",
@@ -601,21 +639,24 @@
     "nome": "António",
     "sexo": "M",
     "ano_nasc": 1769,
-    "mmdd_nasc": "06-21"
+    "mmdd_nasc": "06-21",
+    "ano_obit": 1879
   },
   {
     "id": "I0868",
     "nome": "António",
     "sexo": "M",
     "ano_nasc": 1784,
-    "mmdd_nasc": "02-28"
+    "mmdd_nasc": "02-28",
+    "ano_obit": 1894
   },
   {
     "id": "I0872",
     "nome": "António",
     "sexo": "M",
     "ano_nasc": 1787,
-    "mmdd_nasc": "01-14"
+    "mmdd_nasc": "01-14",
+    "ano_obit": 1897
   },
   {
     "id": "I0879",
@@ -627,112 +668,128 @@
     "nome": "António",
     "sexo": "M",
     "ano_nasc": 1765,
-    "mmdd_nasc": "01-14"
+    "mmdd_nasc": "01-14",
+    "ano_obit": 1875
   },
   {
     "id": "I1109",
     "nome": "António",
     "sexo": "M",
     "ano_nasc": 1781,
-    "mmdd_nasc": "02-11"
+    "mmdd_nasc": "02-11",
+    "ano_obit": 1891
   },
   {
     "id": "I1128",
     "nome": "António",
     "sexo": "M",
     "ano_nasc": 1728,
-    "mmdd_nasc": "03-08"
+    "mmdd_nasc": "03-08",
+    "ano_obit": 1838
   },
   {
     "id": "I1134",
     "nome": "António",
     "sexo": "M",
     "ano_nasc": 1695,
-    "mmdd_nasc": "01-09"
+    "mmdd_nasc": "01-09",
+    "ano_obit": 1805
   },
   {
     "id": "I1153",
     "nome": "António",
     "sexo": "M",
     "ano_nasc": 1679,
-    "mmdd_nasc": "01-05"
+    "mmdd_nasc": "01-05",
+    "ano_obit": 1789
   },
   {
     "id": "I1194",
     "nome": "António",
     "sexo": "M",
     "ano_nasc": 1669,
-    "mmdd_nasc": "02-14"
+    "mmdd_nasc": "02-14",
+    "ano_obit": 1779
   },
   {
     "id": "I1209",
     "nome": "António",
     "sexo": "M",
     "ano_nasc": 1680,
-    "mmdd_nasc": "04-21"
+    "mmdd_nasc": "04-21",
+    "ano_obit": 1790
   },
   {
     "id": "I1300",
     "nome": "António",
     "sexo": "M",
     "ano_nasc": 1748,
-    "mmdd_nasc": "10-21"
+    "mmdd_nasc": "10-21",
+    "ano_obit": 1858
   },
   {
     "id": "I1348",
     "nome": "António",
     "sexo": "M",
     "ano_nasc": 1707,
-    "mmdd_nasc": "02-02"
+    "mmdd_nasc": "02-02",
+    "ano_obit": 1817
   },
   {
     "id": "I1354",
     "nome": "António",
     "sexo": "M",
     "ano_nasc": 1670,
-    "mmdd_nasc": "06-01"
+    "mmdd_nasc": "06-01",
+    "ano_obit": 1780
   },
   {
     "id": "I1384",
     "nome": "António",
     "sexo": "M",
     "ano_nasc": 1725,
-    "mmdd_nasc": "03-01"
+    "mmdd_nasc": "03-01",
+    "ano_obit": 1835
   },
   {
     "id": "I1387",
     "nome": "António",
     "sexo": "M",
     "ano_nasc": 1676,
-    "mmdd_nasc": "04-30"
+    "mmdd_nasc": "04-30",
+    "ano_obit": 1786
   },
   {
     "id": "I1399",
     "nome": "António",
     "sexo": "M",
     "ano_nasc": 1686,
-    "mmdd_nasc": "02-04"
+    "mmdd_nasc": "02-04",
+    "ano_obit": 1796
   },
   {
     "id": "I1406",
     "nome": "António",
     "sexo": "M",
     "ano_nasc": 1721,
-    "mmdd_nasc": "10-26"
+    "mmdd_nasc": "10-26",
+    "ano_obit": 1831
   },
   {
     "id": "I1417",
     "nome": "António",
     "sexo": "M",
     "ano_nasc": 1688,
-    "mmdd_nasc": "01-01"
+    "mmdd_nasc": "01-01",
+    "ano_obit": 1798
   },
   {
     "id": "I1420",
     "nome": "António",
     "sexo": "M",
     "ano_nasc": 1709,
-    "mmdd_nasc": "10-04"
+    "mmdd_nasc": "10-04",
+    "ano_obit": 1819
   },
   {
     "id": "I1239",
@@ -767,7 +824,8 @@
     "apelido": "Dias",
     "sexo": "M",
     "ano_nasc": 1703,
-    "mmdd_nasc": "05-01"
+    "mmdd_nasc": "05-01",
+    "ano_obit": 1813
   },
   {
     "id": "I1118",
@@ -781,7 +839,8 @@
     "apelido": "Dias",
     "sexo": "M",
     "ano_nasc": 1674,
-    "mmdd_nasc": "04-04"
+    "mmdd_nasc": "04-04",
+    "ano_obit": 1784
   },
   {
     "id": "I0063",
@@ -872,7 +931,8 @@
     "apelido": "Fernandes",
     "sexo": "M",
     "ano_nasc": 1647,
-    "mmdd_nasc": "08-25"
+    "mmdd_nasc": "08-25",
+    "ano_obit": 1757
   },
   {
     "id": "I1241",
@@ -921,7 +981,8 @@
     "apelido": "Ferreira",
     "sexo": "M",
     "ano_nasc": 1754,
-    "mmdd_nasc": "10-02"
+    "mmdd_nasc": "10-02",
+    "ano_obit": 1864
   },
   {
     "id": "I0764",
@@ -1048,7 +1109,8 @@
     "apelido": "João",
     "sexo": "M",
     "ano_nasc": 1681,
-    "mmdd_nasc": "05-07"
+    "mmdd_nasc": "05-07",
+    "ano_obit": 1791
   },
   {
     "id": "I1641",
@@ -1091,7 +1153,8 @@
     "apelido": "Manuel Lourenço",
     "sexo": "M",
     "ano_nasc": 1841,
-    "mmdd_nasc": "02-05"
+    "mmdd_nasc": "02-05",
+    "ano_obit": 1951
   },
   {
     "id": "I0067",
@@ -1251,7 +1314,8 @@
     "apelido": "da Silva",
     "sexo": "M",
     "ano_nasc": 1796,
-    "mmdd_nasc": "06-06"
+    "mmdd_nasc": "06-06",
+    "ano_obit": 1906
   },
   {
     "id": "I0107",
@@ -1265,7 +1329,8 @@
     "apelido": "de Escovar",
     "sexo": "M",
     "ano_nasc": 1672,
-    "mmdd_nasc": "06-13"
+    "mmdd_nasc": "06-13",
+    "ano_obit": 1782
   },
   {
     "id": "I1700",
@@ -1335,7 +1400,8 @@
     "nome": "Bernardina",
     "sexo": "F",
     "ano_nasc": 1780,
-    "mmdd_nasc": "07-08"
+    "mmdd_nasc": "07-08",
+    "ano_obit": 1890
   },
   {
     "id": "I0456",
@@ -1347,21 +1413,24 @@
     "nome": "Bernardo",
     "sexo": "M",
     "ano_nasc": 1782,
-    "mmdd_nasc": "04-30"
+    "mmdd_nasc": "04-30",
+    "ano_obit": 1892
   },
   {
     "id": "I0829",
     "nome": "Bernardo",
     "sexo": "M",
     "ano_nasc": 1769,
-    "mmdd_nasc": "07-27"
+    "mmdd_nasc": "07-27",
+    "ano_obit": 1879
   },
   {
     "id": "I1292",
     "nome": "Bernardo",
     "sexo": "M",
     "ano_nasc": 1694,
-    "mmdd_nasc": "03-23"
+    "mmdd_nasc": "03-23",
+    "ano_obit": 1804
   },
   {
     "id": "I0079",
@@ -1369,7 +1438,8 @@
     "apelido": "Marques",
     "sexo": "M",
     "ano_nasc": 1703,
-    "mmdd_nasc": "03-27"
+    "mmdd_nasc": "03-27",
+    "ano_obit": 1813
   },
   {
     "id": "I0863",
@@ -1382,7 +1452,8 @@
     "nome": "Brazia",
     "sexo": "F",
     "ano_nasc": 1689,
-    "mmdd_nasc": "02-13"
+    "mmdd_nasc": "02-13",
+    "ano_obit": 1799
   },
   {
     "id": "I0972",
@@ -1394,7 +1465,8 @@
     "nome": "Brás",
     "sexo": "M",
     "ano_nasc": 1692,
-    "mmdd_nasc": "01-18"
+    "mmdd_nasc": "01-18",
+    "ano_obit": 1802
   },
   {
     "id": "I1379",
@@ -1415,7 +1487,8 @@
     "apelido": "Simões",
     "sexo": "M",
     "ano_nasc": 1661,
-    "mmdd_nasc": "02-04"
+    "mmdd_nasc": "02-04",
+    "ano_obit": 1771
   },
   {
     "id": "I1106",
@@ -1433,14 +1506,16 @@
     "nome": "Caetana",
     "sexo": "F",
     "ano_nasc": 1760,
-    "mmdd_nasc": "07-03"
+    "mmdd_nasc": "07-03",
+    "ano_obit": 1870
   },
   {
     "id": "I1487",
     "nome": "Caetana",
     "sexo": "F",
     "ano_nasc": 1752,
-    "mmdd_nasc": "08-16"
+    "mmdd_nasc": "08-16",
+    "ano_obit": 1862
   },
   {
     "id": "I0382",
@@ -1463,28 +1538,32 @@
     "nome": "Carolina",
     "sexo": "F",
     "ano_nasc": 1857,
-    "mmdd_nasc": "09-19"
+    "mmdd_nasc": "09-19",
+    "ano_obit": 1967
   },
   {
     "id": "I0152",
     "nome": "Carolina",
     "sexo": "F",
     "ano_nasc": 1859,
-    "mmdd_nasc": "11-24"
+    "mmdd_nasc": "11-24",
+    "ano_obit": 1969
   },
   {
     "id": "I0157",
     "nome": "Carolina",
     "sexo": "F",
     "ano_nasc": 1864,
-    "mmdd_nasc": "04-12"
+    "mmdd_nasc": "04-12",
+    "ano_obit": 1974
   },
   {
     "id": "I0355",
     "nome": "Carolina",
     "sexo": "F",
     "ano_nasc": 1819,
-    "mmdd_nasc": "01-01"
+    "mmdd_nasc": "01-01",
+    "ano_obit": 1929
   },
   {
     "id": "I0665",
@@ -1513,77 +1592,88 @@
     "nome": "Catarina",
     "sexo": "F",
     "ano_nasc": 1773,
-    "mmdd_nasc": "06-24"
+    "mmdd_nasc": "06-24",
+    "ano_obit": 1883
   },
   {
     "id": "I1175",
     "nome": "Catarina",
     "sexo": "F",
     "ano_nasc": 1707,
-    "mmdd_nasc": "03-03"
+    "mmdd_nasc": "03-03",
+    "ano_obit": 1817
   },
   {
     "id": "I1208",
     "nome": "Catarina",
     "sexo": "F",
     "ano_nasc": 1679,
-    "mmdd_nasc": "04-09"
+    "mmdd_nasc": "04-09",
+    "ano_obit": 1789
   },
   {
     "id": "I1211",
     "nome": "Catarina",
     "sexo": "F",
     "ano_nasc": 1687,
-    "mmdd_nasc": "05-25"
+    "mmdd_nasc": "05-25",
+    "ano_obit": 1797
   },
   {
     "id": "I1217",
     "nome": "Catarina",
     "sexo": "F",
     "ano_nasc": 1728,
-    "mmdd_nasc": "12-19"
+    "mmdd_nasc": "12-19",
+    "ano_obit": 1838
   },
   {
     "id": "I1249",
     "nome": "Catarina",
     "sexo": "F",
     "ano_nasc": 1681,
-    "mmdd_nasc": "11-16"
+    "mmdd_nasc": "11-16",
+    "ano_obit": 1791
   },
   {
     "id": "I1316",
     "nome": "Catarina",
     "sexo": "F",
     "ano_nasc": 1705,
-    "mmdd_nasc": "10-15"
+    "mmdd_nasc": "10-15",
+    "ano_obit": 1815
   },
   {
     "id": "I1337",
     "nome": "Catarina",
     "sexo": "F",
     "ano_nasc": 1733,
-    "mmdd_nasc": "02-08"
+    "mmdd_nasc": "02-08",
+    "ano_obit": 1843
   },
   {
     "id": "I1356",
     "nome": "Catarina",
     "sexo": "F",
     "ano_nasc": 1669,
-    "mmdd_nasc": "08-11"
+    "mmdd_nasc": "08-11",
+    "ano_obit": 1779
   },
   {
     "id": "I1391",
     "nome": "Catarina",
     "sexo": "F",
     "ano_nasc": 1679,
-    "mmdd_nasc": "03-11"
+    "mmdd_nasc": "03-11",
+    "ano_obit": 1789
   },
   {
     "id": "I1445",
     "nome": "Catarina",
     "sexo": "F",
     "ano_nasc": 1669,
-    "mmdd_nasc": "12-08"
+    "mmdd_nasc": "12-08",
+    "ano_obit": 1779
   },
   {
     "id": "I1268",
@@ -1613,7 +1703,8 @@
     "apelido": "Domingues",
     "sexo": "F",
     "ano_nasc": 1730,
-    "mmdd_nasc": "12-24"
+    "mmdd_nasc": "12-24",
+    "ano_obit": 1840
   },
   {
     "id": "I0378",
@@ -1639,7 +1730,8 @@
     "apelido": "Fernandes",
     "sexo": "F",
     "ano_nasc": 1677,
-    "mmdd_nasc": "01-18"
+    "mmdd_nasc": "01-18",
+    "ano_obit": 1787
   },
   {
     "id": "I0514",
@@ -1681,7 +1773,8 @@
     "apelido": "João",
     "sexo": "F",
     "ano_nasc": 1666,
-    "mmdd_nasc": "11-27"
+    "mmdd_nasc": "11-27",
+    "ano_obit": 1776
   },
   {
     "id": "I0095",
@@ -1705,7 +1798,8 @@
     "apelido": "Maria",
     "sexo": "F",
     "ano_nasc": 1798,
-    "mmdd_nasc": "08-25"
+    "mmdd_nasc": "08-25",
+    "ano_obit": 1908
   },
   {
     "id": "I0802",
@@ -1727,7 +1821,8 @@
     "apelido": "Mendes",
     "sexo": "F",
     "ano_nasc": 1689,
-    "mmdd_nasc": "05-22"
+    "mmdd_nasc": "05-22",
+    "ano_obit": 1799
   },
   {
     "id": "I1378",
@@ -1760,7 +1855,8 @@
     "nome": "Cecília",
     "sexo": "F",
     "ano_nasc": 1790,
-    "mmdd_nasc": "08-12"
+    "mmdd_nasc": "08-12",
+    "ano_obit": 1900
   },
   {
     "id": "I0249",
@@ -1775,7 +1871,8 @@
     "nome": "Clara",
     "sexo": "F",
     "ano_nasc": 1779,
-    "mmdd_nasc": "11-21"
+    "mmdd_nasc": "11-21",
+    "ano_obit": 1889
   },
   {
     "id": "I0796",
@@ -1787,14 +1884,16 @@
     "nome": "Clara",
     "sexo": "F",
     "ano_nasc": 1781,
-    "mmdd_nasc": "02-06"
+    "mmdd_nasc": "02-06",
+    "ano_obit": 1891
   },
   {
     "id": "I0873",
     "nome": "Clara",
     "sexo": "F",
     "ano_nasc": 1789,
-    "mmdd_nasc": "07-02"
+    "mmdd_nasc": "07-02",
+    "ano_obit": 1899
   },
   {
     "id": "I0911",
@@ -1860,7 +1959,8 @@
     "apelido": "dos Santos",
     "sexo": "F",
     "ano_nasc": 1707,
-    "mmdd_nasc": "11-01"
+    "mmdd_nasc": "11-01",
+    "ano_obit": 1817
   },
   {
     "id": "I1062",
@@ -1873,21 +1973,24 @@
     "nome": "Cândida",
     "sexo": "F",
     "ano_nasc": 1832,
-    "mmdd_nasc": "06-01"
+    "mmdd_nasc": "06-01",
+    "ano_obit": 1942
   },
   {
     "id": "I0653",
     "nome": "Cândida",
     "sexo": "F",
     "ano_nasc": 1815,
-    "mmdd_nasc": "03-05"
+    "mmdd_nasc": "03-05",
+    "ano_obit": 1925
   },
   {
     "id": "I0161",
     "nome": "Delmira",
     "sexo": "F",
     "ano_nasc": 1868,
-    "mmdd_nasc": "04-04"
+    "mmdd_nasc": "04-04",
+    "ano_obit": 1978
   },
   {
     "id": "I0139",
@@ -1947,7 +2050,8 @@
     "nome": "Dionisio",
     "sexo": "M",
     "ano_nasc": 1766,
-    "mmdd_nasc": "11-17"
+    "mmdd_nasc": "11-17",
+    "ano_obit": 1876
   },
   {
     "id": "I0596",
@@ -1961,21 +2065,24 @@
     "nome": "Domingas",
     "sexo": "F",
     "ano_nasc": 1677,
-    "mmdd_nasc": "11-14"
+    "mmdd_nasc": "11-14",
+    "ano_obit": 1787
   },
   {
     "id": "I1390",
     "nome": "Domingas",
     "sexo": "F",
     "ano_nasc": 1683,
-    "mmdd_nasc": "04-11"
+    "mmdd_nasc": "04-11",
+    "ano_obit": 1793
   },
   {
     "id": "I1392",
     "nome": "Domingas",
     "sexo": "F",
     "ano_nasc": 1679,
-    "mmdd_nasc": "02-13"
+    "mmdd_nasc": "02-13",
+    "ano_obit": 1789
   },
   {
     "id": "I1145",
@@ -2026,7 +2133,8 @@
     "nome": "Domingos",
     "sexo": "M",
     "ano_nasc": 1793,
-    "mmdd_nasc": "10-01"
+    "mmdd_nasc": "10-01",
+    "ano_obit": 1903
   },
   {
     "id": "I0489",
@@ -2043,7 +2151,8 @@
     "nome": "Domingos",
     "sexo": "M",
     "ano_nasc": 1795,
-    "mmdd_nasc": "05-17"
+    "mmdd_nasc": "05-17",
+    "ano_obit": 1905
   },
   {
     "id": "I1182",
@@ -2055,28 +2164,32 @@
     "nome": "Domingos",
     "sexo": "M",
     "ano_nasc": 1676,
-    "mmdd_nasc": "03-08"
+    "mmdd_nasc": "03-08",
+    "ano_obit": 1786
   },
   {
     "id": "I1322",
     "nome": "Domingos",
     "sexo": "M",
     "ano_nasc": 1718,
-    "mmdd_nasc": "01-02"
+    "mmdd_nasc": "01-02",
+    "ano_obit": 1828
   },
   {
     "id": "I1388",
     "nome": "Domingos",
     "sexo": "M",
     "ano_nasc": 1674,
-    "mmdd_nasc": "03-25"
+    "mmdd_nasc": "03-25",
+    "ano_obit": 1784
   },
   {
     "id": "I1446",
     "nome": "Domingos",
     "sexo": "M",
     "ano_nasc": 1677,
-    "mmdd_nasc": "03-28"
+    "mmdd_nasc": "03-28",
+    "ano_obit": 1787
   },
   {
     "id": "I1654",
@@ -2141,7 +2254,8 @@
     "apelido": "Simões",
     "sexo": "M",
     "ano_nasc": 1682,
-    "mmdd_nasc": "02-10"
+    "mmdd_nasc": "02-10",
+    "ano_obit": 1792
   },
   {
     "id": "I0228",
@@ -2185,35 +2299,40 @@
     "nome": "Emília",
     "sexo": "F",
     "ano_nasc": 1876,
-    "mmdd_nasc": "10-29"
+    "mmdd_nasc": "10-29",
+    "ano_obit": 1986
   },
   {
     "id": "I0366",
     "nome": "Emília",
     "sexo": "F",
     "ano_nasc": 1841,
-    "mmdd_nasc": "03-08"
+    "mmdd_nasc": "03-08",
+    "ano_obit": 1951
   },
   {
     "id": "I0442",
     "nome": "Emília",
     "sexo": "F",
     "ano_nasc": 1832,
-    "mmdd_nasc": "06-03"
+    "mmdd_nasc": "06-03",
+    "ano_obit": 1942
   },
   {
     "id": "I0631",
     "nome": "Emília",
     "sexo": "F",
     "ano_nasc": 1874,
-    "mmdd_nasc": "07-02"
+    "mmdd_nasc": "07-02",
+    "ano_obit": 1984
   },
   {
     "id": "I0635",
     "nome": "Emília",
     "sexo": "F",
     "ano_nasc": 1886,
-    "mmdd_nasc": "06-18"
+    "mmdd_nasc": "06-18",
+    "ano_obit": 1996
   },
   {
     "id": "I0710",
@@ -2229,7 +2348,8 @@
     "nome": "Emília",
     "sexo": "F",
     "ano_nasc": 1853,
-    "mmdd_nasc": "04-11"
+    "mmdd_nasc": "04-11",
+    "ano_obit": 1963
   },
   {
     "id": "I1506",
@@ -2299,6 +2419,7 @@
     "sexo": "F",
     "ano_nasc": 1867,
     "mmdd_nasc": "04-06",
+    "ano_obit": 1977,
     "thumb_id": "O1000"
   },
   {
@@ -2316,14 +2437,16 @@
     "nome": "Engrácia",
     "sexo": "F",
     "ano_nasc": 1823,
-    "mmdd_nasc": "10-16"
+    "mmdd_nasc": "10-16",
+    "ano_obit": 1933
   },
   {
     "id": "I1355",
     "nome": "Esperança",
     "sexo": "F",
     "ano_nasc": 1666,
-    "mmdd_nasc": "12-21"
+    "mmdd_nasc": "12-21",
+    "ano_obit": 1776
   },
   {
     "id": "I0733",
@@ -2340,7 +2463,8 @@
     "nome": "Eva",
     "sexo": "F",
     "ano_nasc": 1693,
-    "mmdd_nasc": "02-15"
+    "mmdd_nasc": "02-15",
+    "ano_obit": 1803
   },
   {
     "id": "I0558",
@@ -2373,7 +2497,8 @@
     "nome": "Faustino",
     "sexo": "M",
     "ano_nasc": 1746,
-    "mmdd_nasc": "04-08"
+    "mmdd_nasc": "04-08",
+    "ano_obit": 1856
   },
   {
     "id": "I0021",
@@ -2399,7 +2524,8 @@
     "nome": "Feliciana",
     "sexo": "F",
     "ano_nasc": 1755,
-    "mmdd_nasc": "04-17"
+    "mmdd_nasc": "04-17",
+    "ano_obit": 1865
   },
   {
     "id": "I1668",
@@ -2425,7 +2551,8 @@
     "nome": "Felisberto",
     "sexo": "M",
     "ano_nasc": 1764,
-    "mmdd_nasc": "10-02"
+    "mmdd_nasc": "10-02",
+    "ano_obit": 1874
   },
   {
     "id": "I1624",
@@ -2437,21 +2564,24 @@
     "nome": "Felícia",
     "sexo": "F",
     "ano_nasc": 1762,
-    "mmdd_nasc": "03-04"
+    "mmdd_nasc": "03-04",
+    "ano_obit": 1872
   },
   {
     "id": "I0463",
     "nome": "Felícia",
     "sexo": "F",
     "ano_nasc": 1729,
-    "mmdd_nasc": "02-10"
+    "mmdd_nasc": "02-10",
+    "ano_obit": 1839
   },
   {
     "id": "I0632",
     "nome": "Felícia",
     "sexo": "F",
     "ano_nasc": 1877,
-    "mmdd_nasc": "09-16"
+    "mmdd_nasc": "09-16",
+    "ano_obit": 1987
   },
   {
     "id": "I0790",
@@ -2463,7 +2593,8 @@
     "nome": "Felícia",
     "sexo": "F",
     "ano_nasc": 1850,
-    "mmdd_nasc": "06-17"
+    "mmdd_nasc": "06-17",
+    "ano_obit": 1960
   },
   {
     "id": "I0881",
@@ -2522,7 +2653,8 @@
     "nome": "Fortunata",
     "sexo": "F",
     "ano_nasc": 1798,
-    "mmdd_nasc": "08-08"
+    "mmdd_nasc": "08-08",
+    "ano_obit": 1908
   },
   {
     "id": "I0499",
@@ -2539,28 +2671,32 @@
     "nome": "Francisca",
     "sexo": "F",
     "ano_nasc": 1789,
-    "mmdd_nasc": "05-17"
+    "mmdd_nasc": "05-17",
+    "ano_obit": 1899
   },
   {
     "id": "I1253",
     "nome": "Francisca",
     "sexo": "F",
     "ano_nasc": 1730,
-    "mmdd_nasc": "06-13"
+    "mmdd_nasc": "06-13",
+    "ano_obit": 1840
   },
   {
     "id": "I1295",
     "nome": "Francisca",
     "sexo": "F",
     "ano_nasc": 1703,
-    "mmdd_nasc": "02-22"
+    "mmdd_nasc": "02-22",
+    "ano_obit": 1813
   },
   {
     "id": "I1402",
     "nome": "Francisca",
     "sexo": "F",
     "ano_nasc": 1733,
-    "mmdd_nasc": "08-16"
+    "mmdd_nasc": "08-16",
+    "ano_obit": 1843
   },
   {
     "id": "I1714",
@@ -2591,7 +2727,8 @@
     "apelido": "da Conceição",
     "sexo": "F",
     "ano_nasc": 1722,
-    "mmdd_nasc": "03-08"
+    "mmdd_nasc": "03-08",
+    "ano_obit": 1832
   },
   {
     "id": "I0093",
@@ -2605,21 +2742,24 @@
     "id": "I1566",
     "nome": "Francisco",
     "sexo": "M",
-    "ano_nasc": 1805
+    "ano_nasc": 1805,
+    "ano_obit": 1915
   },
   {
     "id": "I0160",
     "nome": "Francisco",
     "sexo": "M",
     "ano_nasc": 1867,
-    "mmdd_nasc": "05-11"
+    "mmdd_nasc": "05-11",
+    "ano_obit": 1977
   },
   {
     "id": "I0209",
     "nome": "Francisco",
     "sexo": "M",
     "ano_nasc": 1839,
-    "mmdd_nasc": "04-03"
+    "mmdd_nasc": "04-03",
+    "ano_obit": 1949
   },
   {
     "id": "I0214",
@@ -2643,7 +2783,8 @@
     "nome": "Francisco",
     "sexo": "M",
     "ano_nasc": 1695,
-    "mmdd_nasc": "12-28"
+    "mmdd_nasc": "12-28",
+    "ano_obit": 1805
   },
   {
     "id": "I0493",
@@ -2664,14 +2805,16 @@
     "id": "I0618",
     "nome": "Francisco",
     "sexo": "M",
-    "ano_nasc": 1592
+    "ano_nasc": 1592,
+    "ano_obit": 1702
   },
   {
     "id": "I0750",
     "nome": "Francisco",
     "sexo": "M",
     "ano_nasc": 1764,
-    "mmdd_nasc": "02-21"
+    "mmdd_nasc": "02-21",
+    "ano_obit": 1874
   },
   {
     "id": "I0760",
@@ -2687,21 +2830,24 @@
     "nome": "Francisco",
     "sexo": "M",
     "ano_nasc": 1782,
-    "mmdd_nasc": "08-04"
+    "mmdd_nasc": "08-04",
+    "ano_obit": 1892
   },
   {
     "id": "I0821",
     "nome": "Francisco",
     "sexo": "M",
     "ano_nasc": 1789,
-    "mmdd_nasc": "04-06"
+    "mmdd_nasc": "04-06",
+    "ano_obit": 1899
   },
   {
     "id": "I0832",
     "nome": "Francisco",
     "sexo": "M",
     "ano_nasc": 1766,
-    "mmdd_nasc": "10-07"
+    "mmdd_nasc": "10-07",
+    "ano_obit": 1876
   },
   {
     "id": "I0882",
@@ -2727,77 +2873,88 @@
     "nome": "Francisco",
     "sexo": "M",
     "ano_nasc": 1791,
-    "mmdd_nasc": "09-05"
+    "mmdd_nasc": "09-05",
+    "ano_obit": 1901
   },
   {
     "id": "I1151",
     "nome": "Francisco",
     "sexo": "M",
     "ano_nasc": 1669,
-    "mmdd_nasc": "06-18"
+    "mmdd_nasc": "06-18",
+    "ano_obit": 1779
   },
   {
     "id": "I1165",
     "nome": "Francisco",
     "sexo": "M",
     "ano_nasc": 1741,
-    "mmdd_nasc": "04-04"
+    "mmdd_nasc": "04-04",
+    "ano_obit": 1851
   },
   {
     "id": "I1206",
     "nome": "Francisco",
     "sexo": "M",
     "ano_nasc": 1676,
-    "mmdd_nasc": "11-22"
+    "mmdd_nasc": "11-22",
+    "ano_obit": 1786
   },
   {
     "id": "I1252",
     "nome": "Francisco",
     "sexo": "M",
     "ano_nasc": 1693,
-    "mmdd_nasc": "08-09"
+    "mmdd_nasc": "08-09",
+    "ano_obit": 1803
   },
   {
     "id": "I1281",
     "nome": "Francisco",
     "sexo": "M",
     "ano_nasc": 1657,
-    "mmdd_nasc": "03-09"
+    "mmdd_nasc": "03-09",
+    "ano_obit": 1767
   },
   {
     "id": "I1334",
     "nome": "Francisco",
     "sexo": "M",
     "ano_nasc": 1684,
-    "mmdd_nasc": "04-04"
+    "mmdd_nasc": "04-04",
+    "ano_obit": 1794
   },
   {
     "id": "I1351",
     "nome": "Francisco",
     "sexo": "M",
     "ano_nasc": 1718,
-    "mmdd_nasc": "02-12"
+    "mmdd_nasc": "02-12",
+    "ano_obit": 1828
   },
   {
     "id": "I1393",
     "nome": "Francisco",
     "sexo": "M",
     "ano_nasc": 1682,
-    "mmdd_nasc": "07-22"
+    "mmdd_nasc": "07-22",
+    "ano_obit": 1792
   },
   {
     "id": "I1396",
     "nome": "Francisco",
     "sexo": "M",
     "ano_nasc": 1675,
-    "mmdd_nasc": "01-13"
+    "mmdd_nasc": "01-13",
+    "ano_obit": 1785
   },
   {
     "id": "I1415",
     "nome": "Francisco",
     "sexo": "M",
     "ano_nasc": 1693,
-    "mmdd_nasc": "02-26"
+    "mmdd_nasc": "02-26",
+    "ano_obit": 1803
   },
   {
     "id": "I0075",
@@ -2811,7 +2968,8 @@
     "apelido": "António",
     "sexo": "M",
     "ano_nasc": 1731,
-    "mmdd_nasc": "12-11"
+    "mmdd_nasc": "12-11",
+    "ano_obit": 1841
   },
   {
     "id": "I1178",
@@ -2931,35 +3089,40 @@
     "nome": "Genoeva",
     "sexo": "F",
     "ano_nasc": 1744,
-    "mmdd_nasc": "10-05"
+    "mmdd_nasc": "10-05",
+    "ano_obit": 1854
   },
   {
     "id": "I1584",
     "nome": "Gertrudes",
     "sexo": "F",
     "ano_nasc": 1827,
-    "mmdd_nasc": "10-17"
+    "mmdd_nasc": "10-17",
+    "ano_obit": 1937
   },
   {
     "id": "I1593",
     "nome": "Gertrudes",
     "sexo": "F",
     "ano_nasc": 1821,
-    "mmdd_nasc": "11-19"
+    "mmdd_nasc": "11-19",
+    "ano_obit": 1931
   },
   {
     "id": "I1596",
     "nome": "Gertrudes",
     "sexo": "F",
     "ano_nasc": 1830,
-    "mmdd_nasc": "03-17"
+    "mmdd_nasc": "03-17",
+    "ano_obit": 1940
   },
   {
     "id": "I0413",
     "nome": "Gertrudes",
     "sexo": "F",
     "ano_nasc": 1791,
-    "mmdd_nasc": "09-17"
+    "mmdd_nasc": "09-17",
+    "ano_obit": 1901
   },
   {
     "id": "I1517",
@@ -2983,7 +3146,8 @@
     "apelido": "Maria",
     "sexo": "F",
     "ano_nasc": 1783,
-    "mmdd_nasc": "06-28"
+    "mmdd_nasc": "06-28",
+    "ano_obit": 1893
   },
   {
     "id": "I1706",
@@ -3003,7 +3167,8 @@
     "nome": "Graça",
     "sexo": "F",
     "ano_nasc": 1711,
-    "mmdd_nasc": "04-12"
+    "mmdd_nasc": "04-12",
+    "ano_obit": 1821
   },
   {
     "id": "I0647",
@@ -3044,7 +3209,8 @@
     "nome": "Inácio",
     "sexo": "M",
     "ano_nasc": 1710,
-    "mmdd_nasc": "04-27"
+    "mmdd_nasc": "04-27",
+    "ano_obit": 1820
   },
   {
     "id": "I1299",
@@ -3066,7 +3232,8 @@
     "nome": "Inês",
     "sexo": "F",
     "ano_nasc": 1700,
-    "mmdd_nasc": "05-04"
+    "mmdd_nasc": "05-04",
+    "ano_obit": 1810
   },
   {
     "id": "I0118",
@@ -3079,7 +3246,8 @@
     "nome": "Isabel",
     "sexo": "F",
     "ano_nasc": 1738,
-    "mmdd_nasc": "03-02"
+    "mmdd_nasc": "03-02",
+    "ano_obit": 1848
   },
   {
     "id": "I0460",
@@ -3091,7 +3259,8 @@
     "nome": "Isabel",
     "sexo": "F",
     "ano_nasc": 1690,
-    "mmdd_nasc": "04-09"
+    "mmdd_nasc": "04-09",
+    "ano_obit": 1800
   },
   {
     "id": "I0502",
@@ -3113,7 +3282,8 @@
     "nome": "Isabel",
     "sexo": "F",
     "ano_nasc": 1732,
-    "mmdd_nasc": "10-11"
+    "mmdd_nasc": "10-11",
+    "ano_obit": 1842
   },
   {
     "id": "I0611",
@@ -3125,21 +3295,24 @@
     "nome": "Isabel",
     "sexo": "F",
     "ano_nasc": 1765,
-    "mmdd_nasc": "11-26"
+    "mmdd_nasc": "11-26",
+    "ano_obit": 1875
   },
   {
     "id": "I1135",
     "nome": "Isabel",
     "sexo": "F",
     "ano_nasc": 1705,
-    "mmdd_nasc": "03-15"
+    "mmdd_nasc": "03-15",
+    "ano_obit": 1815
   },
   {
     "id": "I1150",
     "nome": "Isabel",
     "sexo": "F",
     "ano_nasc": 1667,
-    "mmdd_nasc": "05-22"
+    "mmdd_nasc": "05-22",
+    "ano_obit": 1777
   },
   {
     "id": "I1201",
@@ -3151,48 +3324,55 @@
     "nome": "Isabel",
     "sexo": "F",
     "ano_nasc": 1679,
-    "mmdd_nasc": "04-09"
+    "mmdd_nasc": "04-09",
+    "ano_obit": 1789
   },
   {
     "id": "I1258",
     "nome": "Isabel",
     "sexo": "F",
     "ano_nasc": 1718,
-    "mmdd_nasc": "08-28"
+    "mmdd_nasc": "08-28",
+    "ano_obit": 1828
   },
   {
     "id": "I1283",
     "nome": "Isabel",
     "sexo": "F",
     "ano_nasc": 1659,
-    "mmdd_nasc": "10-28"
+    "mmdd_nasc": "10-28",
+    "ano_obit": 1769
   },
   {
     "id": "I1336",
     "nome": "Isabel",
     "sexo": "F",
     "ano_nasc": 1694,
-    "mmdd_nasc": "11-15"
+    "mmdd_nasc": "11-15",
+    "ano_obit": 1804
   },
   {
     "id": "I1358",
     "nome": "Isabel",
     "sexo": "F",
     "ano_nasc": 1666,
-    "mmdd_nasc": "01-07"
+    "mmdd_nasc": "01-07",
+    "ano_obit": 1776
   },
   {
     "id": "I1394",
     "nome": "Isabel",
     "sexo": "F",
-    "ano_nasc": 1677
+    "ano_nasc": 1677,
+    "ano_obit": 1787
   },
   {
     "id": "I1444",
     "nome": "Isabel",
     "sexo": "F",
     "ano_nasc": 1667,
-    "mmdd_nasc": "10-18"
+    "mmdd_nasc": "10-18",
+    "ano_obit": 1777
   },
   {
     "id": "I1205",
@@ -3212,7 +3392,8 @@
     "apelido": "Antónia",
     "sexo": "F",
     "ano_nasc": 1669,
-    "mmdd_nasc": "02-04"
+    "mmdd_nasc": "02-04",
+    "ano_obit": 1779
   },
   {
     "id": "I1422",
@@ -3248,7 +3429,8 @@
     "apelido": "Domingues",
     "sexo": "F",
     "ano_nasc": 1700,
-    "mmdd_nasc": "03-03"
+    "mmdd_nasc": "03-03",
+    "ano_obit": 1810
   },
   {
     "id": "I0010",
@@ -3256,7 +3438,8 @@
     "apelido": "Faustina",
     "sexo": "F",
     "ano_nasc": 1836,
-    "mmdd_nasc": "06-29"
+    "mmdd_nasc": "06-29",
+    "ano_obit": 1946
   },
   {
     "id": "I0927",
@@ -3322,7 +3505,8 @@
     "apelido": "Neta",
     "sexo": "F",
     "ano_nasc": 1672,
-    "mmdd_nasc": "02-29"
+    "mmdd_nasc": "02-29",
+    "ano_obit": 1782
   },
   {
     "id": "I0485",
@@ -3389,7 +3573,8 @@
     "nome": "Isidoro",
     "sexo": "M",
     "ano_nasc": 1843,
-    "mmdd_nasc": "01-17"
+    "mmdd_nasc": "01-17",
+    "ano_obit": 1953
   },
   {
     "id": "I0434",
@@ -3416,21 +3601,24 @@
     "nome": "Jacinto",
     "sexo": "M",
     "ano_nasc": 1849,
-    "mmdd_nasc": "03-10"
+    "mmdd_nasc": "03-10",
+    "ano_obit": 1959
   },
   {
     "id": "I0395",
     "nome": "Jacinto",
     "sexo": "M",
     "ano_nasc": 1858,
-    "mmdd_nasc": "06-26"
+    "mmdd_nasc": "06-26",
+    "ano_obit": 1968
   },
   {
     "id": "I0405",
     "nome": "Jacinto",
     "sexo": "M",
     "ano_nasc": 1828,
-    "mmdd_nasc": "12-01"
+    "mmdd_nasc": "12-01",
+    "ano_obit": 1938
   },
   {
     "id": "I0142",
@@ -3467,7 +3655,8 @@
     "nome": "Jaime",
     "sexo": "M",
     "ano_nasc": 1870,
-    "mmdd_nasc": "05-07"
+    "mmdd_nasc": "05-07",
+    "ano_obit": 1980
   },
   {
     "id": "I0748",
@@ -3480,7 +3669,8 @@
     "nome": "Jerónimo",
     "sexo": "M",
     "ano_nasc": 1648,
-    "mmdd_nasc": "01-05"
+    "mmdd_nasc": "01-05",
+    "ano_obit": 1758
   },
   {
     "id": "I1433",
@@ -3511,7 +3701,8 @@
     "nome": "Joana",
     "sexo": "F",
     "ano_nasc": 1805,
-    "mmdd_nasc": "02-28"
+    "mmdd_nasc": "02-28",
+    "ano_obit": 1915
   },
   {
     "id": "I0462",
@@ -3538,14 +3729,16 @@
     "nome": "Joana",
     "sexo": "F",
     "ano_nasc": 1833,
-    "mmdd_nasc": "05-06"
+    "mmdd_nasc": "05-06",
+    "ano_obit": 1943
   },
   {
     "id": "I1364",
     "nome": "Joana",
     "sexo": "F",
     "ano_nasc": 1751,
-    "mmdd_nasc": "06-11"
+    "mmdd_nasc": "06-11",
+    "ano_obit": 1861
   },
   {
     "id": "I1065",
@@ -3588,84 +3781,96 @@
     "nome": "Joaquim",
     "sexo": "M",
     "ano_nasc": 1827,
-    "mmdd_nasc": "01-31"
+    "mmdd_nasc": "01-31",
+    "ano_obit": 1937
   },
   {
     "id": "I1598",
     "nome": "Joaquim",
     "sexo": "M",
     "ano_nasc": 1833,
-    "mmdd_nasc": "05-23"
+    "mmdd_nasc": "05-23",
+    "ano_obit": 1943
   },
   {
     "id": "I0210",
     "nome": "Joaquim",
     "sexo": "M",
     "ano_nasc": 1841,
-    "mmdd_nasc": "01-06"
+    "mmdd_nasc": "01-06",
+    "ano_obit": 1951
   },
   {
     "id": "I0364",
     "nome": "Joaquim",
     "sexo": "M",
     "ano_nasc": 1837,
-    "mmdd_nasc": "12-02"
+    "mmdd_nasc": "12-02",
+    "ano_obit": 1947
   },
   {
     "id": "I0367",
     "nome": "Joaquim",
     "sexo": "M",
     "ano_nasc": 1843,
-    "mmdd_nasc": "06-15"
+    "mmdd_nasc": "06-15",
+    "ano_obit": 1953
   },
   {
     "id": "I0402",
     "nome": "Joaquim",
     "sexo": "M",
     "ano_nasc": 1827,
-    "mmdd_nasc": "03-16"
+    "mmdd_nasc": "03-16",
+    "ano_obit": 1937
   },
   {
     "id": "I0407",
     "nome": "Joaquim",
     "sexo": "M",
     "ano_nasc": 1835,
-    "mmdd_nasc": "05-08"
+    "mmdd_nasc": "05-08",
+    "ano_obit": 1945
   },
   {
     "id": "I0423",
     "nome": "Joaquim",
     "sexo": "M",
     "ano_nasc": 1843,
-    "mmdd_nasc": "10-09"
+    "mmdd_nasc": "10-09",
+    "ano_obit": 1953
   },
   {
     "id": "I0428",
     "nome": "Joaquim",
     "sexo": "M",
     "ano_nasc": 1836,
-    "mmdd_nasc": "11-30"
+    "mmdd_nasc": "11-30",
+    "ano_obit": 1946
   },
   {
     "id": "I0447",
     "nome": "Joaquim",
     "sexo": "M",
     "ano_nasc": 1844,
-    "mmdd_nasc": "04-14"
+    "mmdd_nasc": "04-14",
+    "ano_obit": 1954
   },
   {
     "id": "I0451",
     "nome": "Joaquim",
     "sexo": "M",
     "ano_nasc": 1732,
-    "mmdd_nasc": "12-18"
+    "mmdd_nasc": "12-18",
+    "ano_obit": 1842
   },
   {
     "id": "I0452",
     "nome": "Joaquim",
     "sexo": "M",
     "ano_nasc": 1735,
-    "mmdd_nasc": "07-25"
+    "mmdd_nasc": "07-25",
+    "ano_obit": 1845
   },
   {
     "id": "I0655",
@@ -3690,14 +3895,16 @@
     "nome": "Joaquim",
     "sexo": "M",
     "ano_nasc": 1816,
-    "mmdd_nasc": "01-16"
+    "mmdd_nasc": "01-16",
+    "ano_obit": 1926
   },
   {
     "id": "I0686",
     "nome": "Joaquim",
     "sexo": "M",
     "ano_nasc": 1853,
-    "mmdd_nasc": "11-16"
+    "mmdd_nasc": "11-16",
+    "ano_obit": 1963
   },
   {
     "id": "I0701",
@@ -3712,14 +3919,16 @@
     "nome": "Joaquim",
     "sexo": "M",
     "ano_nasc": 1837,
-    "mmdd_nasc": "04-18"
+    "mmdd_nasc": "04-18",
+    "ano_obit": 1947
   },
   {
     "id": "I0725",
     "nome": "Joaquim",
     "sexo": "M",
     "ano_nasc": 1841,
-    "mmdd_nasc": "12-16"
+    "mmdd_nasc": "12-16",
+    "ano_obit": 1951
   },
   {
     "id": "I0740",
@@ -3744,7 +3953,8 @@
     "nome": "Joaquim",
     "sexo": "M",
     "ano_nasc": 1858,
-    "mmdd_nasc": "02-10"
+    "mmdd_nasc": "02-10",
+    "ano_obit": 1968
   },
   {
     "id": "I0037",
@@ -3783,7 +3993,8 @@
     "apelido": "Francisco Morgado",
     "sexo": "M",
     "ano_nasc": 1835,
-    "mmdd_nasc": "03-28"
+    "mmdd_nasc": "03-28",
+    "ano_obit": 1945
   },
   {
     "id": "I1525",
@@ -3868,7 +4079,8 @@
     "apelido": "Matos",
     "sexo": "M",
     "ano_nasc": 1834,
-    "mmdd_nasc": "01-17"
+    "mmdd_nasc": "01-17",
+    "ano_obit": 1944
   },
   {
     "id": "I0027",
@@ -3930,14 +4142,16 @@
     "nome": "Joaquina",
     "sexo": "F",
     "ano_nasc": 1808,
-    "mmdd_nasc": "06-22"
+    "mmdd_nasc": "06-22",
+    "ano_obit": 1918
   },
   {
     "id": "I1586",
     "nome": "Joaquina",
     "sexo": "F",
     "ano_nasc": 1835,
-    "mmdd_nasc": "11-10"
+    "mmdd_nasc": "11-10",
+    "ano_obit": 1945
   },
   {
     "id": "I1597",
@@ -3953,14 +4167,16 @@
     "nome": "Joaquina",
     "sexo": "F",
     "ano_nasc": 1836,
-    "mmdd_nasc": "07-30"
+    "mmdd_nasc": "07-30",
+    "ano_obit": 1946
   },
   {
     "id": "I0153",
     "nome": "Joaquina",
     "sexo": "F",
     "ano_nasc": 1860,
-    "mmdd_nasc": "11-06"
+    "mmdd_nasc": "11-06",
+    "ano_obit": 1970
   },
   {
     "id": "I0156",
@@ -3985,21 +4201,24 @@
     "nome": "Joaquina",
     "sexo": "F",
     "ano_nasc": 1839,
-    "mmdd_nasc": "01-13"
+    "mmdd_nasc": "01-13",
+    "ano_obit": 1949
   },
   {
     "id": "I0564",
     "nome": "Joaquina",
     "sexo": "F",
     "ano_nasc": 1744,
-    "mmdd_nasc": "03-21"
+    "mmdd_nasc": "03-21",
+    "ano_obit": 1854
   },
   {
     "id": "I0658",
     "nome": "Joaquina",
     "sexo": "F",
     "ano_nasc": 1828,
-    "mmdd_nasc": "03-18"
+    "mmdd_nasc": "03-18",
+    "ano_obit": 1938
   },
   {
     "id": "I0688",
@@ -4024,21 +4243,24 @@
     "nome": "Joaquina",
     "sexo": "F",
     "ano_nasc": 1794,
-    "mmdd_nasc": "07-21"
+    "mmdd_nasc": "07-21",
+    "ano_obit": 1904
   },
   {
     "id": "I0807",
     "nome": "Joaquina",
     "sexo": "F",
     "ano_nasc": 1775,
-    "mmdd_nasc": "01-17"
+    "mmdd_nasc": "01-17",
+    "ano_obit": 1885
   },
   {
     "id": "I0811",
     "nome": "Joaquina",
     "sexo": "F",
     "ano_nasc": 1777,
-    "mmdd_nasc": "08-11"
+    "mmdd_nasc": "08-11",
+    "ano_obit": 1887
   },
   {
     "id": "I0667",
@@ -4054,7 +4276,8 @@
     "apelido": "Ferreira",
     "sexo": "F",
     "ano_nasc": 1835,
-    "mmdd_nasc": "07-27"
+    "mmdd_nasc": "07-27",
+    "ano_obit": 1945
   },
   {
     "id": "I0171",
@@ -4068,7 +4291,8 @@
     "apelido": "Ferreira",
     "sexo": "F",
     "ano_nasc": 1852,
-    "mmdd_nasc": "07-03"
+    "mmdd_nasc": "07-03",
+    "ano_obit": 1962
   },
   {
     "id": "I1001",
@@ -4076,7 +4300,8 @@
     "apelido": "Ferreira Rainha",
     "sexo": "F",
     "ano_nasc": 1878,
-    "mmdd_nasc": "11-04"
+    "mmdd_nasc": "11-04",
+    "ano_obit": 1988
   },
   {
     "id": "I0164",
@@ -4188,14 +4413,16 @@
     "nome": "Joaquina de Jesus",
     "apelido": "de Jesus",
     "sexo": "F",
-    "ano_nasc": 1842
+    "ano_nasc": 1842,
+    "ano_obit": 1952
   },
   {
     "id": "I1148",
     "nome": "Jordão",
     "sexo": "M",
     "ano_nasc": 1664,
-    "mmdd_nasc": "08-20"
+    "mmdd_nasc": "08-20",
+    "ano_obit": 1774
   },
   {
     "id": "I1139",
@@ -4210,14 +4437,16 @@
     "nome": "Josefa",
     "sexo": "F",
     "ano_nasc": 1836,
-    "mmdd_nasc": "04-06"
+    "mmdd_nasc": "04-06",
+    "ano_obit": 1946
   },
   {
     "id": "I0465",
     "nome": "Josefa",
     "sexo": "F",
     "ano_nasc": 1733,
-    "mmdd_nasc": "11-06"
+    "mmdd_nasc": "11-06",
+    "ano_obit": 1843
   },
   {
     "id": "I0483",
@@ -4229,7 +4458,8 @@
     "nome": "Josefa",
     "sexo": "F",
     "ano_nasc": 1683,
-    "mmdd_nasc": "11-20"
+    "mmdd_nasc": "11-20",
+    "ano_obit": 1793
   },
   {
     "id": "I0531",
@@ -4246,14 +4476,16 @@
     "nome": "Josefa",
     "sexo": "F",
     "ano_nasc": 1789,
-    "mmdd_nasc": "04-13"
+    "mmdd_nasc": "04-13",
+    "ano_obit": 1899
   },
   {
     "id": "I0757",
     "nome": "Josefa",
     "sexo": "F",
     "ano_nasc": 1768,
-    "mmdd_nasc": "06-03"
+    "mmdd_nasc": "06-03",
+    "ano_obit": 1878
   },
   {
     "id": "I0762",
@@ -4269,77 +4501,88 @@
     "nome": "Josefa",
     "sexo": "F",
     "ano_nasc": 1792,
-    "mmdd_nasc": "11-20"
+    "mmdd_nasc": "11-20",
+    "ano_obit": 1902
   },
   {
     "id": "I1120",
     "nome": "Josefa",
     "sexo": "F",
     "ano_nasc": 1794,
-    "mmdd_nasc": "02-11"
+    "mmdd_nasc": "02-11",
+    "ano_obit": 1904
   },
   {
     "id": "I1176",
     "nome": "Josefa",
     "sexo": "F",
     "ano_nasc": 1709,
-    "mmdd_nasc": "11-24"
+    "mmdd_nasc": "11-24",
+    "ano_obit": 1819
   },
   {
     "id": "I1254",
     "nome": "Josefa",
     "sexo": "F",
     "ano_nasc": 1728,
-    "mmdd_nasc": "04-18"
+    "mmdd_nasc": "04-18",
+    "ano_obit": 1838
   },
   {
     "id": "I1256",
     "nome": "Josefa",
     "sexo": "F",
     "ano_nasc": 1722,
-    "mmdd_nasc": "05-17"
+    "mmdd_nasc": "05-17",
+    "ano_obit": 1832
   },
   {
     "id": "I1324",
     "nome": "Josefa",
     "sexo": "F",
     "ano_nasc": 1723,
-    "mmdd_nasc": "03-16"
+    "mmdd_nasc": "03-16",
+    "ano_obit": 1833
   },
   {
     "id": "I1338",
     "nome": "Josefa",
     "sexo": "F",
     "ano_nasc": 1729,
-    "mmdd_nasc": "12-11"
+    "mmdd_nasc": "12-11",
+    "ano_obit": 1839
   },
   {
     "id": "I1400",
     "nome": "Josefa",
     "sexo": "F",
     "ano_nasc": 1692,
-    "mmdd_nasc": "05-29"
+    "mmdd_nasc": "05-29",
+    "ano_obit": 1802
   },
   {
     "id": "I1403",
     "nome": "Josefa",
     "sexo": "F",
     "ano_nasc": 1730,
-    "mmdd_nasc": "06-04"
+    "mmdd_nasc": "06-04",
+    "ano_obit": 1840
   },
   {
     "id": "I1484",
     "nome": "Josefa",
     "sexo": "F",
     "ano_nasc": 1762,
-    "mmdd_nasc": "06-29"
+    "mmdd_nasc": "06-29",
+    "ano_obit": 1872
   },
   {
     "id": "I1492",
     "nome": "Josefa",
     "sexo": "F",
     "ano_nasc": 1730,
-    "mmdd_nasc": "12-10"
+    "mmdd_nasc": "12-10",
+    "ano_obit": 1840
   },
   {
     "id": "I0746",
@@ -4347,7 +4590,8 @@
     "apelido": "Fernandes",
     "sexo": "F",
     "ano_nasc": 1704,
-    "mmdd_nasc": "02-17"
+    "mmdd_nasc": "02-17",
+    "ano_obit": 1814
   },
   {
     "id": "I0062",
@@ -4404,7 +4648,8 @@
     "nome": "Josefa Maria",
     "sexo": "F",
     "ano_nasc": 1767,
-    "mmdd_nasc": "04-25"
+    "mmdd_nasc": "04-25",
+    "ano_obit": 1877
   },
   {
     "id": "I0454",
@@ -4451,7 +4696,8 @@
     "apelido": "Maria",
     "sexo": "F",
     "ano_nasc": 1725,
-    "mmdd_nasc": "08-08"
+    "mmdd_nasc": "08-08",
+    "ano_obit": 1835
   },
   {
     "id": "I1069",
@@ -4471,7 +4717,8 @@
     "apelido": "Maria",
     "sexo": "F",
     "ano_nasc": 1688,
-    "mmdd_nasc": "11-06"
+    "mmdd_nasc": "11-06",
+    "ano_obit": 1798
   },
   {
     "id": "I0192",
@@ -4479,7 +4726,8 @@
     "apelido": "Silva",
     "sexo": "F",
     "ano_nasc": 1872,
-    "mmdd_nasc": "02-26"
+    "mmdd_nasc": "02-26",
+    "ano_obit": 1982
   },
   {
     "id": "I0064",
@@ -4511,14 +4759,16 @@
     "nome": "José",
     "sexo": "M",
     "ano_nasc": 1789,
-    "mmdd_nasc": "07-16"
+    "mmdd_nasc": "07-16",
+    "ano_obit": 1899
   },
   {
     "id": "I1573",
     "nome": "José",
     "sexo": "M",
     "ano_nasc": 1792,
-    "mmdd_nasc": "03-21"
+    "mmdd_nasc": "03-21",
+    "ano_obit": 1902
   },
   {
     "id": "I1587",
@@ -4532,14 +4782,16 @@
     "nome": "José",
     "sexo": "M",
     "ano_nasc": 1857,
-    "mmdd_nasc": "04-20"
+    "mmdd_nasc": "04-20",
+    "ano_obit": 1967
   },
   {
     "id": "I0158",
     "nome": "José",
     "sexo": "M",
     "ano_nasc": 1864,
-    "mmdd_nasc": "06-01"
+    "mmdd_nasc": "06-01",
+    "ano_obit": 1974
   },
   {
     "id": "I0183",
@@ -4555,28 +4807,32 @@
     "nome": "José",
     "sexo": "M",
     "ano_nasc": 1745,
-    "mmdd_nasc": "12-01"
+    "mmdd_nasc": "12-01",
+    "ano_obit": 1855
   },
   {
     "id": "I0353",
     "nome": "José",
     "sexo": "M",
     "ano_nasc": 1822,
-    "mmdd_nasc": "03-18"
+    "mmdd_nasc": "03-18",
+    "ano_obit": 1932
   },
   {
     "id": "I0354",
     "nome": "José",
     "sexo": "M",
     "ano_nasc": 1817,
-    "mmdd_nasc": "12-30"
+    "mmdd_nasc": "12-30",
+    "ano_obit": 1927
   },
   {
     "id": "I0358",
     "nome": "José",
     "sexo": "M",
     "ano_nasc": 1820,
-    "mmdd_nasc": "11-02"
+    "mmdd_nasc": "11-02",
+    "ano_obit": 1930
   },
   {
     "id": "I0394",
@@ -4601,28 +4857,32 @@
     "nome": "José",
     "sexo": "M",
     "ano_nasc": 1821,
-    "mmdd_nasc": "09-12"
+    "mmdd_nasc": "09-12",
+    "ano_obit": 1931
   },
   {
     "id": "I0443",
     "nome": "José",
     "sexo": "M",
     "ano_nasc": 1835,
-    "mmdd_nasc": "03-01"
+    "mmdd_nasc": "03-01",
+    "ano_obit": 1945
   },
   {
     "id": "I0446",
     "nome": "José",
     "sexo": "M",
     "ano_nasc": 1841,
-    "mmdd_nasc": "03-06"
+    "mmdd_nasc": "03-06",
+    "ano_obit": 1951
   },
   {
     "id": "I0450",
     "nome": "José",
     "sexo": "M",
     "ano_nasc": 1726,
-    "mmdd_nasc": "03-08"
+    "mmdd_nasc": "03-08",
+    "ano_obit": 1836
   },
   {
     "id": "I0482",
@@ -4639,7 +4899,8 @@
     "nome": "José",
     "sexo": "M",
     "ano_nasc": 1735,
-    "mmdd_nasc": "01-20"
+    "mmdd_nasc": "01-20",
+    "ano_obit": 1845
   },
   {
     "id": "I0560",
@@ -4661,7 +4922,8 @@
     "nome": "José",
     "sexo": "M",
     "ano_nasc": 1726,
-    "mmdd_nasc": "07-15"
+    "mmdd_nasc": "07-15",
+    "ano_obit": 1836
   },
   {
     "id": "I0633",
@@ -4695,56 +4957,64 @@
     "nome": "José",
     "sexo": "M",
     "ano_nasc": 1813,
-    "mmdd_nasc": "06-10"
+    "mmdd_nasc": "06-10",
+    "ano_obit": 1923
   },
   {
     "id": "I0689",
     "nome": "José",
     "sexo": "M",
     "ano_nasc": 1860,
-    "mmdd_nasc": "07-30"
+    "mmdd_nasc": "07-30",
+    "ano_obit": 1970
   },
   {
     "id": "I0695",
     "nome": "José",
     "sexo": "M",
     "ano_nasc": 1821,
-    "mmdd_nasc": "11-05"
+    "mmdd_nasc": "11-05",
+    "ano_obit": 1931
   },
   {
     "id": "I0709",
     "nome": "José",
     "sexo": "M",
     "ano_nasc": 1830,
-    "mmdd_nasc": "04-02"
+    "mmdd_nasc": "04-02",
+    "ano_obit": 1940
   },
   {
     "id": "I0724",
     "nome": "José",
     "sexo": "M",
     "ano_nasc": 1836,
-    "mmdd_nasc": "01-27"
+    "mmdd_nasc": "01-27",
+    "ano_obit": 1946
   },
   {
     "id": "I0737",
     "nome": "José",
     "sexo": "M",
     "ano_nasc": 1783,
-    "mmdd_nasc": "12-25"
+    "mmdd_nasc": "12-25",
+    "ano_obit": 1893
   },
   {
     "id": "I0752",
     "nome": "José",
     "sexo": "M",
     "ano_nasc": 1763,
-    "mmdd_nasc": "07-05"
+    "mmdd_nasc": "07-05",
+    "ano_obit": 1873
   },
   {
     "id": "I0773",
     "nome": "José",
     "sexo": "M",
     "ano_nasc": 1838,
-    "mmdd_nasc": "05-07"
+    "mmdd_nasc": "05-07",
+    "ano_obit": 1948
   },
   {
     "id": "I0780",
@@ -4758,7 +5028,8 @@
     "nome": "José",
     "sexo": "M",
     "ano_nasc": 1778,
-    "mmdd_nasc": "08-19"
+    "mmdd_nasc": "08-19",
+    "ano_obit": 1888
   },
   {
     "id": "I0816",
@@ -4770,14 +5041,16 @@
     "nome": "José",
     "sexo": "M",
     "ano_nasc": 1767,
-    "mmdd_nasc": "02-01"
+    "mmdd_nasc": "02-01",
+    "ano_obit": 1877
   },
   {
     "id": "I0855",
     "nome": "José",
     "sexo": "M",
     "ano_nasc": 1816,
-    "mmdd_nasc": "05-28"
+    "mmdd_nasc": "05-28",
+    "ano_obit": 1926
   },
   {
     "id": "I0891",
@@ -4789,7 +5062,8 @@
     "nome": "José",
     "sexo": "M",
     "ano_nasc": 1848,
-    "mmdd_nasc": "09-11"
+    "mmdd_nasc": "09-11",
+    "ano_obit": 1958
   },
   {
     "id": "I0952",
@@ -4801,14 +5075,16 @@
     "nome": "José",
     "sexo": "M",
     "ano_nasc": 1776,
-    "mmdd_nasc": "03-08"
+    "mmdd_nasc": "03-08",
+    "ano_obit": 1886
   },
   {
     "id": "I0968",
     "nome": "José",
     "sexo": "M",
     "ano_nasc": 1779,
-    "mmdd_nasc": "02-19"
+    "mmdd_nasc": "02-19",
+    "ano_obit": 1889
   },
   {
     "id": "I0971",
@@ -4834,70 +5110,80 @@
     "nome": "José",
     "sexo": "M",
     "ano_nasc": 1684,
-    "mmdd_nasc": "09-25"
+    "mmdd_nasc": "09-25",
+    "ano_obit": 1794
   },
   {
     "id": "I1251",
     "nome": "José",
     "sexo": "M",
     "ano_nasc": 1690,
-    "mmdd_nasc": "12-25"
+    "mmdd_nasc": "12-25",
+    "ano_obit": 1800
   },
   {
     "id": "I1293",
     "nome": "José",
     "sexo": "M",
     "ano_nasc": 1697,
-    "mmdd_nasc": "06-04"
+    "mmdd_nasc": "06-04",
+    "ano_obit": 1807
   },
   {
     "id": "I1332",
     "nome": "José",
     "sexo": "M",
     "ano_nasc": 1687,
-    "mmdd_nasc": "01-26"
+    "mmdd_nasc": "01-26",
+    "ano_obit": 1797
   },
   {
     "id": "I1350",
     "nome": "José",
     "sexo": "M",
     "ano_nasc": 1714,
-    "mmdd_nasc": "03-11"
+    "mmdd_nasc": "03-11",
+    "ano_obit": 1824
   },
   {
     "id": "I1383",
     "nome": "José",
     "sexo": "M",
     "ano_nasc": 1722,
-    "mmdd_nasc": "01-27"
+    "mmdd_nasc": "01-27",
+    "ano_obit": 1832
   },
   {
     "id": "I1385",
     "nome": "José",
     "sexo": "M",
     "ano_nasc": 1684,
-    "mmdd_nasc": "03-19"
+    "mmdd_nasc": "03-19",
+    "ano_obit": 1794
   },
   {
     "id": "I1405",
     "nome": "José",
     "sexo": "M",
     "ano_nasc": 1724,
-    "mmdd_nasc": "03-05"
+    "mmdd_nasc": "03-05",
+    "ano_obit": 1834
   },
   {
     "id": "I1466",
     "nome": "José",
     "sexo": "M",
     "ano_nasc": 1663,
-    "mmdd_nasc": "11-27"
+    "mmdd_nasc": "11-27",
+    "ano_obit": 1773
   },
   {
     "id": "I1483",
     "nome": "José",
     "sexo": "M",
     "ano_nasc": 1766,
-    "mmdd_nasc": "12-21"
+    "mmdd_nasc": "12-21",
+    "ano_obit": 1876
   },
   {
     "id": "I0629",
@@ -4938,7 +5224,8 @@
     "apelido": "Fernandes",
     "sexo": "M",
     "ano_nasc": 1692,
-    "mmdd_nasc": "12-04"
+    "mmdd_nasc": "12-04",
+    "ano_obit": 1802
   },
   {
     "id": "I1264",
@@ -4946,7 +5233,8 @@
     "apelido": "Fernandes",
     "sexo": "M",
     "ano_nasc": 1664,
-    "mmdd_nasc": "03-25"
+    "mmdd_nasc": "03-25",
+    "ano_obit": 1774
   },
   {
     "id": "I1619",
@@ -4965,7 +5253,8 @@
     "nome": "José Ferreira Rico",
     "apelido": "Ferreira Rico",
     "sexo": "M",
-    "ano_nasc": 1805
+    "ano_nasc": 1805,
+    "ano_obit": 1915
   },
   {
     "id": "I0769",
@@ -4999,7 +5288,8 @@
     "apelido": "Francisco",
     "sexo": "M",
     "ano_nasc": 1736,
-    "mmdd_nasc": "05-13"
+    "mmdd_nasc": "05-13",
+    "ano_obit": 1846
   },
   {
     "id": "I0910",
@@ -5013,7 +5303,8 @@
     "apelido": "Francisco",
     "sexo": "M",
     "ano_nasc": 1806,
-    "mmdd_nasc": "11-23"
+    "mmdd_nasc": "11-23",
+    "ano_obit": 1916
   },
   {
     "id": "I0887",
@@ -5134,7 +5425,8 @@
     "apelido": "Marques",
     "sexo": "M",
     "ano_nasc": 1851,
-    "mmdd_nasc": "01-01"
+    "mmdd_nasc": "01-01",
+    "ano_obit": 1961
   },
   {
     "id": "I0379",
@@ -5180,6 +5472,7 @@
     "sexo": "M",
     "ano_nasc": 1880,
     "mmdd_nasc": "02-14",
+    "ano_obit": 1990,
     "thumb_id": "O1069"
   },
   {
@@ -5187,7 +5480,8 @@
     "nome": "José Rainho",
     "apelido": "Rainho",
     "sexo": "M",
-    "ano_nasc": 1836
+    "ano_nasc": 1836,
+    "ano_obit": 1946
   },
   {
     "id": "I0643",
@@ -5241,7 +5535,8 @@
     "apelido": "da Silva",
     "sexo": "M",
     "ano_nasc": 1696,
-    "mmdd_nasc": "01-26"
+    "mmdd_nasc": "01-26",
+    "ano_obit": 1806
   },
   {
     "id": "I0942",
@@ -5256,7 +5551,8 @@
     "nome": "José de Almada",
     "apelido": "de Almada",
     "sexo": "M",
-    "ano_nasc": 1760
+    "ano_nasc": 1760,
+    "ano_obit": 1870
   },
   {
     "id": "I1660",
@@ -5278,7 +5574,8 @@
     "nome": "João",
     "sexo": "M",
     "ano_nasc": 1844,
-    "mmdd_nasc": "06-26"
+    "mmdd_nasc": "06-26",
+    "ano_obit": 1954
   },
   {
     "id": "I0346",
@@ -5313,7 +5610,8 @@
     "nome": "João",
     "sexo": "M",
     "ano_nasc": 1809,
-    "mmdd_nasc": "05-22"
+    "mmdd_nasc": "05-22",
+    "ano_obit": 1919
   },
   {
     "id": "I0702",
@@ -5328,14 +5626,16 @@
     "nome": "João",
     "sexo": "M",
     "ano_nasc": 1762,
-    "mmdd_nasc": "02-18"
+    "mmdd_nasc": "02-18",
+    "ano_obit": 1872
   },
   {
     "id": "I0808",
     "nome": "João",
     "sexo": "M",
     "ano_nasc": 1775,
-    "mmdd_nasc": "09-25"
+    "mmdd_nasc": "09-25",
+    "ano_obit": 1885
   },
   {
     "id": "I0850",
@@ -5347,14 +5647,16 @@
     "nome": "João",
     "sexo": "M",
     "ano_nasc": 1861,
-    "mmdd_nasc": "03-08"
+    "mmdd_nasc": "03-08",
+    "ano_obit": 1971
   },
   {
     "id": "I0883",
     "nome": "João",
     "sexo": "M",
     "ano_nasc": 1829,
-    "mmdd_nasc": "10-08"
+    "mmdd_nasc": "10-08",
+    "ano_obit": 1939
   },
   {
     "id": "I0970",
@@ -5366,112 +5668,128 @@
     "nome": "João",
     "sexo": "M",
     "ano_nasc": 1734,
-    "mmdd_nasc": "03-21"
+    "mmdd_nasc": "03-21",
+    "ano_obit": 1844
   },
   {
     "id": "I1147",
     "nome": "João",
     "sexo": "M",
     "ano_nasc": 1662,
-    "mmdd_nasc": "02-02"
+    "mmdd_nasc": "02-02",
+    "ano_obit": 1772
   },
   {
     "id": "I1154",
     "nome": "João",
     "sexo": "M",
     "ano_nasc": 1683,
-    "mmdd_nasc": "03-11"
+    "mmdd_nasc": "03-11",
+    "ano_obit": 1793
   },
   {
     "id": "I1164",
     "nome": "João",
     "sexo": "M",
     "ano_nasc": 1738,
-    "mmdd_nasc": "04-27"
+    "mmdd_nasc": "04-27",
+    "ano_obit": 1848
   },
   {
     "id": "I1177",
     "nome": "João",
     "sexo": "M",
     "ano_nasc": 1710,
-    "mmdd_nasc": "01-19"
+    "mmdd_nasc": "01-19",
+    "ano_obit": 1820
   },
   {
     "id": "I1250",
     "nome": "João",
     "sexo": "M",
     "ano_nasc": 1684,
-    "mmdd_nasc": "03-26"
+    "mmdd_nasc": "03-26",
+    "ano_obit": 1794
   },
   {
     "id": "I1296",
     "nome": "João",
     "sexo": "M",
     "ano_nasc": 1706,
-    "mmdd_nasc": "02-13"
+    "mmdd_nasc": "02-13",
+    "ano_obit": 1816
   },
   {
     "id": "I1349",
     "nome": "João",
     "sexo": "M",
     "ano_nasc": 1710,
-    "mmdd_nasc": "03-30"
+    "mmdd_nasc": "03-30",
+    "ano_obit": 1820
   },
   {
     "id": "I1359",
     "nome": "João",
     "sexo": "M",
     "ano_nasc": 1664,
-    "mmdd_nasc": "05-18"
+    "mmdd_nasc": "05-18",
+    "ano_obit": 1774
   },
   {
     "id": "I1397",
     "nome": "João",
     "sexo": "M",
     "ano_nasc": 1673,
-    "mmdd_nasc": "03-06"
+    "mmdd_nasc": "03-06",
+    "ano_obit": 1783
   },
   {
     "id": "I1416",
     "nome": "João",
     "sexo": "M",
     "ano_nasc": 1690,
-    "mmdd_nasc": "05-06"
+    "mmdd_nasc": "05-06",
+    "ano_obit": 1800
   },
   {
     "id": "I1419",
     "nome": "João",
     "sexo": "M",
     "ano_nasc": 1704,
-    "mmdd_nasc": "07-20"
+    "mmdd_nasc": "07-20",
+    "ano_obit": 1814
   },
   {
     "id": "I1438",
     "nome": "João",
     "sexo": "M",
     "ano_nasc": 1661,
-    "mmdd_nasc": "01-27"
+    "mmdd_nasc": "01-27",
+    "ano_obit": 1771
   },
   {
     "id": "I1450",
     "nome": "João",
     "sexo": "M",
     "ano_nasc": 1746,
-    "mmdd_nasc": "08-15"
+    "mmdd_nasc": "08-15",
+    "ano_obit": 1856
   },
   {
     "id": "I1485",
     "nome": "João",
     "sexo": "M",
     "ano_nasc": 1759,
-    "mmdd_nasc": "10-21"
+    "mmdd_nasc": "10-21",
+    "ano_obit": 1869
   },
   {
     "id": "I1497",
     "nome": "João",
     "sexo": "M",
     "ano_nasc": 1737,
-    "mmdd_nasc": "12-11"
+    "mmdd_nasc": "12-11",
+    "ano_obit": 1847
   },
   {
     "id": "I0135",
@@ -5643,7 +5961,8 @@
     "apelido": "Gonçalves",
     "sexo": "M",
     "ano_nasc": 1683,
-    "mmdd_nasc": "02-04"
+    "mmdd_nasc": "02-04",
+    "ano_obit": 1793
   },
   {
     "id": "I0484",
@@ -5729,7 +6048,8 @@
     "apelido": "Simões",
     "sexo": "M",
     "ano_nasc": 1706,
-    "mmdd_nasc": "03-16"
+    "mmdd_nasc": "03-16",
+    "ano_obit": 1816
   },
   {
     "id": "I0838",
@@ -5743,7 +6063,8 @@
     "apelido": "da Silva",
     "sexo": "M",
     "ano_nasc": 1727,
-    "mmdd_nasc": "03-16"
+    "mmdd_nasc": "03-16",
+    "ano_obit": 1837
   },
   {
     "id": "I0930",
@@ -5751,7 +6072,8 @@
     "apelido": "da Silva",
     "sexo": "M",
     "ano_nasc": 1725,
-    "mmdd_nasc": "05-03"
+    "mmdd_nasc": "05-03",
+    "ano_obit": 1835
   },
   {
     "id": "I0065",
@@ -5776,14 +6098,16 @@
     "nome": "Libória",
     "sexo": "F",
     "ano_nasc": 1714,
-    "mmdd_nasc": "02-08"
+    "mmdd_nasc": "02-08",
+    "ano_obit": 1824
   },
   {
     "id": "I1363",
     "nome": "Lourenço",
     "sexo": "M",
     "ano_nasc": 1748,
-    "mmdd_nasc": "02-29"
+    "mmdd_nasc": "02-29",
+    "ano_obit": 1858
   },
   {
     "id": "I0861",
@@ -5808,7 +6132,8 @@
     "nome": "Lucas",
     "sexo": "M",
     "ano_nasc": 1701,
-    "mmdd_nasc": "10-18"
+    "mmdd_nasc": "10-18",
+    "ano_obit": 1811
   },
   {
     "id": "I1515",
@@ -5831,21 +6156,24 @@
     "nome": "Luzia",
     "sexo": "F",
     "ano_nasc": 1858,
-    "mmdd_nasc": "01-19"
+    "mmdd_nasc": "01-19",
+    "ano_obit": 1968
   },
   {
     "id": "I0951",
     "nome": "Luzia",
     "sexo": "F",
     "ano_nasc": 1864,
-    "mmdd_nasc": "02-21"
+    "mmdd_nasc": "02-21",
+    "ano_obit": 1974
   },
   {
     "id": "I1269",
     "nome": "Luzia",
     "sexo": "F",
     "ano_nasc": 1712,
-    "mmdd_nasc": "12-18"
+    "mmdd_nasc": "12-18",
+    "ano_obit": 1822
   },
   {
     "id": "I0634",
@@ -5862,7 +6190,8 @@
     "nome": "Luís",
     "sexo": "M",
     "ano_nasc": 1832,
-    "mmdd_nasc": "05-09"
+    "mmdd_nasc": "05-09",
+    "ano_obit": 1942
   },
   {
     "id": "I0693",
@@ -5892,21 +6221,24 @@
     "nome": "Luís",
     "sexo": "M",
     "ano_nasc": 1715,
-    "mmdd_nasc": "04-11"
+    "mmdd_nasc": "04-11",
+    "ano_obit": 1825
   },
   {
     "id": "I1317",
     "nome": "Luís",
     "sexo": "M",
     "ano_nasc": 1702,
-    "mmdd_nasc": "07-10"
+    "mmdd_nasc": "07-10",
+    "ano_obit": 1812
   },
   {
     "id": "I1442",
     "nome": "Luís",
     "sexo": "M",
     "ano_nasc": 1665,
-    "mmdd_nasc": "03-06"
+    "mmdd_nasc": "03-06",
+    "ano_obit": 1775
   },
   {
     "id": "I0435",
@@ -5966,7 +6298,8 @@
     "nome": "Luísa",
     "sexo": "F",
     "ano_nasc": 1832,
-    "mmdd_nasc": "02-26"
+    "mmdd_nasc": "02-26",
+    "ano_obit": 1942
   },
   {
     "id": "I0536",
@@ -5988,28 +6321,32 @@
     "nome": "Luísa",
     "sexo": "F",
     "ano_nasc": 1674,
-    "mmdd_nasc": "01-26"
+    "mmdd_nasc": "01-26",
+    "ano_obit": 1784
   },
   {
     "id": "I1305",
     "nome": "Luísa",
     "sexo": "F",
     "ano_nasc": 1737,
-    "mmdd_nasc": "12-02"
+    "mmdd_nasc": "12-02",
+    "ano_obit": 1847
   },
   {
     "id": "I1313",
     "nome": "Luísa",
     "sexo": "F",
     "ano_nasc": 1712,
-    "mmdd_nasc": "11-14"
+    "mmdd_nasc": "11-14",
+    "ano_obit": 1822
   },
   {
     "id": "I1328",
     "nome": "Luísa",
     "sexo": "F",
     "ano_nasc": 1687,
-    "mmdd_nasc": "09-07"
+    "mmdd_nasc": "09-07",
+    "ano_obit": 1797
   },
   {
     "id": "I0111",
@@ -6061,7 +6398,8 @@
     "apelido": "Marques",
     "sexo": "F",
     "ano_nasc": 1742,
-    "mmdd_nasc": "05-16"
+    "mmdd_nasc": "05-16",
+    "ano_obit": 1852
   },
   {
     "id": "I1409",
@@ -6105,21 +6443,24 @@
     "id": "I0743",
     "nome": "M",
     "sexo": "U",
-    "ano_nasc": 1755
+    "ano_nasc": 1755,
+    "ano_obit": 1865
   },
   {
     "id": "I1259",
     "nome": "Madalena",
     "sexo": "F",
     "ano_nasc": 1734,
-    "mmdd_nasc": "12-28"
+    "mmdd_nasc": "12-28",
+    "ano_obit": 1844
   },
   {
     "id": "I1389",
     "nome": "Madalena",
     "sexo": "F",
     "ano_nasc": 1685,
-    "mmdd_nasc": "04-24"
+    "mmdd_nasc": "04-24",
+    "ano_obit": 1795
   },
   {
     "id": "I0923",
@@ -6144,21 +6485,24 @@
     "nome": "Manuel",
     "sexo": "M",
     "ano_nasc": 1821,
-    "mmdd_nasc": "02-06"
+    "mmdd_nasc": "02-06",
+    "ano_obit": 1931
   },
   {
     "id": "I0180",
     "nome": "Manuel",
     "sexo": "M",
     "ano_nasc": 1867,
-    "mmdd_nasc": "10-08"
+    "mmdd_nasc": "10-08",
+    "ano_obit": 1977
   },
   {
     "id": "I0182",
     "nome": "Manuel",
     "sexo": "M",
     "ano_nasc": 1895,
-    "mmdd_nasc": "10-27"
+    "mmdd_nasc": "10-27",
+    "ano_obit": 2005
   },
   {
     "id": "I0216",
@@ -6170,7 +6514,8 @@
     "nome": "Manuel",
     "sexo": "M",
     "ano_nasc": 1818,
-    "mmdd_nasc": "04-22"
+    "mmdd_nasc": "04-22",
+    "ano_obit": 1928
   },
   {
     "id": "I0374",
@@ -6182,7 +6527,8 @@
     "nome": "Manuel",
     "sexo": "M",
     "ano_nasc": 1831,
-    "mmdd_nasc": "03-26"
+    "mmdd_nasc": "03-26",
+    "ano_obit": 1941
   },
   {
     "id": "I0398",
@@ -6198,28 +6544,32 @@
     "nome": "Manuel",
     "sexo": "M",
     "ano_nasc": 1834,
-    "mmdd_nasc": "04-07"
+    "mmdd_nasc": "04-07",
+    "ano_obit": 1944
   },
   {
     "id": "I0425",
     "nome": "Manuel",
     "sexo": "M",
     "ano_nasc": 1810,
-    "mmdd_nasc": "09-24"
+    "mmdd_nasc": "09-24",
+    "ano_obit": 1920
   },
   {
     "id": "I0431",
     "nome": "Manuel",
     "sexo": "M",
     "ano_nasc": 1844,
-    "mmdd_nasc": "10-14"
+    "mmdd_nasc": "10-14",
+    "ano_obit": 1954
   },
   {
     "id": "I0471",
     "nome": "Manuel",
     "sexo": "M",
     "ano_nasc": 1683,
-    "mmdd_nasc": "05-23"
+    "mmdd_nasc": "05-23",
+    "ano_obit": 1793
   },
   {
     "id": "I0474",
@@ -6248,28 +6598,32 @@
     "nome": "Manuel",
     "sexo": "M",
     "ano_nasc": 1720,
-    "mmdd_nasc": "10-20"
+    "mmdd_nasc": "10-20",
+    "ano_obit": 1830
   },
   {
     "id": "I0671",
     "nome": "Manuel",
     "sexo": "M",
     "ano_nasc": 1812,
-    "mmdd_nasc": "01-03"
+    "mmdd_nasc": "01-03",
+    "ano_obit": 1922
   },
   {
     "id": "I0714",
     "nome": "Manuel",
     "sexo": "M",
     "ano_nasc": 1842,
-    "mmdd_nasc": "01-30"
+    "mmdd_nasc": "01-30",
+    "ano_obit": 1952
   },
   {
     "id": "I0722",
     "nome": "Manuel",
     "sexo": "M",
     "ano_nasc": 1829,
-    "mmdd_nasc": "08-31"
+    "mmdd_nasc": "08-31",
+    "ano_obit": 1939
   },
   {
     "id": "I0736",
@@ -6285,14 +6639,16 @@
     "nome": "Manuel",
     "sexo": "M",
     "ano_nasc": 1786,
-    "mmdd_nasc": "10-12"
+    "mmdd_nasc": "10-12",
+    "ano_obit": 1896
   },
   {
     "id": "I0742",
     "nome": "Manuel",
     "sexo": "M",
     "ano_nasc": 1751,
-    "mmdd_nasc": "09-11"
+    "mmdd_nasc": "09-11",
+    "ano_obit": 1861
   },
   {
     "id": "I0789",
@@ -6304,7 +6660,8 @@
     "nome": "Manuel",
     "sexo": "M",
     "ano_nasc": 1818,
-    "mmdd_nasc": "08-13"
+    "mmdd_nasc": "08-13",
+    "ano_obit": 1928
   },
   {
     "id": "I0823",
@@ -6316,7 +6673,8 @@
     "nome": "Manuel",
     "sexo": "M",
     "ano_nasc": 1777,
-    "mmdd_nasc": "01-26"
+    "mmdd_nasc": "01-26",
+    "ano_obit": 1887
   },
   {
     "id": "I0878",
@@ -6328,272 +6686,311 @@
     "nome": "Manuel",
     "sexo": "M",
     "ano_nasc": 1782,
-    "mmdd_nasc": "06-14"
+    "mmdd_nasc": "06-14",
+    "ano_obit": 1892
   },
   {
     "id": "I0903",
     "nome": "Manuel",
     "sexo": "M",
     "ano_nasc": 1861,
-    "mmdd_nasc": "01-30"
+    "mmdd_nasc": "01-30",
+    "ano_obit": 1971
   },
   {
     "id": "I0959",
     "nome": "Manuel",
     "sexo": "M",
     "ano_nasc": 1768,
-    "mmdd_nasc": "10-06"
+    "mmdd_nasc": "10-06",
+    "ano_obit": 1878
   },
   {
     "id": "I0964",
     "nome": "Manuel",
     "sexo": "M",
     "ano_nasc": 1769,
-    "mmdd_nasc": "10-25"
+    "mmdd_nasc": "10-25",
+    "ano_obit": 1879
   },
   {
     "id": "I1104",
     "nome": "Manuel",
     "sexo": "M",
     "ano_nasc": 1819,
-    "mmdd_nasc": "02-21"
+    "mmdd_nasc": "02-21",
+    "ano_obit": 1929
   },
   {
     "id": "I1108",
     "nome": "Manuel",
     "sexo": "M",
     "ano_nasc": 1778,
-    "mmdd_nasc": "10-18"
+    "mmdd_nasc": "10-18",
+    "ano_obit": 1888
   },
   {
     "id": "I1122",
     "nome": "Manuel",
     "sexo": "M",
     "ano_nasc": 1803,
-    "mmdd_nasc": "07-17"
+    "mmdd_nasc": "07-17",
+    "ano_obit": 1913
   },
   {
     "id": "I1132",
     "nome": "Manuel",
     "sexo": "M",
     "ano_nasc": 1702,
-    "mmdd_nasc": "04-02"
+    "mmdd_nasc": "04-02",
+    "ano_obit": 1812
   },
   {
     "id": "I1146",
     "nome": "Manuel",
     "sexo": "M",
     "ano_nasc": 1654,
-    "mmdd_nasc": "08-09"
+    "mmdd_nasc": "08-09",
+    "ano_obit": 1764
   },
   {
     "id": "I1163",
     "nome": "Manuel",
     "sexo": "M",
     "ano_nasc": 1734,
-    "mmdd_nasc": "04-20"
+    "mmdd_nasc": "04-20",
+    "ano_obit": 1844
   },
   {
     "id": "I1171",
     "nome": "Manuel",
     "sexo": "M",
     "ano_nasc": 1697,
-    "mmdd_nasc": "01-20"
+    "mmdd_nasc": "01-20",
+    "ano_obit": 1807
   },
   {
     "id": "I1172",
     "nome": "Manuel",
     "sexo": "M",
     "ano_nasc": 1698,
-    "mmdd_nasc": "02-22"
+    "mmdd_nasc": "02-22",
+    "ano_obit": 1808
   },
   {
     "id": "I1173",
     "nome": "Manuel",
     "sexo": "M",
     "ano_nasc": 1700,
-    "mmdd_nasc": "07-11"
+    "mmdd_nasc": "07-11",
+    "ano_obit": 1810
   },
   {
     "id": "I1193",
     "nome": "Manuel",
     "sexo": "M",
     "ano_nasc": 1667,
-    "mmdd_nasc": "04-24"
+    "mmdd_nasc": "04-24",
+    "ano_obit": 1777
   },
   {
     "id": "I1203",
     "nome": "Manuel",
     "sexo": "M",
     "ano_nasc": 1674,
-    "mmdd_nasc": "06-13"
+    "mmdd_nasc": "06-13",
+    "ano_obit": 1784
   },
   {
     "id": "I1207",
     "nome": "Manuel",
     "sexo": "M",
     "ano_nasc": 1671,
-    "mmdd_nasc": "05-17"
+    "mmdd_nasc": "05-17",
+    "ano_obit": 1781
   },
   {
     "id": "I1230",
     "nome": "Manuel",
     "sexo": "M",
     "ano_nasc": 1684,
-    "mmdd_nasc": "08-14"
+    "mmdd_nasc": "08-14",
+    "ano_obit": 1794
   },
   {
     "id": "I1232",
     "nome": "Manuel",
     "sexo": "M",
     "ano_nasc": 1678,
-    "mmdd_nasc": "05-01"
+    "mmdd_nasc": "05-01",
+    "ano_obit": 1788
   },
   {
     "id": "I1255",
     "nome": "Manuel",
     "sexo": "M",
     "ano_nasc": 1724,
-    "mmdd_nasc": "03-15"
+    "mmdd_nasc": "03-15",
+    "ano_obit": 1834
   },
   {
     "id": "I1284",
     "nome": "Manuel",
     "sexo": "M",
     "ano_nasc": 1661,
-    "mmdd_nasc": "04-18"
+    "mmdd_nasc": "04-18",
+    "ano_obit": 1771
   },
   {
     "id": "I1297",
     "nome": "Manuel",
     "sexo": "M",
     "ano_nasc": 1709,
-    "mmdd_nasc": "11-01"
+    "mmdd_nasc": "11-01",
+    "ano_obit": 1819
   },
   {
     "id": "I1306",
     "nome": "Manuel",
     "sexo": "M",
     "ano_nasc": 1736,
-    "mmdd_nasc": "04-04"
+    "mmdd_nasc": "04-04",
+    "ano_obit": 1846
   },
   {
     "id": "I1330",
     "nome": "Manuel",
     "sexo": "M",
     "ano_nasc": 1683,
-    "mmdd_nasc": "03-25"
+    "mmdd_nasc": "03-25",
+    "ano_obit": 1793
   },
   {
     "id": "I1339",
     "nome": "Manuel",
     "sexo": "M",
     "ano_nasc": 1726,
-    "mmdd_nasc": "12-15"
+    "mmdd_nasc": "12-15",
+    "ano_obit": 1836
   },
   {
     "id": "I1361",
     "nome": "Manuel",
     "sexo": "M",
     "ano_nasc": 1660,
-    "mmdd_nasc": "04-25"
+    "mmdd_nasc": "04-25",
+    "ano_obit": 1770
   },
   {
     "id": "I1362",
     "nome": "Manuel",
     "sexo": "M",
     "ano_nasc": 1741,
-    "mmdd_nasc": "02-24"
+    "mmdd_nasc": "02-24",
+    "ano_obit": 1851
   },
   {
     "id": "I1386",
     "nome": "Manuel",
     "sexo": "M",
     "ano_nasc": 1679,
-    "mmdd_nasc": "04-29"
+    "mmdd_nasc": "04-29",
+    "ano_obit": 1789
   },
   {
     "id": "I1395",
     "nome": "Manuel",
     "sexo": "M",
     "ano_nasc": 1676,
-    "mmdd_nasc": "02-09"
+    "mmdd_nasc": "02-09",
+    "ano_obit": 1786
   },
   {
     "id": "I1407",
     "nome": "Manuel",
     "sexo": "M",
     "ano_nasc": 1719,
-    "mmdd_nasc": "05-28"
+    "mmdd_nasc": "05-28",
+    "ano_obit": 1829
   },
   {
     "id": "I1414",
     "nome": "Manuel",
     "sexo": "M",
     "ano_nasc": 1698,
-    "mmdd_nasc": "08-25"
+    "mmdd_nasc": "08-25",
+    "ano_obit": 1808
   },
   {
     "id": "I1418",
     "nome": "Manuel",
     "sexo": "M",
     "ano_nasc": 1686,
-    "mmdd_nasc": "09-08"
+    "mmdd_nasc": "09-08",
+    "ano_obit": 1796
   },
   {
     "id": "I1437",
     "nome": "Manuel",
     "sexo": "M",
     "ano_nasc": 1657,
-    "mmdd_nasc": "10-18"
+    "mmdd_nasc": "10-18",
+    "ano_obit": 1767
   },
   {
     "id": "I1448",
     "nome": "Manuel",
     "sexo": "M",
     "ano_nasc": 1737,
-    "mmdd_nasc": "08-27"
+    "mmdd_nasc": "08-27",
+    "ano_obit": 1847
   },
   {
     "id": "I1456",
     "nome": "Manuel",
     "sexo": "M",
     "ano_nasc": 1701,
-    "mmdd_nasc": "11-10"
+    "mmdd_nasc": "11-10",
+    "ano_obit": 1811
   },
   {
     "id": "I1465",
     "nome": "Manuel",
     "sexo": "M",
     "ano_nasc": 1685,
-    "mmdd_nasc": "01-14"
+    "mmdd_nasc": "01-14",
+    "ano_obit": 1795
   },
   {
     "id": "I1468",
     "nome": "Manuel",
     "sexo": "M",
     "ano_nasc": 1674,
-    "mmdd_nasc": "01-06"
+    "mmdd_nasc": "01-06",
+    "ano_obit": 1784
   },
   {
     "id": "I1469",
     "nome": "Manuel",
     "sexo": "M",
     "ano_nasc": 1675,
-    "mmdd_nasc": "07-14"
+    "mmdd_nasc": "07-14",
+    "ano_obit": 1785
   },
   {
     "id": "I1474",
     "nome": "Manuel",
     "sexo": "M",
-    "ano_nasc": 1905
+    "ano_nasc": 1905,
+    "ano_obit": 2015
   },
   {
     "id": "I1486",
     "nome": "Manuel",
     "sexo": "M",
     "ano_nasc": 1754,
-    "mmdd_nasc": "08-18"
+    "mmdd_nasc": "08-18",
+    "ano_obit": 1864
   },
   {
     "id": "I1063",
@@ -6615,7 +7012,8 @@
     "apelido": "António",
     "sexo": "M",
     "ano_nasc": 1717,
-    "mmdd_nasc": "03-29"
+    "mmdd_nasc": "03-29",
+    "ano_obit": 1827
   },
   {
     "id": "I1377",
@@ -6623,7 +7021,8 @@
     "apelido": "Borralho",
     "sexo": "M",
     "ano_nasc": 1640,
-    "mmdd_nasc": "09-30"
+    "mmdd_nasc": "09-30",
+    "ano_obit": 1750
   },
   {
     "id": "I1198",
@@ -6701,7 +7100,8 @@
     "apelido": "Dias Fazendeiro",
     "sexo": "M",
     "ano_nasc": 1699,
-    "mmdd_nasc": "03-16"
+    "mmdd_nasc": "03-16",
+    "ano_obit": 1809
   },
   {
     "id": "I0954",
@@ -6749,7 +7149,8 @@
     "apelido": "Fernandes",
     "sexo": "M",
     "ano_nasc": 1677,
-    "mmdd_nasc": "04-29"
+    "mmdd_nasc": "04-29",
+    "ano_obit": 1787
   },
   {
     "id": "I1213",
@@ -6795,7 +7196,8 @@
     "apelido": "Ferreira",
     "sexo": "M",
     "ano_nasc": 1723,
-    "mmdd_nasc": "06-17"
+    "mmdd_nasc": "06-17",
+    "ano_obit": 1833
   },
   {
     "id": "I0359",
@@ -6811,7 +7213,8 @@
     "nome": "Manuel Ferreira Rico",
     "apelido": "Ferreira Rico",
     "sexo": "M",
-    "ano_nasc": 1795
+    "ano_nasc": 1795,
+    "ano_obit": 1905
   },
   {
     "id": "I0193",
@@ -6842,7 +7245,8 @@
     "apelido": "Francisco",
     "sexo": "M",
     "ano_nasc": 1751,
-    "mmdd_nasc": "04-08"
+    "mmdd_nasc": "04-08",
+    "ano_obit": 1861
   },
   {
     "id": "I0916",
@@ -6882,7 +7286,8 @@
     "apelido": "Francisco Lourenço",
     "sexo": "M",
     "ano_nasc": 1778,
-    "mmdd_nasc": "03-27"
+    "mmdd_nasc": "03-27",
+    "ano_obit": 1888
   },
   {
     "id": "I0699",
@@ -6908,7 +7313,8 @@
     "apelido": "Francisco Morgado",
     "sexo": "M",
     "ano_nasc": 1864,
-    "mmdd_nasc": "10-29"
+    "mmdd_nasc": "10-29",
+    "ano_obit": 1974
   },
   {
     "id": "I0899",
@@ -7009,7 +7415,8 @@
     "apelido": "Joaquim Leal",
     "sexo": "M",
     "ano_nasc": 1884,
-    "mmdd_nasc": "08-13"
+    "mmdd_nasc": "08-13",
+    "ano_obit": 1994
   },
   {
     "id": "I1698",
@@ -7044,7 +7451,8 @@
     "nome": "Manuel José",
     "apelido": "José",
     "sexo": "M",
-    "ano_nasc": 1848
+    "ano_nasc": 1848,
+    "ano_obit": 1958
   },
   {
     "id": "I0912",
@@ -7090,7 +7498,8 @@
     "apelido": "João Rosado",
     "sexo": "M",
     "ano_nasc": 1755,
-    "mmdd_nasc": "11-30"
+    "mmdd_nasc": "11-30",
+    "ano_obit": 1865
   },
   {
     "id": "I0893",
@@ -7116,7 +7525,8 @@
     "apelido": "Lourenço",
     "sexo": "M",
     "ano_nasc": 1842,
-    "mmdd_nasc": "10-14"
+    "mmdd_nasc": "10-14",
+    "ano_obit": 1952
   },
   {
     "id": "I1658",
@@ -7218,7 +7628,8 @@
     "nome": "Manuel Pontes",
     "apelido": "Pontes",
     "sexo": "M",
-    "ano_nasc": 1875
+    "ano_nasc": 1875,
+    "ano_obit": 1985
   },
   {
     "id": "I1509",
@@ -7236,7 +7647,8 @@
     "apelido": "Rainho",
     "sexo": "M",
     "ano_nasc": 1866,
-    "mmdd_nasc": "05-29"
+    "mmdd_nasc": "05-29",
+    "ano_obit": 1976
   },
   {
     "id": "I0506",
@@ -7252,7 +7664,8 @@
     "apelido": "Rodrigues Pimenta",
     "sexo": "M",
     "ano_nasc": 1855,
-    "mmdd_nasc": "12-01"
+    "mmdd_nasc": "12-01",
+    "ano_obit": 1965
   },
   {
     "id": "I1629",
@@ -7346,7 +7759,8 @@
     "apelido": "da Silva",
     "sexo": "M",
     "ano_nasc": 1864,
-    "mmdd_nasc": "10-06"
+    "mmdd_nasc": "10-06",
+    "ano_obit": 1974
   },
   {
     "id": "I1664",
@@ -7354,7 +7768,8 @@
     "apelido": "da Silva",
     "sexo": "M",
     "ano_nasc": 1832,
-    "mmdd_nasc": "12-17"
+    "mmdd_nasc": "12-17",
+    "ano_obit": 1942
   },
   {
     "id": "I1666",
@@ -7367,7 +7782,8 @@
     "nome": "Manuel da Silva Ferreira",
     "apelido": "da Silva Ferreira",
     "sexo": "M",
-    "ano_nasc": 1892
+    "ano_nasc": 1892,
+    "ano_obit": 2002
   },
   {
     "id": "I0025",
@@ -7491,7 +7907,8 @@
     "nome": "Margarida",
     "sexo": "F",
     "ano_nasc": 1665,
-    "mmdd_nasc": "10-11"
+    "mmdd_nasc": "10-11",
+    "ano_obit": 1775
   },
   {
     "id": "I0589",
@@ -7536,7 +7953,8 @@
     "nome": "Maria",
     "sexo": "F",
     "ano_nasc": 1645,
-    "mmdd_nasc": "02-26"
+    "mmdd_nasc": "02-26",
+    "ano_obit": 1755
   },
   {
     "id": "I1521",
@@ -7548,77 +7966,88 @@
     "nome": "Maria",
     "sexo": "F",
     "ano_nasc": 1819,
-    "mmdd_nasc": "04-22"
+    "mmdd_nasc": "04-22",
+    "ano_obit": 1929
   },
   {
     "id": "I0181",
     "nome": "Maria",
     "sexo": "F",
     "ano_nasc": 1872,
-    "mmdd_nasc": "02-25"
+    "mmdd_nasc": "02-25",
+    "ano_obit": 1982
   },
   {
     "id": "I0208",
     "nome": "Maria",
     "sexo": "F",
     "ano_nasc": 1837,
-    "mmdd_nasc": "10-13"
+    "mmdd_nasc": "10-13",
+    "ano_obit": 1947
   },
   {
     "id": "I0219",
     "nome": "Maria",
     "sexo": "F",
     "ano_nasc": 1757,
-    "mmdd_nasc": "01-31"
+    "mmdd_nasc": "01-31",
+    "ano_obit": 1867
   },
   {
     "id": "I0349",
     "nome": "Maria",
     "sexo": "F",
     "ano_nasc": 1799,
-    "mmdd_nasc": "01-06"
+    "mmdd_nasc": "01-06",
+    "ano_obit": 1909
   },
   {
     "id": "I0352",
     "nome": "Maria",
     "sexo": "F",
     "ano_nasc": 1815,
-    "mmdd_nasc": "01-04"
+    "mmdd_nasc": "01-04",
+    "ano_obit": 1925
   },
   {
     "id": "I0363",
     "nome": "Maria",
     "sexo": "F",
     "ano_nasc": 1834,
-    "mmdd_nasc": "01-03"
+    "mmdd_nasc": "01-03",
+    "ano_obit": 1944
   },
   {
     "id": "I0408",
     "nome": "Maria",
     "sexo": "F",
     "ano_nasc": 1837,
-    "mmdd_nasc": "10-01"
+    "mmdd_nasc": "10-01",
+    "ano_obit": 1947
   },
   {
     "id": "I0416",
     "nome": "Maria",
     "sexo": "F",
     "ano_nasc": 1800,
-    "mmdd_nasc": "07-19"
+    "mmdd_nasc": "07-19",
+    "ano_obit": 1910
   },
   {
     "id": "I0417",
     "nome": "Maria",
     "sexo": "F",
     "ano_nasc": 1802,
-    "mmdd_nasc": "09-01"
+    "mmdd_nasc": "09-01",
+    "ano_obit": 1912
   },
   {
     "id": "I0419",
     "nome": "Maria",
     "sexo": "F",
     "ano_nasc": 1832,
-    "mmdd_nasc": "02-18"
+    "mmdd_nasc": "02-18",
+    "ano_obit": 1942
   },
   {
     "id": "I0424",
@@ -7633,14 +8062,16 @@
     "nome": "Maria",
     "sexo": "F",
     "ano_nasc": 1827,
-    "mmdd_nasc": "03-27"
+    "mmdd_nasc": "03-27",
+    "ano_obit": 1937
   },
   {
     "id": "I0470",
     "nome": "Maria",
     "sexo": "F",
     "ano_nasc": 1678,
-    "mmdd_nasc": "11-20"
+    "mmdd_nasc": "11-20",
+    "ano_obit": 1788
   },
   {
     "id": "I0477",
@@ -7657,7 +8088,8 @@
     "nome": "Maria",
     "sexo": "F",
     "ano_nasc": 1678,
-    "mmdd_nasc": "03-06"
+    "mmdd_nasc": "03-06",
+    "ano_obit": 1788
   },
   {
     "id": "I0526",
@@ -7674,14 +8106,16 @@
     "nome": "Maria",
     "sexo": "F",
     "ano_nasc": 1852,
-    "mmdd_nasc": "02-26"
+    "mmdd_nasc": "02-26",
+    "ano_obit": 1962
   },
   {
     "id": "I0641",
     "nome": "Maria",
     "sexo": "F",
     "ano_nasc": 1859,
-    "mmdd_nasc": "12-13"
+    "mmdd_nasc": "12-13",
+    "ano_obit": 1969
   },
   {
     "id": "I0656",
@@ -7697,35 +8131,40 @@
     "nome": "Maria",
     "sexo": "F",
     "ano_nasc": 1815,
-    "mmdd_nasc": "02-15"
+    "mmdd_nasc": "02-15",
+    "ano_obit": 1925
   },
   {
     "id": "I0694",
     "nome": "Maria",
     "sexo": "F",
     "ano_nasc": 1818,
-    "mmdd_nasc": "05-12"
+    "mmdd_nasc": "05-12",
+    "ano_obit": 1928
   },
   {
     "id": "I0717",
     "nome": "Maria",
     "sexo": "F",
     "ano_nasc": 1849,
-    "mmdd_nasc": "02-03"
+    "mmdd_nasc": "02-03",
+    "ano_obit": 1959
   },
   {
     "id": "I0721",
     "nome": "Maria",
     "sexo": "F",
     "ano_nasc": 1822,
-    "mmdd_nasc": "10-04"
+    "mmdd_nasc": "10-04",
+    "ano_obit": 1932
   },
   {
     "id": "I0734",
     "nome": "Maria",
     "sexo": "F",
     "ano_nasc": 1777,
-    "mmdd_nasc": "10-10"
+    "mmdd_nasc": "10-10",
+    "ano_obit": 1887
   },
   {
     "id": "I0774",
@@ -7760,77 +8199,88 @@
     "nome": "Maria",
     "sexo": "F",
     "ano_nasc": 1822,
-    "mmdd_nasc": "04-14"
+    "mmdd_nasc": "04-14",
+    "ano_obit": 1932
   },
   {
     "id": "I0812",
     "nome": "Maria",
     "sexo": "F",
     "ano_nasc": 1777,
-    "mmdd_nasc": "10-26"
+    "mmdd_nasc": "10-26",
+    "ano_obit": 1887
   },
   {
     "id": "I0828",
     "nome": "Maria",
     "sexo": "F",
     "ano_nasc": 1771,
-    "mmdd_nasc": "08-13"
+    "mmdd_nasc": "08-13",
+    "ano_obit": 1881
   },
   {
     "id": "I0833",
     "nome": "Maria",
     "sexo": "F",
     "ano_nasc": 1764,
-    "mmdd_nasc": "10-25"
+    "mmdd_nasc": "10-25",
+    "ano_obit": 1874
   },
   {
     "id": "I0836",
     "nome": "Maria",
     "sexo": "F",
     "ano_nasc": 1757,
-    "mmdd_nasc": "02-21"
+    "mmdd_nasc": "02-21",
+    "ano_obit": 1867
   },
   {
     "id": "I0837",
     "nome": "Maria",
     "sexo": "F",
     "ano_nasc": 1773,
-    "mmdd_nasc": "06-08"
+    "mmdd_nasc": "06-08",
+    "ano_obit": 1883
   },
   {
     "id": "I0842",
     "nome": "Maria",
     "sexo": "F",
     "ano_nasc": 1815,
-    "mmdd_nasc": "03-02"
+    "mmdd_nasc": "03-02",
+    "ano_obit": 1925
   },
   {
     "id": "I0847",
     "nome": "Maria",
     "sexo": "F",
     "ano_nasc": 1847,
-    "mmdd_nasc": "09-30"
+    "mmdd_nasc": "09-30",
+    "ano_obit": 1957
   },
   {
     "id": "I0865",
     "nome": "Maria",
     "sexo": "F",
     "ano_nasc": 1774,
-    "mmdd_nasc": "04-10"
+    "mmdd_nasc": "04-10",
+    "ano_obit": 1884
   },
   {
     "id": "I0889",
     "nome": "Maria",
     "sexo": "F",
     "ano_nasc": 1779,
-    "mmdd_nasc": "09-11"
+    "mmdd_nasc": "09-11",
+    "ano_obit": 1889
   },
   {
     "id": "I0969",
     "nome": "Maria",
     "sexo": "F",
     "ano_nasc": 1779,
-    "mmdd_nasc": "05-14"
+    "mmdd_nasc": "05-14",
+    "ano_obit": 1889
   },
   {
     "id": "I0975",
@@ -7847,98 +8297,112 @@
     "nome": "Maria",
     "sexo": "F",
     "ano_nasc": 1787,
-    "mmdd_nasc": "03-11"
+    "mmdd_nasc": "03-11",
+    "ano_obit": 1897
   },
   {
     "id": "I1129",
     "nome": "Maria",
     "sexo": "F",
     "ano_nasc": 1730,
-    "mmdd_nasc": "12-06"
+    "mmdd_nasc": "12-06",
+    "ano_obit": 1840
   },
   {
     "id": "I1162",
     "nome": "Maria",
     "sexo": "F",
     "ano_nasc": 1728,
-    "mmdd_nasc": "05-27"
+    "mmdd_nasc": "05-27",
+    "ano_obit": 1838
   },
   {
     "id": "I1170",
     "nome": "Maria",
     "sexo": "F",
     "ano_nasc": 1693,
-    "mmdd_nasc": "12-13"
+    "mmdd_nasc": "12-13",
+    "ano_obit": 1803
   },
   {
     "id": "I1186",
     "nome": "Maria",
     "sexo": "F",
     "ano_nasc": 1669,
-    "mmdd_nasc": "11-18"
+    "mmdd_nasc": "11-18",
+    "ano_obit": 1779
   },
   {
     "id": "I1202",
     "nome": "Maria",
     "sexo": "F",
     "ano_nasc": 1669,
-    "mmdd_nasc": "06-06"
+    "mmdd_nasc": "06-06",
+    "ano_obit": 1779
   },
   {
     "id": "I1212",
     "nome": "Maria",
     "sexo": "F",
     "ano_nasc": 1737,
-    "mmdd_nasc": "10-17"
+    "mmdd_nasc": "10-17",
+    "ano_obit": 1847
   },
   {
     "id": "I1221",
     "nome": "Maria",
     "sexo": "F",
     "ano_nasc": 1702,
-    "mmdd_nasc": "02-26"
+    "mmdd_nasc": "02-26",
+    "ano_obit": 1812
   },
   {
     "id": "I1222",
     "nome": "Maria",
     "sexo": "F",
     "ano_nasc": 1697,
-    "mmdd_nasc": "02-22"
+    "mmdd_nasc": "02-22",
+    "ano_obit": 1807
   },
   {
     "id": "I1261",
     "nome": "Maria",
     "sexo": "F",
     "ano_nasc": 1751,
-    "mmdd_nasc": "12-15"
+    "mmdd_nasc": "12-15",
+    "ano_obit": 1861
   },
   {
     "id": "I1271",
     "nome": "Maria",
     "sexo": "F",
     "ano_nasc": 1725,
-    "mmdd_nasc": "05-03"
+    "mmdd_nasc": "05-03",
+    "ano_obit": 1835
   },
   {
     "id": "I1279",
     "nome": "Maria",
     "sexo": "F",
     "ano_nasc": 1656,
-    "mmdd_nasc": "07-15"
+    "mmdd_nasc": "07-15",
+    "ano_obit": 1766
   },
   {
     "id": "I1291",
     "nome": "Maria",
     "sexo": "F",
     "ano_nasc": 1691,
-    "mmdd_nasc": "02-27"
+    "mmdd_nasc": "02-27",
+    "ano_obit": 1801
   },
   {
     "id": "I1302",
     "nome": "Maria",
     "sexo": "F",
     "ano_nasc": 1744,
-    "mmdd_nasc": "04-14"
+    "mmdd_nasc": "04-14",
+    "ano_obit": 1854
   },
   {
     "id": "I1307",
@@ -7954,96 +8418,110 @@
     "nome": "Maria",
     "sexo": "F",
     "ano_nasc": 1710,
-    "mmdd_nasc": "03-27"
+    "mmdd_nasc": "03-27",
+    "ano_obit": 1820
   },
   {
     "id": "I1340",
     "nome": "Maria",
     "sexo": "F",
     "ano_nasc": 1724,
-    "mmdd_nasc": "01-02"
+    "mmdd_nasc": "01-02",
+    "ano_obit": 1834
   },
   {
     "id": "I1347",
     "nome": "Maria",
     "sexo": "F",
     "ano_nasc": 1703,
-    "mmdd_nasc": "07-02"
+    "mmdd_nasc": "07-02",
+    "ano_obit": 1813
   },
   {
     "id": "I1360",
     "nome": "Maria",
     "sexo": "F",
     "ano_nasc": 1662,
-    "mmdd_nasc": "03-26"
+    "mmdd_nasc": "03-26",
+    "ano_obit": 1772
   },
   {
     "id": "I1370",
     "nome": "Maria",
     "sexo": "F",
     "ano_nasc": 1709,
-    "mmdd_nasc": "05-12"
+    "mmdd_nasc": "05-12",
+    "ano_obit": 1819
   },
   {
     "id": "I1398",
     "nome": "Maria",
     "sexo": "F",
-    "ano_nasc": 1671
+    "ano_nasc": 1671,
+    "ano_obit": 1781
   },
   {
     "id": "I1404",
     "nome": "Maria",
     "sexo": "F",
     "ano_nasc": 1730,
-    "mmdd_nasc": "06-04"
+    "mmdd_nasc": "06-04",
+    "ano_obit": 1840
   },
   {
     "id": "I1413",
     "nome": "Maria",
     "sexo": "F",
     "ano_nasc": 1699,
-    "mmdd_nasc": "02-24"
+    "mmdd_nasc": "02-24",
+    "ano_obit": 1809
   },
   {
     "id": "I1439",
     "nome": "Maria",
     "sexo": "F",
     "ano_nasc": 1661,
-    "mmdd_nasc": "12-28"
+    "mmdd_nasc": "12-28",
+    "ano_obit": 1771
   },
   {
     "id": "I1447",
     "nome": "Maria",
     "sexo": "F",
     "ano_nasc": 1735,
-    "mmdd_nasc": "12-01"
+    "mmdd_nasc": "12-01",
+    "ano_obit": 1845
   },
   {
     "id": "I1457",
     "nome": "Maria",
     "sexo": "F",
     "ano_nasc": 1698,
-    "mmdd_nasc": "02-23"
+    "mmdd_nasc": "02-23",
+    "ano_obit": 1808
   },
   {
     "id": "I1467",
     "nome": "Maria",
     "sexo": "F",
     "ano_nasc": 1669,
-    "mmdd_nasc": "01-23"
+    "mmdd_nasc": "01-23",
+    "ano_obit": 1779
   },
   {
     "id": "I1476",
     "nome": "Maria",
     "sexo": "F",
-    "ano_nasc": 1912
+    "ano_nasc": 1912,
+    "ano_obit": 2022
   },
   {
     "id": "I1502",
     "nome": "Maria",
     "sexo": "F",
     "ano_nasc": 1906,
-    "mmdd_nasc": "01-16"
+    "mmdd_nasc": "01-16",
+    "ano_obit": 2016
   },
   {
     "id": "I0106",
@@ -8135,7 +8613,8 @@
     "apelido": "Cintra",
     "sexo": "F",
     "ano_nasc": 1880,
-    "mmdd_nasc": "11-27"
+    "mmdd_nasc": "11-27",
+    "ano_obit": 1990
   },
   {
     "id": "I1701",
@@ -8307,7 +8786,8 @@
     "apelido": "Fernandes",
     "sexo": "F",
     "ano_nasc": 1673,
-    "mmdd_nasc": "02-28"
+    "mmdd_nasc": "02-28",
+    "ano_obit": 1783
   },
   {
     "id": "I1238",
@@ -8526,7 +9006,8 @@
     "apelido": "Isabel",
     "sexo": "F",
     "ano_nasc": 1862,
-    "mmdd_nasc": "01-18"
+    "mmdd_nasc": "01-18",
+    "ano_obit": 1972
   },
   {
     "id": "I1632",
@@ -8666,7 +9147,8 @@
     "nome": "Maria José",
     "sexo": "F",
     "ano_nasc": 1833,
-    "mmdd_nasc": "04-18"
+    "mmdd_nasc": "04-18",
+    "ano_obit": 1943
   },
   {
     "id": "I1424",
@@ -8763,7 +9245,8 @@
     "apelido": "Marques",
     "sexo": "F",
     "ano_nasc": 1737,
-    "mmdd_nasc": "09-18"
+    "mmdd_nasc": "09-18",
+    "ano_obit": 1847
   },
   {
     "id": "I0089",
@@ -8785,7 +9268,8 @@
     "apelido": "Marques",
     "sexo": "F",
     "ano_nasc": 1703,
-    "mmdd_nasc": "09-16"
+    "mmdd_nasc": "09-16",
+    "ano_obit": 1813
   },
   {
     "id": "I1346",
@@ -8829,7 +9313,8 @@
     "apelido": "Pereira",
     "sexo": "F",
     "ano_nasc": 1732,
-    "mmdd_nasc": "03-03"
+    "mmdd_nasc": "03-03",
+    "ano_obit": 1842
   },
   {
     "id": "I0380",
@@ -8891,7 +9376,8 @@
     "apelido": "Rosa",
     "sexo": "F",
     "ano_nasc": 1851,
-    "mmdd_nasc": "10-12"
+    "mmdd_nasc": "10-12",
+    "ano_obit": 1961
   },
   {
     "id": "I0907",
@@ -8909,7 +9395,8 @@
     "apelido": "Rosa",
     "sexo": "F",
     "ano_nasc": 1749,
-    "mmdd_nasc": "11-03"
+    "mmdd_nasc": "11-03",
+    "ano_obit": 1859
   },
   {
     "id": "I0430",
@@ -8956,7 +9443,8 @@
     "apelido": "Soares",
     "sexo": "F",
     "ano_nasc": 1673,
-    "mmdd_nasc": "10-11"
+    "mmdd_nasc": "10-11",
+    "ano_obit": 1783
   },
   {
     "id": "I1382",
@@ -8976,7 +9464,8 @@
     "apelido": "Teresa",
     "sexo": "F",
     "ano_nasc": 1850,
-    "mmdd_nasc": "05-26"
+    "mmdd_nasc": "05-26",
+    "ano_obit": 1960
   },
   {
     "id": "I1657",
@@ -9006,7 +9495,8 @@
     "apelido": "Teresa",
     "sexo": "F",
     "ano_nasc": 1781,
-    "mmdd_nasc": "10-17"
+    "mmdd_nasc": "10-17",
+    "ano_obit": 1891
   },
   {
     "id": "I0862",
@@ -9055,7 +9545,8 @@
     "nome": "Maria da Conceição",
     "sexo": "F",
     "ano_nasc": 1834,
-    "mmdd_nasc": "11-09"
+    "mmdd_nasc": "11-09",
+    "ano_obit": 1944
   },
   {
     "id": "I1703",
@@ -9063,7 +9554,8 @@
     "apelido": "da Conceição",
     "sexo": "F",
     "ano_nasc": 1841,
-    "mmdd_nasc": "12-20"
+    "mmdd_nasc": "12-20",
+    "ano_obit": 1951
   },
   {
     "id": "I0034",
@@ -9099,7 +9591,8 @@
     "nome": "Maria da Conceição Gonçalves",
     "apelido": "Gonçalves",
     "sexo": "F",
-    "ano_nasc": 1879
+    "ano_nasc": 1879,
+    "ano_obit": 1989
   },
   {
     "id": "I0303",
@@ -9125,7 +9618,8 @@
     "nome": "Maria da Piedade",
     "sexo": "F",
     "ano_nasc": 1836,
-    "mmdd_nasc": "03-16"
+    "mmdd_nasc": "03-16",
+    "ano_obit": 1946
   },
   {
     "id": "I1606",
@@ -9153,7 +9647,8 @@
     "apelido": "da Silva",
     "sexo": "F",
     "ano_nasc": 1866,
-    "mmdd_nasc": "09-24"
+    "mmdd_nasc": "09-24",
+    "ano_obit": 1976
   },
   {
     "id": "I1679",
@@ -9201,7 +9696,8 @@
     "apelido": "de Escovar",
     "sexo": "F",
     "ano_nasc": 1694,
-    "mmdd_nasc": "11-20"
+    "mmdd_nasc": "11-20",
+    "ano_obit": 1804
   },
   {
     "id": "I1426",
@@ -9227,7 +9723,8 @@
     "apelido": "de Jesus",
     "sexo": "F",
     "ano_nasc": 1884,
-    "mmdd_nasc": "08-14"
+    "mmdd_nasc": "08-14",
+    "ano_obit": 1994
   },
   {
     "id": "I1628",
@@ -9235,7 +9732,8 @@
     "apelido": "de Jesus",
     "sexo": "F",
     "ano_nasc": 1865,
-    "mmdd_nasc": "01-05"
+    "mmdd_nasc": "01-05",
+    "ano_obit": 1975
   },
   {
     "id": "I1640",
@@ -9249,7 +9747,8 @@
     "apelido": "de Jesus",
     "sexo": "F",
     "ano_nasc": 1767,
-    "mmdd_nasc": "07-31"
+    "mmdd_nasc": "07-31",
+    "ano_obit": 1877
   },
   {
     "id": "I0024",
@@ -9307,7 +9806,8 @@
     "apelido": "do Rosário",
     "sexo": "F",
     "ano_nasc": 1793,
-    "mmdd_nasc": "09-19"
+    "mmdd_nasc": "09-19",
+    "ano_obit": 1903
   },
   {
     "id": "I0857",
@@ -9320,7 +9820,8 @@
     "apelido": "dos Ramos",
     "sexo": "F",
     "ano_nasc": 1745,
-    "mmdd_nasc": "02-21"
+    "mmdd_nasc": "02-21",
+    "ano_obit": 1855
   },
   {
     "id": "I0490",
@@ -9332,56 +9833,64 @@
     "nome": "Mariana",
     "sexo": "F",
     "ano_nasc": 1785,
-    "mmdd_nasc": "07-25"
+    "mmdd_nasc": "07-25",
+    "ano_obit": 1895
   },
   {
     "id": "I1133",
     "nome": "Mariana",
     "sexo": "F",
     "ano_nasc": 1698,
-    "mmdd_nasc": "06-08"
+    "mmdd_nasc": "06-08",
+    "ano_obit": 1808
   },
   {
     "id": "I1141",
     "nome": "Mariana",
     "sexo": "F",
     "ano_nasc": 1710,
-    "mmdd_nasc": "01-26"
+    "mmdd_nasc": "01-26",
+    "ano_obit": 1820
   },
   {
     "id": "I1229",
     "nome": "Mariana",
     "sexo": "F",
     "ano_nasc": 1687,
-    "mmdd_nasc": "03-02"
+    "mmdd_nasc": "03-02",
+    "ano_obit": 1797
   },
   {
     "id": "I1352",
     "nome": "Mariana",
     "sexo": "F",
     "ano_nasc": 1680,
-    "mmdd_nasc": "05-15"
+    "mmdd_nasc": "05-15",
+    "ano_obit": 1790
   },
   {
     "id": "I1353",
     "nome": "Mariana",
     "sexo": "F",
     "ano_nasc": 1681,
-    "mmdd_nasc": "12-07"
+    "mmdd_nasc": "12-07",
+    "ano_obit": 1791
   },
   {
     "id": "I1371",
     "nome": "Mariana",
     "sexo": "F",
     "ano_nasc": 1707,
-    "mmdd_nasc": "09-25"
+    "mmdd_nasc": "09-25",
+    "ano_obit": 1817
   },
   {
     "id": "I1401",
     "nome": "Mariana",
     "sexo": "F",
     "ano_nasc": 1740,
-    "mmdd_nasc": "07-25"
+    "mmdd_nasc": "07-25",
+    "ano_obit": 1850
   },
   {
     "id": "I1288",
@@ -9428,21 +9937,24 @@
     "nome": "Mateus",
     "sexo": "M",
     "ano_nasc": 1681,
-    "mmdd_nasc": "09-26"
+    "mmdd_nasc": "09-26",
+    "ano_obit": 1791
   },
   {
     "id": "I1303",
     "nome": "Matias",
     "sexo": "M",
     "ano_nasc": 1741,
-    "mmdd_nasc": "07-09"
+    "mmdd_nasc": "07-09",
+    "ano_obit": 1851
   },
   {
     "id": "I1323",
     "nome": "Matias",
     "sexo": "M",
     "ano_nasc": 1720,
-    "mmdd_nasc": "03-03"
+    "mmdd_nasc": "03-03",
+    "ano_obit": 1830
   },
   {
     "id": "I1367",
@@ -9450,7 +9962,8 @@
     "apelido": "Domingues",
     "sexo": "M",
     "ano_nasc": 1681,
-    "mmdd_nasc": "03-02"
+    "mmdd_nasc": "03-02",
+    "ano_obit": 1791
   },
   {
     "id": "I1236",
@@ -9492,21 +10005,24 @@
     "nome": "Maximianna",
     "sexo": "F",
     "ano_nasc": 1820,
-    "mmdd_nasc": "01-31"
+    "mmdd_nasc": "01-31",
+    "ano_obit": 1930
   },
   {
     "id": "I0356",
     "nome": "Maximiniano",
     "sexo": "M",
     "ano_nasc": 1787,
-    "mmdd_nasc": "10-03"
+    "mmdd_nasc": "10-03",
+    "ano_obit": 1897
   },
   {
     "id": "I1174",
     "nome": "Miguel",
     "sexo": "M",
     "ano_nasc": 1706,
-    "mmdd_nasc": "06-29"
+    "mmdd_nasc": "06-29",
+    "ano_obit": 1816
   },
   {
     "id": "I1166",
@@ -9560,21 +10076,24 @@
     "nome": "Pascoal",
     "sexo": "M",
     "ano_nasc": 1727,
-    "mmdd_nasc": "04-13"
+    "mmdd_nasc": "04-13",
+    "ano_obit": 1837
   },
   {
     "id": "I1329",
     "nome": "Pascoal",
     "sexo": "M",
     "ano_nasc": 1686,
-    "mmdd_nasc": "04-14"
+    "mmdd_nasc": "04-14",
+    "ano_obit": 1796
   },
   {
     "id": "I0393",
     "nome": "Patrício",
     "sexo": "M",
     "ano_nasc": 1850,
-    "mmdd_nasc": "05-28"
+    "mmdd_nasc": "05-28",
+    "ano_obit": 1960
   },
   {
     "id": "I0422",
@@ -9582,21 +10101,24 @@
     "apelido": "Pontes",
     "sexo": "M",
     "ano_nasc": 1841,
-    "mmdd_nasc": "04-07"
+    "mmdd_nasc": "04-07",
+    "ano_obit": 1951
   },
   {
     "id": "I1440",
     "nome": "Paula",
     "sexo": "F",
     "ano_nasc": 1663,
-    "mmdd_nasc": "01-10"
+    "mmdd_nasc": "01-10",
+    "ano_obit": 1773
   },
   {
     "id": "I1455",
     "nome": "Paula",
     "sexo": "F",
     "ano_nasc": 1709,
-    "mmdd_nasc": "05-01"
+    "mmdd_nasc": "05-01",
+    "ano_obit": 1819
   },
   {
     "id": "I1286",
@@ -9629,14 +10151,16 @@
     "nome": "Pedro",
     "sexo": "M",
     "ano_nasc": 1659,
-    "mmdd_nasc": "07-06"
+    "mmdd_nasc": "07-06",
+    "ano_obit": 1769
   },
   {
     "id": "I1357",
     "nome": "Pedro",
     "sexo": "M",
     "ano_nasc": 1668,
-    "mmdd_nasc": "04-02"
+    "mmdd_nasc": "04-02",
+    "ano_obit": 1778
   },
   {
     "id": "I1187",
@@ -11502,21 +12026,24 @@
     "nome": "Quitéria",
     "sexo": "F",
     "ano_nasc": 1891,
-    "mmdd_nasc": "07-12"
+    "mmdd_nasc": "07-12",
+    "ano_obit": 2001
   },
   {
     "id": "I0373",
     "nome": "Quitéria",
     "sexo": "F",
     "ano_nasc": 1825,
-    "mmdd_nasc": "05-31"
+    "mmdd_nasc": "05-31",
+    "ano_obit": 1935
   },
   {
     "id": "I0570",
     "nome": "Quitéria",
     "sexo": "F",
     "ano_nasc": 1732,
-    "mmdd_nasc": "05-23"
+    "mmdd_nasc": "05-23",
+    "ano_obit": 1842
   },
   {
     "id": "I0683",
@@ -11530,7 +12057,8 @@
     "nome": "Quitéria",
     "sexo": "F",
     "ano_nasc": 1834,
-    "mmdd_nasc": "08-10"
+    "mmdd_nasc": "08-10",
+    "ano_obit": 1944
   },
   {
     "id": "I0091",
@@ -11543,7 +12071,8 @@
     "apelido": "Maria",
     "sexo": "F",
     "ano_nasc": 1728,
-    "mmdd_nasc": "01-23"
+    "mmdd_nasc": "01-23",
+    "ano_obit": 1838
   },
   {
     "id": "I0681",
@@ -11563,7 +12092,8 @@
     "nome": "Regina",
     "sexo": "F",
     "ano_nasc": 1816,
-    "mmdd_nasc": "12-03"
+    "mmdd_nasc": "12-03",
+    "ano_obit": 1926
   },
   {
     "id": "I1574",
@@ -11571,21 +12101,24 @@
     "apelido": "da Conceição",
     "sexo": "F",
     "ano_nasc": 1793,
-    "mmdd_nasc": "06-29"
+    "mmdd_nasc": "06-29",
+    "ano_obit": 1903
   },
   {
     "id": "I0204",
     "nome": "Rita",
     "sexo": "F",
     "ano_nasc": 1833,
-    "mmdd_nasc": "04-22"
+    "mmdd_nasc": "04-22",
+    "ano_obit": 1943
   },
   {
     "id": "I0713",
     "nome": "Rita",
     "sexo": "F",
     "ano_nasc": 1839,
-    "mmdd_nasc": "10-20"
+    "mmdd_nasc": "10-20",
+    "ano_obit": 1949
   },
   {
     "id": "I0777",
@@ -11596,7 +12129,8 @@
     "id": "I1475",
     "nome": "Rita",
     "sexo": "F",
-    "ano_nasc": 1901
+    "ano_nasc": 1901,
+    "ano_obit": 2011
   },
   {
     "id": "I0820",
@@ -11608,14 +12142,16 @@
     "nome": "Rosa",
     "sexo": "F",
     "ano_nasc": 1855,
-    "mmdd_nasc": "03-21"
+    "mmdd_nasc": "03-21",
+    "ano_obit": 1965
   },
   {
     "id": "I0965",
     "nome": "Rosa",
     "sexo": "F",
     "ano_nasc": 1773,
-    "mmdd_nasc": "12-31"
+    "mmdd_nasc": "12-31",
+    "ano_obit": 1883
   },
   {
     "id": "I1301",
@@ -11640,21 +12176,24 @@
     "nome": "Rosa",
     "sexo": "F",
     "ano_nasc": 1729,
-    "mmdd_nasc": "04-08"
+    "mmdd_nasc": "04-08",
+    "ano_obit": 1839
   },
   {
     "id": "I1482",
     "nome": "Rosa",
     "sexo": "F",
     "ano_nasc": 1773,
-    "mmdd_nasc": "01-05"
+    "mmdd_nasc": "01-05",
+    "ano_obit": 1883
   },
   {
     "id": "I0859",
     "nome": "Rosa Clara",
     "sexo": "F",
     "ano_nasc": 1824,
-    "mmdd_nasc": "06-07"
+    "mmdd_nasc": "06-07",
+    "ano_obit": 1934
   },
   {
     "id": "I0786",
@@ -11662,7 +12201,8 @@
     "apelido": "Maria",
     "sexo": "F",
     "ano_nasc": 1752,
-    "mmdd_nasc": "06-20"
+    "mmdd_nasc": "06-20",
+    "ano_obit": 1862
   },
   {
     "id": "I1119",
@@ -11670,7 +12210,8 @@
     "apelido": "Maria",
     "sexo": "F",
     "ano_nasc": 1727,
-    "mmdd_nasc": "09-04"
+    "mmdd_nasc": "09-04",
+    "ano_obit": 1837
   },
   {
     "id": "I0949",
@@ -11684,21 +12225,24 @@
     "apelido": "dos Santos",
     "sexo": "F",
     "ano_nasc": 1829,
-    "mmdd_nasc": "06-03"
+    "mmdd_nasc": "06-03",
+    "ano_obit": 1939
   },
   {
     "id": "I0399",
     "nome": "Rosália",
     "sexo": "F",
     "ano_nasc": 1819,
-    "mmdd_nasc": "07-16"
+    "mmdd_nasc": "07-16",
+    "ano_obit": 1929
   },
   {
     "id": "I0368",
     "nome": "Rosária",
     "sexo": "F",
     "ano_nasc": 1846,
-    "mmdd_nasc": "05-18"
+    "mmdd_nasc": "05-18",
+    "ano_obit": 1956
   },
   {
     "id": "I0105",
@@ -11747,21 +12291,24 @@
     "nome": "Sebastião",
     "sexo": "M",
     "ano_nasc": 1763,
-    "mmdd_nasc": "12-05"
+    "mmdd_nasc": "12-05",
+    "ano_obit": 1873
   },
   {
     "id": "I1260",
     "nome": "Sebastião",
     "sexo": "M",
     "ano_nasc": 1757,
-    "mmdd_nasc": "10-01"
+    "mmdd_nasc": "10-01",
+    "ano_obit": 1867
   },
   {
     "id": "I1449",
     "nome": "Sebastião",
     "sexo": "M",
     "ano_nasc": 1739,
-    "mmdd_nasc": "06-09"
+    "mmdd_nasc": "06-09",
+    "ano_obit": 1849
   },
   {
     "id": "I0357",
@@ -11769,14 +12316,16 @@
     "apelido": "de São Bernardo",
     "sexo": "M",
     "ano_nasc": 1773,
-    "mmdd_nasc": "10-19"
+    "mmdd_nasc": "10-19",
+    "ano_obit": 1883
   },
   {
     "id": "I1226",
     "nome": "Simão",
     "sexo": "M",
     "ano_nasc": 1687,
-    "mmdd_nasc": "11-05"
+    "mmdd_nasc": "11-05",
+    "ano_obit": 1797
   },
   {
     "id": "I1219",
@@ -11827,7 +12376,8 @@
     "nome": "Teresa",
     "sexo": "F",
     "ano_nasc": 1869,
-    "mmdd_nasc": "11-22"
+    "mmdd_nasc": "11-22",
+    "ano_obit": 1979
   },
   {
     "id": "I0392",
@@ -11843,35 +12393,40 @@
     "nome": "Teresa",
     "sexo": "F",
     "ano_nasc": 1838,
-    "mmdd_nasc": "12-21"
+    "mmdd_nasc": "12-21",
+    "ano_obit": 1948
   },
   {
     "id": "I0445",
     "nome": "Teresa",
     "sexo": "F",
     "ano_nasc": 1838,
-    "mmdd_nasc": "08-21"
+    "mmdd_nasc": "08-21",
+    "ano_obit": 1948
   },
   {
     "id": "I0534",
     "nome": "Teresa",
     "sexo": "F",
     "ano_nasc": 1740,
-    "mmdd_nasc": "12-11"
+    "mmdd_nasc": "12-11",
+    "ano_obit": 1850
   },
   {
     "id": "I0677",
     "nome": "Teresa",
     "sexo": "F",
     "ano_nasc": 1803,
-    "mmdd_nasc": "11-05"
+    "mmdd_nasc": "11-05",
+    "ano_obit": 1913
   },
   {
     "id": "I0759",
     "nome": "Teresa",
     "sexo": "F",
     "ano_nasc": 1771,
-    "mmdd_nasc": "08-17"
+    "mmdd_nasc": "08-17",
+    "ano_obit": 1881
   },
   {
     "id": "I0791",
@@ -11883,7 +12438,8 @@
     "nome": "Teresa",
     "sexo": "F",
     "ano_nasc": 1774,
-    "mmdd_nasc": "07-15"
+    "mmdd_nasc": "07-15",
+    "ano_obit": 1884
   },
   {
     "id": "I0822",
@@ -11895,7 +12451,8 @@
     "nome": "Teresa",
     "sexo": "F",
     "ano_nasc": 1821,
-    "mmdd_nasc": "09-29"
+    "mmdd_nasc": "09-29",
+    "ano_obit": 1931
   },
   {
     "id": "I0866",
@@ -11907,35 +12464,40 @@
     "nome": "Teresa",
     "sexo": "F",
     "ano_nasc": 1784,
-    "mmdd_nasc": "09-17"
+    "mmdd_nasc": "09-17",
+    "ano_obit": 1894
   },
   {
     "id": "I0967",
     "nome": "Teresa",
     "sexo": "F",
     "ano_nasc": 1776,
-    "mmdd_nasc": "10-08"
+    "mmdd_nasc": "10-08",
+    "ano_obit": 1886
   },
   {
     "id": "I1223",
     "nome": "Teresa",
     "sexo": "F",
     "ano_nasc": 1689,
-    "mmdd_nasc": "10-13"
+    "mmdd_nasc": "10-13",
+    "ano_obit": 1799
   },
   {
     "id": "I1314",
     "nome": "Teresa",
     "sexo": "F",
     "ano_nasc": 1710,
-    "mmdd_nasc": "09-14"
+    "mmdd_nasc": "09-14",
+    "ano_obit": 1820
   },
   {
     "id": "I1333",
     "nome": "Teresa",
     "sexo": "F",
     "ano_nasc": 1685,
-    "mmdd_nasc": "04-22"
+    "mmdd_nasc": "04-22",
+    "ano_obit": 1795
   },
   {
     "id": "I0174",
@@ -11961,7 +12523,8 @@
     "nome": "Teresa Joaquina",
     "sexo": "F",
     "ano_nasc": 1768,
-    "mmdd_nasc": "04-20"
+    "mmdd_nasc": "04-20",
+    "ano_obit": 1878
   },
   {
     "id": "I1661",
@@ -12017,7 +12580,8 @@
     "apelido": "da Conceição",
     "sexo": "F",
     "ano_nasc": 1833,
-    "mmdd_nasc": "01-21"
+    "mmdd_nasc": "01-21",
+    "ano_obit": 1943
   },
   {
     "id": "I0679",
@@ -12047,7 +12611,8 @@
     "apelido": "de Jesus",
     "sexo": "F",
     "ano_nasc": 1735,
-    "mmdd_nasc": "12-01"
+    "mmdd_nasc": "12-01",
+    "ano_obit": 1845
   },
   {
     "id": "I0919",
@@ -12108,7 +12673,8 @@
     "nome": "Valentim",
     "sexo": "M",
     "ano_nasc": 1771,
-    "mmdd_nasc": "02-21"
+    "mmdd_nasc": "02-21",
+    "ano_obit": 1881
   },
   {
     "id": "I0151",
@@ -12131,7 +12697,8 @@
     "nome": "Vicência",
     "sexo": "F",
     "ano_nasc": 1724,
-    "mmdd_nasc": "01-15"
+    "mmdd_nasc": "01-15",
+    "ano_obit": 1834
   },
   {
     "id": "I1276",
@@ -12152,7 +12719,8 @@
     "nome": "Vitória",
     "sexo": "F",
     "ano_nasc": 1829,
-    "mmdd_nasc": "03-14"
+    "mmdd_nasc": "03-14",
+    "ano_obit": 1939
   },
   {
     "id": "I1048",
@@ -12160,7 +12728,8 @@
     "apelido": "Jorge",
     "sexo": "F",
     "ano_nasc": 1862,
-    "mmdd_nasc": "11-18"
+    "mmdd_nasc": "11-18",
+    "ano_obit": 1972
   },
   {
     "id": "I1052",
@@ -12173,6 +12742,7 @@
     "nome": "Xavier",
     "sexo": "M",
     "ano_nasc": 1720,
-    "mmdd_nasc": "06-02"
+    "mmdd_nasc": "06-02",
+    "ano_obit": 1830
   }
 ]

@@ -137,7 +137,19 @@ for (const f of familiaComoPai) {
     });
   }
 }
-pushEv('Óbito',     pessoa.obito, true);
+if (pessoa.obito?.data) {
+  if (pessoa.obito.estimado) {
+    timeline.push({
+      data: pessoa.obito.data,
+      label: 'Falecimento (estimado)',
+      lugar: null,
+      destaque: true,
+      idade: calcularIdade(pessoa.obito.data),
+    });
+  } else {
+    pushEv('Óbito', pessoa.obito, true);
+  }
+}
 pushEv('Sepultura', pessoa.sepultura);
 
 // Eventos históricos dentro do período de vida da pessoa
@@ -265,10 +277,16 @@ const jsonLd = !p.protegida ? {
                 <path d="M11 2h2v7h7v2h-7v11h-2V11H4V9h7V2z"/>
               </svg>
               <span>
-                <span class="text-stone-500">{falecidoLabel} </span>{formatarData(pessoa.obito.data)}
-                {lugarObit
-                  ? <>, <span class="text-stone-500">em </span><LugarLink lugar={lugarObit} lugaresMap={lugaresMap} /></>
-                  : <>, <span class="text-stone-500 italic">em local indeterminado</span></>
+                <span class="text-stone-500">{falecidoLabel} </span>
+                {pessoa.obito.estimado
+                  ? <span class="text-stone-400 italic">{formatarData(pessoa.obito.data)}</span>
+                  : <>
+                      {formatarData(pessoa.obito.data)}
+                      {lugarObit
+                        ? <>, <span class="text-stone-500">em </span><LugarLink lugar={lugarObit} lugaresMap={lugaresMap} /></>
+                        : <>, <span class="text-stone-500 italic">em local indeterminado</span></>
+                      }
+                    </>
                 }
               </span>
             </p>

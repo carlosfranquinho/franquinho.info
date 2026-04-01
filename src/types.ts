@@ -10,6 +10,7 @@ export interface EventoData {
 export interface EventoPessoa {
   data: string | null;
   lugar_id: string | null;
+  estimado?: boolean;
 }
 
 export interface Pessoa {

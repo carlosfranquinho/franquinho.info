@@ -11,7 +11,11 @@
     "lugar_id": "P0108"
   },
   "baptismo": null,
-  "obito": null,
+  "obito": {
+    "data": "antes de 1835",
+    "lugar_id": null,
+    "estimado": true
+  },
   "sepultura": null,
   "profissao": null,
   "familias_como_filho": [

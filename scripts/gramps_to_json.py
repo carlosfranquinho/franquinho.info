@@ -15,6 +15,7 @@ Uso:
 
 import argparse
 import gzip
+import re
 import io
 import json
 import os
@@ -466,6 +467,16 @@ def converter_pessoa(person_el, mapas, namespace):
         if handle_para_id(mapas, 'media', h)
     ]
 
+    # Óbito: usar o registado, ou estimar se nasceu há mais de 110 anos
+    obito_final = {'data': data_obit, 'lugar_id': lugar_obit_id} if data_obit or lugar_obit_id else None
+    if obito_final is None and data_nasc:
+        m = re.search(r'(\d{4})', data_nasc)
+        if m:
+            ano_nasc = int(m.group(1))
+            ano_limite = ano_nasc + 110
+            if ano_limite < date.today().year:
+                obito_final = {'data': f'antes de {ano_limite}', 'lugar_id': None, 'estimado': True}
+
     return {
         'id': gramps_id,
         'protegida': protegida,
@@ -476,7 +487,7 @@ def converter_pessoa(person_el, mapas, namespace):
         'sexo': sexo,
         'nascimento': {'data': data_nasc, 'lugar_id': lugar_nasc_id} if data_nasc or lugar_nasc_id else None,
         'baptismo': {'data': data_bap, 'lugar_id': lugar_bap_id} if data_bap or lugar_bap_id else None,
-        'obito': {'data': data_obit, 'lugar_id': lugar_obit_id} if data_obit or lugar_obit_id else None,
+        'obito': obito_final,
         'sepultura': {'data': data_sep, 'lugar_id': lugar_sep_id} if data_sep or lugar_sep_id else None,
         'profissao': profissao,
         'familias_como_filho': familias_como_filho or None,

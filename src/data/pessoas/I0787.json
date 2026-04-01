@@ -20,7 +20,11 @@
     "lugar_id": "P0080"
   },
   "baptismo": null,
-  "obito": null,
+  "obito": {
+    "data": "antes de 1846",
+    "lugar_id": null,
+    "estimado": true
+  },
   "sepultura": null,
   "profissao": null,
   "familias_como_filho": [

@@ -16,7 +16,11 @@
     "lugar_id": "P0127"
   },
   "baptismo": null,
-  "obito": null,
+  "obito": {
+    "data": "antes de 1862",
+    "lugar_id": null,
+    "estimado": true
+  },
   "sepultura": null,
   "profissao": null,
   "familias_como_filho": [

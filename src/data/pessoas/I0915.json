@@ -11,7 +11,11 @@
     "lugar_id": "P0105"
   },
   "baptismo": null,
-  "obito": null,
+  "obito": {
+    "data": "antes de 1859",
+    "lugar_id": null,
+    "estimado": true
+  },
   "sepultura": {
     "data": "1749-11-03",
     "lugar_id": "P0105"
