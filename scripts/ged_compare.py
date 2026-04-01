@@ -559,7 +559,7 @@ def generate_html(stats, validation, new_high, new_uncertain, diffs):
     A partir da âncora, percorre recursivamente familiares na BD (via ficheiros de famílias) e no GED (FAMC/FAMS),
     tentando associar por: primeiro nome normalizado igual <em>ou</em> similaridade ≥ 0,8 (SequenceMatcher),
     e compatibilidade de ano de nascimento ±3 anos.
-    Antepassados de Alexandrina (@I158@) foram excluídos da análise de novos.</p>""")
+    Todos os indivíduos do GED são incluídos na análise.</p>""")
     sections.append(("<h2>1. Resumo</h2>", "\n".join(s)))
 
     # ---- 2. Validação I1035 ----
@@ -675,11 +675,8 @@ def main():
     matched, matched_rev = bfs_match(anchor_bd, anchor_ged, pessoas, familias, ged_inds, ged_fams)
     print(f"  {len(matched)} pares BD↔GED encontrados")
 
-    # ---- Passo 3: Excluir antepassados de Alexandrina ----
-    alexandrina_ged = "I158"
-    alex_ancestors = ancestors_ged(alexandrina_ged, ged_inds, ged_fams)
-    alex_ancestors.add(alexandrina_ged)
-    print(f"  {len(alex_ancestors)} antepassados de Alexandrina excluídos (incl. ela própria)")
+    # ---- Passo 3: (sem exclusões) ----
+    alex_ancestors: set = set()
 
     # ---- Passo 4: Validação I1035 ----
     validation = {"matched": False, "details": []}
@@ -780,7 +777,6 @@ def main():
         "  — Alta confiança": conf_counts.get("ALTO", 0),
         "  — Confiança média": conf_counts.get("MÉDIO", 0),
         "  — Baixa confiança": conf_counts.get("BAIXO", 0),
-        "Antepassados Alexandrina excluídos": len(alex_ancestors),
         "Novos no GED (alta confiança)": len(new_high),
         "Novos no GED (incertos)": len(new_uncertain),
         "Pares com diferenças de campos": len(diffs),
