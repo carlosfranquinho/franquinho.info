@@ -289,7 +289,10 @@ const maxProfissaoF = topProfissoesF[0]?.[1] ?? 1;
 
 // ─── Esperança de vida por século ─────────────────────────────────────────────
 
-const vidaPorSeculo: Record<number, { total: number; count: number }> = {};
+type BucketVida = { total: number; count: number };
+const vidaPorSeculo:  Record<number, BucketVida> = {};
+const vidaPorSeculoM: Record<number, BucketVida> = {};
+const vidaPorSeculoF: Record<number, BucketVida> = {};
 for (const p of todasPessoas) {
   const anoN = getAno(p.nascimento?.data);
   const anoO = p.obito?.estimado ? null : getAno(p.obito?.data);
@@ -297,15 +300,32 @@ for (const p of todasPessoas) {
   const idade = anoO - anoN;
   if (idade < 1 || idade > 120) continue;
   const sec = Math.ceil(anoN / 100);
-  if (!vidaPorSeculo[sec]) vidaPorSeculo[sec] = { total: 0, count: 0 };
-  vidaPorSeculo[sec].total += idade;
-  vidaPorSeculo[sec].count++;
+  const addTo = (r: Record<number, BucketVida>) => {
+    if (!r[sec]) r[sec] = { total: 0, count: 0 };
+    r[sec].total += idade; r[sec].count++;
+  };
+  addTo(vidaPorSeculo);
+  if (p.sexo === 'M') addTo(vidaPorSeculoM);
+  if (p.sexo === 'F') addTo(vidaPorSeculoF);
 }
-const mediaVidaSeculo = Object.entries(vidaPorSeculo)
-  .filter(([, v]) => v.count >= 5)
-  .sort(([a], [b]) => parseInt(a) - parseInt(b))
-  .map(([sec, v]) => ({ seculo: parseInt(sec), media: Math.round(v.total / v.count), count: v.count }));
-const maxMedia = Math.max(...mediaVidaSeculo.map((s) => s.media), 1);
+const todasSeculos = Array.from(new Set([
+  ...Object.keys(vidaPorSeculo).map(Number)
+])).sort((a, b) => a - b);
+const mediaVidaSeculo = todasSeculos
+  .filter((sec) => (vidaPorSeculo[sec]?.count ?? 0) >= 5)
+  .map((sec) => {
+    const g = vidaPorSeculo[sec];
+    const m = vidaPorSeculoM[sec];
+    const f = vidaPorSeculoF[sec];
+    return {
+      seculo: sec,
+      global: Math.round(g.total / g.count),
+      countG: g.count,
+      homens: m && m.count >= 3 ? Math.round(m.total / m.count) : null,
+      mulheres: f && f.count >= 3 ? Math.round(f.total / f.count) : null,
+    };
+  });
+const maxMedia = Math.max(...mediaVidaSeculo.flatMap(s => [s.global, s.homens ?? 0, s.mulheres ?? 0]), 1);
 
 // ─── Números de famílias com casamento registado ───────────────────────────────
 const famComCasamento = todasFamilias.filter((f) => f.casamento?.data).length;
@@ -378,19 +398,46 @@ const pessoasComFoto = todasPessoas.filter((p) => p.media && p.media.length > 0)
 
       <!-- Esperança de vida por século -->
       <div class="bg-white border border-stone-200 rounded-xl p-6">
-        <h2 class="text-lg font-semibold text-stone-700 mb-5">Idade média ao óbito por século</h2>
-        <div class="flex flex-col gap-2">
-          {mediaVidaSeculo.map(({ seculo, media, count }) => (
-            <div class="flex items-center gap-3 text-sm">
-              <span class="w-14 text-stone-500 text-right flex-shrink-0">séc. {seculo < 0 ? `${Math.abs(seculo - 1)} a.C.` : seculo}</span>
-              <div class="flex-1 bg-stone-100 rounded-full h-5 relative overflow-hidden">
-                <div
-                  class="h-full bg-amber-400 rounded-full"
-                  style={`width: ${Math.round((media / maxMedia) * 100)}%`}
-                />
-                <span class="absolute inset-0 flex items-center px-2 text-xs font-medium text-stone-700">{media} anos</span>
+        <h2 class="text-lg font-semibold text-stone-700 mb-4">Idade média ao óbito por século</h2>
+        <div class="flex gap-4 mb-4 text-xs text-stone-500">
+          <span class="flex items-center gap-1.5"><span class="w-3 h-3 rounded-sm bg-amber-400 inline-block"/> Global</span>
+          <span class="flex items-center gap-1.5"><span class="w-3 h-3 rounded-sm bg-sky-400 inline-block"/> Homens</span>
+          <span class="flex items-center gap-1.5"><span class="w-3 h-3 rounded-sm bg-rose-400 inline-block"/> Mulheres</span>
+        </div>
+        <div class="flex flex-col gap-3">
+          {mediaVidaSeculo.map(({ seculo, global, countG, homens, mulheres }) => (
+            <div class="flex items-start gap-3 text-sm">
+              <span class="w-14 text-stone-500 text-right flex-shrink-0 pt-1">séc. {seculo < 0 ? `${Math.abs(seculo - 1)} a.C.` : seculo}</span>
+              <div class="flex-1 flex flex-col gap-1">
+                {/* Global */}
+                <div class="flex items-center gap-2">
+                  <div class="flex-1 bg-stone-100 rounded-full h-4 relative overflow-hidden">
+                    <div class="h-full bg-amber-400 rounded-full" style={`width: ${Math.round((global / maxMedia) * 100)}%`} />
+                    <span class="absolute inset-0 flex items-center px-2 text-xs font-medium text-stone-700">{global} anos</span>
+                  </div>
+                  <span class="w-12 text-stone-400 text-xs flex-shrink-0">({countG})</span>
+                </div>
+                {/* Homens */}
+                {homens && (
+                  <div class="flex items-center gap-2">
+                    <div class="flex-1 bg-stone-100 rounded-full h-4 relative overflow-hidden">
+                      <div class="h-full bg-sky-400 rounded-full" style={`width: ${Math.round((homens / maxMedia) * 100)}%`} />
+                      <span class="absolute inset-0 flex items-center px-2 text-xs font-medium text-stone-700">{homens} anos</span>
+                    </div>
+                    <span class="w-12 text-xs flex-shrink-0" />
+                  </div>
+                )}
+                {/* Mulheres */}
+                {mulheres && (
+                  <div class="flex items-center gap-2">
+                    <div class="flex-1 bg-stone-100 rounded-full h-4 relative overflow-hidden">
+                      <div class="h-full bg-rose-400 rounded-full" style={`width: ${Math.round((mulheres / maxMedia) * 100)}%`} />
+                      <span class="absolute inset-0 flex items-center px-2 text-xs font-medium text-stone-700">{mulheres} anos</span>
+                    </div>
+                    <span class="w-12 text-xs flex-shrink-0" />
+                  </div>
+                )}
               </div>
-              <span class="w-12 text-stone-400 text-xs flex-shrink-0">({count})</span>
             </div>
           ))}
         </div>
