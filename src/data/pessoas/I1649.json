@@ -1,0 +1,26 @@
+{
+  "id": "I1649",
+  "protegida": false,
+  "nome": "Maria Teresa",
+  "nome_proprio": "Maria",
+  "apelido": "Teresa",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1850-05-26",
+    "lugar_id": "P0193"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0470"
+  ],
+  "familias_como_pai": [
+    "F0466"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

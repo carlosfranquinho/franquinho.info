@@ -1,0 +1,24 @@
+{
+  "id": "I1604",
+  "protegida": false,
+  "nome": "Felisbela Cardoso Morgado",
+  "nome_proprio": "Felisbela",
+  "apelido": "Cardoso Morgado",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1982-09-30",
+    "lugar_id": "P0191"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0443"
+  ],
+  "familias_como_pai": null,
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "I1568",
+  "protegida": false,
+  "nome": "Alexandrina Maria de Abreu",
+  "nome_proprio": "Alexandrina Maria",
+  "apelido": "de Abreu",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1832-07-07",
+    "lugar_id": "P0005"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0439"
+  ],
+  "familias_como_pai": [
+    "F0438"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

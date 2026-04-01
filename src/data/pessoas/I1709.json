@@ -1,0 +1,26 @@
+{
+  "id": "I1709",
+  "protegida": false,
+  "nome": "Manuel João Rosado",
+  "nome_proprio": "Manuel",
+  "apelido": "João Rosado",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1755-11-30",
+    "lugar_id": "P0199"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0495"
+  ],
+  "familias_como_pai": [
+    "F0494"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

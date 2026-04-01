@@ -1,0 +1,26 @@
+{
+  "id": "I1711",
+  "protegida": false,
+  "nome": "Agostinho Francisco Rosado",
+  "nome_proprio": "Agostinho",
+  "apelido": "Francisco Rosado",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0199"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0496"
+  ],
+  "familias_como_pai": [
+    "F0495"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

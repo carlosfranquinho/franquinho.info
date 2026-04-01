@@ -1,0 +1,26 @@
+{
+  "id": "I1628",
+  "protegida": false,
+  "nome": "Maria de Jesus",
+  "nome_proprio": "Maria",
+  "apelido": "de Jesus",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1865-01-05",
+    "lugar_id": "P0197"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0461"
+  ],
+  "familias_como_pai": [
+    "F0455"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

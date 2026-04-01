@@ -8,13 +8,15 @@
   "sexo": "F",
   "nascimento": {
     "data": "1975-07-20",
-    "lugar_id": null
+    "lugar_id": "P0190"
   },
   "baptismo": null,
   "obito": null,
   "sepultura": null,
   "profissao": null,
-  "familias_como_filho": null,
+  "familias_como_filho": [
+    "F0443"
+  ],
   "familias_como_pai": [
     "F0000"
   ],

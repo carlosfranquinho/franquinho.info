@@ -1,0 +1,24 @@
+{
+  "id": "I1645",
+  "protegida": false,
+  "nome": "Manuel José",
+  "nome_proprio": "Manuel",
+  "apelido": "José",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1848",
+    "lugar_id": "P0192"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0464"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

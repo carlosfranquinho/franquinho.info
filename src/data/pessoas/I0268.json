@@ -1,12 +1,15 @@
 {
   "id": "I0268",
   "protegida": true,
-  "nome": "Privado Martins",
+  "nome": "Privado Baptista Martins da Silva",
   "nome_proprio": "Privado",
-  "apelido": "Martins",
+  "apelido": "Baptista Martins da Silva",
   "nomes_alt": null,
   "sexo": "F",
-  "nascimento": null,
+  "nascimento": {
+    "data": "1933-06-29",
+    "lugar_id": "P0043"
+  },
   "baptismo": null,
   "obito": null,
   "sepultura": null,

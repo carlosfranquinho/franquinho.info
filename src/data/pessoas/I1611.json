@@ -1,0 +1,26 @@
+{
+  "id": "I1611",
+  "protegida": false,
+  "nome": "António Francisco Morgado",
+  "nome_proprio": "António",
+  "apelido": "Francisco Morgado",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0196"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0448"
+  ],
+  "familias_como_pai": [
+    "F0447"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

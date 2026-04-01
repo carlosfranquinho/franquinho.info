@@ -1,0 +1,24 @@
+{
+  "id": "I1578",
+  "protegida": false,
+  "nome": "Maria Constantina",
+  "nome_proprio": "Maria",
+  "apelido": "Constantina",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0005"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0441"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

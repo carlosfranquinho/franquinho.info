@@ -1,0 +1,24 @@
+{
+  "id": "I1712",
+  "protegida": false,
+  "nome": "Maria Ferreira",
+  "nome_proprio": "Maria",
+  "apelido": "Ferreira",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0081"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0495"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

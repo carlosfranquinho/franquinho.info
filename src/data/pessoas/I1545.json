@@ -1,8 +1,8 @@
 {
   "id": "I1545",
-  "protegida": false,
-  "nome": "Alexandre Franquinho",
-  "nome_proprio": "Alexandre",
+  "protegida": true,
+  "nome": "Privado Franquinho",
+  "nome_proprio": "Privado",
   "apelido": "Franquinho",
   "nomes_alt": null,
   "sexo": "M",

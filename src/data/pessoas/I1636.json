@@ -1,0 +1,21 @@
+{
+  "id": "I1636",
+  "protegida": false,
+  "nome": "Ana Maria",
+  "nome_proprio": "Ana",
+  "apelido": "Maria",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0459"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

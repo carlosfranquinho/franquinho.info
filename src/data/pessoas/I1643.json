@@ -1,0 +1,21 @@
+{
+  "id": "I1643",
+  "protegida": false,
+  "nome": "Ambrósio José",
+  "nome_proprio": "Ambrósio",
+  "apelido": "José",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0463"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

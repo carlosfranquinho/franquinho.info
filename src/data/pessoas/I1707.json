@@ -1,0 +1,21 @@
+{
+  "id": "I1707",
+  "protegida": false,
+  "nome": "Teresa de Jesus",
+  "nome_proprio": "Teresa",
+  "apelido": "de Jesus",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0492"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

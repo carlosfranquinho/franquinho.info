@@ -1,0 +1,21 @@
+{
+  "id": "I1660",
+  "protegida": false,
+  "nome": "José de Sousa",
+  "nome_proprio": "José",
+  "apelido": "de Sousa",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0472"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

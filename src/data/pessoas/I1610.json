@@ -1,0 +1,26 @@
+{
+  "id": "I1610",
+  "protegida": false,
+  "nome": "Joaquina Ferreira",
+  "nome_proprio": "Joaquina",
+  "apelido": "Ferreira",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1835-07-27",
+    "lugar_id": "P0194"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0452"
+  ],
+  "familias_como_pai": [
+    "F0446"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,27 @@
+{
+  "id": "I1699",
+  "protegida": false,
+  "nome": "Maria Cardoso",
+  "nome_proprio": "Maria",
+  "apelido": "Cardoso",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1911-07-16",
+    "lugar_id": "P0095"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1995-05-27",
+    "lugar_id": "P0165"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0488"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

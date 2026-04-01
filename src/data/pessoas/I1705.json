@@ -1,0 +1,27 @@
+{
+  "id": "I1705",
+  "protegida": false,
+  "nome": "Maria do Rosário",
+  "nome_proprio": "Maria",
+  "apelido": "do Rosário",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1793-09-19",
+    "lugar_id": "P0199"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0494"
+  ],
+  "familias_como_pai": [
+    "F0491",
+    "F0493"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

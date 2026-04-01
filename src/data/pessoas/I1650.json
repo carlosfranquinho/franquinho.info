@@ -1,0 +1,23 @@
+{
+  "id": "I1650",
+  "protegida": false,
+  "nome": "Francisco Marques",
+  "nome_proprio": "Francisco",
+  "apelido": "Marques",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0468"
+  ],
+  "familias_como_pai": [
+    "F0467"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

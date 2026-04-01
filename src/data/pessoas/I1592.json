@@ -1,0 +1,27 @@
+{
+  "id": "I1592",
+  "protegida": false,
+  "nome": "Maria Luisa",
+  "nome_proprio": "Maria",
+  "apelido": "Luisa",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1819-11-04",
+    "lugar_id": "P0005"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1856-08-09",
+    "lugar_id": "P0005"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0085"
+  ],
+  "familias_como_pai": null,
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "I1665",
+  "protegida": false,
+  "nome": "Rosa dos Santos",
+  "nome_proprio": "Rosa",
+  "apelido": "dos Santos",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1829-06-03",
+    "lugar_id": "P0192"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0478"
+  ],
+  "familias_como_pai": [
+    "F0474"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

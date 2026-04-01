@@ -495,6 +495,18 @@
     "web": "/media/web/O1071.jpg"
   },
   {
+    "id": "O1072",
+    "caminho_original": "home/carlos/Hobbies/Genealogia/Imagens/Fotos/perfil/I0270.jpg",
+    "caminho": "/media/originais/O1072.jpg",
+    "thumb": "/media/thumbs/O1072.jpg",
+    "descricao": "I0270",
+    "data": null,
+    "mime": "image/jpeg",
+    "tipo": "foto",
+    "privado": true,
+    "web": "/media/web/O1072.jpg"
+  },
+  {
     "id": "O0001",
     "caminho_original": "dados/Hobbies/Genealogia/Imagens/Registos/DelmiraFerreira_nasc.jpg",
     "caminho": "/media/originais/O0001.jpg",

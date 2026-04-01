@@ -1,0 +1,26 @@
+{
+  "id": "I1702",
+  "protegida": false,
+  "nome": "Joaquim Matos",
+  "nome_proprio": "Joaquim",
+  "apelido": "Matos",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1834-01-17",
+    "lugar_id": "P0199"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0491"
+  ],
+  "familias_como_pai": [
+    "F0490"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

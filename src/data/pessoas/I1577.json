@@ -1,0 +1,24 @@
+{
+  "id": "I1577",
+  "protegida": false,
+  "nome": "Maurício Ramos",
+  "nome_proprio": "Maurício",
+  "apelido": "Ramos",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0188"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0441"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

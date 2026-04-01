@@ -1,8 +1,8 @@
 {
   "id": "I1552",
-  "protegida": false,
-  "nome": "Rui Franquinho",
-  "nome_proprio": "Rui",
+  "protegida": true,
+  "nome": "Privado Franquinho",
+  "nome_proprio": "Privado",
   "apelido": "Franquinho",
   "nomes_alt": null,
   "sexo": "M",

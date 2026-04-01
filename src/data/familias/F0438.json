@@ -1,0 +1,26 @@
+{
+  "id": "F0438",
+  "pai": "I0350",
+  "mae": "I1568",
+  "filhos": [
+    "I1569",
+    "I1572",
+    "I1573",
+    "I1574",
+    "I1575",
+    "I1588",
+    "I1589"
+  ],
+  "tipo_relacao": "Married",
+  "casamento": {
+    "data": "1782-08-07",
+    "lugar_id": "P0186"
+  },
+  "notas": [
+    {
+      "tipo": "",
+      "texto": "Foram dispensados no 3º e 4º grau de consanguinidade."
+    }
+  ],
+  "media": null
+}

@@ -1,0 +1,21 @@
+{
+  "id": "I1623",
+  "protegida": false,
+  "nome": "Manuel Ferreira",
+  "nome_proprio": "Manuel",
+  "apelido": "Ferreira",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0453"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

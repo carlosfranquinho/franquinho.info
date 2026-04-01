@@ -1,0 +1,27 @@
+{
+  "id": "I1706",
+  "protegida": false,
+  "nome": "Gonçalo de Matos",
+  "nome_proprio": "Gonçalo",
+  "apelido": "de Matos",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0202"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1738-10-26",
+    "lugar_id": "P0199"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0492"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

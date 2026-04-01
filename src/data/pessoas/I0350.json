@@ -14,7 +14,9 @@
   "familias_como_filho": [
     "F0032"
   ],
-  "familias_como_pai": null,
+  "familias_como_pai": [
+    "F0438"
+  ],
   "media": null,
   "notas": null,
   "citacoes": null

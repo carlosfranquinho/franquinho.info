@@ -1,0 +1,26 @@
+{
+  "id": "I1609",
+  "protegida": false,
+  "nome": "Joaquim Francisco Morgado",
+  "nome_proprio": "Joaquim",
+  "apelido": "Francisco Morgado",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1835-03-28",
+    "lugar_id": "P0196"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0447"
+  ],
+  "familias_como_pai": [
+    "F0446"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,21 @@
+{
+  "id": "I1683",
+  "protegida": false,
+  "nome": "Maria Gonçalves",
+  "nome_proprio": "Maria",
+  "apelido": "Gonçalves",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0483"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "I1602",
+  "protegida": false,
+  "nome": "Manuel da Silva Morgado",
+  "nome_proprio": "Manuel",
+  "apelido": "da Silva Morgado",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1947-03-30",
+    "lugar_id": "P0193"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0444"
+  ],
+  "familias_como_pai": [
+    "F0443"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

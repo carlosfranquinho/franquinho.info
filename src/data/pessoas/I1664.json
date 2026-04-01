@@ -1,0 +1,26 @@
+{
+  "id": "I1664",
+  "protegida": false,
+  "nome": "Manuel da Silva",
+  "nome_proprio": "Manuel",
+  "apelido": "da Silva",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1832-12-17",
+    "lugar_id": "P0192"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0475"
+  ],
+  "familias_como_pai": [
+    "F0474"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

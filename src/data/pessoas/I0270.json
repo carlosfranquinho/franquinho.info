@@ -1,12 +1,15 @@
 {
   "id": "I0270",
   "protegida": true,
-  "nome": "Privado",
+  "nome": "Privado Ferreira da Silva Gaspar",
   "nome_proprio": "Privado",
-  "apelido": null,
+  "apelido": "Ferreira da Silva Gaspar",
   "nomes_alt": null,
   "sexo": "F",
-  "nascimento": null,
+  "nascimento": {
+    "data": "1977-02-23",
+    "lugar_id": "P0177"
+  },
   "baptismo": null,
   "obito": null,
   "sepultura": null,
@@ -15,7 +18,9 @@
     "F0100"
   ],
   "familias_como_pai": null,
-  "media": null,
+  "media": [
+    "O1072"
+  ],
   "notas": null,
   "citacoes": null
 }

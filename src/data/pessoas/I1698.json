@@ -1,0 +1,29 @@
+{
+  "id": "I1698",
+  "protegida": false,
+  "nome": "Manuel Joaquim Matos",
+  "nome_proprio": "Manuel",
+  "apelido": "Joaquim Matos",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1912-04-10",
+    "lugar_id": "P0198"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1978-06-20",
+    "lugar_id": "P0165"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0489"
+  ],
+  "familias_como_pai": [
+    "F0488"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

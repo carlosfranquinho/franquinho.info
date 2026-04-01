@@ -11,7 +11,9 @@
   "obito": null,
   "sepultura": null,
   "profissao": null,
-  "familias_como_filho": null,
+  "familias_como_filho": [
+    "F0442"
+  ],
   "familias_como_pai": [
     "F0085"
   ],

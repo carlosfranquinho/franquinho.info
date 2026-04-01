@@ -1,0 +1,29 @@
+{
+  "id": "I1606",
+  "protegida": false,
+  "nome": "Maria da Silva",
+  "nome_proprio": "Maria",
+  "apelido": "da Silva",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1908-12-01",
+    "lugar_id": "P0193"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1964-08-15",
+    "lugar_id": "P0193"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0465"
+  ],
+  "familias_como_pai": [
+    "F0444"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

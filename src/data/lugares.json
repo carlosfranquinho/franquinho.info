@@ -88,6 +88,150 @@
     "pai_id": "P0041"
   },
   {
+    "id": "P0186",
+    "nome": "Santa Catarina",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0043"
+  },
+  {
+    "id": "P0187",
+    "nome": "Vestiaria",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0046"
+  },
+  {
+    "id": "P0188",
+    "nome": "Matos",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0187"
+  },
+  {
+    "id": "P0189",
+    "nome": "Paris",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0060"
+  },
+  {
+    "id": "P0190",
+    "nome": "Créteil",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0189"
+  },
+  {
+    "id": "P0191",
+    "nome": "Nogent-sur-Marne",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0189"
+  },
+  {
+    "id": "P0192",
+    "nome": "Vermoil",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0016"
+  },
+  {
+    "id": "P0193",
+    "nome": "Matos da Ranha",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0192"
+  },
+  {
+    "id": "P0194",
+    "nome": "Ranha de Baixo",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0138"
+  },
+  {
+    "id": "P0195",
+    "nome": "Casalinho",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0138"
+  },
+  {
+    "id": "P0196",
+    "nome": "Outeiro da Ranha",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0192"
+  },
+  {
+    "id": "P0197",
+    "nome": "Pisão",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0168"
+  },
+  {
+    "id": "P0198",
+    "nome": "Porto Lameiro",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0081"
+  },
+  {
+    "id": "P0199",
+    "nome": "Estacas",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0081"
+  },
+  {
+    "id": "P0200",
+    "nome": "Carnide de Baixo",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0192"
+  },
+  {
+    "id": "P0201",
+    "nome": "Montemor-o-Velho",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0155"
+  },
+  {
+    "id": "P0202",
+    "nome": "Arazede",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0201"
+  },
+  {
+    "id": "P0203",
+    "nome": "Vale do Conteiro",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0081"
+  },
+  {
     "id": "P0000",
     "nome": "Marinha Grande",
     "tipo": null,

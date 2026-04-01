@@ -1,0 +1,24 @@
+{
+  "id": "I1703",
+  "protegida": false,
+  "nome": "Maria da Conceição",
+  "nome_proprio": "Maria",
+  "apelido": "da Conceição",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1841-12-20",
+    "lugar_id": "P0200"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0490"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

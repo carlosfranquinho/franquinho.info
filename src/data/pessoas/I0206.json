@@ -6,9 +6,15 @@
   "apelido": "Franquinho",
   "nomes_alt": null,
   "sexo": "M",
-  "nascimento": null,
+  "nascimento": {
+    "data": "1791",
+    "lugar_id": "P0005"
+  },
   "baptismo": null,
-  "obito": null,
+  "obito": {
+    "data": "1861-07-25",
+    "lugar_id": "P0005"
+  },
   "sepultura": null,
   "profissao": null,
   "familias_como_filho": [

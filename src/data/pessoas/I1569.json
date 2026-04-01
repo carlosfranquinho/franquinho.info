@@ -1,0 +1,26 @@
+{
+  "id": "I1569",
+  "protegida": false,
+  "nome": "Manuel de São Bernardo",
+  "nome_proprio": "Manuel",
+  "apelido": "de São Bernardo",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0186"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0438"
+  ],
+  "familias_como_pai": [
+    "F0440"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

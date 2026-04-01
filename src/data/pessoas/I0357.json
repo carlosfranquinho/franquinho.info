@@ -6,7 +6,10 @@
   "apelido": "de São Bernardo",
   "nomes_alt": null,
   "sexo": "M",
-  "nascimento": null,
+  "nascimento": {
+    "data": "1773-10-19",
+    "lugar_id": "P0005"
+  },
   "baptismo": null,
   "obito": null,
   "sepultura": null,
@@ -14,7 +17,9 @@
   "familias_como_filho": [
     "F0032"
   ],
-  "familias_como_pai": null,
+  "familias_como_pai": [
+    "F0437"
+  ],
   "media": null,
   "notas": null,
   "citacoes": null

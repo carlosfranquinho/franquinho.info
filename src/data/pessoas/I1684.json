@@ -1,0 +1,23 @@
+{
+  "id": "I1684",
+  "protegida": true,
+  "nome": "Privado da Silva Morgado",
+  "nome_proprio": "Privado",
+  "apelido": "da Silva Morgado",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0444"
+  ],
+  "familias_como_pai": [
+    "F0484"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

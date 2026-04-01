@@ -1,0 +1,21 @@
+{
+  "id": "I1571",
+  "protegida": false,
+  "nome": "Maria Marques de Abreu",
+  "nome_proprio": "Maria",
+  "apelido": "Marques de Abreu",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0439"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

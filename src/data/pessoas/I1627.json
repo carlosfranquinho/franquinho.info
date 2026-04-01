@@ -1,0 +1,26 @@
+{
+  "id": "I1627",
+  "protegida": false,
+  "nome": "Manuel Rodrigues Pimenta",
+  "nome_proprio": "Manuel",
+  "apelido": "Rodrigues Pimenta",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1855-12-01",
+    "lugar_id": "P0195"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0456"
+  ],
+  "familias_como_pai": [
+    "F0455"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

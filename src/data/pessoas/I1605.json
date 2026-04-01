@@ -1,0 +1,29 @@
+{
+  "id": "I1605",
+  "protegida": false,
+  "nome": "Manuel Francisco Morgado",
+  "nome_proprio": "Manuel",
+  "apelido": "Francisco Morgado",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1909-01-06",
+    "lugar_id": "P0194"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1976-10-31",
+    "lugar_id": "P0193"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0445"
+  ],
+  "familias_como_pai": [
+    "F0444"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

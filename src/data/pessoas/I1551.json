@@ -1,8 +1,8 @@
 {
   "id": "I1551",
-  "protegida": false,
-  "nome": "José Pedro",
-  "nome_proprio": "José Pedro",
+  "protegida": true,
+  "nome": "Privado",
+  "nome_proprio": "Privado",
   "apelido": null,
   "nomes_alt": null,
   "sexo": "M",

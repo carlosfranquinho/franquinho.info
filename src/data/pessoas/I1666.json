@@ -1,0 +1,23 @@
+{
+  "id": "I1666",
+  "protegida": false,
+  "nome": "Manuel da Silva",
+  "nome_proprio": "Manuel",
+  "apelido": "da Silva",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0476"
+  ],
+  "familias_como_pai": [
+    "F0475"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

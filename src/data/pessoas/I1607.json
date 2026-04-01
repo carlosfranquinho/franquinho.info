@@ -1,0 +1,26 @@
+{
+  "id": "I1607",
+  "protegida": false,
+  "nome": "Manuel Francisco Morgado",
+  "nome_proprio": "Manuel",
+  "apelido": "Francisco Morgado",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1864-10-29",
+    "lugar_id": "P0194"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0446"
+  ],
+  "familias_como_pai": [
+    "F0445"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

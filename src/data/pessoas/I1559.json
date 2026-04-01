@@ -1,8 +1,8 @@
 {
   "id": "I1559",
-  "protegida": false,
-  "nome": "Paulo Nóbrega",
-  "nome_proprio": "Paulo",
+  "protegida": true,
+  "nome": "Privado Nóbrega",
+  "nome_proprio": "Privado",
   "apelido": "Nóbrega",
   "nomes_alt": null,
   "sexo": "M",

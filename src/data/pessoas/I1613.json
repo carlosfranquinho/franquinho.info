@@ -1,0 +1,23 @@
+{
+  "id": "I1613",
+  "protegida": false,
+  "nome": "José Francisco",
+  "nome_proprio": "José",
+  "apelido": "Francisco",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0449"
+  ],
+  "familias_como_pai": [
+    "F0448"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

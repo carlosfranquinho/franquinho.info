@@ -1,0 +1,24 @@
+{
+  "id": "I1599",
+  "protegida": false,
+  "nome": "Maria da Conceição",
+  "nome_proprio": "Maria da Conceição",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1834-11-09",
+    "lugar_id": "P0005"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0085"
+  ],
+  "familias_como_pai": null,
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

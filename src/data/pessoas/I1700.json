@@ -1,0 +1,29 @@
+{
+  "id": "I1700",
+  "protegida": false,
+  "nome": "António de Matos",
+  "nome_proprio": "António",
+  "apelido": "de Matos",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1888-10-29",
+    "lugar_id": "P0199"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1968-04-12",
+    "lugar_id": "P0081"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0490"
+  ],
+  "familias_como_pai": [
+    "F0489"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}
