@@ -11,7 +11,11 @@
     "data": "1753-05-17",
     "lugar_id": "P0033"
   },
-  "obito": null,
+  "obito": {
+    "data": "antes de 1863",
+    "lugar_id": null,
+    "estimado": true
+  },
   "sepultura": null,
   "profissao": null,
   "familias_como_filho": [

@@ -11,7 +11,11 @@
     "data": "1698-04-10",
     "lugar_id": "P0026"
   },
-  "obito": null,
+  "obito": {
+    "data": "antes de 1808",
+    "lugar_id": null,
+    "estimado": true
+  },
   "sepultura": null,
   "profissao": null,
   "familias_como_filho": [

@@ -173,7 +173,7 @@ type PessoaLongeva = { id: string; nome: string | null; anoNasc: number; anoObit
 let pessoaMaisVelhaM: PessoaLongeva | null = null;
 let pessoaMaisVelhaF: PessoaLongeva | null = null;
 for (const p of todasPessoas) {
-  const anoN = getAno(p.nascimento?.data);
+  const anoN = getAno(p.nascimento?.data ?? p.baptismo?.data);
   const anoO = p.obito?.estimado ? null : getAno(p.obito?.data);
   if (!anoN || !anoO) continue;
   const idade = anoO - anoN;
@@ -294,7 +294,7 @@ const vidaPorSeculo:  Record<number, BucketVida> = {};
 const vidaPorSeculoM: Record<number, BucketVida> = {};
 const vidaPorSeculoF: Record<number, BucketVida> = {};
 for (const p of todasPessoas) {
-  const anoN = getAno(p.nascimento?.data);
+  const anoN = getAno(p.nascimento?.data ?? p.baptismo?.data);
   const anoO = p.obito?.estimado ? null : getAno(p.obito?.data);
   if (!anoN || !anoO) continue;
   const idade = anoO - anoN;

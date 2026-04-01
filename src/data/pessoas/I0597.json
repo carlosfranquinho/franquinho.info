@@ -11,7 +11,11 @@
     "data": "1702-01-04",
     "lugar_id": "P0025"
   },
-  "obito": null,
+  "obito": {
+    "data": "antes de 1812",
+    "lugar_id": null,
+    "estimado": true
+  },
   "sepultura": null,
   "profissao": null,
   "familias_como_filho": [

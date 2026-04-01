@@ -11,7 +11,11 @@
     "data": "1805-08-01",
     "lugar_id": "P0098"
   },
-  "obito": null,
+  "obito": {
+    "data": "antes de 1915",
+    "lugar_id": null,
+    "estimado": true
+  },
   "sepultura": null,
   "profissao": null,
   "familias_como_filho": [

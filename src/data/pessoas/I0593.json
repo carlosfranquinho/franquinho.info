@@ -11,7 +11,11 @@
     "data": "1713-11-14",
     "lugar_id": "P0073"
   },
-  "obito": null,
+  "obito": {
+    "data": "antes de 1823",
+    "lugar_id": null,
+    "estimado": true
+  },
   "sepultura": null,
   "profissao": null,
   "familias_como_filho": [

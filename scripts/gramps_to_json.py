@@ -469,8 +469,9 @@ def converter_pessoa(person_el, mapas, namespace):
 
     # Óbito: usar o registado, ou estimar se nasceu há mais de 110 anos
     obito_final = {'data': data_obit, 'lugar_id': lugar_obit_id} if data_obit or lugar_obit_id else None
-    if obito_final is None and data_nasc:
-        m = re.search(r'(\d{4})', data_nasc)
+    data_nasc_ou_bap = data_nasc or data_bap
+    if obito_final is None and data_nasc_ou_bap:
+        m = re.search(r'(\d{4})', data_nasc_ou_bap)
         if m:
             ano_nasc = int(m.group(1))
             ano_limite = ano_nasc + 110
@@ -679,7 +680,7 @@ def gerar_indice(pessoas_data, media_por_id=None):
             entrada['apelido'] = p['apelido']
         entrada['sexo'] = p.get('sexo', 'U')
 
-        nasc = p.get('nascimento')
+        nasc = p.get('nascimento') or p.get('baptismo')
         if nasc and nasc.get('data'):
             m = re.search(r'\b(1[0-9]{3}|20[0-9]{2})\b', nasc['data'])
             if m:
@@ -869,7 +870,7 @@ def main():
             'thumb': thumb,
         }
         # ano_nasc e ano_obit para todos (necessário para silhuetas)
-        nasc = p.get('nascimento')
+        nasc = p.get('nascimento') or p.get('baptismo')
         obit = p.get('obito')
         if nasc and nasc.get('data'):
             m_ano = _re.search(r'\b(\d{4})\b', nasc['data'])

@@ -71,7 +71,7 @@ const heroFundo = docFundo ?? fotoHero;
 
 const titulo = formatarNome(pessoa);
 const pessoaLbJson = JSON.stringify([{ id: pessoa.id, nome: titulo }]);
-const anoNasc = pessoa.nascimento?.data?.match(/(\d{4})/)?.[1];
+const anoNasc = (pessoa.nascimento?.data ?? pessoa.baptismo?.data)?.match(/(\d{4})/)?.[1];
 const anoObit = pessoa.obito?.data?.match(/(\d{4})/)?.[1];
 const lugarNasc = pessoa.nascimento?.lugar_id ? lugaresMap[pessoa.nascimento.lugar_id] : null;
 const lugarObit = pessoa.obito?.lugar_id ? lugaresMap[pessoa.obito.lugar_id] : null;

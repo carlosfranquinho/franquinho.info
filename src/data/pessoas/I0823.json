@@ -11,7 +11,11 @@
     "data": "1794-10-09",
     "lugar_id": "P0079"
   },
-  "obito": null,
+  "obito": {
+    "data": "antes de 1904",
+    "lugar_id": null,
+    "estimado": true
+  },
   "sepultura": null,
   "profissao": null,
   "familias_como_filho": [

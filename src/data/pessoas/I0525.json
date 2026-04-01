@@ -11,7 +11,11 @@
     "data": "1670-09-14",
     "lugar_id": "P0031"
   },
-  "obito": null,
+  "obito": {
+    "data": "antes de 1780",
+    "lugar_id": null,
+    "estimado": true
+  },
   "sepultura": null,
   "profissao": null,
   "familias_como_filho": [
