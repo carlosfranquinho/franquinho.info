@@ -59,7 +59,7 @@ const obitosPorDecada: Record<number, number> = {};
 for (const p of todasPessoas) {
   const anoN = getAno(p.nascimento?.data ?? p.baptismo?.data);
   if (anoN) { const d = Math.floor(anoN / 10) * 10; nascPorDecada[d] = (nascPorDecada[d] ?? 0) + 1; }
-  const anoO = getAno(p.obito?.data ?? p.sepultura?.data);
+  const anoO = p.obito?.estimado ? null : getAno(p.obito?.data ?? p.sepultura?.data);
   if (anoO) { const d = Math.floor(anoO / 10) * 10; obitosPorDecada[d] = (obitosPorDecada[d] ?? 0) + 1; }
 }
 const todasDecadas = Array.from(new Set([
@@ -174,7 +174,7 @@ let pessoaMaisVelhaM: PessoaLongeva | null = null;
 let pessoaMaisVelhaF: PessoaLongeva | null = null;
 for (const p of todasPessoas) {
   const anoN = getAno(p.nascimento?.data);
-  const anoO = getAno(p.obito?.data);
+  const anoO = p.obito?.estimado ? null : getAno(p.obito?.data);
   if (!anoN || !anoO) continue;
   const idade = anoO - anoN;
   if (idade < 0 || idade > 125) continue;
@@ -192,7 +192,7 @@ for (const f of todasFamilias) {
   if (!anoCas) continue;
   const anosObit = [f.pai, f.mae].filter(Boolean).map((pid) => {
     const p = pessoaMap[pid!];
-    return p ? getAno((p as Pessoa).obito?.data) : null;
+    return p && !(p as Pessoa).obito?.estimado ? getAno((p as Pessoa).obito?.data) : null;
   }).filter((a): a is number => a !== null);
   if (!anosObit.length) continue;
   const fimCas = Math.min(...anosObit);
@@ -292,7 +292,7 @@ const maxProfissaoF = topProfissoesF[0]?.[1] ?? 1;
 const vidaPorSeculo: Record<number, { total: number; count: number }> = {};
 for (const p of todasPessoas) {
   const anoN = getAno(p.nascimento?.data);
-  const anoO = getAno(p.obito?.data);
+  const anoO = p.obito?.estimado ? null : getAno(p.obito?.data);
   if (!anoN || !anoO) continue;
   const idade = anoO - anoN;
   if (idade < 1 || idade > 120) continue;
