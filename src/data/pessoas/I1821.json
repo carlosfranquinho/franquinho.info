@@ -1,0 +1,30 @@
+{
+  "id": "I1821",
+  "protegida": false,
+  "nome": "Clara Maria Pedrosa",
+  "nome_proprio": "Clara Maria",
+  "apelido": "Pedrosa",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1761-11-20",
+    "lugar_id": "P0095"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "antes de 1871",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0551"
+  ],
+  "familias_como_pai": [
+    "F0543"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

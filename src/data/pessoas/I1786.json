@@ -1,0 +1,33 @@
+{
+  "id": "I1786",
+  "protegida": false,
+  "nome": "João Ferreira",
+  "nome_proprio": "João",
+  "apelido": "Ferreira",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0095"
+  },
+  "baptismo": {
+    "data": "1685-05-13",
+    "lugar_id": "P0081"
+  },
+  "obito": {
+    "data": "antes de 1795",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0533"
+  ],
+  "familias_como_pai": [
+    "F0532"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

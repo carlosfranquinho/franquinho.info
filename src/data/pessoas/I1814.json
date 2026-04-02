@@ -1,0 +1,27 @@
+{
+  "id": "I1814",
+  "protegida": false,
+  "nome": "João",
+  "nome_proprio": "João",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": {
+    "data": "1764-12-19",
+    "lugar_id": "P0081"
+  },
+  "obito": {
+    "data": "1768-01-10",
+    "lugar_id": "P0081"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0537"
+  ],
+  "familias_como_pai": null,
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

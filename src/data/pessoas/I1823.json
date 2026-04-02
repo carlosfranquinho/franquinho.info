@@ -1,0 +1,33 @@
+{
+  "id": "I1823",
+  "protegida": false,
+  "nome": "Ana Maria",
+  "nome_proprio": "Ana",
+  "apelido": "Maria",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "",
+    "lugar_id": "P0225"
+  },
+  "baptismo": {
+    "data": "1731-11-04",
+    "lugar_id": "P0081"
+  },
+  "obito": {
+    "data": "antes de 1841",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0548"
+  ],
+  "familias_como_pai": [
+    "F0544"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

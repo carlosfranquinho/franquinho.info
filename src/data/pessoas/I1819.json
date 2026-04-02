@@ -1,0 +1,30 @@
+{
+  "id": "I1819",
+  "protegida": false,
+  "nome": "Maria Rosa",
+  "nome_proprio": "Maria",
+  "apelido": "Rosa",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1805-07-18",
+    "lugar_id": "P0104"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "antes de 1915",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0558"
+  ],
+  "familias_como_pai": [
+    "F0542"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

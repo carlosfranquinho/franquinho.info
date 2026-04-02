@@ -1,0 +1,26 @@
+{
+  "id": "I1831",
+  "protegida": false,
+  "nome": "Isabel Cardosa",
+  "nome_proprio": "Isabel",
+  "apelido": "Cardosa",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "",
+    "lugar_id": "P0228"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0550"
+  ],
+  "familias_como_pai": [
+    "F0548"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

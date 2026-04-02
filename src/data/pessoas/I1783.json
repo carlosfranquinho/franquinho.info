@@ -1,0 +1,30 @@
+{
+  "id": "I1783",
+  "protegida": false,
+  "nome": "Agostinha Maria",
+  "nome_proprio": "Agostinha",
+  "apelido": "Maria",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": {
+    "data": "1725-10-14",
+    "lugar_id": "P0081"
+  },
+  "obito": {
+    "data": "antes de 1835",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0531"
+  ],
+  "familias_como_pai": [
+    "F0530"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

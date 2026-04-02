@@ -1,18 +1,28 @@
 {
   "id": "I0171",
   "protegida": false,
-  "nome": "Joaquina Ferreira",
-  "nome_proprio": "Joaquina",
-  "apelido": "Ferreira",
+  "nome": "Agostinho Cardoso Rolo",
+  "nome_proprio": "Agostinho",
+  "apelido": "Cardoso Rolo",
   "nomes_alt": null,
-  "sexo": "F",
-  "nascimento": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1886-12-31",
+    "lugar_id": "P0095"
+  },
   "baptismo": null,
-  "obito": null,
+  "obito": {
+    "data": "1959-01-04",
+    "lugar_id": "P0095"
+  },
   "sepultura": null,
   "profissao": null,
-  "familias_como_filho": null,
-  "familias_como_pai": null,
+  "familias_como_filho": [
+    "F0541"
+  ],
+  "familias_como_pai": [
+    "F0540"
+  ],
   "media": null,
   "notas": null,
   "citacoes": null

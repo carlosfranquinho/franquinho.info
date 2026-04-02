@@ -1,0 +1,29 @@
+{
+  "id": "I1820",
+  "protegida": false,
+  "nome": "Sebastião Cardoso",
+  "nome_proprio": "Sebastião",
+  "apelido": "Cardoso",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1762-01-13",
+    "lugar_id": "P0067"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1842-02-08",
+    "lugar_id": "P0095"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0544"
+  ],
+  "familias_como_pai": [
+    "F0543"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

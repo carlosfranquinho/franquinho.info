@@ -6,10 +6,7 @@
   "apelido": "Ferreira Domingues",
   "nomes_alt": null,
   "sexo": "F",
-  "nascimento": {
-    "data": "15 dezembro",
-    "lugar_id": null
-  },
+  "nascimento": null,
   "baptismo": null,
   "obito": null,
   "sepultura": null,

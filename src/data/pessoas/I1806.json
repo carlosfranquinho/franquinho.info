@@ -1,0 +1,28 @@
+{
+  "id": "I1806",
+  "protegida": false,
+  "nome": "Alberto",
+  "nome_proprio": "Alberto",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": {
+    "data": "1786-08-24",
+    "lugar_id": "P0081"
+  },
+  "obito": {
+    "data": "antes de 1896",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0535"
+  ],
+  "familias_como_pai": null,
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

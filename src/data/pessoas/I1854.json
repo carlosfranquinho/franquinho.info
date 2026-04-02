@@ -1,0 +1,21 @@
+{
+  "id": "I1854",
+  "protegida": false,
+  "nome": "Francisco Dias",
+  "nome_proprio": "Francisco",
+  "apelido": "Dias",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0560"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

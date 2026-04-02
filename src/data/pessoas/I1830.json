@@ -1,0 +1,33 @@
+{
+  "id": "I1830",
+  "protegida": false,
+  "nome": "Mateus Francisco",
+  "nome_proprio": "Mateus",
+  "apelido": "Francisco",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "",
+    "lugar_id": "P0225"
+  },
+  "baptismo": {
+    "data": "1690-11-26",
+    "lugar_id": "P0081"
+  },
+  "obito": {
+    "data": "antes de 1800",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0549"
+  ],
+  "familias_como_pai": [
+    "F0548"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

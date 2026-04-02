@@ -1,0 +1,28 @@
+{
+  "id": "I1790",
+  "protegida": false,
+  "nome": "Manuel Ferreira",
+  "nome_proprio": "Manuel",
+  "apelido": "Ferreira",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": {
+    "data": "1715-09-13",
+    "lugar_id": "P0081"
+  },
+  "obito": {
+    "data": "antes de 1825",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0532"
+  ],
+  "familias_como_pai": null,
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

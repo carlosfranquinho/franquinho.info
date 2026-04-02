@@ -6,12 +6,12 @@
   "apelido": "de Almeida Forreta",
   "nomes_alt": null,
   "sexo": "M",
-  "nascimento": {
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
     "data": "1955-11-26",
     "lugar_id": "P0005"
   },
-  "baptismo": null,
-  "obito": null,
   "sepultura": null,
   "profissao": null,
   "familias_como_filho": null,

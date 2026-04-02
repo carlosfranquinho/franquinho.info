@@ -1,0 +1,15 @@
+{
+  "id": "F0545",
+  "pai": "I1824",
+  "mae": "I1825",
+  "filhos": [
+    "I1822"
+  ],
+  "tipo_relacao": "Unknown",
+  "casamento": {
+    "data": "1725-11-13",
+    "lugar_id": "P0081"
+  },
+  "notas": null,
+  "media": null
+}

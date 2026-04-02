@@ -1,0 +1,30 @@
+{
+  "id": "I1853",
+  "protegida": false,
+  "nome": "Maria Brás",
+  "nome_proprio": "Maria",
+  "apelido": "Brás",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1734-02-21",
+    "lugar_id": "P0104"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "antes de 1844",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0561"
+  ],
+  "familias_como_pai": [
+    "F0559"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

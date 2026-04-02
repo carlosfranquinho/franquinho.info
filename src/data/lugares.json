@@ -360,6 +360,158 @@
     "pai_id": "P0147"
   },
   {
+    "id": "P0220",
+    "nome": "Casal do Bento",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0219"
+  },
+  {
+    "id": "P0221",
+    "nome": "Faluais",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0219"
+  },
+  {
+    "id": "P0222",
+    "nome": "Valeirinha",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0095"
+  },
+  {
+    "id": "P0223",
+    "nome": "Bidoeira",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0140"
+  },
+  {
+    "id": "P0224",
+    "nome": "Casal Novo",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0207"
+  },
+  {
+    "id": "P0012",
+    "nome": "Vale Lezide",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0079"
+  },
+  {
+    "id": "P0035",
+    "nome": "Mourisca de Cima",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0081"
+  },
+  {
+    "id": "P0067",
+    "nome": "Guia",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0081"
+  },
+  {
+    "id": "P0225",
+    "nome": "Cabecinho da Pedrugulheira",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0081"
+  },
+  {
+    "id": "P0226",
+    "nome": "Bracejal",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0081"
+  },
+  {
+    "id": "P0227",
+    "nome": "Maceira",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0003"
+  },
+  {
+    "id": "P0228",
+    "nome": "Arnal",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0227"
+  },
+  {
+    "id": "P0229",
+    "nome": "Mourisca de Baixo",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0081"
+  },
+  {
+    "id": "P0230",
+    "nome": "Chã",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0081"
+  },
+  {
+    "id": "P0231",
+    "nome": "Vale de Mouro",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0081"
+  },
+  {
+    "id": "P0232",
+    "nome": "Cacharia",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0079"
+  },
+  {
+    "id": "P0233",
+    "nome": "Ribeira das Castelhanas",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0079"
+  },
+  {
+    "id": "P0234",
+    "nome": "Lavos",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0041"
+  },
+  {
+    "id": "P0235",
+    "nome": "Casal da Marinha",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0234"
+  },
+  {
     "id": "P0000",
     "nome": "Marinha Grande",
     "tipo": null,

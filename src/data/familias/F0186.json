@@ -3,8 +3,8 @@
   "pai": "I0623",
   "mae": "I0624",
   "filhos": [
-    "I0620",
     "I1502",
+    "I0620",
     "I1503"
   ],
   "tipo_relacao": "Married",

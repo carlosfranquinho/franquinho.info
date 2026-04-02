@@ -1,0 +1,26 @@
+{
+  "id": "I1801",
+  "protegida": false,
+  "nome": "Maria Josefa",
+  "nome_proprio": "Maria",
+  "apelido": "Josefa",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0211"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0536"
+  ],
+  "familias_como_pai": [
+    "F0535"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

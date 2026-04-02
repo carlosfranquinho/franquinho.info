@@ -1,0 +1,30 @@
+{
+  "id": "I1845",
+  "protegida": false,
+  "nome": "Teresa Pedrosa",
+  "nome_proprio": "Teresa",
+  "apelido": "Pedrosa",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1681-07-08",
+    "lugar_id": "P0095"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "antes de 1791",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0557"
+  ],
+  "familias_como_pai": [
+    "F0555"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

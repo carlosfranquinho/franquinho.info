@@ -1,0 +1,24 @@
+{
+  "id": "I1779",
+  "protegida": false,
+  "nome": "Isabel Henriques",
+  "nome_proprio": "Isabel",
+  "apelido": "Henriques",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1716-02-11",
+    "lugar_id": "P0221"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0528"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

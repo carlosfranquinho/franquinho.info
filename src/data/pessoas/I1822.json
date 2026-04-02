@@ -1,0 +1,33 @@
+{
+  "id": "I1822",
+  "protegida": false,
+  "nome": "Manuel Fernandes Cardoso",
+  "nome_proprio": "Manuel",
+  "apelido": "Fernandes Cardoso",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "",
+    "lugar_id": "P0067"
+  },
+  "baptismo": {
+    "data": "1730-03-01",
+    "lugar_id": "P0081"
+  },
+  "obito": {
+    "data": "antes de 1840",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0545"
+  ],
+  "familias_como_pai": [
+    "F0544"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

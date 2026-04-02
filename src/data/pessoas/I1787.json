@@ -1,0 +1,33 @@
+{
+  "id": "I1787",
+  "protegida": false,
+  "nome": "Isabel Dias",
+  "nome_proprio": "Isabel",
+  "apelido": "Dias",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0095"
+  },
+  "baptismo": {
+    "data": "1687-07-12",
+    "lugar_id": "P0081"
+  },
+  "obito": {
+    "data": "antes de 1797",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0534"
+  ],
+  "familias_como_pai": [
+    "F0532"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

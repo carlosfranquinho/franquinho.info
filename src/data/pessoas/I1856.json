@@ -1,0 +1,30 @@
+{
+  "id": "I1856",
+  "protegida": false,
+  "nome": "Francisco Brás",
+  "nome_proprio": "Francisco",
+  "apelido": "Brás",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1708-08-22",
+    "lugar_id": "P0104"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "antes de 1818",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0562"
+  ],
+  "familias_como_pai": [
+    "F0561"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

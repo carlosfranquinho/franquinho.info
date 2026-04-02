@@ -1,0 +1,33 @@
+{
+  "id": "I1836",
+  "protegida": false,
+  "nome": "Manuel Lopes",
+  "nome_proprio": "Manuel",
+  "apelido": "Lopes",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "",
+    "lugar_id": "P0067"
+  },
+  "baptismo": {
+    "data": "1725-01-31",
+    "lugar_id": "P0081"
+  },
+  "obito": {
+    "data": "antes de 1835",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0552"
+  ],
+  "familias_como_pai": [
+    "F0551"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

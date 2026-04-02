@@ -1,0 +1,26 @@
+{
+  "id": "I1858",
+  "protegida": false,
+  "nome": "Manuel Fernandes",
+  "nome_proprio": "Manuel",
+  "apelido": "Fernandes",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "",
+    "lugar_id": "P0233"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0563"
+  ],
+  "familias_como_pai": [
+    "F0562"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "I1808",
+  "protegida": false,
+  "nome": "Isabel Gomes",
+  "nome_proprio": "Isabel",
+  "apelido": "Gomes",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0224"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0539"
+  ],
+  "familias_como_pai": [
+    "F0537"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

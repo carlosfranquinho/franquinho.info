@@ -1,0 +1,29 @@
+{
+  "id": "I1807",
+  "protegida": false,
+  "nome": "Manuel Francisco Quinta",
+  "nome_proprio": "Manuel",
+  "apelido": "Francisco Quinta",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0211"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1779-09-11",
+    "lugar_id": "P0211"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0538"
+  ],
+  "familias_como_pai": [
+    "F0537"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

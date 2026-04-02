@@ -1,0 +1,26 @@
+{
+  "id": "I1772",
+  "protegida": false,
+  "nome": "Domingos da Maia",
+  "nome_proprio": "Domingos",
+  "apelido": "da Maia",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1731-11-01",
+    "lugar_id": "P0219"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0527"
+  ],
+  "familias_como_pai": [
+    "F0526"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

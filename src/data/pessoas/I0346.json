@@ -1,24 +1,26 @@
 {
   "id": "I0346",
   "protegida": false,
-  "nome": "João",
-  "nome_proprio": "João",
-  "apelido": null,
+  "nome": "Teresa Cardoso Grazina",
+  "nome_proprio": "Teresa",
+  "apelido": "Cardoso Grazina",
   "nomes_alt": null,
-  "sexo": "M",
+  "sexo": "F",
   "nascimento": {
-    "data": "1866-09",
-    "lugar_id": null
+    "data": "1879-04-18",
+    "lugar_id": "P0012"
   },
   "baptismo": null,
   "obito": {
-    "data": "1867-06-02",
-    "lugar_id": "P0005"
+    "data": "1969-07-06",
+    "lugar_id": "P0081"
   },
   "sepultura": null,
   "profissao": null,
   "familias_como_filho": null,
-  "familias_como_pai": null,
+  "familias_como_pai": [
+    "F0540"
+  ],
   "media": null,
   "notas": null,
   "citacoes": null

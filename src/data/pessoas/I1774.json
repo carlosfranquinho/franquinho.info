@@ -1,0 +1,24 @@
+{
+  "id": "I1774",
+  "protegida": false,
+  "nome": "Bento Fernandes",
+  "nome_proprio": "Bento",
+  "apelido": "Fernandes",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1705-06-02",
+    "lugar_id": "P0220"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0527"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

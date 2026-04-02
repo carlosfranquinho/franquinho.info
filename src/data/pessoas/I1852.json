@@ -1,0 +1,30 @@
+{
+  "id": "I1852",
+  "protegida": false,
+  "nome": "Francisco Dias",
+  "nome_proprio": "Francisco",
+  "apelido": "Dias",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1727-03-23",
+    "lugar_id": "P0097"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "antes de 1837",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0560"
+  ],
+  "familias_como_pai": [
+    "F0559"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

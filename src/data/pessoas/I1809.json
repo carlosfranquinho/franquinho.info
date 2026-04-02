@@ -1,0 +1,24 @@
+{
+  "id": "I1809",
+  "protegida": false,
+  "nome": "Manuel Francisco Serafino da Quinta",
+  "nome_proprio": "Manuel Francisco",
+  "apelido": "Serafino da Quinta",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1734-05-15",
+    "lugar_id": "P0211"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0538"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

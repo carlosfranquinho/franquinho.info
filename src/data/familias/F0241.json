@@ -2,9 +2,7 @@
   "id": "F0241",
   "pai": null,
   "mae": "I0870",
-  "filhos": [
-    "I0854"
-  ],
+  "filhos": null,
   "tipo_relacao": "Married",
   "casamento": {
     "data": "1775-02-22",

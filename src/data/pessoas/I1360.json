@@ -1,25 +1,29 @@
 {
   "id": "I1360",
   "protegida": false,
-  "nome": "Maria",
-  "nome_proprio": "Maria",
-  "apelido": null,
+  "nome": "José Cardoso",
+  "nome_proprio": "José",
+  "apelido": "Cardoso",
   "nomes_alt": null,
-  "sexo": "F",
+  "sexo": "M",
   "nascimento": {
-    "data": "1662-03-26",
-    "lugar_id": "P0080"
+    "data": "1843-02-16",
+    "lugar_id": "P0095"
   },
   "baptismo": null,
   "obito": {
-    "data": "antes de 1772",
+    "data": "antes de 1953",
     "lugar_id": null,
     "estimado": true
   },
   "sepultura": null,
   "profissao": null,
-  "familias_como_filho": null,
-  "familias_como_pai": null,
+  "familias_como_filho": [
+    "F0542"
+  ],
+  "familias_como_pai": [
+    "F0541"
+  ],
   "media": null,
   "notas": null,
   "citacoes": null

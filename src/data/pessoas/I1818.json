@@ -1,0 +1,30 @@
+{
+  "id": "I1818",
+  "protegida": false,
+  "nome": "Joaquim Cardoso",
+  "nome_proprio": "Joaquim",
+  "apelido": "Cardoso",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1799-05-16",
+    "lugar_id": "P0095"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "antes de 1909",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0543"
+  ],
+  "familias_como_pai": [
+    "F0542"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

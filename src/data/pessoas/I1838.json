@@ -1,0 +1,33 @@
+{
+  "id": "I1838",
+  "protegida": false,
+  "nome": "Domingos Lopes",
+  "nome_proprio": "Domingos",
+  "apelido": "Lopes",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "",
+    "lugar_id": "P0229"
+  },
+  "baptismo": {
+    "data": "1699-06-09",
+    "lugar_id": "P0081"
+  },
+  "obito": {
+    "data": "antes de 1809",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0553"
+  ],
+  "familias_como_pai": [
+    "F0552"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

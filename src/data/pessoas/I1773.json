@@ -1,0 +1,29 @@
+{
+  "id": "I1773",
+  "protegida": false,
+  "nome": "Páscoa Maria",
+  "nome_proprio": "Páscoa",
+  "apelido": "Maria",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0219"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1729-03-13",
+    "lugar_id": "P0219"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0528"
+  ],
+  "familias_como_pai": [
+    "F0526"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,27 @@
+{
+  "id": "I1798",
+  "protegida": false,
+  "nome": "Manuel Francisco",
+  "nome_proprio": "Manuel",
+  "apelido": "Francisco",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": null,
+    "lugar_id": "P0222"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1721",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0534"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

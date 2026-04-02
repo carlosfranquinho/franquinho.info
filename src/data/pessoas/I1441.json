@@ -1,24 +1,27 @@
 {
   "id": "I1441",
   "protegida": false,
-  "nome": "Maria da Conceição",
-  "nome_proprio": "Maria",
-  "apelido": "da Conceição",
+  "nome": "Joaquina Silva",
+  "nome_proprio": "Joaquina",
+  "apelido": "Silva",
   "nomes_alt": null,
   "sexo": "F",
   "nascimento": {
-    "data": "1908-06-02",
-    "lugar_id": null
+    "data": "1844-03-10",
+    "lugar_id": "P0035"
   },
   "baptismo": null,
   "obito": {
-    "data": "1978-01-03",
-    "lugar_id": null
+    "data": "antes de 1954",
+    "lugar_id": null,
+    "estimado": true
   },
   "sepultura": null,
   "profissao": null,
   "familias_como_filho": null,
-  "familias_como_pai": null,
+  "familias_como_pai": [
+    "F0541"
+  ],
   "media": null,
   "notas": null,
   "citacoes": null

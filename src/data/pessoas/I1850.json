@@ -1,0 +1,30 @@
+{
+  "id": "I1850",
+  "protegida": false,
+  "nome": "António Dias",
+  "nome_proprio": "António",
+  "apelido": "Dias",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1764-02-05",
+    "lugar_id": "P0104"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "antes de 1874",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0559"
+  ],
+  "familias_como_pai": [
+    "F0558"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

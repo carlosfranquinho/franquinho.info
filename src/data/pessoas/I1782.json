@@ -1,0 +1,23 @@
+{
+  "id": "I1782",
+  "protegida": false,
+  "nome": "Francisco Ferreira",
+  "nome_proprio": "Francisco",
+  "apelido": "Ferreira",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0532"
+  ],
+  "familias_como_pai": [
+    "F0530"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,21 @@
+{
+  "id": "I1812",
+  "protegida": false,
+  "nome": "Antónia Gomes",
+  "nome_proprio": "Antónia",
+  "apelido": "Gomes",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0539"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

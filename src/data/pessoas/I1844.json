@@ -1,0 +1,29 @@
+{
+  "id": "I1844",
+  "protegida": false,
+  "nome": "João Fernandes",
+  "nome_proprio": "João",
+  "apelido": "Fernandes",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1682-09-13",
+    "lugar_id": "P0230"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1709-02-07",
+    "lugar_id": "P0081"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0556"
+  ],
+  "familias_como_pai": [
+    "F0555"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

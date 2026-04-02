@@ -1,23 +1,26 @@
 {
   "id": "I1443",
   "protegida": false,
-  "nome": "José Gaspar",
-  "nome_proprio": "José",
-  "apelido": "Gaspar",
+  "nome": "António Cardoso",
+  "nome_proprio": "António",
+  "apelido": "Cardoso",
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": {
-    "data": "1912-01-11",
-    "lugar_id": null
+    "data": "1874-06-29",
+    "lugar_id": "P0095"
   },
   "baptismo": null,
   "obito": {
-    "data": "1985-06-25",
-    "lugar_id": null
+    "data": "antes de 1984",
+    "lugar_id": null,
+    "estimado": true
   },
   "sepultura": null,
   "profissao": null,
-  "familias_como_filho": null,
+  "familias_como_filho": [
+    "F0541"
+  ],
   "familias_como_pai": null,
   "media": null,
   "notas": null,

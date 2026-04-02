@@ -1,0 +1,18 @@
+{
+  "id": "F0535",
+  "pai": "I1800",
+  "mae": "I1801",
+  "filhos": [
+    "I1767",
+    "I1804",
+    "I1805",
+    "I1806"
+  ],
+  "tipo_relacao": "Married",
+  "casamento": {
+    "data": "1783-01-30",
+    "lugar_id": "P0081"
+  },
+  "notas": null,
+  "media": null
+}

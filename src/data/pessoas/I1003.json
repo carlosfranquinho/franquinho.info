@@ -8,7 +8,7 @@
   "sexo": "F",
   "nascimento": {
     "data": "1852-05-02",
-    "lugar_id": null
+    "lugar_id": "P0002"
   },
   "baptismo": null,
   "obito": {
@@ -22,7 +22,8 @@
     "F0280"
   ],
   "media": [
-    "O1044"
+    "O1044",
+    "O0799"
   ],
   "notas": null,
   "citacoes": null

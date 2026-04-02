@@ -1,0 +1,23 @@
+{
+  "id": "F0532",
+  "pai": "I1786",
+  "mae": "I1787",
+  "filhos": [
+    "I1782",
+    "I1788",
+    "I1789",
+    "I1790",
+    "I1791",
+    "I1792",
+    "I1793",
+    "I1794",
+    "I1795"
+  ],
+  "tipo_relacao": "Married",
+  "casamento": {
+    "data": "1709-02-10",
+    "lugar_id": "P0081"
+  },
+  "notas": null,
+  "media": null
+}

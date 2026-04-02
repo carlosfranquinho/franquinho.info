@@ -1,0 +1,27 @@
+{
+  "id": "I1846",
+  "protegida": false,
+  "nome": "Pedro Fernandes",
+  "nome_proprio": "Pedro",
+  "apelido": "Fernandes",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "",
+    "lugar_id": "P0231"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1727-09-20",
+    "lugar_id": "P0231"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0556"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

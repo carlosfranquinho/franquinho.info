@@ -1,0 +1,28 @@
+{
+  "id": "I1851",
+  "protegida": false,
+  "nome": "Rosa Maria",
+  "nome_proprio": "Rosa",
+  "apelido": "Maria",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1772-11-02",
+    "lugar_id": "P0232"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "antes de 1882",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0558"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}
