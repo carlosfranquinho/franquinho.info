@@ -44,8 +44,10 @@ const totalDocs  = media.filter((m) => m.caminho && !(m.caminho_original ?? '').
 
 
 // Dados de aniversários para todos os dias — renderizados dinamicamente no cliente
-type DadosAniversario = { id: string; nome: string; tipo: 'nascimento' | 'obito'; ano: number; thumb: string | null; sexo?: string; anoNasc?: string; anoObit?: string; mmdd: string };
+type DadosAniversario = { id: string; nome: string; tipo: 'nascimento' | 'obito' | 'casamento'; ano: number; thumb: string | null; sexo?: string; anoNasc?: string; anoObit?: string; mmdd: string; nomePai?: string; nomeMae?: string; idLink?: string; };
 const dadosAniversarios: DadosAniversario[] = [];
+const indiceMap: Record<string, EntradaIndice> = Object.fromEntries(indice.map((e) => [e.id, e]));
+
 for (const entrada of indice) {
   const thumb = entrada.thumb_id ? (mediaMap[entrada.thumb_id]?.thumb ?? null) : null;
   const anoNascStr = entrada.ano_nasc?.toString();
@@ -56,6 +58,21 @@ for (const entrada of indice) {
   if (entrada.mmdd_obit && entrada.ano_obit) {
     dadosAniversarios.push({ id: entrada.id, nome: entrada.nome ?? 'Sem nome', tipo: 'obito', ano: entrada.ano_obit, thumb, sexo: entrada.sexo, anoNasc: anoNascStr, anoObit: anoObitStr, mmdd: entrada.mmdd_obit });
   }
+}
+
+// Aniversários de casamento
+for (const fid of readdirSync(resolve('src/data/familias')).filter(f => f.endsWith('.json'))) {
+  const fam: Familia = JSON.parse(readFileSync(resolve(`src/data/familias/${fid}`), 'utf-8'));
+  const data = fam.casamento?.data;
+  if (!data || data.length < 10 || data[4] !== '-' || data[7] !== '-') continue;
+  const ano = parseInt(data.slice(0, 4));
+  const mmdd = data.slice(5, 10);
+  if (!ano || isNaN(ano)) continue;
+  const nomePai = fam.pai ? (indiceMap[fam.pai]?.nome ?? fam.pai) : undefined;
+  const nomeMae = fam.mae ? (indiceMap[fam.mae]?.nome ?? fam.mae) : undefined;
+  const idLink = fam.pai ?? fam.mae ?? '';
+  const nome = [nomePai, nomeMae].filter(Boolean).map(n => (n ?? '').split(' ')[0]).join(' & ');
+  dadosAniversarios.push({ id: fam.id, nome, tipo: 'casamento', ano, thumb: null, mmdd, nomePai, nomeMae, idLink });
 }
 
 const anoMaisAntigo = indice.filter(p => p.ano_nasc).sort((a,b) => (a.ano_nasc??9999)-(b.ano_nasc??9999))[0]?.ano_nasc;
@@ -288,7 +305,7 @@ const anoMaisAntigo = indice.filter(p => p.ano_nasc).sort((a,b) => (a.ano_nasc??
       if (!container) return;
 
       if (lista.length === 0) {
-        container.innerHTML = '<p class="text-stone-400 text-sm">Nenhum registo de nascimento ou falecimento para hoje.</p>';
+        container.innerHTML = '<p class="text-stone-400 text-sm">Nenhum registo de nascimento, falecimento ou casamento para hoje.</p>';
         return;
       }
 
@@ -315,33 +332,48 @@ const anoMaisAntigo = indice.filter(p => p.ano_nasc).sort((a,b) => (a.ano_nasc??
 
       const svgNasc = `<svg class="w-3 h-3 text-amber-500" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.55 7.85H22l-6.63 4.82 2.55 7.85L12 17.7l-5.92 4.82 2.55-7.85L2 9.85h7.45z"/></svg>`;
       const svgObit = `<svg class="w-3 h-3 text-stone-400" viewBox="0 0 24 24" fill="currentColor"><path d="M11 2h2v7h7v2h-7v11h-2V11H4V9h7V2z"/></svg>`;
+      const svgCasamento = `<svg class="w-3 h-3 text-rose-400" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>`;
 
       const grid = document.createElement('div');
       grid.className = 'grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-3';
 
       for (const a of lista) {
-        const avatarSrc = a.thumb ?? silhueta(a.sexo, a.anoNasc, a.anoObit);
         const anos = anoAtual - a.ano;
+        const isCasamento = a.tipo === 'casamento';
         const isNasc = a.tipo === 'nascimento';
-        const iconeBg = isNasc ? 'bg-amber-100' : 'bg-stone-100';
-        const icone = isNasc ? svgNasc : svgObit;
-        const primeiroNome = (a.nome || '').split(' ')[0];
+        const iconeBg = isCasamento ? 'bg-rose-100' : isNasc ? 'bg-amber-100' : 'bg-stone-100';
+        const icone = isCasamento ? svgCasamento : isNasc ? svgNasc : svgObit;
+        const href = isCasamento ? `/pessoas/${esc(a.idLink ?? a.id)}` : `/pessoas/${esc(a.id)}`;
 
         const link = document.createElement('a');
-        link.href = `/pessoas/${esc(a.id)}`;
+        link.href = href;
         link.className = 'group text-center';
-        link.innerHTML = `
-          <div class="relative">
-            <div class="aspect-square rounded-full overflow-hidden mb-2 ring-2 ring-stone-100 group-hover:ring-amber-400 transition-all">
-              <img src="${esc(avatarSrc)}" alt="${esc(primeiroNome)}" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-300" />
+
+        if (isCasamento) {
+          link.innerHTML = `
+            <div class="relative">
+              <div class="aspect-square rounded-full overflow-hidden mb-2 ring-2 ring-stone-100 group-hover:ring-rose-400 transition-all bg-rose-50 flex items-center justify-center">
+                <svg class="w-8 h-8 text-rose-300" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+              </div>
+              <div class="absolute bottom-2 right-0 w-5 h-5 rounded-full ${iconeBg} flex items-center justify-center shadow-sm">${icone}</div>
             </div>
-            <div class="absolute bottom-2 right-0 w-5 h-5 rounded-full ${iconeBg} flex items-center justify-center shadow-sm">
-              ${icone}
+            <p class="text-xs text-stone-600 group-hover:text-stone-900 transition-colors leading-tight truncate px-1 font-medium">${esc(a.nome)}</p>
+            <p class="text-xs text-stone-400">${esc(String(a.ano))} · ${esc(String(anos))} anos</p>
+          `;
+        } else {
+          const avatarSrc = a.thumb ?? silhueta(a.sexo, a.anoNasc, a.anoObit);
+          const primeiroNome = (a.nome || '').split(' ')[0];
+          link.innerHTML = `
+            <div class="relative">
+              <div class="aspect-square rounded-full overflow-hidden mb-2 ring-2 ring-stone-100 group-hover:ring-amber-400 transition-all">
+                <img src="${esc(avatarSrc)}" alt="${esc(primeiroNome)}" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-300" />
+              </div>
+              <div class="absolute bottom-2 right-0 w-5 h-5 rounded-full ${iconeBg} flex items-center justify-center shadow-sm">${icone}</div>
             </div>
-          </div>
-          <p class="text-xs text-stone-600 group-hover:text-stone-900 transition-colors leading-tight truncate px-1 font-medium">${esc(primeiroNome)}</p>
-          <p class="text-xs text-stone-400">${esc(String(a.ano))} · ${esc(String(anos))} anos</p>
-        `;
+            <p class="text-xs text-stone-600 group-hover:text-stone-900 transition-colors leading-tight truncate px-1 font-medium">${esc(primeiroNome)}</p>
+            <p class="text-xs text-stone-400">${esc(String(a.ano))} · ${esc(String(anos))} anos</p>
+          `;
+        }
         grid.appendChild(link);
       }
 
