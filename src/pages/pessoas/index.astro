@@ -4,7 +4,10 @@ import { resolve } from 'path';
 import Base from '../../layouts/Base.astro';
 import type { EntradaIndice } from '../../types';
 
-const pessoas: EntradaIndice[] = JSON.parse(readFileSync(resolve('src/data/indice.json'), 'utf-8'));
+const todasPessoas: EntradaIndice[] = JSON.parse(readFileSync(resolve('src/data/indice.json'), 'utf-8'));
+const pessoas = todasPessoas.filter(
+  (p) => p.nome && !p.nome.startsWith('Privado')
+);
 ---
 
 <Base titulo="Pessoas" descricao="Indice alfabetico de todas as pessoas na arvore genealogica">
