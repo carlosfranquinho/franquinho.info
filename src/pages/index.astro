@@ -44,7 +44,7 @@ const totalDocs  = media.filter((m) => m.caminho && !(m.caminho_original ?? '').
 
 
 // Dados de aniversários para todos os dias — renderizados dinamicamente no cliente
-type DadosAniversario = { id: string; nome: string; tipo: 'nascimento' | 'obito' | 'casamento'; ano: number; thumb: string | null; sexo?: string; anoNasc?: string; anoObit?: string; mmdd: string; nomePai?: string; nomeMae?: string; idLink?: string; };
+type DadosAniversario = { id: string; nome: string; tipo: 'nascimento' | 'obito' | 'casamento'; ano: number; thumb: string | null; sexo?: string; anoNasc?: string; anoObit?: string; mmdd: string; nomePai?: string; nomeMae?: string; idLink?: string; thumbPai?: string | null; thumbMae?: string | null; sexoPai?: string; sexoMae?: string; anoNascPai?: string; anoNascMae?: string; };
 const dadosAniversarios: DadosAniversario[] = [];
 const indiceMap: Record<string, EntradaIndice> = Object.fromEntries(indice.map((e) => [e.id, e]));
 
@@ -68,11 +68,15 @@ for (const fid of readdirSync(resolve('src/data/familias')).filter(f => f.endsWi
   const ano = parseInt(data.slice(0, 4));
   const mmdd = data.slice(5, 10);
   if (!ano || isNaN(ano)) continue;
-  const nomePai = fam.pai ? (indiceMap[fam.pai]?.nome ?? fam.pai) : undefined;
-  const nomeMae = fam.mae ? (indiceMap[fam.mae]?.nome ?? fam.mae) : undefined;
+  const ePai = fam.pai ? indiceMap[fam.pai] : null;
+  const eMae = fam.mae ? indiceMap[fam.mae] : null;
+  const nomePai = ePai?.nome ?? fam.pai ?? undefined;
+  const nomeMae = eMae?.nome ?? fam.mae ?? undefined;
   const idLink = fam.pai ?? fam.mae ?? '';
   const nome = [nomePai, nomeMae].filter(Boolean).map(n => (n ?? '').split(' ')[0]).join(' & ');
-  dadosAniversarios.push({ id: fam.id, nome, tipo: 'casamento', ano, thumb: null, mmdd, nomePai, nomeMae, idLink });
+  const thumbPai = ePai?.thumb_id ? (mediaMap[ePai.thumb_id]?.thumb ?? null) : null;
+  const thumbMae = eMae?.thumb_id ? (mediaMap[eMae.thumb_id]?.thumb ?? null) : null;
+  dadosAniversarios.push({ id: fam.id, nome, tipo: 'casamento', ano, thumb: null, mmdd, nomePai, nomeMae, idLink, thumbPai, thumbMae, sexoPai: ePai?.sexo, sexoMae: eMae?.sexo, anoNascPai: ePai?.ano_nasc?.toString(), anoNascMae: eMae?.ano_nasc?.toString() });
 }
 
 const anoMaisAntigo = indice.filter(p => p.ano_nasc).sort((a,b) => (a.ano_nasc??9999)-(b.ano_nasc??9999))[0]?.ano_nasc;
@@ -299,7 +303,7 @@ const anoMaisAntigo = indice.filter(p => p.ano_nasc).sort((a,b) => (a.ano_nasc??
 
       const lista = dados
         .filter((a: any) => a.mmdd === mmdd)
-        .sort((a: any, b: any) => a.ano - b.ano);
+        .sort((a: any, b: any) => b.ano - a.ano);
 
       const container = document.getElementById('aniversarios-lista');
       if (!container) return;
@@ -350,10 +354,13 @@ const anoMaisAntigo = indice.filter(p => p.ano_nasc).sort((a,b) => (a.ano_nasc??
         link.className = 'group text-center';
 
         if (isCasamento) {
+          const srcPai = a.thumbPai ?? silhueta(a.sexoPai, a.anoNascPai, undefined);
+          const srcMae = a.thumbMae ?? silhueta(a.sexoMae, a.anoNascMae, undefined);
           link.innerHTML = `
             <div class="relative">
-              <div class="aspect-square rounded-full overflow-hidden mb-2 ring-2 ring-stone-100 group-hover:ring-rose-400 transition-all bg-rose-50 flex items-center justify-center">
-                <svg class="w-8 h-8 text-rose-300" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+              <div class="aspect-square rounded-full overflow-hidden mb-2 ring-2 ring-stone-100 group-hover:ring-rose-400 transition-all flex">
+                <img src="${esc(srcPai)}" alt="" class="w-1/2 h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-300" />
+                <img src="${esc(srcMae)}" alt="" class="w-1/2 h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-300" />
               </div>
               <div class="absolute bottom-2 right-0 w-5 h-5 rounded-full ${iconeBg} flex items-center justify-center shadow-sm">${icone}</div>
             </div>
