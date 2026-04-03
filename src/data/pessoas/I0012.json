@@ -18,7 +18,10 @@
     "estimado": true
   },
   "sepultura": null,
-  "profissao": "Doméstica",
+  "profissoes": [
+    "Trabalhadora",
+    "Doméstica"
+  ],
   "familias_como_filho": [
     "F0007"
   ],

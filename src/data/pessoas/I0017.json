@@ -20,7 +20,9 @@
     "lugar_id": "P0002"
   },
   "sepultura": null,
-  "profissao": "Sangrador",
+  "profissoes": [
+    "Sangrador"
+  ],
   "familias_como_filho": [
     "F0011"
   ],

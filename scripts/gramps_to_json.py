@@ -193,7 +193,10 @@ def extrair_eventos_pessoa(person_el, eventos_map, namespace):
         ev = parse_evento(handle, eventos_map, namespace)
         if ev:
             tipo = ev['tipo'].lower()
-            resultado[tipo] = ev
+            if tipo == 'occupation':
+                resultado.setdefault('occupation', []).append(ev)
+            else:
+                resultado[tipo] = ev
     return resultado
 
 
@@ -421,11 +424,15 @@ def converter_pessoa(person_el, mapas, namespace):
     data_obit, lugar_obit_id, ano_obit = obit if obit else (None, None, None)
     data_sep, lugar_sep_id, _ = sep if sep else (None, None, None)
 
-    # Profissão — guardada como evento do tipo Occupation em Gramps
-    profissao = None
-    ev_occ = eventos.get('occupation')
-    if ev_occ:
-        profissao = ev_occ.get('descricao') or None
+    # Profissões — múltiplos eventos do tipo Occupation em Gramps; deduplicados
+    occ_events = eventos.get('occupation', [])
+    seen_prof: set = set()
+    profissoes: list = []
+    for ev_occ in occ_events:
+        desc = ev_occ.get('descricao') or None
+        if desc and desc not in seen_prof:
+            seen_prof.add(desc)
+            profissoes.append(desc)
 
     # Famílias
     familias_como_filho = [
@@ -457,7 +464,10 @@ def converter_pessoa(person_el, mapas, namespace):
 
     # Media directa na pessoa + media de cada evento (sem duplicados)
     todos_media_handles = list(extrair_media_refs(person_el, namespace))
-    for ev in eventos.values():
+    evs_flat = []
+    for v in eventos.values():
+        evs_flat.extend(v if isinstance(v, list) else [v])
+    for ev in evs_flat:
         for h in ev.get('media_handles', []):
             if h not in todos_media_handles:
                 todos_media_handles.append(h)
@@ -492,7 +502,7 @@ def converter_pessoa(person_el, mapas, namespace):
         'baptismo': {'data': data_bap, 'lugar_id': lugar_bap_id} if data_bap or lugar_bap_id else None,
         'obito': obito_final,
         'sepultura': {'data': data_sep, 'lugar_id': lugar_sep_id} if data_sep or lugar_sep_id else None,
-        'profissao': profissao,
+        'profissoes': profissoes or None,
         'familias_como_filho': familias_como_filho or None,
         'familias_como_pai': familias_como_pai or None,
         'media': media_ids or None,

@@ -17,7 +17,10 @@
     "lugar_id": null
   },
   "sepultura": null,
-  "profissao": "Jornaleiro",
+  "profissoes": [
+    "Trabalhador",
+    "Jornaleiro"
+  ],
   "familias_como_filho": [
     "F0009"
   ],

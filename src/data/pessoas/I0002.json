@@ -20,7 +20,10 @@
     "lugar_id": "P0083"
   },
   "sepultura": null,
-  "profissao": "Polícia",
+  "profissoes": [
+    "Carteiro",
+    "Polícia"
+  ],
   "familias_como_filho": [
     "F0002"
   ],

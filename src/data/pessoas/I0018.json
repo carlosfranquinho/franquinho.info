@@ -17,7 +17,9 @@
     "lugar_id": null
   },
   "sepultura": null,
-  "profissao": "Trabalhadora",
+  "profissoes": [
+    "Trabalhadora"
+  ],
   "familias_como_filho": [
     "F0012"
   ],

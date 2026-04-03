@@ -17,7 +17,12 @@
     "lugar_id": "P0002"
   },
   "sepultura": null,
-  "profissao": "Guarda Florestal",
+  "profissoes": [
+    "Trabalhador",
+    "Guarda Florestal do Pinhal de Leiria",
+    "Guarda do Pinhal Real",
+    "Guarda Florestal"
+  ],
   "familias_como_filho": [
     "F0004"
   ],

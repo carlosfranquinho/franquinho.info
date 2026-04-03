@@ -304,9 +304,11 @@ const heatmapPontos = Object.entries(heatmapCountRaw)
 const profissoesM: Record<string, number> = {};
 const profissoesF: Record<string, number> = {};
 for (const p of todasPessoas) {
-  if (!p.profissao) continue;
-  if (p.sexo === 'M') profissoesM[p.profissao] = (profissoesM[p.profissao] ?? 0) + 1;
-  else if (p.sexo === 'F') profissoesF[p.profissao] = (profissoesF[p.profissao] ?? 0) + 1;
+  if (!p.profissoes?.length) continue;
+  for (const prof of p.profissoes) {
+    if (p.sexo === 'M') profissoesM[prof] = (profissoesM[prof] ?? 0) + 1;
+    else if (p.sexo === 'F') profissoesF[prof] = (profissoesF[prof] ?? 0) + 1;
+  }
 }
 const topProfissoesM = Object.entries(profissoesM).sort((a, b) => b[1] - a[1]).slice(0, 10);
 const topProfissoesF = Object.entries(profissoesF).sort((a, b) => b[1] - a[1]).slice(0, 10);

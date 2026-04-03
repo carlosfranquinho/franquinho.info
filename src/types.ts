@@ -26,7 +26,7 @@ export interface Pessoa {
   baptismo: EventoPessoa | null;
   obito: EventoPessoa | null;
   sepultura: EventoPessoa | null;
-  profissao: string | null;
+  profissoes: string[] | null;
   familias_como_filho: string[] | null;
   familias_como_pai: string[] | null;
   media: string[] | null;

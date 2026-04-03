@@ -14,7 +14,9 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
-  "profissao": "Doméstica",
+  "profissoes": [
+    "Doméstica"
+  ],
   "familias_como_filho": null,
   "familias_como_pai": [
     "F0418"
