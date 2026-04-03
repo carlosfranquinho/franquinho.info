@@ -318,14 +318,12 @@ def sexo_compativel(bd_id: str, ged_id: str) -> bool:
         return True
     return bs == gs
 
-NOME_PROTEGIDO = {"familiar", ""}
-
 def nome_compativel(bd_id: str, ged_id: str) -> bool:
     """Verifica se os nomes são compatíveis.
 
     Casos:
     1. Ambos têm nome real → primeiro nome idêntico (normalizado) + anos próximos
-    2. BD tem nome protegido ("Familiar"/vazio) → ano de nascimento EXACTO + sexo compatível
+    2. BD tem pessoa protegida → ano de nascimento EXACTO + sexo compatível
     3. GED tem nome vazio → ano exacto + sexo compatível
     """
     if not sexo_compativel(bd_id, ged_id):
@@ -333,13 +331,12 @@ def nome_compativel(bd_id: str, ged_id: str) -> bool:
 
     bn = bd_nome(bd_id)
     gn = ged_nome(ged_id)
-    bn_norm = normalize(bn)
     gn_norm = normalize(gn)
 
     by = bd_nascimento_ano(bd_id)
     gy = ged_nasc_ano(ged_id)
 
-    bd_protegido = (bn_norm in NOME_PROTEGIDO)
+    bd_protegido = bool(bd_pessoas.get(bd_id, {}).get("protegida"))
 
     if bd_protegido:
         # Para pessoas protegidas: requer data exacta (tolerância 0)
