@@ -4,6 +4,10 @@
   "nome": "António Francisco Morgado",
   "nome_proprio": "António",
   "apelido": "Francisco Morgado",
+  "apelidos": [
+    "Francisco",
+    "Morgado"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": {

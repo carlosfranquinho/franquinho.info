@@ -4,6 +4,10 @@
   "nome": "Privado Romeiro Franquinho",
   "nome_proprio": "Privado",
   "apelido": "Romeiro Franquinho",
+  "apelidos": [
+    "Romeiro",
+    "Franquinho"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": {

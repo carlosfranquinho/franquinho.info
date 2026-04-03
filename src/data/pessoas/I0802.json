@@ -4,6 +4,10 @@
   "nome": "Catarina Maria dos Ramos",
   "nome_proprio": "Catarina",
   "apelido": "Maria dos Ramos",
+  "apelidos": [
+    "Maria",
+    "dos Ramos"
+  ],
   "nomes_alt": null,
   "sexo": "F",
   "nascimento": null,

@@ -4,6 +4,10 @@
   "nome": "Privado Santos Ferreira",
   "nome_proprio": "Privado",
   "apelido": "Santos Ferreira",
+  "apelidos": [
+    "Santos",
+    "Ferreira"
+  ],
   "nomes_alt": null,
   "sexo": "F",
   "nascimento": null,

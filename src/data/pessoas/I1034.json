@@ -4,6 +4,10 @@
   "nome": "Privado dos Santos Rainho",
   "nome_proprio": "Privado",
   "apelido": "dos Santos Rainho",
+  "apelidos": [
+    "dos Santos",
+    "Rainho"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": {

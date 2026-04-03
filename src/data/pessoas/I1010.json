@@ -4,6 +4,11 @@
   "nome": "Privado da Silva Rodrigues Grácio",
   "nome_proprio": "Privado",
   "apelido": "da Silva Rodrigues Grácio",
+  "apelidos": [
+    "da Silva",
+    "Rodrigues",
+    "Grácio"
+  ],
   "nomes_alt": null,
   "sexo": "F",
   "nascimento": {

@@ -4,6 +4,7 @@
   "nome": "José Marques",
   "nome_proprio": "José",
   "apelido": "Marques",
+  "apelidos": null,
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": {

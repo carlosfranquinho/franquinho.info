@@ -4,6 +4,10 @@
   "nome": "Joaquina Ferreira Rainha",
   "nome_proprio": "Joaquina",
   "apelido": "Ferreira Rainha",
+  "apelidos": [
+    "Ferreira",
+    "Rainha"
+  ],
   "nomes_alt": null,
   "sexo": "F",
   "nascimento": {

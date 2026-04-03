@@ -4,6 +4,10 @@
   "nome": "Manuel da Silva Ferreiro",
   "nome_proprio": "Manuel",
   "apelido": "da Silva Ferreiro",
+  "apelidos": [
+    "da Silva",
+    "Ferreiro"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": {

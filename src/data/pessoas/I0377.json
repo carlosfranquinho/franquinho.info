@@ -4,6 +4,10 @@
   "nome": "João Domingues Pesqueira",
   "nome_proprio": "João",
   "apelido": "Domingues Pesqueira",
+  "apelidos": [
+    "Domingues",
+    "Pesqueira"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": {

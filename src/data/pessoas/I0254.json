@@ -4,6 +4,10 @@
   "nome": "Privado da Conceição Pereira",
   "nome_proprio": "Privado",
   "apelido": "da Conceição Pereira",
+  "apelidos": [
+    "da Conceição",
+    "Pereira"
+  ],
   "nomes_alt": null,
   "sexo": "F",
   "nascimento": {

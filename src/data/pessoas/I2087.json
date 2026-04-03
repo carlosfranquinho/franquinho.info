@@ -4,6 +4,10 @@
   "nome": "Privado Cardoso Matos",
   "nome_proprio": "Privado",
   "apelido": "Cardoso Matos",
+  "apelidos": [
+    "Cardoso",
+    "Matos"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": null,

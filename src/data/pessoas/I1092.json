@@ -4,6 +4,11 @@
   "nome": "Privado Rainho Ferreira Bom",
   "nome_proprio": "Privado",
   "apelido": "Rainho Ferreira Bom",
+  "apelidos": [
+    "Rainho",
+    "Ferreira",
+    "Bom"
+  ],
   "nomes_alt": null,
   "sexo": "F",
   "nascimento": {

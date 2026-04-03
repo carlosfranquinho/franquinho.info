@@ -4,6 +4,10 @@
   "nome": "Alberto José Branco Neto",
   "nome_proprio": "Alberto José",
   "apelido": "Branco Neto",
+  "apelidos": [
+    "Branco",
+    "Neto"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": null,

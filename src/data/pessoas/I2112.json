@@ -4,6 +4,10 @@
   "nome": "Privado Baptista da Silva",
   "nome_proprio": "Privado",
   "apelido": "Baptista da Silva",
+  "apelidos": [
+    "Baptista",
+    "da Silva"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": {

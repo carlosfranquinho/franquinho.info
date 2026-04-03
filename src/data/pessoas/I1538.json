@@ -4,6 +4,10 @@
   "nome": "Privado Rodrigues de Abreu",
   "nome_proprio": "Privado",
   "apelido": "Rodrigues de Abreu",
+  "apelidos": [
+    "Rodrigues",
+    "de Abreu"
+  ],
   "nomes_alt": null,
   "sexo": "F",
   "nascimento": {

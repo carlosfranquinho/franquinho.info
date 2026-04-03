@@ -4,6 +4,10 @@
   "nome": "Privado Rodrigues de Melo",
   "nome_proprio": "Privado",
   "apelido": "Rodrigues de Melo",
+  "apelidos": [
+    "Rodrigues",
+    "de Melo"
+  ],
   "nomes_alt": null,
   "sexo": "F",
   "nascimento": {

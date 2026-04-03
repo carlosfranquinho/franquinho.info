@@ -4,6 +4,10 @@
   "nome": "Manuel Francisco Quinta",
   "nome_proprio": "Manuel",
   "apelido": "Francisco Quinta",
+  "apelidos": [
+    "Francisco",
+    "Quinta"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": {

@@ -4,6 +4,10 @@
   "nome": "Manuel Francisco Caetano",
   "nome_proprio": "Manuel",
   "apelido": "Francisco Caetano",
+  "apelidos": [
+    "Francisco",
+    "Caetano"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": {

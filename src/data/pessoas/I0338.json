@@ -4,6 +4,11 @@
   "nome": "Privado Caseiro Franquinho dos Santos",
   "nome_proprio": "Privado",
   "apelido": "Caseiro Franquinho dos Santos",
+  "apelidos": [
+    "Caseiro",
+    "Franquinho",
+    "dos Santos"
+  ],
   "nomes_alt": null,
   "sexo": "F",
   "nascimento": {

@@ -4,6 +4,10 @@
   "nome": "Privado Lopes Luís",
   "nome_proprio": "Privado",
   "apelido": "Lopes Luís",
+  "apelidos": [
+    "Lopes",
+    "Luís"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": {

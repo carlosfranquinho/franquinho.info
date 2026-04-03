@@ -4,6 +4,10 @@
   "nome": "Privado Ferreira Gil",
   "nome_proprio": "Privado",
   "apelido": "Ferreira Gil",
+  "apelidos": [
+    "Ferreira",
+    "Gil"
+  ],
   "nomes_alt": null,
   "sexo": "F",
   "nascimento": {

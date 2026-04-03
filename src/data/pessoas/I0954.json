@@ -4,6 +4,10 @@
   "nome": "Manuel Dias Rato",
   "nome_proprio": "Manuel",
   "apelido": "Dias Rato",
+  "apelidos": [
+    "Dias",
+    "Rato"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": null,

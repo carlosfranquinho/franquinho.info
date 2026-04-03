@@ -4,6 +4,11 @@
   "nome": "Rui Gaspar Rodrigues de Melo",
   "nome_proprio": "Rui",
   "apelido": "Gaspar Rodrigues de Melo",
+  "apelidos": [
+    "Gaspar",
+    "Rodrigues",
+    "de Melo"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": {

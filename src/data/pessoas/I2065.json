@@ -4,6 +4,10 @@
   "nome": "Laurinda Cardoso Neves",
   "nome_proprio": "Laurinda",
   "apelido": "Cardoso Neves",
+  "apelidos": [
+    "Cardoso",
+    "Neves"
+  ],
   "nomes_alt": null,
   "sexo": "F",
   "nascimento": null,

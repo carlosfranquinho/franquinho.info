@@ -4,6 +4,7 @@
   "nome": "João Ferreira",
   "nome_proprio": "João",
   "apelido": "Ferreira",
+  "apelidos": null,
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": {

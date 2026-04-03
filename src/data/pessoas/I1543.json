@@ -4,6 +4,10 @@
   "nome": "Isabel Maria Neto Franquinho",
   "nome_proprio": "Isabel Maria",
   "apelido": "Neto Franquinho",
+  "apelidos": [
+    "Neto",
+    "Franquinho"
+  ],
   "nomes_alt": null,
   "sexo": "F",
   "nascimento": {

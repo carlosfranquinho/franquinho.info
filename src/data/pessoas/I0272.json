@@ -4,6 +4,10 @@
   "nome": "Maria Ferreira Gonçalves",
   "nome_proprio": "Maria",
   "apelido": "Ferreira Gonçalves",
+  "apelidos": [
+    "Ferreira",
+    "Gonçalves"
+  ],
   "nomes_alt": null,
   "sexo": "F",
   "nascimento": {

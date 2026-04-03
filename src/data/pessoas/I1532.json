@@ -4,6 +4,11 @@
   "nome": "Carlos Eduardo Lisboa Freitas Aguiar",
   "nome_proprio": "Carlos Eduardo",
   "apelido": "Lisboa Freitas Aguiar",
+  "apelidos": [
+    "Lisboa",
+    "Freitas",
+    "Aguiar"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": {

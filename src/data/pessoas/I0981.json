@@ -4,6 +4,10 @@
   "nome": "Privado de Jesus Romeiro",
   "nome_proprio": "Privado",
   "apelido": "de Jesus Romeiro",
+  "apelidos": [
+    "de Jesus",
+    "Romeiro"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": {

@@ -4,6 +4,10 @@
   "nome": "José Francisco Grazina",
   "nome_proprio": "José",
   "apelido": "Francisco Grazina",
+  "apelidos": [
+    "Francisco",
+    "Grazina"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": {

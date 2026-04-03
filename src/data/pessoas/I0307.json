@@ -4,6 +4,10 @@
   "nome": "Matilde Marques Caseiro",
   "nome_proprio": "Matilde",
   "apelido": "Marques Caseiro",
+  "apelidos": [
+    "Marques",
+    "Caseiro"
+  ],
   "nomes_alt": null,
   "sexo": "F",
   "nascimento": {

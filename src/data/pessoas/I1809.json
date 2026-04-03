@@ -4,6 +4,10 @@
   "nome": "Manuel Francisco Serafino da Quinta",
   "nome_proprio": "Manuel Francisco",
   "apelido": "Serafino da Quinta",
+  "apelidos": [
+    "Serafino",
+    "da Quinta"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": null,

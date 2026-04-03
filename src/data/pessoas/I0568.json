@@ -4,6 +4,7 @@
   "nome": "José de Almada",
   "nome_proprio": "José",
   "apelido": "de Almada",
+  "apelidos": null,
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": {

@@ -4,6 +4,10 @@
   "nome": "Agostinho Francisco Rosado",
   "nome_proprio": "Agostinho",
   "apelido": "Francisco Rosado",
+  "apelidos": [
+    "Francisco",
+    "Rosado"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": {

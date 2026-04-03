@@ -4,6 +4,11 @@
   "nome": "Privado Franquinho Marques Gaspar",
   "nome_proprio": "Privado",
   "apelido": "Franquinho Marques Gaspar",
+  "apelidos": [
+    "Franquinho",
+    "Marques",
+    "Gaspar"
+  ],
   "nomes_alt": null,
   "sexo": "F",
   "nascimento": {

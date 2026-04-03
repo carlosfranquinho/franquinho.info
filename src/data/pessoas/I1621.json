@@ -4,6 +4,10 @@
   "nome": "José Ferreira Maço",
   "nome_proprio": "José",
   "apelido": "Ferreira Maço",
+  "apelidos": [
+    "Ferreira",
+    "Maço"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": null,

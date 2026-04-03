@@ -4,6 +4,10 @@
   "nome": "Privado Domingues Gonçalves",
   "nome_proprio": "Privado",
   "apelido": "Domingues Gonçalves",
+  "apelidos": [
+    "Domingues",
+    "Gonçalves"
+  ],
   "nomes_alt": null,
   "sexo": "F",
   "nascimento": {

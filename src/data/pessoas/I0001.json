@@ -4,6 +4,10 @@
   "nome": "Privado Cardoso Morgado",
   "nome_proprio": "Privado",
   "apelido": "Cardoso Morgado",
+  "apelidos": [
+    "Cardoso",
+    "Morgado"
+  ],
   "nomes_alt": null,
   "sexo": "F",
   "nascimento": {

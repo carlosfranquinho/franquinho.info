@@ -4,6 +4,10 @@
   "nome": "Emília Tomé Pelariga",
   "nome_proprio": "Emília",
   "apelido": "Tomé Pelariga",
+  "apelidos": [
+    "Tomé",
+    "Pelariga"
+  ],
   "nomes_alt": null,
   "sexo": "F",
   "nascimento": null,

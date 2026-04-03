@@ -4,6 +4,10 @@
   "nome": "Privado Duarte Gaspar",
   "nome_proprio": "Privado",
   "apelido": "Duarte Gaspar",
+  "apelidos": [
+    "Duarte",
+    "Gaspar"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": {

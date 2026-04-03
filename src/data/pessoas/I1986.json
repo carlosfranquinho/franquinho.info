@@ -4,6 +4,7 @@
   "nome": "Maria Clara",
   "nome_proprio": "Maria",
   "apelido": "Clara",
+  "apelidos": null,
   "nomes_alt": null,
   "sexo": "F",
   "nascimento": {

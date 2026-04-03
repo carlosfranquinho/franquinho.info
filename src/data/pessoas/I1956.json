@@ -4,6 +4,10 @@
   "nome": "João Fernandes de Almeida",
   "nome_proprio": "João",
   "apelido": "Fernandes de Almeida",
+  "apelidos": [
+    "Fernandes",
+    "de Almeida"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": {

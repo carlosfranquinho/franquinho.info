@@ -4,6 +4,10 @@
   "nome": "Maria Domingues de Jesus",
   "nome_proprio": "Maria",
   "apelido": "Domingues de Jesus",
+  "apelidos": [
+    "Domingues",
+    "de Jesus"
+  ],
   "nomes_alt": null,
   "sexo": "F",
   "nascimento": {

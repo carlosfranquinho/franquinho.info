@@ -4,6 +4,10 @@
   "nome": "Manuel Francisco Leirião",
   "nome_proprio": "Manuel",
   "apelido": "Francisco Leirião",
+  "apelidos": [
+    "Francisco",
+    "Leirião"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": {

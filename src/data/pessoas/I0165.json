@@ -4,6 +4,10 @@
   "nome": "Manuel dos Santos Cabral",
   "nome_proprio": "Manuel",
   "apelido": "dos Santos Cabral",
+  "apelidos": [
+    "dos Santos",
+    "Cabral"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": {

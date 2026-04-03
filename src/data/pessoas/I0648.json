@@ -4,6 +4,11 @@
   "nome": "Privado Sintra Rodrigues Romeiro",
   "nome_proprio": "Privado",
   "apelido": "Sintra Rodrigues Romeiro",
+  "apelidos": [
+    "Sintra",
+    "Rodrigues",
+    "Romeiro"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": {

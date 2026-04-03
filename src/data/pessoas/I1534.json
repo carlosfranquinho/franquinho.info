@@ -4,6 +4,11 @@
   "nome": "Privado Freitas Franquinho Aguiar",
   "nome_proprio": "Privado",
   "apelido": "Freitas Franquinho Aguiar",
+  "apelidos": [
+    "Freitas",
+    "Franquinho",
+    "Aguiar"
+  ],
   "nomes_alt": null,
   "sexo": "F",
   "nascimento": {

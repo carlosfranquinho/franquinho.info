@@ -4,6 +4,10 @@
   "nome": "José Pereira Nobre",
   "nome_proprio": "José",
   "apelido": "Pereira Nobre",
+  "apelidos": [
+    "Pereira",
+    "Nobre"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": {

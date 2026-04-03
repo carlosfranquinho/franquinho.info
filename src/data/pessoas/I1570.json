@@ -4,6 +4,10 @@
   "nome": "António Rodrigues Penedo",
   "nome_proprio": "António",
   "apelido": "Rodrigues Penedo",
+  "apelidos": [
+    "Rodrigues",
+    "Penedo"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": null,

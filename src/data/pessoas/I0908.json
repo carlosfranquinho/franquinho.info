@@ -4,6 +4,10 @@
   "nome": "António Francisco Sintra",
   "nome_proprio": "António",
   "apelido": "Francisco Sintra",
+  "apelidos": [
+    "Francisco",
+    "Sintra"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": {

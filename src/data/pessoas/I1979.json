@@ -4,6 +4,10 @@
   "nome": "António Ferreira Barbeiro",
   "nome_proprio": "António",
   "apelido": "Ferreira Barbeiro",
+  "apelidos": [
+    "Ferreira",
+    "Barbeiro"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": null,

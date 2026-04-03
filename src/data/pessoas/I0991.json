@@ -4,6 +4,10 @@
   "nome": "Paulo Jorge Franquinho Tomás",
   "nome_proprio": "Paulo Jorge",
   "apelido": "Franquinho Tomás",
+  "apelidos": [
+    "Franquinho",
+    "Tomás"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": {

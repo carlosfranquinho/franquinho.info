@@ -4,6 +4,10 @@
   "nome": "Artur Matias Gonçalves",
   "nome_proprio": "Artur",
   "apelido": "Matias Gonçalves",
+  "apelidos": [
+    "Matias",
+    "Gonçalves"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": {

@@ -4,6 +4,10 @@
   "nome": "Maria Marques de Abreu",
   "nome_proprio": "Maria",
   "apelido": "Marques de Abreu",
+  "apelidos": [
+    "Marques",
+    "de Abreu"
+  ],
   "nomes_alt": null,
   "sexo": "F",
   "nascimento": null,

@@ -4,6 +4,7 @@
   "nome": "Rosa dos Santos",
   "nome_proprio": "Rosa",
   "apelido": "dos Santos",
+  "apelidos": null,
   "nomes_alt": null,
   "sexo": "F",
   "nascimento": {

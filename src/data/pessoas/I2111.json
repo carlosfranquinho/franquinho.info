@@ -4,6 +4,10 @@
   "nome": "Privado da Silva Gil",
   "nome_proprio": "Privado",
   "apelido": "da Silva Gil",
+  "apelidos": [
+    "da Silva",
+    "Gil"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": null,

@@ -4,6 +4,10 @@
   "nome": "Simão Francisco Rebelo",
   "nome_proprio": "Simão",
   "apelido": "Francisco Rebelo",
+  "apelidos": [
+    "Francisco",
+    "Rebelo"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": null,

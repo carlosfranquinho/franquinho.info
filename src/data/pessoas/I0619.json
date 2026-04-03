@@ -4,6 +4,10 @@
   "nome": "Jacinto Rodrigues Romeiro",
   "nome_proprio": "Jacinto",
   "apelido": "Rodrigues Romeiro",
+  "apelidos": [
+    "Rodrigues",
+    "Romeiro"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": {

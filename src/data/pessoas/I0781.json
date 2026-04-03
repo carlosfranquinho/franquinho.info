@@ -4,6 +4,7 @@
   "nome": "João da Silva",
   "nome_proprio": "João",
   "apelido": "da Silva",
+  "apelidos": null,
   "nomes_alt": [
     {
       "tipo": "Also Known As",

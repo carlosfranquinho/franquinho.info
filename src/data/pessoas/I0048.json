@@ -4,6 +4,10 @@
   "nome": "Ana Jacinta Rosa",
   "nome_proprio": "Ana",
   "apelido": "Jacinta Rosa",
+  "apelidos": [
+    "Jacinta",
+    "Rosa"
+  ],
   "nomes_alt": [
     {
       "tipo": "Married Name",

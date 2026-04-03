@@ -4,6 +4,10 @@
   "nome": "Amado Rodrigues Grácio",
   "nome_proprio": "Amado",
   "apelido": "Rodrigues Grácio",
+  "apelidos": [
+    "Rodrigues",
+    "Grácio"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": null,

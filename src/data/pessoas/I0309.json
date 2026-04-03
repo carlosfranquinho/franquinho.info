@@ -4,6 +4,10 @@
   "nome": "Privado Caseiro Gonçalves",
   "nome_proprio": "Privado",
   "apelido": "Caseiro Gonçalves",
+  "apelidos": [
+    "Caseiro",
+    "Gonçalves"
+  ],
   "nomes_alt": null,
   "sexo": "F",
   "nascimento": {

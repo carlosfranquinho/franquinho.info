@@ -4,6 +4,10 @@
   "nome": "António Marques Fernandes",
   "nome_proprio": "António",
   "apelido": "Marques Fernandes",
+  "apelidos": [
+    "Marques",
+    "Fernandes"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": {

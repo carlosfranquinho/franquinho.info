@@ -4,6 +4,10 @@
   "nome": "Francisco de Almeida Forreta",
   "nome_proprio": "Francisco",
   "apelido": "de Almeida Forreta",
+  "apelidos": [
+    "de Almeida",
+    "Forreta"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": null,

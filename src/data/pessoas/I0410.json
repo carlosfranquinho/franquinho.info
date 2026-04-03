@@ -4,6 +4,10 @@
   "nome": "Joaquim Duarte Matheos",
   "nome_proprio": "Joaquim",
   "apelido": "Duarte Matheos",
+  "apelidos": [
+    "Duarte",
+    "Matheos"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": null,

@@ -4,6 +4,10 @@
   "nome": "Manuel Ferreira Morganisso",
   "nome_proprio": "Manuel",
   "apelido": "Ferreira Morganisso",
+  "apelidos": [
+    "Ferreira",
+    "Morganisso"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": {

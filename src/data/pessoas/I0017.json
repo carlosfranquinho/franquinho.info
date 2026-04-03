@@ -4,6 +4,10 @@
   "nome": "Urbano Joaquim Leal",
   "nome_proprio": "Urbano",
   "apelido": "Joaquim Leal",
+  "apelidos": [
+    "Joaquim",
+    "Leal"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": {

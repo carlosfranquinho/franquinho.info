@@ -4,6 +4,10 @@
   "nome": "Manuel Fernandes Carreira",
   "nome_proprio": "Manuel",
   "apelido": "Fernandes Carreira",
+  "apelidos": [
+    "Fernandes",
+    "Carreira"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": null,

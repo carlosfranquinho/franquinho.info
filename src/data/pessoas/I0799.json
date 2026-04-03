@@ -4,6 +4,10 @@
   "nome": "Manuel Dias Fazendeiro",
   "nome_proprio": "Manuel",
   "apelido": "Dias Fazendeiro",
+  "apelidos": [
+    "Dias",
+    "Fazendeiro"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": {

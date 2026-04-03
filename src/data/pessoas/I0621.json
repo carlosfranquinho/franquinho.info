@@ -4,6 +4,10 @@
   "nome": "Joaquim Rodrigues Romeiro",
   "nome_proprio": "Joaquim",
   "apelido": "Rodrigues Romeiro",
+  "apelidos": [
+    "Rodrigues",
+    "Romeiro"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": {

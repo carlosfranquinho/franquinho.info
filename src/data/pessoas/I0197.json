@@ -4,6 +4,10 @@
   "nome": "António Francisco dos Rios",
   "nome_proprio": "António",
   "apelido": "Francisco dos Rios",
+  "apelidos": [
+    "Francisco",
+    "dos Rios"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": null,

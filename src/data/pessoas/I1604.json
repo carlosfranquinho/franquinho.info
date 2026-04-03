@@ -4,6 +4,10 @@
   "nome": "Felisbela Cardoso Morgado",
   "nome_proprio": "Felisbela",
   "apelido": "Cardoso Morgado",
+  "apelidos": [
+    "Cardoso",
+    "Morgado"
+  ],
   "nomes_alt": null,
   "sexo": "F",
   "nascimento": {

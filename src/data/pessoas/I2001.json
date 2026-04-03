@@ -4,6 +4,10 @@
   "nome": "Estevão Pedro Fernandes",
   "nome_proprio": "Estevão",
   "apelido": "Pedro Fernandes",
+  "apelidos": [
+    "Pedro",
+    "Fernandes"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": {

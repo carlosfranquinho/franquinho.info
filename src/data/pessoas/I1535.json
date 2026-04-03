@@ -4,6 +4,10 @@
   "nome": "Privado Moniz Abreu",
   "nome_proprio": "Privado",
   "apelido": "Moniz Abreu",
+  "apelidos": [
+    "Moniz",
+    "Abreu"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": {

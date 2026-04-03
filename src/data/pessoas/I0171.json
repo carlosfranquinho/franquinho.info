@@ -4,6 +4,10 @@
   "nome": "Agostinho Cardoso Rolo",
   "nome_proprio": "Agostinho",
   "apelido": "Cardoso Rolo",
+  "apelidos": [
+    "Cardoso",
+    "Rolo"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": {

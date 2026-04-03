@@ -4,6 +4,10 @@
   "nome": "Privado Queirós Gaspar",
   "nome_proprio": "Privado",
   "apelido": "Queirós Gaspar",
+  "apelidos": [
+    "Queirós",
+    "Gaspar"
+  ],
   "nomes_alt": null,
   "sexo": "F",
   "nascimento": {

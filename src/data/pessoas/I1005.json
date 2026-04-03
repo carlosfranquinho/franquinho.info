@@ -4,6 +4,10 @@
   "nome": "Maria Laurinda da Costa",
   "nome_proprio": "Maria",
   "apelido": "Laurinda da Costa",
+  "apelidos": [
+    "Laurinda",
+    "da Costa"
+  ],
   "nomes_alt": null,
   "sexo": "F",
   "nascimento": null,

@@ -4,6 +4,10 @@
   "nome": "Mariana Francisca Cardosa",
   "nome_proprio": "Mariana",
   "apelido": "Francisca Cardosa",
+  "apelidos": [
+    "Francisca",
+    "Cardosa"
+  ],
   "nomes_alt": null,
   "sexo": "F",
   "nascimento": null,

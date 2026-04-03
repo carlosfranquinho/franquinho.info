@@ -4,6 +4,11 @@
   "nome": "Privado Gaspar Vicente Ribeiro",
   "nome_proprio": "Privado",
   "apelido": "Gaspar Vicente Ribeiro",
+  "apelidos": [
+    "Gaspar",
+    "Vicente",
+    "Ribeiro"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": null,

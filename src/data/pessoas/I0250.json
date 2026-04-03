@@ -4,6 +4,10 @@
   "nome": "Nicholas Antonio Luis",
   "nome_proprio": "Nicholas",
   "apelido": "Antonio Luis",
+  "apelidos": [
+    "Antonio",
+    "Luis"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": {

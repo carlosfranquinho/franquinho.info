@@ -4,6 +4,10 @@
   "nome": "João Fernandes Pisco",
   "nome_proprio": "João",
   "apelido": "Fernandes Pisco",
+  "apelidos": [
+    "Fernandes",
+    "Pisco"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": null,

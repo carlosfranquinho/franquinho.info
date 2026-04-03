@@ -4,6 +4,10 @@
   "nome": "João Domingues Leirião",
   "nome_proprio": "João",
   "apelido": "Domingues Leirião",
+  "apelidos": [
+    "Domingues",
+    "Leirião"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": {

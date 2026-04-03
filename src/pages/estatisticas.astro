@@ -215,10 +215,15 @@ for (const f of todasFamilias) {
 
 const apelidosCount: Record<string, number> = {};
 for (const p of todasPessoas) {
-  if (p.apelido) apelidosCount[p.apelido] = (apelidosCount[p.apelido] ?? 0) + 1;
+  const lista = p.apelidos?.length ? p.apelidos : (p.apelido ? [p.apelido] : []);
+  for (const ap of lista) {
+    apelidosCount[ap] = (apelidosCount[ap] ?? 0) + 1;
+  }
 }
-const topApelidos = Object.entries(apelidosCount).sort((a, b) => b[1] - a[1]).slice(0, 12);
+const todosApelidos = Object.entries(apelidosCount).sort((a, b) => b[1] - a[1]);
+const topApelidos = todosApelidos.slice(0, 12);
 const maxApelido = topApelidos[0]?.[1] ?? 1;
+const minApelido = todosApelidos[todosApelidos.length - 1]?.[1] ?? 1;
 
 // ─── Nomes próprios mais comuns (por sexo) ────────────────────────────────────
 
@@ -229,8 +234,10 @@ for (const p of todasPessoas) {
   if (p.sexo === 'M') nomesPropriosM[p.nome_proprio] = (nomesPropriosM[p.nome_proprio] ?? 0) + 1;
   else if (p.sexo === 'F') nomesPropriosF[p.nome_proprio] = (nomesPropriosF[p.nome_proprio] ?? 0) + 1;
 }
-const topNomesM = Object.entries(nomesPropriosM).sort((a, b) => b[1] - a[1]).slice(0, 10);
-const topNomesF = Object.entries(nomesPropriosF).sort((a, b) => b[1] - a[1]).slice(0, 10);
+const todosNomesM = Object.entries(nomesPropriosM).sort((a, b) => b[1] - a[1]);
+const todosNomesF = Object.entries(nomesPropriosF).sort((a, b) => b[1] - a[1]);
+const topNomesM = todosNomesM.slice(0, 10);
+const topNomesF = todosNomesF.slice(0, 10);
 const maxNomeM = topNomesM[0]?.[1] ?? 1;
 const maxNomeF = topNomesF[0]?.[1] ?? 1;
 
@@ -677,8 +684,16 @@ const pessoasComFoto = todasPessoas.filter((p) => p.media && p.media.length > 0)
 
     <!-- Apelidos mais comuns -->
     <div class="bg-white border border-stone-200 rounded-xl p-6 mb-10">
-      <h2 class="text-lg font-semibold text-stone-700 mb-5">Apelidos mais comuns</h2>
-      <div class="flex flex-col gap-2">
+      <div class="flex items-center justify-between mb-5">
+        <h2 class="text-lg font-semibold text-stone-700">Apelidos mais comuns</h2>
+        <div class="flex rounded-lg border border-stone-200 overflow-hidden text-xs">
+          <button id="btn-barras" onclick="mostrarBarras()" class="px-3 py-1.5 bg-amber-50 text-amber-700 font-medium transition-colors">Barras</button>
+          <button id="btn-nuvem"  onclick="mostrarNuvem()"  class="px-3 py-1.5 text-stone-500 hover:bg-stone-50 transition-colors">Nuvem</button>
+        </div>
+      </div>
+
+      <!-- Vista: barras (top 12) -->
+      <div id="apelidos-barras" class="flex flex-col gap-2">
         {topApelidos.map(([apelido, count]) => (
           <div class="flex items-center gap-3 text-sm">
             <span class="w-32 truncate text-stone-700 font-medium">{apelido}</span>
@@ -689,7 +704,107 @@ const pessoasComFoto = todasPessoas.filter((p) => p.media && p.media.length > 0)
           </div>
         ))}
       </div>
+
+      <!-- Vista: nuvem (canvas) -->
+      <div id="apelidos-nuvem" class="hidden">
+        <canvas id="canvas-apelidos" style="width:100%;height:360px;display:block"></canvas>
+      </div>
     </div>
+
+    <!-- Dados JSON para nuvens -->
+    <script id="dados-nuvem-apelidos" type="application/json" set:html={JSON.stringify(todosApelidos)}></script>
+    <script id="dados-nuvem-nomesM"   type="application/json" set:html={JSON.stringify(todosNomesM)}></script>
+    <script id="dados-nuvem-nomesF"   type="application/json" set:html={JSON.stringify(todosNomesF)}></script>
+
+    <script is:inline>
+      /* ── Utilitário de toggle ─────────────────────────────── */
+      function toggleVista(prefixo, vista) {
+        const isNuvem = vista === 'nuvem';
+        const barrasEl = document.getElementById(prefixo + '-barras');
+        const nuvemEl  = document.getElementById(prefixo + '-nuvem');
+        const btnB = document.getElementById('btn-' + prefixo + '-barras');
+        const btnN = document.getElementById('btn-' + prefixo + '-nuvem');
+        if (barrasEl) barrasEl.classList.toggle('hidden', isNuvem);
+        if (nuvemEl)  nuvemEl.classList.toggle('hidden', !isNuvem);
+        if (btnB) { btnB.classList.toggle('bg-amber-50', !isNuvem); btnB.classList.toggle('text-amber-700', !isNuvem); btnB.classList.toggle('font-medium', !isNuvem); btnB.classList.toggle('text-stone-500', isNuvem); }
+        if (btnN) { btnN.classList.toggle('bg-amber-50', isNuvem);  btnN.classList.toggle('text-amber-700', isNuvem);  btnN.classList.toggle('font-medium', isNuvem);  btnN.classList.toggle('text-stone-500', !isNuvem); }
+        if (isNuvem) {
+          const canvasId = 'canvas-' + prefixo;
+          const dadosId  = 'dados-nuvem-' + prefixo;
+          const palavras = JSON.parse(document.getElementById(dadosId)?.textContent || '[]');
+          const paleta   = prefixo === 'nomesM'
+            ? function(t) { return t > 0.65 ? '#1d4ed8' : t > 0.35 ? '#3b82f6' : t > 0.12 ? '#60a5fa' : '#bfdbfe'; }
+            : prefixo === 'nomesF'
+            ? function(t) { return t > 0.65 ? '#be123c' : t > 0.35 ? '#f43f5e' : t > 0.12 ? '#fb7185' : '#fecdd3'; }
+            : function(t) { return t > 0.65 ? '#b45309' : t > 0.35 ? '#d97706' : t > 0.12 ? '#f59e0b' : '#a8a29e'; };
+          requestAnimationFrame(function() { desenharNuvem(canvasId, palavras, paleta); });
+        }
+      }
+
+      /* ── Algoritmo de espiral ─────────────────────────────── */
+      function desenharNuvem(canvasId, palavras, paleta) {
+        var canvas = document.getElementById(canvasId);
+        if (!canvas || !palavras.length) return;
+        var dpr = window.devicePixelRatio || 1;
+        var cssW = canvas.offsetWidth;
+        var cssH = parseInt(canvas.style.height) || 360;
+        canvas.width  = cssW * dpr;
+        canvas.height = cssH * dpr;
+        canvas.style.height = cssH + 'px';
+        var ctx = canvas.getContext('2d');
+        ctx.scale(dpr, dpr);
+        ctx.clearRect(0, 0, cssW, cssH);
+
+        var W = cssW, H = cssH;
+        var max = palavras[0][1], min = palavras[palavras.length - 1][1];
+        var range = max - min || 1;
+        var placed = [];
+
+        for (var wi = 0; wi < palavras.length; wi++) {
+          var palavra = palavras[wi][0], count = palavras[wi][1];
+          var t = (count - min) / range;
+          var size = Math.round(12 + t * 34);
+          var weight = t > 0.5 ? 'bold' : '500';
+          ctx.font = weight + ' ' + size + 'px system-ui,sans-serif';
+          var tw = ctx.measureText(palavra).width;
+          var th = size;
+          var cor = paleta(t);
+          var ok = false;
+          var maxR = Math.sqrt(W * W + H * H) / 2;
+
+          for (var r = 0; r <= maxR && !ok; r += (r < 40 ? 1 : 3)) {
+            var nA = r < 2 ? 1 : Math.max(6, Math.round(2 * Math.PI * r / 14));
+            var offset = (wi * 2.399); /* ângulo dourado entre palavras */
+            for (var ai = 0; ai < nA && !ok; ai++) {
+              var angle = offset + (ai / nA) * 2 * Math.PI;
+              var cx = W / 2 + r * Math.cos(angle) - tw / 2;
+              var cy = H / 2 + r * Math.sin(angle) - th / 2;
+              if (cx < 2 || cy < 2 || cx + tw > W - 2 || cy + th > H - 2) continue;
+              var col = false;
+              for (var pi = 0; pi < placed.length; pi++) {
+                var p = placed[pi];
+                if (cx < p.x + p.w + 5 && cx + tw + 5 > p.x && cy < p.y + p.h + 4 && cy + th + 4 > p.y) { col = true; break; }
+              }
+              if (!col) {
+                ctx.fillStyle = cor;
+                ctx.font = weight + ' ' + size + 'px system-ui,sans-serif';
+                ctx.fillText(palavra, cx, cy + th);
+                placed.push({ x: cx, y: cy, w: tw, h: th });
+                ok = true;
+              }
+            }
+          }
+        }
+      }
+
+      /* Atalhos chamados pelos botões */
+      function mostrarBarras()      { toggleVista('apelidos', 'barras'); }
+      function mostrarNuvem()       { toggleVista('apelidos', 'nuvem'); }
+      function mostrarBarrasNomesM(){ toggleVista('nomesM', 'barras'); }
+      function mostrarNuvemNomesM() { toggleVista('nomesM', 'nuvem'); }
+      function mostrarBarrasNomesF(){ toggleVista('nomesF', 'barras'); }
+      function mostrarNuvemNomesF() { toggleVista('nomesF', 'nuvem'); }
+    </script>
 
     <!-- Nomes próprios mais comuns por sexo -->
     <div class="mb-10">
@@ -697,47 +812,69 @@ const pessoasComFoto = todasPessoas.filter((p) => p.media && p.media.length > 0)
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 
         <div class="bg-white border border-stone-200 rounded-xl p-6">
-          <h3 class="text-sm font-semibold uppercase tracking-wide text-blue-700 mb-4 flex items-center gap-2">
-            <span class="w-2.5 h-2.5 rounded-full bg-blue-500 inline-block"></span>
-            Homens
-          </h3>
-          {topNomesM.length > 0 ? (
-            <div class="flex flex-col gap-2">
-              {topNomesM.map(([nome, count]) => (
-                <div class="flex items-center gap-3 text-sm">
-                  <span class="w-28 truncate text-stone-700 font-medium">{nome}</span>
-                  <div class="flex-1 bg-stone-100 rounded-full h-4 overflow-hidden">
-                    <div class="h-full bg-blue-400 rounded-full" style={`width: ${Math.round((count / maxNomeM) * 100)}%`} />
-                  </div>
-                  <span class="w-6 text-right text-stone-500">{count}</span>
-                </div>
-              ))}
+          <div class="flex items-center justify-between mb-4">
+            <h3 class="text-sm font-semibold uppercase tracking-wide text-blue-700 flex items-center gap-2">
+              <span class="w-2.5 h-2.5 rounded-full bg-blue-500 inline-block"></span>
+              Homens
+            </h3>
+            <div class="flex rounded-lg border border-stone-200 overflow-hidden text-xs">
+              <button id="btn-nomesM-barras" onclick="mostrarBarrasNomesM()" class="px-3 py-1.5 bg-amber-50 text-amber-700 font-medium transition-colors">Barras</button>
+              <button id="btn-nomesM-nuvem"  onclick="mostrarNuvemNomesM()"  class="px-3 py-1.5 text-stone-500 hover:bg-stone-50 transition-colors">Nuvem</button>
             </div>
-          ) : (
-            <p class="text-stone-400 text-sm">Sem dados.</p>
-          )}
+          </div>
+          <div id="nomesM-barras">
+            {topNomesM.length > 0 ? (
+              <div class="flex flex-col gap-2">
+                {topNomesM.map(([nome, count]) => (
+                  <div class="flex items-center gap-3 text-sm">
+                    <span class="w-28 truncate text-stone-700 font-medium">{nome}</span>
+                    <div class="flex-1 bg-stone-100 rounded-full h-4 overflow-hidden">
+                      <div class="h-full bg-blue-400 rounded-full" style={`width: ${Math.round((count / maxNomeM) * 100)}%`} />
+                    </div>
+                    <span class="w-6 text-right text-stone-500">{count}</span>
+                  </div>
+                ))}
+              </div>
+            ) : (
+              <p class="text-stone-400 text-sm">Sem dados.</p>
+            )}
+          </div>
+          <div id="nomesM-nuvem" class="hidden">
+            <canvas id="canvas-nomesM" style="width:100%;height:280px;display:block"></canvas>
+          </div>
         </div>
 
         <div class="bg-white border border-stone-200 rounded-xl p-6">
-          <h3 class="text-sm font-semibold uppercase tracking-wide text-rose-700 mb-4 flex items-center gap-2">
-            <span class="w-2.5 h-2.5 rounded-full bg-rose-500 inline-block"></span>
-            Mulheres
-          </h3>
-          {topNomesF.length > 0 ? (
-            <div class="flex flex-col gap-2">
-              {topNomesF.map(([nome, count]) => (
-                <div class="flex items-center gap-3 text-sm">
-                  <span class="w-28 truncate text-stone-700 font-medium">{nome}</span>
-                  <div class="flex-1 bg-stone-100 rounded-full h-4 overflow-hidden">
-                    <div class="h-full bg-rose-400 rounded-full" style={`width: ${Math.round((count / maxNomeF) * 100)}%`} />
-                  </div>
-                  <span class="w-6 text-right text-stone-500">{count}</span>
-                </div>
-              ))}
+          <div class="flex items-center justify-between mb-4">
+            <h3 class="text-sm font-semibold uppercase tracking-wide text-rose-700 flex items-center gap-2">
+              <span class="w-2.5 h-2.5 rounded-full bg-rose-500 inline-block"></span>
+              Mulheres
+            </h3>
+            <div class="flex rounded-lg border border-stone-200 overflow-hidden text-xs">
+              <button id="btn-nomesF-barras" onclick="mostrarBarrasNomesF()" class="px-3 py-1.5 bg-amber-50 text-amber-700 font-medium transition-colors">Barras</button>
+              <button id="btn-nomesF-nuvem"  onclick="mostrarNuvemNomesF()"  class="px-3 py-1.5 text-stone-500 hover:bg-stone-50 transition-colors">Nuvem</button>
             </div>
-          ) : (
-            <p class="text-stone-400 text-sm">Sem dados.</p>
-          )}
+          </div>
+          <div id="nomesF-barras">
+            {topNomesF.length > 0 ? (
+              <div class="flex flex-col gap-2">
+                {topNomesF.map(([nome, count]) => (
+                  <div class="flex items-center gap-3 text-sm">
+                    <span class="w-28 truncate text-stone-700 font-medium">{nome}</span>
+                    <div class="flex-1 bg-stone-100 rounded-full h-4 overflow-hidden">
+                      <div class="h-full bg-rose-400 rounded-full" style={`width: ${Math.round((count / maxNomeF) * 100)}%`} />
+                    </div>
+                    <span class="w-6 text-right text-stone-500">{count}</span>
+                  </div>
+                ))}
+              </div>
+            ) : (
+              <p class="text-stone-400 text-sm">Sem dados.</p>
+            )}
+          </div>
+          <div id="nomesF-nuvem" class="hidden">
+            <canvas id="canvas-nomesF" style="width:100%;height:280px;display:block"></canvas>
+          </div>
         </div>
 
       </div>

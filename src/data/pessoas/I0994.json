@@ -4,6 +4,10 @@
   "nome": "Privado Inácio Pedrosa",
   "nome_proprio": "Privado",
   "apelido": "Inácio Pedrosa",
+  "apelidos": [
+    "Inácio",
+    "Pedrosa"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": {

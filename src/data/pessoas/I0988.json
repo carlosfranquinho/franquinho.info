@@ -4,6 +4,10 @@
   "nome": "Privado Pelerigo Tomás",
   "nome_proprio": "Privado",
   "apelido": "Pelerigo Tomás",
+  "apelidos": [
+    "Pelerigo",
+    "Tomás"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": {

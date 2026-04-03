@@ -4,6 +4,10 @@
   "nome": "António Rodrigues Pimenta",
   "nome_proprio": "António",
   "apelido": "Rodrigues Pimenta",
+  "apelidos": [
+    "Rodrigues",
+    "Pimenta"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": null,

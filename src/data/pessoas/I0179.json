@@ -4,6 +4,10 @@
   "nome": "Manuel Joaquim Leal",
   "nome_proprio": "Manuel",
   "apelido": "Joaquim Leal",
+  "apelidos": [
+    "Joaquim",
+    "Leal"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": {

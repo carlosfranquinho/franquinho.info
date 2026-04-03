@@ -4,6 +4,11 @@
   "nome": "Privado Fonseca Rodrigues Grácio",
   "nome_proprio": "Privado",
   "apelido": "Fonseca Rodrigues Grácio",
+  "apelidos": [
+    "Fonseca",
+    "Rodrigues",
+    "Grácio"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": {

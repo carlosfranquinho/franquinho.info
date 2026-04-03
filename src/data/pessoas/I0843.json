@@ -4,6 +4,10 @@
   "nome": "António Manuel Lourenço",
   "nome_proprio": "António",
   "apelido": "Manuel Lourenço",
+  "apelidos": [
+    "Manuel",
+    "Lourenço"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": {

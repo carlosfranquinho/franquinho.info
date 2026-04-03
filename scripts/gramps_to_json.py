@@ -361,17 +361,18 @@ def converter_pessoa(person_el, mapas, namespace):
             partes_apelido.append(parte)
             if atrib(sur, 'prim', '0') == '1' or prim_apelido is None:
                 prim_apelido = parte
-        return ' '.join(partes_apelido) if partes_apelido else None, prim_apelido
+        return ' '.join(partes_apelido) if partes_apelido else None, prim_apelido, partes_apelido
 
     # Nome principal
     nome_el = person_el.find(ns('name', namespace))
     nome_completo = None
     nome_proprio = None
     apelido = None
+    apelidos_lista: list = []
     if nome_el is not None:
         primeiro_el = nome_el.find(ns('first', namespace))
         nome_proprio = primeiro_el.text.strip() if primeiro_el is not None and primeiro_el.text else None
-        apelido, _ = parse_apelidos(nome_el)
+        apelido, _, apelidos_lista = parse_apelidos(nome_el)
         partes = [p for p in [nome_proprio, apelido] if p]
         nome_completo = ' '.join(partes) if partes else None
 
@@ -381,7 +382,7 @@ def converter_pessoa(person_el, mapas, namespace):
         tipo_nome = atrib(nome_alt_el, 'type', '')
         if tipo_nome and tipo_nome != 'Birth Name':
             primeiro_el = nome_alt_el.find(ns('first', namespace))
-            apelido_alt, _ = parse_apelidos(nome_alt_el)
+            apelido_alt, _, _ = parse_apelidos(nome_alt_el)
             partes = []
             if primeiro_el is not None and primeiro_el.text:
                 partes.append(primeiro_el.text.strip())
@@ -484,6 +485,7 @@ def converter_pessoa(person_el, mapas, namespace):
         'nome': nome_completo,
         'nome_proprio': nome_proprio,
         'apelido': apelido,
+        'apelidos': apelidos_lista if len(apelidos_lista) > 1 else None,
         'nomes_alt': nomes_alt or None,
         'sexo': sexo,
         'nascimento': {'data': data_nasc, 'lugar_id': lugar_nasc_id} if data_nasc or lugar_nasc_id else None,

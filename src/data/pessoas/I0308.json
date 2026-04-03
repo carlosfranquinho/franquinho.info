@@ -4,6 +4,10 @@
   "nome": "Luís José Caseiro Gonçalves",
   "nome_proprio": "Luís José",
   "apelido": "Caseiro Gonçalves",
+  "apelidos": [
+    "Caseiro",
+    "Gonçalves"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": null,

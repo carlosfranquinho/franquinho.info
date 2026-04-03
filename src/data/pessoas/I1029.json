@@ -4,6 +4,10 @@
   "nome": "Privado de Jesus Duarte",
   "nome_proprio": "Privado",
   "apelido": "de Jesus Duarte",
+  "apelidos": [
+    "de Jesus",
+    "Duarte"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": {

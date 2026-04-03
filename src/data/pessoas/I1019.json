@@ -4,6 +4,10 @@
   "nome": "Privado Jorge Vieira",
   "nome_proprio": "Privado",
   "apelido": "Jorge Vieira",
+  "apelidos": [
+    "Jorge",
+    "Vieira"
+  ],
   "nomes_alt": null,
   "sexo": "F",
   "nascimento": {

@@ -4,6 +4,10 @@
   "nome": "Teresa Maria de Jesus",
   "nome_proprio": "Teresa",
   "apelido": "Maria de Jesus",
+  "apelidos": [
+    "Maria",
+    "de Jesus"
+  ],
   "nomes_alt": null,
   "sexo": "F",
   "nascimento": {

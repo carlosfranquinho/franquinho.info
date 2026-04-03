@@ -4,6 +4,10 @@
   "nome": "Manuel Francisco Pedrosa",
   "nome_proprio": "Manuel",
   "apelido": "Francisco Pedrosa",
+  "apelidos": [
+    "Francisco",
+    "Pedrosa"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": {

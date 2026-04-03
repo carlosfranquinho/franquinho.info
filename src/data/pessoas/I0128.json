@@ -4,6 +4,10 @@
   "nome": "Catarina Martins Apella (?)",
   "nome_proprio": "Catarina",
   "apelido": "Martins Apella (?)",
+  "apelidos": [
+    "Martins",
+    "Apella (?)"
+  ],
   "nomes_alt": null,
   "sexo": "F",
   "nascimento": null,

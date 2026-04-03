@@ -4,6 +4,10 @@
   "nome": "Privado Gonçalves Couto",
   "nome_proprio": "Privado",
   "apelido": "Gonçalves Couto",
+  "apelidos": [
+    "Gonçalves",
+    "Couto"
+  ],
   "nomes_alt": null,
   "sexo": "F",
   "nascimento": {

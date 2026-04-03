@@ -4,6 +4,10 @@
   "nome": "Privado Vieira da Silva",
   "nome_proprio": "Privado",
   "apelido": "Vieira da Silva",
+  "apelidos": [
+    "Vieira",
+    "da Silva"
+  ],
   "nomes_alt": null,
   "sexo": "F",
   "nascimento": {

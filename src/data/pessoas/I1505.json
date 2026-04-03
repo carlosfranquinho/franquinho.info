@@ -4,6 +4,10 @@
   "nome": "António da Costa Rico",
   "nome_proprio": "António",
   "apelido": "da Costa Rico",
+  "apelidos": [
+    "da Costa",
+    "Rico"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": {

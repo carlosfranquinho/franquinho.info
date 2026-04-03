@@ -4,6 +4,10 @@
   "nome": "Manuel Leal Salvador",
   "nome_proprio": "Manuel",
   "apelido": "Leal Salvador",
+  "apelidos": [
+    "Leal",
+    "Salvador"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": null,

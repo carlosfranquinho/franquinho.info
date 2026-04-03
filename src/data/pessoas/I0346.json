@@ -4,6 +4,10 @@
   "nome": "Teresa Cardoso Grazina",
   "nome_proprio": "Teresa",
   "apelido": "Cardoso Grazina",
+  "apelidos": [
+    "Cardoso",
+    "Grazina"
+  ],
   "nomes_alt": null,
   "sexo": "F",
   "nascimento": {

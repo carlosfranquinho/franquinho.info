@@ -4,6 +4,10 @@
   "nome": "Heitor Marques Gaspar",
   "nome_proprio": "Heitor",
   "apelido": "Marques Gaspar",
+  "apelidos": [
+    "Marques",
+    "Gaspar"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": {

@@ -4,6 +4,10 @@
   "nome": "Humberto Augusto Ferreira de Sousa",
   "nome_proprio": "Humberto Augusto",
   "apelido": "Ferreira de Sousa",
+  "apelidos": [
+    "Ferreira",
+    "de Sousa"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": {

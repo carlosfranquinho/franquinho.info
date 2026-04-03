@@ -4,6 +4,10 @@
   "nome": "Manuel Dias da Silva",
   "nome_proprio": "Manuel",
   "apelido": "Dias da Silva",
+  "apelidos": [
+    "Dias",
+    "da Silva"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": {

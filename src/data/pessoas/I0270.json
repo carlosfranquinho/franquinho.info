@@ -4,6 +4,11 @@
   "nome": "Privado Ferreira da Silva Gaspar",
   "nome_proprio": "Privado",
   "apelido": "Ferreira da Silva Gaspar",
+  "apelidos": [
+    "Ferreira",
+    "da Silva",
+    "Gaspar"
+  ],
   "nomes_alt": null,
   "sexo": "F",
   "nascimento": {

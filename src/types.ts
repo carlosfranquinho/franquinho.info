@@ -20,6 +20,7 @@ export interface Pessoa {
   nome: string | null;
   nome_proprio: string | null;
   apelido: string | null;
+  apelidos: string[] | null;
   nomes_alt: { tipo: string; nome: string }[] | null;
   nascimento: EventoPessoa | null;
   baptismo: EventoPessoa | null;

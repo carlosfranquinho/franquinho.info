@@ -4,6 +4,10 @@
   "nome": "Domingos Fernandes Rolinho",
   "nome_proprio": "Domingos",
   "apelido": "Fernandes Rolinho",
+  "apelidos": [
+    "Fernandes",
+    "Rolinho"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": null,

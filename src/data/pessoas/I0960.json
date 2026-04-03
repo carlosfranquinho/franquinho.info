@@ -4,6 +4,10 @@
   "nome": "Manuel Francisco Sintrão",
   "nome_proprio": "Manuel",
   "apelido": "Francisco Sintrão",
+  "apelidos": [
+    "Francisco",
+    "Sintrão"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": null,

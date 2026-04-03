@@ -4,6 +4,10 @@
   "nome": "José da Silva Trelisco",
   "nome_proprio": "José",
   "apelido": "da Silva Trelisco",
+  "apelidos": [
+    "da Silva",
+    "Trelisco"
+  ],
   "nomes_alt": null,
   "sexo": "M",
   "nascimento": null,

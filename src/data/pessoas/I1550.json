@@ -4,6 +4,10 @@
   "nome": "Privado Neto Franquinho",
   "nome_proprio": "Privado",
   "apelido": "Neto Franquinho",
+  "apelidos": [
+    "Neto",
+    "Franquinho"
+  ],
   "nomes_alt": null,
   "sexo": "F",
   "nascimento": {
