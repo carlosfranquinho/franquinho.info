@@ -1,6 +1,7 @@
 /** Indica se um item de media é um retrato (foto da pessoa), não um documento */
 export function eRetrato(item: { caminho_original: string | null }): boolean {
-  return !!item.caminho_original?.includes('/Fotos/');
+  const c = item.caminho_original ?? '';
+  return c.includes('/fotografias/') || c.includes('/Fotos/');
 }
 
 export { silhueta } from './lib/silhueta.js';
@@ -19,22 +20,24 @@ const MESES = [
 /** Devolve a categoria (key) de um documento com base no caminho do ficheiro original */
 export function categoriaPorCaminho(caminho: string | null | undefined): string {
   const p = caminho ?? '';
-  if (p.includes('/Registos/'))    return 'nascimento';
-  if (p.includes('/Casamentos/'))  return 'casamento';
-  if (p.includes('/Obitos/'))      return 'obito';
-  if (p.includes('/Passaportes/')) return 'passaporte';
+  // nova estrutura (lowercase) — manter fallback para caminhos antigos
+  if (p.includes('/nascimentos/') || p.includes('/Registos/'))   return 'nascimento';
+  if (p.includes('/casamentos/')  || p.includes('/Casamentos/')) return 'casamento';
+  if (p.includes('/obitos/')      || p.includes('/Obitos/'))     return 'obito';
+  if (p.includes('/passaportes/') || p.includes('/Passaportes/')) return 'passaporte';
   return 'outro';
 }
 
 /** Devolve a legenda legível de um documento com base no caminho do ficheiro original */
 export function legendaDocumento(caminho: string | null | undefined): string {
   const p = caminho ?? '';
-  if (p.includes('/Registos/'))    return 'Registo de Nascimento';
-  if (p.includes('/Casamentos/'))  return 'Registo de Casamento';
-  if (p.includes('/Obitos/'))      return 'Registo de Óbito';
-  if (p.includes('/Passaportes/')) return 'Pedido de Passaporte';
-  if (p.includes('/Assinaturas/')) return 'Assinatura';
-  if (p.includes('/Batizados/'))   return 'Registo de Batismo';
+  // nova estrutura (lowercase) — manter fallback para caminhos antigos
+  if (p.includes('/nascimentos/') || p.includes('/Registos/'))    return 'Registo de Nascimento';
+  if (p.includes('/casamentos/')  || p.includes('/Casamentos/'))  return 'Registo de Casamento';
+  if (p.includes('/obitos/')      || p.includes('/Obitos/'))      return 'Registo de Óbito';
+  if (p.includes('/passaportes/') || p.includes('/Passaportes/')) return 'Pedido de Passaporte';
+  if (p.includes('/assinaturas/') || p.includes('/Assinaturas/')) return 'Assinatura';
+  if (p.includes('/Batizados/'))                                   return 'Registo de Batismo';
   return 'Documento';
 }
 

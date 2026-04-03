@@ -645,8 +645,8 @@ def converter_media(obj_el, namespace):
 
     # Tipo inferido da pasta e do MIME
     # A pasta é mais fiável do que o MIME (documentos digitalizados são image/jpeg)
-    PASTAS_FOTO      = {'fotos', 'perfil'}
-    PASTAS_DOCUMENTO = {'registos', 'obitos', 'casamentos', 'batizados',
+    PASTAS_FOTO      = {'fotos', 'fotografias', 'perfil'}
+    PASTAS_DOCUMENTO = {'registos', 'nascimentos', 'obitos', 'casamentos', 'batizados',
                         'assinaturas', 'livros', 'outros'}
     pasta = caminho_original.split('/')[-2].lower() if caminho_original and '/' in caminho_original else ''
     tipo = 'outro'
@@ -715,7 +715,7 @@ def gerar_indice(pessoas_data, media_por_id=None):
         if media_por_id and p.get('media'):
             for mid in p['media']:
                 m_item = media_por_id.get(mid)
-                if m_item and m_item.get('caminho_original') and '/Fotos/' in m_item['caminho_original']:
+                if m_item and m_item.get('caminho_original') and '/fotografias/' in m_item['caminho_original'] or '/Fotos/' in m_item['caminho_original']:
                     entrada['thumb_id'] = mid
                     break
 
@@ -871,7 +871,7 @@ def main():
         if p.get('media'):
             for mid in p['media']:
                 m = media_por_id.get(mid)
-                if m and m.get('caminho_original', '') and '/Fotos/' in m['caminho_original']:
+                if m and m.get('caminho_original', '') and ('/fotografias/' in m['caminho_original'] or '/Fotos/' in m['caminho_original']):
                     thumb = m.get('thumb')
                     break
         entrada = {
