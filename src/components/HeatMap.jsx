@@ -147,13 +147,13 @@ export default function HeatMap({ pontos }) {
       gradient: { 0.3: '#fef3c7', 0.55: '#fbbf24', 0.75: '#d97706', 0.92: '#92400e', 1.0: '#7c2d12' },
     }).addTo(map);
 
-    // Zoom para mostrar todos os pontos de Portugal (continental + ilhas)
-    const ptPontos = pontos.filter(p => p.lat >= PT.minLat && p.lat <= PT.maxLat && p.lon >= PT.minLon && p.lon <= PT.maxLon);
-    if (ptPontos.length > 0) {
-      const bounds = L.latLngBounds(ptPontos.map(p => [p.lat, p.lon]));
-      map.fitBounds(bounds, { padding: [30, 30], maxZoom: 9 });
+    // Zoom centrado em Portugal continental (exclui Madeira/Açores para não afastar o zoom)
+    const continentalPontos = pontos.filter(p => p.lat >= 36.8 && p.lat <= 42.2 && p.lon >= -9.6 && p.lon <= -6.1);
+    if (continentalPontos.length > 0) {
+      const bounds = L.latLngBounds(continentalPontos.map(p => [p.lat, p.lon]));
+      map.fitBounds(bounds, { padding: [40, 40], maxZoom: 9 });
     } else {
-      map.setView([39.5, -8], 7);
+      map.setView([39.6, -8], 7);
     }
 
     mapRef.current = map;
