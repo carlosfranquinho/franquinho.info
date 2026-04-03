@@ -12,9 +12,10 @@ const mediaComFicheiro = media.filter((m) => m.caminho && !m.privado);
 const mediaPessoas: Record<string, { id: string; nome: string }[]> =
   JSON.parse(readFileSync(resolve('src/data/media-pessoas.json'), 'utf-8'));
 
-// Mapa id → datas de eventos da pessoa
+// Mapa id → datas e nome da pessoa
 type EventosDaPessoa = { nasc: number | null; obito: number | null };
 const pessoaEventosMap: Record<string, EventosDaPessoa> = {};
+const pessoaNomeMap: Record<string, string> = {};
 for (const fname of readdirSync(resolve('src/data/pessoas'))) {
   const p = JSON.parse(readFileSync(resolve('src/data/pessoas', fname), 'utf-8'));
   const nascData: string | undefined = p.nascimento?.data ?? p.baptismo?.data;
@@ -23,16 +24,21 @@ for (const fname of readdirSync(resolve('src/data/pessoas'))) {
     nasc:  nascData  ? parseInt(nascData.slice(0, 4))  : null,
     obito: obitoData ? parseInt(obitoData.slice(0, 4)) : null,
   };
+  if (p.nome) pessoaNomeMap[p.id] = p.nome;
 }
 
-// Mapa media id → ano do casamento (via familia)
+// Mapa media id → ano do casamento + casal (via familia)
 const mediaAnoMap: Record<string, number> = {};
+const mediaCasalMap: Record<string, { id: string; nome: string }[]> = {};
 for (const fname of readdirSync(resolve('src/data/familias'))) {
   const fam = JSON.parse(readFileSync(resolve('src/data/familias', fname), 'utf-8'));
   const data: string | undefined = fam.casamento?.data;
-  if (data) {
-    const ano = parseInt(data.slice(0, 4));
-    for (const mid of (fam.media ?? [])) mediaAnoMap[mid] = ano;
+  const casal = ([fam.pai, fam.mae] as (string | undefined)[])
+    .filter((id): id is string => !!id && !!pessoaNomeMap[id])
+    .map((id) => ({ id, nome: pessoaNomeMap[id] }));
+  for (const mid of (fam.media ?? [])) {
+    if (data) mediaAnoMap[mid] = parseInt(data.slice(0, 4));
+    if (casal.length) mediaCasalMap[mid] = casal;
   }
 }
 
@@ -105,12 +111,16 @@ const fotosData = fotosDedup
 
 const docsData = documentosDedup.map(({ item, pessoas }) => {
   const cat = categoriaPorCaminho(item.caminho_original);
+  // Para casamentos: usar casal da familia; para os outros: usar pessoas da media
+  const pessoasEfetivas = cat === 'casamento'
+    ? (mediaCasalMap[item.id] ?? pessoas)
+    : pessoas;
   // Ano do evento: casamento vem da familia, nascimento/óbito/outro vêm da pessoa
   let ano: number | null = null;
   if (cat === 'casamento') {
     ano = mediaAnoMap[item.id] ?? null;
   } else {
-    const primeiraPessoa = pessoas[0];
+    const primeiraPessoa = pessoasEfetivas[0];
     if (primeiraPessoa) ano = anoEvento(primeiraPessoa.id, cat);
   }
   return {
@@ -120,7 +130,7 @@ const docsData = documentosDedup.map(({ item, pessoas }) => {
     tipo:     legendaDocumento(item.caminho_original),
     cat,
     ano,
-    pessoas,
+    pessoas: pessoasEfetivas,
   };
 });
 ---
@@ -235,7 +245,8 @@ const docsData = documentosDedup.map(({ item, pessoas }) => {
     btn.dataset.lightboxOriginal = d.original;
     if (tipo === 'doc') {
       btn.dataset.lightboxTipo = d.tipo;
-      btn.title = d.pessoas.map(p => p.nome).join(', ');
+      const sep = d.cat === 'casamento' ? ' × ' : ', ';
+      btn.title = d.pessoas.map(p => p.nome).join(sep);
     } else {
       btn.dataset.lightboxCaption = d.caption;
     }
@@ -258,7 +269,8 @@ const docsData = documentosDedup.map(({ item, pessoas }) => {
     if (d.pessoas.length > 0) {
       const ov = document.createElement('div');
       ov.className = 'absolute bottom-0 inset-x-0 bg-black/60 px-1.5 py-1 text-white text-xs leading-tight translate-y-full group-hover:translate-y-0 transition-transform duration-200';
-      ov.textContent = d.pessoas.map(p => p.nome).join(', ');
+      const sepOv = d.cat === 'casamento' ? ' × ' : ', ';
+      ov.textContent = d.pessoas.map(p => p.nome).join(sepOv);
       btn.appendChild(ov);
     }
 
