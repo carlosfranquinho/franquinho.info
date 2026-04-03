@@ -1,5 +1,5 @@
 ---
-import { readFileSync } from 'fs';
+import { readFileSync, readdirSync } from 'fs';
 import { resolve } from 'path';
 import Base from '../layouts/Base.astro';
 import Lightbox from '../components/Lightbox.astro';
@@ -11,6 +11,37 @@ const mediaComFicheiro = media.filter((m) => m.caminho && !m.privado);
 
 const mediaPessoas: Record<string, { id: string; nome: string }[]> =
   JSON.parse(readFileSync(resolve('src/data/media-pessoas.json'), 'utf-8'));
+
+// Mapa id → datas de eventos da pessoa
+type EventosDaPessoa = { nasc: number | null; obito: number | null };
+const pessoaEventosMap: Record<string, EventosDaPessoa> = {};
+for (const fname of readdirSync(resolve('src/data/pessoas'))) {
+  const p = JSON.parse(readFileSync(resolve('src/data/pessoas', fname), 'utf-8'));
+  const nascData: string | undefined = p.nascimento?.data ?? p.baptismo?.data;
+  const obitoData: string | undefined = p.obito?.data ?? p.sepultura?.data;
+  pessoaEventosMap[p.id] = {
+    nasc:  nascData  ? parseInt(nascData.slice(0, 4))  : null,
+    obito: obitoData ? parseInt(obitoData.slice(0, 4)) : null,
+  };
+}
+
+// Mapa media id → ano do casamento (via familia)
+const mediaAnoMap: Record<string, number> = {};
+for (const fname of readdirSync(resolve('src/data/familias'))) {
+  const fam = JSON.parse(readFileSync(resolve('src/data/familias', fname), 'utf-8'));
+  const data: string | undefined = fam.casamento?.data;
+  if (data) {
+    const ano = parseInt(data.slice(0, 4));
+    for (const mid of (fam.media ?? [])) mediaAnoMap[mid] = ano;
+  }
+}
+
+function anoEvento(id: string, cat: string): number | null {
+  const e = pessoaEventosMap[id];
+  if (!e) return null;
+  if (cat === 'obito') return e.obito ?? e.nasc;
+  return e.nasc;
+}
 
 type ItemDedup = { item: MediaItem; pessoas: { id: string; nome: string }[] };
 
@@ -50,22 +81,48 @@ for (const { item } of documentosDedup) {
 }
 
 // Dados serializados para o cliente — sem overhead de DOM
-const fotosData = fotosDedup.map(({ item, pessoas }) => ({
-  src:      item.web ?? item.caminho ?? item.thumb ?? '',
-  thumb:    item.thumb ?? null,
-  original: item.caminho ?? '',
-  caption:  item.descricao ?? '',
-  pessoas,
-}));
 
-const docsData = documentosDedup.map(({ item, pessoas }) => ({
-  src:      item.web ?? item.caminho ?? item.thumb ?? '',
-  thumb:    item.thumb ?? null,
-  original: item.caminho ?? '',
-  tipo:     legendaDocumento(item.caminho_original),
-  cat:      categoriaPorCaminho(item.caminho_original),
-  pessoas,
-}));
+// Fotos ordenadas por nascimento do indivíduo mais velho — mais recente primeiro
+const fotosData = fotosDedup
+  .map(({ item, pessoas }) => {
+    const anos = pessoas.map((p) => pessoaEventosMap[p.id]?.nasc ?? null).filter((a): a is number => a !== null);
+    const anoRef = anos.length > 0 ? Math.min(...anos) : null;
+    return {
+      src:      item.web ?? item.caminho ?? item.thumb ?? '',
+      thumb:    item.thumb ?? null,
+      original: item.caminho ?? '',
+      caption:  item.descricao ?? '',
+      pessoas,
+      anoRef,
+    };
+  })
+  .sort((a, b) => {
+    if (a.anoRef === null && b.anoRef === null) return 0;
+    if (a.anoRef === null) return 1;
+    if (b.anoRef === null) return -1;
+    return b.anoRef - a.anoRef; // descendente: mais recente primeiro
+  });
+
+const docsData = documentosDedup.map(({ item, pessoas }) => {
+  const cat = categoriaPorCaminho(item.caminho_original);
+  // Ano do evento: casamento vem da familia, nascimento/óbito/outro vêm da pessoa
+  let ano: number | null = null;
+  if (cat === 'casamento') {
+    ano = mediaAnoMap[item.id] ?? null;
+  } else {
+    const primeiraPessoa = pessoas[0];
+    if (primeiraPessoa) ano = anoEvento(primeiraPessoa.id, cat);
+  }
+  return {
+    src:      item.web ?? item.caminho ?? item.thumb ?? '',
+    thumb:    item.thumb ?? null,
+    original: item.caminho ?? '',
+    tipo:     legendaDocumento(item.caminho_original),
+    cat,
+    ano,
+    pessoas,
+  };
+});
 ---
 
 <Base titulo="Arquivo" descricao="Galeria de fotos e documentos digitalizados">
@@ -224,17 +281,47 @@ const docsData = documentosDedup.map(({ item, pessoas }) => ({
     }
   }
 
-  // ── Documentos: renderizar categoria on-demand ─────────────────────
+  // ── Documentos: renderizar categoria on-demand (agrupado por século) ─
+  const ROMANOS = ['','I','II','III','IV','V','VI','VII','VIII','IX','X',
+    'XI','XII','XIII','XIV','XV','XVI','XVII','XVIII','XIX','XX','XXI'];
+
+  function labelSeculo(ano) {
+    const s = Math.ceil(ano / 100);
+    return `Século ${ROMANOS[s] || s}`;
+  }
+
   function abrirCategoria(cat) {
     grelhaDocs.innerHTML = '';
+    const docsDaCat = docsData.filter(d => d.cat === cat);
+
+    // Agrupar por século
+    const grupos = new Map(); // chave: ano do século (ex: 1700) ou null
+    for (const d of docsDaCat) {
+      const seculo = d.ano ? Math.ceil(d.ano / 100) * 100 : null;
+      if (!grupos.has(seculo)) grupos.set(seculo, []);
+      grupos.get(seculo).push(d);
+    }
+
+    // Ordenar: séculos descendentes (mais recente primeiro), sem data no fim
+    const chaves = [...grupos.keys()].sort((a, b) => {
+      if (a === null) return 1;
+      if (b === null) return -1;
+      return b - a;
+    });
+
     const frag = document.createDocumentFragment();
-    let count = 0;
-    for (const d of docsData) {
-      if (d.cat === cat) { frag.appendChild(criarBotao('doc', d)); count++; }
+    for (const chave of chaves) {
+      const items = grupos.get(chave);
+      const heading = document.createElement('h3');
+      heading.className = 'col-span-full text-sm font-semibold text-stone-500 uppercase tracking-wider mt-4 mb-1 first:mt-0';
+      heading.textContent = chave !== null ? labelSeculo(chave) : 'Sem data';
+      frag.appendChild(heading);
+      for (const d of items) frag.appendChild(criarBotao('doc', d));
     }
     grelhaDocs.appendChild(frag);
+
     breadcrumbCat.textContent   = LABELS[cat] ?? cat;
-    breadcrumbCount.textContent = `${count} registos`;
+    breadcrumbCount.textContent = `${docsDaCat.length} registos`;
     showPainel(painelDetalhe);
     location.hash = cat;
   }
