@@ -140,20 +140,18 @@ export default function HeatMap({ pontos }) {
     const heatData = pontos.map((p) => [p.lat, p.lon, p.count / maxCount]);
 
     new HeatLayer(heatData, {
-      radius: 28,
-      blur: 18,
+      radius: 22,
+      blur: 20,
       max: 1,
-      gradient: { 0.2: '#fef3c7', 0.45: '#fbbf24', 0.7: '#d97706', 0.88: '#92400e', 1.0: '#7c2d12' },
+      minOpacity: 0.03,
+      gradient: { 0.3: '#fef3c7', 0.55: '#fbbf24', 0.75: '#d97706', 0.92: '#92400e', 1.0: '#7c2d12' },
     }).addTo(map);
 
-    const pontosPT = pontos.filter(
-      (p) => p.lat >= PT.minLat && p.lat <= PT.maxLat && p.lon >= PT.minLon && p.lon <= PT.maxLon
-    );
-    if (pontosPT.length > 0) {
-      map.fitBounds(L.latLngBounds(pontosPT.map((p) => [p.lat, p.lon])), { padding: [24, 24] });
-    } else {
-      map.setView([39.6, -8.5], 7);
-    }
+    // Zoom centrado na zona com mais nascimentos (centro de massa ponderado)
+    const totalPesos = pontos.reduce((s, p) => s + p.count, 0);
+    const latC = pontos.reduce((s, p) => s + p.lat * p.count, 0) / totalPesos;
+    const lonC = pontos.reduce((s, p) => s + p.lon * p.count, 0) / totalPesos;
+    map.setView([latC, lonC], 10);
 
     mapRef.current = map;
     return () => { if (mapRef.current) { mapRef.current.remove(); mapRef.current = null; } };

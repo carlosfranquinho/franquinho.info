@@ -3,7 +3,7 @@ import { readFileSync, readdirSync } from 'fs';
 import { resolve } from 'path';
 import Base from '../layouts/Base.astro';
 import HeatMap from '../components/HeatMap.jsx';
-import type { Pessoa, Familia, Lugar } from '../types';
+import type { Pessoa, Familia, Lugar, MediaItem } from '../types';
 
 // ─── Carregar dados ────────────────────────────────────────────────────────────
 
@@ -23,6 +23,10 @@ for (const f of readdirSync(familiasDir)) {
 }
 
 const lugares: Lugar[] = JSON.parse(readFileSync(resolve('src/data/lugares.json'), 'utf-8'));
+const mediaItems: MediaItem[] = JSON.parse(readFileSync(resolve('src/data/media.json'), 'utf-8'));
+const fotosIds = new Set(mediaItems.filter((m) => (m.caminho_original ?? '').includes('/Fotos/')).map((m) => m.id));
+const totalFotos = mediaItems.filter((m) => m.caminho && (m.caminho_original ?? '').includes('/Fotos/')).length;
+const totalDocs  = mediaItems.filter((m) => m.caminho && !(m.caminho_original ?? '').includes('/Fotos/')).length;
 const lugaresMap: Record<string, Lugar> = Object.fromEntries(lugares.map((l) => [l.id, l]));
 
 const pessoaMap: Record<string, Pessoa> = Object.fromEntries(
@@ -281,8 +285,13 @@ const topLugares = Object.entries(lugarNascCount)
   });
 const maxLugar = topLugares[0]?.count ?? 1;
 
-// Pontos para heatmap: todos os locais de nascimento com coordenadas
-const heatmapPontos = Object.entries(lugarNascCount)
+// Pontos para heatmap: coordenadas originais de cada lugar (sem agrupamento por freguesia)
+const heatmapCountRaw: Record<string, number> = {};
+for (const p of todasPessoas) {
+  const lid = p.nascimento?.lugar_id;
+  if (lid) heatmapCountRaw[lid] = (heatmapCountRaw[lid] ?? 0) + 1;
+}
+const heatmapPontos = Object.entries(heatmapCountRaw)
   .map(([lid, count]) => {
     const l = lugaresMap[lid];
     if (!l?.lat || !l?.lon) return null;
@@ -346,7 +355,7 @@ const maxMedia = Math.max(...mediaVidaSeculo.flatMap(s => [s.global, s.homens ??
 
 // ─── Números de famílias com casamento registado ───────────────────────────────
 const famComCasamento = todasFamilias.filter((f) => f.casamento?.data).length;
-const pessoasComFoto = todasPessoas.filter((p) => p.media && p.media.length > 0).length;
+const pessoasComFoto = todasPessoas.filter((p) => p.media?.some((id) => fotosIds.has(id))).length;
 ---
 
 <Base titulo="Estatísticas" descricao="Estatísticas e curiosidades sobre a árvore genealógica Franquinho.info">
@@ -359,12 +368,13 @@ const pessoasComFoto = todasPessoas.filter((p) => p.media && p.media.length > 0)
     </div>
 
     <!-- Visão geral -->
-    <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-10">
+    <div class="grid grid-cols-2 sm:grid-cols-5 gap-4 mb-10">
       {[
         { valor: todasPessoas.length, label: 'Total de pessoas' },
         { valor: totalFamilias, label: 'Famílias' },
         { valor: famComCasamento, label: 'Casamentos registados' },
-        { valor: pessoasComFoto, label: 'Com fotografia' },
+        { valor: totalFotos, label: 'Fotografias no arquivo' },
+        { valor: totalDocs,  label: 'Documentos no arquivo' },
       ].map(({ valor, label }) => (
         <div class="bg-amber-50 border border-amber-100 rounded-xl p-4 text-center">
           <div class="text-3xl font-bold text-amber-700">{valor}</div>
