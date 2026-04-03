@@ -14,21 +14,24 @@ Estratégia:
   8. Gera relatório HTML.
 """
 
+import gzip
+import io
 import json
 import os
 import re
+import tarfile
 import unicodedata
 from collections import defaultdict, deque
 from pathlib import Path
 from datetime import date
+from lxml import etree
 
 # ---------------------------------------------------------------------------
 # Caminhos
 # ---------------------------------------------------------------------------
 BASE = Path("/dados/projetos/franquinho.info")
 GED_FILE  = BASE / "data" / "5n469m_96606156exucx6eiv65a79_A.ged"
-PESSOAS_DIR = BASE / "src" / "data" / "pessoas"
-FAMILIAS_DIR = BASE / "src" / "data" / "familias"
+GPKG_FILE = BASE / "data" / "arvore.gpkg"
 OUTPUT_HTML = BASE / "relatorio_ged.html"
 
 # ---------------------------------------------------------------------------
@@ -60,30 +63,127 @@ def years_close(y1, y2, tol=2) -> bool:
     return abs(y1 - y2) <= tol
 
 # ---------------------------------------------------------------------------
-# 1. CARREGA BD
+# 1. CARREGA BD (directamente do .gpkg, com nomes reais)
 # ---------------------------------------------------------------------------
 print("A carregar BD…")
 
-bd_pessoas: dict[str, dict] = {}
-for f in PESSOAS_DIR.glob("*.json"):
+def _abrir_gpkg(caminho: Path):
+    """Abre .gpkg e devolve o root XML do GrampsXML."""
+    with gzip.open(caminho, 'rb') as f:
+        conteudo_tar = f.read()
+    tar = tarfile.open(fileobj=io.BytesIO(conteudo_tar))
+    entry = next((m for m in tar.getmembers() if m.name.endswith('.gramps')), None)
+    if entry is None:
+        raise RuntimeError('Não encontrado .gramps dentro do .gpkg')
+    raw = tar.extractfile(entry).read()
     try:
-        data = json.loads(f.read_text(encoding="utf-8"))
-        bd_pessoas[data["id"]] = data
-    except Exception as e:
-        print(f"  AVISO: {f.name}: {e}")
+        xml_bytes = gzip.decompress(raw)
+    except gzip.BadGzipFile:
+        xml_bytes = raw
+    return etree.fromstring(xml_bytes)
 
-bd_familias: dict[str, dict] = {}
-for f in FAMILIAS_DIR.glob("*.json"):
-    try:
-        data = json.loads(f.read_text(encoding="utf-8"))
-        bd_familias[data["id"]] = data
-    except Exception as e:
-        print(f"  AVISO: {f.name}: {e}")
+def _ns(tag, namespace):
+    return f'{{{namespace}}}{tag}' if namespace else tag
 
+def _atrib(el, nome, default=None):
+    return el.get(nome, default) if el is not None else default
+
+def _detectar_ns(root):
+    tag = root.tag
+    return tag[1:tag.index('}')] if tag.startswith('{') else ''
+
+def _handle_to_id(idx: dict, handle: str | None) -> str | None:
+    if not handle:
+        return None
+    el = idx.get(handle)
+    return _atrib(el, 'id') if el is not None else None
+
+def _parse_gpkg(caminho: Path):
+    """Lê .gpkg e devolve (bd_pessoas, bd_familias) com nomes reais."""
+    root = _abrir_gpkg(caminho)
+    namespace = _detectar_ns(root)
+    N = lambda t: _ns(t, namespace)
+
+    # Índices por handle
+    idx_pessoas  = {_atrib(el, 'handle'): el for el in root.iter(N('person'))}
+    idx_familias = {_atrib(el, 'handle'): el for el in root.iter(N('family'))}
+    idx_eventos  = {_atrib(el, 'handle'): el for el in root.iter(N('event'))}
+
+    def parse_ano_evento(ev_el):
+        for tag in ('dateval', 'daterange', 'datestr'):
+            d = ev_el.find(N(tag))
+            if d is not None:
+                val = _atrib(d, 'val') or _atrib(d, 'start') or ''
+                m = re.search(r'\b(\d{4})\b', val)
+                if m:
+                    return int(m.group(1))
+        return None
+
+    def get_nasc_ano(person_el):
+        for evref in person_el.findall(N('eventref')):
+            h = _atrib(evref, 'hlink')
+            ev = idx_eventos.get(h)
+            if ev is None:
+                continue
+            tipo_el = ev.find(N('type'))
+            if tipo_el is not None and tipo_el.text and tipo_el.text.strip().lower() == 'birth':
+                return parse_ano_evento(ev)
+        return None
+
+    pessoas: dict[str, dict] = {}
+    for person_el in root.iter(N('person')):
+        pid = _atrib(person_el, 'id')
+        protegida = _atrib(person_el, 'priv', '0') == '1'
+
+        nome_el = person_el.find(N('name'))
+        nome_proprio = None
+        apelido = None
+        if nome_el is not None:
+            primeiro = nome_el.find(N('first'))
+            nome_proprio = primeiro.text.strip() if primeiro is not None and primeiro.text else None
+            partes_ap = []
+            for sur in nome_el.findall(N('surname')):
+                t = sur.text.strip() if sur.text else ''
+                if t:
+                    pref = (_atrib(sur, 'prefix') or '').strip()
+                    partes_ap.append(f'{pref} {t}'.strip() if pref else t)
+            apelido = ' '.join(partes_ap) if partes_ap else None
+
+        partes = [p for p in [nome_proprio, apelido] if p]
+        nome = ' '.join(partes) if partes else None
+
+        sexo_el = person_el.find(N('gender'))
+        sexo_raw = sexo_el.text.strip().upper() if sexo_el is not None and sexo_el.text else 'U'
+        sexo = {'MALE': 'M', 'FEMALE': 'F', 'UNKNOWN': 'U', 'M': 'M', 'F': 'F'}.get(sexo_raw, 'U')
+
+        pessoas[pid] = {
+            'id': pid,
+            'nome': nome,
+            'sexo': sexo,
+            'protegida': protegida,
+            'nasc_ano': get_nasc_ano(person_el),
+        }
+
+    familias: dict[str, dict] = {}
+    for fam_el in root.iter(N('family')):
+        fid = _atrib(fam_el, 'id')
+        pai_ref = fam_el.find(N('father'))
+        mae_ref = fam_el.find(N('mother'))
+        pai_id = _handle_to_id(idx_pessoas, _atrib(pai_ref, 'hlink')) if pai_ref is not None else None
+        mae_id = _handle_to_id(idx_pessoas, _atrib(mae_ref, 'hlink')) if mae_ref is not None else None
+        filhos = [
+            _handle_to_id(idx_pessoas, _atrib(r, 'hlink'))
+            for r in fam_el.findall(N('childref'))
+        ]
+        familias[fid] = {'id': fid, 'pai': pai_id, 'mae': mae_id, 'filhos': [f for f in filhos if f]}
+
+    return pessoas, familias
+
+bd_pessoas, bd_familias = _parse_gpkg(GPKG_FILE)
 print(f"  {len(bd_pessoas)} pessoas, {len(bd_familias)} famílias na BD")
 
 # Grafo BD: para cada pessoa → pais, cônjuges, filhos
-bd_pais:     dict[str, set[str]] = defaultdict(set)   # pessoa → {pai, mãe}
+bd_pais:     dict[str, set[str]] = defaultdict(set)
 bd_conjuges: dict[str, set[str]] = defaultdict(set)
 bd_filhos:   dict[str, set[str]] = defaultdict(set)
 
@@ -101,13 +201,10 @@ for fam in bd_familias.values():
         bd_conjuges[mae].add(pai)
 
 def bd_nome(pid: str) -> str:
-    p = bd_pessoas.get(pid, {})
-    return p.get("nome") or ""
+    return bd_pessoas.get(pid, {}).get("nome") or ""
 
 def bd_nascimento_ano(pid: str) -> int | None:
-    p = bd_pessoas.get(pid, {})
-    nasc = p.get("nascimento") or {}
-    return extract_year(nasc.get("data"))
+    return bd_pessoas.get(pid, {}).get("nasc_ano")
 
 # ---------------------------------------------------------------------------
 # 2. CARREGA GEDCOM
@@ -336,7 +433,7 @@ def nome_compativel(bd_id: str, ged_id: str) -> bool:
     by = bd_nascimento_ano(bd_id)
     gy = ged_nasc_ano(ged_id)
 
-    bd_protegido = bool(bd_pessoas.get(bd_id, {}).get("protegida"))
+    bd_protegido = bool(bd_pessoas.get(bd_id, {}).get("protegida", False))
 
     if bd_protegido:
         # Para pessoas protegidas: requer data exacta (tolerância 0)
@@ -704,7 +801,7 @@ html = f"""<!DOCTYPE html>
 
 <footer>
   Relatório gerado automaticamente. GED: <code>{GED_FILE.name}</code> &nbsp;·&nbsp;
-  BD: <code>{PESSOAS_DIR}</code> &nbsp;·&nbsp;
+  BD: <code>{GPKG_FILE.name}</code> &nbsp;·&nbsp;
   Correspondências: <code>{total_correspondencias}/{total_ged}</code> GED indivíduos
 </footer>
 
