@@ -1761,11 +1761,6 @@
     "sexo": "F"
   },
   {
-    "id": "I1690",
-    "nome": "Avelino",
-    "sexo": "M"
-  },
-  {
     "id": "I0098",
     "nome": "Bartolomeu José",
     "apelido": "José",
@@ -12801,6 +12796,11 @@
   },
   {
     "id": "I1689",
+    "nome": "Privado",
+    "sexo": "M"
+  },
+  {
+    "id": "I1690",
     "nome": "Privado",
     "sexo": "M"
   },

@@ -19,8 +19,8 @@
     "id": "P0177",
     "nome": "Maringá",
     "tipo": null,
-    "lat": null,
-    "lon": null,
+    "lat": "-23.423164783200924",
+    "lon": "-51.93803011038823",
     "pai_id": "P0142"
   },
   {
@@ -57,10 +57,10 @@
   },
   {
     "id": "P0182",
-    "nome": "São Pedro",
+    "nome": "São Pedro de Penaferrim",
     "tipo": null,
-    "lat": null,
-    "lon": null,
+    "lat": "38.79163151538463",
+    "lon": "-9.380873755041163",
     "pai_id": "P0181"
   },
   {
@@ -75,8 +75,8 @@
     "id": "P0184",
     "nome": "Monte",
     "tipo": null,
-    "lat": null,
-    "lon": null,
+    "lat": "32.67180443857541",
+    "lon": "-16.909517954987393",
     "pai_id": "P0170"
   },
   {
@@ -139,16 +139,16 @@
     "id": "P0192",
     "nome": "Vermoil",
     "tipo": null,
-    "lat": null,
-    "lon": null,
+    "lat": "39.848345500366996",
+    "lon": "-8.65725298465697",
     "pai_id": "P0016"
   },
   {
     "id": "P0193",
     "nome": "Matos da Ranha",
     "tipo": null,
-    "lat": null,
-    "lon": null,
+    "lat": "39.873763979513846",
+    "lon": "-8.685355548042242",
     "pai_id": "P0192"
   },
   {
@@ -163,8 +163,8 @@
     "id": "P0195",
     "nome": "Casalinho",
     "tipo": null,
-    "lat": null,
-    "lon": null,
+    "lat": "39.88527328256367",
+    "lon": "-8.642672031168106",
     "pai_id": "P0138"
   },
   {
@@ -187,8 +187,8 @@
     "id": "P0198",
     "nome": "Porto Lameiro",
     "tipo": null,
-    "lat": null,
-    "lon": null,
+    "lat": "39.93535490222445",
+    "lon": "-8.747425281056259",
     "pai_id": "P0081"
   },
   {
@@ -203,8 +203,8 @@
     "id": "P0200",
     "nome": "Carnide de Baixo",
     "tipo": null,
-    "lat": null,
-    "lon": null,
+    "lat": "39.89885339770932",
+    "lon": "-8.72869058600788",
     "pai_id": "P0192"
   },
   {
@@ -251,8 +251,8 @@
     "id": "P0206",
     "nome": "Outeiro Agudo",
     "tipo": null,
-    "lat": null,
-    "lon": null,
+    "lat": "39.97399201253791",
+    "lon": "-8.766177636832989",
     "pai_id": "P0081"
   },
   {
@@ -275,40 +275,40 @@
     "id": "P0209",
     "nome": "Bajouca de Cima",
     "tipo": null,
-    "lat": null,
-    "lon": null,
+    "lat": "39.89299206637572",
+    "lon": "-8.778132800889466",
     "pai_id": "P0207"
   },
   {
     "id": "P0210",
     "nome": "Bajouca de Baixo",
     "tipo": null,
-    "lat": null,
-    "lon": null,
+    "lat": "39.902189827732784",
+    "lon": "-8.78681802325902",
     "pai_id": "P0207"
   },
   {
     "id": "P0211",
     "nome": "Água Formosa",
     "tipo": null,
-    "lat": null,
-    "lon": null,
+    "lat": "39.91481975488458",
+    "lon": "-8.792266521618313",
     "pai_id": "P0081"
   },
   {
     "id": "P0212",
     "nome": "Lameiras",
     "tipo": null,
-    "lat": null,
-    "lon": null,
+    "lat": "39.90045327345335",
+    "lon": "-8.78656703338198",
     "pai_id": "P0207"
   },
   {
     "id": "P0213",
     "nome": "Matas da Bajouca",
     "tipo": null,
-    "lat": null,
-    "lon": null,
+    "lat": "39.89773557264928",
+    "lon": "-8.794487600673046",
     "pai_id": "P0207"
   },
   {
@@ -355,8 +355,8 @@
     "id": "P0219",
     "nome": "Salir do Porto",
     "tipo": null,
-    "lat": null,
-    "lon": null,
+    "lat": "39.497076298685165",
+    "lon": "-9.15315347630863",
     "pai_id": "P0147"
   },
   {
@@ -395,8 +395,8 @@
     "id": "P0224",
     "nome": "Casal Novo",
     "tipo": null,
-    "lat": null,
-    "lon": null,
+    "lat": "39.87787852638816",
+    "lon": "-8.797268600847584",
     "pai_id": "P0207"
   },
   {
@@ -411,24 +411,24 @@
     "id": "P0035",
     "nome": "Mourisca de Cima",
     "tipo": null,
-    "lat": null,
-    "lon": null,
+    "lat": "39.94492642556253",
+    "lon": "-8.76017292002443",
     "pai_id": "P0081"
   },
   {
     "id": "P0067",
     "nome": "Guia",
     "tipo": null,
-    "lat": null,
-    "lon": null,
+    "lat": "39.94683019016221",
+    "lon": "-8.784318302519965",
     "pai_id": "P0081"
   },
   {
     "id": "P0225",
     "nome": "Cabecinho da Pedrugulheira",
     "tipo": null,
-    "lat": null,
-    "lon": null,
+    "lat": "39.94208176345568",
+    "lon": "-8.778236099953626",
     "pai_id": "P0081"
   },
   {
@@ -459,8 +459,8 @@
     "id": "P0229",
     "nome": "Mourisca de Baixo",
     "tipo": null,
-    "lat": null,
-    "lon": null,
+    "lat": "39.9551655069297",
+    "lon": "-8.740155573509893",
     "pai_id": "P0081"
   },
   {
@@ -481,10 +481,10 @@
   },
   {
     "id": "P0232",
-    "nome": "Cacharia",
+    "nome": "Caxaria",
     "tipo": null,
-    "lat": null,
-    "lon": null,
+    "lat": "39.9673489091578",
+    "lon": "-8.787717465726319",
     "pai_id": "P0079"
   },
   {
@@ -515,16 +515,16 @@
     "id": "P0236",
     "nome": "Outeiro Martinho",
     "tipo": null,
-    "lat": null,
-    "lon": null,
+    "lat": "39.95580901359977",
+    "lon": "-8.781243394895093",
     "pai_id": "P0081"
   },
   {
     "id": "P0237",
     "nome": "Marinha da Guia",
     "tipo": null,
-    "lat": null,
-    "lon": null,
+    "lat": "39.9699052088867",
+    "lon": "-8.796829325489885",
     "pai_id": "P0079"
   },
   {
@@ -545,26 +545,26 @@
   },
   {
     "id": "P0240",
-    "nome": "Geiria",
+    "nome": "Geria",
     "tipo": null,
-    "lat": null,
-    "lon": null,
+    "lat": "40.23744621742402",
+    "lon": "-8.4915540992753",
     "pai_id": "P0239"
   },
   {
     "id": "P0241",
     "nome": "Matos",
     "tipo": null,
-    "lat": null,
-    "lon": null,
+    "lat": "40.00567296609527",
+    "lon": "-8.737856084362376",
     "pai_id": "P0079"
   },
   {
     "id": "P0242",
     "nome": "Cordeirinhos",
     "tipo": null,
-    "lat": null,
-    "lon": null,
+    "lat": "39.96985787998703",
+    "lon": "-8.764868610543664",
     "pai_id": "P0081"
   },
   {
@@ -579,8 +579,8 @@
     "id": "P0244",
     "nome": "Marselha",
     "tipo": null,
-    "lat": null,
-    "lon": null,
+    "lat": "43.28738192311866",
+    "lon": "5.371161845306507",
     "pai_id": "P0060"
   },
   {
@@ -955,8 +955,8 @@
     "id": "P0050",
     "nome": "Newark",
     "tipo": null,
-    "lat": null,
-    "lon": null,
+    "lat": "40.73677041881726",
+    "lon": "-74.17351437358444",
     "pai_id": "P0160"
   },
   {
@@ -995,8 +995,8 @@
     "id": "P0055",
     "nome": "Maputo",
     "tipo": null,
-    "lat": null,
-    "lon": null,
+    "lat": "-25.97476626771465",
+    "lon": "32.572293840656315",
     "pai_id": "P0159"
   },
   {
@@ -1187,8 +1187,8 @@
     "id": "P0079",
     "nome": "Louriçal",
     "tipo": null,
-    "lat": null,
-    "lon": null,
+    "lat": "40.00335997599747",
+    "lon": "-8.735271012875735",
     "pai_id": "P0016"
   },
   {
@@ -1907,8 +1907,8 @@
     "id": "P0170",
     "nome": "Funchal",
     "tipo": null,
-    "lat": null,
-    "lon": null,
+    "lat": "32.64839393904817",
+    "lon": "-16.90797191847063",
     "pai_id": "P0169"
   },
   {

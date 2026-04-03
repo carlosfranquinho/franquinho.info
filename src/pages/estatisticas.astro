@@ -2,6 +2,7 @@
 import { readFileSync, readdirSync } from 'fs';
 import { resolve } from 'path';
 import Base from '../layouts/Base.astro';
+import HeatMap from '../components/HeatMap.jsx';
 import type { Pessoa, Familia, Lugar } from '../types';
 
 // ─── Carregar dados ────────────────────────────────────────────────────────────
@@ -279,6 +280,15 @@ const topLugares = Object.entries(lugarNascCount)
     return { id: lid, label, count };
   });
 const maxLugar = topLugares[0]?.count ?? 1;
+
+// Pontos para heatmap: todos os locais de nascimento com coordenadas
+const heatmapPontos = Object.entries(lugarNascCount)
+  .map(([lid, count]) => {
+    const l = lugaresMap[lid];
+    if (!l?.lat || !l?.lon) return null;
+    return { lat: parseFloat(l.lat), lon: parseFloat(l.lon), count };
+  })
+  .filter((p): p is { lat: number; lon: number; count: number } => p !== null);
 
 // ─── Profissões (por sexo) ────────────────────────────────────────────────────
 
@@ -935,16 +945,24 @@ const pessoasComFoto = todasPessoas.filter((p) => p.media && p.media.length > 0)
     <!-- Locais de nascimento -->
     <div class="bg-white border border-stone-200 rounded-xl p-6 mb-10">
       <h2 class="text-lg font-semibold text-stone-700 mb-5">Locais de nascimento mais comuns</h2>
-      <div class="flex flex-col gap-2">
-        {topLugares.map(({ label, count }) => (
-          <div class="flex items-center gap-3 text-sm">
-            <span class="w-48 truncate text-stone-700 font-medium">{label}</span>
-            <div class="flex-1 bg-stone-100 rounded-full h-4 overflow-hidden">
-              <div class="h-full bg-amber-400 rounded-full" style={`width: ${Math.round((count / maxLugar) * 100)}%`} />
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="flex flex-col gap-2">
+          {topLugares.map(({ label, count }) => (
+            <div class="flex items-center gap-3 text-sm">
+              <span class="w-48 truncate text-stone-700 font-medium">{label}</span>
+              <div class="flex-1 bg-stone-100 rounded-full h-4 overflow-hidden">
+                <div class="h-full bg-amber-400 rounded-full" style={`width: ${Math.round((count / maxLugar) * 100)}%`} />
+              </div>
+              <span class="w-8 text-right text-stone-500">{count}</span>
             </div>
-            <span class="w-8 text-right text-stone-500">{count}</span>
-          </div>
-        ))}
+          ))}
+        </div>
+        <div>
+          {heatmapPontos.length > 0
+            ? <HeatMap client:only="react" pontos={heatmapPontos} />
+            : <p class="text-stone-400 text-sm">Sem coordenadas disponíveis.</p>
+          }
+        </div>
       </div>
     </div>
 
