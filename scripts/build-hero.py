@@ -22,7 +22,7 @@ thumbs = [
     m for m in media
     if m.get('thumb') and m.get('caminho')
     and m.get('mime', '').startswith('image/')
-    and '/Fotos/' not in (m.get('caminho_original') or '')
+    and m.get('tipo') == 'documento'
 ][: COLS * ROWS]
 
 if not thumbs:
