@@ -1,0 +1,25 @@
+{
+  "id": "I2153",
+  "protegida": true,
+  "nome": "Privado Ferreira",
+  "nome_proprio": "Privado",
+  "apelido": "Ferreira",
+  "apelidos": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "2002-09-24",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0691"
+  ],
+  "familias_como_pai": null,
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

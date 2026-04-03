@@ -1,0 +1,30 @@
+{
+  "id": "I2137",
+  "protegida": true,
+  "nome": "Privado da Silva Rico",
+  "nome_proprio": "Privado",
+  "apelido": "da Silva Rico",
+  "apelidos": [
+    "da Silva",
+    "Rico"
+  ],
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1976-12-05",
+    "lugar_id": "P0042"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0685"
+  ],
+  "familias_como_pai": [
+    "F0686"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

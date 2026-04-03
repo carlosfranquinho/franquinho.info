@@ -1,0 +1,31 @@
+{
+  "id": "I2127",
+  "protegida": true,
+  "nome": "Privado Caetano Rodrigues",
+  "nome_proprio": "Privado",
+  "apelido": "Caetano Rodrigues",
+  "apelidos": [
+    "Caetano",
+    "Rodrigues"
+  ],
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1947-03-04",
+    "lugar_id": "P0245"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "2025-07-02",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0683"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

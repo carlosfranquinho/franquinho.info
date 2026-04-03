@@ -1,10 +1,11 @@
 {
   "id": "I1505",
-  "protegida": false,
-  "nome": "António da Costa Rico",
-  "nome_proprio": "António",
-  "apelido": "da Costa Rico",
+  "protegida": true,
+  "nome": "Privado Ferreira da Costa Rico",
+  "nome_proprio": "Privado",
+  "apelido": "Ferreira da Costa Rico",
   "apelidos": [
+    "Ferreira",
     "da Costa",
     "Rico"
   ],

@@ -1,0 +1,34 @@
+{
+  "id": "I2130",
+  "protegida": true,
+  "nome": "Privado Ferreira da Costa Rico",
+  "nome_proprio": "Privado",
+  "apelido": "Ferreira da Costa Rico",
+  "apelidos": [
+    "Ferreira",
+    "da Costa",
+    "Rico"
+  ],
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1949-12-28",
+    "lugar_id": "P0001"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "",
+    "lugar_id": "P0176"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0414"
+  ],
+  "familias_como_pai": [
+    "F0684"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

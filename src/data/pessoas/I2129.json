@@ -1,0 +1,28 @@
+{
+  "id": "I2129",
+  "protegida": false,
+  "nome": "Paulo Jorge da Costa Rico",
+  "nome_proprio": "Paulo Jorge",
+  "apelido": "da Costa Rico",
+  "apelidos": [
+    "da Costa",
+    "Rico"
+  ],
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1970-02-03",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0683"
+  ],
+  "familias_como_pai": null,
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

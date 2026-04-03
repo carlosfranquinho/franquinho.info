@@ -4,6 +4,16 @@
     "sexo": "M"
   },
   {
+    "id": "I2139",
+    "sexo": "M",
+    "ano_nasc": 2000,
+    "mmdd_nasc": "11-06"
+  },
+  {
+    "id": "I2157",
+    "sexo": "M"
+  },
+  {
     "id": "I1136",
     "sexo": "M",
     "ano_nasc": 1707,
@@ -1673,14 +1683,6 @@
     "mmdd_obit": "11-28"
   },
   {
-    "id": "I1505",
-    "nome": "António da Costa Rico",
-    "apelido": "da Costa Rico",
-    "sexo": "M",
-    "ano_nasc": 1963,
-    "mmdd_nasc": "07-28"
-  },
-  {
     "id": "I0792",
     "nome": "António da Silva",
     "apelido": "da Silva",
@@ -2888,6 +2890,11 @@
     "sexo": "M",
     "ano_obit": 1731,
     "mmdd_obit": "09-23"
+  },
+  {
+    "id": "I2156",
+    "nome": "Donzilia",
+    "sexo": "F"
   },
   {
     "id": "I0146",
@@ -7598,6 +7605,11 @@
     "sexo": "F"
   },
   {
+    "id": "I2146",
+    "nome": "Luzia",
+    "sexo": "F"
+  },
+  {
     "id": "I0950",
     "nome": "Luzia",
     "sexo": "F",
@@ -9629,7 +9641,8 @@
     "ano_nasc": 1921,
     "mmdd_nasc": "11-09",
     "ano_obit": 1971,
-    "mmdd_obit": "12-18"
+    "mmdd_obit": "12-18",
+    "thumb_id": "O1073"
   },
   {
     "id": "I0403",
@@ -11423,7 +11436,8 @@
     "ano_nasc": 1921,
     "mmdd_nasc": "04-21",
     "ano_obit": 1982,
-    "mmdd_obit": "02-21"
+    "mmdd_obit": "02-21",
+    "thumb_id": "O1074"
   },
   {
     "id": "I1005",
@@ -12653,6 +12667,14 @@
     "mmdd_obit": "02-06"
   },
   {
+    "id": "I2129",
+    "nome": "Paulo Jorge da Costa Rico",
+    "apelido": "da Costa Rico",
+    "sexo": "M",
+    "ano_nasc": 1970,
+    "mmdd_nasc": "02-03"
+  },
+  {
     "id": "I1282",
     "nome": "Pedro",
     "sexo": "M",
@@ -12970,6 +12992,36 @@
     "sexo": "M"
   },
   {
+    "id": "I2131",
+    "nome": "Privado",
+    "sexo": "M"
+  },
+  {
+    "id": "I2132",
+    "nome": "Privado",
+    "sexo": "F"
+  },
+  {
+    "id": "I2142",
+    "nome": "Privado",
+    "sexo": "M"
+  },
+  {
+    "id": "I2145",
+    "nome": "Privado",
+    "sexo": "F"
+  },
+  {
+    "id": "I2147",
+    "nome": "Privado",
+    "sexo": "F"
+  },
+  {
+    "id": "I2155",
+    "nome": "Privado",
+    "sexo": "M"
+  },
+  {
     "id": "I0232",
     "nome": "Privado",
     "sexo": "F",
@@ -13227,6 +13279,24 @@
     "sexo": "F"
   },
   {
+    "id": "I2140",
+    "nome": "Privado Beja Rico",
+    "apelido": "Beja Rico",
+    "sexo": "M",
+    "ano_nasc": 2002,
+    "mmdd_nasc": "02-10"
+  },
+  {
+    "id": "I2127",
+    "nome": "Privado Caetano Rodrigues",
+    "apelido": "Caetano Rodrigues",
+    "sexo": "M",
+    "ano_nasc": 1947,
+    "mmdd_nasc": "03-04",
+    "ano_obit": 2025,
+    "mmdd_obit": "07-02"
+  },
+  {
     "id": "I2110",
     "nome": "Privado Cardoso Baptista",
     "apelido": "Cardoso Baptista",
@@ -13427,6 +13497,18 @@
     "mmdd_obit": "10-06"
   },
   {
+    "id": "I2138",
+    "nome": "Privado Chacim Beja",
+    "apelido": "Chacim Beja",
+    "sexo": "F"
+  },
+  {
+    "id": "I2148",
+    "nome": "Privado Cintra Ferreira",
+    "apelido": "Cintra Ferreira",
+    "sexo": "M"
+  },
+  {
     "id": "I2103",
     "nome": "Privado Correia",
     "apelido": "Correia",
@@ -13464,6 +13546,28 @@
     "ano_nasc": 1982,
     "mmdd_nasc": "01-15",
     "thumb_id": "O0850"
+  },
+  {
+    "id": "I2149",
+    "nome": "Privado Dias",
+    "apelido": "Dias",
+    "sexo": "F"
+  },
+  {
+    "id": "I2150",
+    "nome": "Privado Dias Ferreira",
+    "apelido": "Dias Ferreira",
+    "sexo": "F",
+    "ano_nasc": 1981,
+    "mmdd_nasc": "04-21"
+  },
+  {
+    "id": "I2151",
+    "nome": "Privado Dias Ferreira",
+    "apelido": "Dias Ferreira",
+    "sexo": "M",
+    "ano_nasc": 1970,
+    "mmdd_nasc": "07-12"
   },
   {
     "id": "I0315",
@@ -13507,6 +13611,12 @@
     "sexo": "M"
   },
   {
+    "id": "I2152",
+    "nome": "Privado Febra",
+    "apelido": "Febra",
+    "sexo": "F"
+  },
+  {
     "id": "I1081",
     "nome": "Privado Fernandes",
     "apelido": "Fernandes",
@@ -13521,6 +13631,22 @@
     "apelido": "Fernandes",
     "sexo": "F",
     "thumb_id": "O0868"
+  },
+  {
+    "id": "I2153",
+    "nome": "Privado Ferreira",
+    "apelido": "Ferreira",
+    "sexo": "M",
+    "ano_nasc": 2002,
+    "mmdd_nasc": "09-24"
+  },
+  {
+    "id": "I2154",
+    "nome": "Privado Ferreira",
+    "apelido": "Ferreira",
+    "sexo": "F",
+    "ano_nasc": 2010,
+    "mmdd_nasc": "07-31"
   },
   {
     "id": "I0277",
@@ -13656,6 +13782,63 @@
     "sexo": "M",
     "ano_nasc": 1947,
     "mmdd_nasc": "05-04"
+  },
+  {
+    "id": "I2126",
+    "nome": "Privado Ferreira da Costa Rico",
+    "apelido": "Ferreira da Costa Rico",
+    "sexo": "F",
+    "ano_nasc": 1947,
+    "mmdd_nasc": "02-17"
+  },
+  {
+    "id": "I2130",
+    "nome": "Privado Ferreira da Costa Rico",
+    "apelido": "Ferreira da Costa Rico",
+    "sexo": "M",
+    "ano_nasc": 1949,
+    "mmdd_nasc": "12-28"
+  },
+  {
+    "id": "I2133",
+    "nome": "Privado Ferreira da Costa Rico",
+    "apelido": "Ferreira da Costa Rico",
+    "sexo": "M",
+    "ano_nasc": 1951,
+    "mmdd_nasc": "07-28",
+    "ano_obit": 2022
+  },
+  {
+    "id": "I2134",
+    "nome": "Privado Ferreira da Costa Rico",
+    "apelido": "Ferreira da Costa Rico",
+    "sexo": "M",
+    "ano_nasc": 1954,
+    "mmdd_nasc": "09-05"
+  },
+  {
+    "id": "I2135",
+    "nome": "Privado Ferreira da Costa Rico",
+    "apelido": "Ferreira da Costa Rico",
+    "sexo": "M",
+    "ano_nasc": 1957,
+    "mmdd_nasc": "11-24",
+    "ano_obit": 2024,
+    "mmdd_obit": "04-24"
+  },
+  {
+    "id": "I2143",
+    "nome": "Privado Ferreira da Costa Rico",
+    "apelido": "Ferreira da Costa Rico",
+    "sexo": "M"
+  },
+  {
+    "id": "I1505",
+    "nome": "Privado Ferreira da Costa Rico",
+    "apelido": "Ferreira da Costa Rico",
+    "sexo": "M",
+    "ano_nasc": 1963,
+    "mmdd_nasc": "07-28"
   },
   {
     "id": "I0269",
@@ -14637,6 +14820,12 @@
     "sexo": "F"
   },
   {
+    "id": "I2144",
+    "nome": "Privado Silva",
+    "apelido": "Silva",
+    "sexo": "F"
+  },
+  {
     "id": "I1098",
     "nome": "Privado Silva",
     "apelido": "Silva",
@@ -14705,6 +14894,14 @@
     "sexo": "F",
     "ano_nasc": 1958,
     "mmdd_nasc": "01-17"
+  },
+  {
+    "id": "I2128",
+    "nome": "Privado da Costa Rico",
+    "apelido": "da Costa Rico",
+    "sexo": "M",
+    "ano_nasc": 1967,
+    "mmdd_nasc": "04-26"
   },
   {
     "id": "I1078",
@@ -14789,6 +14986,14 @@
     "mmdd_nasc": "10-17"
   },
   {
+    "id": "I2136",
+    "nome": "Privado da Silva Lemos",
+    "apelido": "da Silva Lemos",
+    "sexo": "F",
+    "ano_nasc": 1959,
+    "mmdd_nasc": "09-24"
+  },
+  {
     "id": "I1602",
     "nome": "Privado da Silva Morgado",
     "apelido": "da Silva Morgado",
@@ -14801,6 +15006,22 @@
     "nome": "Privado da Silva Morgado",
     "apelido": "da Silva Morgado",
     "sexo": "F"
+  },
+  {
+    "id": "I2137",
+    "nome": "Privado da Silva Rico",
+    "apelido": "da Silva Rico",
+    "sexo": "M",
+    "ano_nasc": 1976,
+    "mmdd_nasc": "12-05"
+  },
+  {
+    "id": "I2141",
+    "nome": "Privado da Silva Rico",
+    "apelido": "da Silva Rico",
+    "sexo": "F",
+    "ano_nasc": 1979,
+    "mmdd_nasc": "04-11"
   },
   {
     "id": "I1008",

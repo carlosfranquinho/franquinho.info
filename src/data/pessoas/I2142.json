@@ -1,0 +1,22 @@
+{
+  "id": "I2142",
+  "protegida": true,
+  "nome": "Privado",
+  "nome_proprio": "Privado",
+  "apelido": null,
+  "apelidos": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0687"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

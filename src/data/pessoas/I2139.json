@@ -1,0 +1,25 @@
+{
+  "id": "I2139",
+  "protegida": false,
+  "nome": null,
+  "nome_proprio": null,
+  "apelido": null,
+  "apelidos": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "2000-11-06",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0686"
+  ],
+  "familias_como_pai": null,
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

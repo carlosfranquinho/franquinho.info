@@ -584,6 +584,54 @@
     "pai_id": "P0060"
   },
   {
+    "id": "P0245",
+    "nome": "Calvaria de Cima",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0166"
+  },
+  {
+    "id": "P0246",
+    "nome": "Aveiro",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0136"
+  },
+  {
+    "id": "P0247",
+    "nome": "Oliveira do Bairro",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0246"
+  },
+  {
+    "id": "P0248",
+    "nome": "Alemanha",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": null
+  },
+  {
+    "id": "P0249",
+    "nome": "Grafschaft Bentheim",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0248"
+  },
+  {
+    "id": "P0250",
+    "nome": "Nordhorn",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0249"
+  },
+  {
     "id": "P0000",
     "nome": "Marinha Grande",
     "tipo": null,

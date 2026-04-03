@@ -1,0 +1,28 @@
+{
+  "id": "I2140",
+  "protegida": true,
+  "nome": "Privado Beja Rico",
+  "nome_proprio": "Privado",
+  "apelido": "Beja Rico",
+  "apelidos": [
+    "Beja",
+    "Rico"
+  ],
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "2002-02-10",
+    "lugar_id": "P0003"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0686"
+  ],
+  "familias_como_pai": null,
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

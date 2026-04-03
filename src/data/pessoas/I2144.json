@@ -1,0 +1,22 @@
+{
+  "id": "I2144",
+  "protegida": true,
+  "nome": "Privado Silva",
+  "nome_proprio": "Privado",
+  "apelido": "Silva",
+  "apelidos": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0688"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

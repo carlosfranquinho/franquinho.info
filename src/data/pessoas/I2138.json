@@ -1,0 +1,25 @@
+{
+  "id": "I2138",
+  "protegida": true,
+  "nome": "Privado Chacim Beja",
+  "nome_proprio": "Privado",
+  "apelido": "Chacim Beja",
+  "apelidos": [
+    "Chacim",
+    "Beja"
+  ],
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0686"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}
