@@ -1,8 +1,8 @@
 {
   "id": "I2057",
-  "protegida": false,
-  "nome": null,
-  "nome_proprio": null,
+  "protegida": true,
+  "nome": "Privado",
+  "nome_proprio": "Privado",
   "apelido": null,
   "apelidos": null,
   "nomes_alt": null,

@@ -1,8 +1,8 @@
 {
   "id": "I2090",
-  "protegida": false,
-  "nome": "Mário",
-  "nome_proprio": "Mário",
+  "protegida": true,
+  "nome": "Privado",
+  "nome_proprio": "Privado",
   "apelido": null,
   "apelidos": null,
   "nomes_alt": null,

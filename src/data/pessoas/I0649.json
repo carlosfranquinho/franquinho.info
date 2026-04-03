@@ -17,7 +17,9 @@
   "baptismo": null,
   "obito": null,
   "sepultura": null,
-  "profissoes": null,
+  "profissoes": [
+    "Operária Fabril"
+  ],
   "familias_como_filho": [
     "F0184"
   ],

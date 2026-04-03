@@ -1,8 +1,8 @@
 {
   "id": "I2070",
-  "protegida": false,
-  "nome": "Isabel Cardoso Neves",
-  "nome_proprio": "Isabel",
+  "protegida": true,
+  "nome": "Privado Cardoso Neves",
+  "nome_proprio": "Privado",
   "apelido": "Cardoso Neves",
   "apelidos": [
     "Cardoso",

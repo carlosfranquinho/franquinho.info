@@ -1,15 +1,5 @@
 [
   {
-    "id": "I2057",
-    "sexo": "M"
-  },
-  {
-    "id": "I2139",
-    "sexo": "M",
-    "ano_nasc": 2000,
-    "mmdd_nasc": "11-06"
-  },
-  {
     "id": "I2157",
     "sexo": "M"
   },
@@ -2892,11 +2882,6 @@
     "mmdd_obit": "09-23"
   },
   {
-    "id": "I2156",
-    "nome": "Donzilia",
-    "sexo": "F"
-  },
-  {
     "id": "I0146",
     "nome": "Edelcina Correia Eusébio dos Santos",
     "apelido": "Correia Eusébio dos Santos",
@@ -3203,14 +3188,6 @@
     "id": "I1522",
     "nome": "Felicidade",
     "sexo": "F"
-  },
-  {
-    "id": "I1604",
-    "nome": "Felisbela Cardoso Morgado",
-    "apelido": "Cardoso Morgado",
-    "sexo": "F",
-    "ano_nasc": 1982,
-    "mmdd_nasc": "09-30"
   },
   {
     "id": "I0569",
@@ -4309,12 +4286,6 @@
     "id": "I1831",
     "nome": "Isabel Cardosa",
     "apelido": "Cardosa",
-    "sexo": "F"
-  },
-  {
-    "id": "I2070",
-    "nome": "Isabel Cardoso Neves",
-    "apelido": "Cardoso Neves",
     "sexo": "F"
   },
   {
@@ -7499,12 +7470,6 @@
     "mmdd_nasc": "04-02",
     "ano_obit": 1821,
     "mmdd_obit": "07-31"
-  },
-  {
-    "id": "I2065",
-    "nome": "Laurinda Cardoso Neves",
-    "apelido": "Cardoso Neves",
-    "sexo": "F"
   },
   {
     "id": "I0097",
@@ -11898,14 +11863,6 @@
     "sexo": "F"
   },
   {
-    "id": "I2089",
-    "nome": "Maria Teresa de Jesus Matos",
-    "apelido": "de Jesus Matos",
-    "sexo": "F",
-    "ano_nasc": 1975,
-    "mmdd_nasc": "09-19"
-  },
-  {
     "id": "I0650",
     "nome": "Maria Vicência",
     "apelido": "Vicência",
@@ -12545,11 +12502,6 @@
     "mmdd_nasc": "09-09"
   },
   {
-    "id": "I2090",
-    "nome": "Mário",
-    "sexo": "M"
-  },
-  {
     "id": "I1792",
     "nome": "Natália",
     "sexo": "F",
@@ -12665,14 +12617,6 @@
     "mmdd_nasc": "02-16",
     "ano_obit": 1978,
     "mmdd_obit": "02-06"
-  },
-  {
-    "id": "I2129",
-    "nome": "Paulo Jorge da Costa Rico",
-    "apelido": "da Costa Rico",
-    "sexo": "M",
-    "ano_nasc": 1970,
-    "mmdd_nasc": "02-03"
   },
   {
     "id": "I1282",
@@ -12862,6 +12806,11 @@
     "sexo": "F"
   },
   {
+    "id": "I2057",
+    "nome": "Privado",
+    "sexo": "M"
+  },
+  {
     "id": "I2062",
     "nome": "Privado",
     "sexo": "F"
@@ -12908,6 +12857,11 @@
   },
   {
     "id": "I2086",
+    "nome": "Privado",
+    "sexo": "M"
+  },
+  {
+    "id": "I2090",
     "nome": "Privado",
     "sexo": "M"
   },
@@ -13002,6 +12956,13 @@
     "sexo": "F"
   },
   {
+    "id": "I2139",
+    "nome": "Privado",
+    "sexo": "M",
+    "ano_nasc": 2000,
+    "mmdd_nasc": "11-06"
+  },
+  {
     "id": "I2142",
     "nome": "Privado",
     "sexo": "M"
@@ -13020,6 +12981,11 @@
     "id": "I2155",
     "nome": "Privado",
     "sexo": "M"
+  },
+  {
+    "id": "I2156",
+    "nome": "Privado",
+    "sexo": "F"
   },
   {
     "id": "I0232",
@@ -13397,6 +13363,14 @@
     "sexo": "F"
   },
   {
+    "id": "I1604",
+    "nome": "Privado Cardoso Morgado",
+    "apelido": "Cardoso Morgado",
+    "sexo": "F",
+    "ano_nasc": 1982,
+    "mmdd_nasc": "09-30"
+  },
+  {
     "id": "I0001",
     "nome": "Privado Cardoso Morgado",
     "apelido": "Cardoso Morgado",
@@ -13409,6 +13383,18 @@
     "nome": "Privado Cardoso Neves",
     "apelido": "Cardoso Neves",
     "sexo": "M"
+  },
+  {
+    "id": "I2065",
+    "nome": "Privado Cardoso Neves",
+    "apelido": "Cardoso Neves",
+    "sexo": "F"
+  },
+  {
+    "id": "I2070",
+    "nome": "Privado Cardoso Neves",
+    "apelido": "Cardoso Neves",
+    "sexo": "F"
   },
   {
     "id": "I1603",
@@ -14904,6 +14890,14 @@
     "mmdd_nasc": "04-26"
   },
   {
+    "id": "I2129",
+    "nome": "Privado da Costa Rico",
+    "apelido": "da Costa Rico",
+    "sexo": "M",
+    "ano_nasc": 1970,
+    "mmdd_nasc": "02-03"
+  },
+  {
     "id": "I1078",
     "nome": "Privado da Gomes Franquinho",
     "apelido": "da Gomes Franquinho",
@@ -15079,6 +15073,14 @@
     "ano_nasc": 1965,
     "mmdd_nasc": "03-10",
     "thumb_id": "O0840"
+  },
+  {
+    "id": "I2089",
+    "nome": "Privado de Jesus Matos",
+    "apelido": "de Jesus Matos",
+    "sexo": "F",
+    "ano_nasc": 1975,
+    "mmdd_nasc": "09-19"
   },
   {
     "id": "I2096",

@@ -3,10 +3,10 @@
   "pai": "I1360",
   "mae": "I1441",
   "filhos": [
-    "I0171",
     "I1443",
     "I1816",
-    "I1817"
+    "I1817",
+    "I0171"
   ],
   "tipo_relacao": "Unknown",
   "casamento": {
