@@ -10,7 +10,7 @@ const root: Pessoa = JSON.parse(readFileSync(resolve(`src/data/pessoas/${ROOT_ID
 const rootName = root.nome ?? ROOT_ID;
 ---
 
-<Base titulo="Arvore" descricao="Arvore genealogica interactiva da familia Franquinho">
+<Base titulo="Árvore" descricao="Árvore genealógica interactiva da família Franquinho">
   <!-- Preload do JSON da árvore para eliminar waterfall JS → fetch -->
   <link slot="head" rel="preload" href="/data/arvore.json" as="fetch" crossorigin="anonymous" />
 

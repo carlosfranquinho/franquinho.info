@@ -84,6 +84,14 @@ const anoMaisAntigo = indice.filter(p => p.ano_nasc).sort((a,b) => (a.ano_nasc??
 
 <Base titulo="Início" isHome descricao="Árvore genealógica da família Franquinho — três séculos de história familiar">
   <link slot="head" rel="preload" href="/hero-mosaic.webp" as="image" type="image/webp" />
+  <script type="application/ld+json" set:html={JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'Franquinho.info',
+    url: 'https://franquinho.info',
+    description: 'Árvore genealógica da família Franquinho',
+    inLanguage: 'pt',
+  })} slot="head" />
 
   <!-- ===================== HERO ===================== -->
   <section class="relative overflow-hidden" style="height: 92vh; min-height: 560px; max-height: 860px;">

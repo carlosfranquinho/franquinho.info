@@ -69,12 +69,22 @@ pessoasAssociadas.sort((a, b) => {
 // Lugares filhos diretos (mostrar como subdivisões informativas)
 const lugaresFilhos = lugares.filter((l) => l.pai_id === id);
 const lugarPai = lugar?.pai_id ? lugaresMap[lugar.pai_id] : null;
+
+const jsonLd = lugar?.nome ? {
+  '@context': 'https://schema.org',
+  '@type': 'Place',
+  name: lugar.nome,
+  ...(lugar.lat && lugar.lon && {
+    geo: { '@type': 'GeoCoordinates', latitude: parseFloat(lugar.lat), longitude: parseFloat(lugar.lon) },
+  }),
+} : null;
 ---
 
 <Base
   titulo={lugar?.nome ?? id}
   descricao={lugar?.nome ? `Pessoas associadas a ${lugar.nome}` : undefined}
 >
+  {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} slot="head" />}
   <div class="max-w-7xl mx-auto px-6 py-10 space-y-8">
 
     <header class="border-b border-stone-200 pb-4">
