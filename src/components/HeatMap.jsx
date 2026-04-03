@@ -129,7 +129,7 @@ export default function HeatMap({ pontos }) {
   useEffect(() => {
     if (!divRef.current || mapRef.current) return;
 
-    const map = L.map(divRef.current, { zoomControl: true, scrollWheelZoom: false });
+    const map = L.map(divRef.current, { zoomControl: true, scrollWheelZoom: false, dragging: false, touchZoom: true, doubleClickZoom: true, boxZoom: false });
 
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
