@@ -3,8 +3,11 @@
 GEDCOM vs BD comparison with family-context BFS matching.
 Generates /dados/projetos/franquinho.info/relatorio_ged.html
 """
+import gzip
+import io
 import json
 import re
+import tarfile
 import unicodedata
 import os
 import sys
@@ -12,14 +15,14 @@ from collections import deque, defaultdict
 from difflib import SequenceMatcher
 from pathlib import Path
 from datetime import date
+from lxml import etree
 
 # ---------------------------------------------------------------------------
 # Paths
 # ---------------------------------------------------------------------------
 BASE = Path("/dados/projetos/franquinho.info")
-GED_FILE = BASE / "data" / "5n469m_96606156exucx6eiv65a79_A.ged"
-PESSOAS_DIR = BASE / "src" / "data" / "pessoas"
-FAMILIAS_DIR = BASE / "src" / "data" / "familias"
+GED_FILE  = BASE / "data" / "5n469m_96606156exucx6eiv65a79_A.ged"
+GPKG_FILE = BASE / "data" / "arvore.gpkg"
 OUTPUT_HTML = BASE / "relatorio_ged.html"
 
 # ---------------------------------------------------------------------------
@@ -209,42 +212,125 @@ def parse_ged(filepath):
 
 
 # ---------------------------------------------------------------------------
-# Load BD
+# Load BD from .gpkg (nomes reais, sem anonimização)
 # ---------------------------------------------------------------------------
 def load_bd():
+    with gzip.open(GPKG_FILE, 'rb') as f:
+        tar = tarfile.open(fileobj=io.BytesIO(f.read()))
+    entry = next((m for m in tar.getmembers() if m.name.endswith('.gramps')), None)
+    raw = tar.extractfile(entry).read()
+    try:
+        xml_bytes = gzip.decompress(raw)
+    except gzip.BadGzipFile:
+        xml_bytes = raw
+    root = etree.fromstring(xml_bytes)
+
+    tag = root.tag
+    namespace = tag[1:tag.index('}')] if tag.startswith('{') else ''
+    N = lambda t: f'{{{namespace}}}{t}' if namespace else t
+
+    def _atrib(el, nome, default=None):
+        return el.get(nome, default) if el is not None else default
+
+    idx_pessoas = {_atrib(el, 'handle'): el for el in root.iter(N('person'))}
+    idx_eventos = {_atrib(el, 'handle'): el for el in root.iter(N('event'))}
+
+    def _get_nasc(person_el):
+        for evref in person_el.findall(N('eventref')):
+            h = _atrib(evref, 'hlink')
+            ev = idx_eventos.get(h)
+            if ev is None:
+                continue
+            tipo_el = ev.find(N('type'))
+            if tipo_el is not None and tipo_el.text and tipo_el.text.strip().lower() == 'birth':
+                for tag in ('dateval', 'daterange', 'datestr'):
+                    d = ev.find(N(tag))
+                    if d is not None:
+                        val = _atrib(d, 'val') or _atrib(d, 'start') or ''
+                        return val  # full date string
+        return None
+
+    def _handle_to_id(handle):
+        if not handle:
+            return None
+        el = idx_pessoas.get(handle)
+        return _atrib(el, 'id') if el is not None else None
+
     pessoas = {}
-    for f in PESSOAS_DIR.glob("*.json"):
-        with open(f) as fp:
-            data = json.load(fp)
-        pessoas[data["id"]] = data
+    for person_el in root.iter(N('person')):
+        pid = _atrib(person_el, 'id')
+        protegida = _atrib(person_el, 'priv', '0') == '1'
+
+        nome_el = person_el.find(N('name'))
+        nome_proprio = None
+        apelido = None
+        if nome_el is not None:
+            primeiro = nome_el.find(N('first'))
+            nome_proprio = primeiro.text.strip() if primeiro is not None and primeiro.text else None
+            partes_ap = []
+            for sur in nome_el.findall(N('surname')):
+                t = sur.text.strip() if sur.text else ''
+                if t:
+                    pref = (_atrib(sur, 'prefix') or '').strip()
+                    partes_ap.append(f'{pref} {t}'.strip() if pref else t)
+            apelido = ' '.join(partes_ap) if partes_ap else None
+
+        partes = [p for p in [nome_proprio, apelido] if p]
+        nome = ' '.join(partes) if partes else None
+
+        sexo_el = person_el.find(N('gender'))
+        sexo_raw = sexo_el.text.strip().upper() if sexo_el is not None and sexo_el.text else 'U'
+        sexo = {'MALE': 'M', 'FEMALE': 'F', 'UNKNOWN': 'U', 'M': 'M', 'F': 'F'}.get(sexo_raw, 'U')
+
+        nasc_data = _get_nasc(person_el)
+
+        pessoas[pid] = {
+            'id': pid,
+            'nome': nome,
+            'nome_proprio': nome_proprio,
+            'apelido': apelido,
+            'sexo': sexo,
+            'protegida': protegida,
+            'nascimento': {'data': nasc_data} if nasc_data else None,
+        }
 
     familias = {}
-    for f in FAMILIAS_DIR.glob("*.json"):
-        with open(f) as fp:
-            data = json.load(fp)
-        familias[data["id"]] = data
+    for fam_el in root.iter(N('family')):
+        fid = _atrib(fam_el, 'id')
+        pai_ref = fam_el.find(N('father'))
+        mae_ref = fam_el.find(N('mother'))
+        pai_id = _handle_to_id(_atrib(pai_ref, 'hlink') if pai_ref is not None else None)
+        mae_id = _handle_to_id(_atrib(mae_ref, 'hlink') if mae_ref is not None else None)
+        filhos = [_handle_to_id(_atrib(r, 'hlink')) for r in fam_el.findall(N('childref'))]
+        filhos = [f for f in filhos if f]
+        familias[fid] = {
+            'id': fid,
+            'pai': pai_id,
+            'mae': mae_id,
+            'filhos': filhos,
+        }
+        # Preencher familias_como_filho e familias_como_pai nas pessoas
+        for cid in filhos:
+            if cid in pessoas:
+                pessoas[cid].setdefault('familias_como_filho', []).append(fid)
+        for pid_fam in [pai_id, mae_id]:
+            if pid_fam and pid_fam in pessoas:
+                pessoas[pid_fam].setdefault('familias_como_pai', []).append(fid)
 
     return pessoas, familias
 
 
 def bd_person_name(p):
-    """Best display name for a BD person (may be protected)."""
-    if p.get("protegida"):
-        nome = p.get("nome", "") or ""
-        apelido = p.get("apelido", "") or ""
-        if nome == "Familiar":
-            return f"[Familiar] {apelido}".strip()
-        return (nome + " " + apelido).strip()
+    """Display name for a BD person."""
     nome = p.get("nome", "") or ""
+    if nome:
+        return nome
     apelido = p.get("apelido", "") or ""
-    return (nome + " " + apelido).strip()
+    return apelido
 
 
 def bd_first_name(p):
     """First given name for matching purposes."""
-    if p.get("protegida"):
-        # Use apelido tokens as fallback
-        return first_name(p.get("apelido", "") or "")
     nome_proprio = p.get("nome_proprio", "") or ""
     if nome_proprio:
         return first_name(nome_proprio)
@@ -264,12 +350,7 @@ def match_pair(bd_p, ged_p) -> tuple[bool, str]:
     Try to match a BD person to a GED individual.
     Returns (matched, confidence).
     """
-    # For protected BD persons: use apelido tokens
-    if bd_p.get("protegida"):
-        bd_name = bd_p.get("apelido", "") or ""
-    else:
-        bd_name = bd_person_name(bd_p)
-
+    bd_name = bd_person_name(bd_p)
     ged_name = ged_p["display_name"]
 
     # Sex check (if both have data)
@@ -278,14 +359,14 @@ def match_pair(bd_p, ged_p) -> tuple[bool, str]:
     if bd_sex and ged_sex and bd_sex != ged_sex:
         return False, ""
 
-    # Name matching
+    # Name matching — for protected persons without first name, fall back to surname tokens
     fn_ok = first_name_match(bd_name, ged_name)
     sim = name_similarity(bd_name, ged_name)
     name_ok = fn_ok or sim >= 0.7
 
     if not name_ok:
-        # Last resort: check if any token of bd apelido in ged surname
-        if bd_p.get("protegida"):
+        # Last resort: check if any surname token appears in the GED name
+        if bd_p.get("protegida") and not bd_p.get("nome_proprio"):
             ap_tokens = normalize(bd_p.get("apelido", "") or "").split()
             ged_surn = normalize(ged_p.get("surn", "") or "")
             ged_givn = normalize(ged_p.get("givn", "") or "")
@@ -714,13 +795,13 @@ def main():
                     f"(nasc. {gp.get('birth_date','?')} {gp.get('birth_place','')})"
                 )
             validation["details"].append(
-                "NOTA: I1035 é pessoa protegida (nome='Familiar') — a correspondência por BFS é difícil "
+                "NOTA: I1035 é pessoa protegida (protegida=True) — a correspondência por BFS é difícil "
                 "pois o nome próprio não está disponível. Verificação manual acima mostra candidatos plausíveis."
             )
         else:
             validation["details"].append(
                 "  Nenhum candidato directo encontrado por apelido. "
-                "I1035 é protegida (nome='Familiar'), impossível associar automaticamente."
+                "I1035 é protegida (protegida=True), impossível associar automaticamente."
             )
 
     # ---- Passo 5: Classificar não-associados no GED ----
