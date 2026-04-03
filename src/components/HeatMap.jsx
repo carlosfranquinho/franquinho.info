@@ -147,11 +147,14 @@ export default function HeatMap({ pontos }) {
       gradient: { 0.3: '#fef3c7', 0.55: '#fbbf24', 0.75: '#d97706', 0.92: '#92400e', 1.0: '#7c2d12' },
     }).addTo(map);
 
-    // Zoom centrado na zona com mais nascimentos (centro de massa ponderado)
-    const totalPesos = pontos.reduce((s, p) => s + p.count, 0);
-    const latC = pontos.reduce((s, p) => s + p.lat * p.count, 0) / totalPesos;
-    const lonC = pontos.reduce((s, p) => s + p.lon * p.count, 0) / totalPesos;
-    map.setView([latC, lonC], 10);
+    // Zoom para mostrar todos os pontos de Portugal (continental + ilhas)
+    const ptPontos = pontos.filter(p => p.lat >= PT.minLat && p.lat <= PT.maxLat && p.lon >= PT.minLon && p.lon <= PT.maxLon);
+    if (ptPontos.length > 0) {
+      const bounds = L.latLngBounds(ptPontos.map(p => [p.lat, p.lon]));
+      map.fitBounds(bounds, { padding: [30, 30], maxZoom: 9 });
+    } else {
+      map.setView([39.5, -8], 7);
+    }
 
     mapRef.current = map;
     return () => { if (mapRef.current) { mapRef.current.remove(); mapRef.current = null; } };
