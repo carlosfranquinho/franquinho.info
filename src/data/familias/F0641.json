@@ -1,0 +1,15 @@
+{
+  "id": "F0641",
+  "pai": "I2021",
+  "mae": "I2022",
+  "filhos": [
+    "I2019"
+  ],
+  "tipo_relacao": "Unknown",
+  "casamento": {
+    "data": "1787-01-18",
+    "lugar_id": "P0081"
+  },
+  "notas": null,
+  "media": null
+}

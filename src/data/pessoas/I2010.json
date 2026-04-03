@@ -1,0 +1,21 @@
+{
+  "id": "I2010",
+  "protegida": false,
+  "nome": "Manuel Coelho",
+  "nome_proprio": "Manuel",
+  "apelido": "Coelho",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0635"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

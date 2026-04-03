@@ -1,0 +1,26 @@
+{
+  "id": "I2072",
+  "protegida": true,
+  "nome": "Privado Cardoso Matos",
+  "nome_proprio": "Privado",
+  "apelido": "Cardoso Matos",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1953-03-04",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0488"
+  ],
+  "familias_como_pai": [
+    "F0665"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

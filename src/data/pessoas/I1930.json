@@ -1,0 +1,30 @@
+{
+  "id": "I1930",
+  "protegida": false,
+  "nome": "Maria Rodrigues",
+  "nome_proprio": "Maria",
+  "apelido": "Rodrigues",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1694-10-03",
+    "lugar_id": "P0096"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "antes de 1804",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0599"
+  ],
+  "familias_como_pai": [
+    "F0597"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

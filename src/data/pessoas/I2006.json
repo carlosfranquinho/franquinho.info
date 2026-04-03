@@ -1,0 +1,33 @@
+{
+  "id": "I2006",
+  "protegida": false,
+  "nome": "Maria Francisca",
+  "nome_proprio": "Maria",
+  "apelido": "Francisca",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "",
+    "lugar_id": "P0236"
+  },
+  "baptismo": {
+    "data": "1720-01-22",
+    "lugar_id": "P0081"
+  },
+  "obito": {
+    "data": "antes de 1830",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0636"
+  ],
+  "familias_como_pai": [
+    "F0632"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

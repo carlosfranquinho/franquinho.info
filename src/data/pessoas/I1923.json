@@ -1,0 +1,27 @@
+{
+  "id": "I1923",
+  "protegida": false,
+  "nome": "Manuel de Almeida Rolo",
+  "nome_proprio": "Manuel",
+  "apelido": "de Almeida Rolo",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1839-03-28",
+    "lugar_id": "P0035"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1897-12-12",
+    "lugar_id": "P0095"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0594"
+  ],
+  "familias_como_pai": null,
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

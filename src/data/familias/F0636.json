@@ -1,0 +1,15 @@
+{
+  "id": "F0636",
+  "pai": "I2011",
+  "mae": "I2012",
+  "filhos": [
+    "I2006"
+  ],
+  "tipo_relacao": "Unknown",
+  "casamento": {
+    "data": "1712-11-22",
+    "lugar_id": "P0081"
+  },
+  "notas": null,
+  "media": null
+}

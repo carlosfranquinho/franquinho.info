@@ -1,0 +1,26 @@
+{
+  "id": "I1866",
+  "protegida": false,
+  "nome": "António da Costa",
+  "nome_proprio": "António",
+  "apelido": "da Costa",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "",
+    "lugar_id": "P0236"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0567"
+  ],
+  "familias_como_pai": [
+    "F0566"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

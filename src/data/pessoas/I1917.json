@@ -1,0 +1,28 @@
+{
+  "id": "I1917",
+  "protegida": false,
+  "nome": "Manuel Francisco Leirião",
+  "nome_proprio": "Manuel",
+  "apelido": "Francisco Leirião",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1645-09-14",
+    "lugar_id": "P0109"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "antes de 1755",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0592"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

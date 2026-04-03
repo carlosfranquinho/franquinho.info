@@ -1,0 +1,33 @@
+{
+  "id": "I2005",
+  "protegida": false,
+  "nome": "António Fernandes",
+  "nome_proprio": "António",
+  "apelido": "Fernandes",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "",
+    "lugar_id": "P0236"
+  },
+  "baptismo": {
+    "data": "1714-01-14",
+    "lugar_id": "P0081"
+  },
+  "obito": {
+    "data": "antes de 1824",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0633"
+  ],
+  "familias_como_pai": [
+    "F0632"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

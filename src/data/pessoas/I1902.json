@@ -1,0 +1,26 @@
+{
+  "id": "I1902",
+  "protegida": false,
+  "nome": "Francisco Domingues",
+  "nome_proprio": "Francisco",
+  "apelido": "Domingues",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "",
+    "lugar_id": "P0117"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0586"
+  ],
+  "familias_como_pai": [
+    "F0585"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

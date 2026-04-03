@@ -1,0 +1,21 @@
+{
+  "id": "I1868",
+  "protegida": false,
+  "nome": "Manuel Gomes",
+  "nome_proprio": "Manuel",
+  "apelido": "Gomes",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0567"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

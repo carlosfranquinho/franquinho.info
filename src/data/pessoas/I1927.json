@@ -1,0 +1,30 @@
+{
+  "id": "I1927",
+  "protegida": false,
+  "nome": "Francisco Fernandes Rolo",
+  "nome_proprio": "Francisco",
+  "apelido": "Fernandes Rolo",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1730-03-12",
+    "lugar_id": "P0096"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "antes de 1840",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0597"
+  ],
+  "familias_como_pai": [
+    "F0596"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

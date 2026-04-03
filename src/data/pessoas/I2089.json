@@ -1,0 +1,26 @@
+{
+  "id": "I2089",
+  "protegida": false,
+  "nome": "Maria Teresa de Jesus Matos",
+  "nome_proprio": "Maria Teresa",
+  "apelido": "de Jesus Matos",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1975-09-19",
+    "lugar_id": "P0244"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0669"
+  ],
+  "familias_como_pai": [
+    "F0670"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

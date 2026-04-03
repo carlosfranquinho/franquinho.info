@@ -1,0 +1,33 @@
+{
+  "id": "I1991",
+  "protegida": false,
+  "nome": "Francisco Grazina",
+  "nome_proprio": "Francisco",
+  "apelido": "Grazina",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "",
+    "lugar_id": "P0237"
+  },
+  "baptismo": {
+    "data": "1783-05-11",
+    "lugar_id": "P0079"
+  },
+  "obito": {
+    "data": "antes de 1893",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0626"
+  ],
+  "familias_como_pai": [
+    "F0625"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

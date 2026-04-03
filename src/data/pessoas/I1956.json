@@ -1,0 +1,28 @@
+{
+  "id": "I1956",
+  "protegida": false,
+  "nome": "João Fernandes de Almeida",
+  "nome_proprio": "João",
+  "apelido": "Fernandes de Almeida",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1653-03-19",
+    "lugar_id": "P0240"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "antes de 1763",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0610"
+  ],
+  "familias_como_pai": null,
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

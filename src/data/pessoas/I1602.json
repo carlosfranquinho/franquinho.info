@@ -1,8 +1,8 @@
 {
   "id": "I1602",
-  "protegida": false,
-  "nome": "Manuel da Silva Morgado",
-  "nome_proprio": "Manuel",
+  "protegida": true,
+  "nome": "Privado da Silva Morgado",
+  "nome_proprio": "Privado",
   "apelido": "da Silva Morgado",
   "nomes_alt": null,
   "sexo": "M",

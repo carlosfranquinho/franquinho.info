@@ -1,0 +1,30 @@
+{
+  "id": "I1953",
+  "protegida": false,
+  "nome": "Antónia Francisca",
+  "nome_proprio": "Antónia",
+  "apelido": "Francisca",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1684-02-15",
+    "lugar_id": "P0229"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "antes de 1794",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0614"
+  ],
+  "familias_como_pai": [
+    "F0609"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

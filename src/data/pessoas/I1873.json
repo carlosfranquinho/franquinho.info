@@ -1,0 +1,26 @@
+{
+  "id": "I1873",
+  "protegida": false,
+  "nome": "Domingas Fernandes",
+  "nome_proprio": "Domingas",
+  "apelido": "Fernandes",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "",
+    "lugar_id": "P0104"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0571"
+  ],
+  "familias_como_pai": [
+    "F0569"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

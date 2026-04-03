@@ -1,0 +1,21 @@
+{
+  "id": "I1869",
+  "protegida": false,
+  "nome": "Luisa da Costa",
+  "nome_proprio": "Luisa",
+  "apelido": "da Costa",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0567"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

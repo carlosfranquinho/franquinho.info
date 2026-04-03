@@ -1,0 +1,24 @@
+{
+  "id": "I1972",
+  "protegida": false,
+  "nome": "Gertrudes Maria",
+  "nome_proprio": "Gertrudes",
+  "apelido": "Maria",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "",
+    "lugar_id": "P0043"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0617"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

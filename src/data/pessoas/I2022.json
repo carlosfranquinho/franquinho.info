@@ -1,0 +1,30 @@
+{
+  "id": "I2022",
+  "protegida": false,
+  "nome": "Maria Leal",
+  "nome_proprio": "Maria",
+  "apelido": "Leal",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1761-03-19",
+    "lugar_id": "P0236"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "antes de 1871",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0646"
+  ],
+  "familias_como_pai": [
+    "F0641"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

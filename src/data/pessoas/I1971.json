@@ -1,0 +1,30 @@
+{
+  "id": "I1971",
+  "protegida": false,
+  "nome": "José da Silva",
+  "nome_proprio": "José",
+  "apelido": "da Silva",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1771-03-10",
+    "lugar_id": "P0101"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "antes de 1881",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0618"
+  ],
+  "familias_como_pai": [
+    "F0617"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,21 @@
+{
+  "id": "I1943",
+  "protegida": false,
+  "nome": "Maria da Costa",
+  "nome_proprio": "Maria",
+  "apelido": "da Costa",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0604"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

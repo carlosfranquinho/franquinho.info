@@ -1,0 +1,30 @@
+{
+  "id": "I1886",
+  "protegida": false,
+  "nome": "Josefa Maria",
+  "nome_proprio": "Josefa",
+  "apelido": "Maria",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1709-11-24",
+    "lugar_id": "P0097"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "antes de 1819",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0584"
+  ],
+  "familias_como_pai": [
+    "F0576"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

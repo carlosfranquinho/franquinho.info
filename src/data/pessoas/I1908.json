@@ -1,0 +1,23 @@
+{
+  "id": "I1908",
+  "protegida": false,
+  "nome": "Manuel João",
+  "nome_proprio": "Manuel",
+  "apelido": "João",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0589"
+  ],
+  "familias_como_pai": [
+    "F0588"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

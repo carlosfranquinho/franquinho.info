@@ -1,0 +1,15 @@
+{
+  "id": "F0608",
+  "pai": "I1950",
+  "mae": "I1951",
+  "filhos": [
+    "I1926"
+  ],
+  "tipo_relacao": "Unknown",
+  "casamento": {
+    "data": "1763-03-26",
+    "lugar_id": "P0081"
+  },
+  "notas": null,
+  "media": null
+}

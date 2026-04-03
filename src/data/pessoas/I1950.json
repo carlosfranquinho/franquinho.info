@@ -1,0 +1,30 @@
+{
+  "id": "I1950",
+  "protegida": false,
+  "nome": "Faustino de Almeida",
+  "nome_proprio": "Faustino",
+  "apelido": "de Almeida",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1720-07-29",
+    "lugar_id": "P0035"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "antes de 1830",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0609"
+  ],
+  "familias_como_pai": [
+    "F0608"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "I1880",
+  "protegida": false,
+  "nome": "Manuel Dias",
+  "nome_proprio": "Manuel",
+  "apelido": "Dias",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "",
+    "lugar_id": "P0200"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0574"
+  ],
+  "familias_como_pai": [
+    "F0573"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

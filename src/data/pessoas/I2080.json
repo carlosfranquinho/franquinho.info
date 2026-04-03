@@ -1,0 +1,21 @@
+{
+  "id": "I2080",
+  "protegida": true,
+  "nome": "Privado Cravo",
+  "nome_proprio": "Privado",
+  "apelido": "Cravo",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0667"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

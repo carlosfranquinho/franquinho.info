@@ -1,0 +1,26 @@
+{
+  "id": "I1984",
+  "protegida": false,
+  "nome": "Maria Cardosa",
+  "nome_proprio": "Maria",
+  "apelido": "Cardosa",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1905-05-08",
+    "lugar_id": "P0079"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0656"
+  ],
+  "familias_como_pai": [
+    "F0623"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

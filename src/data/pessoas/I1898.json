@@ -1,0 +1,24 @@
+{
+  "id": "I1898",
+  "protegida": false,
+  "nome": "Brás Gonçalves",
+  "nome_proprio": "Brás",
+  "apelido": "Gonçalves",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1661",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0583"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

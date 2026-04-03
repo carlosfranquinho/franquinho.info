@@ -1,0 +1,21 @@
+{
+  "id": "I2109",
+  "protegida": false,
+  "nome": "José Baptista",
+  "nome_proprio": "José",
+  "apelido": "Baptista",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0675"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

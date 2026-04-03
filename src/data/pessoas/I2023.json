@@ -1,0 +1,33 @@
+{
+  "id": "I2023",
+  "protegida": false,
+  "nome": "Caetano Francisco",
+  "nome_proprio": "Caetano",
+  "apelido": "Francisco",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "",
+    "lugar_id": "P0103"
+  },
+  "baptismo": {
+    "data": "1736-08-27",
+    "lugar_id": "P0079"
+  },
+  "obito": {
+    "data": "antes de 1846",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0643"
+  ],
+  "familias_como_pai": [
+    "F0642"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

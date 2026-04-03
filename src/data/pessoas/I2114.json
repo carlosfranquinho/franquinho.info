@@ -1,0 +1,21 @@
+{
+  "id": "I2114",
+  "protegida": true,
+  "nome": "Privado Guerra",
+  "nome_proprio": "Privado",
+  "apelido": "Guerra",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0677"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

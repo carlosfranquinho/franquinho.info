@@ -1,0 +1,23 @@
+{
+  "id": "I2084",
+  "protegida": true,
+  "nome": "Privado Cardoso Gomes",
+  "nome_proprio": "Privado",
+  "apelido": "Cardoso Gomes",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0665"
+  ],
+  "familias_como_pai": [
+    "F0668"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

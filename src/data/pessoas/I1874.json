@@ -1,0 +1,21 @@
+{
+  "id": "I1874",
+  "protegida": false,
+  "nome": "Manuel Martins",
+  "nome_proprio": "Manuel",
+  "apelido": "Martins",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0570"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

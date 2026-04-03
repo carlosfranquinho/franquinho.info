@@ -3,7 +3,13 @@
   "pai": "I1698",
   "mae": "I1699",
   "filhos": [
-    "I1603"
+    "I1603",
+    "I2053",
+    "I2059",
+    "I2072",
+    "I2087",
+    "I2107",
+    "I2117"
   ],
   "tipo_relacao": "Married",
   "casamento": null,

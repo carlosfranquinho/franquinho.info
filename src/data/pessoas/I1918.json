@@ -1,0 +1,28 @@
+{
+  "id": "I1918",
+  "protegida": false,
+  "nome": "João Domingues Leirião",
+  "nome_proprio": "João",
+  "apelido": "Domingues Leirião",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1691-05-01",
+    "lugar_id": "P0079"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "antes de 1801",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0592"
+  ],
+  "familias_como_pai": null,
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

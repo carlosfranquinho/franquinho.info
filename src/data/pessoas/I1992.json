@@ -1,0 +1,30 @@
+{
+  "id": "I1992",
+  "protegida": false,
+  "nome": "Maria Teresa",
+  "nome_proprio": "Maria",
+  "apelido": "Teresa",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1790-12-21",
+    "lugar_id": "P0236"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "antes de 1900",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0631"
+  ],
+  "familias_como_pai": [
+    "F0625"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "I1995",
+  "protegida": false,
+  "nome": "António Francisco",
+  "nome_proprio": "António",
+  "apelido": "Francisco",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "",
+    "lugar_id": "P0211"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0628"
+  ],
+  "familias_como_pai": [
+    "F0627"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

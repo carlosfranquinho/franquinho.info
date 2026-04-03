@@ -1,0 +1,30 @@
+{
+  "id": "I1888",
+  "protegida": false,
+  "nome": "Maria da Ascensão",
+  "nome_proprio": "Maria",
+  "apelido": "da Ascensão",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1671-05-07",
+    "lugar_id": "P0116"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "antes de 1781",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0581"
+  ],
+  "familias_como_pai": [
+    "F0577"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

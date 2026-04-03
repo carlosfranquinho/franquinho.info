@@ -1,0 +1,30 @@
+{
+  "id": "I1939",
+  "protegida": false,
+  "nome": "Isabel da Costa",
+  "nome_proprio": "Isabel",
+  "apelido": "da Costa",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1675-10-20",
+    "lugar_id": "P0105"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "antes de 1785",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0604"
+  ],
+  "familias_como_pai": [
+    "F0602"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

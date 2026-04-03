@@ -1,0 +1,30 @@
+{
+  "id": "I2019",
+  "protegida": false,
+  "nome": "Manuel Francisco Caetano",
+  "nome_proprio": "Manuel",
+  "apelido": "Francisco Caetano",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1787-11-21",
+    "lugar_id": "P0236"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "antes de 1897",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0641"
+  ],
+  "familias_como_pai": [
+    "F0640"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

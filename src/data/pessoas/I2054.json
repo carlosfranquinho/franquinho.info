@@ -1,0 +1,23 @@
+{
+  "id": "I2054",
+  "protegida": true,
+  "nome": "Privado Matos",
+  "nome_proprio": "Privado",
+  "apelido": "Matos",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0657"
+  ],
+  "familias_como_pai": [
+    "F0658"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

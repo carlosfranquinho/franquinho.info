@@ -1,0 +1,29 @@
+{
+  "id": "I1929",
+  "protegida": false,
+  "nome": "João Fernandes Rolo",
+  "nome_proprio": "João",
+  "apelido": "Fernandes Rolo",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "",
+    "lugar_id": "P0238"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1730-07-08",
+    "lugar_id": "P0079"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0598"
+  ],
+  "familias_como_pai": [
+    "F0597"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

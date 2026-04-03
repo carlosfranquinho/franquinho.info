@@ -1,0 +1,26 @@
+{
+  "id": "I2112",
+  "protegida": true,
+  "nome": "Privado Baptista da Silva",
+  "nome_proprio": "Privado",
+  "apelido": "Baptista da Silva",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1993-08-08",
+    "lugar_id": "P0041"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0676"
+  ],
+  "familias_como_pai": [
+    "F0682"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,21 @@
+{
+  "id": "I1970",
+  "protegida": false,
+  "nome": "Isabel Francisca",
+  "nome_proprio": "Isabel",
+  "apelido": "Francisca",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0616"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

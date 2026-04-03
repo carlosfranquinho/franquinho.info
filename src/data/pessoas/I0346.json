@@ -17,7 +17,9 @@
   },
   "sepultura": null,
   "profissao": null,
-  "familias_como_filho": null,
+  "familias_como_filho": [
+    "F0623"
+  ],
   "familias_como_pai": [
     "F0540"
   ],

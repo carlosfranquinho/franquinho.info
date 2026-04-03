@@ -1,0 +1,30 @@
+{
+  "id": "I2038",
+  "protegida": false,
+  "nome": "Maria Antónia",
+  "nome_proprio": "Maria",
+  "apelido": "Antónia",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1755-07-09",
+    "lugar_id": "P0104"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "antes de 1865",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0653"
+  ],
+  "familias_como_pai": [
+    "F0649"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

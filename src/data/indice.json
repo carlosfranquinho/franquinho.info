@@ -1,5 +1,9 @@
 [
   {
+    "id": "I2057",
+    "sexo": "M"
+  },
+  {
     "id": "I1136",
     "sexo": "M",
     "ano_nasc": 1707,
@@ -74,6 +78,12 @@
     "mmdd_obit": "01-04"
   },
   {
+    "id": "I2017",
+    "nome": "Agostinho Francisco",
+    "apelido": "Francisco",
+    "sexo": "M"
+  },
+  {
     "id": "I1711",
     "nome": "Agostinho Francisco Rosado",
     "apelido": "Francisco Rosado",
@@ -98,6 +108,11 @@
     "nome": "Agripina Inês Alves",
     "apelido": "Alves",
     "sexo": "F"
+  },
+  {
+    "id": "I2073",
+    "nome": "Aires Gomes",
+    "sexo": "M"
   },
   {
     "id": "I1806",
@@ -176,6 +191,15 @@
     "ano_nasc": 1817,
     "mmdd_nasc": "10-12",
     "ano_obit": 1927
+  },
+  {
+    "id": "I1925",
+    "nome": "Amaro Francisco Rolo",
+    "apelido": "Francisco Rolo",
+    "sexo": "M",
+    "ano_nasc": 1762,
+    "mmdd_nasc": "12-26",
+    "ano_obit": 1872
   },
   {
     "id": "I1643",
@@ -337,6 +361,19 @@
     "ano_obit": 1816
   },
   {
+    "id": "I1978",
+    "nome": "Ana Maria",
+    "apelido": "Maria",
+    "sexo": "F"
+  },
+  {
+    "id": "I2024",
+    "nome": "Ana Maria",
+    "apelido": "Maria",
+    "sexo": "F",
+    "ano_obit": 1839
+  },
+  {
     "id": "I0841",
     "nome": "Ana Maria",
     "apelido": "Maria",
@@ -471,6 +508,21 @@
     "sexo": "F"
   },
   {
+    "id": "I1899",
+    "nome": "Antónia Francisca",
+    "apelido": "Francisca",
+    "sexo": "F"
+  },
+  {
+    "id": "I1953",
+    "nome": "Antónia Francisca",
+    "apelido": "Francisca",
+    "sexo": "F",
+    "ano_nasc": 1684,
+    "mmdd_nasc": "02-15",
+    "ano_obit": 1794
+  },
+  {
     "id": "I1191",
     "nome": "Antónia Francisca",
     "apelido": "Francisca",
@@ -491,6 +543,12 @@
     "mmdd_nasc": "03-26",
     "ano_obit": 1764,
     "mmdd_obit": "12-23"
+  },
+  {
+    "id": "I2046",
+    "nome": "Antónia Maria",
+    "apelido": "Maria",
+    "sexo": "F"
   },
   {
     "id": "I0110",
@@ -968,6 +1026,21 @@
     "ano_obit": 1874
   },
   {
+    "id": "I1936",
+    "nome": "António Dias",
+    "apelido": "Dias",
+    "sexo": "M",
+    "ano_nasc": 1702,
+    "mmdd_nasc": "12-24",
+    "ano_obit": 1812
+  },
+  {
+    "id": "I2015",
+    "nome": "António Dias",
+    "apelido": "Dias",
+    "sexo": "M"
+  },
+  {
     "id": "I0728",
     "nome": "António Dias",
     "apelido": "Dias",
@@ -1016,6 +1089,18 @@
   },
   {
     "id": "I1744",
+    "nome": "António Domingues",
+    "apelido": "Domingues",
+    "sexo": "M"
+  },
+  {
+    "id": "I1900",
+    "nome": "António Domingues",
+    "apelido": "Domingues",
+    "sexo": "M"
+  },
+  {
+    "id": "I1975",
     "nome": "António Domingues",
     "apelido": "Domingues",
     "sexo": "M"
@@ -1082,6 +1167,43 @@
     "sexo": "M"
   },
   {
+    "id": "I1894",
+    "nome": "António Fernandes",
+    "apelido": "Fernandes",
+    "sexo": "M"
+  },
+  {
+    "id": "I1954",
+    "nome": "António Fernandes",
+    "apelido": "Fernandes",
+    "sexo": "M",
+    "ano_nasc": 1618,
+    "mmdd_nasc": "05-09",
+    "ano_obit": 1728
+  },
+  {
+    "id": "I2003",
+    "nome": "António Fernandes",
+    "apelido": "Fernandes",
+    "sexo": "M",
+    "ano_nasc": 1753,
+    "mmdd_nasc": "12-28",
+    "ano_obit": 1863
+  },
+  {
+    "id": "I2005",
+    "nome": "António Fernandes",
+    "apelido": "Fernandes",
+    "sexo": "M",
+    "ano_obit": 1824
+  },
+  {
+    "id": "I2007",
+    "nome": "António Fernandes",
+    "apelido": "Fernandes",
+    "sexo": "M"
+  },
+  {
     "id": "I0466",
     "nome": "António Fernandes",
     "apelido": "Fernandes",
@@ -1125,6 +1247,12 @@
     "mmdd_obit": "09-28"
   },
   {
+    "id": "I2047",
+    "nome": "António Fernandes Marques",
+    "apelido": "Fernandes Marques",
+    "sexo": "M"
+  },
+  {
     "id": "I0096",
     "nome": "António Fernandes Pardo",
     "apelido": "Fernandes Pardo",
@@ -1133,6 +1261,12 @@
     "mmdd_nasc": "03-07",
     "ano_obit": 1716,
     "mmdd_obit": "01-02"
+  },
+  {
+    "id": "I1977",
+    "nome": "António Ferreira",
+    "apelido": "Ferreira",
+    "sexo": "M"
   },
   {
     "id": "I0015",
@@ -1161,6 +1295,18 @@
     "ano_nasc": 1754,
     "mmdd_nasc": "10-02",
     "ano_obit": 1864
+  },
+  {
+    "id": "I1979",
+    "nome": "António Ferreira Barbeiro",
+    "apelido": "Ferreira Barbeiro",
+    "sexo": "M"
+  },
+  {
+    "id": "I1995",
+    "nome": "António Francisco",
+    "apelido": "Francisco",
+    "sexo": "M"
   },
   {
     "id": "I0764",
@@ -1227,6 +1373,12 @@
     "sexo": "M"
   },
   {
+    "id": "I1931",
+    "nome": "António Gaspar",
+    "apelido": "Gaspar",
+    "sexo": "M"
+  },
+  {
     "id": "I0029",
     "nome": "António Gaspar",
     "apelido": "Gaspar",
@@ -1234,6 +1386,19 @@
     "ano_nasc": 1794,
     "ano_obit": 1866,
     "mmdd_obit": "05-05"
+  },
+  {
+    "id": "I2011",
+    "nome": "António Gomes",
+    "apelido": "Gomes",
+    "sexo": "M",
+    "ano_obit": 1799
+  },
+  {
+    "id": "I2013",
+    "nome": "António Gomes",
+    "apelido": "Gomes",
+    "sexo": "M"
   },
   {
     "id": "I0109",
@@ -1276,6 +1441,12 @@
     "sexo": "M",
     "ano_obit": 1844,
     "mmdd_obit": "07-29"
+  },
+  {
+    "id": "I1910",
+    "nome": "António João",
+    "apelido": "João",
+    "sexo": "M"
   },
   {
     "id": "I1200",
@@ -1341,6 +1512,19 @@
     "nome": "António Marques",
     "apelido": "Marques",
     "sexo": "M"
+  },
+  {
+    "id": "I2045",
+    "nome": "António Marques Fernandes",
+    "apelido": "Marques Fernandes",
+    "sexo": "M"
+  },
+  {
+    "id": "I1872",
+    "nome": "António Martins",
+    "apelido": "Martins",
+    "sexo": "M",
+    "ano_obit": 1706
   },
   {
     "id": "I1704",
@@ -1467,6 +1651,12 @@
     "sexo": "M"
   },
   {
+    "id": "I1866",
+    "nome": "António da Costa",
+    "apelido": "da Costa",
+    "sexo": "M"
+  },
+  {
     "id": "I1234",
     "nome": "António da Costa",
     "apelido": "da Costa",
@@ -1560,6 +1750,12 @@
   },
   {
     "id": "I1855",
+    "nome": "Ascença Maria",
+    "apelido": "Maria",
+    "sexo": "F"
+  },
+  {
+    "id": "I2036",
     "nome": "Ascença Maria",
     "apelido": "Maria",
     "sexo": "F"
@@ -1684,6 +1880,13 @@
     "ano_obit": 1661
   },
   {
+    "id": "I1898",
+    "nome": "Brás Gonçalves",
+    "apelido": "Gonçalves",
+    "sexo": "M",
+    "ano_obit": 1661
+  },
+  {
     "id": "I1451",
     "nome": "Brás Simões",
     "apelido": "Simões",
@@ -1721,6 +1924,13 @@
     "ano_nasc": 1752,
     "mmdd_nasc": "08-16",
     "ano_obit": 1862
+  },
+  {
+    "id": "I2023",
+    "nome": "Caetano Francisco",
+    "apelido": "Francisco",
+    "sexo": "M",
+    "ano_obit": 1846
   },
   {
     "id": "I0382",
@@ -1895,6 +2105,19 @@
     "sexo": "F"
   },
   {
+    "id": "I2028",
+    "nome": "Catarina Antónia",
+    "apelido": "Antónia",
+    "sexo": "F",
+    "ano_obit": 1730
+  },
+  {
+    "id": "I2042",
+    "nome": "Catarina Antónia",
+    "apelido": "Antónia",
+    "sexo": "F"
+  },
+  {
     "id": "I0518",
     "nome": "Catarina Dias",
     "apelido": "Dias",
@@ -1946,6 +2169,18 @@
     "mmdd_obit": "02-23"
   },
   {
+    "id": "I1890",
+    "nome": "Catarina Fernandes",
+    "apelido": "Fernandes",
+    "sexo": "F"
+  },
+  {
+    "id": "I2034",
+    "nome": "Catarina Fernandes",
+    "apelido": "Fernandes",
+    "sexo": "F"
+  },
+  {
     "id": "I0943",
     "nome": "Catarina Fernandes",
     "apelido": "Fernandes",
@@ -1965,6 +2200,19 @@
     "ano_nasc": 1677,
     "mmdd_nasc": "01-18",
     "ano_obit": 1787
+  },
+  {
+    "id": "I1980",
+    "nome": "Catarina Ferreira",
+    "apelido": "Ferreira",
+    "sexo": "F"
+  },
+  {
+    "id": "I2032",
+    "nome": "Catarina Francisca",
+    "apelido": "Francisca",
+    "sexo": "F",
+    "ano_obit": 1834
   },
   {
     "id": "I0514",
@@ -2159,6 +2407,14 @@
     "ano_obit": 1934
   },
   {
+    "id": "I2020",
+    "nome": "Clara Maria",
+    "apelido": "Maria",
+    "sexo": "F",
+    "ano_obit": 1795,
+    "mmdd_obit": "02-08"
+  },
+  {
     "id": "I0911",
     "nome": "Clara Maria",
     "apelido": "Maria",
@@ -2306,6 +2562,12 @@
     "sexo": "M"
   },
   {
+    "id": "I1960",
+    "nome": "Diogo Fernandes",
+    "apelido": "Fernandes",
+    "sexo": "M"
+  },
+  {
     "id": "I1423",
     "nome": "Diogo Fernandes",
     "apelido": "Fernandes",
@@ -2379,9 +2641,27 @@
     "mmdd_obit": "06-29"
   },
   {
+    "id": "I1873",
+    "nome": "Domingas Fernandes",
+    "apelido": "Fernandes",
+    "sexo": "F"
+  },
+  {
+    "id": "I1947",
+    "nome": "Domingas Fernandes",
+    "apelido": "Fernandes",
+    "sexo": "F"
+  },
+  {
     "id": "I1436",
     "nome": "Domingas Fernandes",
     "apelido": "Fernandes",
+    "sexo": "F"
+  },
+  {
+    "id": "I1883",
+    "nome": "Domingas Francisca",
+    "apelido": "Francisca",
     "sexo": "F"
   },
   {
@@ -2484,6 +2764,12 @@
     "sexo": "M"
   },
   {
+    "id": "I1870",
+    "nome": "Domingos Dias",
+    "apelido": "Dias",
+    "sexo": "M"
+  },
+  {
     "id": "I1273",
     "nome": "Domingos Dias",
     "apelido": "Dias",
@@ -2508,6 +2794,14 @@
     "sexo": "M"
   },
   {
+    "id": "I1933",
+    "nome": "Domingos Fernandes Rolinho",
+    "apelido": "Fernandes Rolinho",
+    "sexo": "M",
+    "ano_obit": 1709,
+    "mmdd_obit": "12-16"
+  },
+  {
     "id": "I1740",
     "nome": "Domingos Ferreira",
     "apelido": "Ferreira",
@@ -2517,6 +2811,12 @@
     "id": "I1262",
     "nome": "Domingos Ferreira",
     "apelido": "Ferreira",
+    "sexo": "M"
+  },
+  {
+    "id": "I1891",
+    "nome": "Domingos Francisco",
+    "apelido": "Francisco",
     "sexo": "M"
   },
   {
@@ -2754,6 +3054,14 @@
     "mmdd_obit": "06-05"
   },
   {
+    "id": "I1987",
+    "nome": "Engrácia",
+    "sexo": "F",
+    "ano_nasc": 1848,
+    "mmdd_nasc": "04-13",
+    "ano_obit": 1958
+  },
+  {
     "id": "I1105",
     "nome": "Engrácia",
     "sexo": "F",
@@ -2780,6 +3088,20 @@
     "mmdd_obit": "04-20"
   },
   {
+    "id": "I1934",
+    "nome": "Esperança Rodrigues",
+    "apelido": "Rodrigues",
+    "sexo": "F",
+    "ano_obit": 1710,
+    "mmdd_obit": "01-03"
+  },
+  {
+    "id": "I2001",
+    "nome": "Estevão Pedro Fernandes",
+    "apelido": "Pedro Fernandes",
+    "sexo": "M"
+  },
+  {
     "id": "I0478",
     "nome": "Eva",
     "sexo": "F",
@@ -2798,6 +3120,12 @@
     "nome": "Evaristo Ferreira",
     "apelido": "Ferreira",
     "sexo": "M"
+  },
+  {
+    "id": "I1964",
+    "nome": "Fagunda Simões",
+    "apelido": "Simões",
+    "sexo": "F"
   },
   {
     "id": "I1471",
@@ -2820,6 +3148,15 @@
     "ano_nasc": 1746,
     "mmdd_nasc": "04-08",
     "ano_obit": 1856
+  },
+  {
+    "id": "I1950",
+    "nome": "Faustino de Almeida",
+    "apelido": "de Almeida",
+    "sexo": "M",
+    "ano_nasc": 1720,
+    "mmdd_nasc": "07-29",
+    "ano_obit": 1830
   },
   {
     "id": "I0021",
@@ -2953,6 +3290,13 @@
     "thumb_id": "O1049"
   },
   {
+    "id": "I1919",
+    "nome": "Fernão Domingues",
+    "apelido": "Domingues",
+    "sexo": "M",
+    "ano_obit": 1643
+  },
+  {
     "id": "I1432",
     "nome": "Filipa Antónia",
     "apelido": "Antónia",
@@ -2985,6 +3329,14 @@
     "ano_nasc": 1798,
     "mmdd_nasc": "08-08",
     "ano_obit": 1908
+  },
+  {
+    "id": "I1989",
+    "nome": "Francisca",
+    "sexo": "F",
+    "ano_nasc": 1850,
+    "mmdd_nasc": "08-31",
+    "ano_obit": 1960
   },
   {
     "id": "I0499",
@@ -3080,6 +3432,14 @@
     "sexo": "M",
     "ano_nasc": 1805,
     "ano_obit": 1915
+  },
+  {
+    "id": "I1990",
+    "nome": "Francisco",
+    "sexo": "M",
+    "ano_nasc": 1854,
+    "mmdd_nasc": "03-20",
+    "ano_obit": 1964
   },
   {
     "id": "I0160",
@@ -3341,6 +3701,19 @@
     "ano_obit": 1818
   },
   {
+    "id": "I2027",
+    "nome": "Francisco Brás",
+    "apelido": "Brás",
+    "sexo": "M",
+    "ano_obit": 1730
+  },
+  {
+    "id": "I2041",
+    "nome": "Francisco Brás",
+    "apelido": "Brás",
+    "sexo": "M"
+  },
+  {
     "id": "I1726",
     "nome": "Francisco Carreira",
     "apelido": "Carreira",
@@ -3368,6 +3741,18 @@
     "sexo": "M"
   },
   {
+    "id": "I2035",
+    "nome": "Francisco Dias",
+    "apelido": "Dias",
+    "sexo": "M"
+  },
+  {
+    "id": "I1902",
+    "nome": "Francisco Domingues",
+    "apelido": "Domingues",
+    "sexo": "M"
+  },
+  {
     "id": "I1178",
     "nome": "Francisco Domingues",
     "apelido": "Domingues",
@@ -3390,6 +3775,15 @@
     "nome": "Francisco Fernandes",
     "apelido": "Fernandes",
     "sexo": "M"
+  },
+  {
+    "id": "I1927",
+    "nome": "Francisco Fernandes Rolo",
+    "apelido": "Fernandes Rolo",
+    "sexo": "M",
+    "ano_nasc": 1730,
+    "mmdd_nasc": "03-12",
+    "ano_obit": 1840
   },
   {
     "id": "I1782",
@@ -3418,6 +3812,25 @@
     "id": "I1590",
     "nome": "Francisco Gonçalves",
     "apelido": "Gonçalves",
+    "sexo": "M"
+  },
+  {
+    "id": "I1991",
+    "nome": "Francisco Grazina",
+    "apelido": "Grazina",
+    "sexo": "M",
+    "ano_obit": 1893
+  },
+  {
+    "id": "I2049",
+    "nome": "Francisco Jordão",
+    "apelido": "Jordão",
+    "sexo": "M"
+  },
+  {
+    "id": "I1893",
+    "nome": "Francisco Jorge",
+    "apelido": "Jorge",
     "sexo": "M"
   },
   {
@@ -3555,6 +3968,12 @@
     "mmdd_obit": "04-25"
   },
   {
+    "id": "I1972",
+    "nome": "Gertrudes Maria",
+    "apelido": "Maria",
+    "sexo": "F"
+  },
+  {
     "id": "I0044",
     "nome": "Gertrudes Maria",
     "apelido": "Maria",
@@ -3671,6 +4090,19 @@
     "ano_nasc": 1717,
     "mmdd_nasc": "11-14",
     "ano_obit": 1827
+  },
+  {
+    "id": "I1911",
+    "nome": "Isabel",
+    "sexo": "F"
+  },
+  {
+    "id": "I1916",
+    "nome": "Isabel",
+    "sexo": "F",
+    "ano_nasc": 1650,
+    "mmdd_nasc": "10-16",
+    "ano_obit": 1760
   },
   {
     "id": "I0453",
@@ -3818,6 +4250,33 @@
     "ano_obit": 1777
   },
   {
+    "id": "I1905",
+    "nome": "Isabel Abreu",
+    "apelido": "Abreu",
+    "sexo": "F"
+  },
+  {
+    "id": "I1913",
+    "nome": "Isabel Antónia",
+    "apelido": "Antónia",
+    "sexo": "F",
+    "ano_nasc": 1624,
+    "mmdd_nasc": "01-24",
+    "ano_obit": 1734
+  },
+  {
+    "id": "I2048",
+    "nome": "Isabel Antónia",
+    "apelido": "Antónia",
+    "sexo": "F"
+  },
+  {
+    "id": "I2050",
+    "nome": "Isabel Antónia",
+    "apelido": "Antónia",
+    "sexo": "F"
+  },
+  {
     "id": "I1205",
     "nome": "Isabel Antónia",
     "apelido": "Antónia",
@@ -3848,6 +4307,18 @@
     "id": "I1831",
     "nome": "Isabel Cardosa",
     "apelido": "Cardosa",
+    "sexo": "F"
+  },
+  {
+    "id": "I2070",
+    "nome": "Isabel Cardoso Neves",
+    "apelido": "Cardoso Neves",
+    "sexo": "F"
+  },
+  {
+    "id": "I1903",
+    "nome": "Isabel Cordeira",
+    "apelido": "Cordeira",
     "sexo": "F"
   },
   {
@@ -3904,6 +4375,30 @@
     "ano_obit": 1946
   },
   {
+    "id": "I1867",
+    "nome": "Isabel Fernandes",
+    "apelido": "Fernandes",
+    "sexo": "F"
+  },
+  {
+    "id": "I1915",
+    "nome": "Isabel Fernandes",
+    "apelido": "Fernandes",
+    "sexo": "F"
+  },
+  {
+    "id": "I1932",
+    "nome": "Isabel Fernandes",
+    "apelido": "Fernandes",
+    "sexo": "F"
+  },
+  {
+    "id": "I1941",
+    "nome": "Isabel Fernandes",
+    "apelido": "Fernandes",
+    "sexo": "F"
+  },
+  {
     "id": "I0927",
     "nome": "Isabel Fernandes",
     "apelido": "Fernandes",
@@ -3925,6 +4420,18 @@
     "id": "I1673",
     "nome": "Isabel Ferreira",
     "apelido": "Ferreira",
+    "sexo": "F"
+  },
+  {
+    "id": "I1970",
+    "nome": "Isabel Francisca",
+    "apelido": "Francisca",
+    "sexo": "F"
+  },
+  {
+    "id": "I2030",
+    "nome": "Isabel Francisca",
+    "apelido": "Francisca",
     "sexo": "F"
   },
   {
@@ -3952,6 +4459,18 @@
     "sexo": "F",
     "ano_obit": 1716,
     "mmdd_obit": "02-11"
+  },
+  {
+    "id": "I1949",
+    "nome": "Isabel Jordoa",
+    "apelido": "Jordoa",
+    "sexo": "F"
+  },
+  {
+    "id": "I1976",
+    "nome": "Isabel Leal",
+    "apelido": "Leal",
+    "sexo": "F"
   },
   {
     "id": "I1765",
@@ -3986,6 +4505,15 @@
     "nome": "Isabel Mónica",
     "apelido": "Mónica",
     "sexo": "F"
+  },
+  {
+    "id": "I1901",
+    "nome": "Isabel Neta",
+    "apelido": "Neta",
+    "sexo": "F",
+    "ano_nasc": 1672,
+    "mmdd_nasc": "02-29",
+    "ano_obit": 1782
   },
   {
     "id": "I1161",
@@ -4025,6 +4553,15 @@
     "sexo": "F"
   },
   {
+    "id": "I1939",
+    "nome": "Isabel da Costa",
+    "apelido": "da Costa",
+    "sexo": "F",
+    "ano_nasc": 1675,
+    "mmdd_nasc": "10-20",
+    "ano_obit": 1785
+  },
+  {
     "id": "I0894",
     "nome": "Isabel da Costa",
     "apelido": "da Costa",
@@ -4040,6 +4577,12 @@
   },
   {
     "id": "I1725",
+    "nome": "Isabel da Silva",
+    "apelido": "da Silva",
+    "sexo": "F"
+  },
+  {
+    "id": "I1881",
     "nome": "Isabel da Silva",
     "apelido": "da Silva",
     "sexo": "F"
@@ -4911,15 +5454,6 @@
     "sexo": "F"
   },
   {
-    "id": "I1441",
-    "nome": "Joaquina Silva",
-    "apelido": "Silva",
-    "sexo": "F",
-    "ano_nasc": 1844,
-    "mmdd_nasc": "03-10",
-    "ano_obit": 1954
-  },
-  {
     "id": "I0189",
     "nome": "Joaquina Silva",
     "apelido": "Silva",
@@ -4928,6 +5462,15 @@
     "mmdd_nasc": "04-29",
     "ano_obit": 1958,
     "mmdd_obit": "03-02"
+  },
+  {
+    "id": "I1441",
+    "nome": "Joaquina da Silva",
+    "apelido": "da Silva",
+    "sexo": "F",
+    "ano_nasc": 1844,
+    "mmdd_nasc": "03-10",
+    "ano_obit": 1954
   },
   {
     "id": "I0016",
@@ -5204,6 +5747,24 @@
     "ano_obit": 1811
   },
   {
+    "id": "I1886",
+    "nome": "Josefa Maria",
+    "apelido": "Maria",
+    "sexo": "F",
+    "ano_nasc": 1709,
+    "mmdd_nasc": "11-24",
+    "ano_obit": 1819
+  },
+  {
+    "id": "I1974",
+    "nome": "Josefa Maria",
+    "apelido": "Maria",
+    "sexo": "F",
+    "ano_nasc": 1733,
+    "mmdd_nasc": "03-16",
+    "ano_obit": 1843
+  },
+  {
     "id": "I0066",
     "nome": "Josefa Maria",
     "sexo": "F",
@@ -5364,6 +5925,14 @@
     "ano_nasc": 1755,
     "mmdd_nasc": "12-31",
     "ano_obit": 1865
+  },
+  {
+    "id": "I1988",
+    "nome": "José",
+    "sexo": "M",
+    "ano_nasc": 1850,
+    "mmdd_nasc": "08-31",
+    "ano_obit": 1960
   },
   {
     "id": "I0149",
@@ -5816,6 +6385,12 @@
     "mmdd_obit": "11-06"
   },
   {
+    "id": "I2109",
+    "nome": "José Baptista",
+    "apelido": "Baptista",
+    "sexo": "M"
+  },
+  {
     "id": "I1360",
     "nome": "José Cardoso",
     "apelido": "Cardoso",
@@ -5924,6 +6499,12 @@
     "sexo": "M"
   },
   {
+    "id": "I1999",
+    "nome": "José Francisco",
+    "apelido": "Francisco",
+    "sexo": "M"
+  },
+  {
     "id": "I0787",
     "nome": "José Francisco",
     "apelido": "Francisco",
@@ -5946,6 +6527,15 @@
     "ano_nasc": 1806,
     "mmdd_nasc": "11-23",
     "ano_obit": 1916
+  },
+  {
+    "id": "I1985",
+    "nome": "José Francisco Grazina",
+    "apelido": "Francisco Grazina",
+    "sexo": "M",
+    "ano_nasc": 1818,
+    "mmdd_nasc": "01-21",
+    "ano_obit": 1928
   },
   {
     "id": "I0887",
@@ -6176,6 +6766,15 @@
     "sexo": "M"
   },
   {
+    "id": "I1971",
+    "nome": "José da Silva",
+    "apelido": "da Silva",
+    "sexo": "M",
+    "ano_nasc": 1771,
+    "mmdd_nasc": "03-10",
+    "ano_obit": 1881
+  },
+  {
     "id": "I0803",
     "nome": "José da Silva",
     "apelido": "da Silva",
@@ -6199,6 +6798,12 @@
     "sexo": "M",
     "ano_nasc": 1760,
     "ano_obit": 1870
+  },
+  {
+    "id": "I1952",
+    "nome": "José de Almeida",
+    "apelido": "de Almeida",
+    "sexo": "M"
   },
   {
     "id": "I1660",
@@ -6469,6 +7074,12 @@
     "sexo": "M"
   },
   {
+    "id": "I1965",
+    "nome": "João Brás",
+    "apelido": "Brás",
+    "sexo": "M"
+  },
+  {
     "id": "I1144",
     "nome": "João Brás",
     "apelido": "Brás",
@@ -6485,6 +7096,13 @@
     "nome": "João Cristóvão",
     "apelido": "Cristóvão",
     "sexo": "M"
+  },
+  {
+    "id": "I1914",
+    "nome": "João Dias",
+    "apelido": "Dias",
+    "sexo": "M",
+    "ano_obit": 1643
   },
   {
     "id": "I1113",
@@ -6545,6 +7163,18 @@
     "sexo": "M"
   },
   {
+    "id": "I1904",
+    "nome": "João Domingues",
+    "apelido": "Domingues",
+    "sexo": "M"
+  },
+  {
+    "id": "I2043",
+    "nome": "João Domingues",
+    "apelido": "Domingues",
+    "sexo": "M"
+  },
+  {
     "id": "I0114",
     "nome": "João Domingues",
     "apelido": "Domingues",
@@ -6561,6 +7191,15 @@
     "nome": "João Domingues",
     "apelido": "Domingues",
     "sexo": "M"
+  },
+  {
+    "id": "I1918",
+    "nome": "João Domingues Leirião",
+    "apelido": "Domingues Leirião",
+    "sexo": "M",
+    "ano_nasc": 1691,
+    "mmdd_nasc": "05-01",
+    "ano_obit": 1801
   },
   {
     "id": "I0377",
@@ -6585,6 +7224,27 @@
     "mmdd_obit": "02-07"
   },
   {
+    "id": "I1885",
+    "nome": "João Fernandes",
+    "apelido": "Fernandes",
+    "sexo": "M",
+    "ano_nasc": 1710,
+    "mmdd_nasc": "01-19",
+    "ano_obit": 1820
+  },
+  {
+    "id": "I1948",
+    "nome": "João Fernandes",
+    "apelido": "Fernandes",
+    "sexo": "M"
+  },
+  {
+    "id": "I1963",
+    "nome": "João Fernandes",
+    "apelido": "Fernandes",
+    "sexo": "M"
+  },
+  {
     "id": "I1343",
     "nome": "João Fernandes",
     "apelido": "Fernandes",
@@ -6605,6 +7265,23 @@
     "mmdd_obit": "12-31"
   },
   {
+    "id": "I1929",
+    "nome": "João Fernandes Rolo",
+    "apelido": "Fernandes Rolo",
+    "sexo": "M",
+    "ano_obit": 1730,
+    "mmdd_obit": "07-08"
+  },
+  {
+    "id": "I1956",
+    "nome": "João Fernandes de Almeida",
+    "apelido": "Fernandes de Almeida",
+    "sexo": "M",
+    "ano_nasc": 1653,
+    "mmdd_nasc": "03-19",
+    "ano_obit": 1763
+  },
+  {
     "id": "I1786",
     "nome": "João Ferreira",
     "apelido": "Ferreira",
@@ -6613,6 +7290,12 @@
   },
   {
     "id": "I1756",
+    "nome": "João Francisco",
+    "apelido": "Francisco",
+    "sexo": "M"
+  },
+  {
+    "id": "I2051",
     "nome": "João Francisco",
     "apelido": "Francisco",
     "sexo": "M"
@@ -6816,6 +7499,12 @@
     "mmdd_obit": "07-31"
   },
   {
+    "id": "I2065",
+    "nome": "Laurinda Cardoso Neves",
+    "apelido": "Cardoso Neves",
+    "sexo": "F"
+  },
+  {
     "id": "I0097",
     "nome": "Leonor Rebela",
     "apelido": "Rebela",
@@ -6884,6 +7573,18 @@
     "mmdd_obit": "03-03"
   },
   {
+    "id": "I1895",
+    "nome": "Luisa Fernandes",
+    "apelido": "Fernandes",
+    "sexo": "F"
+  },
+  {
+    "id": "I2016",
+    "nome": "Luisa Francisca",
+    "apelido": "Francisca",
+    "sexo": "F"
+  },
+  {
     "id": "I1731",
     "nome": "Luisa Joaquina",
     "apelido": "Joaquina",
@@ -6893,6 +7594,12 @@
     "id": "I1729",
     "nome": "Luisa Maria",
     "apelido": "Maria",
+    "sexo": "F"
+  },
+  {
+    "id": "I1869",
+    "nome": "Luisa da Costa",
+    "apelido": "da Costa",
     "sexo": "F"
   },
   {
@@ -6961,7 +7668,8 @@
     "sexo": "M",
     "ano_nasc": 1685,
     "mmdd_nasc": "06-12",
-    "ano_obit": 1795
+    "ano_obit": 1730,
+    "mmdd_obit": "08-31"
   },
   {
     "id": "I1312",
@@ -7038,6 +7746,12 @@
     "id": "I1061",
     "nome": "Luís Ribeirete",
     "apelido": "Ribeirete",
+    "sexo": "M"
+  },
+  {
+    "id": "I1884",
+    "nome": "Luís da Silva",
+    "apelido": "da Silva",
     "sexo": "M"
   },
   {
@@ -7228,6 +7942,12 @@
     "id": "I0945",
     "nome": "Madalena Maria",
     "apelido": "Maria",
+    "sexo": "F"
+  },
+  {
+    "id": "I1875",
+    "nome": "Madalena Rodrigues",
+    "apelido": "Rodrigues",
     "sexo": "F"
   },
   {
@@ -7813,9 +8533,30 @@
     "ano_obit": 1750
   },
   {
+    "id": "I2037",
+    "nome": "Manuel Brás",
+    "apelido": "Brás",
+    "sexo": "M",
+    "ano_nasc": 1754,
+    "mmdd_nasc": "09-29",
+    "ano_obit": 1864
+  },
+  {
+    "id": "I2039",
+    "nome": "Manuel Brás",
+    "apelido": "Brás",
+    "sexo": "M"
+  },
+  {
     "id": "I1738",
     "nome": "Manuel Carreira",
     "apelido": "Carreira",
+    "sexo": "M"
+  },
+  {
+    "id": "I2010",
+    "nome": "Manuel Coelho",
+    "apelido": "Coelho",
     "sexo": "M"
   },
   {
@@ -7826,6 +8567,18 @@
   },
   {
     "id": "I1762",
+    "nome": "Manuel Cordeiro",
+    "apelido": "Cordeiro",
+    "sexo": "M"
+  },
+  {
+    "id": "I1906",
+    "nome": "Manuel Cordeiro",
+    "apelido": "Cordeiro",
+    "sexo": "M"
+  },
+  {
+    "id": "I1946",
     "nome": "Manuel Cordeiro",
     "apelido": "Cordeiro",
     "sexo": "M"
@@ -7844,6 +8597,39 @@
   },
   {
     "id": "I1724",
+    "nome": "Manuel Dias",
+    "apelido": "Dias",
+    "sexo": "M"
+  },
+  {
+    "id": "I1880",
+    "nome": "Manuel Dias",
+    "apelido": "Dias",
+    "sexo": "M"
+  },
+  {
+    "id": "I1882",
+    "nome": "Manuel Dias",
+    "apelido": "Dias",
+    "sexo": "M"
+  },
+  {
+    "id": "I1912",
+    "nome": "Manuel Dias",
+    "apelido": "Dias",
+    "sexo": "M",
+    "ano_nasc": 1619,
+    "mmdd_nasc": "10-06",
+    "ano_obit": 1729
+  },
+  {
+    "id": "I1940",
+    "nome": "Manuel Dias",
+    "apelido": "Dias",
+    "sexo": "M"
+  },
+  {
+    "id": "I1942",
     "nome": "Manuel Dias",
     "apelido": "Dias",
     "sexo": "M"
@@ -7928,6 +8714,15 @@
     "sexo": "M"
   },
   {
+    "id": "I1878",
+    "nome": "Manuel Dias da Silva",
+    "apelido": "Dias da Silva",
+    "sexo": "M",
+    "ano_nasc": 1740,
+    "mmdd_nasc": "02-04",
+    "ano_obit": 1850
+  },
+  {
     "id": "I1716",
     "nome": "Manuel Domingues",
     "apelido": "Domingues",
@@ -7941,6 +8736,12 @@
   },
   {
     "id": "I1758",
+    "nome": "Manuel Domingues",
+    "apelido": "Domingues",
+    "sexo": "M"
+  },
+  {
+    "id": "I2029",
     "nome": "Manuel Domingues",
     "apelido": "Domingues",
     "sexo": "M"
@@ -7993,6 +8794,30 @@
     "nome": "Manuel Fernandes",
     "apelido": "Fernandes",
     "sexo": "M"
+  },
+  {
+    "id": "I1887",
+    "nome": "Manuel Fernandes",
+    "apelido": "Fernandes",
+    "sexo": "M",
+    "ano_nasc": 1677,
+    "mmdd_nasc": "04-29",
+    "ano_obit": 1787
+  },
+  {
+    "id": "I1958",
+    "nome": "Manuel Fernandes",
+    "apelido": "Fernandes",
+    "sexo": "M"
+  },
+  {
+    "id": "I1962",
+    "nome": "Manuel Fernandes",
+    "apelido": "Fernandes",
+    "sexo": "M",
+    "ano_nasc": 1604,
+    "mmdd_nasc": "03-07",
+    "ano_obit": 1714
   },
   {
     "id": "I0732",
@@ -8124,6 +8949,18 @@
     "ano_obit": 1721
   },
   {
+    "id": "I1997",
+    "nome": "Manuel Francisco",
+    "apelido": "Francisco",
+    "sexo": "M"
+  },
+  {
+    "id": "I2025",
+    "nome": "Manuel Francisco",
+    "apelido": "Francisco",
+    "sexo": "M"
+  },
+  {
     "id": "I0553",
     "nome": "Manuel Francisco",
     "apelido": "Francisco",
@@ -8165,10 +9002,46 @@
     "mmdd_obit": "01-27"
   },
   {
+    "id": "I2019",
+    "nome": "Manuel Francisco Caetano",
+    "apelido": "Francisco Caetano",
+    "sexo": "M",
+    "ano_nasc": 1787,
+    "mmdd_nasc": "11-21",
+    "ano_obit": 1897
+  },
+  {
+    "id": "I2021",
+    "nome": "Manuel Francisco Caetano",
+    "apelido": "Francisco Caetano",
+    "sexo": "M",
+    "ano_nasc": 1760,
+    "mmdd_nasc": "03-26",
+    "ano_obit": 1870
+  },
+  {
     "id": "I0375",
     "nome": "Manuel Francisco Féteira",
     "apelido": "Francisco Féteira",
     "sexo": "M"
+  },
+  {
+    "id": "I1983",
+    "nome": "Manuel Francisco Grazina",
+    "apelido": "Francisco Grazina",
+    "sexo": "M",
+    "ano_nasc": 1844,
+    "mmdd_nasc": "02-07",
+    "ano_obit": 1954
+  },
+  {
+    "id": "I1917",
+    "nome": "Manuel Francisco Leirião",
+    "apelido": "Francisco Leirião",
+    "sexo": "M",
+    "ano_nasc": 1645,
+    "mmdd_nasc": "09-14",
+    "ano_obit": 1755
   },
   {
     "id": "I0853",
@@ -8312,6 +9185,12 @@
     "thumb_id": "O1050"
   },
   {
+    "id": "I1868",
+    "nome": "Manuel Gomes",
+    "apelido": "Gomes",
+    "sexo": "M"
+  },
+  {
     "id": "I0386",
     "nome": "Manuel Gonçalves",
     "apelido": "Gonçalves",
@@ -8391,9 +9270,24 @@
     "ano_obit": 1958
   },
   {
+    "id": "I1993",
+    "nome": "Manuel José",
+    "apelido": "José",
+    "sexo": "M",
+    "ano_nasc": 1747,
+    "mmdd_nasc": "07-05",
+    "ano_obit": 1857
+  },
+  {
     "id": "I0912",
     "nome": "Manuel José",
     "apelido": "José",
+    "sexo": "M"
+  },
+  {
+    "id": "I1908",
+    "nome": "Manuel João",
+    "apelido": "João",
     "sexo": "M"
   },
   {
@@ -8436,6 +9330,13 @@
     "ano_nasc": 1755,
     "mmdd_nasc": "11-30",
     "ano_obit": 1865
+  },
+  {
+    "id": "I2031",
+    "nome": "Manuel Leal",
+    "apelido": "Leal",
+    "sexo": "M",
+    "ano_obit": 1825
   },
   {
     "id": "I0893",
@@ -8517,6 +9418,18 @@
     "id": "I1652",
     "nome": "Manuel Marques",
     "apelido": "Marques",
+    "sexo": "M"
+  },
+  {
+    "id": "I1969",
+    "nome": "Manuel Marques",
+    "apelido": "Marques",
+    "sexo": "M"
+  },
+  {
+    "id": "I1874",
+    "nome": "Manuel Martins",
+    "apelido": "Martins",
     "sexo": "M"
   },
   {
@@ -8614,6 +9527,18 @@
     "mmdd_obit": "11-03"
   },
   {
+    "id": "I1981",
+    "nome": "Manuel Rodrigues",
+    "apelido": "Rodrigues",
+    "sexo": "M"
+  },
+  {
+    "id": "I2009",
+    "nome": "Manuel Rodrigues",
+    "apelido": "Rodrigues",
+    "sexo": "M"
+  },
+  {
     "id": "I1627",
     "nome": "Manuel Rodrigues Pimenta",
     "apelido": "Rodrigues Pimenta",
@@ -8679,6 +9604,15 @@
     "sexo": "M"
   },
   {
+    "id": "I1864",
+    "nome": "Manuel da Costa",
+    "apelido": "da Costa",
+    "sexo": "M",
+    "ano_nasc": 1686,
+    "mmdd_nasc": "11-12",
+    "ano_obit": 1796
+  },
+  {
     "id": "I0719",
     "nome": "Manuel da Costa",
     "apelido": "da Costa",
@@ -8733,6 +9667,18 @@
     "sexo": "M"
   },
   {
+    "id": "I1944",
+    "nome": "Manuel da Silva",
+    "apelido": "da Silva",
+    "sexo": "M"
+  },
+  {
+    "id": "I1973",
+    "nome": "Manuel da Silva",
+    "apelido": "da Silva",
+    "sexo": "M"
+  },
+  {
     "id": "I1470",
     "nome": "Manuel da Silva Ferreira",
     "apelido": "da Silva Ferreira",
@@ -8769,14 +9715,6 @@
     "thumb_id": "O1045"
   },
   {
-    "id": "I1602",
-    "nome": "Manuel da Silva Morgado",
-    "apelido": "da Silva Morgado",
-    "sexo": "M",
-    "ano_nasc": 1947,
-    "mmdd_nasc": "03-30"
-  },
-  {
     "id": "I0996",
     "nome": "Manuel da Silva Rodrigues",
     "apelido": "da Silva Rodrigues",
@@ -8801,6 +9739,35 @@
     "ano_nasc": 1733,
     "ano_obit": 1793,
     "mmdd_obit": "12-06"
+  },
+  {
+    "id": "I1957",
+    "nome": "Manuel de Almeida",
+    "apelido": "de Almeida",
+    "sexo": "M",
+    "ano_nasc": 1658,
+    "mmdd_nasc": "01-17",
+    "ano_obit": 1768
+  },
+  {
+    "id": "I1921",
+    "nome": "Manuel de Almeida Rolo",
+    "apelido": "de Almeida Rolo",
+    "sexo": "M",
+    "ano_nasc": 1814,
+    "mmdd_nasc": "01-06",
+    "ano_obit": 1864,
+    "mmdd_obit": "03-16"
+  },
+  {
+    "id": "I1923",
+    "nome": "Manuel de Almeida Rolo",
+    "apelido": "de Almeida Rolo",
+    "sexo": "M",
+    "ano_nasc": 1839,
+    "mmdd_nasc": "03-28",
+    "ano_obit": 1897,
+    "mmdd_obit": "12-12"
   },
   {
     "id": "I0090",
@@ -8942,6 +9909,19 @@
     "id": "I1788",
     "nome": "Maria",
     "sexo": "F"
+  },
+  {
+    "id": "I1892",
+    "nome": "Maria",
+    "sexo": "F"
+  },
+  {
+    "id": "I1924",
+    "nome": "Maria",
+    "sexo": "F",
+    "ano_nasc": 1844,
+    "mmdd_nasc": "03-10",
+    "ano_obit": 1954
   },
   {
     "id": "I0181",
@@ -9520,6 +10500,39 @@
     "sexo": "F"
   },
   {
+    "id": "I1920",
+    "nome": "Maria Antónia",
+    "apelido": "Antónia",
+    "sexo": "F"
+  },
+  {
+    "id": "I2008",
+    "nome": "Maria Antónia",
+    "apelido": "Antónia",
+    "sexo": "F"
+  },
+  {
+    "id": "I2026",
+    "nome": "Maria Antónia",
+    "apelido": "Antónia",
+    "sexo": "F"
+  },
+  {
+    "id": "I2038",
+    "nome": "Maria Antónia",
+    "apelido": "Antónia",
+    "sexo": "F",
+    "ano_nasc": 1755,
+    "mmdd_nasc": "07-09",
+    "ano_obit": 1865
+  },
+  {
+    "id": "I2040",
+    "nome": "Maria Antónia",
+    "apelido": "Antónia",
+    "sexo": "F"
+  },
+  {
     "id": "I0106",
     "nome": "Maria Antónia",
     "apelido": "Antónia",
@@ -9562,6 +10575,11 @@
     "mmdd_obit": "07-21"
   },
   {
+    "id": "I1982",
+    "nome": "Maria Batista",
+    "sexo": "F"
+  },
+  {
     "id": "I0467",
     "nome": "Maria Borgue",
     "apelido": "Borgue",
@@ -9585,6 +10603,20 @@
     "sexo": "F"
   },
   {
+    "id": "I1984",
+    "nome": "Maria Cardosa",
+    "apelido": "Cardosa",
+    "sexo": "F",
+    "ano_obit": 1905,
+    "mmdd_obit": "05-08"
+  },
+  {
+    "id": "I2052",
+    "nome": "Maria Cardosa",
+    "apelido": "Cardosa",
+    "sexo": "F"
+  },
+  {
     "id": "I0590",
     "nome": "Maria Cardosa",
     "apelido": "Cardosa",
@@ -9605,12 +10637,6 @@
     "mmdd_nasc": "07-16",
     "ano_obit": 1995,
     "mmdd_obit": "05-27"
-  },
-  {
-    "id": "I1603",
-    "nome": "Maria Cardoso de Matos",
-    "apelido": "Cardoso de Matos",
-    "sexo": "F"
   },
   {
     "id": "I0148",
@@ -9647,6 +10673,15 @@
     "ano_obit": 1972
   },
   {
+    "id": "I1986",
+    "nome": "Maria Clara",
+    "apelido": "Clara",
+    "sexo": "F",
+    "ano_nasc": 1816,
+    "mmdd_nasc": "09-14",
+    "ano_obit": 1926
+  },
+  {
     "id": "I0099",
     "nome": "Maria Clara",
     "sexo": "F"
@@ -9671,6 +10706,12 @@
     "id": "I0070",
     "nome": "Maria Correia",
     "apelido": "Correia",
+    "sexo": "F"
+  },
+  {
+    "id": "I1909",
+    "nome": "Maria Dias",
+    "apelido": "Dias",
     "sexo": "F"
   },
   {
@@ -9711,6 +10752,20 @@
     "apelido": "Domingues",
     "sexo": "F",
     "ano_obit": 1696
+  },
+  {
+    "id": "I1935",
+    "nome": "Maria Domingues",
+    "apelido": "Domingues",
+    "sexo": "F",
+    "ano_obit": 1691,
+    "mmdd_obit": "08-08"
+  },
+  {
+    "id": "I2014",
+    "nome": "Maria Domingues",
+    "apelido": "Domingues",
+    "sexo": "F"
   },
   {
     "id": "I0376",
@@ -9787,6 +10842,38 @@
   },
   {
     "id": "I1859",
+    "nome": "Maria Fernandes",
+    "apelido": "Fernandes",
+    "sexo": "F"
+  },
+  {
+    "id": "I1871",
+    "nome": "Maria Fernandes",
+    "apelido": "Fernandes",
+    "sexo": "F"
+  },
+  {
+    "id": "I1877",
+    "nome": "Maria Fernandes",
+    "apelido": "Fernandes",
+    "sexo": "F"
+  },
+  {
+    "id": "I1897",
+    "nome": "Maria Fernandes",
+    "apelido": "Fernandes",
+    "sexo": "F",
+    "ano_obit": 1661
+  },
+  {
+    "id": "I1907",
+    "nome": "Maria Fernandes",
+    "apelido": "Fernandes",
+    "sexo": "F",
+    "ano_obit": 1662
+  },
+  {
+    "id": "I1961",
     "nome": "Maria Fernandes",
     "apelido": "Fernandes",
     "sexo": "F"
@@ -9965,6 +11052,53 @@
     "mmdd_obit": "12-04"
   },
   {
+    "id": "I1966",
+    "nome": "Maria Francisca",
+    "apelido": "Francisca",
+    "sexo": "F"
+  },
+  {
+    "id": "I1968",
+    "nome": "Maria Francisca",
+    "apelido": "Francisca",
+    "sexo": "F",
+    "ano_nasc": 1698,
+    "mmdd_nasc": "04-13",
+    "ano_obit": 1808
+  },
+  {
+    "id": "I1996",
+    "nome": "Maria Francisca",
+    "apelido": "Francisca",
+    "sexo": "F"
+  },
+  {
+    "id": "I1998",
+    "nome": "Maria Francisca",
+    "apelido": "Francisca",
+    "sexo": "F"
+  },
+  {
+    "id": "I2000",
+    "nome": "Maria Francisca",
+    "apelido": "Francisca",
+    "sexo": "F"
+  },
+  {
+    "id": "I2006",
+    "nome": "Maria Francisca",
+    "apelido": "Francisca",
+    "sexo": "F",
+    "ano_obit": 1830
+  },
+  {
+    "id": "I2012",
+    "nome": "Maria Francisca",
+    "apelido": "Francisca",
+    "sexo": "F",
+    "ano_obit": 1799
+  },
+  {
     "id": "I0231",
     "nome": "Maria Francisca",
     "apelido": "Francisca",
@@ -10017,6 +11151,15 @@
     "nome": "Maria Gaspar",
     "apelido": "Gaspar",
     "sexo": "F"
+  },
+  {
+    "id": "I1922",
+    "nome": "Maria Gertrudes da Silva",
+    "apelido": "da Silva",
+    "sexo": "F",
+    "ano_nasc": 1814,
+    "mmdd_nasc": "05-22",
+    "ano_obit": 1924
   },
   {
     "id": "I0136",
@@ -10180,6 +11323,24 @@
     "sexo": "F"
   },
   {
+    "id": "I1928",
+    "nome": "Maria Jordoa",
+    "apelido": "Jordoa",
+    "sexo": "F",
+    "ano_nasc": 1732,
+    "mmdd_nasc": "03-13",
+    "ano_obit": 1842
+  },
+  {
+    "id": "I1937",
+    "nome": "Maria Jordoa",
+    "apelido": "Jordoa",
+    "sexo": "F",
+    "ano_nasc": 1705,
+    "mmdd_nasc": "09-27",
+    "ano_obit": 1815
+  },
+  {
     "id": "I0754",
     "nome": "Maria Jordoa",
     "apelido": "Jordoa",
@@ -10274,6 +11435,15 @@
     "nome": "Maria Laurinda da Costa",
     "apelido": "Laurinda da Costa",
     "sexo": "F"
+  },
+  {
+    "id": "I2022",
+    "nome": "Maria Leal",
+    "apelido": "Leal",
+    "sexo": "F",
+    "ano_nasc": 1761,
+    "mmdd_nasc": "03-19",
+    "ano_obit": 1871
   },
   {
     "id": "I1735",
@@ -10492,6 +11662,15 @@
     "sexo": "F"
   },
   {
+    "id": "I1930",
+    "nome": "Maria Rodrigues",
+    "apelido": "Rodrigues",
+    "sexo": "F",
+    "ano_nasc": 1694,
+    "mmdd_nasc": "10-03",
+    "ano_obit": 1804
+  },
+  {
     "id": "I0487",
     "nome": "Maria Rodrigues",
     "apelido": "Rodrigues",
@@ -10559,6 +11738,12 @@
     "mmdd_nasc": "11-29",
     "ano_obit": 1887,
     "mmdd_obit": "03-19"
+  },
+  {
+    "id": "I1955",
+    "nome": "Maria Simões",
+    "apelido": "Simões",
+    "sexo": "F"
   },
   {
     "id": "I0385",
@@ -10640,6 +11825,21 @@
     "ano_obit": 1900
   },
   {
+    "id": "I1951",
+    "nome": "Maria Teresa",
+    "apelido": "Teresa",
+    "sexo": "F"
+  },
+  {
+    "id": "I1992",
+    "nome": "Maria Teresa",
+    "apelido": "Teresa",
+    "sexo": "F",
+    "ano_nasc": 1790,
+    "mmdd_nasc": "12-21",
+    "ano_obit": 1900
+  },
+  {
     "id": "I0708",
     "nome": "Maria Teresa",
     "apelido": "Teresa",
@@ -10689,10 +11889,27 @@
     "sexo": "F"
   },
   {
+    "id": "I2089",
+    "nome": "Maria Teresa de Jesus Matos",
+    "apelido": "de Jesus Matos",
+    "sexo": "F",
+    "ano_nasc": 1975,
+    "mmdd_nasc": "09-19"
+  },
+  {
     "id": "I0650",
     "nome": "Maria Vicência",
     "apelido": "Vicência",
     "sexo": "F"
+  },
+  {
+    "id": "I1888",
+    "nome": "Maria da Ascensão",
+    "apelido": "da Ascensão",
+    "sexo": "F",
+    "ano_nasc": 1671,
+    "mmdd_nasc": "05-07",
+    "ano_obit": 1781
   },
   {
     "id": "I1159",
@@ -10716,6 +11933,12 @@
     "ano_nasc": 1841,
     "mmdd_nasc": "12-20",
     "ano_obit": 1951
+  },
+  {
+    "id": "I2044",
+    "nome": "Maria da Conceição",
+    "apelido": "da Conceição",
+    "sexo": "F"
   },
   {
     "id": "I0034",
@@ -10769,6 +11992,12 @@
     "ano_nasc": 1709,
     "mmdd_nasc": "11-13",
     "ano_obit": 1819
+  },
+  {
+    "id": "I1943",
+    "nome": "Maria da Costa",
+    "apelido": "da Costa",
+    "sexo": "F"
   },
   {
     "id": "I0955",
@@ -11116,6 +12345,18 @@
     "sexo": "F"
   },
   {
+    "id": "I1945",
+    "nome": "Mariana Jordoa",
+    "apelido": "Jordoa",
+    "sexo": "F"
+  },
+  {
+    "id": "I2002",
+    "nome": "Mariana Pedrosa",
+    "apelido": "Pedrosa",
+    "sexo": "F"
+  },
+  {
     "id": "I0772",
     "nome": "Mariana Rosa",
     "apelido": "Rosa",
@@ -11168,6 +12409,12 @@
     "id": "I1832",
     "nome": "Mateus Francisco",
     "apelido": "Francisco",
+    "sexo": "M"
+  },
+  {
+    "id": "I1876",
+    "nome": "Mateus Álvares",
+    "apelido": "Álvares",
     "sexo": "M"
   },
   {
@@ -11255,6 +12502,12 @@
     "ano_obit": 1816
   },
   {
+    "id": "I1889",
+    "nome": "Miguel Fernandes",
+    "apelido": "Fernandes",
+    "sexo": "M"
+  },
+  {
     "id": "I1166",
     "nome": "Miguel Rodrigues",
     "apelido": "Rodrigues",
@@ -11281,6 +12534,11 @@
     "sexo": "M",
     "ano_nasc": 1999,
     "mmdd_nasc": "09-09"
+  },
+  {
+    "id": "I2090",
+    "nome": "Mário",
+    "sexo": "M"
   },
   {
     "id": "I1792",
@@ -11367,6 +12625,15 @@
     "mmdd_obit": "12-25"
   },
   {
+    "id": "I1865",
+    "nome": "Paula Martins",
+    "apelido": "Martins",
+    "sexo": "F",
+    "ano_nasc": 1679,
+    "mmdd_nasc": "06-29",
+    "ano_obit": 1789
+  },
+  {
     "id": "I1286",
     "nome": "Paula da Conceição",
     "apelido": "da Conceição",
@@ -11391,14 +12658,6 @@
     "mmdd_obit": "02-06"
   },
   {
-    "id": "I0978",
-    "nome": "Pedro",
-    "sexo": "M",
-    "ano_nasc": 1701,
-    "mmdd_nasc": "09-25",
-    "ano_obit": 1811
-  },
-  {
     "id": "I1282",
     "nome": "Pedro",
     "sexo": "M",
@@ -11415,12 +12674,37 @@
     "ano_obit": 1778
   },
   {
+    "id": "I1938",
+    "nome": "Pedro Dias",
+    "apelido": "Dias",
+    "sexo": "M",
+    "ano_nasc": 1664,
+    "mmdd_nasc": "06-02",
+    "ano_obit": 1774
+  },
+  {
     "id": "I1846",
     "nome": "Pedro Fernandes",
     "apelido": "Fernandes",
     "sexo": "M",
     "ano_obit": 1727,
     "mmdd_obit": "09-20"
+  },
+  {
+    "id": "I1896",
+    "nome": "Pedro Fernandes",
+    "apelido": "Fernandes",
+    "sexo": "M",
+    "ano_obit": 1661
+  },
+  {
+    "id": "I1967",
+    "nome": "Pedro Fernandes",
+    "apelido": "Fernandes",
+    "sexo": "M",
+    "ano_nasc": 1701,
+    "mmdd_nasc": "09-25",
+    "ano_obit": 1811
   },
   {
     "id": "I1187",
@@ -11554,6 +12838,136 @@
     "id": "I1697",
     "nome": "Privado",
     "sexo": "F"
+  },
+  {
+    "id": "I2062",
+    "nome": "Privado",
+    "sexo": "F"
+  },
+  {
+    "id": "I2063",
+    "nome": "Privado",
+    "sexo": "M"
+  },
+  {
+    "id": "I2064",
+    "nome": "Privado",
+    "sexo": "F"
+  },
+  {
+    "id": "I2066",
+    "nome": "Privado",
+    "sexo": "M"
+  },
+  {
+    "id": "I2067",
+    "nome": "Privado",
+    "sexo": "F"
+  },
+  {
+    "id": "I2068",
+    "nome": "Privado",
+    "sexo": "F"
+  },
+  {
+    "id": "I2069",
+    "nome": "Privado",
+    "sexo": "M"
+  },
+  {
+    "id": "I2071",
+    "nome": "Privado",
+    "sexo": "F"
+  },
+  {
+    "id": "I2075",
+    "nome": "Privado",
+    "sexo": "F"
+  },
+  {
+    "id": "I2086",
+    "nome": "Privado",
+    "sexo": "M"
+  },
+  {
+    "id": "I2091",
+    "nome": "Privado",
+    "sexo": "M"
+  },
+  {
+    "id": "I2092",
+    "nome": "Privado",
+    "sexo": "M"
+  },
+  {
+    "id": "I2093",
+    "nome": "Privado",
+    "sexo": "F"
+  },
+  {
+    "id": "I2094",
+    "nome": "Privado",
+    "sexo": "M"
+  },
+  {
+    "id": "I2095",
+    "nome": "Privado",
+    "sexo": "M"
+  },
+  {
+    "id": "I2097",
+    "nome": "Privado",
+    "sexo": "F"
+  },
+  {
+    "id": "I2100",
+    "nome": "Privado",
+    "sexo": "F"
+  },
+  {
+    "id": "I2101",
+    "nome": "Privado",
+    "sexo": "F"
+  },
+  {
+    "id": "I2104",
+    "nome": "Privado",
+    "sexo": "M"
+  },
+  {
+    "id": "I2105",
+    "nome": "Privado",
+    "sexo": "F"
+  },
+  {
+    "id": "I2106",
+    "nome": "Privado",
+    "sexo": "M"
+  },
+  {
+    "id": "I2120",
+    "nome": "Privado",
+    "sexo": "M"
+  },
+  {
+    "id": "I2121",
+    "nome": "Privado",
+    "sexo": "M"
+  },
+  {
+    "id": "I2122",
+    "nome": "Privado",
+    "sexo": "F"
+  },
+  {
+    "id": "I2124",
+    "nome": "Privado",
+    "sexo": "F"
+  },
+  {
+    "id": "I2125",
+    "nome": "Privado",
+    "sexo": "M"
   },
   {
     "id": "I0232",
@@ -11773,12 +13187,93 @@
     "thumb_id": "O1034"
   },
   {
+    "id": "I2108",
+    "nome": "Privado Baptista",
+    "apelido": "Baptista",
+    "sexo": "M"
+  },
+  {
+    "id": "I2115",
+    "nome": "Privado Baptista",
+    "apelido": "Baptista",
+    "sexo": "F"
+  },
+  {
+    "id": "I2118",
+    "nome": "Privado Baptista",
+    "apelido": "Baptista",
+    "sexo": "M"
+  },
+  {
     "id": "I0268",
     "nome": "Privado Baptista Martins da Silva",
     "apelido": "Baptista Martins da Silva",
     "sexo": "F",
     "ano_nasc": 1933,
     "mmdd_nasc": "06-29"
+  },
+  {
+    "id": "I2112",
+    "nome": "Privado Baptista da Silva",
+    "apelido": "Baptista da Silva",
+    "sexo": "M",
+    "ano_nasc": 1993,
+    "mmdd_nasc": "08-08"
+  },
+  {
+    "id": "I2116",
+    "nome": "Privado Bastos",
+    "apelido": "Bastos",
+    "sexo": "F"
+  },
+  {
+    "id": "I2110",
+    "nome": "Privado Cardoso Baptista",
+    "apelido": "Cardoso Baptista",
+    "sexo": "F"
+  },
+  {
+    "id": "I2113",
+    "nome": "Privado Cardoso Baptista",
+    "apelido": "Cardoso Baptista",
+    "sexo": "M"
+  },
+  {
+    "id": "I2119",
+    "nome": "Privado Cardoso Baptista",
+    "apelido": "Cardoso Baptista",
+    "sexo": "F"
+  },
+  {
+    "id": "I2123",
+    "nome": "Privado Cardoso Baptista",
+    "apelido": "Cardoso Baptista",
+    "sexo": "M"
+  },
+  {
+    "id": "I2074",
+    "nome": "Privado Cardoso Gomes",
+    "apelido": "Cardoso Gomes",
+    "sexo": "M",
+    "ano_nasc": 1975
+  },
+  {
+    "id": "I2078",
+    "nome": "Privado Cardoso Gomes",
+    "apelido": "Cardoso Gomes",
+    "sexo": "M"
+  },
+  {
+    "id": "I2079",
+    "nome": "Privado Cardoso Gomes",
+    "apelido": "Cardoso Gomes",
+    "sexo": "F"
+  },
+  {
+    "id": "I2084",
+    "nome": "Privado Cardoso Gomes",
+    "apelido": "Cardoso Gomes",
+    "sexo": "M"
   },
   {
     "id": "I0279",
@@ -11799,12 +13294,59 @@
     "sexo": "F"
   },
   {
+    "id": "I2059",
+    "nome": "Privado Cardoso Matos",
+    "apelido": "Cardoso Matos",
+    "sexo": "F",
+    "ano_nasc": 1941
+  },
+  {
+    "id": "I2072",
+    "nome": "Privado Cardoso Matos",
+    "apelido": "Cardoso Matos",
+    "sexo": "F",
+    "ano_nasc": 1953,
+    "mmdd_nasc": "03-04"
+  },
+  {
+    "id": "I2087",
+    "nome": "Privado Cardoso Matos",
+    "apelido": "Cardoso Matos",
+    "sexo": "M"
+  },
+  {
+    "id": "I2107",
+    "nome": "Privado Cardoso Matos",
+    "apelido": "Cardoso Matos",
+    "sexo": "F"
+  },
+  {
+    "id": "I2117",
+    "nome": "Privado Cardoso Matos",
+    "apelido": "Cardoso Matos",
+    "sexo": "F"
+  },
+  {
     "id": "I0001",
     "nome": "Privado Cardoso Morgado",
     "apelido": "Cardoso Morgado",
     "sexo": "F",
     "ano_nasc": 1975,
     "mmdd_nasc": "07-20"
+  },
+  {
+    "id": "I2061",
+    "nome": "Privado Cardoso Neves",
+    "apelido": "Cardoso Neves",
+    "sexo": "M"
+  },
+  {
+    "id": "I1603",
+    "nome": "Privado Cardoso de Matos",
+    "apelido": "Cardoso de Matos",
+    "sexo": "F",
+    "ano_nasc": 1943,
+    "mmdd_nasc": "02-21"
   },
   {
     "id": "I0333",
@@ -11883,6 +13425,36 @@
     "mmdd_nasc": "10-25",
     "ano_obit": 1956,
     "mmdd_obit": "10-06"
+  },
+  {
+    "id": "I2103",
+    "nome": "Privado Correia",
+    "apelido": "Correia",
+    "sexo": "M"
+  },
+  {
+    "id": "I2080",
+    "nome": "Privado Cravo",
+    "apelido": "Cravo",
+    "sexo": "M"
+  },
+  {
+    "id": "I2081",
+    "nome": "Privado Cravo",
+    "apelido": "Cravo",
+    "sexo": "M"
+  },
+  {
+    "id": "I2082",
+    "nome": "Privado Cravo",
+    "apelido": "Cravo",
+    "sexo": "M"
+  },
+  {
+    "id": "I2083",
+    "nome": "Privado Cravo",
+    "apelido": "Cravo",
+    "sexo": "F"
   },
   {
     "id": "I1042",
@@ -12537,6 +14109,18 @@
     "thumb_id": "O0876"
   },
   {
+    "id": "I2076",
+    "nome": "Privado Gomes",
+    "apelido": "Gomes",
+    "sexo": "M"
+  },
+  {
+    "id": "I2077",
+    "nome": "Privado Gomes",
+    "apelido": "Gomes",
+    "sexo": "M"
+  },
+  {
     "id": "I0257",
     "nome": "Privado Gonzalez",
     "apelido": "Gonzalez",
@@ -12605,6 +14189,12 @@
     "apelido": "Gréu Gomes",
     "sexo": "F",
     "thumb_id": "O0870"
+  },
+  {
+    "id": "I2114",
+    "nome": "Privado Guerra",
+    "apelido": "Guerra",
+    "sexo": "F"
   },
   {
     "id": "I0994",
@@ -12764,6 +14354,37 @@
     "sexo": "M"
   },
   {
+    "id": "I2053",
+    "nome": "Privado Matos",
+    "apelido": "Matos",
+    "sexo": "M",
+    "ano_nasc": 1940
+  },
+  {
+    "id": "I2054",
+    "nome": "Privado Matos",
+    "apelido": "Matos",
+    "sexo": "M"
+  },
+  {
+    "id": "I2055",
+    "nome": "Privado Matos",
+    "apelido": "Matos",
+    "sexo": "F"
+  },
+  {
+    "id": "I2056",
+    "nome": "Privado Matos",
+    "apelido": "Matos",
+    "sexo": "F"
+  },
+  {
+    "id": "I2058",
+    "nome": "Privado Matos",
+    "apelido": "Matos",
+    "sexo": "F"
+  },
+  {
     "id": "I1535",
     "nome": "Privado Moniz Abreu",
     "apelido": "Moniz Abreu",
@@ -12802,6 +14423,12 @@
     "mmdd_nasc": "04-09"
   },
   {
+    "id": "I2060",
+    "nome": "Privado Neves",
+    "apelido": "Neves",
+    "sexo": "M"
+  },
+  {
     "id": "I1559",
     "nome": "Privado Nóbrega",
     "apelido": "Nóbrega",
@@ -12814,6 +14441,12 @@
     "sexo": "F",
     "ano_nasc": 1971,
     "mmdd_nasc": "12-10"
+  },
+  {
+    "id": "I2085",
+    "nome": "Privado Pedro",
+    "apelido": "Pedro",
+    "sexo": "F"
   },
   {
     "id": "I0988",
@@ -13044,6 +14677,12 @@
     "mmdd_nasc": "05-31"
   },
   {
+    "id": "I2099",
+    "nome": "Privado Valente",
+    "apelido": "Valente",
+    "sexo": "F"
+  },
+  {
     "id": "I1540",
     "nome": "Privado Vieira Moniz",
     "apelido": "Vieira Moniz",
@@ -13136,12 +14775,26 @@
     "thumb_id": "O0871"
   },
   {
+    "id": "I2111",
+    "nome": "Privado da Silva Gil",
+    "apelido": "da Silva Gil",
+    "sexo": "M"
+  },
+  {
     "id": "I0299",
     "nome": "Privado da Silva Gonçalves",
     "apelido": "da Silva Gonçalves",
     "sexo": "F",
     "ano_nasc": 1995,
     "mmdd_nasc": "10-17"
+  },
+  {
+    "id": "I1602",
+    "nome": "Privado da Silva Morgado",
+    "apelido": "da Silva Morgado",
+    "sexo": "M",
+    "ano_nasc": 1947,
+    "mmdd_nasc": "03-30"
   },
   {
     "id": "I1684",
@@ -13192,6 +14845,12 @@
     "mmdd_nasc": "07-05"
   },
   {
+    "id": "I2088",
+    "nome": "Privado de Jesus",
+    "apelido": "de Jesus",
+    "sexo": "F"
+  },
+  {
     "id": "I1029",
     "nome": "Privado de Jesus Duarte",
     "apelido": "de Jesus Duarte",
@@ -13199,6 +14858,28 @@
     "ano_nasc": 1965,
     "mmdd_nasc": "03-10",
     "thumb_id": "O0840"
+  },
+  {
+    "id": "I2096",
+    "nome": "Privado de Jesus Matos",
+    "apelido": "de Jesus Matos",
+    "sexo": "M",
+    "ano_nasc": 1977,
+    "mmdd_nasc": "03-11"
+  },
+  {
+    "id": "I2098",
+    "nome": "Privado de Jesus Matos",
+    "apelido": "de Jesus Matos",
+    "sexo": "F"
+  },
+  {
+    "id": "I2102",
+    "nome": "Privado de Jesus Matos",
+    "apelido": "de Jesus Matos",
+    "sexo": "F",
+    "ano_nasc": 1980,
+    "mmdd_nasc": "09-26"
   },
   {
     "id": "I0344",
@@ -13491,6 +15172,21 @@
     "ano_obit": 1882
   },
   {
+    "id": "I1879",
+    "nome": "Rosa Maria",
+    "apelido": "Maria",
+    "sexo": "F",
+    "ano_nasc": 1742,
+    "mmdd_nasc": "04-23",
+    "ano_obit": 1852
+  },
+  {
+    "id": "I1994",
+    "nome": "Rosa Maria",
+    "apelido": "Maria",
+    "sexo": "F"
+  },
+  {
     "id": "I0786",
     "nome": "Rosa Maria",
     "apelido": "Maria",
@@ -13562,6 +15258,12 @@
     "id": "I0555",
     "nome": "Salvador Correia",
     "apelido": "Correia",
+    "sexo": "M"
+  },
+  {
+    "id": "I2033",
+    "nome": "Salvador Leal",
+    "apelido": "Leal",
     "sexo": "M"
   },
   {
@@ -13879,6 +15581,18 @@
     "sexo": "F"
   },
   {
+    "id": "I2004",
+    "nome": "Teresa Maria",
+    "apelido": "Maria",
+    "sexo": "F"
+  },
+  {
+    "id": "I2018",
+    "nome": "Teresa Maria",
+    "apelido": "Maria",
+    "sexo": "F"
+  },
+  {
     "id": "I0698",
     "nome": "Teresa Maria",
     "apelido": "Maria",
@@ -13925,6 +15639,15 @@
     "nome": "Teresa Maria de Jesus",
     "apelido": "Maria de Jesus",
     "sexo": "F"
+  },
+  {
+    "id": "I1926",
+    "nome": "Teresa Patrícia de Almeida",
+    "apelido": "de Almeida",
+    "sexo": "F",
+    "ano_nasc": 1776,
+    "mmdd_nasc": "10-23",
+    "ano_obit": 1886
   },
   {
     "id": "I1845",
@@ -14068,6 +15791,12 @@
     "id": "I1276",
     "nome": "Violante Antunes",
     "apelido": "Antunes",
+    "sexo": "F"
+  },
+  {
+    "id": "I1959",
+    "nome": "Violante Fernandes",
+    "apelido": "Fernandes",
     "sexo": "F"
   },
   {

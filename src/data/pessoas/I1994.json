@@ -1,0 +1,26 @@
+{
+  "id": "I1994",
+  "protegida": false,
+  "nome": "Rosa Maria",
+  "nome_proprio": "Rosa",
+  "apelido": "Maria",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "",
+    "lugar_id": "P0237"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0630"
+  ],
+  "familias_como_pai": [
+    "F0626"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

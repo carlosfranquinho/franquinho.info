@@ -512,6 +512,78 @@
     "pai_id": "P0234"
   },
   {
+    "id": "P0236",
+    "nome": "Outeiro Martinho",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0081"
+  },
+  {
+    "id": "P0237",
+    "nome": "Marinha da Guia",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0079"
+  },
+  {
+    "id": "P0238",
+    "nome": "Paião",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0041"
+  },
+  {
+    "id": "P0239",
+    "nome": "São Facundo",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0165"
+  },
+  {
+    "id": "P0240",
+    "nome": "Geiria",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0239"
+  },
+  {
+    "id": "P0241",
+    "nome": "Matos",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0079"
+  },
+  {
+    "id": "P0242",
+    "nome": "Cordeirinhos",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0081"
+  },
+  {
+    "id": "P0243",
+    "nome": "Barroca",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0079"
+  },
+  {
+    "id": "P0244",
+    "nome": "Marselha",
+    "tipo": null,
+    "lat": null,
+    "lon": null,
+    "pai_id": "P0060"
+  },
+  {
     "id": "P0000",
     "nome": "Marinha Grande",
     "tipo": null,

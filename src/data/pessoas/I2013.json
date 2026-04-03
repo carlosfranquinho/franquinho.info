@@ -1,0 +1,21 @@
+{
+  "id": "I2013",
+  "protegida": false,
+  "nome": "António Gomes",
+  "nome_proprio": "António",
+  "apelido": "Gomes",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0637"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,21 @@
+{
+  "id": "I2095",
+  "protegida": true,
+  "nome": "Privado",
+  "nome_proprio": "Privado",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0670"
+  ],
+  "familias_como_pai": null,
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

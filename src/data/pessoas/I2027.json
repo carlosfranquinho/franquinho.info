@@ -1,0 +1,24 @@
+{
+  "id": "I2027",
+  "protegida": false,
+  "nome": "Francisco Brás",
+  "nome_proprio": "Francisco",
+  "apelido": "Brás",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1730",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0644"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

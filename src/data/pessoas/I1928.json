@@ -1,0 +1,30 @@
+{
+  "id": "I1928",
+  "protegida": false,
+  "nome": "Maria Jordoa",
+  "nome_proprio": "Maria",
+  "apelido": "Jordoa",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1732-03-13",
+    "lugar_id": "P0237"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "antes de 1842",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0601"
+  ],
+  "familias_como_pai": [
+    "F0596"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

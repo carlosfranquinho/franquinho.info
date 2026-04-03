@@ -1,0 +1,26 @@
+{
+  "id": "I1977",
+  "protegida": false,
+  "nome": "António Ferreira",
+  "nome_proprio": "António",
+  "apelido": "Ferreira",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "",
+    "lugar_id": "P0079"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0621"
+  ],
+  "familias_como_pai": [
+    "F0620"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "I2025",
+  "protegida": false,
+  "nome": "Manuel Francisco",
+  "nome_proprio": "Manuel",
+  "apelido": "Francisco",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "",
+    "lugar_id": "P0103"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0644"
+  ],
+  "familias_como_pai": [
+    "F0643"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

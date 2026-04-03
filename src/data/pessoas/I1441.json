@@ -1,9 +1,9 @@
 {
   "id": "I1441",
   "protegida": false,
-  "nome": "Joaquina Silva",
+  "nome": "Joaquina da Silva",
   "nome_proprio": "Joaquina",
-  "apelido": "Silva",
+  "apelido": "da Silva",
   "nomes_alt": null,
   "sexo": "F",
   "nascimento": {
@@ -18,7 +18,9 @@
   },
   "sepultura": null,
   "profissao": null,
-  "familias_como_filho": null,
+  "familias_como_filho": [
+    "F0594"
+  ],
   "familias_como_pai": [
     "F0541"
   ],

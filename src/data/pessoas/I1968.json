@@ -1,0 +1,30 @@
+{
+  "id": "I1968",
+  "protegida": false,
+  "nome": "Maria Francisca",
+  "nome_proprio": "Maria",
+  "apelido": "Francisca",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1698-04-13",
+    "lugar_id": "P0107"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "antes de 1808",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0616"
+  ],
+  "familias_como_pai": [
+    "F0615"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,30 @@
+{
+  "id": "I1937",
+  "protegida": false,
+  "nome": "Maria Jordoa",
+  "nome_proprio": "Maria",
+  "apelido": "Jordoa",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1705-09-27",
+    "lugar_id": "P0105"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "antes de 1815",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0605"
+  ],
+  "familias_como_pai": [
+    "F0601"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

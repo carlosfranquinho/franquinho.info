@@ -1,0 +1,29 @@
+{
+  "id": "I2020",
+  "protegida": false,
+  "nome": "Clara Maria",
+  "nome_proprio": "Clara",
+  "apelido": "Maria",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "",
+    "lugar_id": "P0104"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "1795-02-08",
+    "lugar_id": "P0079"
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0649"
+  ],
+  "familias_como_pai": [
+    "F0640"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

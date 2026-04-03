@@ -1,0 +1,15 @@
+{
+  "id": "F0650",
+  "pai": "I2039",
+  "mae": "I2040",
+  "filhos": [
+    "I2037"
+  ],
+  "tipo_relacao": "Unknown",
+  "casamento": {
+    "data": "1751-10-26",
+    "lugar_id": "P0079"
+  },
+  "notas": null,
+  "media": null
+}

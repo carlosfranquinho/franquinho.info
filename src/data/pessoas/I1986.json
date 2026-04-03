@@ -1,0 +1,30 @@
+{
+  "id": "I1986",
+  "protegida": false,
+  "nome": "Maria Clara",
+  "nome_proprio": "Maria",
+  "apelido": "Clara",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1816-09-14",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "antes de 1926",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0640"
+  ],
+  "familias_como_pai": [
+    "F0624"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,30 @@
+{
+  "id": "I1913",
+  "protegida": false,
+  "nome": "Isabel Antónia",
+  "nome_proprio": "Isabel",
+  "apelido": "Antónia",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1624-01-24",
+    "lugar_id": "P0131"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "antes de 1734",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0593"
+  ],
+  "familias_como_pai": [
+    "F0590"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

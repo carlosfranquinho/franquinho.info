@@ -1,0 +1,33 @@
+{
+  "id": "I2031",
+  "protegida": false,
+  "nome": "Manuel Leal",
+  "nome_proprio": "Manuel",
+  "apelido": "Leal",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "",
+    "lugar_id": "P0236"
+  },
+  "baptismo": {
+    "data": "1715-12-16",
+    "lugar_id": "P0081"
+  },
+  "obito": {
+    "data": "antes de 1825",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0647"
+  ],
+  "familias_como_pai": [
+    "F0646"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

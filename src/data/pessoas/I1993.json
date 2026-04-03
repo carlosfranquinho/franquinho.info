@@ -1,0 +1,30 @@
+{
+  "id": "I1993",
+  "protegida": false,
+  "nome": "Manuel José",
+  "nome_proprio": "Manuel",
+  "apelido": "José",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1747-07-05",
+    "lugar_id": "P0211"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "antes de 1857",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0627"
+  ],
+  "familias_como_pai": [
+    "F0626"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,30 @@
+{
+  "id": "I1974",
+  "protegida": false,
+  "nome": "Josefa Maria",
+  "nome_proprio": "Josefa",
+  "apelido": "Maria",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1733-03-16",
+    "lugar_id": "P0101"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "antes de 1843",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0620"
+  ],
+  "familias_como_pai": [
+    "F0618"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

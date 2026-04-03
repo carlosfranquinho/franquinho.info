@@ -1,0 +1,30 @@
+{
+  "id": "I1967",
+  "protegida": false,
+  "nome": "Pedro Fernandes",
+  "nome_proprio": "Pedro",
+  "apelido": "Fernandes",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1701-09-25",
+    "lugar_id": "P0107"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "antes de 1811",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0265"
+  ],
+  "familias_como_pai": [
+    "F0615"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

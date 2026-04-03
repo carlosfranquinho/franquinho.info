@@ -1,0 +1,21 @@
+{
+  "id": "I1969",
+  "protegida": false,
+  "nome": "Manuel Marques",
+  "nome_proprio": "Manuel",
+  "apelido": "Marques",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0616"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

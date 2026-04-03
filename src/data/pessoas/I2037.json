@@ -1,0 +1,30 @@
+{
+  "id": "I2037",
+  "protegida": false,
+  "nome": "Manuel Brás",
+  "nome_proprio": "Manuel",
+  "apelido": "Brás",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1754-09-29",
+    "lugar_id": "P0104"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "antes de 1864",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0650"
+  ],
+  "familias_como_pai": [
+    "F0649"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

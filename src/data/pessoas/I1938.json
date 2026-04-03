@@ -1,0 +1,30 @@
+{
+  "id": "I1938",
+  "protegida": false,
+  "nome": "Pedro Dias",
+  "nome_proprio": "Pedro",
+  "apelido": "Dias",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1664-06-02",
+    "lugar_id": "P0104"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "antes de 1774",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0603"
+  ],
+  "familias_como_pai": [
+    "F0602"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

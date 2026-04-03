@@ -1,0 +1,19 @@
+{
+  "id": "F0624",
+  "pai": "I1985",
+  "mae": "I1986",
+  "filhos": [
+    "I1983",
+    "I1987",
+    "I1988",
+    "I1989",
+    "I1990"
+  ],
+  "tipo_relacao": "Unknown",
+  "casamento": {
+    "data": "1841-01-18",
+    "lugar_id": "P0081"
+  },
+  "notas": null,
+  "media": null
+}

@@ -1,0 +1,23 @@
+{
+  "id": "I2061",
+  "protegida": true,
+  "nome": "Privado Cardoso Neves",
+  "nome_proprio": "Privado",
+  "apelido": "Cardoso Neves",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0661"
+  ],
+  "familias_como_pai": [
+    "F0662"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

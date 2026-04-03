@@ -7,7 +7,10 @@
     "I1604"
   ],
   "tipo_relacao": "Married",
-  "casamento": null,
+  "casamento": {
+    "data": "1975-01-11",
+    "lugar_id": "P0189"
+  },
   "notas": null,
   "media": null
 }

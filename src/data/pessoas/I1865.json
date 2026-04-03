@@ -1,0 +1,30 @@
+{
+  "id": "I1865",
+  "protegida": false,
+  "nome": "Paula Martins",
+  "nome_proprio": "Paula",
+  "apelido": "Martins",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1679-06-29",
+    "lugar_id": "P0232"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "antes de 1789",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0569"
+  ],
+  "familias_como_pai": [
+    "F0565"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

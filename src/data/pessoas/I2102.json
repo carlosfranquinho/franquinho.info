@@ -1,0 +1,26 @@
+{
+  "id": "I2102",
+  "protegida": true,
+  "nome": "Privado de Jesus Matos",
+  "nome_proprio": "Privado",
+  "apelido": "de Jesus Matos",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1980-09-26",
+    "lugar_id": "P0244"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0669"
+  ],
+  "familias_como_pai": [
+    "F0673"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

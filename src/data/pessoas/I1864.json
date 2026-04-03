@@ -1,0 +1,30 @@
+{
+  "id": "I1864",
+  "protegida": false,
+  "nome": "Manuel da Costa",
+  "nome_proprio": "Manuel",
+  "apelido": "da Costa",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1686-11-12",
+    "lugar_id": "P0096"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "antes de 1796",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0566"
+  ],
+  "familias_como_pai": [
+    "F0565"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

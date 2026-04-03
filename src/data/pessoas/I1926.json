@@ -1,0 +1,30 @@
+{
+  "id": "I1926",
+  "protegida": false,
+  "nome": "Teresa Patrícia de Almeida",
+  "nome_proprio": "Teresa Patrícia",
+  "apelido": "de Almeida",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1776-10-23",
+    "lugar_id": "P0035"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "antes de 1886",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0608"
+  ],
+  "familias_como_pai": [
+    "F0595"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

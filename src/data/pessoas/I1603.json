@@ -1,12 +1,15 @@
 {
   "id": "I1603",
-  "protegida": false,
-  "nome": "Maria Cardoso de Matos",
-  "nome_proprio": "Maria",
+  "protegida": true,
+  "nome": "Privado Cardoso de Matos",
+  "nome_proprio": "Privado",
   "apelido": "Cardoso de Matos",
   "nomes_alt": null,
   "sexo": "F",
-  "nascimento": null,
+  "nascimento": {
+    "data": "1943-02-21",
+    "lugar_id": "P0198"
+  },
   "baptismo": null,
   "obito": null,
   "sepultura": null,

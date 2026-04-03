@@ -1,0 +1,30 @@
+{
+  "id": "I1922",
+  "protegida": false,
+  "nome": "Maria Gertrudes da Silva",
+  "nome_proprio": "Maria Gertrudes",
+  "apelido": "da Silva",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1814-05-22",
+    "lugar_id": "P0101"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "antes de 1924",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0617"
+  ],
+  "familias_como_pai": [
+    "F0594"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

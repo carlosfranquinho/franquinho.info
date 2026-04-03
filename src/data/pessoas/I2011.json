@@ -1,0 +1,33 @@
+{
+  "id": "I2011",
+  "protegida": false,
+  "nome": "António Gomes",
+  "nome_proprio": "António",
+  "apelido": "Gomes",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "",
+    "lugar_id": "P0236"
+  },
+  "baptismo": {
+    "data": "1689-04-21",
+    "lugar_id": "P0081"
+  },
+  "obito": {
+    "data": "antes de 1799",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0637"
+  ],
+  "familias_como_pai": [
+    "F0636"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,30 @@
+{
+  "id": "I1983",
+  "protegida": false,
+  "nome": "Manuel Francisco Grazina",
+  "nome_proprio": "Manuel",
+  "apelido": "Francisco Grazina",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1844-02-07",
+    "lugar_id": "P0236"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "antes de 1954",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0624"
+  ],
+  "familias_como_pai": [
+    "F0623"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

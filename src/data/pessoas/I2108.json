@@ -1,0 +1,23 @@
+{
+  "id": "I2108",
+  "protegida": true,
+  "nome": "Privado Baptista",
+  "nome_proprio": "Privado",
+  "apelido": "Baptista",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0675"
+  ],
+  "familias_como_pai": [
+    "F0674"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

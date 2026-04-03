@@ -1,0 +1,24 @@
+{
+  "id": "I2017",
+  "protegida": false,
+  "nome": "Agostinho Francisco",
+  "nome_proprio": "Agostinho",
+  "apelido": "Francisco",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "",
+    "lugar_id": "P0242"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0639"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

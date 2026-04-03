@@ -1,0 +1,23 @@
+{
+  "id": "I2123",
+  "protegida": true,
+  "nome": "Privado Cardoso Baptista",
+  "nome_proprio": "Privado",
+  "apelido": "Cardoso Baptista",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0679"
+  ],
+  "familias_como_pai": [
+    "F0681"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,21 @@
+{
+  "id": "I1884",
+  "protegida": false,
+  "nome": "Luís da Silva",
+  "nome_proprio": "Luís",
+  "apelido": "da Silva",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0575"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

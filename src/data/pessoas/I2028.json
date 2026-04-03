@@ -1,0 +1,24 @@
+{
+  "id": "I2028",
+  "protegida": false,
+  "nome": "Catarina Antónia",
+  "nome_proprio": "Catarina",
+  "apelido": "Antónia",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "1730",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0644"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

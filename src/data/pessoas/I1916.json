@@ -1,0 +1,30 @@
+{
+  "id": "I1916",
+  "protegida": false,
+  "nome": "Isabel",
+  "nome_proprio": "Isabel",
+  "apelido": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1650-10-16",
+    "lugar_id": "P0079"
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "antes de 1760",
+    "lugar_id": null,
+    "estimado": true
+  },
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0590"
+  ],
+  "familias_como_pai": [
+    "F0592"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

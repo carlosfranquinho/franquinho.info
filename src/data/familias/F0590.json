@@ -1,0 +1,16 @@
+{
+  "id": "F0590",
+  "pai": "I1912",
+  "mae": "I1913",
+  "filhos": [
+    "I1909",
+    "I1916"
+  ],
+  "tipo_relacao": "Unknown",
+  "casamento": {
+    "data": "1643-02-16",
+    "lugar_id": null
+  },
+  "notas": null,
+  "media": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "I2074",
+  "protegida": true,
+  "nome": "Privado Cardoso Gomes",
+  "nome_proprio": "Privado",
+  "apelido": "Cardoso Gomes",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1975",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0665"
+  ],
+  "familias_como_pai": [
+    "F0666"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "I2026",
+  "protegida": false,
+  "nome": "Maria Antónia",
+  "nome_proprio": "Maria",
+  "apelido": "Antónia",
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "",
+    "lugar_id": "P0242"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0643"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

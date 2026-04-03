@@ -1,0 +1,26 @@
+{
+  "id": "I2039",
+  "protegida": false,
+  "nome": "Manuel Brás",
+  "nome_proprio": "Manuel",
+  "apelido": "Brás",
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "",
+    "lugar_id": "P0104"
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissao": null,
+  "familias_como_filho": [
+    "F0651"
+  ],
+  "familias_como_pai": [
+    "F0650"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}
