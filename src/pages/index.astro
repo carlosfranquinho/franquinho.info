@@ -39,8 +39,8 @@ const anoObit = destaque.obito?.data?.match(/(\d{4})/)?.[1];
 const totalPessoas  = readdirSync(resolve('src/data/pessoas')).filter((f) => f.endsWith('.json')).length;
 const totalFamilias = readdirSync(resolve('src/data/familias')).filter((f) => f.endsWith('.json')).length;
 const totalLugares  = lugares.length;
-const totalFotos = media.filter((m) => m.caminho && (m.caminho_original ?? '').includes('/Fotos/')).length;
-const totalDocs  = media.filter((m) => m.caminho && !(m.caminho_original ?? '').includes('/Fotos/')).length;
+const totalFotos = media.filter((m) => m.caminho && m.tipo === 'foto').length;
+const totalDocs  = media.filter((m) => m.caminho && m.tipo === 'documento').length;
 
 
 // Dados de aniversários para todos os dias — renderizados dinamicamente no cliente

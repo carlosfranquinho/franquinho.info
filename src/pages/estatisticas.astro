@@ -24,9 +24,9 @@ for (const f of readdirSync(familiasDir)) {
 
 const lugares: Lugar[] = JSON.parse(readFileSync(resolve('src/data/lugares.json'), 'utf-8'));
 const mediaItems: MediaItem[] = JSON.parse(readFileSync(resolve('src/data/media.json'), 'utf-8'));
-const fotosIds = new Set(mediaItems.filter((m) => (m.caminho_original ?? '').includes('/Fotos/')).map((m) => m.id));
-const totalFotos = mediaItems.filter((m) => m.caminho && (m.caminho_original ?? '').includes('/Fotos/')).length;
-const totalDocs  = mediaItems.filter((m) => m.caminho && !(m.caminho_original ?? '').includes('/Fotos/')).length;
+const fotosIds = new Set(mediaItems.filter((m) => m.tipo === 'foto').map((m) => m.id));
+const totalFotos = mediaItems.filter((m) => m.caminho && m.tipo === 'foto').length;
+const totalDocs  = mediaItems.filter((m) => m.caminho && m.tipo === 'documento').length;
 const lugaresMap: Record<string, Lugar> = Object.fromEntries(lugares.map((l) => [l.id, l]));
 
 const pessoaMap: Record<string, Pessoa> = Object.fromEntries(
