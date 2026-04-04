@@ -1,0 +1,24 @@
+{
+  "id": "I2164",
+  "protegida": true,
+  "nome": "Privado Rodrigues",
+  "nome_proprio": "Privado",
+  "apelido": "Rodrigues",
+  "apelidos": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissoes": null,
+  "familias_como_filho": [
+    "F0694"
+  ],
+  "familias_como_pai": [
+    "F0695"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

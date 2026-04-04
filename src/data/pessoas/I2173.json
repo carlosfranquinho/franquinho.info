@@ -1,0 +1,25 @@
+{
+  "id": "I2173",
+  "protegida": true,
+  "nome": "Privado Agostinho",
+  "nome_proprio": "Privado",
+  "apelido": "Agostinho",
+  "apelidos": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": {
+    "data": "2008-12-02",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "profissoes": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0698"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

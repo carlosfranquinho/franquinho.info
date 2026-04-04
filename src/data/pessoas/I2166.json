@@ -1,0 +1,25 @@
+{
+  "id": "I2166",
+  "protegida": true,
+  "nome": "Privado Rodrigues Oliveira",
+  "nome_proprio": "Privado",
+  "apelido": "Rodrigues Oliveira",
+  "apelidos": [
+    "Rodrigues",
+    "Oliveira"
+  ],
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissoes": null,
+  "familias_como_filho": [
+    "F0695"
+  ],
+  "familias_como_pai": null,
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

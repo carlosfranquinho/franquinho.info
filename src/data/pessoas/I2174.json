@@ -1,0 +1,25 @@
+{
+  "id": "I2174",
+  "protegida": true,
+  "nome": "Privado Pedra dos Santos",
+  "nome_proprio": "Privado",
+  "apelido": "Pedra dos Santos",
+  "apelidos": [
+    "Pedra",
+    "dos Santos"
+  ],
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissoes": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0698"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,30 @@
+{
+  "id": "I2159",
+  "protegida": true,
+  "nome": "Privado Rodrigues Romeiro",
+  "nome_proprio": "Privado",
+  "apelido": "Rodrigues Romeiro",
+  "apelidos": [
+    "Rodrigues",
+    "Romeiro"
+  ],
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1971-03-22",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissoes": null,
+  "familias_como_filho": [
+    "F0692"
+  ],
+  "familias_como_pai": [
+    "F0693"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,27 @@
+{
+  "id": "I2179",
+  "protegida": true,
+  "nome": "Privado Agostinho",
+  "nome_proprio": "Privado",
+  "apelido": "Agostinho",
+  "apelidos": null,
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1980-02-25",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissoes": null,
+  "familias_como_filho": [
+    "F0698"
+  ],
+  "familias_como_pai": [
+    "F0700"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

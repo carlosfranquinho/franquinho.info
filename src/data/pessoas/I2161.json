@@ -1,0 +1,28 @@
+{
+  "id": "I2161",
+  "protegida": true,
+  "nome": "Privado Santos Romeiro",
+  "nome_proprio": "Privado",
+  "apelido": "Santos Romeiro",
+  "apelidos": [
+    "Santos",
+    "Romeiro"
+  ],
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1995-07-05",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissoes": null,
+  "familias_como_filho": [
+    "F0693"
+  ],
+  "familias_como_pai": null,
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

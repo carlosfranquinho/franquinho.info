@@ -1,0 +1,24 @@
+{
+  "id": "I2168",
+  "protegida": true,
+  "nome": "Privado Samora",
+  "nome_proprio": "Privado",
+  "apelido": "Samora",
+  "apelidos": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissoes": null,
+  "familias_como_filho": [
+    "F0697"
+  ],
+  "familias_como_pai": [
+    "F0696"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

@@ -1,0 +1,22 @@
+{
+  "id": "I2158",
+  "protegida": true,
+  "nome": "Privado Gomes",
+  "nome_proprio": "Privado",
+  "apelido": "Gomes",
+  "apelidos": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissoes": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0692"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

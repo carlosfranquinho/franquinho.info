@@ -1,0 +1,25 @@
+{
+  "id": "I2171",
+  "protegida": true,
+  "nome": "Privado do Olival Samora",
+  "nome_proprio": "Privado",
+  "apelido": "do Olival Samora",
+  "apelidos": [
+    "do Olival",
+    "Samora"
+  ],
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissoes": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0697"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

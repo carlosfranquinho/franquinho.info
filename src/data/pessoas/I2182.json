@@ -1,0 +1,28 @@
+{
+  "id": "I2182",
+  "protegida": false,
+  "nome": "Manuel Ferreira",
+  "nome_proprio": "Manuel",
+  "apelido": "Ferreira",
+  "apelidos": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1956-07-15",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": {
+    "data": "2003-08-15",
+    "lugar_id": null
+  },
+  "sepultura": null,
+  "profissoes": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0701"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

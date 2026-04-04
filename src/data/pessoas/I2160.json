@@ -1,0 +1,30 @@
+{
+  "id": "I2160",
+  "protegida": true,
+  "nome": "Privado Santos Agostinho",
+  "nome_proprio": "Privado",
+  "apelido": "Santos Agostinho",
+  "apelidos": [
+    "Santos",
+    "Agostinho"
+  ],
+  "nomes_alt": null,
+  "sexo": "F",
+  "nascimento": {
+    "data": "1971-02-01",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissoes": null,
+  "familias_como_filho": [
+    "F0698"
+  ],
+  "familias_como_pai": [
+    "F0693"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

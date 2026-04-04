@@ -1,0 +1,28 @@
+{
+  "id": "I2169",
+  "protegida": true,
+  "nome": "Privado Rodrigues Samora",
+  "nome_proprio": "Privado",
+  "apelido": "Rodrigues Samora",
+  "apelidos": [
+    "Rodrigues",
+    "Samora"
+  ],
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "2008-02-08",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissoes": null,
+  "familias_como_filho": [
+    "F0696"
+  ],
+  "familias_como_pai": null,
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

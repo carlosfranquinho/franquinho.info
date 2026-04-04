@@ -3962,6 +3962,12 @@
     "ano_obit": 1893
   },
   {
+    "id": "I2163",
+    "nome": "Glória da Ascensão Ferreira Silvério",
+    "apelido": "Ferreira Silvério",
+    "sexo": "F"
+  },
+  {
     "id": "I1706",
     "nome": "Gonçalo de Matos",
     "apelido": "de Matos",
@@ -8851,6 +8857,16 @@
     "ano_obit": 1825
   },
   {
+    "id": "I2182",
+    "nome": "Manuel Ferreira",
+    "apelido": "Ferreira",
+    "sexo": "M",
+    "ano_nasc": 1956,
+    "mmdd_nasc": "07-15",
+    "ano_obit": 2003,
+    "mmdd_obit": "08-15"
+  },
+  {
     "id": "I0057",
     "nome": "Manuel Ferreira",
     "apelido": "Ferreira",
@@ -12861,11 +12877,6 @@
     "sexo": "M"
   },
   {
-    "id": "I2090",
-    "nome": "Privado",
-    "sexo": "M"
-  },
-  {
     "id": "I2091",
     "nome": "Privado",
     "sexo": "M"
@@ -12986,6 +12997,13 @@
     "id": "I2156",
     "nome": "Privado",
     "sexo": "F"
+  },
+  {
+    "id": "I2183",
+    "nome": "Privado",
+    "sexo": "F",
+    "ano_nasc": 1955,
+    "mmdd_nasc": "09-11"
   },
   {
     "id": "I0232",
@@ -13159,6 +13177,38 @@
     "sexo": "F",
     "ano_nasc": 1978,
     "mmdd_nasc": "10-03"
+  },
+  {
+    "id": "I2173",
+    "nome": "Privado Agostinho",
+    "apelido": "Agostinho",
+    "sexo": "M",
+    "ano_obit": 2008,
+    "mmdd_obit": "12-02"
+  },
+  {
+    "id": "I2175",
+    "nome": "Privado Agostinho",
+    "apelido": "Agostinho",
+    "sexo": "M",
+    "ano_nasc": 1969,
+    "mmdd_nasc": "08-27"
+  },
+  {
+    "id": "I2179",
+    "nome": "Privado Agostinho",
+    "apelido": "Agostinho",
+    "sexo": "F",
+    "ano_nasc": 1980,
+    "mmdd_nasc": "02-25"
+  },
+  {
+    "id": "I2181",
+    "nome": "Privado Agostinho Ferreira",
+    "apelido": "Agostinho Ferreira",
+    "sexo": "M",
+    "ano_nasc": 2006,
+    "mmdd_nasc": "04-14"
   },
   {
     "id": "I1536",
@@ -13414,7 +13464,7 @@
     "sexo": "M",
     "ano_nasc": 1965,
     "mmdd_nasc": "05-08",
-    "thumb_id": "O1027"
+    "thumb_id": "O1085"
   },
   {
     "id": "I0334",
@@ -13432,7 +13482,7 @@
     "sexo": "F",
     "ano_nasc": 1961,
     "mmdd_nasc": "01-13",
-    "thumb_id": "O1025"
+    "thumb_id": "O1088"
   },
   {
     "id": "I0309",
@@ -13628,6 +13678,14 @@
     "mmdd_nasc": "07-31"
   },
   {
+    "id": "I2180",
+    "nome": "Privado Ferreira",
+    "apelido": "Ferreira",
+    "sexo": "M",
+    "ano_nasc": 1986,
+    "mmdd_nasc": "07-06"
+  },
+  {
     "id": "I0277",
     "nome": "Privado Ferreira",
     "apelido": "Ferreira",
@@ -13652,7 +13710,7 @@
     "nome": "Privado Ferreira Domingues",
     "apelido": "Ferreira Domingues",
     "sexo": "F",
-    "thumb_id": "O1019"
+    "thumb_id": "O1086"
   },
   {
     "id": "I0286",
@@ -14002,8 +14060,7 @@
     "nome": "Privado Franquinho",
     "apelido": "Franquinho",
     "sexo": "F",
-    "ano_nasc": 1973,
-    "thumb_id": "O0842"
+    "ano_nasc": 1973
   },
   {
     "id": "I1025",
@@ -14011,8 +14068,7 @@
     "apelido": "Franquinho",
     "sexo": "F",
     "ano_nasc": 1992,
-    "mmdd_nasc": "09-21",
-    "thumb_id": "O0827"
+    "mmdd_nasc": "09-21"
   },
   {
     "id": "I1026",
@@ -14020,8 +14076,7 @@
     "apelido": "Franquinho",
     "sexo": "M",
     "ano_nasc": 1999,
-    "mmdd_nasc": "12-11",
-    "thumb_id": "O0826"
+    "mmdd_nasc": "12-11"
   },
   {
     "id": "I1028",
@@ -14041,8 +14096,7 @@
     "id": "I1032",
     "nome": "Privado Franquinho",
     "apelido": "Franquinho",
-    "sexo": "F",
-    "thumb_id": "O0843"
+    "sexo": "F"
   },
   {
     "id": "I1079",
@@ -14079,8 +14133,7 @@
     "apelido": "Franquinho",
     "sexo": "F",
     "ano_nasc": 1984,
-    "mmdd_nasc": "03-26",
-    "thumb_id": "O0879"
+    "mmdd_nasc": "03-26"
   },
   {
     "id": "I1097",
@@ -14175,8 +14228,7 @@
     "apelido": "Franquinho Rainho",
     "sexo": "F",
     "ano_nasc": 1978,
-    "mmdd_nasc": "03-18",
-    "thumb_id": "O0858"
+    "mmdd_nasc": "03-18"
   },
   {
     "id": "I1036",
@@ -14201,8 +14253,7 @@
     "apelido": "Franquinho Ribeiro",
     "sexo": "F",
     "ano_nasc": 1976,
-    "mmdd_nasc": "04-18",
-    "thumb_id": "O0874"
+    "mmdd_nasc": "04-18"
   },
   {
     "id": "I1549",
@@ -14277,6 +14328,12 @@
   },
   {
     "id": "I2077",
+    "nome": "Privado Gomes",
+    "apelido": "Gomes",
+    "sexo": "M"
+  },
+  {
+    "id": "I2158",
     "nome": "Privado Gomes",
     "apelido": "Gomes",
     "sexo": "M"
@@ -14394,15 +14451,13 @@
     "apelido": "Lacombe",
     "sexo": "M",
     "ano_nasc": 2004,
-    "mmdd_nasc": "09-10",
-    "thumb_id": "O0855"
+    "mmdd_nasc": "09-10"
   },
   {
     "id": "I1045",
     "nome": "Privado Lacombe",
     "apelido": "Lacombe",
-    "sexo": "M",
-    "thumb_id": "O0859"
+    "sexo": "M"
   },
   {
     "id": "I0300",
@@ -14461,7 +14516,7 @@
     "sexo": "M",
     "ano_nasc": 1961,
     "mmdd_nasc": "03-14",
-    "thumb_id": "O1030"
+    "thumb_id": "O1087"
   },
   {
     "id": "I0245",
@@ -14596,12 +14651,45 @@
     "sexo": "M"
   },
   {
+    "id": "I2165",
+    "nome": "Privado Oliveira",
+    "apelido": "Oliveira",
+    "sexo": "M"
+  },
+  {
+    "id": "I2176",
+    "nome": "Privado Passagem",
+    "apelido": "Passagem",
+    "sexo": "F"
+  },
+  {
+    "id": "I2177",
+    "nome": "Privado Passagem Agostinho",
+    "apelido": "Passagem Agostinho",
+    "sexo": "F",
+    "ano_nasc": 1995,
+    "mmdd_nasc": "05-26"
+  },
+  {
+    "id": "I2178",
+    "nome": "Privado Passagem Agostinho",
+    "apelido": "Passagem Agostinho",
+    "sexo": "F",
+    "ano_nasc": 1999
+  },
+  {
     "id": "I0265",
     "nome": "Privado Paulo Duarte",
     "apelido": "Paulo Duarte",
     "sexo": "F",
     "ano_nasc": 1971,
     "mmdd_nasc": "12-10"
+  },
+  {
+    "id": "I2174",
+    "nome": "Privado Pedra dos Santos",
+    "apelido": "Pedra dos Santos",
+    "sexo": "F"
   },
   {
     "id": "I2085",
@@ -14616,6 +14704,12 @@
     "sexo": "M",
     "ano_nasc": 1944,
     "mmdd_nasc": "06-22"
+  },
+  {
+    "id": "I2090",
+    "nome": "Privado Pereira",
+    "apelido": "Pereira",
+    "sexo": "M"
   },
   {
     "id": "I0310",
@@ -14725,6 +14819,18 @@
     "sexo": "M"
   },
   {
+    "id": "I2164",
+    "nome": "Privado Rodrigues",
+    "apelido": "Rodrigues",
+    "sexo": "F"
+  },
+  {
+    "id": "I2167",
+    "nome": "Privado Rodrigues",
+    "apelido": "Rodrigues",
+    "sexo": "F"
+  },
+  {
     "id": "I0185",
     "nome": "Privado Rodrigues",
     "apelido": "Rodrigues",
@@ -14733,12 +14839,34 @@
     "mmdd_obit": "10-15"
   },
   {
+    "id": "I2166",
+    "nome": "Privado Rodrigues Oliveira",
+    "apelido": "Rodrigues Oliveira",
+    "sexo": "F"
+  },
+  {
+    "id": "I2159",
+    "nome": "Privado Rodrigues Romeiro",
+    "apelido": "Rodrigues Romeiro",
+    "sexo": "M",
+    "ano_nasc": 1971,
+    "mmdd_nasc": "03-22"
+  },
+  {
     "id": "I0649",
     "nome": "Privado Rodrigues Romeiro",
     "apelido": "Rodrigues Romeiro",
     "sexo": "F",
     "ano_nasc": 1950,
     "mmdd_nasc": "09-27"
+  },
+  {
+    "id": "I2169",
+    "nome": "Privado Rodrigues Samora",
+    "apelido": "Rodrigues Samora",
+    "sexo": "M",
+    "ano_nasc": 2008,
+    "mmdd_nasc": "02-08"
   },
   {
     "id": "I1538",
@@ -14783,19 +14911,60 @@
     "mmdd_obit": "10-28"
   },
   {
+    "id": "I2168",
+    "nome": "Privado Samora",
+    "apelido": "Samora",
+    "sexo": "M"
+  },
+  {
+    "id": "I2170",
+    "nome": "Privado Samora",
+    "apelido": "Samora",
+    "sexo": "M"
+  },
+  {
     "id": "I1024",
     "nome": "Privado Santos",
     "apelido": "Santos",
     "sexo": "F",
     "ano_nasc": 1969,
-    "mmdd_nasc": "10-06",
-    "thumb_id": "O0820"
+    "mmdd_nasc": "10-06"
+  },
+  {
+    "id": "I2160",
+    "nome": "Privado Santos Agostinho",
+    "apelido": "Santos Agostinho",
+    "sexo": "F",
+    "ano_nasc": 1971,
+    "mmdd_nasc": "02-01"
+  },
+  {
+    "id": "I2172",
+    "nome": "Privado Santos Ferreira",
+    "apelido": "Santos Ferreira",
+    "sexo": "F"
   },
   {
     "id": "I0326",
     "nome": "Privado Santos Ferreira",
     "apelido": "Santos Ferreira",
     "sexo": "F"
+  },
+  {
+    "id": "I2161",
+    "nome": "Privado Santos Romeiro",
+    "apelido": "Santos Romeiro",
+    "sexo": "M",
+    "ano_nasc": 1995,
+    "mmdd_nasc": "07-05"
+  },
+  {
+    "id": "I2162",
+    "nome": "Privado Santos Romeiro",
+    "apelido": "Santos Romeiro",
+    "sexo": "M",
+    "ano_nasc": 2001,
+    "mmdd_nasc": "01-06"
   },
   {
     "id": "I2144",
@@ -15047,8 +15216,7 @@
     "apelido": "da Vieira Franquinho",
     "sexo": "F",
     "ano_nasc": 1970,
-    "mmdd_nasc": "03-01",
-    "thumb_id": "O0833"
+    "mmdd_nasc": "03-01"
   },
   {
     "id": "I1539",
@@ -15169,6 +15337,12 @@
     "mmdd_nasc": "05-25",
     "ano_obit": 2013,
     "mmdd_obit": "01-17"
+  },
+  {
+    "id": "I2171",
+    "nome": "Privado do Olival Samora",
+    "apelido": "do Olival Samora",
+    "sexo": "M"
   },
   {
     "id": "I1034",

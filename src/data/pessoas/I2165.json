@@ -1,0 +1,22 @@
+{
+  "id": "I2165",
+  "protegida": true,
+  "nome": "Privado Oliveira",
+  "nome_proprio": "Privado",
+  "apelido": "Oliveira",
+  "apelidos": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": null,
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissoes": null,
+  "familias_como_filho": null,
+  "familias_como_pai": [
+    "F0695"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}

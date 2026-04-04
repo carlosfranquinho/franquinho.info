@@ -1,0 +1,27 @@
+{
+  "id": "I2180",
+  "protegida": true,
+  "nome": "Privado Ferreira",
+  "nome_proprio": "Privado",
+  "apelido": "Ferreira",
+  "apelidos": null,
+  "nomes_alt": null,
+  "sexo": "M",
+  "nascimento": {
+    "data": "1986-07-06",
+    "lugar_id": null
+  },
+  "baptismo": null,
+  "obito": null,
+  "sepultura": null,
+  "profissoes": null,
+  "familias_como_filho": [
+    "F0701"
+  ],
+  "familias_como_pai": [
+    "F0700"
+  ],
+  "media": null,
+  "notas": null,
+  "citacoes": null
+}
