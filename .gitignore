@@ -17,3 +17,10 @@ dist/
 # Sistema
 .DS_Store
 Thumbs.db
+
+# Ferramentas locais (não necessárias para o build no GitHub)
+.claude/
+prompt-claude-code-genealogia.md
+relatorio_ged.html
+scripts/comparar_ged.py
+scripts/ged_compare.py
