@@ -145,7 +145,7 @@ export default function HeatMap({ pontos }) {
       blur: 20,
       max: 1,
       minOpacity: 0.03,
-      gradient: { 0.3: '#fef3c7', 0.55: '#fbbf24', 0.75: '#d97706', 0.92: '#92400e', 1.0: '#7c2d12' },
+      gradient: { 0.15: '#3b82f6', 0.35: '#22d3ee', 0.55: '#4ade80', 0.75: '#facc15', 0.9: '#f97316', 1.0: '#ef4444' },
     }).addTo(map);
 
     // Zoom centrado em Portugal continental (exclui Madeira/Açores para não afastar o zoom)
