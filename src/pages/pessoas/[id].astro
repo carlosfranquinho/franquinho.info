@@ -55,7 +55,40 @@ const mediaIdsPessoa = new Set(p?.media ?? []);
 const mediaIdsFamilia = familiaComoPai.flatMap((f) => f.media ?? []).filter((mid) => !mediaIdsPessoa.has(mid));
 const galeria: MediaItem[] = [...(p?.media ?? []), ...mediaIdsFamilia].map((mid) => mediaMap[mid]).filter(Boolean);
 const galeriaFotos = galeria.filter((m) => m.tipo === 'foto');
-const galeriaDocumentos = galeria.filter((m) => m.tipo !== 'foto');
+
+// Ordem cronológica dos documentos: mais antigo primeiro
+// Chave: [ano, ordemCategoria] — usa ano do nome do ficheiro, depois data do evento
+function chaveOrdemDoc(m: MediaItem): [number, number] {
+  const c = m.caminho_original ?? '';
+  let cat = 99;
+  if (c.includes('/nascimentos/') || c.includes('/Registos/')  || c.includes('/batizados/') || c.includes('/Batizados/')) cat = 0;
+  else if (c.includes('/casamentos/')  || c.includes('/Casamentos/'))  cat = 1;
+  else if (c.includes('/obitos/')      || c.includes('/Obitos/'))      cat = 2;
+  else if (c.includes('/assinaturas/') || c.includes('/Assinaturas/')) cat = 3;
+  // Ano a partir do nome do ficheiro
+  const fname = c.split('/').pop() ?? '';
+  const mYear = fname.match(/(\d{4})/);
+  if (mYear) {
+    const y = parseInt(mYear[1]);
+    if (y >= 1400 && y <= 2100) return [y, cat];
+  }
+  // Sem ano no nome: usar data do evento correspondente
+  const nascAno = parseInt((pessoa.nascimento?.data ?? pessoa.baptismo?.data ?? '').slice(0, 4)) || 0;
+  const obitAno = parseInt((pessoa.obito?.data ?? pessoa.sepultura?.data ?? '').slice(0, 4)) || 0;
+  const casAno  = familiaComoPai.map((f) => parseInt((f.casamento?.data ?? '').slice(0, 4)) || 0).filter((y) => y > 0)[0] ?? 0;
+  if (cat === 0 && nascAno) return [nascAno, cat];
+  if (cat === 1 && casAno)  return [casAno,  cat];
+  if (cat === 2 && obitAno) return [obitAno, cat];
+  return [9999, cat];
+}
+
+const galeriaDocumentos = galeria
+  .filter((m) => m.tipo !== 'foto')
+  .sort((a, b) => {
+    const [ya, ca] = chaveOrdemDoc(a);
+    const [yb, cb] = chaveOrdemDoc(b);
+    return ya !== yb ? ya - yb : ca - cb;
+  });
 const fotoHero = galeria.find(eRetrato) ?? null;
 
 // Prioridade para fundo do hero: assinatura → nascimento → óbito → outro doc → foto de perfil
