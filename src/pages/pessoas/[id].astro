@@ -50,7 +50,10 @@ const conjuges = pessoasUnicas(familiaComoPai.flatMap((f) => [f.pai, f.mae]));
 const filhos   = pessoasUnicas(familiaComoPai.flatMap((f) => f.filhos ?? []));
 const irmaos   = pessoasUnicas(familiaComoFilho.flatMap((f) => f.filhos ?? []));
 
-const galeria: MediaItem[] = (p?.media ?? []).map((mid) => mediaMap[mid]).filter(Boolean);
+// Media da pessoa + media das famílias de casamento (documentos do registo)
+const mediaIdsPessoa = new Set(p?.media ?? []);
+const mediaIdsFamilia = familiaComoPai.flatMap((f) => f.media ?? []).filter((mid) => !mediaIdsPessoa.has(mid));
+const galeria: MediaItem[] = [...(p?.media ?? []), ...mediaIdsFamilia].map((mid) => mediaMap[mid]).filter(Boolean);
 const galeriaFotos = galeria.filter((m) => m.tipo === 'foto');
 const galeriaDocumentos = galeria.filter((m) => m.tipo !== 'foto');
 const fotoHero = galeria.find(eRetrato) ?? null;

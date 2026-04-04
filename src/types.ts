@@ -43,6 +43,7 @@ export interface Familia {
   tipo_relacao: string;
   casamento: { data: string | null; lugar_id: string | null } | null;
   notas: { tipo: string; texto: string }[] | null;
+  media: string[] | null;
 }
 
 export interface Lugar {
